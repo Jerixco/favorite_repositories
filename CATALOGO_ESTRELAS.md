@@ -7,6 +7,20 @@
 
 ---
 
+### 📦 [rtk-ai/rtk](https://github.com/rtk-ai/rtk)
+- **⭐ Stars:** 76,159 | **💻 Linguagem:** `Rust`
+- 🎯 **O que é e para que serve:** CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Rust.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/rtk-ai/rtk.git
+cd rtk
+cargo build --release
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
 ## 📑 Sumário Completo dos Repositórios
 
 01. [multica-ai/multica](#multicaaimultica) — ⭐ 45,969 (`Go`)
