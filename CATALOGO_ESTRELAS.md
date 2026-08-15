@@ -7,6 +7,20 @@
 
 ---
 
+### 📦 [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+- **⭐ Stars:** 87,683 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/PaddlePaddle/PaddleOCR.git
+cd PaddleOCR
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
 ### 📦 [google-research/timesfm](https://github.com/google-research/timesfm)
 - **⭐ Stars:** 27,469 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
