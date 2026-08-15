@@ -7,6 +7,20 @@
 
 ---
 
+### 📦 [google-research/timesfm](https://github.com/google-research/timesfm)
+- **⭐ Stars:** 27,469 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/google-research/timesfm.git
+cd timesfm
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
 ### 📦 [rtk-ai/rtk](https://github.com/rtk-ai/rtk)
 - **⭐ Stars:** 76,159 | **💻 Linguagem:** `Rust`
 - 🎯 **O que é e para que serve:** CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
