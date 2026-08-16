@@ -7,6 +7,50 @@
 
 ---
 
+### 📦 [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)
+- **⭐ Stars:** 79,438 | **💻 Linguagem:** `TypeScript`
+- 🎯 **O que é e para que serve:** Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em TypeScript.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/Egonex-AI/Understand-Anything.git
+cd Understand-Anything
+npm install
+npm run dev
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [NanoNets/Graft](https://github.com/NanoNets/Graft)
+- **⭐ Stars:** 2,913 | **💻 Linguagem:** `TypeScript`
+- 🎯 **O que é e para que serve:** Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em TypeScript.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/NanoNets/Graft.git
+cd Graft
+npm install
+npm run dev
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [elder-plinius/OBLITERATUS](https://github.com/elder-plinius/OBLITERATUS)
+- **⭐ Stars:** 7,443 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** OBLITERATE THE CHAINS THAT BIND YOU
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/elder-plinius/OBLITERATUS.git
+cd OBLITERATUS
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
 ### 📦 [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 - **⭐ Stars:** 87,683 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.
