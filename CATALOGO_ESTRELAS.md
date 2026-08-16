@@ -7,6 +7,101 @@
 
 ---
 
+### 📦 [cursor/plugins](https://github.com/cursor/plugins)
+- **⭐ Stars:** 3,048 | **💻 Linguagem:** `TypeScript`
+- 🎯 **O que é e para que serve:** Cursor plugin specification and official plugins
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em TypeScript.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/cursor/plugins.git
+cd plugins
+npm install
+npm run dev
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [google-gemini/cookbook](https://github.com/google-gemini/cookbook)
+- **⭐ Stars:** 17,652 | **💻 Linguagem:** `Jupyter Notebook`
+- 🎯 **O que é e para que serve:** Examples and guides for using the Gemini API
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Jupyter Notebook.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/google-gemini/cookbook.git
+cd cookbook
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [openai/openai-agents-python](https://github.com/openai/openai-agents-python)
+- **⭐ Stars:** 28,685 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** A lightweight, powerful framework for multi-agent workflows
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/openai/openai-agents-python.git
+cd openai-agents-python
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [xai-org/grok-build](https://github.com/xai-org/grok-build)
+- **⭐ Stars:** 25,383 | **💻 Linguagem:** `Rust`
+- 🎯 **O que é e para que serve:** SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Rust.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/xai-org/grok-build.git
+cd grok-build
+cargo build --release
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks)
+- **⭐ Stars:** 51,593 | **💻 Linguagem:** `Jupyter Notebook`
+- 🎯 **O que é e para que serve:** A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Jupyter Notebook.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/anthropics/claude-cookbooks.git
+cd claude-cookbooks
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [FSECDEV/LEAKSFORUMS](https://github.com/FSECDEV/LEAKSFORUMS)
+- **⭐ Stars:** 204 | **💻 Linguagem:** `Geral`
+- 🎯 **O que é e para que serve:** A series of leaks from hacker forums 
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em None.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/FSECDEV/LEAKSFORUMS.git
+cd LEAKSFORUMS
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
+- **⭐ Stars:** 145,797 | **💻 Linguagem:** `Shell`
+- 🎯 **O que é e para que serve:** A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Shell.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/msitarzewski/agency-agents.git
+cd agency-agents
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
 ### 📦 [affaan-m/ECC](https://github.com/affaan-m/ECC)
 - **⭐ Stars:** 240,418 | **💻 Linguagem:** `JavaScript`
 - 🎯 **O que é e para que serve:** The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
