@@ -7,6 +7,50 @@
 
 ---
 
+### 📦 [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)
+- **⭐ Stars:** 45,006 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,005+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/sickn33/agentic-awesome-skills.git
+cd agentic-awesome-skills
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [CodebuffAI/freebuff](https://github.com/CodebuffAI/freebuff)
+- **⭐ Stars:** 9,608 | **💻 Linguagem:** `TypeScript`
+- 🎯 **O que é e para que serve:** The free coding agent
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em TypeScript.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/CodebuffAI/freebuff.git
+cd freebuff
+npm install
+npm run dev
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
+- **⭐ Stars:** 120,929 | **💻 Linguagem:** `TypeScript`
+- 🎯 **O que é e para que serve:** DeepSeek Harness: Everything is a Plugin.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em TypeScript.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/deepseek-ai/deepseek-harness.git
+cd deepseek-harness
+npm install
+npm run dev
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
 ### 📦 [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)
 - **⭐ Stars:** 79,438 | **💻 Linguagem:** `TypeScript`
 - 🎯 **O que é e para que serve:** Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
