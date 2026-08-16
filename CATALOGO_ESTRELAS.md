@@ -7,6 +7,131 @@
 
 ---
 
+### 📦 [semantica-agi/semantica](https://github.com/semantica-agi/semantica)
+- **⭐ Stars:** 8,108 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Graph-Native Infrastructure for Context and Accountable AI Systems
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/semantica-agi/semantica.git
+cd semantica
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [coollabsio/coolify](https://github.com/coollabsio/coolify)
+- **⭐ Stars:** 60,645 | **💻 Linguagem:** `PHP`
+- 🎯 **O que é e para que serve:** An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em PHP.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/coollabsio/coolify.git
+cd coolify
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [zulip/zulip](https://github.com/zulip/zulip)
+- **⭐ Stars:** 25,719 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Zulip server and web application. Open-source team chat that helps teams stay productive and focused.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/zulip/zulip.git
+cd zulip
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [metabase/metabase](https://github.com/metabase/metabase)
+- **⭐ Stars:** 48,783 | **💻 Linguagem:** `Clojure`
+- 🎯 **O que é e para que serve:** The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Clojure.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/metabase/metabase.git
+cd metabase
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [PostHog/posthog](https://github.com/PostHog/posthog)
+- **⭐ Stars:** 37,708 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** :hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/PostHog/posthog.git
+cd posthog
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase)
+- **⭐ Stars:** 60,694 | **💻 Linguagem:** `Go`
+- 🎯 **O que é e para que serve:** Open Source realtime backend in 1 file
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Go.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/pocketbase/pocketbase.git
+cd pocketbase
+go build
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev)
+- **⭐ Stars:** 16,040 | **💻 Linguagem:** `TypeScript`
+- 🎯 **O que é e para que serve:** Trigger.dev – build and deploy fully‑managed AI agents and workflows
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em TypeScript.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/triggerdotdev/trigger.dev.git
+cd trigger.dev
+npm install
+npm run dev
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [Infisical/infisical](https://github.com/Infisical/infisical)
+- **⭐ Stars:** 28,796 | **💻 Linguagem:** `TypeScript`
+- 🎯 **O que é e para que serve:** Infisical is the open-source platform for secrets, certificates, and privileged access management.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em TypeScript.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/Infisical/infisical.git
+cd infisical
+npm install
+npm run dev
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [HideMeBr/SambaTu](https://github.com/HideMeBr/SambaTu)
+- **⭐ Stars:** 237 | **💻 Linguagem:** `Geral`
+- 🎯 **O que é e para que serve:** Versão Brasileira da famosa RockYou. Nesta lista de senhas existem senhas 100% brasileiras que estavam em vazamentos, logs de infostealer, etc.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em None.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/HideMeBr/SambaTu.git
+cd SambaTu
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
 ### 📦 [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)
 - **⭐ Stars:** 45,006 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,005+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.
