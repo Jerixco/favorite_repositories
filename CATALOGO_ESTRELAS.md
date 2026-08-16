@@ -7,6 +7,88 @@
 
 ---
 
+### 📦 [affaan-m/ECC](https://github.com/affaan-m/ECC)
+- **⭐ Stars:** 240,418 | **💻 Linguagem:** `JavaScript`
+- 🎯 **O que é e para que serve:** The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em JavaScript.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/affaan-m/ECC.git
+cd ECC
+npm install
+npm run dev
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
+- **⭐ Stars:** 238,675 | **💻 Linguagem:** `Geral`
+- 🎯 **O que é e para que serve:** A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em None.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/trimstray/the-book-of-secret-knowledge.git
+cd the-book-of-secret-knowledge
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [obra/superpowers](https://github.com/obra/superpowers)
+- **⭐ Stars:** 272,702 | **💻 Linguagem:** `Shell`
+- 🎯 **O que é e para que serve:** An agentic skills framework & software development methodology that works.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Shell.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/obra/superpowers.git
+cd superpowers
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [vinta/awesome-python](https://github.com/vinta/awesome-python)
+- **⭐ Stars:** 314,248 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** The definitive list that answers "I want to do X in Python, which tool should I use?"
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/vinta/awesome-python.git
+cd awesome-python
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
+- **⭐ Stars:** 358,906 | **💻 Linguagem:** `Geral`
+- 🎯 **O que é e para que serve:** A complete computer science study plan to become a software engineer.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em None.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/jwasham/coding-interview-university.git
+cd coding-interview-university
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
+- **⭐ Stars:** 364,153 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/donnemartin/system-design-primer.git
+cd system-design-primer
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
 ### 📦 [semantica-agi/semantica](https://github.com/semantica-agi/semantica)
 - **⭐ Stars:** 8,108 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** Graph-Native Infrastructure for Context and Accountable AI Systems
