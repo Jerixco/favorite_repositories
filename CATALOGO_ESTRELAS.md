@@ -1,16 +1,31 @@
 # 🌟 Dossiê Completo: Análise Minuciosa das Estrelas do GitHub
 
 > **Perfil:** [@Jerixco](https://github.com/Jerixco) (Matheus Salustiano)  
-> **Total de Repositórios Analisados:** 43  
+> **Total de Repositórios Analisados:** 44  
 > **Estrutura Obrigatória por Item:**  
 > 🎯 *O que é e para que serve* | 💡 *Casos de uso reais no dia a dia* | 🚀 *Como usar na prática (Docker, pip, npm, CLI)* | ⚡ *Dica Pro de produtividade*
+
+---
+
+<a id="memvidmemvid"></a>
+### 📦 [memvid/memvid](https://github.com/memvid/memvid)
+- **⭐ Stars:** 16,327 | **💻 Linguagem:** `Rust`
+- 🎯 **O que é e para que serve:** Framework/agente de IA em Rust para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/memvid/memvid.git
+cd memvid
+cargo build --release
+```
+- ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
 
 ---
 
 <a id="falkordbcodegraph"></a>
 ### 📦 [FalkorDB/code-graph](https://github.com/FalkorDB/code-graph)
 - **⭐ Stars:** 342 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: A code-graph demo  using GraphRAG-SDK and FalkorDB
+- 🎯 **O que é e para que serve:** Solução em Python baseada em grafos ou GraphRAG para estruturar conhecimento e melhorar a precisão de sistemas de recuperação aumentada por geração.
 - 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -24,8 +39,8 @@ pip install -r requirements.txt  # ou: pip install -e .
 
 <a id="openwebuiopenwebui"></a>
 ### 📦 [open-webui/open-webui](https://github.com/open-webui/open-webui)
-- **⭐ Stars:** 148,983 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+- **⭐ Stars:** 148,984 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Interface web amigável em Python para interagir com modelos de linguagem (LLMs). Facilita o uso de ferramentas como Ollama, OpenAI e outros backends de IA sem complexidade.
 - 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -40,7 +55,7 @@ pip install -r requirements.txt  # ou: pip install -e .
 <a id="petergyangnoaislop"></a>
 ### 📦 [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop)
 - **⭐ Stars:** 5,210 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: Removes 20+ patterns of AI slop from any piece of writing.
+- 🎯 **O que é e para que serve:** Projeto de inteligência artificial em Python focado em agentes, modelos de linguagem ou ferramentas de IA generativa para desenvolvedores.
 - 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -54,8 +69,8 @@ pip install -r requirements.txt  # ou: pip install -e .
 
 <a id="opendataloaderprojectopendataloaderpdf"></a>
 ### 📦 [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf)
-- **⭐ Stars:** 28,470 | **💻 Linguagem:** `Java`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Java**. Descrição oficial: PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
+- **⭐ Stars:** 28,472 | **💻 Linguagem:** `Java`
+- 🎯 **O que é e para que serve:** Projeto de inteligência artificial em Java focado em agentes, modelos de linguagem ou ferramentas de IA generativa para desenvolvedores.
 - 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -69,8 +84,8 @@ cd opendataloader-pdf
 
 <a id="microsoftdataformulator"></a>
 ### 📦 [microsoft/data-formulator](https://github.com/microsoft/data-formulator)
-- **⭐ Stars:** 16,259 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: 🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.
+- **⭐ Stars:** 16,264 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Projeto de inteligência artificial em Python focado em agentes, modelos de linguagem ou ferramentas de IA generativa para desenvolvedores.
 - 💡 **Casos de uso reais no dia a dia:** Automação de scripts e pipelines de dados; Desenvolvimento de APIs, CLIs e ferramentas internas.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -85,7 +100,7 @@ pip install -r requirements.txt  # ou: pip install -e .
 <a id="microsoftbitnet"></a>
 ### 📦 [microsoft/BitNet](https://github.com/microsoft/BitNet)
 - **⭐ Stars:** 40,096 | **💻 Linguagem:** `C++`
-- 🎯 **O que é e para que serve:** Projeto open-source em **C++**. Descrição oficial: Official inference framework for 1-bit LLMs
+- 🎯 **O que é e para que serve:** Projeto de inteligência artificial em C++ focado em agentes, modelos de linguagem ou ferramentas de IA generativa para desenvolvedores.
 - 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -99,8 +114,8 @@ cd BitNet
 
 <a id="mem0aimem0"></a>
 ### 📦 [mem0ai/mem0](https://github.com/mem0ai/mem0)
-- **⭐ Stars:** 63,425 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: Universal memory layer for AI Agents
+- **⭐ Stars:** 63,426 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Framework/agente de IA em Python para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma.
 - 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -114,8 +129,8 @@ pip install -r requirements.txt  # ou: pip install -e .
 
 <a id="krittaiopenkritt"></a>
 ### 📦 [Kritt-ai/open-kritt](https://github.com/Kritt-ai/open-kritt)
-- **⭐ Stars:** 1,872 | **💻 Linguagem:** `JavaScript`
-- 🎯 **O que é e para que serve:** Projeto open-source em **JavaScript**. Descrição oficial: Open-source, self-hosted AI vulnerability research tool that orchestrates agents to find and validate security issues in code.
+- **⭐ Stars:** 1,875 | **💻 Linguagem:** `JavaScript`
+- 🎯 **O que é e para que serve:** Framework/agente de IA em JavaScript para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma.
 - 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -130,8 +145,8 @@ npm run dev  # ou npm start
 
 <a id="opensandboxgroupopensandbox"></a>
 ### 📦 [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)
-- **⭐ Stars:** 14,085 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: Secure, Fast, and Extensible Sandbox runtime for AI agents.
+- **⭐ Stars:** 14,090 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Framework/agente de IA em Python para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma.
 - 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -145,8 +160,8 @@ pip install -r requirements.txt  # ou: pip install -e .
 
 <a id="jamiepinevoicebox"></a>
 ### 📦 [jamiepine/voicebox](https://github.com/jamiepine/voicebox)
-- **⭐ Stars:** 50,616 | **💻 Linguagem:** `TypeScript`
-- 🎯 **O que é e para que serve:** Projeto open-source em **TypeScript**. Descrição oficial: The open-source AI voice studio. Clone, dictate, create.
+- **⭐ Stars:** 50,620 | **💻 Linguagem:** `TypeScript`
+- 🎯 **O que é e para que serve:** Estúdio de voz open-source em TypeScript para clonagem, ditado e criação de áudio com inteligência artificial.
 - 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -162,7 +177,7 @@ npm run dev  # ou npm start
 <a id="averyganreclip"></a>
 ### 📦 [averygan/reclip](https://github.com/averygan/reclip)
 - **⭐ Stars:** 7,075 | **💻 Linguagem:** `HTML`
-- 🎯 **O que é e para que serve:** Projeto open-source em **HTML**. Descrição oficial: Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.
+- 🎯 **O que é e para que serve:** Ferramenta leve em HTML para baixar e gerenciar mídias (vídeos e áudios) de diversos sites, com interface web simples e auto-hospedável.
 - 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -176,8 +191,8 @@ cd reclip
 
 <a id="coreyhaines31makerskills"></a>
 ### 📦 [coreyhaines31/makerskills](https://github.com/coreyhaines31/makerskills)
-- **⭐ Stars:** 638 | **💻 Linguagem:** `Não especificada`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Não especificada**. Descrição oficial: AI agent skills for the personal operator's craft — decisions, research, second-brain, content rotation, scenario modeling, and meta-skills to author more. Works with Claude Code, Codex, Cursor.
+- **⭐ Stars:** 641 | **💻 Linguagem:** `Não especificada`
+- 🎯 **O que é e para que serve:** Framework/agente de IA em Não especificada para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma.
 - 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -192,7 +207,7 @@ cd makerskills
 <a id="cursorplugins"></a>
 ### 📦 [cursor/plugins](https://github.com/cursor/plugins)
 - **⭐ Stars:** 3,074 | **💻 Linguagem:** `TypeScript`
-- 🎯 **O que é e para que serve:** Projeto open-source em **TypeScript**. Descrição oficial: Cursor plugin specification and official plugins
+- 🎯 **O que é e para que serve:** Coleção de habilidades (skills) ou plugins em TypeScript para expandir as capacidades de agentes de IA e editores como Claude Code, Cursor e Codex.
 - 💡 **Casos de uso reais no dia a dia:** Construção de interfaces web modernas e dashboards; Backend Node.js e integrações front-end.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -208,7 +223,7 @@ npm run dev  # ou npm start
 <a id="googlegeminicookbook"></a>
 ### 📦 [google-gemini/cookbook](https://github.com/google-gemini/cookbook)
 - **⭐ Stars:** 17,659 | **💻 Linguagem:** `Jupyter Notebook`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Jupyter Notebook**. Descrição oficial: Examples and guides for using the Gemini API
+- 🎯 **O que é e para que serve:** Interface web amigável em Jupyter Notebook para interagir com modelos de linguagem (LLMs). Facilita o uso de ferramentas como Ollama, OpenAI e outros backends de IA sem complexidade.
 - 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -223,7 +238,7 @@ cd cookbook
 <a id="openaiopenaiagentspython"></a>
 ### 📦 [openai/openai-agents-python](https://github.com/openai/openai-agents-python)
 - **⭐ Stars:** 28,710 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: A lightweight, powerful framework for multi-agent workflows
+- 🎯 **O que é e para que serve:** Framework/agente de IA em Python para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma.
 - 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -238,7 +253,7 @@ pip install -r requirements.txt  # ou: pip install -e .
 <a id="xaiorggrokbuild"></a>
 ### 📦 [xai-org/grok-build](https://github.com/xai-org/grok-build)
 - **⭐ Stars:** 25,463 | **💻 Linguagem:** `Rust`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Rust**. Descrição oficial: SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.
+- 🎯 **O que é e para que serve:** Interface web amigável em Rust para interagir com modelos de linguagem (LLMs). Facilita o uso de ferramentas como Ollama, OpenAI e outros backends de IA sem complexidade.
 - 💡 **Casos de uso reais no dia a dia:** Ferramentas de alta performance e CLIs de sistema; Serviços backend com baixo consumo de recursos.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -252,8 +267,8 @@ cargo build --release
 
 <a id="anthropicsclaudecookbooks"></a>
 ### 📦 [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks)
-- **⭐ Stars:** 51,653 | **💻 Linguagem:** `Jupyter Notebook`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Jupyter Notebook**. Descrição oficial: A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
+- **⭐ Stars:** 51,654 | **💻 Linguagem:** `Jupyter Notebook`
+- 🎯 **O que é e para que serve:** Projeto de inteligência artificial em Jupyter Notebook focado em agentes, modelos de linguagem ou ferramentas de IA generativa para desenvolvedores.
 - 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -268,7 +283,7 @@ cd claude-cookbooks
 <a id="fsecdevleaksforums"></a>
 ### 📦 [FSECDEV/LEAKSFORUMS](https://github.com/FSECDEV/LEAKSFORUMS)
 - **⭐ Stars:** 248 | **💻 Linguagem:** `Não especificada`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Não especificada**. Descrição oficial: A series of leaks from hacker forums
+- 🎯 **O que é e para que serve:** Repositório open-source com ferramentas e recursos úteis para desenvolvimento de software e experimentação.
 - 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -283,8 +298,8 @@ cd LEAKSFORUMS
 <a id="msitarzewskiagencyagents"></a>
 ### 📦 [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
 - **⭐ Stars:** 145,907 | **💻 Linguagem:** `Shell`
-- 🎯 **O que é e para que serve:** Projeto open-source em **Shell**. Descrição oficial: A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-- 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
+- 🎯 **O que é e para que serve:** Framework/agente de IA em Shell para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/msitarzewski/agency-agents.git
@@ -297,8 +312,8 @@ cd agency-agents
 
 <a id="affaanmecc"></a>
 ### 📦 [affaan-m/ECC](https://github.com/affaan-m/ECC)
-- **⭐ Stars:** 240,584 | **💻 Linguagem:** `JavaScript`
-- 🎯 **O que é e para que serve:** Projeto open-source em **JavaScript**. Descrição oficial: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+- **⭐ Stars:** 240,587 | **💻 Linguagem:** `JavaScript`
+- 🎯 **O que é e para que serve:** Framework/agente de IA em JavaScript para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma.
 - 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
@@ -308,6 +323,21 @@ npm install
 npm run dev  # ou npm start
 ```
 - ⚡ **Dica Pro de produtividade:** Prefira `npm ci` em CI/CD e use o arquivo de lock para builds reproduzíveis.
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
 
 ---
 
@@ -660,9 +690,6 @@ cd rtk
 cargo build --release
 ```
 - ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
-
----
-
 
 ---
 
@@ -1813,46 +1840,47 @@ git clone https://github.com/dennisdelima18pe/Nubank-redesign.git
 
 ## 📑 Sumário Completo dos Repositórios
 
-01. [FalkorDB/code-graph](#falkordbcodegraph) — ⭐ 342 (`Python)
-02. [open-webui/open-webui](#openwebuiopenwebui) — ⭐ 148,983 (`Python)
-03. [petergyang/no-ai-slop](#petergyangnoaislop) — ⭐ 5,210 (`Python)
-04. [opendataloader-project/opendataloader-pdf](#opendataloaderprojectopendataloaderpdf) — ⭐ 28,470 (`Java)
-05. [microsoft/data-formulator](#microsoftdataformulator) — ⭐ 16,259 (`Python)
-06. [microsoft/BitNet](#microsoftbitnet) — ⭐ 40,096 (`C++)
-07. [mem0ai/mem0](#mem0aimem0) — ⭐ 63,425 (`Python)
-08. [Kritt-ai/open-kritt](#krittaiopenkritt) — ⭐ 1,872 (`JavaScript)
-09. [opensandbox-group/OpenSandbox](#opensandboxgroupopensandbox) — ⭐ 14,085 (`Python)
-10. [jamiepine/voicebox](#jamiepinevoicebox) — ⭐ 50,616 (`TypeScript)
-11. [averygan/reclip](#averyganreclip) — ⭐ 7,075 (`HTML)
-12. [coreyhaines31/makerskills](#coreyhaines31makerskills) — ⭐ 638 (`Não especificada)
-13. [cursor/plugins](#cursorplugins) — ⭐ 3,074 (`TypeScript)
-14. [google-gemini/cookbook](#googlegeminicookbook) — ⭐ 17,659 (`Jupyter Notebook)
-15. [openai/openai-agents-python](#openaiopenaiagentspython) — ⭐ 28,710 (`Python)
-16. [xai-org/grok-build](#xaiorggrokbuild) — ⭐ 25,463 (`Rust)
-17. [anthropics/claude-cookbooks](#anthropicsclaudecookbooks) — ⭐ 51,653 (`Jupyter Notebook)
-18. [FSECDEV/LEAKSFORUMS](#fsecdevleaksforums) — ⭐ 248 (`Não especificada)
-19. [msitarzewski/agency-agents](#msitarzewskiagencyagents) — ⭐ 145,907 (`Shell)
-20. [affaan-m/ECC](#affaanmecc) — ⭐ 240,584 (`JavaScript)
-21. [trimstray/the-book-of-secret-knowledge](#trimstraythebookofsecretknowledge) — ⭐ 238,675 (`Geral)
-22. [obra/superpowers](#obrasuperpowers) — ⭐ 272,702 (`Shell)
-23. [vinta/awesome-python](#vintaawesomepython) — ⭐ 314,248 (`Python)
-24. [jwasham/coding-interview-university](#jwashamcodinginterviewuniversity) — ⭐ 358,906 (`Geral)
-25. [donnemartin/system-design-primer](#donnemartinsystemdesignprimer) — ⭐ 364,153 (`Python)
-26. [semantica-agi/semantica](#semanticaagisemantica) — ⭐ 8,108 (`Python)
-27. [coollabsio/coolify](#coollabsiocoolify) — ⭐ 60,645 (`PHP)
-28. [zulip/zulip](#zulipzulip) — ⭐ 25,719 (`Python)
-29. [metabase/metabase](#metabasemetabase) — ⭐ 48,783 (`Clojure)
-30. [PostHog/posthog](#posthogposthog) — ⭐ 37,708 (`Python)
-31. [pocketbase/pocketbase](#pocketbasepocketbase) — ⭐ 60,694 (`Go)
-32. [triggerdotdev/trigger.dev](#triggerdotdevtriggerdev) — ⭐ 16,040 (`TypeScript)
-33. [Infisical/infisical](#infisicalinfisical) — ⭐ 28,796 (`TypeScript)
-34. [HideMeBr/SambaTu](#hidemebrsambatu) — ⭐ 237 (`Geral)
-35. [sickn33/agentic-awesome-skills](#sickn33agenticawesomeskills) — ⭐ 45,006 (`Python)
-36. [CodebuffAI/freebuff](#codebuffaifreebuff) — ⭐ 9,608 (`TypeScript)
-37. [deepseek-ai/deepseek-harness](#deepseekaideepseekharness) — ⭐ 120,929 (`TypeScript)
-38. [Egonex-AI/Understand-Anything](#egonexaiunderstandanything) — ⭐ 79,438 (`TypeScript)
-39. [NanoNets/Graft](#nanonetsgraft) — ⭐ 2,913 (`TypeScript)
-40. [elder-plinius/OBLITERATUS](#elderpliniusobliteratus) — ⭐ 7,443 (`Python)
-41. [PaddlePaddle/PaddleOCR](#paddlepaddlepaddleocr) — ⭐ 87,683 (`Python)
-42. [google-research/timesfm](#googleresearchtimesfm) — ⭐ 27,469 (`Python)
-43. [rtk-ai/rtk](#rtkairtk) — ⭐ 76,159 (`Rust)
+01. [memvid/memvid](#memvidmemvid) — ⭐ 16,327 (`Rust)
+02. [FalkorDB/code-graph](#falkordbcodegraph) — ⭐ 342 (`Python)
+03. [open-webui/open-webui](#openwebuiopenwebui) — ⭐ 148,984 (`Python)
+04. [petergyang/no-ai-slop](#petergyangnoaislop) — ⭐ 5,210 (`Python)
+05. [opendataloader-project/opendataloader-pdf](#opendataloaderprojectopendataloaderpdf) — ⭐ 28,472 (`Java)
+06. [microsoft/data-formulator](#microsoftdataformulator) — ⭐ 16,264 (`Python)
+07. [microsoft/BitNet](#microsoftbitnet) — ⭐ 40,096 (`C++)
+08. [mem0ai/mem0](#mem0aimem0) — ⭐ 63,426 (`Python)
+09. [Kritt-ai/open-kritt](#krittaiopenkritt) — ⭐ 1,875 (`JavaScript)
+10. [opensandbox-group/OpenSandbox](#opensandboxgroupopensandbox) — ⭐ 14,090 (`Python)
+11. [jamiepine/voicebox](#jamiepinevoicebox) — ⭐ 50,620 (`TypeScript)
+12. [averygan/reclip](#averyganreclip) — ⭐ 7,075 (`HTML)
+13. [coreyhaines31/makerskills](#coreyhaines31makerskills) — ⭐ 641 (`Não especificada)
+14. [cursor/plugins](#cursorplugins) — ⭐ 3,074 (`TypeScript)
+15. [google-gemini/cookbook](#googlegeminicookbook) — ⭐ 17,659 (`Jupyter Notebook)
+16. [openai/openai-agents-python](#openaiopenaiagentspython) — ⭐ 28,710 (`Python)
+17. [xai-org/grok-build](#xaiorggrokbuild) — ⭐ 25,463 (`Rust)
+18. [anthropics/claude-cookbooks](#anthropicsclaudecookbooks) — ⭐ 51,654 (`Jupyter Notebook)
+19. [FSECDEV/LEAKSFORUMS](#fsecdevleaksforums) — ⭐ 248 (`Não especificada)
+20. [msitarzewski/agency-agents](#msitarzewskiagencyagents) — ⭐ 145,907 (`Shell)
+21. [affaan-m/ECC](#affaanmecc) — ⭐ 240,587 (`JavaScript)
+22. [trimstray/the-book-of-secret-knowledge](#trimstraythebookofsecretknowledge) — ⭐ 238,675 (`Geral)
+23. [obra/superpowers](#obrasuperpowers) — ⭐ 272,702 (`Shell)
+24. [vinta/awesome-python](#vintaawesomepython) — ⭐ 314,248 (`Python)
+25. [jwasham/coding-interview-university](#jwashamcodinginterviewuniversity) — ⭐ 358,906 (`Geral)
+26. [donnemartin/system-design-primer](#donnemartinsystemdesignprimer) — ⭐ 364,153 (`Python)
+27. [semantica-agi/semantica](#semanticaagisemantica) — ⭐ 8,108 (`Python)
+28. [coollabsio/coolify](#coollabsiocoolify) — ⭐ 60,645 (`PHP)
+29. [zulip/zulip](#zulipzulip) — ⭐ 25,719 (`Python)
+30. [metabase/metabase](#metabasemetabase) — ⭐ 48,783 (`Clojure)
+31. [PostHog/posthog](#posthogposthog) — ⭐ 37,708 (`Python)
+32. [pocketbase/pocketbase](#pocketbasepocketbase) — ⭐ 60,694 (`Go)
+33. [triggerdotdev/trigger.dev](#triggerdotdevtriggerdev) — ⭐ 16,040 (`TypeScript)
+34. [Infisical/infisical](#infisicalinfisical) — ⭐ 28,796 (`TypeScript)
+35. [HideMeBr/SambaTu](#hidemebrsambatu) — ⭐ 237 (`Geral)
+36. [sickn33/agentic-awesome-skills](#sickn33agenticawesomeskills) — ⭐ 45,006 (`Python)
+37. [CodebuffAI/freebuff](#codebuffaifreebuff) — ⭐ 9,608 (`TypeScript)
+38. [deepseek-ai/deepseek-harness](#deepseekaideepseekharness) — ⭐ 120,929 (`TypeScript)
+39. [Egonex-AI/Understand-Anything](#egonexaiunderstandanything) — ⭐ 79,438 (`TypeScript)
+40. [NanoNets/Graft](#nanonetsgraft) — ⭐ 2,913 (`TypeScript)
+41. [elder-plinius/OBLITERATUS](#elderpliniusobliteratus) — ⭐ 7,443 (`Python)
+42. [PaddlePaddle/PaddleOCR](#paddlepaddlepaddleocr) — ⭐ 87,683 (`Python)
+43. [google-research/timesfm](#googleresearchtimesfm) — ⭐ 27,469 (`Python)
+44. [rtk-ai/rtk](#rtkairtk) — ⭐ 76,159 (`Rust)
