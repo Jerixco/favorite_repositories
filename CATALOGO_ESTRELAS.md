@@ -1,285 +1,343 @@
 # 🌟 Dossiê Completo: Análise Minuciosa das Estrelas do GitHub
 
 > **Perfil:** [@Jerixco](https://github.com/Jerixco) (Matheus Salustiano)  
-> **Total de Repositórios Analisados:** 73  
+> **Total de Repositórios Analisados:** 43  
 > **Estrutura Obrigatória por Item:**  
 > 🎯 *O que é e para que serve* | 💡 *Casos de uso reais no dia a dia* | 🚀 *Como usar na prática (Docker, pip, npm, CLI)* | ⚡ *Dica Pro de produtividade*
 
 ---
 
+<a id="falkordbcodegraph"></a>
 ### 📦 [FalkorDB/code-graph](https://github.com/FalkorDB/code-graph)
 - **⭐ Stars:** 342 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** A code-graph demo  using GraphRAG-SDK and FalkorDB
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: A code-graph demo  using GraphRAG-SDK and FalkorDB
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/FalkorDB/code-graph.git
 cd code-graph
-pip install -r requirements.txt
+pip install -r requirements.txt  # ou: pip install -e .
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Crie um ambiente virtual (venv ou poetry) antes de instalar as dependências para evitar conflitos.
 
 ---
 
+<a id="openwebuiopenwebui"></a>
 ### 📦 [open-webui/open-webui](https://github.com/open-webui/open-webui)
-- **⭐ Stars:** 148,961 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- **⭐ Stars:** 148,983 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/open-webui/open-webui.git
 cd open-webui
-pip install -r requirements.txt
+pip install -r requirements.txt  # ou: pip install -e .
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Crie um ambiente virtual (venv ou poetry) antes de instalar as dependências para evitar conflitos.
 
 ---
 
+<a id="petergyangnoaislop"></a>
 ### 📦 [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop)
-- **⭐ Stars:** 5,176 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** Removes 20+ patterns of AI slop from any piece of writing.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- **⭐ Stars:** 5,210 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: Removes 20+ patterns of AI slop from any piece of writing.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/petergyang/no-ai-slop.git
 cd no-ai-slop
-pip install -r requirements.txt
+pip install -r requirements.txt  # ou: pip install -e .
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Crie um ambiente virtual (venv ou poetry) antes de instalar as dependências para evitar conflitos.
 
 ---
 
+<a id="opendataloaderprojectopendataloaderpdf"></a>
 ### 📦 [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf)
-- **⭐ Stars:** 28,451 | **💻 Linguagem:** `Java`
-- 🎯 **O que é e para que serve:** PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Java.
+- **⭐ Stars:** 28,470 | **💻 Linguagem:** `Java`
+- 🎯 **O que é e para que serve:** Projeto open-source em **Java**. Descrição oficial: PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/opendataloader-project/opendataloader-pdf.git
 cd opendataloader-pdf
+# Maven: mvn clean package  |  Gradle: ./gradlew build
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
 
 ---
 
+<a id="microsoftdataformulator"></a>
 ### 📦 [microsoft/data-formulator](https://github.com/microsoft/data-formulator)
-- **⭐ Stars:** 16,103 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** 🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- **⭐ Stars:** 16,259 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: 🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.
+- 💡 **Casos de uso reais no dia a dia:** Automação de scripts e pipelines de dados; Desenvolvimento de APIs, CLIs e ferramentas internas.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/microsoft/data-formulator.git
 cd data-formulator
-pip install -r requirements.txt
+pip install -r requirements.txt  # ou: pip install -e .
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Crie um ambiente virtual (venv ou poetry) antes de instalar as dependências para evitar conflitos.
 
 ---
 
+<a id="microsoftbitnet"></a>
 ### 📦 [microsoft/BitNet](https://github.com/microsoft/BitNet)
-- **⭐ Stars:** 40,094 | **💻 Linguagem:** `C++`
-- 🎯 **O que é e para que serve:** Official inference framework for 1-bit LLMs
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em C++.
+- **⭐ Stars:** 40,096 | **💻 Linguagem:** `C++`
+- 🎯 **O que é e para que serve:** Projeto open-source em **C++**. Descrição oficial: Official inference framework for 1-bit LLMs
+- 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/microsoft/BitNet.git
 cd BitNet
+# compile conforme o README (geralmente cmake ou make)
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
 
 ---
 
+<a id="mem0aimem0"></a>
 ### 📦 [mem0ai/mem0](https://github.com/mem0ai/mem0)
-- **⭐ Stars:** 63,389 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** Universal memory layer for AI Agents
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- **⭐ Stars:** 63,425 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: Universal memory layer for AI Agents
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/mem0ai/mem0.git
 cd mem0
-pip install -r requirements.txt
+pip install -r requirements.txt  # ou: pip install -e .
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Crie um ambiente virtual (venv ou poetry) antes de instalar as dependências para evitar conflitos.
 
 ---
 
+<a id="krittaiopenkritt"></a>
 ### 📦 [Kritt-ai/open-kritt](https://github.com/Kritt-ai/open-kritt)
-- **⭐ Stars:** 1,791 | **💻 Linguagem:** `JavaScript`
-- 🎯 **O que é e para que serve:** Open-source, self-hosted AI vulnerability research tool that orchestrates agents to find and validate security issues in code.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em JavaScript.
+- **⭐ Stars:** 1,872 | **💻 Linguagem:** `JavaScript`
+- 🎯 **O que é e para que serve:** Projeto open-source em **JavaScript**. Descrição oficial: Open-source, self-hosted AI vulnerability research tool that orchestrates agents to find and validate security issues in code.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/Kritt-ai/open-kritt.git
 cd open-kritt
 npm install
-npm run dev
+npm run dev  # ou npm start
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Prefira `npm ci` em CI/CD e use o arquivo de lock para builds reproduzíveis.
 
 ---
 
+<a id="opensandboxgroupopensandbox"></a>
 ### 📦 [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)
-- **⭐ Stars:** 13,946 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** Secure, Fast, and Extensible Sandbox runtime for AI agents.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- **⭐ Stars:** 14,085 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: Secure, Fast, and Extensible Sandbox runtime for AI agents.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/opensandbox-group/OpenSandbox.git
 cd OpenSandbox
-pip install -r requirements.txt
+pip install -r requirements.txt  # ou: pip install -e .
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Crie um ambiente virtual (venv ou poetry) antes de instalar as dependências para evitar conflitos.
 
 ---
 
+<a id="jamiepinevoicebox"></a>
 ### 📦 [jamiepine/voicebox](https://github.com/jamiepine/voicebox)
-- **⭐ Stars:** 50,571 | **💻 Linguagem:** `TypeScript`
-- 🎯 **O que é e para que serve:** The open-source AI voice studio. Clone, dictate, create.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em TypeScript.
+- **⭐ Stars:** 50,616 | **💻 Linguagem:** `TypeScript`
+- 🎯 **O que é e para que serve:** Projeto open-source em **TypeScript**. Descrição oficial: The open-source AI voice studio. Clone, dictate, create.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/jamiepine/voicebox.git
 cd voicebox
 npm install
-npm run dev
+npm run dev  # ou npm start
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Prefira `npm ci` em CI/CD e use o arquivo de lock para builds reproduzíveis.
 
 ---
 
+<a id="averyganreclip"></a>
 ### 📦 [averygan/reclip](https://github.com/averygan/reclip)
-- **⭐ Stars:** 7,062 | **💻 Linguagem:** `HTML`
-- 🎯 **O que é e para que serve:** Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em HTML.
+- **⭐ Stars:** 7,075 | **💻 Linguagem:** `HTML`
+- 🎯 **O que é e para que serve:** Projeto open-source em **HTML**. Descrição oficial: Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.
+- 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/averygan/reclip.git
 cd reclip
+# Siga as instruções de instalação no README do repositório
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
 
 ---
 
+<a id="coreyhaines31makerskills"></a>
 ### 📦 [coreyhaines31/makerskills](https://github.com/coreyhaines31/makerskills)
-- **⭐ Stars:** 609 | **💻 Linguagem:** `Geral`
-- 🎯 **O que é e para que serve:** AI agent skills for the personal operator's craft — decisions, research, second-brain, content rotation, scenario modeling, and meta-skills to author more. Works with Claude Code, Codex, Cursor.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em None.
+- **⭐ Stars:** 638 | **💻 Linguagem:** `Não especificada`
+- 🎯 **O que é e para que serve:** Projeto open-source em **Não especificada**. Descrição oficial: AI agent skills for the personal operator's craft — decisions, research, second-brain, content rotation, scenario modeling, and meta-skills to author more. Works with Claude Code, Codex, Cursor.
+- 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/coreyhaines31/makerskills.git
 cd makerskills
+# Siga as instruções de instalação no README do repositório
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
 
 ---
 
+<a id="cursorplugins"></a>
 ### 📦 [cursor/plugins](https://github.com/cursor/plugins)
-- **⭐ Stars:** 3,048 | **💻 Linguagem:** `TypeScript`
-- 🎯 **O que é e para que serve:** Cursor plugin specification and official plugins
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em TypeScript.
+- **⭐ Stars:** 3,074 | **💻 Linguagem:** `TypeScript`
+- 🎯 **O que é e para que serve:** Projeto open-source em **TypeScript**. Descrição oficial: Cursor plugin specification and official plugins
+- 💡 **Casos de uso reais no dia a dia:** Construção de interfaces web modernas e dashboards; Backend Node.js e integrações front-end.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/cursor/plugins.git
 cd plugins
 npm install
-npm run dev
+npm run dev  # ou npm start
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Prefira `npm ci` em CI/CD e use o arquivo de lock para builds reproduzíveis.
 
 ---
 
+<a id="googlegeminicookbook"></a>
 ### 📦 [google-gemini/cookbook](https://github.com/google-gemini/cookbook)
-- **⭐ Stars:** 17,652 | **💻 Linguagem:** `Jupyter Notebook`
-- 🎯 **O que é e para que serve:** Examples and guides for using the Gemini API
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Jupyter Notebook.
+- **⭐ Stars:** 17,659 | **💻 Linguagem:** `Jupyter Notebook`
+- 🎯 **O que é e para que serve:** Projeto open-source em **Jupyter Notebook**. Descrição oficial: Examples and guides for using the Gemini API
+- 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/google-gemini/cookbook.git
 cd cookbook
+# Siga as instruções de instalação no README do repositório
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
 
 ---
 
+<a id="openaiopenaiagentspython"></a>
 ### 📦 [openai/openai-agents-python](https://github.com/openai/openai-agents-python)
-- **⭐ Stars:** 28,685 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** A lightweight, powerful framework for multi-agent workflows
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- **⭐ Stars:** 28,710 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Projeto open-source em **Python**. Descrição oficial: A lightweight, powerful framework for multi-agent workflows
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/openai/openai-agents-python.git
 cd openai-agents-python
-pip install -r requirements.txt
+pip install -r requirements.txt  # ou: pip install -e .
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Crie um ambiente virtual (venv ou poetry) antes de instalar as dependências para evitar conflitos.
 
 ---
 
+<a id="xaiorggrokbuild"></a>
 ### 📦 [xai-org/grok-build](https://github.com/xai-org/grok-build)
-- **⭐ Stars:** 25,383 | **💻 Linguagem:** `Rust`
-- 🎯 **O que é e para que serve:** SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Rust.
+- **⭐ Stars:** 25,463 | **💻 Linguagem:** `Rust`
+- 🎯 **O que é e para que serve:** Projeto open-source em **Rust**. Descrição oficial: SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.
+- 💡 **Casos de uso reais no dia a dia:** Ferramentas de alta performance e CLIs de sistema; Serviços backend com baixo consumo de recursos.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/xai-org/grok-build.git
 cd grok-build
 cargo build --release
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
 
 ---
 
+<a id="anthropicsclaudecookbooks"></a>
 ### 📦 [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks)
-- **⭐ Stars:** 51,593 | **💻 Linguagem:** `Jupyter Notebook`
-- 🎯 **O que é e para que serve:** A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Jupyter Notebook.
+- **⭐ Stars:** 51,653 | **💻 Linguagem:** `Jupyter Notebook`
+- 🎯 **O que é e para que serve:** Projeto open-source em **Jupyter Notebook**. Descrição oficial: A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
+- 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/anthropics/claude-cookbooks.git
 cd claude-cookbooks
+# Siga as instruções de instalação no README do repositório
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
 
 ---
 
+<a id="fsecdevleaksforums"></a>
 ### 📦 [FSECDEV/LEAKSFORUMS](https://github.com/FSECDEV/LEAKSFORUMS)
-- **⭐ Stars:** 204 | **💻 Linguagem:** `Geral`
-- 🎯 **O que é e para que serve:** A series of leaks from hacker forums 
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em None.
+- **⭐ Stars:** 248 | **💻 Linguagem:** `Não especificada`
+- 🎯 **O que é e para que serve:** Projeto open-source em **Não especificada**. Descrição oficial: A series of leaks from hacker forums
+- 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/FSECDEV/LEAKSFORUMS.git
 cd LEAKSFORUMS
+# Siga as instruções de instalação no README do repositório
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
 
 ---
 
+<a id="msitarzewskiagencyagents"></a>
 ### 📦 [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
-- **⭐ Stars:** 145,797 | **💻 Linguagem:** `Shell`
-- 🎯 **O que é e para que serve:** A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Shell.
+- **⭐ Stars:** 145,907 | **💻 Linguagem:** `Shell`
+- 🎯 **O que é e para que serve:** Projeto open-source em **Shell**. Descrição oficial: A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+- 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/msitarzewski/agency-agents.git
 cd agency-agents
+# Siga as instruções de instalação no README do repositório
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
 
 ---
 
+<a id="affaanmecc"></a>
 ### 📦 [affaan-m/ECC](https://github.com/affaan-m/ECC)
-- **⭐ Stars:** 240,418 | **💻 Linguagem:** `JavaScript`
-- 🎯 **O que é e para que serve:** The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em JavaScript.
+- **⭐ Stars:** 240,584 | **💻 Linguagem:** `JavaScript`
+- 🎯 **O que é e para que serve:** Projeto open-source em **JavaScript**. Descrição oficial: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 git clone https://github.com/affaan-m/ECC.git
 cd ECC
 npm install
-npm run dev
+npm run dev  # ou npm start
 ```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+- ⚡ **Dica Pro de produtividade:** Prefira `npm ci` em CI/CD e use o arquivo de lock para builds reproduzíveis.
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
 
 ---
 
@@ -605,81 +663,6 @@ cargo build --release
 
 ---
 
-## 📑 Sumário Completo dos Repositórios
-
-01. [multica-ai/multica](#multicaaimultica) — ⭐ 45,969 (`Go`)
-02. [xoreaxeaxeax/skitter-creek-bath-salts](#xoreaxeaxeaxskittercreekbathsalts) — ⭐ 1,434 (`C`)
-03. [JailbrokenAI/wallbreaker](#jailbrokenaiwallbreaker) — ⭐ 1,134 (`Python`)
-04. [firecrawl/pdf-inspector](#firecrawlpdfinspector) — ⭐ 15,500 (`Rust`)
-05. [lllyasviel/Fooocus](#lllyasvielfooocus) — ⭐ 52,236 (`Python`)
-06. [OpenHands/OpenHands](#openhandsopenhands) — ⭐ 84,018 (`TypeScript`)
-07. [novuhq/novu](#novuhqnovu) — ⭐ 39,528 (`TypeScript`)
-08. [medusajs/medusa](#medusajsmedusa) — ⭐ 35,801 (`TypeScript`)
-09. [appwrite/appwrite](#appwriteappwrite) — ⭐ 56,964 (`TypeScript`)
-10. [different-ai/openwork](#differentaiopenwork) — ⭐ 22,160 (`TypeScript`)
-11. [n8n-io/n8n](#n8nion8n) — ⭐ 200,616 (`TypeScript`)
-12. [NousResearch/hermes-agent](#nousresearchhermesagent) — ⭐ 230,489 (`Python`)
-13. [nexu-io/open-design](#nexuioopendesign) — ⭐ 86,155 (`TypeScript`)
-14. [guillaumemeyer/watermarks-remover](#guillaumemeyerwatermarksremover) — ⭐ 7,020 (`Python`)
-15. [github/spec-kit](#githubspeckit) — ⭐ 128,119 (`Python`)
-16. [harry0703/MoneyPrinterTurbo](#harry0703moneyprinterturbo) — ⭐ 103,418 (`Python`)
-17. [santifer/career-ops](#santifercareerops) — ⭐ 63,807 (`JavaScript`)
-18. [JCodesMore/ai-website-cloner-template](#jcodesmoreaiwebsiteclonertemplate) — ⭐ 31,963 (`JavaScript`)
-19. [opengrep/opengrep](#opengrepopengrep) — ⭐ 2,947 (`OCaml`)
-20. [gitleaks/gitleaks](#gitleaksgitleaks) — ⭐ 28,715 (`Go`)
-21. [zaproxy/zaproxy](#zaproxyzaproxy) — ⭐ 15,600 (`Java`)
-22. [acruz6421-bot/chatgptproxy](#acruz6421botchatgptproxy) — ⭐ 22 (`Python`)
-23. [acruz6421-bot/CursorProxyFleet](#acruz6421botcursorproxyfleet) — ⭐ 4 (`JavaScript`)
-24. [melgarafael/DeskcommCRM](#melgarafaeldeskcommcrm) — ⭐ 528 (`TypeScript`)
-25. [img2threejs/img2threejs](#img2threejsimg2threejs) — ⭐ 11,702 (`Python`)
-26. [x1xhlol/system-prompts-and-models-of-ai-tools](#x1xhlolsystempromptsandmodelsofaitools) — ⭐ 142,818 (`Docs/Shell`)
-27. [Graphify-Labs/graphify](#graphifylabsgraphify) — ⭐ 106,251 (`Python`)
-28. [DietrichGebert/ponytail](#dietrichgebertponytail) — ⭐ 102,596 (`JavaScript`)
-29. [VoltAgent/awesome-agent-skills](#voltagentawesomeagentskills) — ⭐ 30,267 (`Docs/Shell`)
-30. [Tracer-Cloud/opensre](#tracercloudopensre) — ⭐ 10,503 (`Python`)
-31. [AndrewKochulab/jarvis-dashboard](#andrewkochulabjarvisdashboard) — ⭐ 85 (`JavaScript`)
-32. [mlabonne/llm-course](#mlabonnellmcourse) — ⭐ 81,667 (`Docs/Shell`)
-33. [ObservedObserver/ChatGPT-Jailbreak-Prompts](#observedobserverchatgptjailbreakprompts) — ⭐ 162 (`Docs/Shell`)
-34. [hacker-gpt/cybergym](#hackergptcybergym) — ⭐ 4 (`TypeScript`)
-35. [PDFMathTranslate/PDFMathTranslate](#pdfmathtranslatepdfmathtranslate) — ⭐ 36,161 (`Python`)
-36. [Comfy-Org/ComfyUI](#comfyorgcomfyui) — ⭐ 127,547 (`Python`)
-37. [sandeco/reversa](#sandecoreversa) — ⭐ 1,478 (`JavaScript`)
-38. [DannyMac180/sol-advisor](#dannymac180soladvisor) — ⭐ 1,943 (`TypeScript`)
-39. [Z4nzu/hackingtool](#z4nzuhackingtool) — ⭐ 78,948 (`Python`)
-40. [zhaoxuya520/reverse-skill](#zhaoxuya520reverseskill) — ⭐ 25,164 (`PowerShell`)
-41. [langgenius/dify](#langgeniusdify) — ⭐ 152,435 (`TypeScript`)
-42. [matheusbach/legen](#matheusbachlegen) — ⭐ 232 (`Python`)
-43. [comet-ml/opik](#cometmlopik) — ⭐ 21,379 (`Python`)
-44. [oso95/scroll-world](#oso95scrollworld) — ⭐ 8,169 (`JavaScript`)
-45. [jujumilk3/leaked-system-prompts](#jujumilk3leakedsystemprompts) — ⭐ 14,900 (`Docs/Shell`)
-46. [Shubhamsaboo/awesome-llm-apps](#shubhamsabooawesomellmapps) — ⭐ 132,616 (`Python`)
-47. [punkpeye/awesome-mcp-servers](#punkpeyeawesomemcpservers) — ⭐ 92,300 (`Docs/Shell`)
-48. [anthropics/skills](#anthropicsskills) — ⭐ 169,358 (`Python`)
-49. [awesome-selfhosted/awesome-selfhosted](#awesomeselfhostedawesomeselfhosted) — ⭐ 312,605 (`Docs/Shell`)
-50. [public-apis/public-apis](#publicapispublicapis) — ⭐ 457,576 (`Python`)
-51. [ripienaar/free-for-dev](#ripienaarfreefordev) — ⭐ 131,764 (`HTML`)
-52. [sindresorhus/awesome](#sindresorhusawesome) — ⭐ 495,645 (`Docs/Shell`)
-53. [JuliusBrussee/caveman](#juliusbrusseecaveman) — ⭐ 98,156 (`Go`)
-54. [odysseus-dev/odysseus](#odysseusdevodysseus) — ⭐ 85,359 (`Python`)
-55. [thekingsgaming67-sudo/Claude-AI-Max-Pro-Version-26](#thekingsgaming67sudoclaudeaimaxproversion26) — ⭐ 2 (`Docs/Shell`)
-56. [rubenmarcus/malicious-repositories](#rubenmarcusmaliciousrepositories) — ⭐ 210 (`JavaScript`)
-57. [decolua/9router](#decolua9router) — ⭐ 25,424 (`JavaScript`)
-58. [diegosouzapw/OmniRoute](#diegosouzapwomniroute) — ⭐ 47,723 (`TypeScript`)
-59. [AchoArnold/discount-for-student-dev](#achoarnolddiscountforstudentdev) — ⭐ 3,338 (`Docs/Shell`)
-60. [ShreyamMaity/student-offers](#shreyammaitystudentoffers) — ⭐ 743 (`HTML`)
-61. [mn-api/awesome-ai-proxy](#mnapiawesomeaiproxy) — ⭐ 901 (`Docs/Shell`)
-62. [denysdovhan/wtfjs](#denysdovhanwtfjs) — ⭐ 37,690 (`JavaScript`)
-63. [dotnetdevbr/vagas](#dotnetdevbrvagas) — ⭐ 503 (`Docs/Shell`)
-64. [andreasbm/web-skills](#andreasbmwebskills) — ⭐ 7,589 (`JavaScript`)
-65. [remoteintech/remote-jobs](#remoteintechremotejobs) — ⭐ 40,657 (`JavaScript`)
-66. [hideraldoluis/roadmap-do-desenvolvedor-web](#hideraldoluisroadmapdodesenvolvedorweb) — ⭐ 1,141 (`Docs/Shell`)
-67. [iuricode/padroes-de-commits](#iuricodepadroesdecommits) — ⭐ 9,611 (`Shell`)
-68. [frontendbr/vagas](#frontendbrvagas) — ⭐ 15,369 (`Docs/Shell`)
-69. [arthurspk/guiadevbrasil](#arthurspkguiadevbrasil) — ⭐ 15,747 (`Docs/Shell`)
-70. [vnxdtzip/phishap](#vnxdtzipphishap) — ⭐ 5 (`HTML`)
-71. [dennisdelima18pe/Nubank-redesign](#dennisdelima18penubankredesign) — ⭐ 16 (`HTML`)
-72. [chrislgarry/Apollo-11](#chrislgarryapollo11) — ⭐ 72,070 (`Assembly`)
-73. [cppbrasil/material-de-aprendizado](#cppbrasilmaterialdeaprendizado) — ⭐ 420 (`Docs/Shell`)
 
 ---
 
@@ -1827,3 +1810,49 @@ git clone https://github.com/dennisdelima18pe/Nubank-redesign.git
 - ⚡ **Dica Pro de produtividade:** C e C++ modernos (C++17 e C++20) são linguagens poderosas e muito diferentes do estilo antigo; aproveite a curadoria moderna deste repositório.
 
 ---
+
+## 📑 Sumário Completo dos Repositórios
+
+01. [FalkorDB/code-graph](#falkordbcodegraph) — ⭐ 342 (`Python)
+02. [open-webui/open-webui](#openwebuiopenwebui) — ⭐ 148,983 (`Python)
+03. [petergyang/no-ai-slop](#petergyangnoaislop) — ⭐ 5,210 (`Python)
+04. [opendataloader-project/opendataloader-pdf](#opendataloaderprojectopendataloaderpdf) — ⭐ 28,470 (`Java)
+05. [microsoft/data-formulator](#microsoftdataformulator) — ⭐ 16,259 (`Python)
+06. [microsoft/BitNet](#microsoftbitnet) — ⭐ 40,096 (`C++)
+07. [mem0ai/mem0](#mem0aimem0) — ⭐ 63,425 (`Python)
+08. [Kritt-ai/open-kritt](#krittaiopenkritt) — ⭐ 1,872 (`JavaScript)
+09. [opensandbox-group/OpenSandbox](#opensandboxgroupopensandbox) — ⭐ 14,085 (`Python)
+10. [jamiepine/voicebox](#jamiepinevoicebox) — ⭐ 50,616 (`TypeScript)
+11. [averygan/reclip](#averyganreclip) — ⭐ 7,075 (`HTML)
+12. [coreyhaines31/makerskills](#coreyhaines31makerskills) — ⭐ 638 (`Não especificada)
+13. [cursor/plugins](#cursorplugins) — ⭐ 3,074 (`TypeScript)
+14. [google-gemini/cookbook](#googlegeminicookbook) — ⭐ 17,659 (`Jupyter Notebook)
+15. [openai/openai-agents-python](#openaiopenaiagentspython) — ⭐ 28,710 (`Python)
+16. [xai-org/grok-build](#xaiorggrokbuild) — ⭐ 25,463 (`Rust)
+17. [anthropics/claude-cookbooks](#anthropicsclaudecookbooks) — ⭐ 51,653 (`Jupyter Notebook)
+18. [FSECDEV/LEAKSFORUMS](#fsecdevleaksforums) — ⭐ 248 (`Não especificada)
+19. [msitarzewski/agency-agents](#msitarzewskiagencyagents) — ⭐ 145,907 (`Shell)
+20. [affaan-m/ECC](#affaanmecc) — ⭐ 240,584 (`JavaScript)
+21. [trimstray/the-book-of-secret-knowledge](#trimstraythebookofsecretknowledge) — ⭐ 238,675 (`Geral)
+22. [obra/superpowers](#obrasuperpowers) — ⭐ 272,702 (`Shell)
+23. [vinta/awesome-python](#vintaawesomepython) — ⭐ 314,248 (`Python)
+24. [jwasham/coding-interview-university](#jwashamcodinginterviewuniversity) — ⭐ 358,906 (`Geral)
+25. [donnemartin/system-design-primer](#donnemartinsystemdesignprimer) — ⭐ 364,153 (`Python)
+26. [semantica-agi/semantica](#semanticaagisemantica) — ⭐ 8,108 (`Python)
+27. [coollabsio/coolify](#coollabsiocoolify) — ⭐ 60,645 (`PHP)
+28. [zulip/zulip](#zulipzulip) — ⭐ 25,719 (`Python)
+29. [metabase/metabase](#metabasemetabase) — ⭐ 48,783 (`Clojure)
+30. [PostHog/posthog](#posthogposthog) — ⭐ 37,708 (`Python)
+31. [pocketbase/pocketbase](#pocketbasepocketbase) — ⭐ 60,694 (`Go)
+32. [triggerdotdev/trigger.dev](#triggerdotdevtriggerdev) — ⭐ 16,040 (`TypeScript)
+33. [Infisical/infisical](#infisicalinfisical) — ⭐ 28,796 (`TypeScript)
+34. [HideMeBr/SambaTu](#hidemebrsambatu) — ⭐ 237 (`Geral)
+35. [sickn33/agentic-awesome-skills](#sickn33agenticawesomeskills) — ⭐ 45,006 (`Python)
+36. [CodebuffAI/freebuff](#codebuffaifreebuff) — ⭐ 9,608 (`TypeScript)
+37. [deepseek-ai/deepseek-harness](#deepseekaideepseekharness) — ⭐ 120,929 (`TypeScript)
+38. [Egonex-AI/Understand-Anything](#egonexaiunderstandanything) — ⭐ 79,438 (`TypeScript)
+39. [NanoNets/Graft](#nanonetsgraft) — ⭐ 2,913 (`TypeScript)
+40. [elder-plinius/OBLITERATUS](#elderpliniusobliteratus) — ⭐ 7,443 (`Python)
+41. [PaddlePaddle/PaddleOCR](#paddlepaddlepaddleocr) — ⭐ 87,683 (`Python)
+42. [google-research/timesfm](#googleresearchtimesfm) — ⭐ 27,469 (`Python)
+43. [rtk-ai/rtk](#rtkairtk) — ⭐ 76,159 (`Rust)
