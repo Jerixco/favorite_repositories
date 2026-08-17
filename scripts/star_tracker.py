@@ -6,6 +6,7 @@ Executado via GitHub Actions sem nenhuma intervenção manual.
 Melhorias:
 - Força conteúdo em Português do Brasil (mesmo no fallback)
 - Fallback contextual e variado (não mais texto genérico idêntico)
+- 'O que é e para que serve' agora é gerado em pt-BR (sem colar inglês)
 - Chamada Gemini mais robusta (tenta vários modelos)
 - Regenera o Sumário Completo a cada atualização
 - Trata language=None corretamente
@@ -113,14 +114,17 @@ def call_openai(prompt):
         return None
 
 def generate_fallback(repo_info):
-    """Gera conteúdo 100% em PT-BR de forma contextual (sem IA)."""
+    """Gera conteúdo 100% em PT-BR de forma contextual (sem IA e sem colar inglês)."""
     full_name = repo_info.get("full_name", "")
     description = (repo_info.get("description") or "").strip()
     language = repo_info.get("language") or "Não especificada"
     topics = repo_info.get("topics") or []
     name = full_name.split("/")[-1]
+    desc_lower = description.lower()
+    name_lower = name.lower()
+    topics_lower = [t.lower() for t in topics]
 
-    # Comandos de instalação mais inteligentes
+    # Comandos de instalação
     cmd_lines = [
         f"git clone https://github.com/{full_name}.git",
         f"cd {name}",
@@ -144,21 +148,48 @@ def generate_fallback(repo_info):
 
     cmd_block = "\n".join(cmd_lines)
 
-    # O que é e para que serve (sempre em português + descrição original como referência)
-    if description:
-        o_que_e = (
-            f"Projeto open-source em **{language}**. "
-            f"Descrição oficial: {description}"
-        )
+    # ========== O QUE É E PARA QUE SERVE (100% pt-BR) ==========
+    # Heurística por palavras-chave na descrição / nome / tópicos
+    if any(k in desc_lower or k in name_lower for k in ["ai", "llm", "agent", "gpt", "openai", "claude", "gemini", "ollama"]):
+        if "interface" in desc_lower or "ui" in desc_lower or "webui" in name_lower or "web-ui" in name_lower:
+            o_que_e = f"Interface web amigável em {language} para interagir com modelos de linguagem (LLMs). Facilita o uso de ferramentas como Ollama, OpenAI e outros backends de IA sem complexidade."
+        elif "agent" in desc_lower or "agent" in name_lower:
+            o_que_e = f"Framework/agente de IA em {language} para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma."
+        elif "memory" in desc_lower or "mem0" in name_lower:
+            o_que_e = f"Camada de memória universal em {language} para agentes de IA, permitindo que aplicações lembrem contexto e histórico de conversas de forma persistente."
+        elif "voice" in desc_lower or "voice" in name_lower:
+            o_que_e = f"Estúdio de voz open-source em {language} para clonagem, ditado e criação de áudio com inteligência artificial."
+        else:
+            o_que_e = f"Projeto de inteligência artificial em {language} focado em agentes, modelos de linguagem ou ferramentas de IA generativa para desenvolvedores."
+    elif any(k in desc_lower for k in ["pdf", "parser", "ocr", "document"]):
+        o_que_e = f"Ferramenta em {language} para processar, extrair e estruturar dados de PDFs e documentos, preparando conteúdo para uso com IA e automações."
+    elif any(k in desc_lower for k in ["security", "vulnerab", "pentest", "hacking", "jailbreak"]):
+        o_que_e = f"Ferramenta de segurança/cibersegurança em {language} para testes, análise de vulnerabilidades ou pesquisa ofensiva em ambientes controlados."
+    elif any(k in desc_lower for k in ["sandbox", "runtime"]):
+        o_que_e = f"Runtime de sandbox seguro e extensível em {language}, ideal para executar agentes de IA de forma isolada e controlada."
+    elif any(k in desc_lower for k in ["graph", "rag", "knowledge"]):
+        o_que_e = f"Solução em {language} baseada em grafos ou GraphRAG para estruturar conhecimento e melhorar a precisão de sistemas de recuperação aumentada por geração."
+    elif any(k in desc_lower for k in ["download", "media", "video", "clip"]):
+        o_que_e = f"Ferramenta leve em {language} para baixar e gerenciar mídias (vídeos e áudios) de diversos sites, com interface web simples e auto-hospedável."
+    elif any(k in desc_lower for k in ["skill", "plugin", "mcp"]):
+        o_que_e = f"Coleção de habilidades (skills) ou plugins em {language} para expandir as capacidades de agentes de IA e editores como Claude Code, Cursor e Codex."
+    elif any(k in desc_lower for k in ["cookbook", "example", "guide", "tutorial", "recipe"]):
+        o_que_e = f"Coleção de exemplos, guias e receitas práticas em {language} para aprender e aplicar APIs e frameworks de IA de forma produtiva."
+    elif any(k in desc_lower for k in ["harness", "tui", "cli"]):
+        o_que_e = f"Ferramenta de linha de comando / TUI em {language} que serve como harness para agentes de codificação, com interface interativa e extensível."
+    elif "slop" in desc_lower or "slop" in name_lower:
+        o_que_e = f"Utilitário em {language} que remove padrões típicos de texto gerado por IA ("AI slop"), ajudando a deixar a escrita mais natural e humana."
+    elif language and language != "Não especificada":
+        o_que_e = f"Projeto open-source em {language} voltado para desenvolvimento, automação e produtividade de engenheiros de software."
     else:
-        o_que_e = f"Repositório open-source escrito principalmente em {language}, voltado para desenvolvimento e automação."
+        o_que_e = "Repositório open-source com ferramentas e recursos úteis para desenvolvimento de software e experimentação."
 
-    # Casos de uso (variam conforme a linguagem / tópicos)
+    # ========== CASOS DE USO ==========
     casos = []
-    if any(t in ["ai", "llm", "agent", "gpt", "ml", "machine-learning"] for t in topics) or "ai" in name.lower() or "llm" in name.lower():
+    if any(t in topics_lower for t in ["ai", "llm", "agent", "gpt", "ml", "machine-learning"]) or any(k in name_lower for k in ["ai", "llm", "agent"]):
         casos.append("Integração de agentes e modelos de linguagem em produtos reais")
         casos.append("Prototipagem rápida de aplicações com IA generativa")
-    elif any(t in ["security", "pentest", "hacking", "vulnerability"] for t in topics):
+    elif any(t in topics_lower for t in ["security", "pentest", "hacking", "vulnerability"]):
         casos.append("Testes de segurança e análise de vulnerabilidades em ambientes controlados")
         casos.append("Aprendizado prático de técnicas ofensivas e defensivas")
     elif "python" in lang_lower:
@@ -176,12 +207,12 @@ def generate_fallback(repo_info):
 
     casos_texto = "; ".join(casos[:2]) + "."
 
-    # Dica Pro (também contextual)
+    # ========== DICA PRO ==========
     if "python" in lang_lower:
         dica = "Crie um ambiente virtual (venv ou poetry) antes de instalar as dependências para evitar conflitos."
     elif lang_lower in ("javascript", "typescript"):
         dica = "Prefira `npm ci` em CI/CD e use o arquivo de lock para builds reproduzíveis."
-    elif "docker" in description.lower() or "docker" in " ".join(topics).lower():
+    elif "docker" in desc_lower or "docker" in " ".join(topics_lower):
         dica = "Rode com Docker Compose quando disponível — facilita o ambiente isolado e a reprodução."
     else:
         dica = "Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado."
@@ -279,17 +310,14 @@ def update_header_total(content, total):
 def remove_existing_entries(content, full_names):
     """Remove blocos de entradas existentes com os full_names dados (evita duplicatas)."""
     for full_name in full_names:
-        # Remove bloco que começa com ### 📦 [full_name] até o próximo --- ou fim
         pattern = rf"(?:<a id=\"[^\"]*\"></a>\s*)?### 📦 \[{re.escape(full_name)}\]\([^)]+\).*?(?=\n---\n|\n### 📦 |\n## |\Z)"
         content = re.sub(pattern, "", content, flags=re.DOTALL)
-    # Limpa múltiplos --- consecutivos
     content = re.sub(r"(\n---\n)\s*(\n---\n)+", r"\1", content)
     return content
 
 def main():
     print(f"Iniciando verificação de estrelas para o usuário: {GITHUB_USERNAME}")
 
-    # 1. Carregar histórico
     os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, "r", encoding="utf-8") as f:
@@ -299,7 +327,6 @@ def main():
 
     processed_ids = set(processed_data.get("processed_ids", []))
 
-    # 2. Buscar estrelas (até 100 mais recentes)
     stars_url = f"https://api.github.com/users/{GITHUB_USERNAME}/starred?per_page=100&sort=created"
     starred_items = github_request(stars_url)
 
@@ -320,7 +347,6 @@ def main():
         print("Nenhum novo favorito encontrado. Finalizando.")
         return
 
-    # 3. Processar novos
     new_entries = []
     names_to_remove = []
     for repo in new_stars:
@@ -347,7 +373,6 @@ def main():
         names_to_remove.append(full_name)
         processed_ids.add(repo.get("id"))
 
-    # 4. Atualizar CATALOGO_ESTRELAS.md
     if os.path.exists(CATALOG_FILE):
         with open(CATALOG_FILE, "r", encoding="utf-8") as f:
             existing_content = f.read()
@@ -363,14 +388,11 @@ def main():
 
 """
 
-    # Remove entradas antigas dos mesmos repos (evita duplicata)
     existing_content = remove_existing_entries(existing_content, names_to_remove)
 
-    # Inserir novas entradas no topo (depois do primeiro ---)
     header_split = existing_content.split("---\n\n", 1)
     if len(header_split) == 2:
         body = header_split[1]
-        # Remove sumário antigo se existir
         body = re.sub(
             r"## 📑 Sumário Completo dos Repositórios\n.*?(?=\n---\n|\n### 📦 |\Z)",
             "",
@@ -381,7 +403,6 @@ def main():
     else:
         updated_content = existing_content + "\n\n" + "\n".join(new_entries)
 
-    # Regenerar sumário
     all_entries = extract_entries_for_sumario(updated_content)
     sumario_md = rebuild_sumario(all_entries)
 
@@ -402,7 +423,6 @@ def main():
     with open(CATALOG_FILE, "w", encoding="utf-8") as f:
         f.write(updated_content)
 
-    # 5. Salvar estado
     processed_data["processed_ids"] = list(processed_ids)
     processed_data["last_updated"] = datetime.utcnow().isoformat()
     processed_data["total"] = total
