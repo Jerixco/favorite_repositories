@@ -712,5 +712,17 @@
     "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
     "quickstart": "```bash\ngit clone https://github.com/langchain-ai/langgraph.git\ncd langgraph\npip install -r requirements.txt\n```",
     "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+  },
+  "fadidevv/keyhunter": {
+    "what": "Ferramenta de cibersegurança e auditoria em Rust para identificação de vulnerabilidades e proteção de credenciais.",
+    "use_cases": "Varredura contínua de repositórios contra vazamento de segredos; testes de intrusão éticos em ambientes controlados.",
+    "quickstart": "```bash\ngit clone https://github.com/fadidevv/keyhunter.git\ncd keyhunter\ncargo build --release\n```",
+    "pro_tip": "Integre as regras de auditoria como pre-commit hook no Git local para barrar vulnerabilidades antes do commit."
+  },
+  "trufflesecurity/trufflehog": {
+    "what": "Ferramenta de cibersegurança e auditoria em Go para identificação de vulnerabilidades e proteção de credenciais.",
+    "use_cases": "Varredura contínua de repositórios contra vazamento de segredos; testes de intrusão éticos em ambientes controlados.",
+    "quickstart": "```bash\ngit clone https://github.com/trufflesecurity/trufflehog.git\ncd trufflehog\ngo build\n```",
+    "pro_tip": "Integre as regras de auditoria como pre-commit hook no Git local para barrar vulnerabilidades antes do commit."
   }
 }
