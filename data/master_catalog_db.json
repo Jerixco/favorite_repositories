@@ -814,5 +814,11 @@
     "use_cases": "Desenvolvimento de aplicações escaláveis em Java; automação de pipelines de engenharia.",
     "quickstart": "```bash\ngit clone https://github.com/Stirling-Tools/Stirling-PDF.git\ncd Stirling-PDF\n./gradlew build  # ou: mvn clean package\n```",
     "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "promovaweb/specsfy": {
+    "what": "Interface gráfica moderna em JavaScript para interação e visualização de dados e modelos de inteligência artificial.",
+    "use_cases": "Criação de portais de autoatendimento interno; dashboards de monitoramento e análise de métricas.",
+    "quickstart": "```bash\ngit clone https://github.com/promovaweb/specsfy.git\ncd specsfy\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Configure variáveis de ambiente no arquivo .env antes da primeira inicialização para manter a persistência de configurações."
   }
 }
