@@ -15,11 +15,11 @@
 04. [open-webui/open-webui](#openwebuiopenwebui) — ⭐ 148,993 (`Python`)
 05. [petergyang/no-ai-slop](#petergyangnoaislop) — ⭐ 5,228 (`Python`)
 06. [opendataloader-project/opendataloader-pdf](#opendataloaderprojectopendataloaderpdf) — ⭐ 28,481 (`Java`)
-07. [microsoft/data-formulator](#microsoftdataformulator) — ⭐ 16,311 (`Python`)
+07. [microsoft/data-formulator](#microsoftdataformulator) — ⭐ 16,312 (`Python`)
 08. [microsoft/BitNet](#microsoftbitnet) — ⭐ 40,095 (`C++`)
 09. [mem0ai/mem0](#mem0aimem0) — ⭐ 63,435 (`Python`)
 10. [Kritt-ai/open-kritt](#krittaiopenkritt) — ⭐ 1,878 (`JavaScript`)
-11. [opensandbox-group/OpenSandbox](#opensandboxgroupopensandbox) — ⭐ 14,106 (`C`)
+11. [opensandbox-group/OpenSandbox](#opensandboxgroupopensandbox) — ⭐ 14,107 (`C`)
 12. [jamiepine/voicebox](#jamiepinevoicebox) — ⭐ 50,628 (`TypeScript`)
 13. [averygan/reclip](#averyganreclip) — ⭐ 7,083 (`HTML`)
 14. [coreyhaines31/makerskills](#coreyhaines31makerskills) — ⭐ 644 (`Docs / Shell`)
@@ -30,10 +30,10 @@
 19. [anthropics/claude-cookbooks](#anthropicsclaudecookbooks) — ⭐ 51,676 (`Jupyter Notebook`)
 20. [FSECDEV/LEAKSFORUMS](#fsecdevleaksforums) — ⭐ 251 (`Docs / Shell`)
 21. [msitarzewski/agency-agents](#msitarzewskiagencyagents) — ⭐ 145,923 (`Shell`)
-22. [affaan-m/ECC](#affaanmecc) — ⭐ 240,596 (`JavaScript`)
+22. [affaan-m/ECC](#affaanmecc) — ⭐ 240,595 (`JavaScript`)
 23. [trimstray/the-book-of-secret-knowledge](#trimstraythebookofsecretknowledge) — ⭐ 238,791 (`Docs / Shell`)
-24. [obra/superpowers](#obrasuperpowers) — ⭐ 273,021 (`Shell`)
-25. [vinta/awesome-python](#vintaawesomepython) — ⭐ 314,408 (`Python`)
+24. [obra/superpowers](#obrasuperpowers) — ⭐ 273,022 (`Shell`)
+25. [vinta/awesome-python](#vintaawesomepython) — ⭐ 314,410 (`Python`)
 26. [jwasham/coding-interview-university](#jwashamcodinginterviewuniversity) — ⭐ 359,013 (`Docs / Shell`)
 27. [donnemartin/system-design-primer](#donnemartinsystemdesignprimer) — ⭐ 364,340 (`Python`)
 28. [semantica-agi/semantica](#semanticaagisemantica) — ⭐ 8,398 (`Python`)
@@ -47,30 +47,30 @@
 36. [HideMeBr/SambaTu](#hidemebrsambatu) — ⭐ 264 (`Docs / Shell`)
 37. [sickn33/agentic-awesome-skills](#sickn33agenticawesomeskills) — ⭐ 45,048 (`Python`)
 38. [CodebuffAI/freebuff](#codebuffaifreebuff) — ⭐ 9,743 (`TypeScript`)
-39. [deepseek-ai/deepseek-harness](#deepseekaideepseekharness) — ⭐ 145,524 (`TypeScript`)
+39. [deepseek-ai/deepseek-harness](#deepseekaideepseekharness) — ⭐ 145,550 (`TypeScript`)
 40. [Egonex-AI/Understand-Anything](#egonexaiunderstandanything) — ⭐ 79,581 (`TypeScript`)
 41. [NanoNets/Graft](#nanonetsgraft) — ⭐ 3,142 (`TypeScript`)
 42. [elder-plinius/OBLITERATUS](#elderpliniusobliteratus) — ⭐ 7,550 (`Python`)
 43. [PaddlePaddle/PaddleOCR](#paddlepaddlepaddleocr) — ⭐ 87,787 (`Python`)
 44. [google-research/timesfm](#googleresearchtimesfm) — ⭐ 27,933 (`Python`)
 45. [rtk-ai/rtk](#rtkairtk) — ⭐ 76,347 (`Rust`)
-46. [multica-ai/multica](#multicaaimultica) — ⭐ 46,312 (`Go`)
+46. [multica-ai/multica](#multicaaimultica) — ⭐ 46,314 (`Go`)
 47. [xoreaxeaxeax/skitter-creek-bath-salts](#xoreaxeaxeaxskittercreekbathsalts) — ⭐ 1,757 (`C`)
 48. [JailbrokenAI/wallbreaker](#jailbrokenaiwallbreaker) — ⭐ 1,208 (`Python`)
 49. [firecrawl/pdf-inspector](#firecrawlpdfinspector) — ⭐ 15,950 (`Rust`)
 50. [lllyasviel/Fooocus](#lllyasvielfooocus) — ⭐ 52,334 (`Python`)
-51. [OpenHands/OpenHands](#openhandsopenhands) — ⭐ 84,277 (`TypeScript`)
+51. [OpenHands/OpenHands](#openhandsopenhands) — ⭐ 84,278 (`TypeScript`)
 52. [novuhq/novu](#novuhqnovu) — ⭐ 39,592 (`TypeScript`)
 53. [medusajs/medusa](#medusajsmedusa) — ⭐ 35,862 (`TypeScript`)
 54. [appwrite/appwrite](#appwriteappwrite) — ⭐ 57,034 (`TypeScript`)
 55. [different-ai/openwork](#differentaiopenwork) — ⭐ 22,510 (`TypeScript`)
 56. [n8n-io/n8n](#n8nion8n) — ⭐ 200,946 (`TypeScript`)
 57. [NousResearch/hermes-agent](#nousresearchhermesagent) — ⭐ 231,787 (`Python`)
-58. [nexu-io/open-design](#nexuioopendesign) — ⭐ 88,078 (`TypeScript`)
+58. [nexu-io/open-design](#nexuioopendesign) — ⭐ 88,084 (`TypeScript`)
 59. [guillaumemeyer/watermarks-remover](#guillaumemeyerwatermarksremover) — ⭐ 12,747 (`Python`)
-60. [github/spec-kit](#githubspeckit) — ⭐ 129,681 (`Python`)
-61. [harry0703/MoneyPrinterTurbo](#harry0703moneyprinterturbo) — ⭐ 105,263 (`Python`)
-62. [santifer/career-ops](#santifercareerops) — ⭐ 64,206 (`JavaScript`)
+60. [github/spec-kit](#githubspeckit) — ⭐ 129,682 (`Python`)
+61. [harry0703/MoneyPrinterTurbo](#harry0703moneyprinterturbo) — ⭐ 105,269 (`Python`)
+62. [santifer/career-ops](#santifercareerops) — ⭐ 64,209 (`JavaScript`)
 63. [JCodesMore/ai-website-cloner-template](#jcodesmoreaiwebsiteclonertemplate) — ⭐ 32,269 (`JavaScript`)
 64. [opengrep/opengrep](#opengrepopengrep) — ⭐ 2,956 (`OCaml`)
 65. [gitleaks/gitleaks](#gitleaksgitleaks) — ⭐ 28,773 (`Go`)
@@ -80,7 +80,7 @@
 69. [melgarafael/DeskcommCRM](#melgarafaeldeskcommcrm) — ⭐ 549 (`TypeScript`)
 70. [img2threejs/img2threejs](#img2threejsimg2threejs) — ⭐ 12,026 (`Python`)
 71. [x1xhlol/system-prompts-and-models-of-ai-tools](#x1xhlolsystempromptsandmodelsofaitools) — ⭐ 142,866 (`Docs / Shell`)
-72. [Graphify-Labs/graphify](#graphifylabsgraphify) — ⭐ 107,335 (`Python`)
+72. [Graphify-Labs/graphify](#graphifylabsgraphify) — ⭐ 107,336 (`Python`)
 73. [DietrichGebert/ponytail](#dietrichgebertponytail) — ⭐ 104,479 (`JavaScript`)
 74. [VoltAgent/awesome-agent-skills](#voltagentawesomeagentskills) — ⭐ 30,427 (`Docs / Shell`)
 75. [Tracer-Cloud/opensre](#tracercloudopensre) — ⭐ 10,609 (`Python`)
@@ -89,7 +89,7 @@
 78. [ObservedObserver/ChatGPT-Jailbreak-Prompts](#observedobserverchatgptjailbreakprompts) — ⭐ 163 (`Docs / Shell`)
 79. [hacker-gpt/cybergym](#hackergptcybergym) — ⭐ 4 (`TypeScript`)
 80. [PDFMathTranslate/PDFMathTranslate](#pdfmathtranslatepdfmathtranslate) — ⭐ 36,193 (`Python`)
-81. [Comfy-Org/ComfyUI](#comfyorgcomfyui) — ⭐ 128,038 (`Python`)
+81. [Comfy-Org/ComfyUI](#comfyorgcomfyui) — ⭐ 128,039 (`Python`)
 82. [sandeco/reversa](#sandecoreversa) — ⭐ 1,484 (`JavaScript`)
 83. [DannyMac180/sol-advisor](#dannymac180soladvisor) — ⭐ 2,109 (`Shell`)
 84. [Z4nzu/hackingtool](#z4nzuhackingtool) — ⭐ 79,012 (`Python`)
@@ -99,19 +99,19 @@
 88. [comet-ml/opik](#cometmlopik) — ⭐ 21,423 (`Python`)
 89. [oso95/scroll-world](#oso95scrollworld) — ⭐ 8,256 (`JavaScript`)
 90. [jujumilk3/leaked-system-prompts](#jujumilk3leakedsystemprompts) — ⭐ 14,899 (`Docs / Shell`)
-91. [Shubhamsaboo/awesome-llm-apps](#shubhamsabooawesomellmapps) — ⭐ 132,935 (`Python`)
+91. [Shubhamsaboo/awesome-llm-apps](#shubhamsabooawesomellmapps) — ⭐ 132,936 (`Python`)
 92. [punkpeye/awesome-mcp-servers](#punkpeyeawesomemcpservers) — ⭐ 92,472 (`Docs / Shell`)
-93. [anthropics/skills](#anthropicsskills) — ⭐ 169,870 (`Python`)
+93. [anthropics/skills](#anthropicsskills) — ⭐ 169,869 (`Python`)
 94. [awesome-selfhosted/awesome-selfhosted](#awesomeselfhostedawesomeselfhosted) — ⭐ 313,189 (`Docs / Shell`)
-95. [public-apis/public-apis](#publicapispublicapis) — ⭐ 462,764 (`Python`)
-96. [ripienaar/free-for-dev](#ripienaarfreefordev) — ⭐ 132,018 (`HTML`)
-97. [sindresorhus/awesome](#sindresorhusawesome) — ⭐ 496,790 (`Docs / Shell`)
-98. [JuliusBrussee/caveman](#juliusbrusseecaveman) — ⭐ 98,652 (`Go`)
+95. [public-apis/public-apis](#publicapispublicapis) — ⭐ 462,767 (`Python`)
+96. [ripienaar/free-for-dev](#ripienaarfreefordev) — ⭐ 132,019 (`HTML`)
+97. [sindresorhus/awesome](#sindresorhusawesome) — ⭐ 496,791 (`Docs / Shell`)
+98. [JuliusBrussee/caveman](#juliusbrusseecaveman) — ⭐ 98,653 (`Go`)
 99. [odysseus-dev/odysseus](#odysseusdevodysseus) — ⭐ 85,505 (`Python`)
 100. [thekingsgaming67-sudo/Claude-AI-Max-Pro-Version-26](#thekingsgaming67sudoclaudeaimaxproversion26) — ⭐ 2 (`Docs / Shell`)
 101. [rubenmarcus/malicious-repositories](#rubenmarcusmaliciousrepositories) — ⭐ 210 (`JavaScript`)
 102. [decolua/9router](#decolua9router) — ⭐ 25,630 (`JavaScript`)
-103. [diegosouzapw/OmniRoute](#diegosouzapwomniroute) — ⭐ 49,512 (`TypeScript`)
+103. [diegosouzapw/OmniRoute](#diegosouzapwomniroute) — ⭐ 49,514 (`TypeScript`)
 104. [AchoArnold/discount-for-student-dev](#achoarnolddiscountforstudentdev) — ⭐ 3,337 (`Docs / Shell`)
 105. [ShreyamMaity/student-offers](#shreyammaitystudentoffers) — ⭐ 743 (`HTML`)
 106. [mn-api/awesome-ai-proxy](#mnapiawesomeaiproxy) — ⭐ 905 (`Docs / Shell`)
@@ -226,7 +226,7 @@ java -jar build/libs/opendataloader-pdf.jar --input relatorio.pdf --format markd
 
 <a id="microsoftdataformulator"></a>
 ### 07. [microsoft/data-formulator](https://github.com/microsoft/data-formulator)
-- **⭐ Stars:** 16,311 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 16,312 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** Ferramenta de pesquisa da Microsoft que combina interação gráfica com IA para transformar, limpar e visualizar dados tabulares complexos iterativamente.
 - 💡 **Casos de uso reais no dia a dia:** Exploração e preparação de dados para cientistas de dados e analistas de BI; geração automatizada de gráficos Vega-Lite a partir de comandos em linguagem natural.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -293,7 +293,7 @@ npm run dev
 
 <a id="opensandboxgroupopensandbox"></a>
 ### 11. [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)
-- **⭐ Stars:** 14,106 | **💻 Linguagem:** `C`
+- **⭐ Stars:** 14,107 | **💻 Linguagem:** `C`
 - 🎯 **O que é e para que serve:** Runtime de sandbox e isolamento seguro em C/Linux para execução de código gerado por agentes de IA de forma controlada, prevenindo danos ao sistema operacional hospedeiro.
 - 💡 **Casos de uso reais no dia a dia:** Ambiente de execução segura para agentes autônomos (Claude Code, OpenHands) executarem comandos bash, Python e scripts de teste sem risco de invasão ou corrupção.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -460,7 +460,7 @@ cd agency-agents
 
 <a id="affaanmecc"></a>
 ### 22. [affaan-m/ECC](https://github.com/affaan-m/ECC)
-- **⭐ Stars:** 240,596 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 240,595 | **💻 Linguagem:** `JavaScript`
 - 🎯 **O que é e para que serve:** Repositório de engenharia de software e computação em nuvem com arquiteturas de referência para sistemas corporativos escaláveis em JavaScript/TypeScript.
 - 💡 **Casos de uso reais no dia a dia:** Estudo de padrões arquiteturais em nuvem, microsserviços desacoplados e padrões de resiliência (Circuit Breaker, Retry, Dead Letter Queue).
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -488,7 +488,7 @@ npm install
 
 <a id="obrasuperpowers"></a>
 ### 24. [obra/superpowers](https://github.com/obra/superpowers)
-- **⭐ Stars:** 273,021 | **💻 Linguagem:** `Shell`
+- **⭐ Stars:** 273,022 | **💻 Linguagem:** `Shell`
 - 🎯 **O que é e para que serve:** Coleção de scripts de produtividade em Shell e utilitários de automação para transformar o terminal em um ambiente de desenvolvimento de alta velocidade.
 - 💡 **Casos de uso reais no dia a dia:** Automação de tarefas repetitivas no terminal, aliases inteligentes e gerenciamento de arquivos em lote.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -503,7 +503,7 @@ cd superpowers
 
 <a id="vintaawesomepython"></a>
 ### 25. [vinta/awesome-python](https://github.com/vinta/awesome-python)
-- **⭐ Stars:** 314,408 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 314,410 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** A lista com curadoria definitiva das melhores bibliotecas, frameworks e ferramentas do ecossistema Python no mundo.
 - 💡 **Casos de uso reais no dia a dia:** Encontrar a biblioteca Python ideal e mais mantida para qualquer desafio (automação, web, dados, segurança, IA, áudio, PDF).
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -705,7 +705,7 @@ freebuff start
 
 <a id="deepseekaideepseekharness"></a>
 ### 39. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
-- **⭐ Stars:** 145,524 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 145,550 | **💻 Linguagem:** `TypeScript`
 - 🎯 **O que é e para que serve:** Framework e harness modular de plugins oficial da DeepSeek para orquestração de agentes de IA de código com alta eficiência de inferência.
 - 💡 **Casos de uso reais no dia a dia:** Criar agentes customizados com modelos DeepSeek-V3 e DeepSeek-R1 integrados a ferramentas do sistema.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -817,7 +817,7 @@ cargo build --release
 
 <a id="multicaaimultica"></a>
 ### 46. [multica-ai/multica](https://github.com/multica-ai/multica)
-- **⭐ Stars:** 46,312 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 46,314 | **💻 Linguagem:** `Go`
 - 🎯 **O que é e para que serve:** Plataforma open-source e self-hostable em Go para orquestrar frotas de agentes de IA de codificação (Claude Code, Codex, Cursor e outros 17 agentes) atuando como colegas de equipe de engenharia.
 - 💡 **Casos de uso reais no dia a dia:** Criar uma equipe autônoma de desenvolvimento: você cria issues no GitHub/GitLab e o Multica distribui automaticamente refatorações, criação de testes unitários e correções de bugs para agentes de IA trabalharem em paralelo.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -913,7 +913,7 @@ python run.py
 
 <a id="openhandsopenhands"></a>
 ### 51. [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)
-- **⭐ Stars:** 84,277 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 84,278 | **💻 Linguagem:** `TypeScript`
 - 🎯 **O que é e para que serve:** O engenheiro de software autônomo open-source mais popular do mundo (antigo OpenDevin). Capaz de planejar arquiteturas, escrever código em qualquer linguagem, executar comandos de terminal, rodar testes e criar Pull Requests completos sozinho.
 - 💡 **Casos de uso reais no dia a dia:** Desenvolvimento autônomo de novas funcionalidades, resolução de bugs reportados em issues do GitHub e migrações de bibliotecas legadas sem intervenção humana contínua.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -1041,7 +1041,7 @@ python main.py --model-endpoint http://localhost:11434/v1 --model "nous-hermes"
 
 <a id="nexuioopendesign"></a>
 ### 58. [nexu-io/open-design](https://github.com/nexu-io/open-design)
-- **⭐ Stars:** 88,078 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 88,084 | **💻 Linguagem:** `TypeScript`
 - 🎯 **O que é e para que serve:** Plataforma open-source de design e prototipagem assistida por inteligência artificial, servindo como alternativa aberta a ferramentas como Claude Design e v0.
 - 💡 **Casos de uso reais no dia a dia:** Geração rápida de componentes de interface, layouts responsivos e iterações visuais a partir de descrições em linguagem natural com múltiplos modelos de IA.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -1075,7 +1075,7 @@ python remove.py --input imagem_com_marca.png --output imagem_limpa.png
 
 <a id="githubspeckit"></a>
 ### 60. [github/spec-kit](https://github.com/github/spec-kit)
-- **⭐ Stars:** 129,681 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 129,682 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** Kit de ferramentas open-source oficial do GitHub para desenvolvimento guiado por especificações (Spec-Driven Development) integrado a agentes de IA.
 - 💡 **Casos de uso reais no dia a dia:** Estruturar o processo de engenharia de software com agentes de código: definir detalhadamente o 'o que construir' antes de começar a codificar, evitando alucinações e retrabalho.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -1090,7 +1090,7 @@ git clone https://github.com/github/spec-kit.git
 
 <a id="harry0703moneyprinterturbo"></a>
 ### 61. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
-- **⭐ Stars:** 105,263 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 105,269 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** Automação 'end-to-end' em Python para geração em massa de vídeos curtos verticais (TikTok, YouTube Shorts, Instagram Reels). Gera o roteiro com LLM, narra com TTS realista, seleciona vídeos de fundo em HD, sincroniza legendas e exporta o MP4 pronto.
 - 💡 **Casos de uso reais no dia a dia:** Criação automatizada de canais 'Dark' de curiosidades, notícias, finanças ou motivação, gerando dezenas de vídeos diários sem edição manual.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -1105,7 +1105,7 @@ docker run -d -p 8501:8501 -v ./storage:/app/storage harry0703/moneyprinterturbo
 
 <a id="santifercareerops"></a>
 ### 62. [santifer/career-ops](https://github.com/santifer/career-ops)
-- **⭐ Stars:** 64,206 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 64,209 | **💻 Linguagem:** `JavaScript`
 - 🎯 **O que é e para que serve:** Manual estratégico e prático de operações de carreira para engenheiros de software. Ensina técnicas de prospecção ativa de vagas, formatação de currículo de alto impacto, preparação técnica e negociação salarial.
 - 💡 **Casos de uso reais no dia a dia:** Conquistar posições de destaque no mercado de tecnologia internacional, passar em processos seletivos concorridos e negociar ofertas em moeda forte (Dólar/Euro).
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -1263,7 +1263,7 @@ python main.py --image objeto.png --output modelo_three.js
 
 <a id="graphifylabsgraphify"></a>
 ### 72. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
-- **⭐ Stars:** 107,335 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 107,336 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** Framework em Python para converter dados não estruturados, textos e documentos em Grafos de Conhecimento estruturados e navegáveis.
 - 💡 **Casos de uso reais no dia a dia:** Construir sistemas avançados de GraphRAG (RAG baseado em grafos) que relacionam entidades complexas e respondem perguntas relacionais com alta precisão.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -1401,7 +1401,7 @@ pdf2zh paper_cientifico.pdf
 
 <a id="comfyorgcomfyui"></a>
 ### 81. [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)
-- **⭐ Stars:** 128,038 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 128,039 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** A interface gráfica modular baseada em nós mais avançada e otimizada para modelos de difusão de imagem e vídeo (SD 1.5, SDXL, Flux, SD3, AnimateDiff).
 - 💡 **Casos de uso reais no dia a dia:** Construir pipelines profissionais de produção visual com IA, permitindo controle milimétrico sobre cada etapa do processo de renderização e animação.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -1564,7 +1564,7 @@ claude skill add oso95/scroll-world
 
 <a id="shubhamsabooawesomellmapps"></a>
 ### 91. [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
-- **⭐ Stars:** 132,935 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 132,936 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** Coleção prática fantástica de dezenas de aplicações completas construídas com LLMs, cobrindo RAG avançado, agentes de pesquisa, visão computacional, assistentes de voz e automação com código em Python/Streamlit/FastAPI.
 - 💡 **Casos de uso reais no dia a dia:** Aprender através de código pronto como implementar casos reais de IA (ex: assistente financeiro, extrator de dados de notas fiscais, gerador de relatórios executivos).
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -1602,7 +1602,7 @@ streamlit run app.py
 
 <a id="anthropicsskills"></a>
 ### 93. [anthropics/skills](https://github.com/anthropics/skills)
-- **⭐ Stars:** 169,870 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 169,869 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** Coleção oficial de skills, extensões e receitas práticas mantidas pela própria Anthropic para expandir as capacidades do Claude Code e agentes de IA.
 - 💡 **Casos de uso reais no dia a dia:** Integrar capacidades avançadas de análise de código, automação de testes e fluxos de desenvolvimento diretamente no Claude Code.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -1629,7 +1629,7 @@ claude skill add anthropics/<nome-da-skill>
 
 <a id="publicapispublicapis"></a>
 ### 95. [public-apis/public-apis](https://github.com/public-apis/public-apis)
-- **⭐ Stars:** 462,764 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 462,767 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** O maior diretório coletivo de APIs públicas e gratuitas para desenvolvedores, cobrindo centenas de tópicos (clima, cripto, jogos, saúde, notícias, IA, música, finanças).
 - 💡 **Casos de uso reais no dia a dia:** Encontrar dados reais e endpoints para alimentar seus projetos de portfólio, protótipos de produtos e aplicações web sem precisar cadastrar cartão de crédito.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -1642,7 +1642,7 @@ claude skill add anthropics/<nome-da-skill>
 
 <a id="ripienaarfreefordev"></a>
 ### 96. [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
-- **⭐ Stars:** 132,018 | **💻 Linguagem:** `HTML`
+- **⭐ Stars:** 132,019 | **💻 Linguagem:** `HTML`
 - 🎯 **O que é e para que serve:** Uma lista monumental de serviços de infraestrutura de TI, SaaS, PaaS, CI/CD, monitoramento, bancos de dados e hospedagem que possuem camadas gratuitas (*free tiers*) para desenvolvedores.
 - 💡 **Casos de uso reais no dia a dia:** Montar arquiteturas de software e publicar projetos em produção gastando exatamente $0 em servidores e bancos de dados.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -1655,7 +1655,7 @@ claude skill add anthropics/<nome-da-skill>
 
 <a id="sindresorhusawesome"></a>
 ### 97. [sindresorhus/awesome](https://github.com/sindresorhus/awesome)
-- **⭐ Stars:** 496,790 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 496,791 | **💻 Linguagem:** `Docs / Shell`
 - 🎯 **O que é e para que serve:** A lista mãe de todas as listas 'Awesome' do GitHub. Contém diretórios com curadoria dos melhores tópicos, bibliotecas, ferramentas e linguagens de toda a computação.
 - 💡 **Casos de uso reais no dia a dia:** Ponto de partida definitivo para descobrir as melhores bibliotecas e ferramentas para qualquer linguagem ou tecnologia que você for aprender.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -1668,7 +1668,7 @@ claude skill add anthropics/<nome-da-skill>
 
 <a id="juliusbrusseecaveman"></a>
 ### 98. [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
-- **⭐ Stars:** 98,652 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 98,653 | **💻 Linguagem:** `Go`
 - 🎯 **O que é e para que serve:** Skill ultra-inteligente para Claude Code (e agentes compatíveis) escrita em Go que reduz em até 65% o consumo de tokens de saída forçando o modelo a responder no estilo 'homem das cavernas' (estilo direto, ultra-conciso e sem introduções ou cordialidades inúteis).
 - 💡 **Casos de uso reais no dia a dia:** Economizar muito dinheiro em faturas de API e aumentar drasticamente a velocidade de resposta do Claude Code em sessões de refatoração pesada.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -1741,7 +1741,7 @@ npm install -g 9router
 
 <a id="diegosouzapwomniroute"></a>
 ### 103. [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
-- **⭐ Stars:** 49,512 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 49,514 | **💻 Linguagem:** `TypeScript`
 - 🎯 **O que é e para que serve:** Gateway agregador universal de IA em TypeScript/Node.js. Conecta mais de 330 provedores de IA (incluindo mais de 90 gratuitos) e 1.200+ modelos (Claude, GPT, Gemini, Kimi, DeepSeek, GLM) em um único endpoint compatível com OpenAI/Anthropic. Inclui failover inteligente automático e compressão de contexto (RTK + Caveman) economizando até 95% de tokens.
 - 💡 **Casos de uso reais no dia a dia:** Centralizar todas as suas chaves e acessos de IA em um só lugar local ou na nuvem; usar Claude Code, Cursor, Cline ou Copilot sem estourar limites de cota ou gastar fortuna em API.
 - 🚀 **Como usar na prática com comandos prontos:**
