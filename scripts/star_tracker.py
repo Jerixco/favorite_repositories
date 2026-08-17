@@ -7,6 +7,7 @@ Garante:
 1. Sumário Completo SEMPRE no topo com 100% dos repositórios estrelados
 2. Dica Pro técnica, rica e personalizada (sem repetições ou frases genéricas)
 3. Todo o conteúdo 100% em Português do Brasil (pt-BR)
+4. Módulo de Segurança e Auditoria de Malware (ScanRepo + Heurísticas Locais)
 """
 
 import os
@@ -16,6 +17,15 @@ import json
 import base64
 import urllib.request
 from datetime import datetime, timezone
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+# Importar o scanner de segurança
+scripts_dir = os.path.dirname(__file__)
+if scripts_dir not in sys.path:
+    sys.path.append(scripts_dir)
+
+from security_scanner import scan_repository_security
 
 # Configurações de Ambiente
 GITHUB_USERNAME = os.environ.get("TARGET_USERNAME", "Jerixco")
@@ -125,7 +135,6 @@ def parse_ai_response(text):
         quickstart = quick_match.group(1).strip() if quick_match else "```bash\ngit clone repo\n```"
         pro_tip = tip_match.group(1).strip() if tip_match else "Consulte os exemplos no README para acelerar a integração."
 
-        # Se não vier com bloco de código no quickstart, adiciona
         if "```" not in quickstart:
             quickstart = f"```bash\n{quickstart}\n```"
 
@@ -257,7 +266,7 @@ def rebuild_catalog_markdown(all_stars, master_db):
     doc.append(f"> **Perfil:** [@{GITHUB_USERNAME}](https://github.com/{GITHUB_USERNAME}) (Matheus Salustiano)  ")
     doc.append(f"> **Total de Repositórios Analisados:** {total}  ")
     doc.append("> **Estrutura Obrigatória por Item:**  ")
-    doc.append("> 🎯 *O que é e para que serve* | 💡 *Casos de uso reais no dia a dia* | 🚀 *Como usar na prática (Docker, pip, npm, CLI)* | ⚡ *Dica Pro de produtividade*")
+    doc.append("> 🛡️ *Segurança & Malware (ScanRepo)* | 🎯 *O que é e para que serve* | 💡 *Casos de uso reais no dia a dia* | 🚀 *Como usar na prática* | ⚡ *Dica Pro de produtividade*")
     doc.append("")
     doc.append("---")
     doc.append("")
@@ -290,9 +299,12 @@ def rebuild_catalog_markdown(all_stars, master_db):
         if not info:
             info = generate_fallback_analysis(r, "")
 
+        security_badge = scan_repository_security(r)
+
         doc.append(f"<a id=\"{anchor}\"></a>")
         doc.append(f"### {i:02d}. [{name}]({url})")
         doc.append(f"- **⭐ Stars:** {stars:,} | **💻 Linguagem:** `{lang}`")
+        doc.append(f"- 🛡️ **Segurança & Malware:** {security_badge}")
         doc.append(f"- 🎯 **O que é e para que serve:** {info['what']}")
         doc.append(f"- 💡 **Casos de uso reais no dia a dia:** {info['use_cases']}")
         doc.append(f"- 🚀 **Como usar na prática com comandos prontos:**")

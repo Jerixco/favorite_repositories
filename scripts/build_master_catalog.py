@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Unificação e Reconstrução do Catálogo Master de todos os 118 Repositórios
-Garante:
-1. Sumário Completo SEMPRE no topo com 100% dos repositórios
-2. Dica Pro técnica, rica e específica para cada repositório
-3. Todo o conteúdo 100% em Português do Brasil (pt-BR)
+Com Auditoria de Segurança Integrada (ScanRepo + Scanner Heurístico Local)
 """
 
 import json
@@ -14,14 +11,14 @@ import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 
+from security_scanner import scan_repository_security
+
 def load_master_db():
-    # 1. Carregar os 73 originais
     try:
         from generate_final_markdown import REPO_DETAILS as orig_details
     except:
         orig_details = {}
         
-    # 2. Carregar os 45 novos
     with open("data/catalog_db.json", "r", encoding="utf-8") as f:
         new_details = json.load(f)
         
@@ -31,14 +28,12 @@ def load_master_db():
     return master
 
 def generate_master_catalog():
-    # Carregar todos os repositórios reais do GitHub
     with open("data/all_starred_github.json", "r", encoding="utf-8") as f:
         all_stars = json.load(f)
         
     master_db = load_master_db()
-    
     total = len(all_stars)
-    print(f"Gerando catálogo para {total} repositórios...")
+    print(f"Gerando catálogo com módulo de segurança para {total} repositórios...")
     
     doc = []
     
@@ -48,7 +43,7 @@ def generate_master_catalog():
     doc.append("> **Perfil:** [@Jerixco](https://github.com/Jerixco) (Matheus Salustiano)  ")
     doc.append(f"> **Total de Repositórios Analisados:** {total}  ")
     doc.append("> **Estrutura Obrigatória por Item:**  ")
-    doc.append("> 🎯 *O que é e para que serve* | 💡 *Casos de uso reais no dia a dia* | 🚀 *Como usar na prática (Docker, pip, npm, CLI)* | ⚡ *Dica Pro de produtividade*")
+    doc.append("> 🛡️ *Segurança & Malware (ScanRepo)* | 🎯 *O que é e para que serve* | 💡 *Casos de uso reais no dia a dia* | 🚀 *Como usar na prática* | ⚡ *Dica Pro de produtividade*")
     doc.append("")
     doc.append("---")
     doc.append("")
@@ -79,7 +74,6 @@ def generate_master_catalog():
         
         info = master_db.get(name)
         if not info:
-            # Fallback inteligente rico se faltar
             info = {
                 "what": f"Projeto open-source em {lang} voltado para desenvolvimento e engenharia de software.",
                 "use_cases": f"Automação e aceleração de desenvolvimento em {lang}; integração em pipelines corporativas.",
@@ -87,9 +81,12 @@ def generate_master_catalog():
                 "pro_tip": "Consulte os exemplos na pasta do repositório para personalização rápida."
             }
             
+        security_badge = scan_repository_security(r)
+            
         doc.append(f"<a id=\"{anchor}\"></a>")
         doc.append(f"### {i:02d}. [{name}]({url})")
         doc.append(f"- **⭐ Stars:** {stars:,} | **💻 Linguagem:** `{lang}`")
+        doc.append(f"- 🛡️ **Segurança & Malware:** {security_badge}")
         doc.append(f"- 🎯 **O que é e para que serve:** {info['what']}")
         doc.append(f"- 💡 **Casos de uso reais no dia a dia:** {info['use_cases']}")
         doc.append(f"- 🚀 **Como usar na prática com comandos prontos:**")
@@ -101,7 +98,6 @@ def generate_master_catalog():
 
     full_md = "\n".join(doc)
     
-    # Salvar em todos os caminhos
     paths = [
         r"C:\Users\Bktech\CascadeProjects\favorite_repositories\CATALOGO_ESTRELAS.md",
         r"C:\Users\Bktech\.gemini\antigravity\scratch\github-star-automation\CATALOGO_ESTRELAS.md",
@@ -120,11 +116,9 @@ def generate_master_catalog():
         except Exception as e:
             print(f"Erro ao salvar em {p}: {e}")
             
-    # Salvar o banco de dados master de apoio para o star_tracker.py
     with open("data/master_catalog_db.json", "w", encoding="utf-8") as f:
         json.dump(master_db, f, indent=2, ensure_ascii=False)
         
-    # Atualizar o processed_stars.json com todos os 118 IDs
     ids = [r["id"] for r in all_stars if "id" in r]
     state = {
         "processed_ids": ids,
@@ -133,9 +127,9 @@ def generate_master_catalog():
     with open("data/processed_stars.json", "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2)
         
-    print(f"Master Catalog gerado com sucesso para todos os {total} repositórios!")
+    print(f"Catálogo completo com segurança gerado para todos os {total} repositórios!")
 
 if __name__ == '__main__':
-    # Adicionar o scratch ao sys.path para importar REPO_DETAILS dos 73 anteriores
     sys.path.append(r"C:\Users\Bktech\.gemini\antigravity\scratch")
+    sys.path.append(r"C:\Users\Bktech\CascadeProjects\favorite_repositories\scripts")
     generate_master_catalog()
