@@ -1,9 +1,24 @@
 # 🌟 Dossiê Completo: Análise Minuciosa das Estrelas do GitHub
 
 > **Perfil:** [@Jerixco](https://github.com/Jerixco) (Matheus Salustiano)  
-> **Total de Repositórios Analisados:** 53  
+> **Total de Repositórios Analisados:** 54  
 > **Estrutura Obrigatória por Item:**  
 > 🎯 *O que é e para que serve* | 💡 *Casos de uso reais no dia a dia* | 🚀 *Como usar na prática (Docker, pip, npm, CLI)* | ⚡ *Dica Pro de produtividade*
+
+---
+
+<a id="scrapyscrapy"></a>
+### 📦 [scrapy/scrapy](https://github.com/scrapy/scrapy)
+- **⭐ Stars:** 63,888 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Projeto open-source em Python voltado para desenvolvimento, automação e produtividade de engenheiros de software.
+- 💡 **Casos de uso reais no dia a dia:** Automação de scripts e pipelines de dados; Desenvolvimento de APIs, CLIs e ferramentas internas.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/scrapy/scrapy.git
+cd scrapy
+pip install -r requirements.txt  # ou: pip install -e .
+```
+- ⚡ **Dica Pro de produtividade:** Use `uv` ou `poetry` em vez de pip puro — resolução de dependências fica muito mais rápida e o lockfile evita surpresas.
 
 ---
 
@@ -508,18 +523,6 @@ npm install
 npm run dev  # ou npm start
 ```
 - ⚡ **Dica Pro de produtividade:** Prefira `npm ci` em CI/CD e use o arquivo de lock para builds reproduzíveis.
-
----
-
-
----
-
-
----
-
-
----
-
 
 ---
 
@@ -1959,56 +1962,57 @@ git clone https://github.com/dennisdelima18pe/Nubank-redesign.git
 
 ## 📑 Sumário Completo dos Repositórios
 
-01. [memvid/memvid](#memvidmemvid) — ⭐ 16,329 (`Rust)
-02. [xai-org/grok-build](#xaiorggrokbuild) — ⭐ 25,464 (`Rust)
-03. [FSECDEV/LEAKSFORUMS](#fsecdevleaksforums) — ⭐ 248 (`Não especificada)
-04. [semantica-agi/semantica](#semanticaagisemantica) — ⭐ 8,375 (`Python)
-05. [HideMeBr/SambaTu](#hidemebrsambatu) — ⭐ 261 (`Não especificada)
-06. [NanoNets/Graft](#nanonetsgraft) — ⭐ 3,131 (`TypeScript)
-07. [multica-ai/multica](#multicaaimultica) — ⭐ 46,289 (`Go)
-08. [santifer/career-ops](#santifercareerops) — ⭐ 64,142 (`JavaScript)
-09. [opengrep/opengrep](#opengrepopengrep) — ⭐ 2,956 (`OCaml)
-10. [DietrichGebert/ponytail](#dietrichgebertponytail) — ⭐ 104,396 (`JavaScript)
-11. [VoltAgent/awesome-agent-skills](#voltagentawesomeagentskills) — ⭐ 30,422 (`Não especificada)
-12. [langgenius/dify](#langgeniusdify) — ⭐ 152,672 (`TypeScript)
-13. [oso95/scroll-world](#oso95scrollworld) — ⭐ 8,252 (`JavaScript)
-14. [sindresorhus/awesome](#sindresorhusawesome) — ⭐ 496,736 (`Não especificada)
-15. [JuliusBrussee/caveman](#juliusbrusseecaveman) — ⭐ 98,635 (`Go)
-16. [FalkorDB/code-graph](#falkordbcodegraph) — ⭐ 342 (`Python)
-17. [open-webui/open-webui](#openwebuiopenwebui) — ⭐ 148,984 (`Python)
-18. [petergyang/no-ai-slop](#petergyangnoaislop) — ⭐ 5,210 (`Python)
-19. [opendataloader-project/opendataloader-pdf](#opendataloaderprojectopendataloaderpdf) — ⭐ 28,472 (`Java)
-20. [microsoft/data-formulator](#microsoftdataformulator) — ⭐ 16,264 (`Python)
-21. [microsoft/BitNet](#microsoftbitnet) — ⭐ 40,096 (`C++)
-22. [mem0ai/mem0](#mem0aimem0) — ⭐ 63,426 (`Python)
-23. [Kritt-ai/open-kritt](#krittaiopenkritt) — ⭐ 1,875 (`JavaScript)
-24. [opensandbox-group/OpenSandbox](#opensandboxgroupopensandbox) — ⭐ 14,090 (`Python)
-25. [jamiepine/voicebox](#jamiepinevoicebox) — ⭐ 50,620 (`TypeScript)
-26. [averygan/reclip](#averyganreclip) — ⭐ 7,075 (`HTML)
-27. [coreyhaines31/makerskills](#coreyhaines31makerskills) — ⭐ 641 (`Não especificada)
-28. [cursor/plugins](#cursorplugins) — ⭐ 3,074 (`TypeScript)
-29. [google-gemini/cookbook](#googlegeminicookbook) — ⭐ 17,659 (`Jupyter Notebook)
-30. [openai/openai-agents-python](#openaiopenaiagentspython) — ⭐ 28,710 (`Python)
-31. [anthropics/claude-cookbooks](#anthropicsclaudecookbooks) — ⭐ 51,654 (`Jupyter Notebook)
-32. [msitarzewski/agency-agents](#msitarzewskiagencyagents) — ⭐ 145,907 (`Shell)
-33. [affaan-m/ECC](#affaanmecc) — ⭐ 240,587 (`JavaScript)
-34. [trimstray/the-book-of-secret-knowledge](#trimstraythebookofsecretknowledge) — ⭐ 238,675 (`Geral)
-35. [obra/superpowers](#obrasuperpowers) — ⭐ 272,702 (`Shell)
-36. [vinta/awesome-python](#vintaawesomepython) — ⭐ 314,248 (`Python)
-37. [jwasham/coding-interview-university](#jwashamcodinginterviewuniversity) — ⭐ 358,906 (`Geral)
-38. [donnemartin/system-design-primer](#donnemartinsystemdesignprimer) — ⭐ 364,153 (`Python)
-39. [coollabsio/coolify](#coollabsiocoolify) — ⭐ 60,645 (`PHP)
-40. [zulip/zulip](#zulipzulip) — ⭐ 25,719 (`Python)
-41. [metabase/metabase](#metabasemetabase) — ⭐ 48,783 (`Clojure)
-42. [PostHog/posthog](#posthogposthog) — ⭐ 37,708 (`Python)
-43. [pocketbase/pocketbase](#pocketbasepocketbase) — ⭐ 60,694 (`Go)
-44. [triggerdotdev/trigger.dev](#triggerdotdevtriggerdev) — ⭐ 16,040 (`TypeScript)
-45. [Infisical/infisical](#infisicalinfisical) — ⭐ 28,796 (`TypeScript)
-46. [sickn33/agentic-awesome-skills](#sickn33agenticawesomeskills) — ⭐ 45,006 (`Python)
-47. [CodebuffAI/freebuff](#codebuffaifreebuff) — ⭐ 9,608 (`TypeScript)
-48. [deepseek-ai/deepseek-harness](#deepseekaideepseekharness) — ⭐ 120,929 (`TypeScript)
-49. [Egonex-AI/Understand-Anything](#egonexaiunderstandanything) — ⭐ 79,438 (`TypeScript)
-50. [elder-plinius/OBLITERATUS](#elderpliniusobliteratus) — ⭐ 7,443 (`Python)
-51. [PaddlePaddle/PaddleOCR](#paddlepaddlepaddleocr) — ⭐ 87,683 (`Python)
-52. [google-research/timesfm](#googleresearchtimesfm) — ⭐ 27,469 (`Python)
-53. [rtk-ai/rtk](#rtkairtk) — ⭐ 76,159 (`Rust)
+01. [scrapy/scrapy](#scrapyscrapy) — ⭐ 63,888 (`Python)
+02. [memvid/memvid](#memvidmemvid) — ⭐ 16,329 (`Rust)
+03. [xai-org/grok-build](#xaiorggrokbuild) — ⭐ 25,464 (`Rust)
+04. [FSECDEV/LEAKSFORUMS](#fsecdevleaksforums) — ⭐ 248 (`Não especificada)
+05. [semantica-agi/semantica](#semanticaagisemantica) — ⭐ 8,375 (`Python)
+06. [HideMeBr/SambaTu](#hidemebrsambatu) — ⭐ 261 (`Não especificada)
+07. [NanoNets/Graft](#nanonetsgraft) — ⭐ 3,131 (`TypeScript)
+08. [multica-ai/multica](#multicaaimultica) — ⭐ 46,289 (`Go)
+09. [santifer/career-ops](#santifercareerops) — ⭐ 64,142 (`JavaScript)
+10. [opengrep/opengrep](#opengrepopengrep) — ⭐ 2,956 (`OCaml)
+11. [DietrichGebert/ponytail](#dietrichgebertponytail) — ⭐ 104,396 (`JavaScript)
+12. [VoltAgent/awesome-agent-skills](#voltagentawesomeagentskills) — ⭐ 30,422 (`Não especificada)
+13. [langgenius/dify](#langgeniusdify) — ⭐ 152,672 (`TypeScript)
+14. [oso95/scroll-world](#oso95scrollworld) — ⭐ 8,252 (`JavaScript)
+15. [sindresorhus/awesome](#sindresorhusawesome) — ⭐ 496,736 (`Não especificada)
+16. [JuliusBrussee/caveman](#juliusbrusseecaveman) — ⭐ 98,635 (`Go)
+17. [FalkorDB/code-graph](#falkordbcodegraph) — ⭐ 342 (`Python)
+18. [open-webui/open-webui](#openwebuiopenwebui) — ⭐ 148,984 (`Python)
+19. [petergyang/no-ai-slop](#petergyangnoaislop) — ⭐ 5,210 (`Python)
+20. [opendataloader-project/opendataloader-pdf](#opendataloaderprojectopendataloaderpdf) — ⭐ 28,472 (`Java)
+21. [microsoft/data-formulator](#microsoftdataformulator) — ⭐ 16,264 (`Python)
+22. [microsoft/BitNet](#microsoftbitnet) — ⭐ 40,096 (`C++)
+23. [mem0ai/mem0](#mem0aimem0) — ⭐ 63,426 (`Python)
+24. [Kritt-ai/open-kritt](#krittaiopenkritt) — ⭐ 1,875 (`JavaScript)
+25. [opensandbox-group/OpenSandbox](#opensandboxgroupopensandbox) — ⭐ 14,090 (`Python)
+26. [jamiepine/voicebox](#jamiepinevoicebox) — ⭐ 50,620 (`TypeScript)
+27. [averygan/reclip](#averyganreclip) — ⭐ 7,075 (`HTML)
+28. [coreyhaines31/makerskills](#coreyhaines31makerskills) — ⭐ 641 (`Não especificada)
+29. [cursor/plugins](#cursorplugins) — ⭐ 3,074 (`TypeScript)
+30. [google-gemini/cookbook](#googlegeminicookbook) — ⭐ 17,659 (`Jupyter Notebook)
+31. [openai/openai-agents-python](#openaiopenaiagentspython) — ⭐ 28,710 (`Python)
+32. [anthropics/claude-cookbooks](#anthropicsclaudecookbooks) — ⭐ 51,654 (`Jupyter Notebook)
+33. [msitarzewski/agency-agents](#msitarzewskiagencyagents) — ⭐ 145,907 (`Shell)
+34. [affaan-m/ECC](#affaanmecc) — ⭐ 240,587 (`JavaScript)
+35. [trimstray/the-book-of-secret-knowledge](#trimstraythebookofsecretknowledge) — ⭐ 238,675 (`Geral)
+36. [obra/superpowers](#obrasuperpowers) — ⭐ 272,702 (`Shell)
+37. [vinta/awesome-python](#vintaawesomepython) — ⭐ 314,248 (`Python)
+38. [jwasham/coding-interview-university](#jwashamcodinginterviewuniversity) — ⭐ 358,906 (`Geral)
+39. [donnemartin/system-design-primer](#donnemartinsystemdesignprimer) — ⭐ 364,153 (`Python)
+40. [coollabsio/coolify](#coollabsiocoolify) — ⭐ 60,645 (`PHP)
+41. [zulip/zulip](#zulipzulip) — ⭐ 25,719 (`Python)
+42. [metabase/metabase](#metabasemetabase) — ⭐ 48,783 (`Clojure)
+43. [PostHog/posthog](#posthogposthog) — ⭐ 37,708 (`Python)
+44. [pocketbase/pocketbase](#pocketbasepocketbase) — ⭐ 60,694 (`Go)
+45. [triggerdotdev/trigger.dev](#triggerdotdevtriggerdev) — ⭐ 16,040 (`TypeScript)
+46. [Infisical/infisical](#infisicalinfisical) — ⭐ 28,796 (`TypeScript)
+47. [sickn33/agentic-awesome-skills](#sickn33agenticawesomeskills) — ⭐ 45,006 (`Python)
+48. [CodebuffAI/freebuff](#codebuffaifreebuff) — ⭐ 9,608 (`TypeScript)
+49. [deepseek-ai/deepseek-harness](#deepseekaideepseekharness) — ⭐ 120,929 (`TypeScript)
+50. [Egonex-AI/Understand-Anything](#egonexaiunderstandanything) — ⭐ 79,438 (`TypeScript)
+51. [elder-plinius/OBLITERATUS](#elderpliniusobliteratus) — ⭐ 7,443 (`Python)
+52. [PaddlePaddle/PaddleOCR](#paddlepaddlepaddleocr) — ⭐ 87,683 (`Python)
+53. [google-research/timesfm](#googleresearchtimesfm) — ⭐ 27,469 (`Python)
+54. [rtk-ai/rtk](#rtkairtk) — ⭐ 76,159 (`Rust)
