@@ -149,7 +149,6 @@ def generate_fallback(repo_info):
     cmd_block = "\n".join(cmd_lines)
 
     # ========== O QUE É E PARA QUE SERVE (100% pt-BR) ==========
-    # Heurística por palavras-chave na descrição / nome / tópicos
     if any(k in desc_lower or k in name_lower for k in ["ai", "llm", "agent", "gpt", "openai", "claude", "gemini", "ollama"]):
         if "interface" in desc_lower or "ui" in desc_lower or "webui" in name_lower or "web-ui" in name_lower:
             o_que_e = f"Interface web amigável em {language} para interagir com modelos de linguagem (LLMs). Facilita o uso de ferramentas como Ollama, OpenAI e outros backends de IA sem complexidade."
@@ -178,7 +177,7 @@ def generate_fallback(repo_info):
     elif any(k in desc_lower for k in ["harness", "tui", "cli"]):
         o_que_e = f"Ferramenta de linha de comando / TUI em {language} que serve como harness para agentes de codificação, com interface interativa e extensível."
     elif "slop" in desc_lower or "slop" in name_lower:
-        o_que_e = f"Utilitário em {language} que remove padrões típicos de texto gerado por IA ("AI slop"), ajudando a deixar a escrita mais natural e humana."
+        o_que_e = f"Utilitário em {language} que remove padrões típicos de texto gerado por IA (AI slop), ajudando a deixar a escrita mais natural e humana."
     elif language and language != "Não especificada":
         o_que_e = f"Projeto open-source em {language} voltado para desenvolvimento, automação e produtividade de engenheiros de software."
     else:
@@ -256,24 +255,20 @@ Regras obrigatórias:
 - Seja específico ao projeto (não use frases genéricas).
 - Responda somente os 4 tópicos acima."""
 
-    # 1. Tenta Gemini
     if GEMINI_API_KEY:
         result = call_gemini(prompt)
         if result:
             return result
 
-    # 2. Tenta OpenAI
     if OPENAI_API_KEY:
         result = call_openai(prompt)
         if result:
             return result
 
-    # 3. Fallback 100% PT-BR e contextual
     print("  → Usando fallback heurístico em PT-BR")
     return generate_fallback(repo_info)
 
 def extract_entries_for_sumario(content):
-    """Extrai todas as entradas detalhadas para montar o sumário."""
     pattern = r"### 📦 \[([^\]]+)\]\(([^)]+)\)\s*\n- \*\*⭐ Stars:\*\* ([\d,]+) \| \*\*💻 Linguagem:\*\* `([^`]+)`"
     matches = re.findall(pattern, content)
     entries = []
@@ -308,7 +303,6 @@ def update_header_total(content, total):
     return content
 
 def remove_existing_entries(content, full_names):
-    """Remove blocos de entradas existentes com os full_names dados (evita duplicatas)."""
     for full_name in full_names:
         pattern = rf"(?:<a id=\"[^\"]*\"></a>\s*)?### 📦 \[{re.escape(full_name)}\]\([^)]+\).*?(?=\n---\n|\n### 📦 |\n## |\Z)"
         content = re.sub(pattern, "", content, flags=re.DOTALL)
