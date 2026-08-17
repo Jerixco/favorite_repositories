@@ -724,5 +724,11 @@
     "use_cases": "Varredura contínua de repositórios contra vazamento de segredos; testes de intrusão éticos em ambientes controlados.",
     "quickstart": "```bash\ngit clone https://github.com/trufflesecurity/trufflehog.git\ncd trufflehog\ngo build\n```",
     "pro_tip": "Integre as regras de auditoria como pre-commit hook no Git local para barrar vulnerabilidades antes do commit."
+  },
+  "arthurspk/guiadofrontend": {
+    "what": "Interface gráfica moderna em Docs / Shell para interação e visualização de dados e modelos de inteligência artificial.",
+    "use_cases": "Criação de portais de autoatendimento interno; dashboards de monitoramento e análise de métricas.",
+    "quickstart": "```bash\ngit clone https://github.com/arthurspk/guiadofrontend.git\ncd guiadofrontend\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Configure variáveis de ambiente no arquivo .env antes da primeira inicialização para manter a persistência de configurações."
   }
 }
