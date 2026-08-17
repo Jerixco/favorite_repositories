@@ -730,5 +730,11 @@
     "use_cases": "Criação de portais de autoatendimento interno; dashboards de monitoramento e análise de métricas.",
     "quickstart": "```bash\ngit clone https://github.com/arthurspk/guiadofrontend.git\ncd guiadofrontend\n# Siga as instruções de build no README\n```",
     "pro_tip": "Configure variáveis de ambiente no arquivo .env antes da primeira inicialização para manter a persistência de configurações."
+  },
+  "Bill-Stewart/SyncthingWindowsSetup": {
+    "what": "Projeto open-source em Inno Setup projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em Inno Setup; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/Bill-Stewart/SyncthingWindowsSetup.git\ncd SyncthingWindowsSetup\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
   }
 }
