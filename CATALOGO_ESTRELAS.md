@@ -7,6 +7,158 @@
 
 ---
 
+### 📦 [open-webui/open-webui](https://github.com/open-webui/open-webui)
+- **⭐ Stars:** 148,961 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/open-webui/open-webui.git
+cd open-webui
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop)
+- **⭐ Stars:** 5,176 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Removes 20+ patterns of AI slop from any piece of writing.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/petergyang/no-ai-slop.git
+cd no-ai-slop
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf)
+- **⭐ Stars:** 28,451 | **💻 Linguagem:** `Java`
+- 🎯 **O que é e para que serve:** PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Java.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/opendataloader-project/opendataloader-pdf.git
+cd opendataloader-pdf
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [microsoft/data-formulator](https://github.com/microsoft/data-formulator)
+- **⭐ Stars:** 16,103 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** 🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/microsoft/data-formulator.git
+cd data-formulator
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [microsoft/BitNet](https://github.com/microsoft/BitNet)
+- **⭐ Stars:** 40,094 | **💻 Linguagem:** `C++`
+- 🎯 **O que é e para que serve:** Official inference framework for 1-bit LLMs
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em C++.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/microsoft/BitNet.git
+cd BitNet
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [mem0ai/mem0](https://github.com/mem0ai/mem0)
+- **⭐ Stars:** 63,389 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Universal memory layer for AI Agents
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/mem0ai/mem0.git
+cd mem0
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [Kritt-ai/open-kritt](https://github.com/Kritt-ai/open-kritt)
+- **⭐ Stars:** 1,791 | **💻 Linguagem:** `JavaScript`
+- 🎯 **O que é e para que serve:** Open-source, self-hosted AI vulnerability research tool that orchestrates agents to find and validate security issues in code.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em JavaScript.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/Kritt-ai/open-kritt.git
+cd open-kritt
+npm install
+npm run dev
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)
+- **⭐ Stars:** 13,946 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Secure, Fast, and Extensible Sandbox runtime for AI agents.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/opensandbox-group/OpenSandbox.git
+cd OpenSandbox
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [jamiepine/voicebox](https://github.com/jamiepine/voicebox)
+- **⭐ Stars:** 50,571 | **💻 Linguagem:** `TypeScript`
+- 🎯 **O que é e para que serve:** The open-source AI voice studio. Clone, dictate, create.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em TypeScript.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/jamiepine/voicebox.git
+cd voicebox
+npm install
+npm run dev
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [averygan/reclip](https://github.com/averygan/reclip)
+- **⭐ Stars:** 7,062 | **💻 Linguagem:** `HTML`
+- 🎯 **O que é e para que serve:** Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em HTML.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/averygan/reclip.git
+cd reclip
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
+### 📦 [coreyhaines31/makerskills](https://github.com/coreyhaines31/makerskills)
+- **⭐ Stars:** 609 | **💻 Linguagem:** `Geral`
+- 🎯 **O que é e para que serve:** AI agent skills for the personal operator's craft — decisions, research, second-brain, content rotation, scenario modeling, and meta-skills to author more. Works with Claude Code, Codex, Cursor.
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em None.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/coreyhaines31/makerskills.git
+cd makerskills
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
 ### 📦 [cursor/plugins](https://github.com/cursor/plugins)
 - **⭐ Stars:** 3,048 | **💻 Linguagem:** `TypeScript`
 - 🎯 **O que é e para que serve:** Cursor plugin specification and official plugins
