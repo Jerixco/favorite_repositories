@@ -41,7 +41,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Star Bot"
           git config --global user.email "bot@github-actions.local"
-          git add CATALOGO_ESTRELAS.md data/processed_stars.json
+          git add CATALOGO_ESTRELAS.md data/
           if git diff --staged --quiet; then
             echo "Nenhum novo favorito detectado nesta execução."
           else

@@ -1,0 +1,710 @@
+{
+  "multica-ai/multica": {
+    "what": "Plataforma open-source e self-hostable em Go para orquestrar frotas de agentes de IA de codificação (Claude Code, Codex, Cursor e outros 17 agentes) atuando como colegas de equipe de engenharia.",
+    "use_cases": "Criar uma equipe autônoma de desenvolvimento: você cria issues no GitHub/GitLab e o Multica distribui automaticamente refatorações, criação de testes unitários e correções de bugs para agentes de IA trabalharem em paralelo.",
+    "quickstart": "```bash\n# 1. Executar o servidor Multica via Docker\ndocker run -d -p 8000:8000 -v multica_data:/data multica/multica:latest\n\n# 2. Acesse http://localhost:8000\n# 3. Conecte seu repositório Git e adicione suas chaves de API (Anthropic/OpenAI)\n# 4. Crie uma issue e atribua ao agente Claude Code ou Codex diretamente pela interface!\n```",
+    "pro_tip": "Configure pipelines de CI/CD para que issues com a tag `label:ai-fix` sejam automaticamente processadas pelo Multica e abram Pull Requests prontos para revisão."
+  },
+  "xoreaxeaxeax/skitter-creek-bath-salts": {
+    "what": "Ferramenta e prova de conceito em C para pesquisa de segurança de hardware criada pelo lendário pesquisador Christopher Domas. Explora técnicas de embaralhamento de endereços de DRAM para contornar o isolamento de memória e acessar regiões restritas do processador (SMM, PSP, C6, microcódigo).",
+    "use_cases": "Pesquisa avançada em segurança ofensiva de hardware, estudo de vulnerabilidades em controladores de memória e quebra de proteções em nível de firmware/ring -2.",
+    "quickstart": "```bash\n# Clone e compile em ambiente de pesquisa Linux bare-metal (não em VM):\ngit clone https://github.com/xoreaxeaxeax/skitter-creek-bath-salts.git\ncd skitter-creek-bath-salts\nmake\n# Execução experimental de diagnóstico de DRAM:\nsudo ./unspaghettify\n```",
+    "pro_tip": "Estudo obrigatório para engenheiros de sistemas operacionais e cibersegurança que desejam entender como o hardware real pode violar as abstrações lógicas de ponteiros de memória."
+  },
+  "JailbrokenAI/wallbreaker": {
+    "what": "Harness de automação para testes de Red-Teaming e jailbreak em Large Language Models (LLMs). Automatiza ataques de injeção de prompt, bypass de moderação e evasão de guardrails de segurança.",
+    "use_cases": "Auditar e blindar aplicações corporativas com IA antes de colocá-las em produção, descobrindo vulnerabilidades de injeção de prompt em chatbots, agentes e sistemas RAG.",
+    "quickstart": "```bash\n# Instalação e execução do teste contra um endpoint local ou de nuvem:\ngit clone https://github.com/JailbrokenAI/wallbreaker.git\ncd wallbreaker\npip install -r requirements.txt\npython wallbreaker.py --target http://localhost:8000/v1 --model \"gpt-4o\" --attack-suite all\n```",
+    "pro_tip": "Integre o Wallbreaker ao seu pipeline de CI/CD de prompts para garantir que mudanças nas instruções do sistema não abram novas brechas de segurança."
+  },
+  "firecrawl/pdf-inspector": {
+    "what": "Biblioteca de altíssima performance em Rust desenvolvida pelo time do Firecrawl para inspeção profunda, classificação e extração instantânea de texto em PDFs, diferenciando documentos escaneados de PDFs nativos.",
+    "use_cases": "Otimizar pipelines de RAG e processamento de documentos: verificar em milissegundos se um PDF contém texto selecionável (extração instantânea sem custo) ou se requer OCR por visão computacional (economizando milhares de dólares em API).",
+    "quickstart": "```bash\n# Adicionar ao seu projeto Rust:\ncargo add pdf-inspector\n\n# Ou utilizar a CLI compilada:\ngit clone https://github.com/firecrawl/pdf-inspector.git\ncd pdf-inspector\ncargo build --release\n./target/release/pdf-inspector inspect documento.pdf\n```",
+    "pro_tip": "Use como filtro de entrada (*gatekeeper*) na sua aplicação antes de enviar arquivos para LLMs de visão como GPT-4o ou Claude 3.5 Sonnet."
+  },
+  "lllyasviel/Fooocus": {
+    "what": "Software open-source de geração de imagens por inteligência artificial baseado em Stable Diffusion XL (SDXL). Focado em eliminar a complexidade de nós e configurações manuais, entregando qualidade fotorrealista imediata apenas com prompts.",
+    "use_cases": "Criação de imagens comerciais, fotografias realistas de produtos, artes conceituais, ilustrações para landing pages e prototipagem visual sem necessidade de aprender nós ou parâmetros avançados.",
+    "quickstart": "```bash\n# Instalação rápida no Windows/Linux:\ngit clone https://github.com/lllyasviel/Fooocus.git\ncd Fooocus\npython -m venv venv\n# No Windows:\nvenv\\Scripts\\activate\n# No Linux:\n# source venv/bin/activate\npip install -r requirements_versions.txt\npython run.py\n# A interface web abrirá automaticamente em http://127.0.0.1:7865\n```",
+    "pro_tip": "Utilize a aba 'Input Image' com 'Image Prompt' (CPDS ou FaceSwap) para transferir poses ou rostos de referência com precisão cirúrgica sem treinar LoRA."
+  },
+  "OpenHands/OpenHands": {
+    "what": "O engenheiro de software autônomo open-source mais popular do mundo (antigo OpenDevin). Capaz de planejar arquiteturas, escrever código em qualquer linguagem, executar comandos de terminal, rodar testes e criar Pull Requests completos sozinho.",
+    "use_cases": "Desenvolvimento autônomo de novas funcionalidades, resolução de bugs reportados em issues do GitHub e migrações de bibliotecas legadas sem intervenção humana contínua.",
+    "quickstart": "```bash\n# Executar via Docker com 1 comando:\ndocker run -it --pull=always \\\n  -e SANDBOX_USER_ID=$(id -u) \\\n  -e LLM_API_KEY=\"sua_chave_anthropic_ou_openai\" \\\n  -e LLM_MODEL=\"anthropic/claude-3-7-sonnet-20250219\" \\\n  -v /var/run/docker.sock:/var/run/docker.sock \\\n  -p 3000:3000 \\\n  --name openhands-app \\\n  docker.all-hands.dev/all-hands-ai/openhands:latest\n# Abra http://localhost:3000 no navegador e comece a delegar tarefas!\n```",
+    "pro_tip": "Monte o diretório do seu projeto local como volume compartilhado para que o OpenHands altere seus arquivos diretamente em tempo real."
+  },
+  "novuhq/novu": {
+    "what": "Infraestrutura open-source de notificações para desenvolvedores. Unifica em uma única API o envio de emails transacionais, SMS, Web Push, Mobile Push, mensagens de chat (Discord/Slack/WhatsApp) e centrais de notificação in-app prontas para uso.",
+    "use_cases": "Substituir integrações manuais de múltiplos provedores (SendGrid, Twilio, Firebase) por um painel centralizado onde templates e regras de envio podem ser gerenciados sem alterar o código da aplicação.",
+    "quickstart": "```bash\n# 1. Iniciar localmente com Docker Compose:\ngit clone https://github.com/novuhq/novu.git\ncd novu/docker/local\ndocker compose up -d\n# 2. Acesse o painel em http://localhost:4200\n\n# 3. Integrar no seu backend Node.js:\n# npm install @novu/node\n# const { Novu } = require('@novu/node');\n# const novu = new Novu('SUA_API_KEY');\n# await novu.trigger('novo-pedido', { to: { subscriberId: 'user_123' }, payload: { valor: 99.90 } });\n```",
+    "pro_tip": "Use o componente `@novu/notification-center` no React/Next.js para ter aquele ícone de sino com popover de notificações e leitura em tempo real funcionando com 5 linhas de código."
+  },
+  "medusajs/medusa": {
+    "what": "Motor de comércio eletrônico (e-commerce) headless, modular e open-source em TypeScript/Node.js. Considerado a principal alternativa aberta e customizável ao Shopify para criar lojas escaláveis.",
+    "use_cases": "Criação de lojas virtuais de alta performance, plataformas B2B de atacado, marketplaces multi-vendedor e checkouts com regras de precificação customizadas.",
+    "quickstart": "```bash\n# Criar uma nova aplicação Medusa completa em 1 comando:\nnpx create-medusa-app@latest minha-loja-virtual\ncd minha-loja-virtual\nnpm run dev\n# Backend rodando em http://localhost:9000 e Painel Admin em http://localhost:9000/app\n```",
+    "pro_tip": "Integre com o template oficial Next.js Starter da Medusa para obter uma vitrine com Server-Side Rendering (SSR) ultrarrápida e pontuação 100 no Google PageSpeed."
+  },
+  "appwrite/appwrite": {
+    "what": "Plataforma completa de Backend-as-a-Service (BaaS) open-source, autocontida e segura. Oferece Autenticação com OAuth, Banco de Dados Relacional/NoSQL, Armazenamento de Arquivos, Cloud Functions serverless e WebSockets em tempo real.",
+    "use_cases": "Desenvolver o backend de aplicativos mobile (Flutter, iOS, Android), aplicações web (React, Vue, Svelte) e SaaS completos sem precisar programar servidores de infraestrutura do zero.",
+    "quickstart": "```bash\n# Instalação no Docker (Windows/Linux/macOS):\ndocker run -it --rm \\\n    --volume //var/run/docker.sock:/var/run/docker.sock \\\n    --volume appwrite:/usr/src/code/appwrite:rw \\\n    --entrypoint=\"install\" \\\n    appwrite/appwrite:latest\n# Acesse o console administrativo em http://localhost\n```",
+    "pro_tip": "Use as Cloud Functions do Appwrite com runtime Python ou Node.js para executar lógica confidencial de pagamentos ou integrações de IA acionadas por eventos de banco de dados."
+  },
+  "different-ai/openwork": {
+    "what": "Aplicativo desktop open-source para gerenciamento e sincronização de fluxos de trabalho de IA, habilidades e servidores MCP entre diferentes ferramentas (Claude Code, Codex, Cursor) e colaboradores de time.",
+    "use_cases": "Configurar e centralizar sua coleção de ferramentas de IA (MCPs, automações e prompts) uma única vez e utilizá-las instantaneamente em todas as suas máquinas e editores.",
+    "quickstart": "```bash\n# 1. Baixe o instalador para seu sistema operacional (Windows/Mac/Linux) na aba Releases do GitHub\n# 2. Conecte o plugin OpenWork MCP ao seu editor (Claude Code ou Cursor):\nclaude mcp add openwork\n```",
+    "pro_tip": "Permite criar workspaces compartilhados com a equipe para que todos utilizem as mesmas ferramentas e integrações de banco de dados sem reconfigurações manuais."
+  },
+  "n8n-io/n8n": {
+    "what": "A plataforma líder mundial de automação de fluxos de trabalho self-hosted com suporte nativo a nós de IA Generativa, LangChain, agentes e mais de 400 integrações com sistemas externos.",
+    "use_cases": "Automatizar tarefas corporativas completas: receber leads via formulário, qualificar com IA, registrar no CRM, emitir cobrança no gateway de pagamento e notificar a equipe no WhatsApp/Discord.",
+    "quickstart": "```bash\n# Iniciar localmente com Docker:\ndocker run -it --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n\n# Acesse http://localhost:5678 no navegador e monte seus fluxos arrastando nós!\n```",
+    "pro_tip": "Combine o nó 'AI Agent' com o nó 'Tool Definition' para criar agentes que consultam seu banco de dados PostgreSQL automaticamente quando um cliente faz perguntas no chat."
+  },
+  "NousResearch/hermes-agent": {
+    "what": "Agente autônomo de raciocínio, codificação e execução de ferramentas baseado na renomada família de modelos open-weights Hermes da Nous Research.",
+    "use_cases": "Executar agentes inteligentes com capacidades de chamada de ferramentas e encadeamento lógico em infraestrutura própria (100% privada e local), sem depender de APIs proprietárias.",
+    "quickstart": "```bash\ngit clone https://github.com/NousResearch/hermes-agent.git\ncd hermes-agent\npip install -r requirements.txt\n# Executar conectando ao seu modelo local no Ollama ou vLLM:\npython main.py --model-endpoint http://localhost:11434/v1 --model \"nous-hermes\"\n```",
+    "pro_tip": "Ideal para empresas que lidam com dados estritamente sigilosos e não podem trafegar informações por servidores externos da OpenAI ou Anthropic."
+  },
+  "nexu-io/open-design": {
+    "what": "Plataforma open-source de design e prototipagem assistida por inteligência artificial, servindo como alternativa aberta a ferramentas como Claude Design e v0.",
+    "use_cases": "Geração rápida de componentes de interface, layouts responsivos e iterações visuais a partir de descrições em linguagem natural com múltiplos modelos de IA.",
+    "quickstart": "```bash\n# Clone e execute localmente:\ngit clone https://github.com/nexu-io/open-design.git\ncd open-design\nnpm install\nnpm run dev\n# Acesse o estúdio de design no navegador\n```",
+    "pro_tip": "Use para criar mockups funcionais e exportar código React/Tailwind limpo diretamente para o seu projeto principal."
+  },
+  "guillaumemeyer/watermarks-remover": {
+    "what": "Ferramenta em Python que utiliza visão computacional e algoritmos de inpainting para identificar e remover marcas d'água de imagens e vídeos de maneira automatizada.",
+    "use_cases": "Limpeza de imagens para datasets de treino de IA, restauração de fotografias antigas e remoção de carimbos indesejados em mídias autorizadas.",
+    "quickstart": "```bash\ngit clone https://github.com/guillaumemeyer/watermarks-remover.git\ncd watermarks-remover\npip install -r requirements.txt\npython remove.py --input imagem_com_marca.png --output imagem_limpa.png\n```",
+    "pro_tip": "Gere uma máscara binária aproximada da área do carimbo para acelerar o tempo de processamento e melhorar a fidelidade do preenchimento."
+  },
+  "github/spec-kit": {
+    "what": "Kit de ferramentas open-source oficial do GitHub para desenvolvimento guiado por especificações (Spec-Driven Development) integrado a agentes de IA.",
+    "use_cases": "Estruturar o processo de engenharia de software com agentes de código: definir detalhadamente o 'o que construir' antes de começar a codificar, evitando alucinações e retrabalho.",
+    "quickstart": "```bash\n# Clone ou adicione os templates ao seu repositório:\ngit clone https://github.com/github/spec-kit.git\n# Adicione a pasta .specs ao seu projeto e instrua seu agente (Claude Code / Copilot) a ler a especificação antes de codificar!\n```",
+    "pro_tip": "Fazer o agente de IA escrever o arquivo de especificação primeiro e pedir sua aprovação antes de tocar em qualquer linha de código reduz erros em até 80%."
+  },
+  "harry0703/MoneyPrinterTurbo": {
+    "what": "Automação 'end-to-end' em Python para geração em massa de vídeos curtos verticais (TikTok, YouTube Shorts, Instagram Reels). Gera o roteiro com LLM, narra com TTS realista, seleciona vídeos de fundo em HD, sincroniza legendas e exporta o MP4 pronto.",
+    "use_cases": "Criação automatizada de canais 'Dark' de curiosidades, notícias, finanças ou motivação, gerando dezenas de vídeos diários sem edição manual.",
+    "quickstart": "```bash\n# Executar via Docker:\ndocker run -d -p 8501:8501 -v ./storage:/app/storage harry0703/moneyprinterturbo:latest\n# Abra http://localhost:8501, escolha o tema, a voz em Português e clique em 'Gerar Vídeo'\n```",
+    "pro_tip": "Selecione o provedor Edge-TTS com a voz `pt-BR-AntonioNeural` ou `pt-BR-FranciscaNeural` para narrações com entonação humana e zero custo de API."
+  },
+  "santifer/career-ops": {
+    "what": "Manual estratégico e prático de operações de carreira para engenheiros de software. Ensina técnicas de prospecção ativa de vagas, formatação de currículo de alto impacto, preparação técnica e negociação salarial.",
+    "use_cases": "Conquistar posições de destaque no mercado de tecnologia internacional, passar em processos seletivos concorridos e negociar ofertas em moeda forte (Dólar/Euro).",
+    "quickstart": "```bash\n# Acesse diretamente o guia traduzido para Português do Brasil:\n# https://github.com/santifer/career-ops/blob/main/README.pt-BR.md\n```",
+    "pro_tip": "Aplique a técnica de 'Proof of Work' (Prova de Trabalho) documentada no repositório: submeta um mini-projeto resolvendo uma dor real da empresa antes mesmo da primeira entrevista técnica."
+  },
+  "JCodesMore/ai-website-cloner-template": {
+    "what": "Template e conjunto de instruções para agentes de IA (Claude Code, Cursor, Codex) clonarem visualmente qualquer website a partir de uma URL e reconstruí-lo como uma aplicação moderna em Next.js e Tailwind CSS.",
+    "use_cases": "Engenharia reversa de landing pages, prototipagem rápida de novos produtos baseados em designs de sucesso e estudo de interfaces modernas.",
+    "quickstart": "```bash\n# 1. Clique no botão 'Use this template' no GitHub\n# 2. Abra o projeto no Claude Code / Cursor\n# 3. Execute o comando com a URL do site desejado:\n# 'Clone o design da página https://exemplo.com e recrie como componentes Next.js'\n```",
+    "pro_tip": "Forneça screenshots em alta resolução da página desejada junto com a URL para que o agente ajuste espaçamentos e tipografia com perfeição."
+  },
+  "opengrep/opengrep": {
+    "what": "Motor de análise estática de código (SAST) em OCaml, fork comunitário e 100% open-source do Semgrep. Realiza varreduras ultra-rápidas em busca de vulnerabilidades de segurança e falhas lógicas.",
+    "use_cases": "Auditar repositórios inteiros em segundos para encontrar SQL Injection, XSS, autenticação insegura e quebra de padrões de engenharia em mais de 30 linguagens.",
+    "quickstart": "```bash\n# Instalar e escanear o projeto atual:\nopengrep scan --config auto .\n```",
+    "pro_tip": "Adicione o OpenGrep na pipeline de Pull Requests do GitHub Actions para bloquear automaticamente merges que contenham falhas de segurança conhecidas."
+  },
+  "gitleaks/gitleaks": {
+    "what": "A ferramenta padrão da indústria em Go para detecção em tempo real de segredos, senhas, chaves de API, tokens e certificados privados em repositórios Git.",
+    "use_cases": "Impedir que credenciais sensíveis (chaves AWS, OpenAI, tokens do GitHub) sejam comitadas acidentalmente no histórico do repositório.",
+    "quickstart": "```bash\n# 1. Instalação no Windows/Linux:\n# scoop install gitleaks  (ou baixe o binário no GitHub)\n\n# 2. Varrer todo o histórico do repositório atual:\ngitleaks detect --source . --verbose\n\n# 3. Proteger contra commits perigosos antes do push:\ngitleaks protect --staged --verbose\n```",
+    "pro_tip": "Configure o Gitleaks como hook de `pre-commit` no seu computador: ele cancelará o commit instantaneamente se você esquecer uma chave no arquivo `.env` ou no código."
+  },
+  "zaproxy/zaproxy": {
+    "what": "O OWASP ZAP (Zed Attack Proxy) é o scanner dinâmico de vulnerabilidades web (DAST) e ferramenta de pentest open-source mais utilizado do mundo.",
+    "use_cases": "Realizar testes de invasão autorizados em aplicações web e APIs para identificar falhas em tempo de execução (XSS, CSRF, Injeções, cabeçalhos HTTP inseguros).",
+    "quickstart": "```bash\n# Executar varredura rápida automatizada com Docker:\ndocker run -t zaproxy/zap-stable zap-baseline.py -t https://seu-site-de-teste.com\n```",
+    "pro_tip": "Configure o ZAP como proxy local no seu navegador (porta 8080) para interceptar, modificar e reenviar requisições HTTP manuais durante auditorias de segurança."
+  },
+  "acruz6421-bot/chatgptproxy": {
+    "what": "Proxy reverso leve em Python para interceptar, padronizar e rotear chamadas de API direcionadas aos endpoints do ChatGPT/OpenAI.",
+    "use_cases": "Depuração de requisições, logging local de payloads JSON enviados por ferramentas de IA e balanceamento de chamadas.",
+    "quickstart": "```bash\ngit clone https://github.com/acruz6421-bot/chatgptproxy.git\ncd chatgptproxy\npip install -r requirements.txt\npython proxy.py --port 5000\n```",
+    "pro_tip": "Útil para registrar exatamente quais tokens e mensagens estão sendo enviadas pelo seu editor de código para o servidor da OpenAI."
+  },
+  "acruz6421-bot/CursorProxyFleet": {
+    "what": "Gerenciador de pool inteligente de contas do Cursor em JavaScript. Cria um proxy local compatível com APIs OpenAI/Anthropic com rotação automática de tokens e cookies de sessão.",
+    "use_cases": "Distribuir a carga de requisições de código entre múltiplas contas para contornar limites de taxa locais em testes de desenvolvimento.",
+    "quickstart": "```bash\ngit clone https://github.com/acruz6421-bot/CursorProxyFleet.git\ncd CursorProxyFleet\nnpm install\n# Configure as credenciais no arquivo config.json e inicie:\nnpm start\n```",
+    "pro_tip": "Nunca compartilhe ou comite arquivos contendo cookies de autenticação no GitHub; mantenha-os protegidos no `.env`."
+  },
+  "melgarafael/DeskcommCRM": {
+    "what": "Sistema Operacional de Vendas e CRM open-source brasileiro desenvolvido em Next.js 16 e TypeScript, integrado nativamente ao WhatsApp com agentes de IA para atendimento e qualificação.",
+    "use_cases": "Gerenciar funis de vendas, mensagens e automação de atendimento no WhatsApp sem pagar mensalidades caras por usuário em plataformas fechadas (alternativa ao Kommo e Octadesk).",
+    "quickstart": "```bash\ngit clone https://github.com/melgarafael/DeskcommCRM.git\ncd DeskcommCRM\nnpm install\ncp .env.example .env\nnpm run dev\n# Acesse http://localhost:3000\n```",
+    "pro_tip": "Hospede em uma VPS própria com Docker para ter soberania e privacidade total sobre os dados dos seus clientes e histórico de mensagens."
+  },
+  "img2threejs/img2threejs": {
+    "what": "Ferramenta em Python que analisa um objeto em uma imagem 2D de referência e o reconstrói como um modelo 3D procedural escrito 100% em código Three.js puro (sem arquivos OBJ/GLTF pesados).",
+    "use_cases": "Criar elementos 3D interativos e ultraleves para landing pages e aplicações web sem prejudicar o tempo de carregamento da página.",
+    "quickstart": "```bash\ngit clone https://github.com/img2threejs/img2threejs.git\ncd img2threejs\npip install -r requirements.txt\npython main.py --image objeto.png --output modelo_three.js\n```",
+    "pro_tip": "Como a saída é código JavaScript procedural, você pode animar vértices, cores e rotações dinamicamente via GSAP ou Three.js nativo."
+  },
+  "x1xhlol/system-prompts-and-models-of-ai-tools": {
+    "what": "Compilação e engenharia reversa dos System Prompts oficiais utilizados pelas principais ferramentas de IA do mundo (Cursor, v0, Lovable, Claude Artifacts, Bolt.new, Windsurf).",
+    "use_cases": "Estudar a engenharia de prompts avançada utilizada por empresas referências no setor para instruir agentes a escrever código limpo e arquitetado.",
+    "quickstart": "```bash\n# Acesse as pastas do repositório no GitHub para ler os arquivos markdown com os prompts completos de cada ferramenta.\n```",
+    "pro_tip": "Copie as diretrizes de design e padrões de componentes do system prompt do v0 para utilizar como prompt de sistema dos seus próprios agentes de front-end."
+  },
+  "Graphify-Labs/graphify": {
+    "what": "Framework em Python para converter dados não estruturados, textos e documentos em Grafos de Conhecimento estruturados e navegáveis.",
+    "use_cases": "Construir sistemas avançados de GraphRAG (RAG baseado em grafos) que relacionam entidades complexas e respondem perguntas relacionais com alta precisão.",
+    "quickstart": "```bash\npip install graphify\npython -m graphify.build --input dados.json --output grafo.neo4j\n```",
+    "pro_tip": "O GraphRAG é superior ao RAG vetorial padrão quando você precisa responder perguntas de cruzamento de dados (ex: 'Quais projetos conectam o autor X à tecnologia Y?')."
+  },
+  "DietrichGebert/ponytail": {
+    "what": "Agente/utilitário em JavaScript minimalista que segue a filosofia do 'Dev Sênior Preguiçoso': escreve a menor quantidade de código possível para resolver o problema de forma robusta e definitiva.",
+    "use_cases": "Refatoração de código com foco em simplicidade, concisão e eliminação de complexidade acidental.",
+    "quickstart": "```bash\ngit clone https://github.com/DietrichGebert/ponytail.git\ncd ponytail\nnpm install\nnpm start\n```",
+    "pro_tip": "Excelente referência para programadores que desejam manter o código limpo, legível e direto ao ponto."
+  },
+  "VoltAgent/awesome-agent-skills": {
+    "what": "Catálogo de habilidades (*skills*) reutilizáveis e modulares para agentes de IA autônomos, prontas para importação em frameworks compatíveis.",
+    "use_cases": "Adicionar novas capacidades a agentes de IA (raspagem web, geração de gráficos, testes automatizados, interação com APIs) sem precisar programar do zero.",
+    "quickstart": "```bash\n# Explore o repositório e importe os arquivos SKILL.md desejados na pasta de skills do seu agente.\n```",
+    "pro_tip": "Use a estrutura desses arquivos como modelo padrão para criar suas próprias habilidades de agente customizadas."
+  },
+  "Tracer-Cloud/opensre": {
+    "what": "Framework open-source de agentes de IA para Engenharia de Confiabilidade de Sites (SRE). Conecta mais de 60 ferramentas de infraestrutura (Prometheus, Kubernetes, Datadog) para diagnóstico e mitigação de incidentes.",
+    "use_cases": "Automatizar a análise de causa raiz (RCA) de quedas de servidores, analisar logs de erro automaticamente e propor correções em segundos.",
+    "quickstart": "```bash\ngit clone https://github.com/Tracer-Cloud/opensre.git\ncd opensre\npip install -e .\nopensre start --config config.yaml\n```",
+    "pro_tip": "Configure o OpenSRE para disparar relatórios de diagnóstico no Slack sempre que um alerta crítico do Prometheus for acionado."
+  },
+  "AndrewKochulab/jarvis-dashboard": {
+    "what": "Centro de comando e dashboard modular em JavaScript para monitoramento de sessões do Claude Code, comandos de voz, métricas de produtividade e controle de frotas de agentes.",
+    "use_cases": "Painel de controle unificado para acompanhar o status e progresso de agentes de IA em tempo real com estatísticas de execução.",
+    "quickstart": "```bash\ngit clone https://github.com/AndrewKochulab/jarvis-dashboard.git\ncd jarvis-dashboard\nnpm install\nnpm start\n# Acesse o dashboard no navegador\n```",
+    "pro_tip": "Perfeito para manter em uma tela secundária monitorando o progresso de tarefas longas executadas por agentes em segundo plano."
+  },
+  "mlabonne/llm-course": {
+    "what": "O curso de Large Language Models mais completo e respeitado do GitHub, cobrindo fundamentos, arquiteturas de transformadores, fine-tuning com LoRA/QLoRA, quantização e RAG.",
+    "use_cases": "Capacitação técnica aprofundada para engenheiros de software que desejam dominar o desenvolvimento e customização de modelos de linguagem.",
+    "quickstart": "```bash\n# Acesse os notebooks interativos no Google Colab linkados diretamente no README do repositório:\n# https://github.com/mlabonne/llm-course\n```",
+    "pro_tip": "Siga os notebooks práticos de quantização GGUF para rodar modelos gigantescos diretamente na memória RAM do seu computador pessoal."
+  },
+  "ObservedObserver/ChatGPT-Jailbreak-Prompts": {
+    "what": "Compilação de técnicas de teste de estresse, injeção de prompt e jailbreak em modelos de linguagem para fins de pesquisa de segurança.",
+    "use_cases": "Avaliar se seus chatbots e agentes corporativos possuem defesas sólidas contra usuários tentando quebrar instruções de sistema protegidas.",
+    "quickstart": "```bash\n# Consulte a lista de prompts no repositório e teste contra seu ambiente de homologação.\n```",
+    "pro_tip": "Utilize esses padrões de ataque para criar regras de sanitização de entrada nos seus middlewares de API de IA."
+  },
+  "hacker-gpt/cybergym": {
+    "what": "Aplicação web intencionalmente vulnerável e moderna para treinamento de cibersegurança e desafios de Capture-the-Flag (CTF), cobrindo todo o OWASP Top 10.",
+    "use_cases": "Praticar técnicas de hacking ético e validar a eficácia de ferramentas de varredura SAST/DAST em um ambiente 100% legal e seguro.",
+    "quickstart": "```bash\ngit clone https://github.com/hacker-gpt/cybergym.git\ncd cybergym\nnpm install\nnpm start\n# Acesse no navegador e comece a explorar as vulnerabilidades propostas nos desafios!\n```",
+    "pro_tip": "Excelente laboratório para testar a capacidade de agentes de IA em identificar e corrigir vulnerabilidades automaticamente."
+  },
+  "PDFMathTranslate/PDFMathTranslate": {
+    "what": "Ferramenta em Python extraordinária para tradução de documentos científicos e acadêmicos em PDF. Mantém a diagramação original, fórmulas matemáticas em LaTeX, tabelas e figuras perfeitamente intactas.",
+    "use_cases": "Traduzir artigos científicos complexos em PDF do arXiv (Inglês -> Português) sem desformatar equações matemáticas ou quebrar colunas de texto.",
+    "quickstart": "```bash\n# 1. Instalar via pip:\npip install pdf2zh\n\n# 2. Traduzir qualquer PDF científico:\npdf2zh paper_cientifico.pdf\n# O documento traduzido em PDF bilíngue e mono será gerado automaticamente!\n```",
+    "pro_tip": "Passe o parâmetro `--service deepseek` ou `--service openai` com sua chave de API para obter traduções técnicas com precisão absoluta por frações de centavos."
+  },
+  "Comfy-Org/ComfyUI": {
+    "what": "A interface gráfica modular baseada em nós mais avançada e otimizada para modelos de difusão de imagem e vídeo (SD 1.5, SDXL, Flux, SD3, AnimateDiff).",
+    "use_cases": "Construir pipelines profissionais de produção visual com IA, permitindo controle milimétrico sobre cada etapa do processo de renderização e animação.",
+    "quickstart": "```bash\ngit clone https://github.com/comfyanonymous/ComfyUI.git\ncd ComfyUI\npip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu124\npip install -r requirements.txt\npython main.py\n# Acesse http://127.0.0.1:8188 no navegador\n```",
+    "pro_tip": "Instale a extensão `ComfyUI-Manager` para baixar novos nós, modelos e fluxos de trabalho da comunidade com apenas um clique."
+  },
+  "sandeco/reversa": {
+    "what": "Framework em JavaScript/Python criado pelo Prof. Sandeco para engenharia reversa de documentação: converte código-fonte de sistemas legados em especificações executáveis para agentes de IA.",
+    "use_cases": "Modernizar sistemas antigos (em COBOL, Delphi, PHP antigo, Java legadão) transformando seu comportamento em especificações claras para agentes reescreverem em tecnologias modernas.",
+    "quickstart": "```bash\ngit clone https://github.com/sandeco/reversa.git\ncd reversa\n# Execute o analisador apontando para a pasta do código legado\n```",
+    "pro_tip": "Economiza semanas de análise manual ao migrar código legado para arquiteturas modernas de nuvem."
+  },
+  "DannyMac180/sol-advisor": {
+    "what": "Plugin de orquestração arquitetural para clientes compatíveis com Agent Plugins v1 (como Claude Code). Mantém o levantamento de requisitos, arquitetura, decomposição de tarefas e inspeção de diffs na conversa pai.",
+    "use_cases": "Estruturar o fluxo de desenvolvimento com IA: planejar antes de codificar, dividindo uma grande funcionalidade em micro-etapas verificáveis.",
+    "quickstart": "```bash\n# Executar via Bun como servidor MCP:\nbun run index.ts\n```",
+    "pro_tip": "Evita que agentes de IA façam alterações destrutivas sem planejar a arquitetura antes."
+  },
+  "Z4nzu/hackingtool": {
+    "what": "Suite 'All-in-One' em Python que consolida e instala automaticamente centenas de ferramentas consagradas de cibersegurança, pentest, OSINT, anonimato, Wi-Fi hacking e engenharia social.",
+    "use_cases": "Ambiente de laboratório para estudantes de cibersegurança e profissionais de segurança ofensiva (Red Team).",
+    "quickstart": "```bash\n# Em ambiente Linux/WSL ou Kali:\ngit clone https://github.com/Z4nzu/hackingtool.git\ncd hackingtool\nchmod +x install.sh\nsudo ./install.sh\nsudo hackingtool\n```",
+    "pro_tip": "Execute preferencialmente dentro de uma máquina virtual ou contêiner descartável para não poluir suas dependências do sistema operacional principal."
+  },
+  "zhaoxuya520/reverse-skill": {
+    "what": "Repositório estruturado de conhecimentos, técnicas e roteadores de habilidades em engenharia reversa de software, análise de binários e cibersegurança.",
+    "use_cases": "Estudo de descompilação, análise estática/dinâmica de binários executáveis e desmontagem de programas.",
+    "quickstart": "```bash\n# Explore as seções teóricas e práticas documentadas no repositório para acompanhar roteiros de descompilação.\n```",
+    "pro_tip": "Combine com ferramentas como Ghidra e IDA Pro para praticar análise de malwares e binários de desafios CTF."
+  },
+  "langgenius/dify": {
+    "what": "A plataforma visual líder open-source para desenvolvimento e orquestração de aplicações de IA Generativa. Combina IA visual (Workflow visual canvas), RAG avançado com múltiplos parsers, gestão de prompts, orquestração de agentes e monitoramento em uma única interface intuitiva.",
+    "use_cases": "Criar assistentes inteligentes empresariais, chatbots para atendimento com base na documentação da sua empresa (RAG), fluxos complexos de automação com múltiplos modelos e publicar como API ou Web App em minutos.",
+    "quickstart": "```bash\n# Clonar e iniciar com Docker Compose:\ngit clone https://github.com/langgenius/dify.git\ncd dify/docker\ncp .env.example .env\ndocker compose up -d\n# Acesse http://localhost/install para configurar o administrador\n```",
+    "pro_tip": "O Dify possui integração nativa com bancos de vetores como Milvus, Qdrant e PGVector. Você pode subir um PDF de 500 páginas e ter uma API pronta para responder dúvidas em 5 minutos."
+  },
+  "matheusbach/legen": {
+    "what": "Ferramenta em Python para geração automatizada de legendas e processamento de vídeos usando transcrição inteligente por reconhecimento de fala.",
+    "use_cases": "Legendar vídeos para redes sociais rapidamente mantendo alta sincronia temporal.",
+    "quickstart": "```bash\ngit clone https://github.com/matheusbach/legen.git\ncd legen\npip install -r requirements.txt\npython legen.py --video meu_video.mp4\n```",
+    "pro_tip": "Excelente para quem precisa legendar gravações de aulas ou cortes de podcast sem pagar por ferramentas SaaS caras."
+  },
+  "comet-ml/opik": {
+    "what": "Plataforma open-source moderna de avaliação, observabilidade e tracing para aplicações com LLMs. Permite monitorar cada passo de cadeias e agentes, avaliar respostas com métricas automatizadas (alucinação, relevância, custo, latência) e versionar datasets de teste.",
+    "use_cases": "Descobrir por que seu chatbot respondeu errado, rastrear custos exatos de tokens por usuário e rodar testes automatizados de CI/CD para prompts e agentes.",
+    "quickstart": "```bash\n# 1. Instale a biblioteca Python:\npip install opik\n\n# 2. Inicialize o Opik local (Docker) ou cloud:\nopik configure\n\n# 3. No seu código Python:\nfrom opik import track\n\n@track\ndef meu_agente(pergunta):\n    return \"resposta gerada\"\n```",
+    "pro_tip": "Substitua logs manuais no terminal pelo Opik para ter gráficos visuais completos de árvore de execução de agentes com tempo de cada chamada."
+  },
+  "oso95/scroll-world": {
+    "what": "Skill para agentes de IA que constrói landing pages imersivas 3D com navegação contínua ao rolar a página (*fly-through camera* contínuo sem cortes entre cenas).",
+    "use_cases": "Criar sites institucionais de alto impacto visual para marcas, produtos inovadores e apresentações interativas.",
+    "quickstart": "```bash\n# Instale como skill no Claude Code ou agente compatível:\nclaude skill add oso95/scroll-world\n```",
+    "pro_tip": "Ideal para impressionar clientes com sites que competem com o design de grandes marcas premiadas no Awwwards."
+  },
+  "jujumilk3/leaked-system-prompts": {
+    "what": "Arquivo histórico e atualizado de system prompts extraídos e documentados de modelos comerciais e assistentes de IA.",
+    "use_cases": "Compreensão de guardrails de segurança, comportamento de modelos e técnicas de indução de persona.",
+    "quickstart": "```bash\n# Explore os arquivos markdown categorizados por modelo e empresa no GitHub.\n```",
+    "pro_tip": "Útil para comparar como diferentes empresas resolvem o problema de alucinação e formatação estruturada de respostas."
+  },
+  "Shubhamsaboo/awesome-llm-apps": {
+    "what": "Coleção prática fantástica de dezenas de aplicações completas construídas com LLMs, cobrindo RAG avançado, agentes de pesquisa, visão computacional, assistentes de voz e automação com código em Python/Streamlit/FastAPI.",
+    "use_cases": "Aprender através de código pronto como implementar casos reais de IA (ex: assistente financeiro, extrator de dados de notas fiscais, gerador de relatórios executivos).",
+    "quickstart": "```bash\ngit clone https://github.com/Shubhamsaboo/awesome-llm-apps.git\ncd awesome-llm-apps\ncd advanced_rag\npip install -r requirements.txt\nstreamlit run app.py\n```",
+    "pro_tip": "Antes de criar um projeto de IA do zero, consulte esta lista; 90% das arquiteturas de LLM já possuem um template pronto aqui."
+  },
+  "punkpeye/awesome-mcp-servers": {
+    "what": "O diretório mais completo de servidores Model Context Protocol (MCP). O protocolo MCP é o padrão criado pela Anthropic para conectar modelos de IA (Claude Code, Cursor, Antigravity) a bancos de dados, APIs do GitHub, Slack, Docker, sistemas de arquivos e ferramentas externas.",
+    "use_cases": "Descobrir e plugar superpoderes nos seus assistentes de IA instalando servidores MCP prontos (ex: MCP para PostgreSQL, SQLite, Puppeteer, Brave Search, Git, Kubernetes).",
+    "quickstart": "```json\n// Adicione no seu arquivo de configuração MCP (ex: claude_desktop_config.json):\n{\n  \"mcpServers\": {\n    \"filesystem\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-filesystem\", \"/caminho/do/projeto\"]\n    }\n  }\n}\n```",
+    "pro_tip": "Usar servidores MCP prontos é 10x mais rápido do que escrever integrações manuais de API para agentes."
+  },
+  "anthropics/skills": {
+    "what": "Coleção oficial de skills, extensões e receitas práticas mantidas pela própria Anthropic para expandir as capacidades do Claude Code e agentes de IA.",
+    "use_cases": "Integrar capacidades avançadas de análise de código, automação de testes e fluxos de desenvolvimento diretamente no Claude Code.",
+    "quickstart": "```bash\n# Adicione a skill desejada no Claude Code:\nclaude skill add anthropics/<nome-da-skill>\n```",
+    "pro_tip": "Como é o repositório oficial da Anthropic, as práticas de prompt e ferramentas aqui são as de mais alta qualidade e compatibilidade com Claude 3.5 e 3.7."
+  },
+  "awesome-selfhosted/awesome-selfhosted": {
+    "what": "A maior e mais respeitada enciclopédia colaborativa do mundo de softwares, serviços de rede e aplicações que você pode hospedar em seus próprios servidores.",
+    "use_cases": "Encontrar alternativas livres e auto-hospedadas para qualquer serviço pago (Google Drive, Trello, Notion, Spotify, Slack, Datadog).",
+    "quickstart": "```bash\n# Acesse a lista no GitHub e filtre pela categoria desejada (ex: Analytics, Cloud Storage, CRM, CMS).\n```",
+    "pro_tip": "Guarde este repositório como guia de cabeceira para montar seu próprio laboratório doméstico (Homelab) ou cortar custos da sua empresa."
+  },
+  "public-apis/public-apis": {
+    "what": "O maior diretório coletivo de APIs públicas e gratuitas para desenvolvedores, cobrindo centenas de tópicos (clima, cripto, jogos, saúde, notícias, IA, música, finanças).",
+    "use_cases": "Encontrar dados reais e endpoints para alimentar seus projetos de portfólio, protótipos de produtos e aplicações web sem precisar cadastrar cartão de crédito.",
+    "quickstart": "```bash\n# Explore o índice de categorias no README e filtre por 'Auth: No' ou 'HTTPS: Yes' para integrações instantâneas.\n```",
+    "pro_tip": "Excelente fonte de inspiração para criar mini-SaaS ou ferramentas de produtividade conectando dados de APIs abertas."
+  },
+  "ripienaar/free-for-dev": {
+    "what": "Uma lista monumental de serviços de infraestrutura de TI, SaaS, PaaS, CI/CD, monitoramento, bancos de dados e hospedagem que possuem camadas gratuitas (*free tiers*) para desenvolvedores.",
+    "use_cases": "Montar arquiteturas de software e publicar projetos em produção gastando exatamente $0 em servidores e bancos de dados.",
+    "quickstart": "```bash\n# Consulte a lista sempre que for planejar o deploy de um projeto para escolher o banco, hospedagem e CDN gratuitos ideais.\n```",
+    "pro_tip": "Permite criar produtos e validar ideias de negócio sem custo de infraestrutura inicial."
+  },
+  "sindresorhus/awesome": {
+    "what": "A lista mãe de todas as listas 'Awesome' do GitHub. Contém diretórios com curadoria dos melhores tópicos, bibliotecas, ferramentas e linguagens de toda a computação.",
+    "use_cases": "Ponto de partida definitivo para descobrir as melhores bibliotecas e ferramentas para qualquer linguagem ou tecnologia que você for aprender.",
+    "quickstart": "```bash\n# Acesse no GitHub e utilize a busca (Ctrl+F) para encontrar o ecossistema que deseja dominar.\n```",
+    "pro_tip": "Antes de pesquisar soluções genéricas no Google, busque a lista Awesome correspondente à sua tecnologia."
+  },
+  "JuliusBrussee/caveman": {
+    "what": "Skill ultra-inteligente para Claude Code (e agentes compatíveis) escrita em Go que reduz em até 65% o consumo de tokens de saída forçando o modelo a responder no estilo 'homem das cavernas' (estilo direto, ultra-conciso e sem introduções ou cordialidades inúteis).",
+    "use_cases": "Economizar muito dinheiro em faturas de API e aumentar drasticamente a velocidade de resposta do Claude Code em sessões de refatoração pesada.",
+    "quickstart": "```bash\n# Instalar como skill no Claude Code:\nclaude skill add JuliusBrussee/caveman\n```",
+    "pro_tip": "Use em tarefas de pura implementação ou terminal onde você quer apenas o código ou a resposta direta sem explicações longas."
+  },
+  "odysseus-dev/odysseus": {
+    "what": "Workspace de IA completo e self-hosted projetado para centralizar dados, notas, código e fluxos de trabalho assistidos por inteligência artificial em um ambiente seguro e privativo.",
+    "use_cases": "Ambiente pessoal ou de time para interagir com modelos de linguagem mantendo controle total sobre os dados armazenados.",
+    "quickstart": "```bash\ngit clone https://github.com/odysseus-dev/odysseus.git\ncd odysseus\npip install -r requirements.txt\npython app.py\n```",
+    "pro_tip": "Excelente opção para times que não podem enviar dados confidenciais para ferramentas de nuvem de terceiros."
+  },
+  "thekingsgaming67-sudo/Claude-AI-Max-Pro-Version-26": {
+    "what": "Framework de orquestração de LLMs com foco em janelas de contexto ultra-longas, tokenização avançada e integração de pipelines de ferramentas para fluxos de código com Claude/Codex.",
+    "use_cases": "Gerenciamento de contexto gigante para bases de código extensas e execução com ferramentas especializadas.",
+    "quickstart": "```bash\ngit clone https://github.com/thekingsgaming67-sudo/Claude-AI-Max-Pro-Version-26.git\ncd Claude-AI-Max-Pro-Version-26\n```",
+    "pro_tip": "Estude a arquitetura de particionamento de contexto para aplicar em seus próprios prompts de sistemas complexos."
+  },
+  "rubenmarcus/malicious-repositories": {
+    "what": "Base de dados e lista de repositórios maliciosos coletados a partir de golpes aplicados por golpistas no LinkedIn (como falsos testes técnicos de contratação contendo malwares).",
+    "use_cases": "Inteligência de ameaças (Threat Intelligence) e conscientização contra golpes comuns de recrutamento falso no setor de tecnologia.",
+    "quickstart": "```bash\n# Consulte os nomes e padrões listados no repositório antes de rodar códigos desconhecidos recebidos em processos seletivos.\n```",
+    "pro_tip": "Regra de ouro de segurança: NUNCA rode projetos recebidos de recrutadores desconhecidos sem antes inspecionar o `package.json`, scripts de `postinstall` e o código."
+  },
+  "decolua/9router": {
+    "what": "Roteador e proxy local de IA focado em desenvolvimento de software com IA gratuito ou otimizado. Permite conectar ferramentas como Cursor, Claude Code, Cline, Codex e Antigravity a mais de 40 provedores com auto-fallback e redução de até 40% no consumo de tokens.",
+    "use_cases": "Eliminar bloqueios de taxa (*rate limits*) enquanto programa, roteando requisições entre contas e modelos alternativos de forma transparente.",
+    "quickstart": "```bash\n# Instalação rápida via npm:\nnpm install -g 9router\n# Iniciar servidor proxy local:\n9router start --port 3000\n```",
+    "pro_tip": "Excelente alternativa mais leve quando você só precisa de um proxy rápido rodando na porta local sem configuração pesada."
+  },
+  "diegosouzapw/OmniRoute": {
+    "what": "Gateway agregador universal de IA em TypeScript/Node.js. Conecta mais de 330 provedores de IA (incluindo mais de 90 gratuitos) e 1.200+ modelos (Claude, GPT, Gemini, Kimi, DeepSeek, GLM) em um único endpoint compatível com OpenAI/Anthropic. Inclui failover inteligente automático e compressão de contexto (RTK + Caveman) economizando até 95% de tokens.",
+    "use_cases": "Centralizar todas as suas chaves e acessos de IA em um só lugar local ou na nuvem; usar Claude Code, Cursor, Cline ou Copilot sem estourar limites de cota ou gastar fortuna em API.",
+    "quickstart": "```bash\n# 1. Instale e inicie via npx:\nnpx omniroute start\n\n# 2. Acesse a dashboard em http://localhost:8080 para plugar suas chaves ou usar os provedores free\n# 3. Configure no seu editor/CLI (ex: Claude Code / Cursor):\nexport ANTHROPIC_BASE_URL=\"http://localhost:8080/v1\"\nexport OPENAI_BASE_URL=\"http://localhost:8080/v1\"\n```",
+    "pro_tip": "Ative o modo 'Auto-Fallback': se a API da Anthropic rate-limitar ou falhar, o OmniRoute redireciona a mesma chamada em milissegundos para Gemini Pro ou DeepSeek-V3 sem interromper seu código."
+  },
+  "AchoArnold/discount-for-student-dev": {
+    "what": "Lista massiva e constantemente atualizada de descontos, assinaturas gratuitas e benefícios em ferramentas de software (SaaS, IaaS, Cloud, IDEs) disponíveis para estudantes.",
+    "use_cases": "Acessar ferramentas premium de programação, servidores e plataformas gratuitamente enquanto estiver estudando.",
+    "quickstart": "```bash\n# Consulte os links no repositório e aplique para os benefícios utilizando seu e-mail institucional acadêmico (.edu ou similar).\n```",
+    "pro_tip": "Garanta o GitHub Student Developer Pack, que sozinho concede centenas de dólares em créditos na AWS, DigitalOcean, JetBrains e Azure."
+  },
+  "ShreyamMaity/student-offers": {
+    "what": "Guia complementar com todas as ofertas e descontos estudantis mundiais em softwares, IDEs e plataformas em nuvem.",
+    "use_cases": "Economizar na contratação de ferramentas e serviços essenciais de desenvolvimento.",
+    "quickstart": "```bash\n# Navegue pelas categorias e utilize suas credenciais de estudante para resgatar licenças gratuitas.\n```",
+    "pro_tip": "Combine com a lista do AchoArnold para cobrir 100% dos benefícios disponíveis no mercado."
+  },
+  "mn-api/awesome-ai-proxy": {
+    "what": "Lista curada de estações de transbordo (API Proxies / Gateways) do ecossistema de IA, detalhando características, vantagens e disponibilidade de modelos.",
+    "use_cases": "Encontrar serviços de proxy de alta velocidade, rotas de baixa latência e alternativas para acessar APIs de LLM.",
+    "quickstart": "```bash\n# Consulte o README do repositório no GitHub para comparar as opções de proxy listadas por estabilidade e suporte a modelos.\n```",
+    "pro_tip": "Use como catálogo de referência para identificar provedores que oferecem modelos gratuitos ou créditos promocionais."
+  },
+  "denysdovhan/wtfjs": {
+    "what": "Compilação bem-humorada e profundamente didática dos comportamentos mais bizarros, surpreendentes e contra-intuitivos da linguagem JavaScript.",
+    "use_cases": "Entender como a coerção de tipos, protótipos e peculiaridades do motor V8 funcionam por baixo dos panos para nunca mais cair em armadilhas de código.",
+    "quickstart": "```bash\n# Leia os exemplos comentados no README para aprender por que [] == ![] resulta em true ou por que typeof NaN é 'number'.\n```",
+    "pro_tip": "Saber explicar essas peculiaridades é um diferencial clássico em entrevistas técnicas de JavaScript/TypeScript."
+  },
+  "dotnetdevbr/vagas": {
+    "what": "Mural de vagas da comunidade brasileira focado em desenvolvedores .NET, C#, ASP.NET Core e arquitetura corporativa Microsoft.",
+    "use_cases": "Acompanhar oportunidades de emprego em back-end .NET em empresas nacionais e internacionais.",
+    "quickstart": "```bash\n# Navegue na aba 'Issues' do repositório no GitHub e filtre por nível de senioridade e modelo de trabalho (Presencial/Híbrido/Remoto).\n```",
+    "pro_tip": "O ecossistema .NET tem uma demanda gigantesca no setor corporativo e bancário com excelentes faixas salariais."
+  },
+  "andreasbm/web-skills": {
+    "what": "Um mapa mental e visual interativo impressionante que organiza todas as habilidades fundamentais e avançadas que um desenvolvedor web moderno precisa dominar (HTML, CSS, JS, A11y, Performance, PWA, DevOps).",
+    "use_cases": "Identificar lacunas no seu conhecimento e montar seu plano de estudos para evoluir de Júnior a Sênior.",
+    "quickstart": "```bash\n# Acesse a versão online em https://andreasbm.github.io/web-skills/ e clique em cada nó para ler resumos e referências oficiais.\n```",
+    "pro_tip": "Excelente para revisar conceitos antes de entrevistas técnicas."
+  },
+  "remoteintech/remote-jobs": {
+    "what": "Diretório colaborativo mantido pela comunidade com centenas de empresas de tecnologia de todo o mundo que contratam profissionais 100% remotos.",
+    "use_cases": "Encontrar oportunidades de trabalho remoto no Brasil e no exterior (ganhando em dólar ou euro) sem depender apenas do feed do LinkedIn.",
+    "quickstart": "```bash\n# Acesse o site https://remoteintech.company e filtre empresas por políticas de contratação global.\n```",
+    "pro_tip": "Muitas empresas listadas aqui contratam 'Remote Anywhere', permitindo que você trabalhe do Brasil recebendo remuneração internacional."
+  },
+  "hideraldoluis/roadmap-do-desenvolvedor-web": {
+    "what": "Roteiro estruturado e sequencial para quem quer se tornar um desenvolvedor web completo, abordando fundamentos, linguagens, frameworks e ferramentas modernas.",
+    "use_cases": "Organizar seus passos de estudo sem se perder no excesso de informações.",
+    "quickstart": "```bash\n# Siga o fluxo sugerido no repositório marcando suas etapas concluídas.\n```",
+    "pro_tip": "Foque em consolidar os fundamentos (JavaScript moderno, HTTP, Git) antes de pular para múltiplos frameworks."
+  },
+  "iuricode/padroes-de-commits": {
+    "what": "Guia prático em português elaborado por Iuri Silva que ensina e padroniza as melhores convenções para mensagens de commit no Git (baseado em Conventional Commits).",
+    "use_cases": "Manter um histórico de Git profissional, limpo e legível para recrutadores e colegas de equipe.",
+    "quickstart": "```bash\n# Adote o padrão estruturado em seus commits:\ngit commit -m \"feat: adiciona autenticação via OAuth com Google\"\ngit commit -m \"fix: corrige estouro de memória na exportação de PDF\"\ngit commit -m \"docs: atualiza guia de instalação no README\"\n```",
+    "pro_tip": "Prefixos essenciais: `feat` (nova funcionalidade), `fix` (correção de bug), `docs` (documentação), `refactor` (refatoração sem alterar comportamento), `test` (testes)."
+  },
+  "frontendbr/vagas": {
+    "what": "O maior mural de vagas de Front-end do Brasil baseado em issues do GitHub. Empresas publicam oportunidades diariamente com faixas salariais e stacks requeridas.",
+    "use_cases": "Encontrar vagas de Front-end (React, Vue, Angular, Next.js, HTML/CSS) e se candidatar diretamente com quem está contratando.",
+    "quickstart": "```bash\n# Acesse a aba 'Issues' do repositório no GitHub, filtre pelas labels (ex: Remoto, Júnior, Pleno, Sênior) e envie sua candidatura.\n```",
+    "pro_tip": "Ative as notificações do repositório para receber novas oportunidades publicadas em primeira mão."
+  },
+  "arthurspk/guiadevbrasil": {
+    "what": "Guia monumental de conteúdos, tutoriais, livros e referências em português cobrindo praticamente todas as áreas da tecnologia (Front-end, Back-end, DevOps, Mobile, Dados).",
+    "use_cases": "Guia de consulta para encontrar materiais de estudo de alta qualidade gratuitos em português.",
+    "quickstart": "```bash\n# Consulte o sumário do repositório e navegue até a linguagem ou stack de seu interesse.\n```",
+    "pro_tip": "Perfeito para compartilhar com quem está ingressando na área ou iniciando uma nova linguagem."
+  },
+  "vnxdtzip/phishap": {
+    "what": "Script educacional para criação de Fake Access Point (AP falso) com tela de login capturada para demonstração de vulnerabilidade em redes abertas.",
+    "use_cases": "Testes de conscientização de segurança em redes corporativas (Social Engineering / Wi-Fi Pentesting).",
+    "quickstart": "```bash\n# Uso exclusivo em ambientes autorizados de laboratório para demonstração de riscos do protocolo Wi-Fi público.\n```",
+    "pro_tip": "Demonstra por que o uso de HTTPS e VPNs é mandatório ao utilizar conexões Wi-Fi desconhecidas."
+  },
+  "dennisdelima18pe/Nubank-redesign": {
+    "what": "Projeto front-end que reimagina a interface do Nubank utilizando HTML, CSS e JavaScript puros.",
+    "use_cases": "Estudo de design de interfaces financeiras, organização de CSS e interações fluidas no navegador.",
+    "quickstart": "```bash\ngit clone https://github.com/dennisdelima18pe/Nubank-redesign.git\n# Abra o arquivo index.html no navegador\n```",
+    "pro_tip": "Bom exemplo prático de estruturação de layout sem dependência de frameworks pesados."
+  },
+  "chrislgarry/Apollo-11": {
+    "what": "O código-fonte original completo do computador de orientação da missão Apollo 11 (AGC - Apollo Guidance Computer), escrito em linguagem Assembly pelo time do MIT liderado por Margaret Hamilton em 1969.",
+    "use_cases": "Estudo histórico da ciência da computação, engenharia de software aeroespacial e leitura de código lendário com comentários históricos icônicos.",
+    "quickstart": "```bash\n# Explore os arquivos .agc para ver a lógica de pouso do módulo lunar:\n# https://github.com/chrislgarry/Apollo-11\n```",
+    "pro_tip": "Uma das maiores relíquias da história da computação; veja os comentários bem-humorados deixados pelos engenheiros do MIT no código de 1969."
+  },
+  "cppbrasil/material-de-aprendizado": {
+    "what": "Coleção brasileira curada de materiais, livros, links, cursos e tutoriais para aprender e dominar C e C++ moderno.",
+    "use_cases": "Aprender programação de sistemas, alta performance, compiladores e desenvolvimento de jogos.",
+    "quickstart": "```bash\n# Consulte as apostilas e cursos recomendados no repositório.\n```",
+    "pro_tip": "C e C++ modernos (C++17 e C++20) são linguagens poderosas e muito diferentes do estilo antigo; aproveite a curadoria moderna deste repositório."
+  },
+  "scrapy/scrapy": {
+    "what": "Framework open-source líder em Python para extração de dados (web scraping) e rastreamento web em larga escala. Projetado com arquitetura assíncrona baseada em Twisted, permite extrair dados de milhares de páginas por minuto com pipelines estruturados.",
+    "use_cases": "Coleta massiva de dados de e-commerce e preços; mineração de dados para treinamento de modelos de IA; monitoramento automatizado de notícias e vagas de emprego.",
+    "quickstart": "```bash\npip install scrapy\nscrapy startproject meu_crawler\ncd meu_crawler\nscrapy genspider quotes quotes.toscrape.com\nscrapy crawl quotes -o quotes.json\n```",
+    "pro_tip": "Ajuste `CONCURRENT_REQUESTS = 32` e utilize `DOWNLOAD_DELAY` com `AutoThrottle` habilitado no `settings.py` para maximizar a velocidade de raspagem sem tomar ban de IP."
+  },
+  "memvid/memvid": {
+    "what": "Motor de processamento e indexação de vídeo de altíssima performance escrito em Rust. Permite fatiar, indexar semanticamente e recuperar trechos de vídeo com latência ultra-baixa.",
+    "use_cases": "Busca semântica em acervos de vídeo (ex: 'encontre o momento onde o palestrante fala sobre arquitetura de dados'); corte automatizado de melhores momentos para redes sociais.",
+    "quickstart": "```bash\ngit clone https://github.com/memvid/memvid.git\ncd memvid\ncargo build --release\n./target/release/memvid index --video entrada.mp4 --output index.bin\n```",
+    "pro_tip": "Ative a flag `--features hardware-accel` na compilação do Rust para utilizar aceleração NVENC/VAAPI da placa de vídeo na extração de frames."
+  },
+  "FalkorDB/code-graph": {
+    "what": "Ferramenta de engenharia de contexto em Python que converte código-fonte de repositórios em grafos de conhecimento navegáveis usando o banco de dados em memória FalkorDB.",
+    "use_cases": "Análise de dependências complexas em monorepos; alimentação de agentes de IA com GraphRAG sobre a arquitetura do código; visualização de chamadas de funções e classes.",
+    "quickstart": "```bash\ndocker run -p 6379:6379 -d --name falkordb -v falkor_data:/data falkordb/falkordb:latest\npip install code-graph\ncode-graph index --repo-path ./meu-projeto --db-host localhost:6379\n```",
+    "pro_tip": "Combine queries em Cypher no FalkorDB com agentes de IA para fazer perguntas arquiteturais como: 'quais métodos chamam a função de autenticação sem passar pelo middleware de autorização?'"
+  },
+  "open-webui/open-webui": {
+    "what": "A interface web auto-hospedável mais completa e elegante para modelos de linguagem (LLMs). Funciona como um ChatGPT privado com suporte nativo a Ollama, OpenAI, Claude, RAG com documentos, plugins Python e chamadas de voz.",
+    "use_cases": "Interface central de IA para equipes e empresas; assistente pessoal local rodando 100% offline com Ollama; ambiente de teste para múltiplos modelos e provedores.",
+    "quickstart": "```bash\ndocker run -d -p 3000:8080 -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main\n# Acesse http://localhost:3000\n```",
+    "pro_tip": "Conecte sua instância do Ollama passando `-e OLLAMA_BASE_URL=http://host.docker.internal:11434` no comando Docker para usar seus modelos locais sem nenhuma configuração extra."
+  },
+  "petergyang/no-ai-slop": {
+    "what": "Utilitário em Python para detecção e remoção de clichês, jargões artificiais e vícios de linguagem típicos de textos gerados por IA ('AI slop'), tornando a escrita mais natural e humana.",
+    "use_cases": "Revisão e humanização de artigos, posts do LinkedIn, documentações técnicas e emails gerados por ChatGPT/Claude antes da publicação.",
+    "quickstart": "```bash\npip install no-ai-slop\nno-ai-slop clean --input artigo.md --output artigo_humanizado.md\n```",
+    "pro_tip": "Crie um hook de pre-commit no Git para rodar o utilitário nos arquivos de documentação markdown e manter o tom técnico e direto sem enrolações."
+  },
+  "opendataloader-project/opendataloader-pdf": {
+    "what": "Parser de PDF empresarial e de alta performance em Java/JVM. Converte PDFs complexos com tabelas, formulários e colunas em JSON e Markdown estruturados para pipelines de RAG e IA.",
+    "use_cases": "Extração estruturada de dados de faturas, contratos, extratos bancários e relatórios corporativos para bancos vetoriais de IA.",
+    "quickstart": "```bash\ngit clone https://github.com/opendataloader-project/opendataloader-pdf.git\ncd opendataloader-pdf\n./gradlew build\njava -jar build/libs/opendataloader-pdf.jar --input relatorio.pdf --format markdown\n```",
+    "pro_tip": "Ative o modo `--enable-table-detection` para que tabelas com células mescladas sejam convertidas em formato Markdown tabular perfeitamente alinhado."
+  },
+  "microsoft/data-formulator": {
+    "what": "Ferramenta de pesquisa da Microsoft que combina interação gráfica com IA para transformar, limpar e visualizar dados tabulares complexos iterativamente.",
+    "use_cases": "Exploração e preparação de dados para cientistas de dados e analistas de BI; geração automatizada de gráficos Vega-Lite a partir de comandos em linguagem natural.",
+    "quickstart": "```bash\npip install data-formulator\ndata-formulator --port 5000\n# Acesse http://localhost:5000 no navegador\n```",
+    "pro_tip": "Ideal para transformar dados em formato 'wide' para 'long' (unpivot) apenas descrevendo o formato final desejado em vez de escrever transformações manuais complexas em Pandas."
+  },
+  "microsoft/BitNet": {
+    "what": "Implementação oficial da Microsoft da arquitetura 1-bit LLM (BitNet b1.58). Reduz os pesos do modelo para apenas 3 valores (-1, 0, 1), permitindo inferência ultra-rápida em CPUs comuns com consumo mínimo de memória.",
+    "use_cases": "Executar modelos de IA em dispositivos de borda (Raspberry Pi, celulares, notebooks sem placa de vídeo dedicada) com velocidade altíssima e consumo de energia quase nulo.",
+    "quickstart": "```bash\ngit clone --recursive https://github.com/microsoft/BitNet.git\ncd BitNet\npython -m venv venv\nvenv\\Scripts\\activate\npip install -r requirements.txt\npython setup_env.py --hf-repo HF1BitLLM/Llama3-8B-1.58-100B-tokens -q i2_s\n```",
+    "pro_tip": "Use a quantização de ativações `i2_s` para obter taxas de geração acima de 20 tokens por segundo rodando em um processador Intel/AMD comum."
+  },
+  "mem0ai/mem0": {
+    "what": "Camada de memória universal e inteligente para agentes e assistentes de IA (conhecida como 'The Memory Layer for AI'). Lembra preferências, histórico de conversas e fatos sobre o usuário entre diferentes sessões.",
+    "use_cases": "Assistentes virtuais personalizados; sistemas de suporte ao cliente com memória histórica de chamados; agentes autônomos que aprendem com feedbacks anteriores.",
+    "quickstart": "```bash\npip install mem0ai\n# No código Python:\n# from mem0 import Memory\n# m = Memory()\n# m.add(\"O usuário prefere respostas em Python e mora em Brasília\", user_id=\"matheus\")\n# rel = m.search(\"Qual linguagem o usuário programa?\", user_id=\"matheus\")\n```",
+    "pro_tip": "Configure o backend do Mem0 com PostgreSQL + pgvector ou Qdrant para persistência em larga escala com múltiplos usuários concorrentes."
+  },
+  "Kritt-ai/open-kritt": {
+    "what": "Plataforma open-source em JavaScript para orquestração e execução de agentes de IA locais e descentralizados com foco em automação de tarefas de desenvolvimento.",
+    "use_cases": "Automação de workflows de código em equipe; orquestração de micro-tarefas com agentes locais.",
+    "quickstart": "```bash\ngit clone https://github.com/Kritt-ai/open-kritt.git\ncd open-kritt\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Conecte os webhooks do Kritt com o GitHub para automatizar testes e triagem de pull requests recém-abertos."
+  },
+  "opensandbox-group/OpenSandbox": {
+    "what": "Runtime de sandbox e isolamento seguro em C/Linux para execução de código gerado por agentes de IA de forma controlada, prevenindo danos ao sistema operacional hospedeiro.",
+    "use_cases": "Ambiente de execução segura para agentes autônomos (Claude Code, OpenHands) executarem comandos bash, Python e scripts de teste sem risco de invasão ou corrupção.",
+    "quickstart": "```bash\ngit clone https://github.com/opensandbox-group/OpenSandbox.git\ncd OpenSandbox\nmake\nsudo ./opensandbox --rootfs /var/sandboxes/ubuntu --exec \"python3 main.py\"\n```",
+    "pro_tip": "Configure limites rígidos de cgroups (CPU, RAM e limite de processos) para evitar ataques de Denial of Service (DoS) por loops infinitos de agentes."
+  },
+  "jamiepine/voicebox": {
+    "what": "Estúdio de voz open-source de ponta construído em TypeScript/React. Permite ditado por voz ultrarrápido, clonagem de voz, transcrição de áudio e integração com múltiplos modelos de fala.",
+    "use_cases": "Ditado profissional para programação sem as mãos; geração de áudio realista para vídeos e podcasts; acessibilidade para desenvolvedores.",
+    "quickstart": "```bash\ngit clone https://github.com/jamiepine/voicebox.git\ncd voicebox\nnpm install\nnpm run dev\n# Acesse a interface web do Voicebox no navegador\n```",
+    "pro_tip": "Combine o modelo Whisper local do Voicebox com atalhos globais do teclado para transcrever áudio diretamente no seu editor de código."
+  },
+  "averygan/reclip": {
+    "what": "Ferramenta leve e auto-hospedável para captura, recorte e download de trechos de vídeos online de plataformas como YouTube e Twitch com interface web limpa.",
+    "use_cases": "Criação de cortes rápidos para redes sociais; extração de demonstrações de palestras e aulas para bases de dados de estudo.",
+    "quickstart": "```bash\ngit clone https://github.com/averygan/reclip.git\ncd reclip\n# Execute com Docker ou servidor web local\n```",
+    "pro_tip": "Defina timestamps de início e fim diretamente na URL para automatizar cortes em lote via scripts."
+  },
+  "coreyhaines31/makerskills": {
+    "what": "Coleção prática de habilidades (skills) e prompts estruturados para criadores e desenvolvedores 'makers' utilizarem com Claude Code e assistentes de IA em projetos bootstrap.",
+    "use_cases": "Acelerar o lançamento de produtos SaaS; criar landing pages de alta conversão; definir propostas de valor e estruturas de monetização com auxílio de IA.",
+    "quickstart": "```bash\n# Adicione a pasta de skills ao seu projeto ou importe no Claude Code:\nclaude skill add coreyhaines31/makerskills\n```",
+    "pro_tip": "Use a skill `landing-page-audit` antes de publicar seu site para receber um relatório instantâneo de clareza de proposta e conversão."
+  },
+  "cursor/plugins": {
+    "what": "Repositório oficial de plugins, extensões e integrações para o editor Cursor, permitindo conectar o assistente a bases de dados, documentações e ferramentas externas.",
+    "use_cases": "Expandir o editor Cursor com superpoderes: adicionar conectores para bancos internos, pipelines de CI/CD e linter customizado.",
+    "quickstart": "```bash\n# Explore o catálogo de plugins e instale diretamente no Cursor via Command Palette (Ctrl+Shift+P > Plugins: Install)\n```",
+    "pro_tip": "Mantenha o plugin de documentação `@docs` configurado com a URL oficial das bibliotecas que você mais usa para que o Cursor gere código 100% atualizado."
+  },
+  "google-gemini/cookbook": {
+    "what": "Repositório oficial de receitas práticas, tutoriais e códigos de exemplo da Google para a API Gemini (Gemini 2.0 Flash, Pro, Multimodal, Function Calling, Embeddings).",
+    "use_cases": "Aprender a implementar recursos avançados da API Gemini: processamento de vídeos de 1 hora, análise de áudio em tempo real, chamada estruturada de funções (JSON schema) e busca semântica.",
+    "quickstart": "```bash\ngit clone https://github.com/google-gemini/cookbook.git\ncd cookbook\npip install -r requirements.txt\njupyter notebook\n```",
+    "pro_tip": "Consulte o notebook `structured_outputs.ipynb` para aprender a forçar o Gemini a responder exatamente no schema Pydantic/JSON da sua API."
+  },
+  "openai/openai-agents-python": {
+    "what": "SDK oficial da OpenAI em Python para construção de agentes autônomos multi-etapas com chamada de ferramentas, transferências entre agentes (handoffs) e guardrails.",
+    "use_cases": "Criar agentes complexos que resolvem tarefas de ponta a ponta (ex: agente de suporte que transfere a conversa para o agente de faturamento).",
+    "quickstart": "```bash\npip install openai-agents\n# No seu código:\n# from agents import Agent, Runner\n# agent = Agent(name=\"Assistente\", instructions=\"Você é um assistente útil.\")\n# result = Runner.run_sync(agent, \"Olá!\")\n```",
+    "pro_tip": "Use o padrão de 'Handoff' para dividir um problema gigante em pequenos agentes especialistas (ex: Agente de Triagem -> Agente SQL -> Agente de Email)."
+  },
+  "xai-org/grok-build": {
+    "what": "Sistema de build e compilação de alta performance em Rust desenvolvido para os projetos e infraestruturas do ecossistema xAI/Grok.",
+    "use_cases": "Automação de compilações complexas em monorepos de Rust; otimização de binários com Link-Time Optimization (LTO) e geração de artefatos de IA.",
+    "quickstart": "```bash\ngit clone https://github.com/xai-org/grok-build.git\ncd grok-build\ncargo build --release\n```",
+    "pro_tip": "Configure `codegen-units = 1` e `lto = 'fat'` no `Cargo.toml` para obter binários de Rust com máxima performance de execução."
+  },
+  "anthropics/claude-cookbooks": {
+    "what": "Repositório oficial de guias, receitas e arquiteturas de referência da Anthropic para desenvolvimento profissional com a família Claude 3.5 e 3.7 (Sonnet, Haiku, Opus).",
+    "use_cases": "Dominar técnicas avançadas como Prompt Caching (redução de 90% no custo), Tool Calling, Extended Thinking, RAG com documentos gigantes e visão computacional.",
+    "quickstart": "```bash\ngit clone https://github.com/anthropics/claude-cookbooks.git\ncd claude-cookbooks\npip install -r requirements.txt\njupyter notebook\n```",
+    "pro_tip": "Implemente o `Prompt Caching` da Anthropic em seus agentes para pagar apenas 10% do valor dos tokens em prompts de sistema longos e repetitivos."
+  },
+  "FSECDEV/LEAKSFORUMS": {
+    "what": "Repositório de pesquisa em cibersegurança focado em inteligência de ameaças (Threat Intelligence), monitoramento de vazamentos de credenciais e análise de superfícies de ataque.",
+    "use_cases": "Identificação proativa de credenciais corporativas expostas na dark web; pesquisa em segurança defensiva e auditoria de vazamentos.",
+    "quickstart": "```bash\n# Consulte as regras e scripts de análise no repositório em ambiente isolado.\n```",
+    "pro_tip": "Combine listas de vazamentos com ferramentas como Gitleaks para checar se algum colaborador comitou credenciais presentes em bases públicas."
+  },
+  "msitarzewski/agency-agents": {
+    "what": "Coleção modular de agentes autônomos e personas de IA em Shell/Python configurados para executar tarefas completas de uma agência digital (marketing, redação, SEO, análise de métricas).",
+    "use_cases": "Automatizar a produção de conteúdo, campanhas de email marketing, briefings de design e relatórios de métricas sem equipe numerosa.",
+    "quickstart": "```bash\ngit clone https://github.com/msitarzewski/agency-agents.git\ncd agency-agents\n./run-agency.sh\n```",
+    "pro_tip": "Defina arquivos de contexto da marca na pasta `config/` para que todos os agentes gerem textos seguindo a identidade e tom de voz da sua empresa."
+  },
+  "affaan-m/ECC": {
+    "what": "Repositório de engenharia de software e computação em nuvem com arquiteturas de referência para sistemas corporativos escaláveis em JavaScript/TypeScript.",
+    "use_cases": "Estudo de padrões arquiteturais em nuvem, microsserviços desacoplados e padrões de resiliência (Circuit Breaker, Retry, Dead Letter Queue).",
+    "quickstart": "```bash\ngit clone https://github.com/affaan-m/ECC.git\ncd ECC\nnpm install\n```",
+    "pro_tip": "Utilize os diagramas de arquitetura do repositório como modelo para documentar as decisões de engenharia (ADRs) dos seus projetos."
+  },
+  "trimstray/the-book-of-secret-knowledge": {
+    "what": "Uma das maiores e mais aclamadas coleções do GitHub com comandos de linha de comando, manuais de redes, scripts de pentest, auditoria de segurança, monitoramento e ferramentas de infraestrutura.",
+    "use_cases": "Guia de consulta diária para SysAdmins, DevOps e engenheiros de segurança encontrarem o comando exato de terminal para qualquer diagnóstico de rede ou servidor.",
+    "quickstart": "```bash\n# Acesse o README no GitHub e use o Ctrl+F para encontrar o comando exato para Linux, Docker, Nginx, IPTables ou Wireshark!\n```",
+    "pro_tip": "Salve este repositório nos seus favoritos locais: ele substitui dezenas de buscas no Google quando você precisa debugar problemas de rede ou permissões no Linux."
+  },
+  "obra/superpowers": {
+    "what": "Coleção de scripts de produtividade em Shell e utilitários de automação para transformar o terminal em um ambiente de desenvolvimento de alta velocidade.",
+    "use_cases": "Automação de tarefas repetitivas no terminal, aliases inteligentes e gerenciamento de arquivos em lote.",
+    "quickstart": "```bash\ngit clone https://github.com/obra/superpowers.git\ncd superpowers\n# Adicione ao seu .bashrc ou .zshrc\n```",
+    "pro_tip": "Adicione as funções de busca rápida de histórico do Superpowers ao seu shell para nunca mais perder um comando longo executado semanas atrás."
+  },
+  "vinta/awesome-python": {
+    "what": "A lista com curadoria definitiva das melhores bibliotecas, frameworks e ferramentas do ecossistema Python no mundo.",
+    "use_cases": "Encontrar a biblioteca Python ideal e mais mantida para qualquer desafio (automação, web, dados, segurança, IA, áudio, PDF).",
+    "quickstart": "```bash\n# Explore as categorias no README oficial no GitHub para encontrar a melhor lib para seu projeto.\n```",
+    "pro_tip": "Antes de criar um script do zero em Python, verifique se já existe uma biblioteca consagrada e testada listada nesta curadoria."
+  },
+  "jwasham/coding-interview-university": {
+    "what": "O mais completo plano de estudos autônomo para entrevistas de engenharia de software em grandes empresas de tecnologia (FAANG/Big Tech). Cobre estruturas de dados, algoritmos, complexidade assintótica (Big-O) e design de sistemas.",
+    "use_cases": "Preparação estruturada de médio/longo prazo para passar em processos seletivos internacionais de alta remuneração.",
+    "quickstart": "```bash\n# Siga a trilha diária de estudos documentada no README (disponível também em português!).\n```",
+    "pro_tip": "Resolva os exercícios propostos no LeetCode implementando as estruturas de dados (árvores, grafos, heaps) do zero em código antes de usar bibliotecas prontas."
+  },
+  "donnemartin/system-design-primer": {
+    "what": "O recurso número 1 do mundo para aprender a projetar sistemas distribuídos em larga escala (System Design). Ensina escalabilidade, bancos de dados, cache, load balancers, filas, sharding e consistência.",
+    "use_cases": "Preparação para entrevistas de Sênior/Staff e arquitetura de sistemas reais que precisam suportar milhões de usuários simultâneos.",
+    "quickstart": "```bash\n# Acesse o repositório e explore os estudos de caso práticos (ex: 'Como projetar o Twitter', 'Como projetar o Pastebin').\n```",
+    "pro_tip": "Estude a seção de cálculos 'Back of the Envelope' para aprender a estimar memória, disco e largura de banda de qualquer arquitetura em 2 minutos no quadro branco."
+  },
+  "semantica-agi/semantica": {
+    "what": "Infraestrutura de contexto nativa em grafos para sistemas de IA explicáveis e auditáveis em Python. Conecta memória de agentes, ontologias e grafos de decisão.",
+    "use_cases": "Construção de sistemas de IA corporativos onde cada decisão ou recomendação do agente precisa ser 100% rastreável e auditável.",
+    "quickstart": "```bash\npip install semantica\npython -m semantica.init\n```",
+    "pro_tip": "Use a camada de proveniência do Semantica para gerar relatórios de conformidade (compliance) exigidos por regulações de IA como o EU AI Act."
+  },
+  "coollabsio/coolify": {
+    "what": "A plataforma self-hostable líder open-source alternativa ao Vercel, Netlify e Heroku. Permite fazer deploy de sites estáticos, bancos de dados e aplicações full-stack em qualquer servidor VPS com 1 clique.",
+    "use_cases": "Hospedar todas as suas aplicações, bancos de dados (PostgreSQL, Redis, MySQL) e mini-SaaS em uma VPS de $5 sem pagar planos caros da nuvem.",
+    "quickstart": "```bash\n# Instalação com 1 comando em qualquer servidor Linux Ubuntu/Debian:\ncurl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash\n# Acesse http://SEU_IP:8000\n```",
+    "pro_tip": "Conecte seu repositório do GitHub no Coolify para ter deploys automáticos a cada `git push` com certificados SSL gratuitos gerados via Let's Encrypt."
+  },
+  "zulip/zulip": {
+    "what": "Servidor e aplicação web de chat para equipes 100% open-source com modelo exclusivo de conversas organizadas por tópicos (streams + topics).",
+    "use_cases": "Alternativa auto-hospedada ao Slack e Microsoft Teams que elimina o caos de mensagens e permite manter conversas assíncronas produtivas.",
+    "quickstart": "```bash\ndocker run -d -p 80:80 -p 443:443 --name zulip zulip/docker-zulip:latest\n```",
+    "pro_tip": "Use os tópicos do Zulip para separar discussões por issue ou pull request: ninguém perde o contexto de uma decisão tomada dias atrás."
+  },
+  "metabase/metabase": {
+    "what": "A ferramenta de Business Intelligence (BI) e dashboards analíticos open-source mais simples e intuitiva do mundo. Permite criar gráficos e relatórios sem precisar saber SQL.",
+    "use_cases": "Visualização de métricas de negócio; compartilhamento de relatórios em tempo real com a equipe; criação de dashboards executivos conectados a bancos de dados.",
+    "quickstart": "```bash\ndocker run -d -p 3000:3000 --name metabase metabase/metabase\n# Acesse http://localhost:3000\n```",
+    "pro_tip": "Conecte o Metabase ao seu banco PostgreSQL de produção e crie 'Questions' que enviam resumos automáticos em PDF no Slack toda segunda-feira de manhã."
+  },
+  "PostHog/posthog": {
+    "what": "Plataforma tudo-em-um de análise de produto, gravação de sessões (session replay), feature flags, testes A/B e observabilidade de IA open-source.",
+    "use_cases": "Entender exatamente como os usuários usam seu SaaS; assistir às gravações de tela de usuários com bugs; rastrear conversões de funis de vendas.",
+    "quickstart": "```bash\n# Executar localmente com Docker Compose:\ngit clone https://github.com/PostHog/posthog.git\ncd posthog\ndocker compose up -d\n```",
+    "pro_tip": "Use as Feature Flags do PostHog para lançar novas funcionalidades apenas para 10% dos usuários antes de liberar para a base inteira."
+  },
+  "pocketbase/pocketbase": {
+    "what": "Backend em tempo real open-source em 1 único arquivo executável em Go. Inclui banco SQLite embarcado, autenticação com OAuth2, armazenamento de arquivos e painel de controle admin.",
+    "use_cases": "Construir o backend completo de protótipos, MVPs, aplicativos mobile e sites em menos de 1 hora sem configurar servidores pesados.",
+    "quickstart": "```bash\n# Baixe o executável para seu sistema e inicie:\n./pocketbase serve --http=\"0.0.0.0:8090\"\n# Acesse o painel em http://localhost:8090/_/\n```",
+    "pro_tip": "Como o PocketBase é um binário único, você pode colocá-lo dentro de uma imagem Docker minúscula de 20MB para deploys instantâneos em qualquer nuvem."
+  },
+  "triggerdotdev/trigger.dev": {
+    "what": "Plataforma de código aberto para criação e orquestração de background jobs, fluxos de longa duração e agentes de IA em TypeScript com execução sem timeout.",
+    "use_cases": "Executar tarefas pesadas (geração de relatórios, processamento de vídeos, agentes de IA com múltiplos passos) sem derrubar servidores Next.js ou Vercel.",
+    "quickstart": "```bash\nnpx @trigger.dev/cli@latest init\nnpx @trigger.dev/cli@latest dev\n```",
+    "pro_tip": "Use a função `tasks.trigger()` para disparar processos que demoram mais de 10 minutos sem se preocupar com os limites de timeout do Vercel Serverless."
+  },
+  "Infisical/infisical": {
+    "what": "A plataforma open-source líder para gerenciamento de segredos, variáveis de ambiente (`.env`), certificados e controle de acesso privilegiado.",
+    "use_cases": "Sincronizar variáveis de ambiente entre toda a equipe de desenvolvimento com criptografia de ponta a ponta, eliminando o compartilhamento inseguro de `.env` no Slack ou WhatsApp.",
+    "quickstart": "```bash\n# Instalar a CLI do Infisical:\n# Windows (Scoop): scoop install infisical\n# Ou via npm: npm install -g infisical\ninfisical login\ninfisical run -- npm run dev\n```",
+    "pro_tip": "Use `infisical run -- comando` para injetar variáveis de ambiente dinamicamente na memória da aplicação sem precisar salvar arquivos `.env` em disco."
+  },
+  "HideMeBr/SambaTu": {
+    "what": "Wordlist brasileira de senhas para testes de intrusão e conscientização de segurança. Reúne senhas 100% brasileiras expostas em vazamentos e logs de infostealer.",
+    "use_cases": "Auditoria de força de senhas em empresas brasileiras; testes de resistência em políticas de autenticação contra padrões culturais locais.",
+    "quickstart": "```bash\ngit clone https://github.com/HideMeBr/SambaTu.git\ncd SambaTu\n# Use a lista em ferramentas autorizadas de auditoria de senhas\n```",
+    "pro_tip": "Utilize esta wordlist para auditar se colaboradores da sua organização estão utilizando senhas comuns com termos do vocabulário brasileiro."
+  },
+  "sickn33/agentic-awesome-skills": {
+    "what": "Plano de controle local e biblioteca com mais de 2.000 habilidades (skills) para agentes de IA de codificação (Claude Code, Cursor, Codex, Gemini CLI).",
+    "use_cases": "Descobrir, validar e equipar agentes autônomos com habilidades prontas de desenvolvimento, testes e DevOps.",
+    "quickstart": "```bash\ngit clone https://github.com/sickn33/agentic-awesome-skills.git\ncd agentic-awesome-skills\npip install -r requirements.txt\npython aas_cli.py list\n```",
+    "pro_tip": "Use o comando `aas_cli.py validate` para checar se as dependências exigidas por uma skill estão instaladas antes de ativá-la no seu agente."
+  },
+  "CodebuffAI/freebuff": {
+    "what": "Agente de codificação autônomo open-source gratuito que ajuda desenvolvedores a planejar, implementar e refatorar bases de código complexas.",
+    "use_cases": "Assistente de programação automatizado para tarefas do dia a dia no terminal.",
+    "quickstart": "```bash\nnpm install -g freebuff\nfreebuff start\n```",
+    "pro_tip": "Execute o Freebuff com uma descrição clara do escopo do arquivo antes de solicitar refatorações amplas."
+  },
+  "deepseek-ai/deepseek-harness": {
+    "what": "Framework e harness modular de plugins oficial da DeepSeek para orquestração de agentes de IA de código com alta eficiência de inferência.",
+    "use_cases": "Criar agentes customizados com modelos DeepSeek-V3 e DeepSeek-R1 integrados a ferramentas do sistema.",
+    "quickstart": "```bash\ngit clone https://github.com/deepseek-ai/deepseek-harness.git\ncd deepseek-harness\nnpm install\nnpm run build\n```",
+    "pro_tip": "Aproveite a capacidade de raciocínio profundo do modelo DeepSeek-R1 ativando o modo de planejamento em árvore para tarefas de matemática e algoritmos."
+  },
+  "Egonex-AI/Understand-Anything": {
+    "what": "Ferramenta em TypeScript que converte bases de código complexas em grafos de conhecimento interativos que ensinam a arquitetura do projeto a desenvolvedores e agentes de IA.",
+    "use_cases": "Onboarding ultrarrápido em bases de código legadas gigantescas; navegação visual de módulos e funções antes de realizar refatorações.",
+    "quickstart": "```bash\nnpx understand-anything ./caminho-do-projeto\n# Abre um visualizador interativo em 3D no navegador\n```",
+    "pro_tip": "Gere o grafo de arquitetura antes de passar uma feature para um estagiário ou novo membro da equipe para reduzir o tempo de onboarding de dias para minutos."
+  },
+  "NanoNets/Graft": {
+    "what": "Extensão e servidor MCP de engenharia de contexto para acelerar agentes de IA (Claude Code, Cursor, Codex), fornecendo compreensão semântica da base de código com custo reduzido de tokens.",
+    "use_cases": "Permitir que agentes de IA compreendam grandes monorepos sem estourar o limite de tokens da janela de contexto.",
+    "quickstart": "```bash\nnpm install -g @nanonets/graft\ngraft index .\nclaude mcp add graft\n```",
+    "pro_tip": "Execute `graft index` após grandes refatorações para atualizar o índice local de árvore sintática (Tree-sitter) usado pelos agentes."
+  },
+  "elder-plinius/OBLITERATUS": {
+    "what": "Framework de pesquisa avançada em segurança de modelos de linguagem e Red-Teaming criado pelo pesquisador Plinius para testar os limites de alinhamento de IA.",
+    "use_cases": "Pesquisa de vulnerabilidades em modelos de IA e teste de estresse de sistemas de moderação de conteúdo.",
+    "quickstart": "```bash\ngit clone https://github.com/elder-plinius/OBLITERATUS.git\ncd OBLITERATUS\npip install -r requirements.txt\n```",
+    "pro_tip": "Estudo recomendado para engenheiros de segurança que precisam implementar camadas de defesa contra injeção de prompt adversária."
+  },
+  "PaddlePaddle/PaddleOCR": {
+    "what": "O mais poderoso e leve toolkit de Reconhecimento Óptico de Caracteres (OCR) em Python, com suporte a mais de 100 idiomas e alta precisão na extração de texto de imagens e PDFs para LLMs.",
+    "use_cases": "Digitalização automatizada de documentos; pipelines de visão para RAG com documentos escaneados; extração de dados de fotos de recibos e placas.",
+    "quickstart": "```bash\npip install paddlepaddle paddleocr\n# No terminal ou Python:\n# from paddleocr import PaddleOCR\n# ocr = PaddleOCR(use_angle_cls=True, lang='pt')\n# result = ocr.ocr('documento_escaneado.jpg')\n```",
+    "pro_tip": "Ative o parâmetro `use_angle_cls=True` para que o modelo rotacione automaticamente documentos que foram escaneados de cabeça para baixo ou inclinados."
+  },
+  "google-research/timesfm": {
+    "what": "Modelo fundacional de séries temporais (Time Series Foundation Model) pré-treinado pelo Google Research para previsão de dados temporais em escala.",
+    "use_cases": "Previsão de demanda de estoque; estimativa de tráfego de servidores; projeção de métricas financeiras e vendas com alta precisão sem treinamento manual pesado.",
+    "quickstart": "```bash\npip install timesfm\n# No Python:\n# import timesfm\n# tfm = timesfm.TimesFm(context_len=512, horizon_len=128)\n# tfm.load_from_checkpoint(repo_id=\"google/timesfm-1.0-200m\")\n# forecast, _ = tfm.forecast(sua_serie_temporal)\n```",
+    "pro_tip": "Utilize o TimesFM no modo zero-shot: na maioria dos cenários de séries temporais financeiras e de infraestrutura, ele supera modelos clássicos como ARIMA e Prophet sem necessidade de fine-tuning."
+  },
+  "rtk-ai/rtk": {
+    "what": "Proxy CLI ultra-rápido em Rust que reduz o consumo de tokens de saída em até 60-90% nos comandos de agentes de IA de código sem perda de precisão técnica.",
+    "use_cases": "Economizar centenas de dólares por mês em APIs da OpenAI e Anthropic ao usar Claude Code, Cursor e terminais de IA.",
+    "quickstart": "```bash\n# Baixar o binário único em Rust ou compilar:\ngit clone https://github.com/rtk-ai/rtk.git\ncd rtk\ncargo build --release\n./target/release/rtk proxy --port 8080\n```",
+    "pro_tip": "Aponte o endpoint do seu Claude Code para o proxy do RTK: ele remove automaticamente saídas repetitivas de terminal antes de enviar os tokens de volta para a IA."
+  }
+}

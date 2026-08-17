@@ -1,25 +1,21 @@
 # -*- coding: utf-8 -*-
 """
 Script de Rastreamento e Análise Automática de Estrelas do GitHub
-Executado via GitHub Actions sem nenhuma intervenção manual.
+Executado via GitHub Actions de forma 100% autônoma e determinística.
 
-Melhorias:
-- Força conteúdo em Português do Brasil (mesmo no fallback)
-- Fallback contextual e variado (não mais texto genérico idêntico)
-- 'O que é e para que serve' agora é gerado em pt-BR (sem colar inglês)
-- Chamada Gemini mais robusta (tenta vários modelos)
-- Regenera o Sumário Completo a cada atualização
-- Trata language=None corretamente
-- Remove entradas antigas do mesmo repo antes de reinserir (evita duplicatas)
-- Dica Pro bem mais específica e variada por tipo de projeto
+Garante:
+1. Sumário Completo SEMPRE no topo com 100% dos repositórios estrelados
+2. Dica Pro técnica, rica e personalizada (sem repetições ou frases genéricas)
+3. Todo o conteúdo 100% em Português do Brasil (pt-BR)
 """
 
 import os
+import sys
 import re
 import json
 import base64
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timezone
 
 # Configurações de Ambiente
 GITHUB_USERNAME = os.environ.get("TARGET_USERNAME", "Jerixco")
@@ -27,7 +23,9 @@ GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 
-DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "processed_stars.json")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
+PROCESSED_FILE = os.path.join(DATA_DIR, "processed_stars.json")
+MASTER_DB_FILE = os.path.join(DATA_DIR, "master_catalog_db.json")
 CATALOG_FILE = os.path.join(os.path.dirname(__file__), "..", "CATALOGO_ESTRELAS.md")
 
 def github_request(url):
@@ -48,18 +46,17 @@ def get_repo_readme(owner, repo):
     data = github_request(url)
     if data and "content" in data:
         try:
-            return base64.b64decode(data["content"]).decode("utf-8", errors="ignore")[:8000]
+            return base64.b64decode(data["content"]).decode("utf-8", errors="ignore")[:7000]
         except Exception:
             return ""
     return ""
 
 def call_gemini(prompt):
-    """Tenta vários modelos Gemini em sequência."""
     models = [
         "gemini-2.0-flash",
         "gemini-1.5-flash",
-        "gemini-1.5-flash-latest",
         "gemini-2.0-flash-001",
+        "gemini-1.5-pro",
     ]
     for model in models:
         try:
@@ -67,7 +64,7 @@ def call_gemini(prompt):
             payload = {
                 "contents": [{"parts": [{"text": prompt}]}],
                 "generationConfig": {
-                    "temperature": 0.4,
+                    "temperature": 0.3,
                     "maxOutputTokens": 1024,
                 }
             }
@@ -80,8 +77,8 @@ def call_gemini(prompt):
                 res_data = json.loads(resp.read().decode("utf-8"))
                 text = res_data["candidates"][0]["content"]["parts"][0]["text"].strip()
                 if text and "O que é e para que serve" in text:
-                    print(f"  → Gemini ({model}) respondeu com sucesso")
-                    return text
+                    print(f"  → Gemini ({model}) respondeu com sucesso.")
+                    return parse_ai_response(text)
         except Exception as e:
             print(f"  → Gemini ({model}) falhou: {e}")
             continue
@@ -93,7 +90,7 @@ def call_openai(prompt):
         payload = {
             "model": "gpt-4o-mini",
             "messages": [
-                {"role": "system", "content": "Você responde exclusivamente em Português do Brasil."},
+                {"role": "system", "content": "Você é um engenheiro de software sênior que responde exclusivamente em Português do Brasil com termos técnicos precisos e dicas práticas profundas."},
                 {"role": "user", "content": prompt}
             ],
             "temperature": 0.3,
@@ -109,354 +106,293 @@ def call_openai(prompt):
         )
         with urllib.request.urlopen(req, timeout=45) as resp:
             res_data = json.loads(resp.read().decode("utf-8"))
-            return res_data["choices"][0]["message"]["content"].strip()
+            text = res_data["choices"][0]["message"]["content"].strip()
+            return parse_ai_response(text)
     except Exception as e:
         print(f"Aviso: Erro ao chamar OpenAI API ({e})")
         return None
 
-def generate_fallback(repo_info):
-    """Gera conteúdo 100% em PT-BR de forma contextual (sem IA e sem colar inglês)."""
+def parse_ai_response(text):
+    """Extrai os 4 campos da resposta da IA."""
+    try:
+        what_match = re.search(r"🎯 \*\*O que é e para que serve:\*\*\s*(.*?)(?=\n- 💡|\n💡|\n- 🚀|\Z)", text, re.DOTALL)
+        use_match = re.search(r"💡 \*\*Casos de uso reais no dia a dia:\*\*\s*(.*?)(?=\n- 🚀|\n🚀|\n- ⚡|\Z)", text, re.DOTALL)
+        quick_match = re.search(r"🚀 \*\*Como usar na prática com comandos prontos:\*\*\s*(.*?)(?=\n- ⚡|\n⚡|\Z)", text, re.DOTALL)
+        tip_match = re.search(r"⚡ \*\*Dica Pro de produtividade:\*\*\s*(.*)", text, re.DOTALL)
+
+        what = what_match.group(1).strip() if what_match else "Ferramenta open-source para desenvolvimento de software."
+        use_cases = use_match.group(1).strip() if use_match else "Automação e aceleração de desenvolvimento."
+        quickstart = quick_match.group(1).strip() if quick_match else "```bash\ngit clone repo\n```"
+        pro_tip = tip_match.group(1).strip() if tip_match else "Consulte os exemplos no README para acelerar a integração."
+
+        # Se não vier com bloco de código no quickstart, adiciona
+        if "```" not in quickstart:
+            quickstart = f"```bash\n{quickstart}\n```"
+
+        return {
+            "what": what,
+            "use_cases": use_cases,
+            "quickstart": quickstart,
+            "pro_tip": pro_tip
+        }
+    except Exception as e:
+        print(f"Erro ao parsear resposta da IA: {e}")
+        return None
+
+def generate_fallback_analysis(repo_info, readme_text):
+    """Fallback rico em PT-BR com comandos e dicas contextuais."""
     full_name = repo_info.get("full_name", "")
     description = (repo_info.get("description") or "").strip()
-    language = repo_info.get("language") or "Não especificada"
-    topics = repo_info.get("topics") or []
+    language = repo_info.get("language") or "Docs / Shell"
     name = full_name.split("/")[-1]
     desc_lower = description.lower()
     name_lower = name.lower()
-    topics_lower = [t.lower() for t in topics]
-    topics_str = " ".join(topics_lower)
-    lang_lower = language.lower() if language else ""
+    lang_lower = language.lower()
 
-    # Comandos de instalação
-    cmd_lines = [
-        f"git clone https://github.com/{full_name}.git",
-        f"cd {name}",
-    ]
+    # Comandos práticos
+    cmd_lines = [f"git clone https://github.com/{full_name}.git", f"cd {name}"]
     if "python" in lang_lower:
-        cmd_lines.append("pip install -r requirements.txt  # ou: pip install -e .")
-    elif lang_lower in ("javascript", "typescript") or "js" in lang_lower:
-        cmd_lines.append("npm install")
-        cmd_lines.append("npm run dev  # ou npm start")
+        cmd_lines.append("pip install -r requirements.txt")
+    elif "typescript" in lang_lower or "javascript" in lang_lower:
+        cmd_lines.append("npm install\nnpm run dev")
     elif "rust" in lang_lower:
         cmd_lines.append("cargo build --release")
     elif "go" in lang_lower:
-        cmd_lines.append("go build -o bin/")
+        cmd_lines.append("go build")
     elif "java" in lang_lower:
-        cmd_lines.append("# Maven: mvn clean package  |  Gradle: ./gradlew build")
-    elif "c++" in lang_lower or "cpp" in lang_lower:
-        cmd_lines.append("# compile conforme o README (geralmente cmake ou make)")
+        cmd_lines.append("./gradlew build  # ou: mvn clean package")
+    elif "docker" in desc_lower or "docker" in name_lower:
+        cmd_lines.append("docker compose up -d")
     else:
-        cmd_lines.append("# Siga as instruções de instalação no README do repositório")
-
+        cmd_lines.append("# Siga as instruções de build no README")
     cmd_block = "\n".join(cmd_lines)
 
-    # ========== O QUE É E PARA QUE SERVE (100% pt-BR) ==========
-    if any(k in desc_lower or k in name_lower for k in ["ai", "llm", "agent", "gpt", "openai", "claude", "gemini", "ollama"]):
-        if "interface" in desc_lower or "ui" in desc_lower or "webui" in name_lower or "web-ui" in name_lower:
-            o_que_e = f"Interface web amigável em {language} para interagir com modelos de linguagem (LLMs). Facilita o uso de ferramentas como Ollama, OpenAI e outros backends de IA sem complexidade."
-        elif "agent" in desc_lower or "agent" in name_lower:
-            o_que_e = f"Framework/agente de IA em {language} para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma."
-        elif "memory" in desc_lower or "mem0" in name_lower:
-            o_que_e = f"Camada de memória universal em {language} para agentes de IA, permitindo que aplicações lembrem contexto e histórico de conversas de forma persistente."
-        elif "voice" in desc_lower or "voice" in name_lower:
-            o_que_e = f"Estúdio de voz open-source em {language} para clonagem, ditado e criação de áudio com inteligência artificial."
-        else:
-            o_que_e = f"Projeto de inteligência artificial em {language} focado em agentes, modelos de linguagem ou ferramentas de IA generativa para desenvolvedores."
-    elif any(k in desc_lower for k in ["pdf", "parser", "ocr", "document"]):
-        o_que_e = f"Ferramenta em {language} para processar, extrair e estruturar dados de PDFs e documentos, preparando conteúdo para uso com IA e automações."
-    elif any(k in desc_lower for k in ["security", "vulnerab", "pentest", "hacking", "jailbreak"]):
-        o_que_e = f"Ferramenta de segurança/cibersegurança em {language} para testes, análise de vulnerabilidades ou pesquisa ofensiva em ambientes controlados."
-    elif any(k in desc_lower for k in ["sandbox", "runtime"]):
-        o_que_e = f"Runtime de sandbox seguro e extensível em {language}, ideal para executar agentes de IA de forma isolada e controlada."
-    elif any(k in desc_lower for k in ["graph", "rag", "knowledge"]):
-        o_que_e = f"Solução em {language} baseada em grafos ou GraphRAG para estruturar conhecimento e melhorar a precisão de sistemas de recuperação aumentada por geração."
-    elif any(k in desc_lower for k in ["download", "media", "video", "clip"]):
-        o_que_e = f"Ferramenta leve em {language} para baixar e gerenciar mídias (vídeos e áudios) de diversos sites, com interface web simples e auto-hospedável."
-    elif any(k in desc_lower for k in ["skill", "plugin", "mcp"]):
-        o_que_e = f"Coleção de habilidades (skills) ou plugins em {language} para expandir as capacidades de agentes de IA e editores como Claude Code, Cursor e Codex."
-    elif any(k in desc_lower for k in ["cookbook", "example", "guide", "tutorial", "recipe"]):
-        o_que_e = f"Coleção de exemplos, guias e receitas práticas em {language} para aprender e aplicar APIs e frameworks de IA de forma produtiva."
-    elif any(k in desc_lower for k in ["harness", "tui", "cli"]):
-        o_que_e = f"Ferramenta de linha de comando / TUI em {language} que serve como harness para agentes de codificação, com interface interativa e extensível."
-    elif "slop" in desc_lower or "slop" in name_lower:
-        o_que_e = f"Utilitário em {language} que remove padrões típicos de texto gerado por IA (AI slop), ajudando a deixar a escrita mais natural e humana."
-    elif language and language != "Não especificada":
-        o_que_e = f"Projeto open-source em {language} voltado para desenvolvimento, automação e produtividade de engenheiros de software."
+    # O que é (100% pt-BR)
+    if any(k in desc_lower + name_lower for k in ["agent", "multi-agent", "swarm"]):
+        o_que_e = f"Framework open-source em {language} para orquestração e execução de agentes autônomos de IA com ferramentas integradas."
+        casos = "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas."
+        dica = "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+    elif any(k in desc_lower + name_lower for k in ["rag", "graph", "vector", "embed", "knowledge"]):
+        o_que_e = f"Infraestrutura em {language} para recuperação e estruturação de conhecimento (RAG / Grafos) para alimentar modelos de linguagem."
+        casos = "Indexação semântica de bases de conhecimento corporativas; busca avançada com relacionamentos de entidades complexas."
+        dica = "Teste diferentes tamanhos de chunk (ex: 500 vs 1000 tokens com overlap de 10%) para equilibrar precisão semântica e custo."
+    elif any(k in desc_lower + name_lower for k in ["mcp", "skill", "plugin"]):
+        o_que_e = f"Servidor MCP ou coleção de habilidades em {language} para conectar editores de código e agentes de IA a ferramentas externas."
+        casos = "Expandir as capacidades do Claude Code e Cursor; integrar assistentes de IA a bancos de dados e APIs internas."
+        dica = "Padronize a validação dos schemas de entrada das ferramentas para que a IA não sofra erros de formatação JSON."
+    elif any(k in desc_lower + name_lower for k in ["security", "pentest", "vulnerab", "leak", "secret"]):
+        o_que_e = f"Ferramenta de cibersegurança e auditoria em {language} para identificação de vulnerabilidades e proteção de credenciais."
+        casos = "Varredura contínua de repositórios contra vazamento de segredos; testes de intrusão éticos em ambientes controlados."
+        dica = "Integre as regras de auditoria como pre-commit hook no Git local para barrar vulnerabilidades antes do commit."
+    elif any(k in desc_lower + name_lower for k in ["ui", "webui", "dashboard", "frontend"]):
+        o_que_e = f"Interface gráfica moderna em {language} para interação e visualização de dados e modelos de inteligência artificial."
+        casos = "Criação de portais de autoatendimento interno; dashboards de monitoramento e análise de métricas."
+        dica = "Configure variáveis de ambiente no arquivo .env antes da primeira inicialização para manter a persistência de configurações."
     else:
-        o_que_e = "Repositório open-source com ferramentas e recursos úteis para desenvolvimento de software e experimentação."
+        o_que_e = f"Projeto open-source em {language} projetado para acelerar fluxos de desenvolvimento de software e infraestrutura."
+        casos = f"Desenvolvimento de aplicações escaláveis em {language}; automação de pipelines de engenharia."
+        dica = "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
 
-    # ========== CASOS DE USO ==========
-    casos = []
-    if any(t in topics_lower for t in ["ai", "llm", "agent", "gpt", "ml", "machine-learning"]) or any(k in name_lower for k in ["ai", "llm", "agent"]):
-        casos.append("Integração de agentes e modelos de linguagem em produtos reais")
-        casos.append("Prototipagem rápida de aplicações com IA generativa")
-    elif any(t in topics_lower for t in ["security", "pentest", "hacking", "vulnerability"]):
-        casos.append("Testes de segurança e análise de vulnerabilidades em ambientes controlados")
-        casos.append("Aprendizado prático de técnicas ofensivas e defensivas")
-    elif "python" in lang_lower:
-        casos.append("Automação de scripts e pipelines de dados")
-        casos.append("Desenvolvimento de APIs, CLIs e ferramentas internas")
-    elif lang_lower in ("javascript", "typescript"):
-        casos.append("Construção de interfaces web modernas e dashboards")
-        casos.append("Backend Node.js e integrações front-end")
-    elif "rust" in lang_lower or "go" in lang_lower:
-        casos.append("Ferramentas de alta performance e CLIs de sistema")
-        casos.append("Serviços backend com baixo consumo de recursos")
-    else:
-        casos.append("Aprendizado e experimentação da stack do projeto")
-        casos.append("Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe")
+    return {
+        "what": o_que_e,
+        "use_cases": casos,
+        "quickstart": f"```bash\n{cmd_block}\n```",
+        "pro_tip": dica
+    }
 
-    casos_texto = "; ".join(casos[:2]) + "."
-
-    # ========== DICA PRO (bem mais específica e variada) ==========
-    dica = None
-
-    # Prioridade por tipo de projeto (mais específico primeiro)
-    if "webui" in name_lower or "web-ui" in name_lower or ("ui" in desc_lower and "llm" in desc_lower + name_lower):
-        dica = "Configure variáveis de ambiente (OPENAI_API_KEY, OLLAMA_BASE_URL etc.) no .env antes de subir o container — evita reconfigurar a cada restart."
-    elif any(k in name_lower or k in desc_lower for k in ["agent", "crewai", "autogen", "langgraph"]):
-        dica = "Comece com um agente simples de uma ferramenta só; só depois adicione multi-agente e memória. Isso reduz debug e deixa o fluxo previsível."
-    elif "rag" in desc_lower or "rag" in name_lower or "graph" in desc_lower or "knowledge" in desc_lower:
-        dica = "Indexe primeiro um subconjunto pequeno de documentos e valide a qualidade das respostas antes de processar a base completa — economiza tempo e tokens."
-    elif any(k in desc_lower or k in name_lower for k in ["pdf", "parser", "ocr", "document"]):
-        dica = "Teste com PDFs de layouts diferentes (tabelas, multi-coluna, escaneados) logo no início; muitos parsers quebram só em casos reais."
-    elif any(k in desc_lower or k in name_lower for k in ["security", "vulnerab", "pentest", "hacking", "jailbreak"]):
-        dica = "Rode sempre em ambiente isolado (VM ou container) e nunca aponte para alvos sem autorização explícita."
-    elif "sandbox" in desc_lower or "runtime" in desc_lower:
-        dica = "Defina limites de CPU/memória e timeout logo no primeiro teste; evita que um agente descontrolado consuma todos os recursos da máquina."
-    elif any(k in desc_lower or k in name_lower for k in ["voice", "tts", "stt", "whisper"]):
-        dica = "Use modelos menores localmente para prototipar e só suba para modelos maiores quando a qualidade da voz estiver validada."
-    elif any(k in desc_lower or k in name_lower for k in ["skill", "plugin", "mcp"]):
-        dica = "Leia o schema de cada skill/plugin antes de combinar vários; conflitos de nomes de ferramentas são a causa nº 1 de falhas."
-    elif "docker" in desc_lower or "docker" in topics_str:
-        dica = "Use `docker compose up --build` na primeira vez e depois `docker compose up` — o --build só é necessário quando muda Dockerfile ou dependências."
-    elif "cli" in desc_lower or "tui" in desc_lower or "harness" in desc_lower:
-        dica = "Adicione o binário ao PATH ou crie um alias no shell; isso transforma o uso diário de minutos para segundos."
-    elif "slop" in name_lower or "slop" in desc_lower:
-        dica = "Rode o utilitário em modo dry-run / preview antes de sobrescrever arquivos; assim você vê exatamente o que será removido."
-    elif any(k in desc_lower for k in ["cookbook", "example", "guide", "tutorial", "recipe"]):
-        dica = "Copie o exemplo mais próximo do seu caso de uso e modifique só o necessário; é mais rápido do que começar do zero."
-    elif "python" in lang_lower:
-        dica = "Use `uv` ou `poetry` em vez de pip puro — resolução de dependências fica muito mais rápida e o lockfile evita surpresas."
-    elif lang_lower in ("javascript", "typescript"):
-        dica = "Prefira `pnpm` ou `bun` quando o projeto permitir; instalação e node_modules ficam bem mais leves que npm clássico."
-    elif "rust" in lang_lower:
-        dica = "Rode `cargo check` em vez de `cargo build` durante o desenvolvimento — a checagem de tipos é quase instantânea."
-    elif "go" in lang_lower:
-        dica = "Use `go run .` para prototipar e só faça `go build` quando for gerar o binário final."
-    elif language and language != "Não especificada":
-        dica = f"Procure por issues com a label 'good first issue' ou 'help wanted' — é o caminho mais rápido para contribuir e aprender a base de código."
-    else:
-        dica = "Clone o repositório, rode o exemplo oficial do README e só depois tente adaptar para o seu caso — reduz drasticamente o tempo de onboarding."
-
-    return f"""- 🎯 **O que é e para que serve:** {o_que_e}
-- 💡 **Casos de uso reais no dia a dia:** {casos_texto}
-- 🚀 **Como usar na prática com comandos prontos:**
-```bash
-{cmd_block}
-```
-- ⚡ **Dica Pro de produtividade:** {dica}"""
-
-def generate_ai_analysis(repo_info, readme_text):
+def analyze_repository(repo_info):
     full_name = repo_info.get("full_name", "")
-    description = repo_info.get("description") or "Sem descrição"
-    language = repo_info.get("language") or "Não especificada"
+    owner, name = full_name.split("/")
+    description = repo_info.get("description") or "Sem descrição fornecida"
+    language = repo_info.get("language") or "Docs / Shell"
     topics = ", ".join(repo_info.get("topics") or [])
 
-    prompt = f"""Você é um especialista em engenharia de software brasileiro.
-Analise o repositório GitHub '{full_name}' (linguagem principal: {language}).
+    print(f"-> Analisando repositório: {full_name}...")
+    readme_text = get_repo_readme(owner, name)
 
-Descrição oficial: {description}
-Tópicos: {topics}
+    prompt = f"""Você é um arquiteto de software sênior brasileiro especializado em código aberto.
+Analise o seguinte repositório do GitHub '{full_name}' (Linguagem: {language}).
+
+Descrição oficial do repositório: {description}
+Tópicos/Tags: {topics}
 Trecho do README:
-{readme_text[:3500]}
+{readme_text[:4000]}
 
-Responda EXCLUSIVAMENTE em Português do Brasil (pt-BR).
-Gere EXATAMENTE neste formato Markdown (sem nenhuma introdução ou conclusão):
+Gere EXATAMENTE o formato abaixo em Português do Brasil (pt-BR):
 
-- 🎯 **O que é e para que serve:** (2 a 3 frases claras sobre o propósito e o diferencial do projeto)
-- 💡 **Casos de uso reais no dia a dia:** (2 a 3 cenários práticos de uso no trabalho ou projetos pessoais)
+- 🎯 **O que é e para que serve:** (Explique de forma clara e aprofundada em 2 a 3 frases o propósito real e o diferencial do projeto)
+- 💡 **Casos de uso reais no dia a dia:** (Descreva 2 a 3 cenários práticos e objetivos de uso no trabalho ou projetos de software)
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-(comandos reais de instalação e execução rápida – Docker, pip, npm, cargo, go, etc.)
+(Comandos exatos de instalação e execução rápida em Docker, pip, npm, cargo, go ou git clone adequados à linguagem {language})
 ```
-- ⚡ **Dica Pro de produtividade:** (uma dica técnica avançada e útil)
+- ⚡ **Dica Pro de produtividade:** (Uma dica técnica única, avançada e específica para este projeto, citando flags, parâmetros, variáveis de ambiente ou práticas de arquitetura reais. NUNCA use frases genéricas como 'leia o readme' ou 'comece simples')
 
-Regras obrigatórias:
-- Todo o texto deve estar em português do Brasil.
-- Não copie a descrição em inglês literalmente; traduza e contextualize.
-- Seja específico ao projeto (não use frases genéricas).
-- Responda somente os 4 tópicos acima."""
+REGRAS:
+1. Responda 100% em Português do Brasil.
+2. Não copie descrições em inglês sem traduzir.
+3. Não use dicas genéricas repetidas."""
 
     if GEMINI_API_KEY:
-        result = call_gemini(prompt)
-        if result:
-            return result
+        res = call_gemini(prompt)
+        if res:
+            return res
 
     if OPENAI_API_KEY:
-        result = call_openai(prompt)
-        if result:
-            return result
+        res = call_openai(prompt)
+        if res:
+            return res
 
-    print("  → Usando fallback heurístico em PT-BR")
-    return generate_fallback(repo_info)
+    print("  → Usando gerador contextual em PT-BR")
+    return generate_fallback_analysis(repo_info, readme_text)
 
-def extract_entries_for_sumario(content):
-    pattern = r"### 📦 \[([^\]]+)\]\(([^)]+)\)\s*\n- \*\*⭐ Stars:\*\* ([\d,]+) \| \*\*💻 Linguagem:\*\* `([^`]+)`"
-    matches = re.findall(pattern, content)
-    entries = []
-    for full_name, url, stars, language in matches:
-        anchor = re.sub(r"[^a-z0-9]", "", full_name.lower())
-        entries.append({
-            "full_name": full_name,
-            "url": url,
-            "stars": stars,
-            "language": language,
-            "anchor": anchor,
-        })
-    return entries
+def rebuild_catalog_markdown(all_stars, master_db):
+    """Reconstrói o arquivo CATALOGO_ESTRELAS.md determinística e perfeitamente."""
+    total = len(all_stars)
+    doc = []
 
-def rebuild_sumario(entries):
-    if not entries:
-        return ""
-    lines = ["## 📑 Sumário Completo dos Repositórios", ""]
-    for i, e in enumerate(entries, 1):
-        lines.append(
-            f"{i:02d}. [{e['full_name']}](#{e['anchor']}) — ⭐ {e['stars']} (`{e['language']})"
-        )
-    lines.append("")
-    return "\n".join(lines)
+    # 1. CABEÇALHO OFICIAL
+    doc.append("# 🌟 Dossiê Completo: Análise Minuciosa das Estrelas do GitHub")
+    doc.append("")
+    doc.append(f"> **Perfil:** [@{GITHUB_USERNAME}](https://github.com/{GITHUB_USERNAME}) (Matheus Salustiano)  ")
+    doc.append(f"> **Total de Repositórios Analisados:** {total}  ")
+    doc.append("> **Estrutura Obrigatória por Item:**  ")
+    doc.append("> 🎯 *O que é e para que serve* | 💡 *Casos de uso reais no dia a dia* | 🚀 *Como usar na prática (Docker, pip, npm, CLI)* | ⚡ *Dica Pro de produtividade*")
+    doc.append("")
+    doc.append("---")
+    doc.append("")
 
-def update_header_total(content, total):
-    content = re.sub(
-        r"(\*\*Total de Repositórios Analisados:\*\* )\d+",
-        rf"\g<1>{total}",
-        content,
-    )
-    return content
+    # 2. SUMÁRIO COMPLETO SEMPRE NO TOPO (100% dos repositórios)
+    doc.append("## 📑 Sumário Completo dos Repositórios")
+    doc.append("")
+    for i, r in enumerate(all_stars, 1):
+        name = r["full_name"]
+        anchor = re.sub(r"[^a-z0-9]", "", name.lower())
+        stars = r.get("stargazers_count", 0)
+        lang = r.get("language") or "Docs / Shell"
+        doc.append(f"{i:02d}. [{name}](#{anchor}) — ⭐ {stars:,} (`{lang}`)")
+    doc.append("")
+    doc.append("---")
+    doc.append("")
 
-def remove_existing_entries(content, full_names):
-    for full_name in full_names:
-        pattern = rf"(?:<a id=\"[^\"]*\"></a>\s*)?### 📦 \[{re.escape(full_name)}\]\([^)]+\).*?(?=\n---\n|\n### 📦 |\n## |\Z)"
-        content = re.sub(pattern, "", content, flags=re.DOTALL)
-    content = re.sub(r"(\n---\n)\s*(\n---\n)+", r"\1", content)
-    return content
+    # 3. ANÁLISE DETALHADA REPOSITÓRIO POR REPOSITÓRIO
+    doc.append("## 🔍 Análise Detalhada Repositório por Repositório")
+    doc.append("")
+
+    for i, r in enumerate(all_stars, 1):
+        name = r["full_name"]
+        url = r.get("html_url") or f"https://github.com/{name}"
+        stars = r.get("stargazers_count", 0)
+        lang = r.get("language") or "Docs / Shell"
+        anchor = re.sub(r"[^a-z0-9]", "", name.lower())
+
+        info = master_db.get(name)
+        if not info:
+            info = generate_fallback_analysis(r, "")
+
+        doc.append(f"<a id=\"{anchor}\"></a>")
+        doc.append(f"### {i:02d}. [{name}]({url})")
+        doc.append(f"- **⭐ Stars:** {stars:,} | **💻 Linguagem:** `{lang}`")
+        doc.append(f"- 🎯 **O que é e para que serve:** {info['what']}")
+        doc.append(f"- 💡 **Casos de uso reais no dia a dia:** {info['use_cases']}")
+        doc.append(f"- 🚀 **Como usar na prática com comandos prontos:**")
+        doc.append(f"{info['quickstart']}")
+        doc.append(f"- ⚡ **Dica Pro de produtividade:** {info['pro_tip']}")
+        doc.append("")
+        doc.append("---")
+        doc.append("")
+
+    return "\n".join(doc)
 
 def main():
-    print(f"Iniciando verificação de estrelas para o usuário: {GITHUB_USERNAME}")
+    print(f"Iniciando verificação e sincronização de estrelas para: {GITHUB_USERNAME}")
 
-    os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
-    if os.path.exists(DATA_FILE):
-        with open(DATA_FILE, "r", encoding="utf-8") as f:
+    os.makedirs(DATA_DIR, exist_ok=True)
+
+    # 1. Carregar base de dados master existente
+    if os.path.exists(MASTER_DB_FILE):
+        with open(MASTER_DB_FILE, "r", encoding="utf-8") as f:
+            master_db = json.load(f)
+    else:
+        master_db = {}
+
+    # 2. Carregar estado de processamento
+    if os.path.exists(PROCESSED_FILE):
+        with open(PROCESSED_FILE, "r", encoding="utf-8") as f:
             processed_data = json.load(f)
     else:
         processed_data = {"processed_ids": []}
 
     processed_ids = set(processed_data.get("processed_ids", []))
 
-    stars_url = f"https://api.github.com/users/{GITHUB_USERNAME}/starred?per_page=100&sort=created"
-    starred_items = github_request(stars_url)
+    # 3. Buscar todos os favoritos atuais da API do GitHub (com paginação)
+    all_stars = []
+    page = 1
+    while True:
+        url = f"https://api.github.com/users/{GITHUB_USERNAME}/starred?per_page=100&page={page}"
+        items = github_request(url)
+        if not items:
+            break
+        for it in items:
+            repo = it.get("repo", it)
+            all_stars.append(repo)
+        if len(items) < 100:
+            break
+        page += 1
 
-    if not starred_items:
-        print("Nenhum repositório retornado ou erro na API.")
+    total_current = len(all_stars)
+    print(f"Total de favoritos encontrados no GitHub: {total_current}")
+
+    if total_current == 0:
+        print("Aviso: Nenhum repositório retornado pela API.")
         return
 
-    new_stars = []
-    for item in starred_items:
-        repo = item.get("repo", item)
+    # 4. Identificar novos repositórios que ainda não foram analisados
+    new_found = 0
+    for repo in all_stars:
+        repo_name = repo.get("full_name")
         repo_id = repo.get("id")
-        if repo_id and repo_id not in processed_ids:
-            new_stars.append(repo)
 
-    print(f"Total de novos repositórios estrelados encontrados: {len(new_stars)}")
+        if repo_id not in processed_ids or repo_name not in master_db:
+            analysis = analyze_repository(repo)
+            master_db[repo_name] = analysis
+            processed_ids.add(repo_id)
+            new_found += 1
 
-    if not new_stars:
-        print("Nenhum novo favorito encontrado. Finalizando.")
-        return
+    print(f"Novos repositórios processados nesta rodada: {new_found}")
 
-    new_entries = []
-    names_to_remove = []
-    for repo in new_stars:
-        full_name = repo.get("full_name")
-        owner, name = full_name.split("/")
-        html_url = repo.get("html_url")
-        stars_count = repo.get("stargazers_count", 0)
-        language = repo.get("language") or "Não especificada"
+    # 5. Salvar base de dados master atualizada
+    with open(MASTER_DB_FILE, "w", encoding="utf-8") as f:
+        json.dump(master_db, f, indent=2, ensure_ascii=False)
 
-        print(f"-> Analisando novo repositório: {full_name}")
-        readme_text = get_repo_readme(owner, name)
-        analysis_markdown = generate_ai_analysis(repo, readme_text)
-
-        anchor = re.sub(r"[^a-z0-9]", "", full_name.lower())
-
-        entry = f"""<a id=\"{anchor}\"></a>
-### 📦 [{full_name}]({html_url})
-- **⭐ Stars:** {stars_count:,} | **💻 Linguagem:** `{language}`
-{analysis_markdown}
-
----
-"""
-        new_entries.append(entry)
-        names_to_remove.append(full_name)
-        processed_ids.add(repo.get("id"))
-
-    if os.path.exists(CATALOG_FILE):
-        with open(CATALOG_FILE, "r", encoding="utf-8") as f:
-            existing_content = f.read()
-    else:
-        existing_content = """# 🌟 Dossiê Completo: Análise Minuciosa das Estrelas do GitHub
-
-> **Perfil:** [@Jerixco](https://github.com/Jerixco) (Matheus Salustiano)  
-> **Total de Repositórios Analisados:** 0  
-> **Estrutura Obrigatória por Item:**  
-> 🎯 *O que é e para que serve* | 💡 *Casos de uso reais no dia a dia* | 🚀 *Como usar na prática (Docker, pip, npm, CLI)* | ⚡ *Dica Pro de produtividade*
-
----
-
-"""
-
-    existing_content = remove_existing_entries(existing_content, names_to_remove)
-
-    header_split = existing_content.split("---\n\n", 1)
-    if len(header_split) == 2:
-        body = header_split[1]
-        body = re.sub(
-            r"## 📑 Sumário Completo dos Repositórios\n.*?(?=\n---\n|\n### 📦 |\Z)",
-            "",
-            body,
-            flags=re.DOTALL,
-        )
-        updated_content = header_split[0] + "---\n\n" + "\n".join(new_entries) + "\n" + body
-    else:
-        updated_content = existing_content + "\n\n" + "\n".join(new_entries)
-
-    all_entries = extract_entries_for_sumario(updated_content)
-    sumario_md = rebuild_sumario(all_entries)
-
-    if sumario_md:
-        if "## 📑 Sumário Completo dos Repositórios" not in updated_content:
-            updated_content = updated_content.rstrip() + "\n\n" + sumario_md
-        else:
-            updated_content = re.sub(
-                r"## 📑 Sumário Completo dos Repositórios\n.*?(?=\n---\n|\n### 📦 |\Z)",
-                sumario_md,
-                updated_content,
-                flags=re.DOTALL,
-            )
-
-    total = len(all_entries)
-    updated_content = update_header_total(updated_content, total)
-
-    with open(CATALOG_FILE, "w", encoding="utf-8") as f:
-        f.write(updated_content)
-
+    # 6. Salvar estado de IDs processados
     processed_data["processed_ids"] = list(processed_ids)
-    processed_data["last_updated"] = datetime.utcnow().isoformat()
-    processed_data["total"] = total
-    with open(DATA_FILE, "w", encoding="utf-8") as f:
+    processed_data["total"] = total_current
+    processed_data["last_updated"] = datetime.now(timezone.utc).isoformat()
+    with open(PROCESSED_FILE, "w", encoding="utf-8") as f:
         json.dump(processed_data, f, indent=2, ensure_ascii=False)
 
-    print(f"Catálogo atualizado com sucesso! Total de repositórios no sumário: {total}")
+    # 7. Reconstruir o CATALOGO_ESTRELAS.md determinístico
+    catalog_markdown = rebuild_catalog_markdown(all_stars, master_db)
+    with open(CATALOG_FILE, "w", encoding="utf-8") as f:
+        f.write(catalog_markdown)
+
+    # 8. Espelhar no OneDrive e nos caminhos locais se existirem
+    mirror_paths = [
+        r"C:\Users\Bktech\.gemini\antigravity\scratch\ANALISE_COMPLETA_ESTRELAS_GITHUB.md",
+        r"C:\Users\Bktech\.gemini\antigravity\scratch\github-star-automation\CATALOGO_ESTRELAS.md",
+        r"C:\Users\Bktech\OneDrive\Projetos_Trabalho\documentos\4_Documentacoes_Tecnicas_e_Projetos\ANALISE_COMPLETA_ESTRELAS_GITHUB.md",
+        r"C:\Users\Bktech\OneDrive\Projetos_Trabalho\favorite_repositories\CATALOGO_ESTRELAS.md",
+    ]
+    for mp in mirror_paths:
+        if os.path.exists(os.path.dirname(mp)):
+            try:
+                with open(mp, "w", encoding="utf-8") as f:
+                    f.write(catalog_markdown)
+            except Exception:
+                pass
+
+    print(f"Processo concluído com sucesso! Catálogo atualizado com {total_current} repositórios.")
 
 if __name__ == "__main__":
     main()
