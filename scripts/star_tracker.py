@@ -9,6 +9,7 @@ Melhorias:
 - Chamada Gemini mais robusta (tenta vários modelos)
 - Regenera o Sumário Completo a cada atualização
 - Trata language=None corretamente
+- Remove entradas antigas do mesmo repo antes de reinserir (evita duplicatas)
 """
 
 import os
@@ -242,12 +243,10 @@ Regras obrigatórias:
 
 def extract_entries_for_sumario(content):
     """Extrai todas as entradas detalhadas para montar o sumário."""
-    # Procura blocos ### 📦 [owner/repo](url)
     pattern = r"### 📦 \[([^\]]+)\]\(([^)]+)\)\s*\n- \*\*⭐ Stars:\*\* ([\d,]+) \| \*\*💻 Linguagem:\*\* `([^`]+)`"
     matches = re.findall(pattern, content)
     entries = []
     for full_name, url, stars, language in matches:
-        # Gera um id de âncora simples
         anchor = re.sub(r"[^a-z0-9]", "", full_name.lower())
         entries.append({
             "full_name": full_name,
@@ -270,12 +269,21 @@ def rebuild_sumario(entries):
     return "\n".join(lines)
 
 def update_header_total(content, total):
-    """Atualiza o contador no cabeçalho."""
     content = re.sub(
         r"(\*\*Total de Repositórios Analisados:\*\* )\d+",
         rf"\g<1>{total}",
         content,
     )
+    return content
+
+def remove_existing_entries(content, full_names):
+    """Remove blocos de entradas existentes com os full_names dados (evita duplicatas)."""
+    for full_name in full_names:
+        # Remove bloco que começa com ### 📦 [full_name] até o próximo --- ou fim
+        pattern = rf"(?:<a id=\"[^\"]*\"></a>\s*)?### 📦 \[{re.escape(full_name)}\]\([^)]+\).*?(?=\n---\n|\n### 📦 |\n## |\Z)"
+        content = re.sub(pattern, "", content, flags=re.DOTALL)
+    # Limpa múltiplos --- consecutivos
+    content = re.sub(r"(\n---\n)\s*(\n---\n)+", r"\1", content)
     return content
 
 def main():
@@ -291,7 +299,7 @@ def main():
 
     processed_ids = set(processed_data.get("processed_ids", []))
 
-    # 2. Buscar estrelas (até 100 mais recentes – suficiente para detectar novos)
+    # 2. Buscar estrelas (até 100 mais recentes)
     stars_url = f"https://api.github.com/users/{GITHUB_USERNAME}/starred?per_page=100&sort=created"
     starred_items = github_request(stars_url)
 
@@ -314,6 +322,7 @@ def main():
 
     # 3. Processar novos
     new_entries = []
+    names_to_remove = []
     for repo in new_stars:
         full_name = repo.get("full_name")
         owner, name = full_name.split("/")
@@ -325,7 +334,6 @@ def main():
         readme_text = get_repo_readme(owner, name)
         analysis_markdown = generate_ai_analysis(repo, readme_text)
 
-        # Âncora para o sumário
         anchor = re.sub(r"[^a-z0-9]", "", full_name.lower())
 
         entry = f"""<a id=\"{anchor}\"></a>
@@ -336,6 +344,7 @@ def main():
 ---
 """
         new_entries.append(entry)
+        names_to_remove.append(full_name)
         processed_ids.add(repo.get("id"))
 
     # 4. Atualizar CATALOGO_ESTRELAS.md
@@ -354,11 +363,14 @@ def main():
 
 """
 
-    # Inserir novas entradas no topo (depois do primeiro ---
+    # Remove entradas antigas dos mesmos repos (evita duplicata)
+    existing_content = remove_existing_entries(existing_content, names_to_remove)
+
+    # Inserir novas entradas no topo (depois do primeiro ---)
     header_split = existing_content.split("---\n\n", 1)
     if len(header_split) == 2:
         body = header_split[1]
-        # Remove sumário antigo se existir (vamos regenerar)
+        # Remove sumário antigo se existir
         body = re.sub(
             r"## 📑 Sumário Completo dos Repositórios\n.*?(?=\n---\n|\n### 📦 |\Z)",
             "",
@@ -369,23 +381,21 @@ def main():
     else:
         updated_content = existing_content + "\n\n" + "\n".join(new_entries)
 
-    # Regenerar sumário a partir de todas as entradas atuais
+    # Regenerar sumário
     all_entries = extract_entries_for_sumario(updated_content)
     sumario_md = rebuild_sumario(all_entries)
 
     if sumario_md:
-        # Insere o sumário logo após o cabeçalho (depois do primeiro ---)
-        parts = updated_content.split("---\n\n", 1)
-        if len(parts) == 2:
-            # Coloca o sumário no final do arquivo (ou logo após o header se preferir)
-            # Aqui colocamos no final para não atrapalhar a leitura das análises recentes
-            if "## 📑 Sumário Completo dos Repositórios" not in updated_content:
-                updated_content = updated_content.rstrip() + "\n\n" + sumario_md
-            else:
-                # Já limpamos o antigo, então só adiciona
-                updated_content = updated_content.rstrip() + "\n\n" + sumario_md
+        if "## 📑 Sumário Completo dos Repositórios" not in updated_content:
+            updated_content = updated_content.rstrip() + "\n\n" + sumario_md
+        else:
+            updated_content = re.sub(
+                r"## 📑 Sumário Completo dos Repositórios\n.*?(?=\n---\n|\n### 📦 |\Z)",
+                sumario_md,
+                updated_content,
+                flags=re.DOTALL,
+            )
 
-    # Atualiza o total no header
     total = len(all_entries)
     updated_content = update_header_total(updated_content, total)
 
