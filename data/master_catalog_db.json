@@ -736,5 +736,23 @@
     "use_cases": "Desenvolvimento de aplicações escaláveis em Inno Setup; automação de pipelines de engenharia.",
     "quickstart": "```bash\ngit clone https://github.com/Bill-Stewart/SyncthingWindowsSetup.git\ncd SyncthingWindowsSetup\n# Siga as instruções de build no README\n```",
     "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "Shpigford/chops": {
+    "what": "Framework open-source em Swift para orquestração e execução de agentes autônomos de IA com ferramentas integradas.",
+    "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
+    "quickstart": "```bash\ngit clone https://github.com/Shpigford/chops.git\ncd chops\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+  },
+  "sujeeth36/TradingView-Premium-FREE": {
+    "what": "Interface gráfica moderna em Docs / Shell para interação e visualização de dados e modelos de inteligência artificial.",
+    "use_cases": "Criação de portais de autoatendimento interno; dashboards de monitoramento e análise de métricas.",
+    "quickstart": "```bash\ngit clone https://github.com/sujeeth36/TradingView-Premium-FREE.git\ncd TradingView-Premium-FREE\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Configure variáveis de ambiente no arquivo .env antes da primeira inicialização para manter a persistência de configurações."
+  },
+  "rmyndharis/OpenWA": {
+    "what": "Projeto open-source em TypeScript projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em TypeScript; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/rmyndharis/OpenWA.git\ncd OpenWA\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
   }
 }
