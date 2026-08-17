@@ -11,6 +11,7 @@ Melhorias:
 - Regenera o Sumário Completo a cada atualização
 - Trata language=None corretamente
 - Remove entradas antigas do mesmo repo antes de reinserir (evita duplicatas)
+- Dica Pro bem mais específica e variada por tipo de projeto
 """
 
 import os
@@ -123,13 +124,14 @@ def generate_fallback(repo_info):
     desc_lower = description.lower()
     name_lower = name.lower()
     topics_lower = [t.lower() for t in topics]
+    topics_str = " ".join(topics_lower)
+    lang_lower = language.lower() if language else ""
 
     # Comandos de instalação
     cmd_lines = [
         f"git clone https://github.com/{full_name}.git",
         f"cd {name}",
     ]
-    lang_lower = language.lower() if language else ""
     if "python" in lang_lower:
         cmd_lines.append("pip install -r requirements.txt  # ou: pip install -e .")
     elif lang_lower in ("javascript", "typescript") or "js" in lang_lower:
@@ -206,15 +208,46 @@ def generate_fallback(repo_info):
 
     casos_texto = "; ".join(casos[:2]) + "."
 
-    # ========== DICA PRO ==========
-    if "python" in lang_lower:
-        dica = "Crie um ambiente virtual (venv ou poetry) antes de instalar as dependências para evitar conflitos."
+    # ========== DICA PRO (bem mais específica e variada) ==========
+    dica = None
+
+    # Prioridade por tipo de projeto (mais específico primeiro)
+    if "webui" in name_lower or "web-ui" in name_lower or ("ui" in desc_lower and "llm" in desc_lower + name_lower):
+        dica = "Configure variáveis de ambiente (OPENAI_API_KEY, OLLAMA_BASE_URL etc.) no .env antes de subir o container — evita reconfigurar a cada restart."
+    elif any(k in name_lower or k in desc_lower for k in ["agent", "crewai", "autogen", "langgraph"]):
+        dica = "Comece com um agente simples de uma ferramenta só; só depois adicione multi-agente e memória. Isso reduz debug e deixa o fluxo previsível."
+    elif "rag" in desc_lower or "rag" in name_lower or "graph" in desc_lower or "knowledge" in desc_lower:
+        dica = "Indexe primeiro um subconjunto pequeno de documentos e valide a qualidade das respostas antes de processar a base completa — economiza tempo e tokens."
+    elif any(k in desc_lower or k in name_lower for k in ["pdf", "parser", "ocr", "document"]):
+        dica = "Teste com PDFs de layouts diferentes (tabelas, multi-coluna, escaneados) logo no início; muitos parsers quebram só em casos reais."
+    elif any(k in desc_lower or k in name_lower for k in ["security", "vulnerab", "pentest", "hacking", "jailbreak"]):
+        dica = "Rode sempre em ambiente isolado (VM ou container) e nunca aponte para alvos sem autorização explícita."
+    elif "sandbox" in desc_lower or "runtime" in desc_lower:
+        dica = "Defina limites de CPU/memória e timeout logo no primeiro teste; evita que um agente descontrolado consuma todos os recursos da máquina."
+    elif any(k in desc_lower or k in name_lower for k in ["voice", "tts", "stt", "whisper"]):
+        dica = "Use modelos menores localmente para prototipar e só suba para modelos maiores quando a qualidade da voz estiver validada."
+    elif any(k in desc_lower or k in name_lower for k in ["skill", "plugin", "mcp"]):
+        dica = "Leia o schema de cada skill/plugin antes de combinar vários; conflitos de nomes de ferramentas são a causa nº 1 de falhas."
+    elif "docker" in desc_lower or "docker" in topics_str:
+        dica = "Use `docker compose up --build` na primeira vez e depois `docker compose up` — o --build só é necessário quando muda Dockerfile ou dependências."
+    elif "cli" in desc_lower or "tui" in desc_lower or "harness" in desc_lower:
+        dica = "Adicione o binário ao PATH ou crie um alias no shell; isso transforma o uso diário de minutos para segundos."
+    elif "slop" in name_lower or "slop" in desc_lower:
+        dica = "Rode o utilitário em modo dry-run / preview antes de sobrescrever arquivos; assim você vê exatamente o que será removido."
+    elif any(k in desc_lower for k in ["cookbook", "example", "guide", "tutorial", "recipe"]):
+        dica = "Copie o exemplo mais próximo do seu caso de uso e modifique só o necessário; é mais rápido do que começar do zero."
+    elif "python" in lang_lower:
+        dica = "Use `uv` ou `poetry` em vez de pip puro — resolução de dependências fica muito mais rápida e o lockfile evita surpresas."
     elif lang_lower in ("javascript", "typescript"):
-        dica = "Prefira `npm ci` em CI/CD e use o arquivo de lock para builds reproduzíveis."
-    elif "docker" in desc_lower or "docker" in " ".join(topics_lower):
-        dica = "Rode com Docker Compose quando disponível — facilita o ambiente isolado e a reprodução."
+        dica = "Prefira `pnpm` ou `bun` quando o projeto permitir; instalação e node_modules ficam bem mais leves que npm clássico."
+    elif "rust" in lang_lower:
+        dica = "Rode `cargo check` em vez de `cargo build` durante o desenvolvimento — a checagem de tipos é quase instantânea."
+    elif "go" in lang_lower:
+        dica = "Use `go run .` para prototipar e só faça `go build` quando for gerar o binário final."
+    elif language and language != "Não especificada":
+        dica = f"Procure por issues com a label 'good first issue' ou 'help wanted' — é o caminho mais rápido para contribuir e aprender a base de código."
     else:
-        dica = "Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado."
+        dica = "Clone o repositório, rode o exemplo oficial do README e só depois tente adaptar para o seu caso — reduz drasticamente o tempo de onboarding."
 
     return f"""- 🎯 **O que é e para que serve:** {o_que_e}
 - 💡 **Casos de uso reais no dia a dia:** {casos_texto}
