@@ -706,5 +706,11 @@
     "use_cases": "Economizar centenas de dólares por mês em APIs da OpenAI e Anthropic ao usar Claude Code, Cursor e terminais de IA.",
     "quickstart": "```bash\n# Baixar o binário único em Rust ou compilar:\ngit clone https://github.com/rtk-ai/rtk.git\ncd rtk\ncargo build --release\n./target/release/rtk proxy --port 8080\n```",
     "pro_tip": "Aponte o endpoint do seu Claude Code para o proxy do RTK: ele remove automaticamente saídas repetitivas de terminal antes de enviar os tokens de volta para a IA."
+  },
+  "langchain-ai/langgraph": {
+    "what": "Framework open-source em Python para orquestração e execução de agentes autônomos de IA com ferramentas integradas.",
+    "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
+    "quickstart": "```bash\ngit clone https://github.com/langchain-ai/langgraph.git\ncd langgraph\npip install -r requirements.txt\n```",
+    "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
   }
 }
