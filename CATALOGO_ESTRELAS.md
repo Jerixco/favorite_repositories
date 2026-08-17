@@ -1,7 +1,7 @@
 # 🌟 Dossiê Completo: Análise Minuciosa das Estrelas do GitHub
 
 > **Perfil:** [@Jerixco](https://github.com/Jerixco) (Matheus Salustiano)  
-> **Total de Repositórios Analisados:** 44  
+> **Total de Repositórios Analisados:** 53  
 > **Estrutura Obrigatória por Item:**  
 > 🎯 *O que é e para que serve* | 💡 *Casos de uso reais no dia a dia* | 🚀 *Como usar na prática (Docker, pip, npm, CLI)* | ⚡ *Dica Pro de produtividade*
 
@@ -9,7 +9,7 @@
 
 <a id="memvidmemvid"></a>
 ### 📦 [memvid/memvid](https://github.com/memvid/memvid)
-- **⭐ Stars:** 16,327 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 16,329 | **💻 Linguagem:** `Rust`
 - 🎯 **O que é e para que serve:** Framework/agente de IA em Rust para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma.
 - 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
 - 🚀 **Como usar na prática com comandos prontos:**
@@ -18,7 +18,222 @@ git clone https://github.com/memvid/memvid.git
 cd memvid
 cargo build --release
 ```
-- ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
+- ⚡ **Dica Pro de produtividade:** Comece com um agente simples de uma ferramenta só; só depois adicione multi-agente e memória. Isso reduz debug e deixa o fluxo previsível.
+
+---
+
+<a id="xaiorggrokbuild"></a>
+### 📦 [xai-org/grok-build](https://github.com/xai-org/grok-build)
+- **⭐ Stars:** 25,464 | **💻 Linguagem:** `Rust`
+- 🎯 **O que é e para que serve:** Interface web amigável em Rust para interagir com modelos de linguagem (LLMs). Facilita o uso de ferramentas como Ollama, OpenAI e outros backends de IA sem complexidade.
+- 💡 **Casos de uso reais no dia a dia:** Ferramentas de alta performance e CLIs de sistema; Serviços backend com baixo consumo de recursos.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/xai-org/grok-build.git
+cd grok-build
+cargo build --release
+```
+- ⚡ **Dica Pro de produtividade:** Comece com um agente simples de uma ferramenta só; só depois adicione multi-agente e memória. Isso reduz debug e deixa o fluxo previsível.
+
+---
+
+<a id="fsecdevleaksforums"></a>
+### 📦 [FSECDEV/LEAKSFORUMS](https://github.com/FSECDEV/LEAKSFORUMS)
+- **⭐ Stars:** 248 | **💻 Linguagem:** `Não especificada`
+- 🎯 **O que é e para que serve:** Repositório open-source com ferramentas e recursos úteis para desenvolvimento de software e experimentação.
+- 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/FSECDEV/LEAKSFORUMS.git
+cd LEAKSFORUMS
+# Siga as instruções de instalação no README do repositório
+```
+- ⚡ **Dica Pro de produtividade:** Clone o repositório, rode o exemplo oficial do README e só depois tente adaptar para o seu caso — reduz drasticamente o tempo de onboarding.
+
+---
+
+<a id="semanticaagisemantica"></a>
+### 📦 [semantica-agi/semantica](https://github.com/semantica-agi/semantica)
+- **⭐ Stars:** 8,375 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** Projeto de inteligência artificial em Python focado em agentes, modelos de linguagem ou ferramentas de IA generativa para desenvolvedores.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/semantica-agi/semantica.git
+cd semantica
+pip install -r requirements.txt  # ou: pip install -e .
+```
+- ⚡ **Dica Pro de produtividade:** Indexe primeiro um subconjunto pequeno de documentos e valide a qualidade das respostas antes de processar a base completa — economiza tempo e tokens.
+
+---
+
+<a id="hidemebrsambatu"></a>
+### 📦 [HideMeBr/SambaTu](https://github.com/HideMeBr/SambaTu)
+- **⭐ Stars:** 261 | **💻 Linguagem:** `Não especificada`
+- 🎯 **O que é e para que serve:** Repositório open-source com ferramentas e recursos úteis para desenvolvimento de software e experimentação.
+- 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/HideMeBr/SambaTu.git
+cd SambaTu
+# Siga as instruções de instalação no README do repositório
+```
+- ⚡ **Dica Pro de produtividade:** Clone o repositório, rode o exemplo oficial do README e só depois tente adaptar para o seu caso — reduz drasticamente o tempo de onboarding.
+
+---
+
+<a id="nanonetsgraft"></a>
+### 📦 [NanoNets/Graft](https://github.com/NanoNets/Graft)
+- **⭐ Stars:** 3,131 | **💻 Linguagem:** `TypeScript`
+- 🎯 **O que é e para que serve:** Framework/agente de IA em TypeScript para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/NanoNets/Graft.git
+cd Graft
+npm install
+npm run dev  # ou npm start
+```
+- ⚡ **Dica Pro de produtividade:** Comece com um agente simples de uma ferramenta só; só depois adicione multi-agente e memória. Isso reduz debug e deixa o fluxo previsível.
+
+---
+
+<a id="multicaaimultica"></a>
+### 📦 [multica-ai/multica](https://github.com/multica-ai/multica)
+- **⭐ Stars:** 46,289 | **💻 Linguagem:** `Go`
+- 🎯 **O que é e para que serve:** Framework/agente de IA em Go para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma.
+- 💡 **Casos de uso reais no dia a dia:** Ferramentas de alta performance e CLIs de sistema; Serviços backend com baixo consumo de recursos.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/multica-ai/multica.git
+cd multica
+go build -o bin/
+```
+- ⚡ **Dica Pro de produtividade:** Comece com um agente simples de uma ferramenta só; só depois adicione multi-agente e memória. Isso reduz debug e deixa o fluxo previsível.
+
+---
+
+<a id="santifercareerops"></a>
+### 📦 [santifer/career-ops](https://github.com/santifer/career-ops)
+- **⭐ Stars:** 64,142 | **💻 Linguagem:** `JavaScript`
+- 🎯 **O que é e para que serve:** Projeto de inteligência artificial em JavaScript focado em agentes, modelos de linguagem ou ferramentas de IA generativa para desenvolvedores.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/santifer/career-ops.git
+cd career-ops
+npm install
+npm run dev  # ou npm start
+```
+- ⚡ **Dica Pro de produtividade:** Adicione o binário ao PATH ou crie um alias no shell; isso transforma o uso diário de minutos para segundos.
+
+---
+
+<a id="opengrepopengrep"></a>
+### 📦 [opengrep/opengrep](https://github.com/opengrep/opengrep)
+- **⭐ Stars:** 2,956 | **💻 Linguagem:** `OCaml`
+- 🎯 **O que é e para que serve:** Ferramenta de segurança/cibersegurança em OCaml para testes, análise de vulnerabilidades ou pesquisa ofensiva em ambientes controlados.
+- 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/opengrep/opengrep.git
+cd opengrep
+# Siga as instruções de instalação no README do repositório
+```
+- ⚡ **Dica Pro de produtividade:** Rode sempre em ambiente isolado (VM ou container) e nunca aponte para alvos sem autorização explícita.
+
+---
+
+<a id="dietrichgebertponytail"></a>
+### 📦 [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
+- **⭐ Stars:** 104,396 | **💻 Linguagem:** `JavaScript`
+- 🎯 **O que é e para que serve:** Framework/agente de IA em JavaScript para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/DietrichGebert/ponytail.git
+cd ponytail
+npm install
+npm run dev  # ou npm start
+```
+- ⚡ **Dica Pro de produtividade:** Comece com um agente simples de uma ferramenta só; só depois adicione multi-agente e memória. Isso reduz debug e deixa o fluxo previsível.
+
+---
+
+<a id="voltagentawesomeagentskills"></a>
+### 📦 [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
+- **⭐ Stars:** 30,422 | **💻 Linguagem:** `Não especificada`
+- 🎯 **O que é e para que serve:** Framework/agente de IA em Não especificada para automatizar fluxos de trabalho, raciocínio e execução de ferramentas de forma autônoma.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/VoltAgent/awesome-agent-skills.git
+cd awesome-agent-skills
+# Siga as instruções de instalação no README do repositório
+```
+- ⚡ **Dica Pro de produtividade:** Comece com um agente simples de uma ferramenta só; só depois adicione multi-agente e memória. Isso reduz debug e deixa o fluxo previsível.
+
+---
+
+<a id="langgeniusdify"></a>
+### 📦 [langgenius/dify](https://github.com/langgenius/dify)
+- **⭐ Stars:** 152,672 | **💻 Linguagem:** `TypeScript`
+- 🎯 **O que é e para que serve:** Interface web amigável em TypeScript para interagir com modelos de linguagem (LLMs). Facilita o uso de ferramentas como Ollama, OpenAI e outros backends de IA sem complexidade.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/langgenius/dify.git
+cd dify
+npm install
+npm run dev  # ou npm start
+```
+- ⚡ **Dica Pro de produtividade:** Comece com um agente simples de uma ferramenta só; só depois adicione multi-agente e memória. Isso reduz debug e deixa o fluxo previsível.
+
+---
+
+<a id="oso95scrollworld"></a>
+### 📦 [oso95/scroll-world](https://github.com/oso95/scroll-world)
+- **⭐ Stars:** 8,252 | **💻 Linguagem:** `JavaScript`
+- 🎯 **O que é e para que serve:** Coleção de habilidades (skills) ou plugins em JavaScript para expandir as capacidades de agentes de IA e editores como Claude Code, Cursor e Codex.
+- 💡 **Casos de uso reais no dia a dia:** Construção de interfaces web modernas e dashboards; Backend Node.js e integrações front-end.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/oso95/scroll-world.git
+cd scroll-world
+npm install
+npm run dev  # ou npm start
+```
+- ⚡ **Dica Pro de produtividade:** Leia o schema de cada skill/plugin antes de combinar vários; conflitos de nomes de ferramentas são a causa nº 1 de falhas.
+
+---
+
+<a id="sindresorhusawesome"></a>
+### 📦 [sindresorhus/awesome](https://github.com/sindresorhus/awesome)
+- **⭐ Stars:** 496,736 | **💻 Linguagem:** `Não especificada`
+- 🎯 **O que é e para que serve:** Repositório open-source com ferramentas e recursos úteis para desenvolvimento de software e experimentação.
+- 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/sindresorhus/awesome.git
+cd awesome
+# Siga as instruções de instalação no README do repositório
+```
+- ⚡ **Dica Pro de produtividade:** Clone o repositório, rode o exemplo oficial do README e só depois tente adaptar para o seu caso — reduz drasticamente o tempo de onboarding.
+
+---
+
+<a id="juliusbrusseecaveman"></a>
+### 📦 [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
+- **⭐ Stars:** 98,635 | **💻 Linguagem:** `Go`
+- 🎯 **O que é e para que serve:** Projeto de inteligência artificial em Go focado em agentes, modelos de linguagem ou ferramentas de IA generativa para desenvolvedores.
+- 💡 **Casos de uso reais no dia a dia:** Integração de agentes e modelos de linguagem em produtos reais; Prototipagem rápida de aplicações com IA generativa.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/JuliusBrussee/caveman.git
+cd caveman
+go build -o bin/
+```
+- ⚡ **Dica Pro de produtividade:** Leia o schema de cada skill/plugin antes de combinar vários; conflitos de nomes de ferramentas são a causa nº 1 de falhas.
 
 ---
 
@@ -250,21 +465,6 @@ pip install -r requirements.txt  # ou: pip install -e .
 
 ---
 
-<a id="xaiorggrokbuild"></a>
-### 📦 [xai-org/grok-build](https://github.com/xai-org/grok-build)
-- **⭐ Stars:** 25,463 | **💻 Linguagem:** `Rust`
-- 🎯 **O que é e para que serve:** Interface web amigável em Rust para interagir com modelos de linguagem (LLMs). Facilita o uso de ferramentas como Ollama, OpenAI e outros backends de IA sem complexidade.
-- 💡 **Casos de uso reais no dia a dia:** Ferramentas de alta performance e CLIs de sistema; Serviços backend com baixo consumo de recursos.
-- 🚀 **Como usar na prática com comandos prontos:**
-```bash
-git clone https://github.com/xai-org/grok-build.git
-cd grok-build
-cargo build --release
-```
-- ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
-
----
-
 <a id="anthropicsclaudecookbooks"></a>
 ### 📦 [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks)
 - **⭐ Stars:** 51,654 | **💻 Linguagem:** `Jupyter Notebook`
@@ -274,21 +474,6 @@ cargo build --release
 ```bash
 git clone https://github.com/anthropics/claude-cookbooks.git
 cd claude-cookbooks
-# Siga as instruções de instalação no README do repositório
-```
-- ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
-
----
-
-<a id="fsecdevleaksforums"></a>
-### 📦 [FSECDEV/LEAKSFORUMS](https://github.com/FSECDEV/LEAKSFORUMS)
-- **⭐ Stars:** 248 | **💻 Linguagem:** `Não especificada`
-- 🎯 **O que é e para que serve:** Repositório open-source com ferramentas e recursos úteis para desenvolvimento de software e experimentação.
-- 💡 **Casos de uso reais no dia a dia:** Aprendizado e experimentação da stack do projeto; Reutilização de padrões e arquiteturas em projetos pessoais ou de equipe.
-- 🚀 **Como usar na prática com comandos prontos:**
-```bash
-git clone https://github.com/FSECDEV/LEAKSFORUMS.git
-cd LEAKSFORUMS
 # Siga as instruções de instalação no README do repositório
 ```
 - ⚡ **Dica Pro de produtividade:** Leia a seção de exemplos e o arquivo CONTRIBUTING.md (quando existir) para acelerar a curva de aprendizado.
@@ -323,30 +508,6 @@ npm install
 npm run dev  # ou npm start
 ```
 - ⚡ **Dica Pro de produtividade:** Prefira `npm ci` em CI/CD e use o arquivo de lock para builds reproduzíveis.
-
----
-
-
----
-
-
----
-
-
----
-
-
----
-
-
----
-
-
----
-
-
----
-
 
 ---
 
@@ -432,20 +593,6 @@ cd coding-interview-university
 ```bash
 git clone https://github.com/donnemartin/system-design-primer.git
 cd system-design-primer
-pip install -r requirements.txt
-```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
-
----
-
-### 📦 [semantica-agi/semantica](https://github.com/semantica-agi/semantica)
-- **⭐ Stars:** 8,108 | **💻 Linguagem:** `Python`
-- 🎯 **O que é e para que serve:** Graph-Native Infrastructure for Context and Accountable AI Systems
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
-- 🚀 **Como usar na prática com comandos prontos:**
-```bash
-git clone https://github.com/semantica-agi/semantica.git
-cd semantica
 pip install -r requirements.txt
 ```
 - ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
@@ -550,19 +697,6 @@ npm run dev
 
 ---
 
-### 📦 [HideMeBr/SambaTu](https://github.com/HideMeBr/SambaTu)
-- **⭐ Stars:** 237 | **💻 Linguagem:** `Geral`
-- 🎯 **O que é e para que serve:** Versão Brasileira da famosa RockYou. Nesta lista de senhas existem senhas 100% brasileiras que estavam em vazamentos, logs de infostealer, etc.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em None.
-- 🚀 **Como usar na prática com comandos prontos:**
-```bash
-git clone https://github.com/HideMeBr/SambaTu.git
-cd SambaTu
-```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
-
----
-
 ### 📦 [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)
 - **⭐ Stars:** 45,006 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,005+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.
@@ -615,21 +749,6 @@ npm run dev
 ```bash
 git clone https://github.com/Egonex-AI/Understand-Anything.git
 cd Understand-Anything
-npm install
-npm run dev
-```
-- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
-
----
-
-### 📦 [NanoNets/Graft](https://github.com/NanoNets/Graft)
-- **⭐ Stars:** 2,913 | **💻 Linguagem:** `TypeScript`
-- 🎯 **O que é e para que serve:** Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.
-- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em TypeScript.
-- 🚀 **Como usar na prática com comandos prontos:**
-```bash
-git clone https://github.com/NanoNets/Graft.git
-cd Graft
 npm install
 npm run dev
 ```
@@ -1840,47 +1959,56 @@ git clone https://github.com/dennisdelima18pe/Nubank-redesign.git
 
 ## 📑 Sumário Completo dos Repositórios
 
-01. [memvid/memvid](#memvidmemvid) — ⭐ 16,327 (`Rust)
-02. [FalkorDB/code-graph](#falkordbcodegraph) — ⭐ 342 (`Python)
-03. [open-webui/open-webui](#openwebuiopenwebui) — ⭐ 148,984 (`Python)
-04. [petergyang/no-ai-slop](#petergyangnoaislop) — ⭐ 5,210 (`Python)
-05. [opendataloader-project/opendataloader-pdf](#opendataloaderprojectopendataloaderpdf) — ⭐ 28,472 (`Java)
-06. [microsoft/data-formulator](#microsoftdataformulator) — ⭐ 16,264 (`Python)
-07. [microsoft/BitNet](#microsoftbitnet) — ⭐ 40,096 (`C++)
-08. [mem0ai/mem0](#mem0aimem0) — ⭐ 63,426 (`Python)
-09. [Kritt-ai/open-kritt](#krittaiopenkritt) — ⭐ 1,875 (`JavaScript)
-10. [opensandbox-group/OpenSandbox](#opensandboxgroupopensandbox) — ⭐ 14,090 (`Python)
-11. [jamiepine/voicebox](#jamiepinevoicebox) — ⭐ 50,620 (`TypeScript)
-12. [averygan/reclip](#averyganreclip) — ⭐ 7,075 (`HTML)
-13. [coreyhaines31/makerskills](#coreyhaines31makerskills) — ⭐ 641 (`Não especificada)
-14. [cursor/plugins](#cursorplugins) — ⭐ 3,074 (`TypeScript)
-15. [google-gemini/cookbook](#googlegeminicookbook) — ⭐ 17,659 (`Jupyter Notebook)
-16. [openai/openai-agents-python](#openaiopenaiagentspython) — ⭐ 28,710 (`Python)
-17. [xai-org/grok-build](#xaiorggrokbuild) — ⭐ 25,463 (`Rust)
-18. [anthropics/claude-cookbooks](#anthropicsclaudecookbooks) — ⭐ 51,654 (`Jupyter Notebook)
-19. [FSECDEV/LEAKSFORUMS](#fsecdevleaksforums) — ⭐ 248 (`Não especificada)
-20. [msitarzewski/agency-agents](#msitarzewskiagencyagents) — ⭐ 145,907 (`Shell)
-21. [affaan-m/ECC](#affaanmecc) — ⭐ 240,587 (`JavaScript)
-22. [trimstray/the-book-of-secret-knowledge](#trimstraythebookofsecretknowledge) — ⭐ 238,675 (`Geral)
-23. [obra/superpowers](#obrasuperpowers) — ⭐ 272,702 (`Shell)
-24. [vinta/awesome-python](#vintaawesomepython) — ⭐ 314,248 (`Python)
-25. [jwasham/coding-interview-university](#jwashamcodinginterviewuniversity) — ⭐ 358,906 (`Geral)
-26. [donnemartin/system-design-primer](#donnemartinsystemdesignprimer) — ⭐ 364,153 (`Python)
-27. [semantica-agi/semantica](#semanticaagisemantica) — ⭐ 8,108 (`Python)
-28. [coollabsio/coolify](#coollabsiocoolify) — ⭐ 60,645 (`PHP)
-29. [zulip/zulip](#zulipzulip) — ⭐ 25,719 (`Python)
-30. [metabase/metabase](#metabasemetabase) — ⭐ 48,783 (`Clojure)
-31. [PostHog/posthog](#posthogposthog) — ⭐ 37,708 (`Python)
-32. [pocketbase/pocketbase](#pocketbasepocketbase) — ⭐ 60,694 (`Go)
-33. [triggerdotdev/trigger.dev](#triggerdotdevtriggerdev) — ⭐ 16,040 (`TypeScript)
-34. [Infisical/infisical](#infisicalinfisical) — ⭐ 28,796 (`TypeScript)
-35. [HideMeBr/SambaTu](#hidemebrsambatu) — ⭐ 237 (`Geral)
-36. [sickn33/agentic-awesome-skills](#sickn33agenticawesomeskills) — ⭐ 45,006 (`Python)
-37. [CodebuffAI/freebuff](#codebuffaifreebuff) — ⭐ 9,608 (`TypeScript)
-38. [deepseek-ai/deepseek-harness](#deepseekaideepseekharness) — ⭐ 120,929 (`TypeScript)
-39. [Egonex-AI/Understand-Anything](#egonexaiunderstandanything) — ⭐ 79,438 (`TypeScript)
-40. [NanoNets/Graft](#nanonetsgraft) — ⭐ 2,913 (`TypeScript)
-41. [elder-plinius/OBLITERATUS](#elderpliniusobliteratus) — ⭐ 7,443 (`Python)
-42. [PaddlePaddle/PaddleOCR](#paddlepaddlepaddleocr) — ⭐ 87,683 (`Python)
-43. [google-research/timesfm](#googleresearchtimesfm) — ⭐ 27,469 (`Python)
-44. [rtk-ai/rtk](#rtkairtk) — ⭐ 76,159 (`Rust)
+01. [memvid/memvid](#memvidmemvid) — ⭐ 16,329 (`Rust)
+02. [xai-org/grok-build](#xaiorggrokbuild) — ⭐ 25,464 (`Rust)
+03. [FSECDEV/LEAKSFORUMS](#fsecdevleaksforums) — ⭐ 248 (`Não especificada)
+04. [semantica-agi/semantica](#semanticaagisemantica) — ⭐ 8,375 (`Python)
+05. [HideMeBr/SambaTu](#hidemebrsambatu) — ⭐ 261 (`Não especificada)
+06. [NanoNets/Graft](#nanonetsgraft) — ⭐ 3,131 (`TypeScript)
+07. [multica-ai/multica](#multicaaimultica) — ⭐ 46,289 (`Go)
+08. [santifer/career-ops](#santifercareerops) — ⭐ 64,142 (`JavaScript)
+09. [opengrep/opengrep](#opengrepopengrep) — ⭐ 2,956 (`OCaml)
+10. [DietrichGebert/ponytail](#dietrichgebertponytail) — ⭐ 104,396 (`JavaScript)
+11. [VoltAgent/awesome-agent-skills](#voltagentawesomeagentskills) — ⭐ 30,422 (`Não especificada)
+12. [langgenius/dify](#langgeniusdify) — ⭐ 152,672 (`TypeScript)
+13. [oso95/scroll-world](#oso95scrollworld) — ⭐ 8,252 (`JavaScript)
+14. [sindresorhus/awesome](#sindresorhusawesome) — ⭐ 496,736 (`Não especificada)
+15. [JuliusBrussee/caveman](#juliusbrusseecaveman) — ⭐ 98,635 (`Go)
+16. [FalkorDB/code-graph](#falkordbcodegraph) — ⭐ 342 (`Python)
+17. [open-webui/open-webui](#openwebuiopenwebui) — ⭐ 148,984 (`Python)
+18. [petergyang/no-ai-slop](#petergyangnoaislop) — ⭐ 5,210 (`Python)
+19. [opendataloader-project/opendataloader-pdf](#opendataloaderprojectopendataloaderpdf) — ⭐ 28,472 (`Java)
+20. [microsoft/data-formulator](#microsoftdataformulator) — ⭐ 16,264 (`Python)
+21. [microsoft/BitNet](#microsoftbitnet) — ⭐ 40,096 (`C++)
+22. [mem0ai/mem0](#mem0aimem0) — ⭐ 63,426 (`Python)
+23. [Kritt-ai/open-kritt](#krittaiopenkritt) — ⭐ 1,875 (`JavaScript)
+24. [opensandbox-group/OpenSandbox](#opensandboxgroupopensandbox) — ⭐ 14,090 (`Python)
+25. [jamiepine/voicebox](#jamiepinevoicebox) — ⭐ 50,620 (`TypeScript)
+26. [averygan/reclip](#averyganreclip) — ⭐ 7,075 (`HTML)
+27. [coreyhaines31/makerskills](#coreyhaines31makerskills) — ⭐ 641 (`Não especificada)
+28. [cursor/plugins](#cursorplugins) — ⭐ 3,074 (`TypeScript)
+29. [google-gemini/cookbook](#googlegeminicookbook) — ⭐ 17,659 (`Jupyter Notebook)
+30. [openai/openai-agents-python](#openaiopenaiagentspython) — ⭐ 28,710 (`Python)
+31. [anthropics/claude-cookbooks](#anthropicsclaudecookbooks) — ⭐ 51,654 (`Jupyter Notebook)
+32. [msitarzewski/agency-agents](#msitarzewskiagencyagents) — ⭐ 145,907 (`Shell)
+33. [affaan-m/ECC](#affaanmecc) — ⭐ 240,587 (`JavaScript)
+34. [trimstray/the-book-of-secret-knowledge](#trimstraythebookofsecretknowledge) — ⭐ 238,675 (`Geral)
+35. [obra/superpowers](#obrasuperpowers) — ⭐ 272,702 (`Shell)
+36. [vinta/awesome-python](#vintaawesomepython) — ⭐ 314,248 (`Python)
+37. [jwasham/coding-interview-university](#jwashamcodinginterviewuniversity) — ⭐ 358,906 (`Geral)
+38. [donnemartin/system-design-primer](#donnemartinsystemdesignprimer) — ⭐ 364,153 (`Python)
+39. [coollabsio/coolify](#coollabsiocoolify) — ⭐ 60,645 (`PHP)
+40. [zulip/zulip](#zulipzulip) — ⭐ 25,719 (`Python)
+41. [metabase/metabase](#metabasemetabase) — ⭐ 48,783 (`Clojure)
+42. [PostHog/posthog](#posthogposthog) — ⭐ 37,708 (`Python)
+43. [pocketbase/pocketbase](#pocketbasepocketbase) — ⭐ 60,694 (`Go)
+44. [triggerdotdev/trigger.dev](#triggerdotdevtriggerdev) — ⭐ 16,040 (`TypeScript)
+45. [Infisical/infisical](#infisicalinfisical) — ⭐ 28,796 (`TypeScript)
+46. [sickn33/agentic-awesome-skills](#sickn33agenticawesomeskills) — ⭐ 45,006 (`Python)
+47. [CodebuffAI/freebuff](#codebuffaifreebuff) — ⭐ 9,608 (`TypeScript)
+48. [deepseek-ai/deepseek-harness](#deepseekaideepseekharness) — ⭐ 120,929 (`TypeScript)
+49. [Egonex-AI/Understand-Anything](#egonexaiunderstandanything) — ⭐ 79,438 (`TypeScript)
+50. [elder-plinius/OBLITERATUS](#elderpliniusobliteratus) — ⭐ 7,443 (`Python)
+51. [PaddlePaddle/PaddleOCR](#paddlepaddlepaddleocr) — ⭐ 87,683 (`Python)
+52. [google-research/timesfm](#googleresearchtimesfm) — ⭐ 27,469 (`Python)
+53. [rtk-ai/rtk](#rtkairtk) — ⭐ 76,159 (`Rust)
