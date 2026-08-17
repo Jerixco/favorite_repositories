@@ -754,5 +754,65 @@
     "use_cases": "Desenvolvimento de aplicações escaláveis em TypeScript; automação de pipelines de engenharia.",
     "quickstart": "```bash\ngit clone https://github.com/rmyndharis/OpenWA.git\ncd OpenWA\nnpm install\nnpm run dev\n```",
     "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "yashab-cyber/opendroid": {
+    "what": "Framework open-source em Kotlin para orquestração e execução de agentes autônomos de IA com ferramentas integradas.",
+    "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
+    "quickstart": "```bash\ngit clone https://github.com/yashab-cyber/opendroid.git\ncd opendroid\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+  },
+  "itsfatduck/optimizerDuck": {
+    "what": "Projeto open-source em C# projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em C#; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/itsfatduck/optimizerDuck.git\ncd optimizerDuck\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "microsoft/ai-agents-for-beginners": {
+    "what": "Framework open-source em Jupyter Notebook para orquestração e execução de agentes autônomos de IA com ferramentas integradas.",
+    "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
+    "quickstart": "```bash\ngit clone https://github.com/microsoft/ai-agents-for-beginners.git\ncd ai-agents-for-beginners\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+  },
+  "abundantbeing/hermes-browser-extension": {
+    "what": "Framework open-source em JavaScript para orquestração e execução de agentes autônomos de IA com ferramentas integradas.",
+    "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
+    "quickstart": "```bash\ngit clone https://github.com/abundantbeing/hermes-browser-extension.git\ncd hermes-browser-extension\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+  },
+  "vitali87/code-graph-rag": {
+    "what": "Infraestrutura em Python para recuperação e estruturação de conhecimento (RAG / Grafos) para alimentar modelos de linguagem.",
+    "use_cases": "Indexação semântica de bases de conhecimento corporativas; busca avançada com relacionamentos de entidades complexas.",
+    "quickstart": "```bash\ngit clone https://github.com/vitali87/code-graph-rag.git\ncd code-graph-rag\npip install -r requirements.txt\n```",
+    "pro_tip": "Teste diferentes tamanhos de chunk (ex: 500 vs 1000 tokens com overlap de 10%) para equilibrar precisão semântica e custo."
+  },
+  "outline/outline": {
+    "what": "Infraestrutura em TypeScript para recuperação e estruturação de conhecimento (RAG / Grafos) para alimentar modelos de linguagem.",
+    "use_cases": "Indexação semântica de bases de conhecimento corporativas; busca avançada com relacionamentos de entidades complexas.",
+    "quickstart": "```bash\ngit clone https://github.com/outline/outline.git\ncd outline\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Teste diferentes tamanhos de chunk (ex: 500 vs 1000 tokens com overlap de 10%) para equilibrar precisão semântica e custo."
+  },
+  "Leantime/leantime": {
+    "what": "Interface gráfica moderna em PHP para interação e visualização de dados e modelos de inteligência artificial.",
+    "use_cases": "Criação de portais de autoatendimento interno; dashboards de monitoramento e análise de métricas.",
+    "quickstart": "```bash\ngit clone https://github.com/Leantime/leantime.git\ncd leantime\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Configure variáveis de ambiente no arquivo .env antes da primeira inicialização para manter a persistência de configurações."
+  },
+  "ente/ente": {
+    "what": "Projeto open-source em Dart projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em Dart; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/ente/ente.git\ncd ente\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "imputnet/cobalt": {
+    "what": "Projeto open-source em Svelte projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em Svelte; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/imputnet/cobalt.git\ncd cobalt\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "Stirling-Tools/Stirling-PDF": {
+    "what": "Projeto open-source em Java projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em Java; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/Stirling-Tools/Stirling-PDF.git\ncd Stirling-PDF\n./gradlew build  # ou: mvn clean package\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
   }
 }
