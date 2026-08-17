@@ -7,6 +7,20 @@
 
 ---
 
+### 📦 [FalkorDB/code-graph](https://github.com/FalkorDB/code-graph)
+- **⭐ Stars:** 342 | **💻 Linguagem:** `Python`
+- 🎯 **O que é e para que serve:** A code-graph demo  using GraphRAG-SDK and FalkorDB
+- 💡 **Casos de uso reais no dia a dia:** Otimização de fluxos de desenvolvimento, integração contínua e arquitetura em Python.
+- 🚀 **Como usar na prática com comandos prontos:**
+```bash
+git clone https://github.com/FalkorDB/code-graph.git
+cd code-graph
+pip install -r requirements.txt
+```
+- ⚡ **Dica Pro de produtividade:** Consulte os exemplos na pasta do repositório para personalização rápida.
+
+---
+
 ### 📦 [open-webui/open-webui](https://github.com/open-webui/open-webui)
 - **⭐ Stars:** 148,961 | **💻 Linguagem:** `Python`
 - 🎯 **O que é e para que serve:** User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
