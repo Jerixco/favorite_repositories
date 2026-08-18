@@ -820,5 +820,47 @@
     "use_cases": "Criação de portais de autoatendimento interno; dashboards de monitoramento e análise de métricas.",
     "quickstart": "```bash\ngit clone https://github.com/promovaweb/specsfy.git\ncd specsfy\nnpm install\nnpm run dev\n```",
     "pro_tip": "Configure variáveis de ambiente no arquivo .env antes da primeira inicialização para manter a persistência de configurações."
+  },
+  "CopilotKit/aimock": {
+    "what": "Infraestrutura em TypeScript para recuperação e estruturação de conhecimento (RAG / Grafos) para alimentar modelos de linguagem.",
+    "use_cases": "Indexação semântica de bases de conhecimento corporativas; busca avançada com relacionamentos de entidades complexas.",
+    "quickstart": "```bash\ngit clone https://github.com/CopilotKit/aimock.git\ncd aimock\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Teste diferentes tamanhos de chunk (ex: 500 vs 1000 tokens com overlap de 10%) para equilibrar precisão semântica e custo."
+  },
+  "f/prompts.chat": {
+    "what": "Projeto open-source em HTML projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em HTML; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/f/prompts.chat.git\ncd prompts.chat\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "unslothai/unsloth": {
+    "what": "Interface gráfica moderna em Python para interação e visualização de dados e modelos de inteligência artificial.",
+    "use_cases": "Criação de portais de autoatendimento interno; dashboards de monitoramento e análise de métricas.",
+    "quickstart": "```bash\ngit clone https://github.com/unslothai/unsloth.git\ncd unsloth\npip install -r requirements.txt\n```",
+    "pro_tip": "Configure variáveis de ambiente no arquivo .env antes da primeira inicialização para manter a persistência de configurações."
+  },
+  "ZhuLinsen/daily_stock_analysis": {
+    "what": "Interface gráfica moderna em Python para interação e visualização de dados e modelos de inteligência artificial.",
+    "use_cases": "Criação de portais de autoatendimento interno; dashboards de monitoramento e análise de métricas.",
+    "quickstart": "```bash\ngit clone https://github.com/ZhuLinsen/daily_stock_analysis.git\ncd daily_stock_analysis\npip install -r requirements.txt\n```",
+    "pro_tip": "Configure variáveis de ambiente no arquivo .env antes da primeira inicialização para manter a persistência de configurações."
+  },
+  "addyosmani/agent-skills": {
+    "what": "Framework open-source em JavaScript para orquestração e execução de agentes autônomos de IA com ferramentas integradas.",
+    "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
+    "quickstart": "```bash\ngit clone https://github.com/addyosmani/agent-skills.git\ncd agent-skills\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+  },
+  "earendil-works/pi": {
+    "what": "Framework open-source em TypeScript para orquestração e execução de agentes autônomos de IA com ferramentas integradas.",
+    "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
+    "quickstart": "```bash\ngit clone https://github.com/earendil-works/pi.git\ncd pi\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+  },
+  "PrimeIntellect-ai/prime-agent": {
+    "what": "Framework open-source em TypeScript para orquestração e execução de agentes autônomos de IA com ferramentas integradas.",
+    "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
+    "quickstart": "```bash\ngit clone https://github.com/PrimeIntellect-ai/prime-agent.git\ncd prime-agent\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
   }
 }
