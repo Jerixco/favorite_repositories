@@ -862,5 +862,101 @@
     "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
     "quickstart": "```bash\ngit clone https://github.com/PrimeIntellect-ai/prime-agent.git\ncd prime-agent\nnpm install\nnpm run dev\n```",
     "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+  },
+  "iwe-org/iwe": {
+    "what": "Framework open-source em Rust para orquestração e execução de agentes autônomos de IA com ferramentas integradas.",
+    "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
+    "quickstart": "```bash\ngit clone https://github.com/iwe-org/iwe.git\ncd iwe\ncargo build --release\n```",
+    "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+  },
+  "stablyai/orca": {
+    "what": "Framework open-source em TypeScript para orquestração e execução de agentes autônomos de IA com ferramentas integradas.",
+    "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
+    "quickstart": "```bash\ngit clone https://github.com/stablyai/orca.git\ncd orca\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+  },
+  "Leonxlnx/taste-skill": {
+    "what": "Servidor MCP ou coleção de habilidades em JavaScript para conectar editores de código e agentes de IA a ferramentas externas.",
+    "use_cases": "Expandir as capacidades do Claude Code e Cursor; integrar assistentes de IA a bancos de dados e APIs internas.",
+    "quickstart": "```bash\ngit clone https://github.com/Leonxlnx/taste-skill.git\ncd taste-skill\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Padronize a validação dos schemas de entrada das ferramentas para que a IA não sofra erros de formatação JSON."
+  },
+  "calesthio/OpenMontage": {
+    "what": "Framework open-source em Python para orquestração e execução de agentes autônomos de IA com ferramentas integradas.",
+    "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
+    "quickstart": "```bash\ngit clone https://github.com/calesthio/OpenMontage.git\ncd OpenMontage\npip install -r requirements.txt\n```",
+    "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+  },
+  "Panniantong/Agent-Reach": {
+    "what": "Framework open-source em Python para orquestração e execução de agentes autônomos de IA com ferramentas integradas.",
+    "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
+    "quickstart": "```bash\ngit clone https://github.com/Panniantong/Agent-Reach.git\ncd Agent-Reach\npip install -r requirements.txt\n```",
+    "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+  },
+  "cathrynlavery/diagram-design": {
+    "what": "Projeto open-source em HTML projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em HTML; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/cathrynlavery/diagram-design.git\ncd diagram-design\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "lidge-jun/opencodex": {
+    "what": "Projeto open-source em TypeScript projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em TypeScript; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/lidge-jun/opencodex.git\ncd opencodex\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "Tabbit-Browser/dsh-plugin": {
+    "what": "Servidor MCP ou coleção de habilidades em JavaScript para conectar editores de código e agentes de IA a ferramentas externas.",
+    "use_cases": "Expandir as capacidades do Claude Code e Cursor; integrar assistentes de IA a bancos de dados e APIs internas.",
+    "quickstart": "```bash\ngit clone https://github.com/Tabbit-Browser/dsh-plugin.git\ncd dsh-plugin\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Padronize a validação dos schemas de entrada das ferramentas para que a IA não sofra erros de formatação JSON."
+  },
+  "Genymobile/scrcpy": {
+    "what": "Projeto open-source em C projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em C; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/Genymobile/scrcpy.git\ncd scrcpy\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "lwthiker/curl-impersonate": {
+    "what": "Interface gráfica moderna em Python para interação e visualização de dados e modelos de inteligência artificial.",
+    "use_cases": "Criação de portais de autoatendimento interno; dashboards de monitoramento e análise de métricas.",
+    "quickstart": "```bash\ngit clone https://github.com/lwthiker/curl-impersonate.git\ncd curl-impersonate\npip install -r requirements.txt\n```",
+    "pro_tip": "Configure variáveis de ambiente no arquivo .env antes da primeira inicialização para manter a persistência de configurações."
+  },
+  "D4Vinci/Scrapling": {
+    "what": "Projeto open-source em Python projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em Python; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/D4Vinci/Scrapling.git\ncd Scrapling\npip install -r requirements.txt\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "browser-use/browser-use": {
+    "what": "Framework open-source em Python para orquestração e execução de agentes autônomos de IA com ferramentas integradas.",
+    "use_cases": "Automação de fluxos de engenharia de software; delegação de tarefas de código para múltiplos agentes especialistas.",
+    "quickstart": "```bash\ngit clone https://github.com/browser-use/browser-use.git\ncd browser-use\npip install -r requirements.txt\n```",
+    "pro_tip": "Isole as permissões de terminal de cada agente em um container Docker para evitar execuções acidentais no sistema principal."
+  },
+  "firecrawl/firecrawl": {
+    "what": "Projeto open-source em TypeScript projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em TypeScript; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/firecrawl/firecrawl.git\ncd firecrawl\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "microsoft/markitdown": {
+    "what": "Projeto open-source em Python projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em Python; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/microsoft/markitdown.git\ncd markitdown\npip install -r requirements.txt\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "unclecode/crawl4ai": {
+    "what": "Projeto open-source em Python projetado para acelerar fluxos de desenvolvimento de software e infraestrutura.",
+    "use_cases": "Desenvolvimento de aplicações escaláveis em Python; automação de pipelines de engenharia.",
+    "quickstart": "```bash\ngit clone https://github.com/unclecode/crawl4ai.git\ncd crawl4ai\npip install -r requirements.txt\n```",
+    "pro_tip": "Consulte as issues e discussões do repositório no GitHub para acompanhar os padrões e decisões arquiteturais mais recentes."
+  },
+  "MrCl0wnLab/BR-EvilPortal-HTML-Files": {
+    "what": "Interface gráfica moderna em HTML para interação e visualização de dados e modelos de inteligência artificial.",
+    "use_cases": "Criação de portais de autoatendimento interno; dashboards de monitoramento e análise de métricas.",
+    "quickstart": "```bash\ngit clone https://github.com/MrCl0wnLab/BR-EvilPortal-HTML-Files.git\ncd BR-EvilPortal-HTML-Files\n# Siga as instruções de build no README\n```",
+    "pro_tip": "Configure variáveis de ambiente no arquivo .env antes da primeira inicialização para manter a persistência de configurações."
   }
 }
