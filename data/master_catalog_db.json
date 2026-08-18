@@ -958,5 +958,11 @@
     "use_cases": "Simulações de ataques de Evil Twin e conscientização de segurança em redes Wi-Fi corporativas; testes de vulnerabilidade em roteadores e pontos de acesso; treinamentos de equipe de Red Team.",
     "quickstart": "```bash\ngit clone https://github.com/MrCl0wnLab/BR-EvilPortal-HTML-Files.git\ncd BR-EvilPortal-HTML-Files\n# Utilize em ambientes de laboratório com ESP32 / WiFi Pineapple\n```",
     "pro_tip": "Utilize exclusivamente em ambientes de teste autorizados e utilize as telas para instruir colaboradores sobre os riscos de conectar em redes Wi-Fi públicas desprotegidas."
+  },
+  "Zimbra-Community/shared-mailbox-toolkit": {
+    "what": "Projeto oficial [shared-mailbox-toolkit](https://github.com/Zimbra-Community/shared-mailbox-toolkit) em JavaScript: Create and manage shared mailboxes. Share department and team mailboxes with individual users. (Family mailbox). Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Aceleração de fluxos de engenharia em JavaScript; suporte e extensibilidade para projetos de software escaláveis.",
+    "quickstart": "```bash\ngit clone https://github.com/Zimbra-Community/shared-mailbox-toolkit.git\ncd shared-mailbox-toolkit\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Ao integrar o `shared-mailbox-toolkit`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de JavaScript."
   }
 }
