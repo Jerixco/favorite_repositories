@@ -707,328 +707,400 @@
     "quickstart": "```bash\n# Baixar o binário único em Rust ou compilar:\ngit clone https://github.com/rtk-ai/rtk.git\ncd rtk\ncargo build --release\n./target/release/rtk proxy --port 8080\n```",
     "pro_tip": "Aponte o endpoint do seu Claude Code para o proxy do RTK: ele remove automaticamente saídas repetitivas de terminal antes de enviar os tokens de volta para a IA."
   },
-  "tw93/Pake": {
-    "what": "Ferramenta inovadora escrita em Rust que empacota qualquer página web em um aplicativo desktop leve e ultra-rápido utilizando o runtime nativo do sistema operacional (via Tauri). É uma alternativa moderna com consumo de memória até 20x menor em comparação a empacotadores tradicionais baseados em Electron.",
-    "use_cases": "Transformar aplicações web corporativas internas (como dashboards e webmails) em apps desktop nativos; criar clientes dedicados para ChatGPT, Claude, Notion ou YouTube com atalhos de teclado globais; distribuir PWAs como instaladores (.dmg, .msi, .deb, .AppImage) para usuários finais.",
-    "quickstart": "```bash\n# Instalação via NPM ou Cargo\nnpm install -g pake-cli\n# Empacotar uma URL em um app desktop nativo com nome e ícone customizado\npake https://chatgpt.com --name ChatGPT --transparent --width 1200 --height 800\n```",
-    "pro_tip": "Adicione a flag `--multi-arch` no comando de build ou configure atalhos de teclado customizados via `--safe-domain` para restringir a navegação estritamente ao domínio desejado e evitar desvios de rota."
-  },
-  "VoltAgent/awesome-design-md": {
-    "what": "Acervo curado de arquivos DESIGN.md estruturados com base nos sistemas de design das principais marcas e referências de tecnologia (como Linear, Stripe, Apple e Vercel). O objetivo é fornecer contexto arquitetural de design tokens, tipografia e diretrizes de layout para que agentes de codificação por IA (como Claude Code, Cursor e Copilot) gerem interfaces visuais consistentes e atraentes.",
-    "use_cases": "Guiar LLMs e agentes de código no desenvolvimento de interfaces frontend consistentes sem desvios de padrão estético; servir de especificação base para prototipagem rápida de landing pages no estilo de empresas de ponta; padronizar tokens de espaçamento, paletas de cores HSL e tipografia entre equipes de desenvolvimento.",
-    "quickstart": "```bash\n# Clone o repositório para inspecionar os sistemas de design disponíveis\ngit clone https://github.com/VoltAgent/awesome-design-md.git\ncd awesome-design-md\n# Copie o DESIGN.md desejado (ex: Linear ou Stripe) para a raiz do seu projeto\ncp designs/linear/DESIGN.md /caminho/do/seu/projeto/DESIGN.md\n```",
-    "pro_tip": "No seu prompt de sistema ou regras de IDE (.cursorrules / AGENTS.md), referencie explicitamente: 'Siga estritamente os tokens de espaçamento, raio de borda e cores definidos no arquivo ./DESIGN.md'."
-  },
-  "appsmithorg/appsmith": {
-    "what": "Plataforma open-source low-code líder para construção ágil de painéis administrativos, ferramentas internas e dashboards operacionais. Conecta-se nativamente a mais de 25 bancos de dados relacionais e NoSQL, além de APIs REST e GraphQL, com suporte a JavaScript em tempo real para manipulação de dados e lógica de negócios.",
-    "use_cases": "Criação de painéis de suporte ao cliente para consulta e atualização de contas; dashboards de monitoramento operacional e métricas de negócios em tempo real; formulários de aprovação e workflows de reembolso integrados ao banco de dados corporativo.",
-    "quickstart": "```bash\n# Inicialização rápida com Docker Compose\ndocker run -d --name appsmith -p 80:80 -p 443:443   -v \"$PWD/stacks:/appsmith-stacks\"   --restart unless-stopped   appsmith/appsmith-ce\n# Acesse http://localhost no navegador para criar a conta de administrador\n```",
-    "pro_tip": "Utilize JS Objects com funções assíncronas (async/await) no editor do Appsmith para encadear consultas de APIs e transformações de dados em uma única transação lógica no frontend."
-  },
-  "Dokploy/dokploy": {
-    "what": "Plataforma de implantação e hospedagem (PaaS) open-source auto-hospedável, posicionando-se como alternativa direta ao Vercel, Netlify e Heroku. Construída em TypeScript/Node.js sobre Docker e Traefik, permite gerenciar deploys automatizados a partir do Git, criar bancos de dados com um clique e gerenciar certificados SSL/domínios em qualquer VPS.",
-    "use_cases": "Hospedagem centralizada de múltiplos microsserviços e aplicações full-stack em servidores baratos da Hetzner/DigitalOcean; provisionamento instantâneo de bancos PostgreSQL, MySQL, Redis e MongoDB com backups automatizados para S3; substituição de custos recorrentes de nuvens PaaS proprietárias.",
-    "quickstart": "```bash\n# Instalação automática em qualquer VPS Linux limpo (Ubuntu/Debian)\ncurl -sSL https://dokploy.com/install.sh | sh\n# Acesse http://SEU_IP:3000 para configurar o painel inicial\n```",
-    "pro_tip": "Configure o webhook de implantação automática com a branch main do GitHub para disparar builds incrementais via Dockerfile com cache de camadas ativado, reduzindo o tempo de deploy de minutos para segundos."
-  },
-  "documenso/documenso": {
-    "what": "Plataforma de assinatura digital e eletrônica de documentos open-source, desenvolvida em TypeScript, Next.js, Prisma e PostgreSQL como alternativa auditável e privada ao DocuSign. Oferece suporte completo ao padrão criptográfico PAdES (PDF Advanced Electronic Signatures), campos personalizáveis e trilhas de auditoria imutáveis.",
-    "use_cases": "Coleta de assinaturas digitais em contratos comerciais e acordos de confidencialidade (NDA); integração de assinatura eletrônica em fluxos automatizados de onboarding de funcionários via API; auto-hospedagem para empresas com exigências rígidas de privacidade e LGPD/GDPR.",
-    "quickstart": "```bash\n# Inicialização via Docker Compose\ngit clone https://github.com/documenso/documenso.git\ncd documenso\ndocker compose -f docker-compose.prod.yml up -d\n# Acesse http://localhost:3000\n```",
-    "pro_tip": "Integre a API REST do Documenso utilizando webhooks para disparar notificações no Slack ou arquivar automaticamente o PDF assinado com carimbo do tempo em um bucket S3 assim que todos os signatários concluírem o fluxo."
-  },
-  "BerriAI/litellm": {
-    "what": "Biblioteca e servidor proxy em Python de altíssima performance para unificar chamadas a mais de 100 provedores de LLMs (OpenAI, Anthropic Claude, Google Gemini, Ollama, AWS Bedrock, Groq, DeepSeek) sob o formato padrão da OpenAI. Inclui recursos nativos de balanceamento de carga, fallback entre provedores, limitação de taxa (rate limiting) e controle granular de custos por usuário/chave de API.",
-    "use_cases": "Proxy central corporativo de IA para roteamento inteligente de requisições e controle de budget; implementação de fallback automático de modelos (ex: tentar Gemini 2.5 Pro e redirecionar para Claude 3.5 Sonnet caso haja erro 429 de quota); padronização de SDK único em sistemas legados.",
-    "quickstart": "```bash\npip install litellm\n# Iniciar proxy unificado na porta 4000\nlitellm --model gemini/gemini-2.0-flash --port 4000\n```",
-    "pro_tip": "Crie um arquivo config.yaml definindo router_settings com estratégia de least-busy ou latency-based-routing para distribuir requisições entre várias chaves de API e minimizar a latência média das respostas."
-  },
-  "go-gitea/gitea": {
-    "what": "Serviço completo e auto-hospedável de hospedagem de código Git escrito em Go, focado em leveza extrema e facilidade de manutenção. Oferece interface web responsiva, revisão de pull requests, rastreamento de issues, quadros Kanban, registro de pacotes (npm, PyPI, Docker) e compatibilidade com fluxos de CI/CD no padrão GitHub Actions (Gitea Actions).",
-    "use_cases": "Servidor Git privado e seguro para redes internas de empresas ou homelabs com baixo consumo de RAM (< 100MB); espelhamento de repositórios remotos para backup local automatizado; execução de pipelines de CI/CD locais sem dependência de conexões externas.",
-    "quickstart": "```bash\n# Subir instância do Gitea via Docker\ndocker run -d --name=gitea -p 10022:22 -p 3000:3000   -v /var/lib/gitea:/data   --restart always   gitea/gitea:latest\n# Acesse http://localhost:3000\n```",
-    "pro_tip": "Habilite o suporte ao act_runner nas configurações do app.ini para rodar seus workflows existentes de .github/workflows diretamente dentro da sua infraestrutura privada sem nenhuma alteração nos arquivos YAML."
-  },
-  "nocodb/nocodb": {
-    "what": "Plataforma open-source que converte qualquer banco de dados relacional existente (PostgreSQL, MySQL, SQLite, MariaDB, Microsoft SQL Server) em uma planilha inteligente e colaborativa no estilo Airtable. Fornece visualizações em grade, kanban, galeria, formulários públicos e geração instantânea de APIs REST/GraphQL para as tabelas conectadas.",
-    "use_cases": "Criação rápida de interfaces visuais de CRUD sobre bancos legados de produção sem necessidade de escrever código; criação de formulários de pesquisa e cadastro com gravação direta no banco relacional; automação de notificações por email, Slack e webhooks disparadas por alterações de registros.",
-    "quickstart": "```bash\n# Inicialização rápida conectando a um banco SQLite local\ndocker run -d --name nocodb -v \"$(pwd)/nocodb:/usr/app/data\" -p 8080:8080 nocodb/nocodb:latest\n```",
-    "pro_tip": "Utilize a funcionalidade de Virtual Fields (Campos Virtuais) e Rollups para calcular agregações complexas entre tabelas relacionais em tempo real sem poluir o schema físico do seu banco de dados."
-  },
-  "dani-garcia/vaultwarden": {
-    "what": "Implementação alternativa e extremamente leve do servidor Bitwarden escrita em Rust. É 100% compatível com todas as extensões de navegador, aplicativos móveis e utilitários de CLI oficiais do Bitwarden, mas consumindo apenas uma fração mínima de recursos de memória (cerca de 20MB de RAM), tornando-o ideal para auto-hospedagem.",
-    "use_cases": "Cofre de senhas, chaves de API, notas seguras e autenticação em dois fatores (2FA TOTP) auto-hospedado para uso pessoal, familiar ou de pequenas equipes; eliminação de taxas de assinatura de gerenciadores de senhas comerciais com soberania total dos dados.",
-    "quickstart": "```bash\n# Executar container Vaultwarden com persistência de dados\ndocker run -d --name vaultwarden   -v /vw-data/:/data/   --restart unless-stopped   -p 8080:80   vaultwarden/server:latest\n```",
-    "pro_tip": "Ao expor na internet, obrigatoriamente configure HTTPS (via Nginx/Caddy/Traefik) e ative a variável SIGNUPS_ALLOWED=false após criar sua conta inicial para impedir que terceiros criem cadastros no seu servidor."
-  },
-  "louislam/uptime-kuma": {
-    "what": "Ferramenta auto-hospedável de monitoramento de disponibilidade e tempo de atividade (uptime) com interface gráfica moderna e fluida. Suporta checagens via HTTP(s), TCP, Ping, DNS, palavras-chave, validade de certificados SSL/TLS, contêineres Docker e status de servidores de jogos, com criação de páginas de status públicas personalizáveis.",
-    "use_cases": "Monitoramento 24/7 da integridade de APIs, sites e bancos de dados; envio de alertas instantâneos de queda via Telegram, Discord, Slack, WhatsApp, Webhooks ou E-mail; publicação de páginas de status elegantes para transparência com clientes e usuários.",
-    "quickstart": "```bash\n# Subir Uptime Kuma no Docker\ndocker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:1\n# Acesse http://localhost:3001\n```",
-    "pro_tip": "Configure monitores do tipo HTTP(s) - Keyword para verificar não apenas se a página retornou status code 200, mas também se um texto específico esperado está presente no HTML, evitando falsos positivos causados por páginas de erro padrão de proxies reversos."
-  },
-  "Zimbra-Community/shared-mailbox-toolkit": {
-    "what": "Extensão open-source (Zimlet) para o Zimbra Collaboration Suite que aprimora a experiência de gerenciamento de caixas de correio compartilhadas (Shared Mailboxes). Permite gerenciar delegações, assinaturas personalizadas por conta, permissões granulares de envio em nome de ('Send on Behalf / Send As') e sincronização de itens enviados.",
-    "use_cases": "Ambientes corporativos que utilizam Zimbra para atendimento compartilhado (ex: financeiro@, suporte@); padronização de assinaturas e identidades de envio entre múltiplos colaboradores que atendem a mesma caixa postal.",
-    "quickstart": "```bash\n# Clonar o repositório no servidor Zimbra\ngit clone https://github.com/Zimbra-Community/shared-mailbox-toolkit.git\ncd shared-mailbox-toolkit\n# Fazer deploy do Zimlet como usuário zimbra\nsu - zimbra -c \"zmzimletctl deploy /caminho/para/tk_shared_mailbox.zip\"\n```",
-    "pro_tip": "Configure o atributo zimbraPrefSentMailFolder nas propriedades da conta para que emails enviados por delegados sejam salvos automaticamente na pasta 'Itens Enviados' da caixa compartilhada e não na caixa pessoal do remetente."
-  },
-  "iwe-org/iwe": {
-    "what": "Editor de texto e ambiente de anotações baseado em terminal, focado em hipertexto e Markdown, desenvolvido em Rust. Projetado para proporcionar uma experiência minimalista, sem atrito e com velocidade instantânea, integrando navegação por links internos entre notas como um cérebro digital no terminal.",
-    "use_cases": "Tomada de notas rápidas, anotações de reuniões e documentação técnica diretamente do terminal; criação de uma base de conhecimento pessoal interconectada (Personal Knowledge Management - PKM) sem depender de GUIs pesadas.",
-    "quickstart": "```bash\n# Instalação via Cargo\ncargo install iwe\n# Iniciar edição em um diretório de notas\niwe ~/minhas-notas/\n```",
-    "pro_tip": "Use atalhos de criação de links bidirecionais entre arquivos para navegar instantaneamente entre tópicos relacionados com um único comando de teclado no terminal."
-  },
-  "stablyai/orca": {
-    "what": "Plataforma de orquestração e execução de fluxos de trabalho agenticos em TypeScript, permitindo construir, avaliar e monitorar agentes autônomos de IA corporativos com ferramentas integradas e observabilidade detalhada.",
-    "use_cases": "Automação de processos operacionais com múltiplos passos e validações; construção de pipelines de suporte com agentes que executam ações em APIs externas; benchmarking de precisão de tarefas agenticas complexas.",
-    "quickstart": "```bash\ngit clone https://github.com/stablyai/orca.git\ncd orca\nnpm install\nnpm run build\nnpm start\n```",
-    "pro_tip": "Utilize o módulo de avaliação do Orca para rodar testes de regressão sobre o histórico de raciocínio dos agentes antes de promover novas versões de prompts para produção."
-  },
-  "Leonxlnx/taste-skill": {
-    "what": "Conjunto estruturado de diretrizes de design, estética visual e habilidades (skill) para assistentes e agentes de codificação por IA. Foca em instruir a IA a aplicar princípios de micro-interações, contraste harmonioso, hierarquia tipográfica moderna e layouts refinados, evitando interfaces genéricas e ultrapassadas.",
-    "use_cases": "Injeção de critérios estéticos refinados no contexto de agentes como Claude Code, Cursor e Antigravity; garantia de consistência visual em componentes UI gerados por IA; aceleração no desenvolvimento de MVPs com acabamento visual de alto padrão.",
-    "quickstart": "```bash\n# Clonar a coleção de habilidades\ngit clone https://github.com/Leonxlnx/taste-skill.git\n# Copie o skill para o diretório de habilidades do seu assistente de IA\ncp -r taste-skill ~/.gemini/config/skills/taste-skill\n```",
-    "pro_tip": "Combine este skill com design tokens em CSS moderno (como variáveis de cor Oklch e container queries) para obter componentes visuais fluidos e adaptativos a qualquer tema."
-  },
-  "calesthio/OpenMontage": {
-    "what": "Framework open-source em Python para automação de edição de vídeo baseada em IA e FFmpeg. Analisa mídias audiovisuais, detecta pontos altos, gera transcrições e monta clipes com legendas dinâmicas, cortes inteligentes e trilha sonora automaticamente.",
-    "use_cases": "Produção em escala de vídeos curtos (Reels, TikTok, Shorts) a partir de podcasts ou vídeos longos do YouTube; edição automatizada de destaques para transmissões ao vivo e webinars; pipelines de criação de conteúdo audiovisual automatizado.",
-    "quickstart": "```bash\ngit clone https://github.com/calesthio/OpenMontage.git\ncd OpenMontage\npip install -r requirements.txt\npython main.py --input video_completo.mp4 --output_dir ./cortes_gerados/\n```",
-    "pro_tip": "Ative a aceleração de hardware NVENC no FFmpeg configurando a flag de exportação para processar renderizações de vídeo até 8x mais rápido em placas NVIDIA."
-  },
-  "Panniantong/Agent-Reach": {
-    "what": "Framework em Python para conferir superpoderes de alcance e engajamento multicanal a agentes de IA. Capacita LLMs a interagir diretamente com redes sociais, plataformas de mensagens e canais de email, orquestrando fluxos de comunicação personalizados com memória contextual.",
-    "use_cases": "Prospecção e nutrição automatizada de leads B2B em múltiplos canais; assistentes autônomos de relacionamento com clientes em redes sociais; disparo de comunicados personalizados com análise de sentimento nas respostas.",
-    "quickstart": "```bash\ngit clone https://github.com/Panniantong/Agent-Reach.git\ncd Agent-Reach\npip install -r requirements.txt\npython run_agent.py --config config.yaml\n```",
-    "pro_tip": "Configure limites de taxa (rate limits) e intervalos aleatórios de tempo entre requisições para simular interações humanas naturais e evitar bloqueios em plataformas sociais."
-  },
-  "cathrynlavery/diagram-design": {
-    "what": "Guia visual e sistema de design completo para criação de diagramas técnicos, fluxogramas e arquiteturas de sistemas limpas e esteticamente impecáveis. Define paletas de cores balanceadas, pesos de linha, regras de hierarquia e espaçamentos ideais para diagramas de engenharia.",
-    "use_cases": "Criação de apresentações técnicas de alto impacto para liderança e stakeholders; padronização dos diagramas de arquitetura da documentação de software da empresa; melhoria na clareza visual de fluxos de dados complexos.",
-    "quickstart": "```bash\n# Clone o repositório com os assets e templates de diagramação\ngit clone https://github.com/cathrynlavery/diagram-design.git\n# Abra os templates no Figma, Whimsical, Excalidraw ou Mermaid\n```",
-    "pro_tip": "Limite seus diagramas a no máximo 3 níveis de hierarquia visual e utilize tons neutros para caixas secundárias, reservando cores vibrantes estritamente para o fluxo principal de dados."
-  },
-  "lidge-jun/opencodex": {
-    "what": "Ferramenta em TypeScript voltada para indexação profunda, navegação estruturada e compreensão semântica de bases de código complexas. Cria representações de árvore sintática (AST) e relacionamentos entre símbolos para acelerar o raciocínio de assistentes de IA sobre monorepos.",
-    "use_cases": "Exploração arquitetural de bases de código legadas com milhões de linhas; aceleração da identificação de impacto de mudanças em refatorações; geração de documentação viva da arquitetura de software.",
-    "quickstart": "```bash\ngit clone https://github.com/lidge-jun/opencodex.git\ncd opencodex\nnpm install\nnpm run index -- --repo-path ./meu-projeto\n```",
-    "pro_tip": "Exporte os índices gerados no formato de grafo para alimentar pipelines de RAG estruturado em editores de código como Cursor ou Claude Code."
-  },
-  "Tabbit-Browser/dsh-plugin": {
-    "what": "Plugin de produtividade para navegadores focado em gerenciamento avançado de abas, espaços de trabalho isolados e navegação orientada por teclado. Permite agrupar contextos de trabalho e alternar entre sessões de pesquisa e desenvolvimento instantaneamente.",
-    "use_cases": "Organização de dezenas de abas abertas em fluxos de trabalho temáticos (ex: 'Debug Produção', 'Pesquisa IA'); redução do consumo de memória do navegador suspendendo abas inativas de forma inteligente.",
-    "quickstart": "```bash\ngit clone https://github.com/Tabbit-Browser/dsh-plugin.git\ncd dsh-plugin\nnpm install\nnpm run build\n# Carregue a pasta 'dist' como extensão descompactada no Chrome/Brave/Edge\n```",
-    "pro_tip": "Utilize a paleta de comandos rápida ativada por atalho para fechar ou mover abas duplicadas sem tirar as mãos do teclado."
-  },
-  "Genymobile/scrcpy": {
-    "what": "Aplicação definitiva em C para espelhamento e controle de dispositivos Android em computadores desktop (Windows, macOS e Linux) com latência ultra-baixa (35~70ms). Opera via USB ou Wi-Fi (TCP/IP), não requer privilégios de root no aparelho e suporta taxas de 60+ FPS com repasse de áudio, gravação de tela e compartilhamento de área de transferência.",
-    "use_cases": "Desenvolvimento e depuração de aplicativos Android em tempo real na tela do computador; apresentações, tutoriais e demonstrações ao vivo de apps; uso do celular sem precisar pegar no aparelho físico durante o expediente de trabalho.",
-    "quickstart": "```bash\n# No Windows via Winget ou Chocolatey:\nwinget install scrcpy\n# Conectar aparelho via USB com depuração ativada e iniciar:\nscrcpy --max-fps=60 --video-bit-rate=8M --stay-awake\n# Modo sem fio (Wi-Fi):\n# scrcpy --tcpip=192.168.1.50:5555\n```",
-    "pro_tip": "Utilize o atalho MOD + f para alternar para tela cheia e MOD + o para desligar a tela física do celular enquanto continua interagindo normalmente com ele pelo PC, economizando bateria."
-  },
-  "lwthiker/curl-impersonate": {
-    "what": "Compilação customizada do utilitário curl que emula perfeitamente as assinaturas de rede e TLS dos navegadores reais mais populares (Chrome, Firefox, Safari e Edge). Reproduz com exatidão parâmetros de handshake TLS (ciphers, extensões, curvas elípticas, assinaturas JA3/JA4) e frames HTTP/2, tornando requisições automatizadas indistinguíveis de um usuário em um navegador real.",
-    "use_cases": "Raspagem de dados e web scraping avançado contornando bloqueios de WAFs e sistemas anti-bot como Cloudflare, Akamai e DataDome; testes de segurança de aplicações web avaliando resiliência contra evasão de assinaturas.",
-    "quickstart": "```bash\n# Execução rápida via Docker emulando o Chrome 116\ndocker run --rm lwthiker/curl-impersonate:latest   curl_chrome116 -sL \"https://tls.browserleaks.com/json\"\n```",
-    "pro_tip": "Em pipelines Python, utilize o wrapper curl_cffi para ter a mesma emulação de TLS do curl-impersonate diretamente com sintaxe idêntica à biblioteca requests."
-  },
-  "D4Vinci/Scrapling": {
-    "what": "Biblioteca em Python para raspagem e automação web indetectável de alta performance. Desenvolvida para contornar desafios de Cloudflare e proteções modernas, combina parseamento de DOM extremamente veloz com seletores CSS adaptativos e emulação inteligente de comportamento humano.",
-    "use_cases": "Extração massiva de dados em e-commerces protegidos por Cloudflare Turnstile/WAF; coleta de informações de portais de notícias e redes sem sofrer bloqueios frequentes de IP; automação de fluxos de scraping corporativo.",
-    "quickstart": "```bash\npip install scrapling\n# No código Python:\n# from scrapling import Fetcher\n# fetcher = Fetcher()\n# page = fetcher.get('https://exemplo.com')\n# print(page.css('h1::text').get())\n```",
-    "pro_tip": "Ative o modo de navegação com renderização dinâmica passando stealth=True para que scripts anti-automação não consigam detectar que o navegador está sendo controlado via automação."
-  },
-  "browser-use/browser-use": {
-    "what": "Biblioteca em Python que capacita agentes de inteligência artificial a controlar e navegar na web exatamente como seres humanos. Integra modelos de visão e LLMs (como GPT-4o, Claude 3.5 e Gemini) ao Playwright para interagir com elementos visuais da página, preencher formulários, lidar com popups e resolver tarefas complexas de ponta a ponta.",
-    "use_cases": "Automação completa de fluxos de trabalho corporativos no navegador (ex: agendamentos, compras, cadastros em sistemas sem API); testes end-to-end de usabilidade orientados por IA; coleta e consolidação de relatórios em painéis com login e múltiplos cliques.",
-    "quickstart": "```bash\npip install browser-use\nplaywright install\n# Executar agente simples via script:\n# from browser_use import Agent\n# from langchain_openai import ChatOpenAI\n# agent = Agent(task=\"Encontre o melhor preço de notebook gamer\", llm=ChatOpenAI(model=\"gpt-4o\"))\n# agent.run()\n```",
-    "pro_tip": "Utilize a opção use_vision=True para que o agente analise capturas de tela reais da página, permitindo navegar com sucesso mesmo em interfaces repletas de Shadow DOM, canvas ou seletores dinâmicos."
-  },
-  "firecrawl/firecrawl": {
-    "what": "API e motor open-source de rastreamento e extração web que converte qualquer site completo em Markdown limpo, sem ruídos e pronto para consumo por LLMs e pipelines de RAG. Gerencia automaticamente renderização de JavaScript, rolagem infinita, proxies rotativos e desafios anti-bot.",
-    "use_cases": "Indexação e criação de bases de conhecimento para RAG a partir da documentação inteira de bibliotecas e sites de clientes; alimentação de LLMs com conteúdo web limpo sem tags HTML desnecessárias; extração estruturada de dados com schema JSON via IA.",
-    "quickstart": "```bash\n# Subir stack completa localmente via Docker Compose\ngit clone https://github.com/firecrawl/firecrawl.git\ncd firecrawl\ndocker compose up -d\n# Fazer scraping de uma URL via cURL:\n# curl -X POST http://localhost:3002/v0/scrape -H \"Content-Type: application/json\" -d '{\"url\": \"https://docs.python.org\"}'\n```",
-    "pro_tip": "Use o endpoint /crawl com o parâmetro scrapeOptions: {formats: ['markdown']} e limit: 50 para rastrear até 50 páginas de uma documentação com deduplicação automática de links."
-  },
-  "microsoft/markitdown": {
-    "what": "Utilitário e biblioteca oficial da Microsoft em Python para conversão universal de arquivos de diversos formatos (PDF, Word .docx, Excel .xlsx, PowerPoint .pptx, imagens, áudios com fala, HTML, CSV e JSON) em Markdown limpo e perfeitamente estruturado.",
-    "use_cases": "Pré-processamento e normalização de documentos corporativos heterogêneos para ingestão em pipelines de RAG e bancos vetoriais; extração de tabelas de planilhas e relatórios para análise por LLMs; transcrição de áudio e extração de texto de apresentações em formato unificado.",
-    "quickstart": "```bash\npip install markitdown\n# Converter um arquivo PDF ou DOCX diretamente no terminal:\nmarkitdown documento.pdf -o documento.md\nmarkitdown apresentacao.pptx -o apresentacao.md\n```",
-    "pro_tip": "Ao inicializar o MarkItDown no Python, passe um cliente do Azure OpenAI ou OpenAI para ativar transcrição automática de arquivos de áudio e descrição detalhada de imagens presentes no documento."
-  },
-  "unclecode/crawl4ai": {
-    "what": "Rastreador e extrator web open-source em Python de altíssima velocidade, projetado especificamente para modelos de linguagem e pipelines de IA. Oferece extração avançada de Markdown com pontuação de relevância (BM25), filtragem de ruído heurística, suporte a sessões com cookies, execução de código JS antes da extração e integração nativa com LangChain e LlamaIndex.",
-    "use_cases": "Coleta de dados em alta escala para fine-tuning de modelos e bases de conhecimento vetoriais; extração de artigos, posts de blog e documentações técnicas sem cabeçalhos, rodapés ou anúncios; monitoramento contínuo de conteúdos dinâmicos na web.",
-    "quickstart": "```bash\npip install crawl4ai\ncrawl4ai-setup  # Instala os binários do Playwright necessários\n# Execução rápida via CLI:\ncrawl4ai-cli https://news.ycombinator.com\n```",
-    "pro_tip": "Configure fit_markdown=True no extrator para que o Crawl4AI aplique algoritmos de extração heurística que removem menus de navegação e banners, reduzindo a contagem de tokens do Markdown em até 70%."
-  },
-  "MrCl0wnLab/BR-EvilPortal-HTML-Files": {
-    "what": "Coleção de páginas de portais cativos (Captive Portals) responsivas e personalizadas em Português do Brasil para auditoria de segurança em redes Wi-Fi e exercícios de Red Teaming. Compatível com dispositivos e firmwares como ESP8266, ESP32, WiFi Pineapple e Evil Portal.",
-    "use_cases": "Treinamentos práticos de conscientização em segurança da informação (Security Awareness) demonstrando os riscos de conexão a redes Wi-Fi públicas desprotegidas; testes de intrusão autorizados avaliando a suscetibilidade a ataques de rogue AP (Evil Twin).",
-    "quickstart": "```bash\ngit clone https://github.com/MrCl0wnLab/BR-EvilPortal-HTML-Files.git\ncd BR-EvilPortal-HTML-Files\n# Copie o portal desejado para o cartão SD ou pasta do EvilPortal\n```",
-    "pro_tip": "Sempre execute testes com portais cativos exclusivamente em ambientes de laboratório controlados e com autorização prévia por escrito para garantir conformidade legal com a legislação brasileira."
-  },
-  "CopilotKit/aimock": {
-    "what": "Framework de desenvolvimento e suíte de testes em TypeScript voltada para simulação (mocking) de respostas de modelos de IA e fluxos de copilotos generativos. Permite testar interfaces de usuário, streaming de texto e chamadas de funções sem gastar tokens reais de APIs pagas.",
-    "use_cases": "Testes unitários e de integração de componentes frontend de chat e IA no CI/CD; desenvolvimento offline de interfaces copiloto sem necessidade de conexão com a internet ou chaves de API; reprodução determinística de cenários de erro ou respostas anômalas de LLMs.",
-    "quickstart": "```bash\nnpm install @copilotkit/aimock --save-dev\n# Importe no seu arquivo de teste:\n# import { mockAIGenerate } from '@copilotkit/aimock';\n```",
-    "pro_tip": "Configure cenários de atraso artificial (latency simulation) nas respostas mockadas para testar a experiência do usuário durante o carregamento de streaming em conexões lentas."
-  },
-  "f/prompts.chat": {
-    "what": "O mundialmente famoso repositório 'Awesome ChatGPT Prompts', reunindo centenas de prompts de sistema de alto nível categorizados para instruir LLMs a agir como especialistas em áreas como arquitetura de software, terminal Linux, cibersegurança, tradução e copywriting.",
-    "use_cases": "Configuração rápida de personas e instruções de sistema (System Prompts) para assistentes de IA corporativos; inspiração de técnicas de engenharia de prompt (Few-Shot, Chain-of-Thought) para tarefas específicas; aceleração de pesquisas e tarefas do dia a dia.",
-    "quickstart": "```bash\n# Clone o repositório para ter acesso local a todos os prompts estruturados em CSV/JSON\ngit clone https://github.com/f/prompts.chat.git\n# O arquivo prompts.csv contém todos os prompts prontos para busca\n```",
-    "pro_tip": "Importe o arquivo prompts.csv no seu banco de dados vetorial ou crie um script de busca local com fzf no terminal para copiar instantaneamente o prompt desejado para a área de transferência."
-  },
-  "unslothai/unsloth": {
-    "what": "Framework líder em Python para fine-tuning e treinamento ultra-otimizado de modelos de linguagem de código aberto (Llama 3, Mistral, Gemma, Qwen, Phi-4, DeepSeek). Reduz o consumo de memória VRAM em até 80% e acelera o treinamento em 2 a 5x sem nenhuma perda de precisão matemática, viabilizando treinar LLMs de ponta em GPUs comuns (como RTX 3090/4090 ou instâncias T4 gratuitas).",
-    "use_cases": "Fine-tuning de modelos abertos com dados proprietários da empresa; treinamento com LoRA/QLoRA e alinhamento via DPO/ORPO; exportação direta de modelos ajustados para GGUF (rodar no Ollama/Llama.cpp) ou vLLM para produção.",
-    "quickstart": "```bash\npip install \"unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git\"\n# Exemplo rápido de carregamento com 4-bit quantization:\n# from unsloth import FastLanguageModel\n# model, tokenizer = FastLanguageModel.from_pretrained(model_name=\"unsloth/llama-3-8b-bnb-4bit\", max_seq_length=2048)\n```",
-    "pro_tip": "Ao final do treinamento, utilize model.save_pretrained_gguf('meu_modelo', tokenizer, quantization_method='q4_k_m') para gerar diretamente um arquivo GGUF otimizado e rodar seu modelo localmente no Ollama em segundos."
-  },
-  "ZhuLinsen/daily_stock_analysis": {
-    "what": "Sistema de análise financeira automatizada em Python que emprega agentes de IA para coletar cotações, calcular indicadores técnicos (RSI, MACD, Médias Móveis), analisar notícias do mercado e gerar relatórios analíticos diários sobre ações.",
-    "use_cases": "Acompanhamento automatizado de carteiras de investimentos com resumos executivos enviados por email ou Telegram; triagem matinal de ativos financeiros com base em análise técnica e fundamentalista; monitoramento de sentimento do mercado em tempo real.",
-    "quickstart": "```bash\ngit clone https://github.com/ZhuLinsen/daily_stock_analysis.git\ncd daily_stock_analysis\npip install -r requirements.txt\npython main.py\n```",
-    "pro_tip": "Configure tarefas agendadas via cron para rodar o script 30 minutos após o fechamento do pregão e receber um consolidado dos ativos com maiores variações diretamente no Telegram."
-  },
-  "addyosmani/agent-skills": {
-    "what": "Coleção de habilidades modulares, especificações de ferramentas e fluxos de trabalho criada por Addy Osmani (Google) para potencializar assistentes e agentes de codificação por IA. Abrange padrões avançados de depuração, testes, revisão de código e engenharia de software moderna.",
-    "use_cases": "Extensão das capacidades de agentes como Claude Code, Cursor e Antigravity com boas práticas recomendadas pela engenharia do Google; padronização de workflows de auditoria de performance web (Core Web Vitals) e testes automatizados.",
-    "quickstart": "```bash\ngit clone https://github.com/addyosmani/agent-skills.git\ncd agent-skills\n# Copie as habilidades desejadas para a pasta de skills da sua ferramenta de IA\n```",
-    "pro_tip": "Explore as habilidades voltadas para auditoria de Largest Contentful Paint (LCP) e Cumulative Layout Shift (CLS) para instruir agentes a refatorar componentes React priorizando métricas de performance real."
-  },
-  "earendil-works/pi": {
-    "what": "Infraestrutura de comunicação ponto a ponto (P2P) descentralizada, anônima e resistente a censura, desenvolvida em TypeScript e Rust. Implementa roteamento criptográfico inspirado no protocolo mixnet/onion routing, proporcionando camadas seguras de transporte de dados.",
-    "use_cases": "Desenvolvimento de aplicações descentralizadas que necessitam de comunicação privada imune a bloqueios de rede; comunicação entre microsserviços sem exposição de endereços IP de origem; criação de redes de transporte de dados seguras.",
-    "quickstart": "```bash\ngit clone https://github.com/earendil-works/pi.git\ncd pi\nnpm install\nnpm run build\n```",
-    "pro_tip": "Utilize a camada de transporte do Pi para isolar canais de telemetria crítica e tráfego de controle de servidores sem expor portas públicas na internet."
-  },
-  "PrimeIntellect-ai/prime-agent": {
-    "what": "Framework em TypeScript para coordenação de computação descentralizada de inteligência artificial, projetado para permitir que agentes autônomos gerenciem treinamento distribuído, benchmarks e alocação de poder computacional em clusters globais de GPUs.",
-    "use_cases": "Orquestração de cargas de treinamento de IA distribuídas entre provedores heterogêneos de computação em nuvem; execução autônoma de benchmarks de modelos em múltiplos nós; automação de fluxos de pesquisa em aprendizado por reforço.",
-    "quickstart": "```bash\ngit clone https://github.com/PrimeIntellect-ai/prime-agent.git\ncd prime-agent\nnpm install\nnpm run dev\n```",
-    "pro_tip": "Configure chaves de orquestração distribuída para permitir que múltiplos agentes colaborem na exploração de hiperparâmetros de treinamento simultaneamente."
-  },
-  "promovaweb/specsfy": {
-    "what": "Utilitário em JavaScript/Node.js para criação, validação e documentação rápida de especificações OpenAPI/Swagger. Permite descrever endpoints de forma declarativa e gerar servidores de mock interativos com mínimo esforço de configuração.",
-    "use_cases": "Definição de contratos de API em arquiteturas 'API-First' antes do desenvolvimento do backend; geração de mocks automáticos para desbloquear times de frontend; validação de conformidade de schemas de requisição e resposta.",
-    "quickstart": "```bash\nnpm install -g specsfy\n# Gerar documentação interativa a partir do schema:\nspecsfy serve openapi.yaml --port 8080\n```",
-    "pro_tip": "Utilize o gerador de mocks integrado com a flag --watch durante o desenvolvimento para atualizar os contratos de API e refletir alterações instantaneamente no mock server."
-  },
-  "yashab-cyber/opendroid": {
-    "what": "Ferramenta open-source em Kotlin voltada para auditoria de segurança, engenharia reversa e análise de vulnerabilidades em aplicativos Android (APKs). Inspeciona permissões excessivas, componentes exportados desprotegidos, vazamentos de segredos e más práticas no AndroidManifest.xml.",
-    "use_cases": "Pentest de aplicações móveis Android; checagem rápida de conformidade de segurança de APKs antes do deploy em lojas de aplicativos; auditoria de bibliotecas de terceiros integradas ao app.",
-    "quickstart": "```bash\ngit clone https://github.com/yashab-cyber/opendroid.git\n# Abrir no Android Studio ou compilar via Gradle:\n./gradlew assembleDebug\n```",
-    "pro_tip": "Execute a análise estática em conjunto com o adb logcat filtrando por tags de segurança para capturar tokens ou parâmetros sensíveis trafegados indevidamente em texto plano."
-  },
-  "itsfatduck/optimizerDuck": {
-    "what": "Utilitário de otimização de sistema operacional Windows escrito em C#. Permite desativar telemetria intrusiva, remover aplicativos desnecessários (bloatware), ajustar configurações de rede (TCP/IP tuning) e otimizar parâmetros de registro para obter máximo desempenho e baixa latência.",
-    "use_cases": "Otimização de máquinas virtuais e estações de desenvolvimento Windows para reduzir uso de memória e CPU; preparação de imagens limpas do Windows para desenvolvedores e gamers; desativação de serviços desnecessários em segundo plano.",
-    "quickstart": "```bash\ngit clone https://github.com/itsfatduck/optimizerDuck.git\n# Compile no Visual Studio ou execute o binário pré-compilado da aba Releases\n```",
-    "pro_tip": "Sempre crie um Ponto de Restauração do Sistema (System Restore Point) antes de aplicar perfis de otimização agressiva de registro do Windows."
-  },
-  "microsoft/ai-agents-for-beginners": {
-    "what": "Curso e repositório educacional completo da Microsoft composto por 10 lições práticas sobre construção de agentes de inteligência artificial generativa. Cobre desde os fundamentos teóricos até orquestração multi-agente, uso de ferramentas (tool calling), memória e frameworks como AutoGen e Semantic Kernel.",
-    "use_cases": "Treinamento e capacitação de equipes de engenharia no desenvolvimento de sistemas baseados em agentes; material de referência com código executável em Jupyter Notebooks para estudos; guia de boas práticas de arquitetura agentica.",
-    "quickstart": "```bash\ngit clone https://github.com/microsoft/ai-agents-for-beginners.git\ncd ai-agents-for-beginners\n# Abra qualquer lição no VS Code ou Jupyter:\n# jupyter notebook\n```",
-    "pro_tip": "Inicie pela lição 06 sobre 'Multi-Agent Orchestration' para compreender os padrões de comunicação inter-agentes (sequential, broadcast e round-robin) antes de desenhar fluxos de trabalho complexos."
-  },
-  "abundantbeing/hermes-browser-extension": {
-    "what": "Extensão para navegadores baseados em Chromium em JavaScript que integra o agente autônomo Hermes diretamente às abas de navegação. Permite que a IA acesse o conteúdo da página atual, resuma artigos, extraia dados estruturados e execute ações no navegador de forma assistida.",
-    "use_cases": "Assistente de pesquisa e leitura na navegação web diária; extração de dados e tabelas de sites sem exportação direta para CSV; automação de preenchimento de campos repetitivos em portais internos.",
-    "quickstart": "```bash\ngit clone https://github.com/abundantbeing/hermes-browser-extension.git\n# Acesse chrome://extensions, ative 'Modo do desenvolvedor' e clique em 'Carregar sem compactação'\n```",
-    "pro_tip": "Configure atalhos de teclado globais no navegador para invocar o painel lateral do Hermes sem perder o foco do artigo ou documento que está sendo lido."
-  },
-  "vitali87/code-graph-rag": {
-    "what": "Sistema de recuperação aumentada por geração (RAG) baseado em grafos (GraphRAG) em Python voltado para código-fonte. Converte o código de um repositório em um grafo de conhecimento interligando funções, classes, métodos e módulos para permitir consultas semânticas e arquiteturais complexas.",
-    "use_cases": "Compreensão profunda da arquitetura de sistemas com milhões de linhas de código; consultas de impacto do tipo 'quais endpoints chamam esta função de autenticação?'; alimentação de agentes de IA com contexto estruturado e preciso sobre o código.",
-    "quickstart": "```bash\ngit clone https://github.com/vitali87/code-graph-rag.git\ncd code-graph-rag\npip install -r requirements.txt\npython main.py --repo-path /caminho/do/projeto\n```",
-    "pro_tip": "Combine o Code-Graph-RAG com um banco de vetores para fazer buscas híbridas: utilize a busca vetorial para encontrar funções semanticamente relevantes e o grafo para puxar todos os seus chamadores diretos e dependências."
-  },
-  "outline/outline": {
-    "what": "Plataforma moderna, colaborativa e ultra-rápida de base de conhecimento e documentação de equipe em TypeScript/React. Funciona como uma alternativa open-source e auto-hospedável ao Notion e Confluence, com editor Markdown rico em tempo real, suporte a diagramas Mermaid e permissões granulares.",
-    "use_cases": "Wiki e documentação técnica centralizada para equipes de engenharia; documentação de processos operacionais e onboarding de colaboradores; compartilhamento seguro de manuais internos e notas de produto com clientes.",
-    "quickstart": "```bash\n# Inicialização via Docker Compose com PostgreSQL e Redis\ngit clone https://github.com/outline/outline.git\ncd outline\ndocker compose up -d\n# Acesse http://localhost:3000\n```",
-    "pro_tip": "Integre o Outline com seu provedor de identidade corporativo (Google Workspace, Slack, OIDC ou SAML) para provisionamento automatizado de usuários e controle de acesso baseado em grupos."
-  },
-  "Leantime/leantime": {
-    "what": "Sistema open-source de gerenciamento estratégico de projetos em PHP, projetado para equipes enxutas e indivíduos com TDAH/ADHD. Combina a metodologia Lean com visualizações intuitivas de Kanban, marcos estratégicos (Milestones), quadros de metas (OKRs) e gráficos de Gantt sem a complexidade burocrática do Jira.",
-    "use_cases": "Gestão ágil de desenvolvimento de software em startups e pequenas equipes; acompanhamento visual de metas de negócios e roadmap de produtos; planejamento de projetos com foco em entregas iterativas e priorização clara.",
-    "quickstart": "```bash\n# Subir Leantime via Docker\ndocker run -d --name leantime -p 8080:80   -e LEAN_DB_HOST=db_host -e LEAN_DB_USER=db_user -e LEAN_DB_PASSWORD=secret   leantime/leantime:latest\n```",
-    "pro_tip": "Utilize a funcionalidade de 'Strategy Matrix' do Leantime para mapear como cada tarefa técnica diária do time se conecta diretamente aos objetivos e OKRs estratégicos da empresa."
-  },
-  "ente/ente": {
-    "what": "Plataforma 100% open-source com criptografia de ponta a ponta (E2EE) para backup e organização de fotos e vídeos, posicionando-se como alternativa segura e soberana ao Google Fotos e Apple Fotos. Desenvolvida em Flutter/Dart e Go, oferece reconhecimento facial local, busca semântica no dispositivo e sincronização em tempo real entre mobile e desktop.",
-    "use_cases": "Backup privado de fotos e memórias pessoais sem expor dados a algoritmos de vigilância em nuvem; compartilhamento seguro de álbuns de família com criptografia ponta a ponta; auto-hospedagem para armazenamento local e controle total dos arquivos originais em alta resolução.",
-    "quickstart": "```bash\n# Subir servidor Ente localmente via Docker\ngit clone https://github.com/ente-io/ente.git\ncd ente/server\ndocker compose up -d\n```",
-    "pro_tip": "Ative a opção de 'Lockout Protection' e configure um contato de recuperação com chaves públicas compartilhadas para garantir que você nunca perca o acesso às suas fotos caso esqueça a chave-mestre de criptografia."
-  },
-  "imputnet/cobalt": {
-    "what": "Serviço de download de mídias da web (áudio e vídeo) moderno, rápido e livre de anúncios, rastreadores ou popups invasivos. Desenvolvido com interface fluida em Svelte e backend em Node.js, permite baixar conteúdos do YouTube, Twitter/X, Instagram, TikTok, Reddit, SoundCloud, Bilibili e dezenas de outras plataformas na melhor qualidade disponível.",
-    "use_cases": "Download local de materiais de referência em vídeo e áudio para estudo e edição; extração de faixas sonoras em alta fidelidade (.opus / .mp3 / .wav); auto-hospedagem de uma instância privada e confiável para sua equipe ou amigos.",
-    "quickstart": "```bash\n# Execução rápida da API e WebUI do Cobalt via Docker\ndocker run -d --name cobalt -p 9000:9000   -e API_URL=\"http://localhost:9000/\"   ghcr.io/imputnet/cobalt:10\n# Acesse http://localhost:9000\n```",
-    "pro_tip": "Integre a API REST do Cobalt em seus próprios scripts ou bots do Telegram passando parâmetros como downloadMode: 'audio' ou videoQuality: '1080' no payload JSON para baixar mídias programaticamente."
-  },
-  "Stirling-Tools/Stirling-PDF": {
-    "what": "A mais completa suíte de utilitários para PDF open-source e auto-hospedável da atualidade, desenvolvida em Java/Spring Boot. Executa todas as operações possíveis em documentos PDF (dividir, mesclar, comprimir, aplicar OCR com Tesseract, converter para Word/HTML/Imagens, assinar digitalmente, sanitizar metadados, redigir informações confidenciais) de forma 100% local e segura.",
-    "use_cases": "Manipulação de documentos confidenciais (contratos, faturas, relatórios) sem risco de vazamento para serviços de PDF comerciais na nuvem; automação de OCR e conversão de pilhas de PDFs digitalizados em documentos pesquisáveis; padronização de utilitário central de PDF para toda a empresa.",
-    "quickstart": "```bash\n# Subir o Stirling-PDF via Docker\ndocker run -d -p 8080:8080   -v /stirling/trainingData:/usr/share/tessdata   -v /stirling/extraConfigs:/configs   --name stirling-pdf   frooodle/s-pdf:latest\n# Acesse http://localhost:8080\n```",
-    "pro_tip": "O Stirling-PDF expõe todos os seus utilitários como uma API REST documentada no Swagger (http://localhost:8080/swagger-ui/index.html), permitindo que você automatize fluxos de compressão e OCR em scripts Python ou pipelines do n8n com chamadas HTTP simples."
-  },
-  "Shpigford/chops": {
-    "what": "Aplicativo nativo para a barra de menus do macOS desenvolvido em Swift para acompanhamento em tempo real de métricas financeiras e de assinaturas do Stripe. Exibe receita recorrente mensal (MRR), volume diário, novos assinantes e taxas de cancelamento (churn) de forma minimalista.",
-    "use_cases": "Monitoramento de métricas de faturamento para fundadores de SaaS e negócios digitais; notificações imediatas de vendas e novos clientes diretamente na barra de menus; visualização de tendências de crescimento sem precisar abrir o dashboard pesado do Stripe.",
-    "quickstart": "```bash\ngit clone https://github.com/Shpigford/chops.git\n# Abra o projeto no Xcode para compilar e rodar nativamente no macOS:\n# xcodebuild -workspace Chops.xcworkspace -scheme Chops\n```",
-    "pro_tip": "Crie uma chave de API restrita (Restricted API Key) no Stripe com permissões exclusivas de leitura (read-only) para faturas e assinaturas antes de configurar o aplicativo, garantindo máxima segurança."
-  },
-  "sujeeth36/TradingView-Premium-FREE": {
-    "what": "Guia e acervo de scripts de automação, userscripts e configurações para a plataforma TradingView. Foca em contornar limitações de contas gratuitas, permitindo utilizar múltiplos indicadores customizados, múltiplos layouts de gráficos e alertas sem custos de assinatura.",
-    "use_cases": "Análise gráfica aprofundada de ações, criptomoedas e pares de moedas forex sem limites rígidos de indicadores simultâneos; automação de rotinas de visualização de múltiplos tempos gráficos em uma única tela.",
-    "quickstart": "```bash\ngit clone https://github.com/sujeeth36/TradingView-Premium-FREE.git\n# Siga as instruções do repositório para instalar os userscripts via Tampermonkey/Violentmonkey\n```",
-    "pro_tip": "Combine indicadores customizados em um único script Pine Script (Indicator Bundle) para utilizar até 10 cálculos analíticos diferentes ocupando apenas um único slot de indicador no TradingView."
-  },
-  "rmyndharis/OpenWA": {
-    "what": "Biblioteca e servidor de automação open-source em TypeScript/Node.js para integração com o WhatsApp Web. Permite construir bots, disparar mensagens de atendimento, escutar eventos de mensagens recebidas, enviar mídias e integrar sistemas de CRM diretamente ao WhatsApp sem depender da API Cloud oficial paga.",
-    "use_cases": "Automação de atendimento e envio de notificações transacionais (confirmação de pedidos, lembretes de agendamento); integração de assistentes de IA (ChatGPT, Claude) como atendentes inteligentes no WhatsApp; criação de chatbots corporativos de suporte interno.",
-    "quickstart": "```bash\ngit clone https://github.com/rmyndharis/OpenWA.git\ncd OpenWA\nnpm install\nnpm start\n# Escaneie o QR Code exibido no terminal para conectar a sessão\n```",
-    "pro_tip": "Salve a pasta de sessão (session_data) em um volume persistente para que o bot reconecte automaticamente após reinicializações sem exigir a leitura de um novo QR Code."
-  },
-  "Bill-Stewart/SyncthingWindowsSetup": {
-    "what": "Instalador completo e gerenciador de serviço nativo do Windows para o Syncthing (ferramenta de sincronização contínua de arquivos P2P criptografada). Configura o Syncthing para rodar como um serviço do Windows em segundo plano (Windows Service), iniciando antes do login do usuário com consumo mínimo de recursos.",
-    "use_cases": "Sincronização contínua de pastas de trabalho, documentos e projetos entre servidores Windows, desktops e notebooks sem depender de nuvens terceiras (Dropbox/Google Drive); backups contínuos de diretórios em rede local.",
-    "quickstart": "```bash\n# Baixe o instalador mais recente na aba Releases do GitHub\n# Ou instale silenciosamente via linha de comando no PowerShell administrativo:\n# Start-Process SyncthingSetup.exe -ArgumentList \"/VERYSILENT /SUPPRESSMSGBOXES\" -Wait\n```",
-    "pro_tip": "Ao configurar o serviço do Windows, utilize uma conta de serviço dedicada com permissões NTFS específicas para as pastas sincronizadas, isolando os dados de outras aplicações do sistema."
-  },
-  "arthurspk/guiadofrontend": {
-    "what": "Guia completo e interativo em Português do Brasil com o roteiro de aprendizado (roadmap) essencial para desenvolvedores Front-End modernos. Abrange fundamentos essenciais (HTML5 semântico, CSS moderno, JavaScript ES6+), frameworks (React, Vue, Next.js), ferramentas de build, testes, performance web e práticas de carreira.",
-    "use_cases": "Estruturação de planos de estudo para desenvolvedores em transição ou especialização em frontend; material de referência e consulta rápida sobre padrões de mercado e arquitetura web; guia de preparação técnica para entrevistas de emprego.",
-    "quickstart": "```bash\ngit clone https://github.com/arthurspk/guiadofrontend.git\n# Acesse o README.md ou abra a versão interativa hospedada online\n```",
-    "pro_tip": "Siga as seções de acessibilidade (a11y) e Core Web Vitals do guia para elevar a pontuação do Lighthouse dos seus projetos acima de 95 em produção."
+  "langchain-ai/langgraph": {
+    "what": "Framework em Python líder para construção de agentes autônomos e fluxos de IA multi-agente resilientes, cíclicos e com controle de estado. Oferece suporte nativo a persistência de memória, execução paralela e controle 'Human-in-the-Loop'.",
+    "use_cases": "Orquestração de sistemas multi-agente complexos com tomada de decisão iterativa; fluxos de trabalho que exigem aprovação humana antes de ações críticas; assistentes de suporte com checkpoints de conversa persistidos em banco.",
+    "quickstart": "```bash\npip install -U langgraph langchain-openai\n# Crie um StateGraph com nós de decisão e transições condicionais\n```",
+    "pro_tip": "Utilize o `MemorySaver` ou `SqliteSaver` como checkpointer para poder pausar a execução de um agente, inspecionar o estado e retomar exatamente de onde parou."
   },
   "fadidevv/keyhunter": {
-    "what": "Utilitário de alta performance escrito em Rust para detecção e auditoria de chaves de API, credenciais e tokens vazados em repositórios de código-fonte, históricos de commits do Git e arquivos de configuração. Utiliza análise de entropia de Shannon e expressões regulares otimizadas para identificar vazamentos com velocidade instantânea.",
-    "use_cases": "Varredura de segurança pré-commit e pré-push para impedir o envio acidental de segredos (como chaves de AWS, OpenAI, GitHub e Stripe) para repositórios remotos; auditoria de segurança em pipelines de CI/CD; análise estática em auditorias de conformidade.",
-    "quickstart": "```bash\ngit clone https://github.com/fadidevv/keyhunter.git\ncd keyhunter\ncargo build --release\n./target/release/keyhunter scan --path /caminho/do/projeto\n```",
-    "pro_tip": "Integre o binário do Keyhunter no arquivo .git/hooks/pre-commit para bloquear imediatamente qualquer commit que contenha tokens de alta entropia antes que o código saia da sua máquina local."
+    "what": "Scanner de altíssima velocidade em Rust projetado para caçar chaves de API, tokens e segredos vazados no GitHub e em repositórios locais. Suporta mais de 45 provedores (OpenAI, Anthropic, AWS, Stripe, HuggingFace) e valida chaves ativas instantaneamente.",
+    "use_cases": "Auditoria preventiva em repositórios públicos e privados antes de commits; caça de credenciais vazadas em organizações de software; resposta rápida a incidentes de vazamento de segredos.",
+    "quickstart": "```bash\ngit clone https://github.com/fadidevv/keyhunter.git\ncd keyhunter\ncargo build --release\n./target/release/keyhunter scan --org minha-empresa\n```",
+    "pro_tip": "Use a flag `--verify` para testar ativamente se as chaves encontradas ainda possuem saldo ou permissões válidas nos provedores sem disparar alertas falsos."
   },
   "trufflesecurity/trufflehog": {
-    "what": "A ferramenta de código aberto padrão da indústria em Go para localização profunda de segredos, chaves de API, certificados privados e credenciais vazadas em repositórios Git, históricos de commits completos, buckets S3, imagens Docker e sistemas de arquivos. Seu grande diferencial é a validação ativa (Live Verification), que testa se as credenciais encontradas continuam ativas contra os provedores reais em tempo real.",
-    "use_cases": "Varredura contínua de segurança em pipelines de CI/CD para barrar pull requests com credenciais expostas; auditoria forense do histórico completo de repositórios legados; descoberta de chaves ativas em buckets de armazenamento e contêineres em ambientes corporativos.",
-    "quickstart": "```bash\n# Instalação rápida via Homebrew ou binário\n# brew install trufflehog\n# Ou execução direta via Docker sobre o repositório atual:\ndocker run --rm -v \"$PWD:/pwd\" trufflesecurity/trufflehog:latest git file:///pwd --only-verified\n```",
-    "pro_tip": "Utilize a flag --only-verified para filtrar o relatório de varredura exibindo estritamente credenciais que o TruffleHog conseguiu validar como ativas nos servidores dos provedores, eliminando 100% dos falsos positivos."
+    "what": "A ferramenta open-source líder em cibersegurança em Go para detecção e verificação de segredos e credenciais em código. Analisa repositórios Git, histórico de commits, buckets S3, Docker images e valida segredos contra mais de 800 APIs.",
+    "use_cases": "Varredura contínua de pipelines de CI/CD para barrar commits com senhas e chaves privadas; auditoria de todo o histórico do Git em busca de segredos antigos esquecidos; proteção de segredos em infraestrutura como código.",
+    "quickstart": "```bash\ndocker run -it trufflesecurity/trufflehog:latest github --repo https://github.com/meu-usuario/meu-repo\n```",
+    "pro_tip": "Integre o TruffleHog no GitHub Actions com a flag `--only-verified` para falhar a build apenas quando uma chave de API for 100% funcional e ativa, eliminando 100% dos falsos positivos."
   },
-  "langchain-ai/langgraph": {
-    "what": "Framework líder em Python e TypeScript para construção de fluxos de trabalho agenticos cíclicos e com estado (Stateful Multi-Agent Systems). Projetado para superar as limitações das cadeias lineares tradicionais, permite criar grafos com ciclos, ramificações condicionais, persistência de estado em banco de dados, aprovação humana no loop (Human-in-the-Loop) e recuperação resiliente de falhas.",
-    "use_cases": "Desenvolvimento de arquiteturas complexas com múltiplos agentes especialistas colaborativos (ex: agente pesquisador, agente redator e agente revisor); fluxos de IA corporativos com necessidade de auditoria e aprovação humana em etapas críticas; automação de engenharia de software com loops de tentativa e correção de código.",
-    "quickstart": "```bash\npip install -U langgraph langchain-openai\n# No código Python:\n# from langgraph.graph import StateGraph, START, END\n# from typing import TypedDict\n# class State(TypedDict):\n#     messages: list\n# builder = StateGraph(State)\n# builder.add_node(\"agent\", meu_no_agente)\n# builder.add_edge(START, \"agent\")\n# graph = builder.compile()\n```",
-    "pro_tip": "Utilize o MemorySaver como checkpointer durante o desenvolvimento para salvar o estado de cada nó no grafo e permitir a funcionalidade de 'Time Travel' (voltar a um ponto anterior da execução do agente e testar caminhos alternativos)."
+  "arthurspk/guiadofrontend": {
+    "what": "Guia completo e estruturado para formação e carreira de desenvolvedores Front-End no Brasil. Reúne mapas mentais, trilhas de aprendizado (HTML, CSS, JS, TypeScript, React, Next.js), cursos recomendados e projetos práticos.",
+    "use_cases": "Orientação de estudos e nivelamento técnico para desenvolvedores front-end; preparação para entrevistas e processos seletivos; consulta rápida de tecnologias e ferramentas do ecossistema web.",
+    "quickstart": "```bash\ngit clone https://github.com/arthurspk/guiadofrontend.git\ncd guiadofrontend\n# Acesse o roadmap e materiais organizados por módulos\n```",
+    "pro_tip": "Siga a trilha de 'Projetos Práticos' para construir um portfólio sólido no GitHub com testes automatizados, CI/CD e boas práticas de acessibilidade."
+  },
+  "Bill-Stewart/SyncthingWindowsSetup": {
+    "what": "Instalador nativo e pacote de serviço em Inno Setup para o Syncthing no Windows. Configura o Syncthing como serviço de sistema contínuo em segundo plano, sem necessidade de janelas de terminal abertas.",
+    "use_cases": "Sincronização contínua e criptografada de pastas entre múltiplos computadores Windows, Linux e Android; backup descentralizado de projetos e documentos sem depender de nuvens pagas.",
+    "quickstart": "```bash\nwinget install BillStewart.SyncthingWindowsSetup\n# Ou baixe o executável Syncthing-Setup.exe em Releases\n```",
+    "pro_tip": "Marque a opção 'Run as Windows Service' durante a instalação para que as pastas continuem sincronizando mesmo antes do usuário fazer login no Windows."
+  },
+  "Shpigford/chops": {
+    "what": "Aplicativo nativo para macOS em Swift para gerenciar, editar e organizar habilidades de agentes de IA (*skills*) de forma centralizada entre Claude Code, Cursor, Codex, Windsurf e Amp.",
+    "use_cases": "Gerenciamento visual de prompts de sistema e MCPs em um único menu na barra superior do Mac; sincronização de skills entre diferentes editores de código; ativação e desativação rápida de habilidades.",
+    "quickstart": "```bash\ngit clone https://github.com/Shpigford/chops.git\ncd chops\n# Abra no Xcode e faça o build para a barra de menu do macOS\n```",
+    "pro_tip": "Use os atalhos globais de teclado do Chops para injetar snippets e skills específicas no terminal do Claude Code com um único clique."
+  },
+  "sujeeth36/TradingView-Premium-FREE": {
+    "what": "Suite de scripts e extensão para desbloquear funcionalidades avançadas e múltiplos layouts de gráficos no TradingView sem exigência de assinatura paga.",
+    "use_cases": "Análise técnica em múltiplos tempos gráficos simultâneos; uso de múltiplos indicadores na mesma tela; estudos e backtests de estratégias de trading.",
+    "quickstart": "```bash\ngit clone https://github.com/sujeeth36/TradingView-Premium-FREE.git\n# Siga as instruções do README para carregar o script via Violentmonkey / Tampermonkey\n```",
+    "pro_tip": "Utilize com contas de teste para validar seus estudos de análise técnica e estratégias quantitativas sem custos iniciais."
+  },
+  "rmyndharis/OpenWA": {
+    "what": "Gateway de API para WhatsApp gratuito, open-source e auto-hospedável em TypeScript. Desenvolvido sobre Baileys/Puppeteer, permite enviar e receber mensagens de texto, mídias, botões e webhooks de múltiplos números.",
+    "use_cases": "Criação de bots de atendimento e suporte via WhatsApp; envio automatizado de notificações de sistemas (alertas de compras, relatórios, códigos 2FA); integração de IA em conversas de WhatsApp.",
+    "quickstart": "```bash\ngit clone https://github.com/rmyndharis/OpenWA.git\ncd OpenWA\nnpm install\nnpm run start:dev\n# Escaneie o QR Code no terminal para conectar seu WhatsApp\n```",
+    "pro_tip": "Configure o endpoint de Webhook no `.env` para repassar mensagens recebidas diretamente para uma rota FastAPI ou servidor de agentes de IA e responder em tempo real."
+  },
+  "yashab-cyber/opendroid": {
+    "what": "Assistente autônomo e agente de segurança para Android em Kotlin. Opera localmente ou com LLMs remotas, combinando automação de tela baseada em serviços de acessibilidade com análise estática e dinâmica de apps.",
+    "use_cases": "Automação de fluxos repetitivos em dispositivos Android; testes de segurança e engenharia reversa em APKs; assistente pessoal que opera o smartphone por comandos de voz.",
+    "quickstart": "```bash\ngit clone https://github.com/yashab-cyber/opendroid.git\ncd opendroid\n# Compile o APK no Android Studio ou via Gradle:\n./gradlew assembleDebug\n```",
+    "pro_tip": "Habilite as permissões de acessibilidade via ADB (`adb shell settings put secure enabled_accessibility_services ...`) para automatizar testes sem precisar tocar no aparelho."
+  },
+  "itsfatduck/optimizerDuck": {
+    "what": "Utilitário open-source em C# para otimização avançada, privacidade e limpeza de desempenho no Windows. Remove bloatwares, desativa telemetrias invasivas, otimiza serviços de rede e melhora a taxa de quadros (FPS).",
+    "use_cases": "Otimização de máquinas Windows para desenvolvimento e jogos; limpeza de arquivos temporários e resíduos de sistema; redução do uso de memória RAM em inicializações de sistema.",
+    "quickstart": "```bash\ngit clone https://github.com/itsfatduck/optimizerDuck.git\ncd optimizerDuck\n# Baixe a versão compilada em Releases ou abra no Visual Studio (.NET 8)\n```",
+    "pro_tip": "Crie um ponto de restauração do sistema diretamente pelo aplicativo antes de aplicar os 'Tweaks Agressivos' para poder reverter qualquer mudança com segurança."
+  },
+  "microsoft/ai-agents-for-beginners": {
+    "what": "Currículo educacional oficial da Microsoft com 18 lições completas em Jupyter Notebooks para dominar a criação de agentes de inteligência artificial autônomos, cobrindo AutoGen, Semantic Kernel, LangChain e padrões multi-agente.",
+    "use_cases": "Capacitação técnica em engenharia de agentes de IA; aprendizado prático com exemplos de código prontos para execução; base de referência para arquiteturas corporativas de IA.",
+    "quickstart": "```bash\ngit clone https://github.com/microsoft/ai-agents-for-beginners.git\ncd ai-agents-for-beginners\npip install jupyter\njupyter notebook\n```",
+    "pro_tip": "Comece pelas lições 06 e 07 (Multi-Agent Collaboration) para entender na prática como implementar padrões de reflexão e debate entre agentes especialistas."
+  },
+  "abundantbeing/hermes-browser-extension": {
+    "what": "Extensão de navegador em JavaScript que traz o poder do Hermes Agent (Nous Research) em um painel lateral nativo no Chrome/Brave. Conecta o contexto da página que você está visualizando diretamente ao seu runtime local do Hermes.",
+    "use_cases": "Resumo e extração de dados da página ativa diretamente via Hermes local; navegação e preenchimento assistido por IA; interação com modelos locais sem enviar dados para nuvens públicas.",
+    "quickstart": "```bash\ngit clone https://github.com/abundantbeing/hermes-browser-extension.git\ncd hermes-browser-extension\nnpm install && npm run build\n# Carregue a pasta dist/ em chrome://extensions\n```",
+    "pro_tip": "Conecte a extensão ao seu endpoint local do Ollama ou Hermes CLI na porta 11434 para usar seu modelo local sem nenhuma latência de rede."
+  },
+  "vitali87/code-graph-rag": {
+    "what": "Sistema avançado de RAG baseado em Grafos de Conhecimento (GraphRAG) em Python especializado em monorepos e bases de código multilíngues. Mapeia hierarquias de classes, chamadas de funções e dependências cruzadas.",
+    "use_cases": "Consultas arquiteturais complexas em monorepos corporativos; análise de impacto de refatorações de código; alimentação de agentes com contexto relacional preciso.",
+    "quickstart": "```bash\ngit clone https://github.com/vitali87/code-graph-rag.git\ncd code-graph-rag\npip install -r requirements.txt\npython indexer.py --repo /caminho/do/projeto\n```",
+    "pro_tip": "Gere o grafo com visualização no Neo4j passando `--export-neo4j` para inspecionar visualmente os nós de acoplamento mais críticos do seu software."
+  },
+  "outline/outline": {
+    "what": "A plataforma de base de conhecimento e wiki em equipe mais rápida, moderna e bonita do ecossistema open-source. Desenvolvida em TypeScript/React, oferece edição colaborativa em tempo real em Markdown com alta segurança.",
+    "use_cases": "Documentação centralizada para empresas e equipes de engenharia; documentação de APIs, manuais de onboarding e processos internos; alternativa superior ao Notion e Confluence.",
+    "quickstart": "```bash\ndocker compose up -d\n# Acesse http://localhost:3000 e configure autenticação via Google/Slack/OIDC\n```",
+    "pro_tip": "Habilite a busca vetorial integrada configurando os parâmetros de embedding no `.env` para que a busca encontre documentos pelo significado semântico das palavras."
+  },
+  "Leantime/leantime": {
+    "what": "Sistema open-source de gerenciamento de projetos em PHP focado em equipes e profissionais com TDAH, autismo e perfis não tradicionais. Combina metodologias ágeis (Kanban, Scrum, Lean) com recursos de suporte cognitivo e IA.",
+    "use_cases": "Gestão visual de projetos e tarefas diárias com foco em redução de sobrecarga mental; planejamento estratégico de startups e pequenas empresas; organização de roadmaps orientados a metas.",
+    "quickstart": "```bash\ndocker run -p 8080:80 -d leantime/leantime:latest\n# Acesse http://localhost:8080\n```",
+    "pro_tip": "Ative os plugins de 'Timeboxing' e 'AI Milestone Generator' para dividir tarefas complexas em etapas menores e fáceis de concluir sem procrastinação."
+  },
+  "ente/ente": {
+    "what": "Plataforma em nuvem 100% criptografada de ponta a ponta (E2EE) em Dart/Flutter para armazenamento seguro de fotos, vídeos e autenticação em dois fatores (2FA). A melhor alternativa com privacidade total ao Google Fotos e Apple Fotos.",
+    "use_cases": "Backup automático e sincronização de fotos e vídeos pessoais com privacidade absoluta; compartilhamento de álbuns criptografados com familiares; gerenciador de códigos 2FA (Ente Auth).",
+    "quickstart": "```bash\ngit clone https://github.com/ente-io/ente.git\ncd ente/server\ndocker compose up -d\n```",
+    "pro_tip": "Utilize o app móvel do Ente apontando para o seu próprio servidor auto-hospedado para ter armazenamento infinito com criptografia onde ninguém, nem o provedor, pode ver suas fotos."
+  },
+  "imputnet/cobalt": {
+    "what": "O melhor e mais rápido utilitário de download de mídias da web em Svelte/Node.js. Permite baixar vídeos, áudios e imagens do YouTube, Twitter/X, TikTok, Reddit, Instagram e dezenas de outros serviços sem anúncios ou rastreadores.",
+    "use_cases": "Download de vídeos em alta resolução (4K/60fps) e áudios em MP3 sem propagandas; arquivamento de postagens e mídias de redes sociais; integração em bots de automação via API REST.",
+    "quickstart": "```bash\ndocker run -d -p 9000:9000 --name cobalt -e API_URL=http://localhost:9000 ghcr.io/imputnet/cobalt:latest\n```",
+    "pro_tip": "Acesse a API REST do Cobalt via `POST /api/json` passando `{\"url\": \"...\", \"videoQuality\": \"max\"}` para automatizar downloads de mídia diretamente em scripts Python ou bots do Telegram."
+  },
+  "Stirling-Tools/Stirling-PDF": {
+    "what": "A aplicação web nº 1 no GitHub para manipulação completa de arquivos PDF em Java/Spring. Permite mesclar, dividir, girar, comprimir, aplicar OCR em mais de 100 línguas, assinar digitalmente e converter arquivos 100% localmente.",
+    "use_cases": "Manipulação e edição de documentos confidenciais sem enviar para sites externos; extração de texto via OCR de documentos escaneados; automação corporativa de assinatura e proteção de PDFs.",
+    "quickstart": "```bash\ndocker run -d -p 8080:8080 -v ./stirling-data:/configs --name stirling-pdf frooodle/s-pdf:latest\n# Acesse http://localhost:8080\n```",
+    "pro_tip": "Ative a flag de segurança de dados `SYSTEM_ENABLE_SECURITY=false` para uso em rede local fechada ou integre com autenticação OAuth2 corporativa para uso compartilhado."
+  },
+  "promovaweb/specsfy": {
+    "what": "Ferramenta em JavaScript para transformar ideias brutas em software testado e especificado sem dispersar requisitos, histórias de usuário e planos técnicos em dezenas de arquivos desconexos.",
+    "use_cases": "Estruturação de especificações técnicas completas para produtos de software; alinhamento de escopo entre desenvolvedores e clientes; geração de planos de testes automatizados.",
+    "quickstart": "```bash\ngit clone https://github.com/promovaweb/specsfy.git\ncd specsfy\nnpm install\nnpm start\n```",
+    "pro_tip": "Utilize os templates de 'Especificação Viva' para que as alterações nos requisitos reflitam diretamente nos casos de testes unitários do seu repositório."
+  },
+  "CopilotKit/aimock": {
+    "what": "Servidor de mocks completo em TypeScript para aplicações de IA. Permite simular respostas de APIs de LLMs, servidores MCP, protocolos A2A, interfaces AG-UI, bancos vetoriais e buscas com um único pacote, uma porta e zero dependências.",
+    "use_cases": "Testes automatizados e CI/CD de aplicações de IA sem gastar tokens nem depender de chaves de API; desenvolvimento offline de interfaces Copilot; simulação de cenários de erro e streaming de texto.",
+    "quickstart": "```bash\nnpx aimock\n# Inicia o servidor mock na porta 3000 simulando respostas de streaming e chamadas de ferramentas\n```",
+    "pro_tip": "Configure `AIMOCK_SCENARIO=slow-network` para testar como sua interface reage a latências elevadas e quedas de conexão no streaming de respostas de IA."
+  },
+  "f/prompts.chat": {
+    "what": "O repositório clássico e oficial 'Awesome ChatGPT Prompts' em HTML/JS. Reúne a maior coleção comunitária de personas, prompts de sistema e templates de engenharia de contexto para ChatGPT, Claude e outros LLMs.",
+    "use_cases": "Descoberta de instruções de sistema eficientes para tarefas complexas (programador, revisor, mentor, arquiteto); auto-hospedagem de um portal interno de prompts para equipes com privacidade.",
+    "quickstart": "```bash\ngit clone https://github.com/f/prompts.chat.git\ncd prompts.chat\n# Abra index.html ou execute:\nnpx serve\n```",
+    "pro_tip": "Utilize o arquivo `prompts.csv` do repositório para carregar dinamicamente centenas de personas direto no seu assistente ou sistema RAG."
+  },
+  "unslothai/unsloth": {
+    "what": "A biblioteca mais rápida e eficiente em Python para fine-tuning e treinamento local de LLMs e modelos de difusão (Llama 3.3, DeepSeek-V3, Qwen 2.5, Gemma 2). Reduz o uso de VRAM em 80% e treina até 5x mais rápido que o Hugging Face padrão.",
+    "use_cases": "Fine-tuning de modelos abertos em GPUs de consumo (ex: RTX 3060/4090 ou Google Colab gratuito); especialização de LLMs para dados e terminologia da sua empresa; exportação direta para formato GGUF (Ollama).",
+    "quickstart": "```bash\npip install \"unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git\"\n# Execute o script de treinamento com FastLanguageModel\n```",
+    "pro_tip": "Use o método `model.save_pretrained_gguf('meu_modelo', tokenizer, quantization_method='q4_k_m')` para gerar um arquivo GGUF pronto para rodar offline no Ollama em segundos."
+  },
+  "ZhuLinsen/daily_stock_analysis": {
+    "what": "Sistema inteligente em Python alimentado por LLMs para análise diária de múltiplos mercados financeiros (Ações, Cripto, Índices). Agrega notícias em tempo real, indicadores técnicos, dashboard de decisões e disparos automatizados de relatórios.",
+    "use_cases": "Automação de relatórios matinais de carteira de investimentos; monitoramento automatizado de ativos e indicadores técnicos (RSI, MACD); envio de alertas via Telegram, Discord e WeChat.",
+    "quickstart": "```bash\ngit clone https://github.com/ZhuLinsen/daily_stock_analysis.git\ncd daily_stock_analysis\npip install -r requirements.txt\npython main.py\n```",
+    "pro_tip": "Configure a execução diária gratuita via GitHub Actions com cron agendado para 30 minutos antes da abertura do mercado e receba o PDF resumido no Telegram."
+  },
+  "addyosmani/agent-skills": {
+    "what": "Coleção de habilidades de engenharia em JavaScript criadas por Addy Osmani (líder de engenharia do Google Chrome) para agentes de código de IA. Inclui boas práticas de arquitetura, performance web e padrões de refatoração.",
+    "use_cases": "Capacitar agentes de IA (Claude Code, Cursor, Windsurf) a realizarem auditorias de performance Core Web Vitals, refatoração de código limpo e diagnósticos de acessibilidade.",
+    "quickstart": "```bash\nnpx skills add addyosmani/agent-skills\n# Ou copie as regras para o seu .cursorrules / CLAUDE.md\n```",
+    "pro_tip": "Ative a skill de 'web-performance' antes de pedir para a IA otimizar componentes React para que ela aplique automaticamente memoization, code-splitting e métricas INP/LCP corretas."
+  },
+  "earendil-works/pi": {
+    "what": "Toolkit e runtime para agentes de IA em TypeScript. Oferece uma API unificada para múltiplos LLMs, loop determinístico de execução de agente, interface visual no terminal (TUI) e CLI especializada em engenharia de software autônoma.",
+    "use_cases": "Assistente de terminal para refatoração e escrita de testes; desenvolvimento de agentes CLI customizados com controle fino de permissões; execução de comandos de terminal com aprovação interativa.",
+    "quickstart": "```bash\nnpm install -g @earendil/pi\npi \"Analise os testes unitários deste repositório e corrija os que estão falhando\"\n```",
+    "pro_tip": "Use o parâmetro `--safe-mode` para exigir confirmação antes de qualquer modificação destrutiva em arquivos de configuração ou migrações de banco."
+  },
+  "PrimeIntellect-ai/prime-agent": {
+    "what": "Agente autônomo auto-aprimorável (RLM - Reinforcement Learning Model) em TypeScript desenvolvido pela Prime Intellect para orquestração de computação descentralizada e execução de tarefas de código de longa duração.",
+    "use_cases": "Treinamento e fine-tuning de modelos em clusters distribuídos na nuvem; execução autônoma de benchmarks de machine learning; automação de infraestrutura em nuvens descentralizadas.",
+    "quickstart": "```bash\ngit clone https://github.com/PrimeIntellect-ai/prime-agent.git\ncd prime-agent\nnpm install\nnpm run build\n```",
+    "pro_tip": "Integre com a API da Prime Intellect para provisionar GPUs H100 sob demanda e disparar jobs de treinamento diretamente do agente via comandos naturais."
+  },
+  "iwe-org/iwe": {
+    "what": "Grafo de conhecimento baseado em Markdown escrito em Rust, projetado para atuar como Language Server Protocol (LSP) no seu editor e fornecer memória contextual via CLI e protocolo MCP para agentes autônomos de IA.",
+    "use_cases": "Construção de segundo cérebro (Zettelkasten) conectado diretamente ao Cursor/Claude Code; busca semântica em bases de notas e documentações markdown; fornecimento de contexto estruturado para agentes de código.",
+    "quickstart": "```bash\ncargo install iwe\n# ou inicialize seu cofre de notas:\niwe init meu-vault\niwe mcp --serve\n```",
+    "pro_tip": "Conecte o `iwe` como servidor MCP no Claude Desktop ou Cursor configurando `{\"command\": \"iwe\", \"args\": [\"mcp\", \"--vault\", \"/caminho/notas\"]}` para que a IA consulte seus grafos de notas em tempo real."
+  },
+  "stablyai/orca": {
+    "what": "Ambiente de Desenvolvimento de Agentes (ADE - Agent Development Environment) em TypeScript para orquestrar frotas de agentes de código rodando em paralelo. Permite executar qualquer agente de programação usando suas próprias assinaturas de IA no desktop, mobile ou VPS.",
+    "use_cases": "Execução paralela de múltiplos agentes em diferentes branches de um monorepo; monitoramento visual de tarefas de refatoração em lote; gerenciamento centralizado de cotas de APIs de IA para times.",
+    "quickstart": "```bash\ngit clone https://github.com/stablyai/orca.git\ncd orca\nnpm install\nnpm run dev\n# Acesse http://localhost:3000\n```",
+    "pro_tip": "Use o modo Headless (`orca run --fleet 4 --task refactor-tests`) em servidores VPS para disparar 4 agentes simultâneos resolvendo issues do GitHub via webhook."
+  },
+  "Leonxlnx/taste-skill": {
+    "what": "Conjunto de habilidades e regras de design ('Taste-Skill') para assistentes de IA (Claude Code, Cursor, Copilot). Fornece diretrizes estéticas refinadas e impede que a IA gere layouts genéricos, clichês visuais ('AI slop') ou designs sem personalidade.",
+    "use_cases": "Criação de interfaces web modernas com tipografia equilibrada e micro-interações elegantes; refinamento visual automático de componentes React, Vue e Tailwind; padronização estética para produtos de software.",
+    "quickstart": "```bash\nnpx skills add Leonxlnx/taste-skill\n# ou importe no seu arquivo .cursorrules / CLAUDE.md\n```",
+    "pro_tip": "Adicione as diretrizes do `taste-skill` diretamente no seu arquivo `AGENTS.md` ou `.cursorrules` para que qualquer componente gerado pela IA já venha com espaçamentos harmoniosos e paleta HSL balanceada."
+  },
+  "calesthio/OpenMontage": {
+    "what": "Primeiro sistema de produção de vídeo agentico 100% open-source em Python. Possui 12 pipelines integradas, mais de 100 ferramentas e 700+ arquivos de conhecimento para transformar assistentes de código em um estúdio completo de edição e geração de vídeo.",
+    "use_cases": "Automação completa da criação de vídeos institucionais, trailers e tutoriais; geração procedural de efeitos visuais e legendagem sincronizada; renderização em lote de conteúdo multimídia para marketing.",
+    "quickstart": "```bash\ngit clone https://github.com/calesthio/OpenMontage.git\ncd OpenMontage\npip install -r requirements.txt\npython -m montage.studio --config project.yaml\n```",
+    "pro_tip": "Utilize a pipeline de renderização acelerada por GPU passando `--gpu-acceleration cuda` para processar transições de vídeo e interpolação de frames em alta taxa de quadros."
+  },
+  "Panniantong/Agent-Reach": {
+    "what": "CLI e biblioteca em Python que dá 'olhos' para agentes de IA navegarem e extraírem dados da internet inteira. Permite ler e pesquisar no Twitter/X, Reddit, YouTube, GitHub, Bilibili e XiaoHongShu via um único comando e sem custo de APIs oficiais.",
+    "use_cases": "Agentes de inteligência competitiva que monitoram menções à marca em redes sociais; pesquisa de tendências em múltiplos fóruns em tempo real; raspagem de discussões técnicas para síntese de relatórios.",
+    "quickstart": "```bash\npip install agent-reach\n# Buscar no Twitter e Reddit simultaneamente:\nagent-reach search \"Claude Code release\" --platforms twitter,reddit --limit 20\n```",
+    "pro_tip": "Encaminhe o output em JSON (`--format json`) diretamente para o pipe de contexto da sua LLM ou servidor MCP para enriquecer prompts com discussões quentes da web."
+  },
+  "cathrynlavery/diagram-design": {
+    "what": "Biblioteca com 27 tipos de diagramas editoriais e arquiteturais em HTML + SVG puro desenvolvidos especificamente para Claude Code. Não possui sombras pesadas ou estilos 'Mermaid-slop', priorizando clareza editorial e elegância visual.",
+    "use_cases": "Documentação de arquitetura de microsserviços e fluxos de dados em repositórios; criação de infográficos técnicos para apresentações e documentações; relatórios executivos com visual editorial moderno.",
+    "quickstart": "```bash\ngit clone https://github.com/cathrynlavery/diagram-design.git\ncd diagram-design\n# Abra a galeria de templates no navegador:\nstart index.html\n```",
+    "pro_tip": "Copie o template SVG desejado diretamente para o seu `README.md` ou documentação Markdown; o SVG é renderizado nativamente no GitHub sem necessidade de plugins externos."
+  },
+  "lidge-jun/opencodex": {
+    "what": "Proxy agregador e universal em TypeScript para OpenAI Codex e Claude Code. Permite utilizar qualquer modelo de linguagem (DeepSeek, Gemini, Grok, Claude, Ollama, Kimi) na CLI, App e SDK do Codex e no Claude Code sem restrição de provedor.",
+    "use_cases": "Redução de custos operacionais usando modelos locais ou mais baratos (DeepSeek-V3, Gemini Flash) dentro do Claude Code; contorno de limites de cota e bloqueios regionais de provedores de IA.",
+    "quickstart": "```bash\nnpm install -g opencodex\nopencodex config --provider deepseek --api-key sua_chave\nopencodex start --port 8080\n```",
+    "pro_tip": "Configure `export ANTHROPIC_BASE_URL=http://localhost:8080` no terminal para redirecionar o Claude Code para rodar com DeepSeek ou Gemini mantendo todas as ferramentas MCP ativas."
+  },
+  "Tabbit-Browser/dsh-plugin": {
+    "what": "Coleção de plugins e extensões em JavaScript para o Tabbit Browser integrados ao DeepSeek Harness (DSH). Permite que agentes da DeepSeek interajam diretamente com o navegador, manipulando abas, formulários e extraindo dados DOM.",
+    "use_cases": "Automação de fluxos de navegação web supervisionados por IA; testes end-to-end com agentes autônomos; extração e preenchimento inteligente de formulários em sistemas legados.",
+    "quickstart": "```bash\ngit clone https://github.com/Tabbit-Browser/dsh-plugin.git\ncd dsh-plugin\nnpm install\nnpm run build\n```",
+    "pro_tip": "Carregue o diretório `dist/` como extensão descompactada no Chrome/Brave para permitir que o agente interaja com sessões já autenticadas nos seus sites de trabalho."
+  },
+  "Genymobile/scrcpy": {
+    "what": "A ferramenta de referência open-source em C para espelhamento e controle de dispositivos Android no computador via USB ou Wi-Fi. Não exige root, possui latência baixíssima (35-70ms) e performance de 60fps+ com alta resolução.",
+    "use_cases": "Gravação e transmissão de tela de celulares Android; testes automatizados de aplicativos móveis em tempo real; controle do smartphone direto pelo teclado e mouse no Windows/Linux.",
+    "quickstart": "```bash\nwinget install Genymobile.scrcpy\n# Conecte o cabo USB com depuração ativada e execute:\nscrcpy\n```",
+    "pro_tip": "Use o comando `scrcpy --tcpip --max-size=1080 --video-bit-rate=8M --stay-awake` para controlar seu Android 100% sem fio pela rede Wi-Fi mantendo a tela do aparelho desligada no PC."
+  },
+  "lwthiker/curl-impersonate": {
+    "what": "Build customizada do cURL que emula com precisão cirúrgica as assinaturas de rede TLS/HTTP2 de navegadores reais (Chrome, Firefox, Safari), permitindo fazer requisições HTTP sem ser bloqueado por Cloudflare, Akamai e sistemas anti-bot.",
+    "use_cases": "Raspagem de dados em sites com proteção rigorosa anti-bot; auditoria de segurança em WAFs e regras de fingerprinting TLS; automação de downloads e integrações HTTP resilientes.",
+    "quickstart": "```bash\ndocker run -it lwthiker/curl-impersonate:chrome curl_chrome116 https://tls.browserleaks.com/json\n```",
+    "pro_tip": "Utilize o wrapper Python `curl_cffi` para integrar o `curl-impersonate` diretamente em scripts de automação substituindo a biblioteca `requests` com compatibilidade imediata."
+  },
+  "D4Vinci/Scrapling": {
+    "what": "Framework adaptativo de Web Scraping em Python de altíssima performance. Combina seletores rápidos (CSS/XPath), bypass nativo de proteções antibot (Cloudflare Turnstile) e suporte transparente a requisições estáticas e navegadores dinâmicos.",
+    "use_cases": "Extração de dados em sites com proteções agressivas de fingerprinting; pipelines de coleta de dados para alimentação de LLMs; automação de monitoramento de preços e estoques.",
+    "quickstart": "```bash\npip install scrapling\n# Exemplo de extração:\nfrom scrapling import Fetcher\npage = Fetcher().get('https://quotes.toscrape.com')\nprint(page.find_all('span.text'))\n```",
+    "pro_tip": "Ative o motor de stealth com `Fetcher(stealth=True, headless=True)` para passar despercebido por desafios Cloudflare sem precisar pagar por proxies residenciais caros."
+  },
+  "browser-use/browser-use": {
+    "what": "Framework em Python líder para permitir que modelos de linguagem (LLMs) controlem navegadores web de forma 100% autônoma. Permite que a IA clique em botões, preencha formulários, resolva captchas e execute tarefas complexas na web.",
+    "use_cases": "Automação de compras online e reservas; preenchimento automatizado de planilhas e sistemas web corporativos; testes de ponta a ponta e auditoria de interfaces web.",
+    "quickstart": "```bash\npip install browser-use\nplaywright install\n# Execute seu agente:\npython -c \"from browser_use import Agent; import asyncio; asyncio.run(Agent(task='Buscar o melhor preço de RTX 4080 na Amazon').run())\"\n```",
+    "pro_tip": "Conecte sua própria sessão do Chrome passando `browser = Browser(config=BrowserConfig(chrome_instance_path='...'))` para usar cookies e logins já salvos sem precisar autenticar de novo."
+  },
+  "firecrawl/firecrawl": {
+    "what": "A API de contexto definitiva para IA converter qualquer website em Markdown limpo e dados estruturados em larga escala. Desenvolvido em TypeScript, executa JavaScript, lida com paginação, sitemaps e contorna bloqueios anti-bot.",
+    "use_cases": "Extração de documentações e blogs para indexação em bases de RAG; coleta estruturada de dados de e-commerce e portais de notícias; alimentação em tempo real de agentes autônomos.",
+    "quickstart": "```bash\ndocker compose up -d\n# Ou use a CLI oficial:\nnpx firecrawl-cli scrape https://docs.github.com\n```",
+    "pro_tip": "Utilize o endpoint `/crawl` com o parâmetro `scrapeOptions: { formats: ['markdown'] }` para indexar domínios inteiros recursivamente gerando arquivos prontos para bases vetoriais."
+  },
+  "microsoft/markitdown": {
+    "what": "Utilitário oficial da Microsoft em Python para conversão de arquivos e documentos de escritório (PDF, Word DOCX, PowerPoint PPTX, Excel XLSX, imagens com OCR, áudios com transcrição) em texto Markdown limpo.",
+    "use_cases": "Padronização de acervos documentais para treinamento e RAG com LLMs; extração rápida de tabelas de planilhas e slides de apresentações corporativas; ingestão em lote de relatórios em Markdown.",
+    "quickstart": "```bash\npip install markitdown\nmarkitdown documento.pdf -o documento.md\n# Suporta DOCX, PPTX, XLSX, etc.\n```",
+    "pro_tip": "Passe o modelo multimodal da OpenAI ou Gemini (`markitdown imagem.png --llm-client ...`) para gerar descrições textuais ricas de gráficos e ilustrações embutidas nos documentos."
+  },
+  "unclecode/crawl4ai": {
+    "what": "Rastreador web assíncrono e extrator em Python focado em IA, ultrarrápido e open-source. Extrai Markdown estruturado, executa JavaScript, filtra 'ruídos' (menus, rodapés, anúncios) e suporta heurísticas de chunking inteligente.",
+    "use_cases": "Pipelines de RAG de alta velocidade; raspagem de dados web com execução de JavaScript dinâmico; geração de datasets para fine-tuning de modelos de linguagem.",
+    "quickstart": "```bash\npip install -U crawl4ai\ncrawl4ai-setup\n# No Python:\nimport asyncio; from crawl4ai import AsyncWebCrawler; asyncio.run(AsyncWebCrawler().arun(url='https://news.ycombinator.com'))\n```",
+    "pro_tip": "Ative a estratégia `extraction_strategy=LLMExtractionStrategy(provider='gemini/gemini-1.5-flash')` para extrair diretamente JSON com schema validado de páginas complexas."
+  },
+  "MrCl0wnLab/BR-EvilPortal-HTML-Files": {
+    "what": "Coleção de templates de portais cativos (Evil Portal) adaptados para o contexto e provedores brasileiros 🇧🇷 em HTML. Projetados para testes de intrusão, pesquisas de engenharia social e conscientização em cibersegurança.",
+    "use_cases": "Simulações de ataques de Evil Twin e conscientização de segurança em redes Wi-Fi corporativas; testes de vulnerabilidade em roteadores e pontos de acesso; treinamentos de equipe de Red Team.",
+    "quickstart": "```bash\ngit clone https://github.com/MrCl0wnLab/BR-EvilPortal-HTML-Files.git\ncd BR-EvilPortal-HTML-Files\n# Utilize em ambientes de laboratório com ESP32 / WiFi Pineapple\n```",
+    "pro_tip": "Utilize exclusivamente em ambientes de teste autorizados e utilize as telas para instruir colaboradores sobre os riscos de conectar em redes Wi-Fi públicas desprotegidas."
+  },
+  "Zimbra-Community/shared-mailbox-toolkit": {
+    "what": "Projeto oficial [shared-mailbox-toolkit](https://github.com/Zimbra-Community/shared-mailbox-toolkit) em JavaScript: Create and manage shared mailboxes. Share department and team mailboxes with individual users. (Family mailbox). Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Aceleração de fluxos de engenharia em JavaScript; suporte e extensibilidade para projetos de software escaláveis.",
+    "quickstart": "```bash\ngit clone https://github.com/Zimbra-Community/shared-mailbox-toolkit.git\ncd shared-mailbox-toolkit\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Ao integrar o `shared-mailbox-toolkit`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de JavaScript."
+  },
+  "VoltAgent/awesome-design-md": {
+    "what": "Projeto oficial [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) em Docs / Shell: A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em awesome-list, design-md, design-system, design-tokens; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/VoltAgent/awesome-design-md.git\ncd awesome-design-md\n# Execute as instruções de build em Docs / Shell\n```",
+    "pro_tip": "Ao integrar o `awesome-design-md`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Docs / Shell."
+  },
+  "appsmithorg/appsmith": {
+    "what": "Projeto oficial [appsmith](https://github.com/appsmithorg/appsmith) em TypeScript: Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em admin-dashboard, admin-panels, app-builder, automation; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/appsmithorg/appsmith.git\ncd appsmith\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Ao integrar o `appsmith`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+  },
+  "Dokploy/dokploy": {
+    "what": "Projeto oficial [dokploy](https://github.com/Dokploy/dokploy) em TypeScript: Open Source Alternative to Vercel, Netlify and Heroku. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em agents, ai, backend, backups; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/Dokploy/dokploy.git\ncd dokploy\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Ao integrar o `dokploy`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+  },
+  "documenso/documenso": {
+    "what": "Projeto oficial [documenso](https://github.com/documenso/documenso) em TypeScript: The Open Source DocuSign Alternative. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em digital-signature, document-signing, docusign-alternative, e-signature; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/documenso/documenso.git\ncd documenso\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Ao integrar o `documenso`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+  },
+  "BerriAI/litellm": {
+    "what": "Projeto oficial [litellm](https://github.com/BerriAI/litellm) em Python: The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em ai-gateway, anthropic, azure-openai, bedrock; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/BerriAI/litellm.git\ncd litellm\npip install -r requirements.txt\npython main.py\n```",
+    "pro_tip": "Ao integrar o `litellm`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Python."
+  },
+  "go-gitea/gitea": {
+    "what": "Projeto oficial [gitea](https://github.com/go-gitea/gitea) em Go: Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em bitbucket, cicd, devops, docker-registry-v2; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/go-gitea/gitea.git\ncd gitea\ngo build\n```",
+    "pro_tip": "Ao integrar o `gitea`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Go."
+  },
+  "nocodb/nocodb": {
+    "what": "Projeto oficial [nocodb](https://github.com/nocodb/nocodb) em TypeScript: 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em airtable, airtable-alternative, automatic-api, hacktoberfest; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/nocodb/nocodb.git\ncd nocodb\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Ao integrar o `nocodb`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+  },
+  "dani-garcia/vaultwarden": {
+    "what": "Projeto oficial [vaultwarden](https://github.com/dani-garcia/vaultwarden) em Rust: Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em bitwarden, bitwarden-rs, docker, rocket; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/dani-garcia/vaultwarden.git\ncd vaultwarden\ncargo build --release\n```",
+    "pro_tip": "Ao integrar o `vaultwarden`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Rust."
+  },
+  "louislam/uptime-kuma": {
+    "what": "Projeto oficial [uptime-kuma](https://github.com/louislam/uptime-kuma) em JavaScript: A fancy self-hosted monitoring tool. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em docker, monitor, monitoring, responsive; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/louislam/uptime-kuma.git\ncd uptime-kuma\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Ao integrar o `uptime-kuma`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de JavaScript."
+  },
+  "tw93/Pake": {
+    "what": "Projeto oficial [Pake](https://github.com/tw93/Pake) em Rust: 🤱🏻 Turn any webpage into a desktop app with one command. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em chatgpt, claude, desktop, gemini; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/tw93/Pake.git\ncd Pake\ncargo build --release\n```",
+    "pro_tip": "Ao integrar o `Pake`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Rust."
   },
   "DeusData/codebase-memory-mcp": {
-    "what": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies. (com SQLite) Desenvolvido primariamente em C, mantido por @DeusData.",
-    "use_cases": "Automação e desenvolvimento em C; integração em pipelines e projetos reais.",
-    "quickstart": "```bash\ngit clone https://github.com/DeusData/codebase-memory-mcp.git\ncd codebase-memory-mcp\n```",
-    "pro_tip": "Compile 'codebase-memory-mcp' com sanitizers de memória (`-fsanitize=address,undefined`) durante o desenvolvimento para detectar buffer overflows e vazamentos de memória imediatamente."
+    "what": "Projeto oficial [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) em C: High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em aider, ast, claude-code, code-analysis; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/DeusData/codebase-memory-mcp.git\ncd codebase-memory-mcp\n# Execute as instruções de build em C\n```",
+    "pro_tip": "Ao integrar o `codebase-memory-mcp`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de C."
+  },
+  "livekit/agents": {
+    "what": "Projeto oficial [agents](https://github.com/livekit/agents) em Python: A framework for building realtime voice AI agents 🤖🎙️📹. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em agents, ai, openai, real-time; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/livekit/agents.git\ncd agents\npip install -r requirements.txt\npython main.py\n```",
+    "pro_tip": "Ao integrar o `agents`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Python."
+  },
+  "assafelovic/gpt-researcher": {
+    "what": "Projeto oficial [gpt-researcher](https://github.com/assafelovic/gpt-researcher) em Python: An autonomous agent that conducts deep research on any data using any LLM providers. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em agent, ai, automation, deepresearch; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/assafelovic/gpt-researcher.git\ncd gpt-researcher\npip install -r requirements.txt\npython main.py\n```",
+    "pro_tip": "Ao integrar o `gpt-researcher`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Python."
+  },
+  "Aider-AI/aider": {
+    "what": "Projeto oficial [aider](https://github.com/Aider-AI/aider) em Python: aider is AI pair programming in your terminal. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em anthropic, chatgpt, claude-3, cli; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/Aider-AI/aider.git\ncd aider\npip install -r requirements.txt\npython main.py\n```",
+    "pro_tip": "Ao integrar o `aider`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Python."
+  },
+  "danny-avila/LibreChat": {
+    "what": "Projeto oficial [LibreChat](https://github.com/danny-avila/LibreChat) em TypeScript: Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em ai, anthropic, artifacts, aws; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/danny-avila/LibreChat.git\ncd LibreChat\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Ao integrar o `LibreChat`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+  },
+  "openinterpreter/openinterpreter": {
+    "what": "Projeto oficial [openinterpreter](https://github.com/openinterpreter/openinterpreter) em Rust: A coding agent for open models like Kimi K3. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em acp, coding-agent, deepseek, kimi; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/openinterpreter/openinterpreter.git\ncd openinterpreter\ncargo build --release\n```",
+    "pro_tip": "Ao integrar o `openinterpreter`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Rust."
+  },
+  "Osmantic/ODS": {
+    "what": "Projeto oficial [ODS](https://github.com/Osmantic/ODS) em Python: Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and image generation. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em ai-agents, amd, comfyui, docker; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/Osmantic/ODS.git\ncd ODS\npip install -r requirements.txt\npython main.py\n```",
+    "pro_tip": "Ao integrar o `ODS`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Python."
+  },
+  "elie222/rakazo": {
+    "what": "Projeto oficial [rakazo](https://github.com/elie222/rakazo) em TypeScript: Open-source Grok Bot alternative. Choose your own model and sandbox. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em ai-agents, chatgpt, docker, electron; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/elie222/rakazo.git\ncd rakazo\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Ao integrar o `rakazo`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+  },
+  "elie222/botdirectory.ai": {
+    "what": "Projeto oficial [botdirectory.ai](https://github.com/elie222/botdirectory.ai) em Astro: Open-source directory of agent-bot prompts for Grok Bot, Rakazo, and any agent — botdirectory.ai. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em agents, ai-agents, astro, automation; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/elie222/botdirectory.ai.git\ncd botdirectory.ai\n# Execute as instruções de build em Astro\n```",
+    "pro_tip": "Ao integrar o `botdirectory.ai`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Astro."
+  },
+  "VoltAgent/awesome-claude-code-subagents": {
+    "what": "Projeto oficial [awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) em Shell: A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em ai-agent-framework, ai-agent-tools, ai-agents, awesome; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/VoltAgent/awesome-claude-code-subagents.git\ncd awesome-claude-code-subagents\n# Execute as instruções de build em Shell\n```",
+    "pro_tip": "Ao integrar o `awesome-claude-code-subagents`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Shell."
+  },
+  "Donchitos/Claude-Code-Game-Studios": {
+    "what": "Projeto oficial [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) em Shell: Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em ai-agents, ai-assisted-development, anthropic, claude; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/Donchitos/Claude-Code-Game-Studios.git\ncd Claude-Code-Game-Studios\n# Execute as instruções de build em Shell\n```",
+    "pro_tip": "Ao integrar o `Claude-Code-Game-Studios`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Shell."
+  },
+  "codeaashu/claude-code": {
+    "what": "Projeto oficial [claude-code](https://github.com/codeaashu/claude-code) em TypeScript: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em claude, claude-ai, claude-code, claude-code-leaked; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/codeaashu/claude-code.git\ncd claude-code\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Ao integrar o `claude-code`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+  },
+  "ultraworkers/claw-code": {
+    "what": "Projeto oficial [claw-code](https://github.com/ultraworkers/claw-code) em Rust: An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Aceleração de fluxos de engenharia em Rust; suporte e extensibilidade para projetos de software escaláveis.",
+    "quickstart": "```bash\ngit clone https://github.com/ultraworkers/claw-code.git\ncd claw-code\ncargo build --release\n```",
+    "pro_tip": "Ao integrar o `claw-code`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Rust."
   }
 }
