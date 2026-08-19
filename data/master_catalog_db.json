@@ -1060,5 +1060,11 @@
     "use_cases": "Implementação de soluções focadas em acp, coding-agent, deepseek, kimi; automação de rotinas de desenvolvimento e integração contínua.",
     "quickstart": "```bash\ngit clone https://github.com/openinterpreter/openinterpreter.git\ncd openinterpreter\ncargo build --release\n```",
     "pro_tip": "Ao integrar o `openinterpreter`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Rust."
+  },
+  "Osmantic/ODS": {
+    "what": "Projeto oficial [ODS](https://github.com/Osmantic/ODS) em Python: Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and image generation. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em ai-agents, amd, comfyui, docker; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/Osmantic/ODS.git\ncd ODS\npip install -r requirements.txt\npython main.py\n```",
+    "pro_tip": "Ao integrar o `ODS`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Python."
   }
 }
