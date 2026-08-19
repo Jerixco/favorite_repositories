@@ -1024,5 +1024,11 @@
     "use_cases": "Implementação de soluções focadas em chatgpt, claude, desktop, gemini; automação de rotinas de desenvolvimento e integração contínua.",
     "quickstart": "```bash\ngit clone https://github.com/tw93/Pake.git\ncd Pake\ncargo build --release\n```",
     "pro_tip": "Ao integrar o `Pake`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Rust."
+  },
+  "DeusData/codebase-memory-mcp": {
+    "what": "Projeto oficial [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) em C: High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em aider, ast, claude-code, code-analysis; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/DeusData/codebase-memory-mcp.git\ncd codebase-memory-mcp\n# Execute as instruções de build em C\n```",
+    "pro_tip": "Ao integrar o `codebase-memory-mcp`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de C."
   }
 }
