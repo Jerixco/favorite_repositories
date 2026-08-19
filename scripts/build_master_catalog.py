@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Unificação e Reconstrução do Catálogo Master de todos os 118 Repositórios
+Unificação e Reconstrução do Catálogo Master de todos os Repositórios Estrelados
 Com Auditoria de Segurança Integrada (ScanRepo + Scanner Heurístico Local)
 """
 
@@ -11,32 +11,41 @@ import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-from security_scanner import scan_repository_security
+# Importar o scanner de segurança
+scripts_dir = os.path.dirname(os.path.abspath(__file__))
+if scripts_dir not in sys.path:
+    sys.path.append(scripts_dir)
 
-def load_master_db():
-    try:
-        from generate_final_markdown import REPO_DETAILS as orig_details
-    except:
-        orig_details = {}
-        
-    with open("data/catalog_db.json", "r", encoding="utf-8") as f:
-        new_details = json.load(f)
-        
-    master = {}
-    master.update(orig_details)
-    master.update(new_details)
-    return master
+from security_scanner import scan_repository_security
+from star_tracker import analyze_repository, generate_smart_dynamic_analysis
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+ALL_STARS_FILE = os.path.join(DATA_DIR, "all_starred_github.json")
+MASTER_DB_FILE = os.path.join(DATA_DIR, "master_catalog_db.json")
+CATALOG_DB_FILE = os.path.join(DATA_DIR, "catalog_db.json")
+PROCESSED_FILE = os.path.join(DATA_DIR, "processed_stars.json")
+CATALOG_FILE = os.path.join(BASE_DIR, "CATALOGO_ESTRELAS.md")
 
 def generate_master_catalog():
-    with open("data/all_starred_github.json", "r", encoding="utf-8") as f:
+    if not os.path.exists(ALL_STARS_FILE):
+        print(f"Erro: Arquivo {ALL_STARS_FILE} não encontrado.")
+        return
+
+    with open(ALL_STARS_FILE, "r", encoding="utf-8") as f:
         all_stars = json.load(f)
-        
-    master_db = load_master_db()
+
+    if os.path.exists(MASTER_DB_FILE):
+        with open(MASTER_DB_FILE, "r", encoding="utf-8") as f:
+            master_db = json.load(f)
+    else:
+        master_db = {}
+
     total = len(all_stars)
     print(f"Gerando catálogo com módulo de segurança para {total} repositórios...")
-    
+
     doc = []
-    
+
     # 1. CABEÇALHO OFICIAL
     doc.append("# 🌟 Dossiê Completo: Análise Minuciosa das Estrelas do GitHub")
     doc.append("")
@@ -47,8 +56,8 @@ def generate_master_catalog():
     doc.append("")
     doc.append("---")
     doc.append("")
-    
-    # 2. SUMÁRIO COMPLETO SEMPRE NO TOPO
+
+    # 2. SUMÁRIO COMPLETO SEMPRE NO TOPO (100% dos repositórios)
     doc.append("## 📑 Sumário Completo dos Repositórios")
     doc.append("")
     for i, r in enumerate(all_stars, 1):
@@ -60,29 +69,29 @@ def generate_master_catalog():
     doc.append("")
     doc.append("---")
     doc.append("")
-    
+
     # 3. SEÇÃO DETALHADA REPOSITÓRIO POR REPOSITÓRIO
     doc.append("## 🔍 Análise Detalhada Repositório por Repositório")
     doc.append("")
-    
+
     for i, r in enumerate(all_stars, 1):
         name = r["full_name"]
         url = r.get("html_url") or f"https://github.com/{name}"
         stars = r.get("stargazers_count", 0)
         lang = r.get("language") or "Docs / Shell"
         anchor = re.sub(r"[^a-z0-9]", "", name.lower())
-        
+
         info = master_db.get(name)
         if not info:
-            info = {
-                "what": f"Projeto open-source em {lang} voltado para desenvolvimento e engenharia de software.",
-                "use_cases": f"Automação e aceleração de desenvolvimento em {lang}; integração em pipelines corporativas.",
-                "quickstart": f"```bash\ngit clone https://github.com/{name}.git\ncd {name.split('/')[-1]}\n```",
-                "pro_tip": "Consulte os exemplos na pasta do repositório para personalização rápida."
-            }
-            
+            try:
+                info = analyze_repository(r)
+            except Exception as e:
+                print(f"  Aviso: analyze_repository falhou para {name}: {e}. Usando análise dinâmica inteligente.")
+                info = generate_smart_dynamic_analysis(r, "")
+            master_db[name] = info
+
         security_badge = scan_repository_security(r)
-            
+
         doc.append(f"<a id=\"{anchor}\"></a>")
         doc.append(f"### {i:02d}. [{name}]({url})")
         doc.append(f"- **⭐ Stars:** {stars:,} | **💻 Linguagem:** `{lang}`")
@@ -97,39 +106,45 @@ def generate_master_catalog():
         doc.append("")
 
     full_md = "\n".join(doc)
-    
-    paths = [
-        r"C:\Users\Bktech\CascadeProjects\favorite_repositories\CATALOGO_ESTRELAS.md",
-        r"C:\Users\Bktech\.gemini\antigravity\scratch\github-star-automation\CATALOGO_ESTRELAS.md",
+
+    # Salvar CATALOGO_ESTRELAS.md principal
+    with open(CATALOG_FILE, "w", encoding="utf-8") as f:
+        f.write(full_md)
+    print(f"Salvo: {CATALOG_FILE}")
+
+    # Salvar espelhos se existirem
+    mirror_paths = [
         r"C:\Users\Bktech\.gemini\antigravity\scratch\ANALISE_COMPLETA_ESTRELAS_GITHUB.md",
+        r"C:\Users\Bktech\.gemini\antigravity\scratch\github-star-automation\CATALOGO_ESTRELAS.md",
         r"C:\Users\Bktech\OneDrive\Projetos_Trabalho\documentos\4_Documentacoes_Tecnicas_e_Projetos\ANALISE_COMPLETA_ESTRELAS_GITHUB.md",
         r"C:\Users\Bktech\OneDrive\Projetos_Trabalho\favorite_repositories\CATALOGO_ESTRELAS.md",
-        r"C:\Users\Bktech\.gemini\antigravity\brain\8dd56937-6945-4170-b062-7eeb40da7a67\analise_github_stars.md"
     ]
-    
-    for p in paths:
+
+    for p in mirror_paths:
         try:
-            os.makedirs(os.path.dirname(p), exist_ok=True)
-            with open(p, "w", encoding="utf-8") as f:
-                f.write(full_md)
-            print(f"Salvo: {p}")
+            if os.path.exists(os.path.dirname(p)):
+                with open(p, "w", encoding="utf-8") as f:
+                    f.write(full_md)
+                print(f"Salvo espelho: {p}")
         except Exception as e:
-            print(f"Erro ao salvar em {p}: {e}")
-            
-    with open("data/master_catalog_db.json", "w", encoding="utf-8") as f:
+            pass
+
+    # Sincronizar bases JSON
+    with open(MASTER_DB_FILE, "w", encoding="utf-8") as f:
         json.dump(master_db, f, indent=2, ensure_ascii=False)
-        
+
+    with open(CATALOG_DB_FILE, "w", encoding="utf-8") as f:
+        json.dump(master_db, f, indent=2, ensure_ascii=False)
+
     ids = [r["id"] for r in all_stars if "id" in r]
     state = {
         "processed_ids": ids,
         "total": len(ids)
     }
-    with open("data/processed_stars.json", "w", encoding="utf-8") as f:
-        json.dump(state, f, indent=2)
-        
-    print(f"Catálogo completo com segurança gerado para todos os {total} repositórios!")
+    with open(PROCESSED_FILE, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2, ensure_ascii=False)
+
+    print(f"Catálogo completo gerado com sucesso para todos os {total} repositórios!")
 
 if __name__ == '__main__':
-    sys.path.append(r"C:\Users\Bktech\.gemini\antigravity\scratch")
-    sys.path.append(r"C:\Users\Bktech\CascadeProjects\favorite_repositories\scripts")
     generate_master_catalog()
