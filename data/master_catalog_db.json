@@ -1066,5 +1066,17 @@
     "use_cases": "Implementação de soluções focadas em ai-agents, amd, comfyui, docker; automação de rotinas de desenvolvimento e integração contínua.",
     "quickstart": "```bash\ngit clone https://github.com/Osmantic/ODS.git\ncd ODS\npip install -r requirements.txt\npython main.py\n```",
     "pro_tip": "Ao integrar o `ODS`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Python."
+  },
+  "elie222/rakazo": {
+    "what": "Projeto oficial [rakazo](https://github.com/elie222/rakazo) em TypeScript: Open-source Grok Bot alternative. Choose your own model and sandbox. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em ai-agents, chatgpt, docker, electron; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/elie222/rakazo.git\ncd rakazo\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Ao integrar o `rakazo`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+  },
+  "elie222/botdirectory.ai": {
+    "what": "Projeto oficial [botdirectory.ai](https://github.com/elie222/botdirectory.ai) em Astro: Open-source directory of agent-bot prompts for Grok Bot, Rakazo, and any agent — botdirectory.ai. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em agents, ai-agents, astro, automation; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/elie222/botdirectory.ai.git\ncd botdirectory.ai\n# Execute as instruções de build em Astro\n```",
+    "pro_tip": "Ao integrar o `botdirectory.ai`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Astro."
   }
 }
