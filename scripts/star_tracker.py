@@ -34,6 +34,7 @@ GITHUB_USERNAME = os.environ.get("TARGET_USERNAME", "Jerixco")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -132,42 +133,52 @@ def parse_ai_response(text):
 
     return None
 
-def call_gemini(prompt):
-    """Chama a API do Google Gemini com fallback automático de modelos."""
+def call_gemini(prompt, api_version="v1beta"):
+    """Chama a API do Google Gemini com fallback automático de modelos e versões de API."""
     if not GEMINI_API_KEY:
         return None
 
     models = [
+        # Gemini 3.x series — modelos mais recentes (prioridade alta)
+        "gemini-3.7-flash",
+        "gemini-3.6-flash",
+        "gemini-3.5-flash",
+        "gemini-3.5-flash-lite",
+        # Gemini 2.5 series — estáveis e amplamente disponíveis
         "gemini-2.5-flash",
+        "gemini-2.5-pro",
+        # Fallback para versões antigas que ainda podem estar ativas em contas existentes
         "gemini-2.0-flash",
-        "gemini-1.5-flash",
-        "gemini-1.5-pro",
     ]
-    for model in models:
-        try:
-            api_url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_API_KEY}"
-            payload = {
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {
-                    "temperature": 0.2,
-                    "maxOutputTokens": 1500,
+    # Tentar ambos os endpoints de API para maximizar compatibilidade
+    api_versions = [api_version, "v1"] if api_version == "v1beta" else [api_version]
+
+    for api_ver in api_versions:
+        for model in models:
+            try:
+                api_url = f"https://generativelanguage.googleapis.com/{api_ver}/models/{model}:generateContent?key={GEMINI_API_KEY}"
+                payload = {
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {
+                        "temperature": 0.2,
+                        "maxOutputTokens": 1500,
+                    }
                 }
-            }
-            req = urllib.request.Request(
-                api_url,
-                data=json.dumps(payload).encode("utf-8"),
-                headers={"Content-Type": "application/json"},
-            )
-            with urllib.request.urlopen(req, timeout=35) as resp:
-                res_data = json.loads(resp.read().decode("utf-8"))
-                text = res_data["candidates"][0]["content"]["parts"][0]["text"].strip()
-                parsed = parse_ai_response(text)
-                if parsed:
-                    print(f"  → Gemini ({model}) gerou análise com sucesso.")
-                    return parsed
-        except Exception as e:
-            print(f"  → Tentativa Gemini ({model}) falhou: {e}")
-            continue
+                req = urllib.request.Request(
+                    api_url,
+                    data=json.dumps(payload).encode("utf-8"),
+                    headers={"Content-Type": "application/json"},
+                )
+                with urllib.request.urlopen(req, timeout=45) as resp:
+                    res_data = json.loads(resp.read().decode("utf-8"))
+                    text = res_data["candidates"][0]["content"]["parts"][0]["text"].strip()
+                    parsed = parse_ai_response(text)
+                    if parsed:
+                        print(f"  → Gemini ({api_ver}/{model}) gerou análise com sucesso.")
+                        return parsed
+            except Exception as e:
+                print(f"  → Tentativa Gemini ({api_ver}/{model}) falhou: {e}")
+                continue
     return None
 
 def call_openai(prompt):
@@ -1017,9 +1028,57 @@ REGRAS:
     if res:
         return res
 
-    # 3. Fallback contextual dinâmico inteligente
+    # 3. Tentar OpenRouter (fallback gratuito agnóstico)
+    res = call_openrouter(prompt)
+    if res:
+        return res
+
+    # 4. Fallback contextual dinâmico inteligente
     print("  → Usando analisador contextual dinâmico baseado no README")
     return generate_smart_dynamic_analysis(repo_info, readme_text)
+
+def call_openrouter(prompt):
+    """Chama a API do OpenRouter como fallback gratuito agnóstico.
+    Usa o modelo 'openrouter/free' que roteia para o melhor modelo gratuito disponível.
+    Endpoint compatível com OpenAI: https://openrouter.ai/api/v1/chat/completions
+    """
+    if not OPENROUTER_API_KEY:
+        return None
+
+    try:
+        api_url = "https://openrouter.ai/api/v1/chat/completions"
+        payload = {
+            "model": "openrouter/free",
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "Você é um arquiteto de software sênior brasileiro especializado em open-source. Responda exclusivamente em Português do Brasil com termos técnicos precisos e dicas práticas aprofundadas."
+                },
+                {"role": "user", "content": prompt}
+            ],
+            "temperature": 0.2,
+            "max_tokens": 1500,
+        }
+        req = urllib.request.Request(
+            api_url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+                "HTTP-Referer": "https://github.com/Jerixco/favorite_repositories",
+                "X-Title": "GitHub Star Analyzer",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=45) as resp:
+            res_data = json.loads(resp.read().decode("utf-8"))
+            text = res_data["choices"][0]["message"]["content"].strip()
+            parsed = parse_ai_response(text)
+            if parsed:
+                print("  → OpenRouter (openrouter/free) gerou análise com sucesso.")
+                return parsed
+    except Exception as e:
+        print(f"Aviso: Tentativa OpenRouter falhou ({e})")
+    return None
 
 def rebuild_catalog_markdown(all_stars, master_db):
     """Reconstrói o arquivo CATALOGO_ESTRELAS.md determinística e perfeitamente."""
