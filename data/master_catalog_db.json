@@ -1018,5 +1018,11 @@
     "use_cases": "Implementação de soluções focadas em docker, monitor, monitoring, responsive; automação de rotinas de desenvolvimento e integração contínua.",
     "quickstart": "```bash\ngit clone https://github.com/louislam/uptime-kuma.git\ncd uptime-kuma\nnpm install\nnpm run dev\n```",
     "pro_tip": "Ao integrar o `uptime-kuma`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de JavaScript."
+  },
+  "tw93/Pake": {
+    "what": "Projeto oficial [Pake](https://github.com/tw93/Pake) em Rust: 🤱🏻 Turn any webpage into a desktop app with one command. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em chatgpt, claude, desktop, gemini; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/tw93/Pake.git\ncd Pake\ncargo build --release\n```",
+    "pro_tip": "Ao integrar o `Pake`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Rust."
   }
 }
