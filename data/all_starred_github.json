@@ -67,7 +67,7 @@
     "releases_url": "https://api.github.com/repos/DeusData/codebase-memory-mcp/releases{/id}",
     "deployments_url": "https://api.github.com/repos/DeusData/codebase-memory-mcp/deployments",
     "created_at": "2026-02-24T22:01:00Z",
-    "updated_at": "2026-08-19T13:58:11Z",
+    "updated_at": "2026-08-19T14:58:09Z",
     "pushed_at": "2026-08-19T02:34:32Z",
     "git_url": "git://github.com/DeusData/codebase-memory-mcp.git",
     "ssh_url": "git@github.com:DeusData/codebase-memory-mcp.git",
@@ -75,8 +75,8 @@
     "svn_url": "https://github.com/DeusData/codebase-memory-mcp",
     "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
     "size": 187945,
-    "stargazers_count": 39522,
-    "watchers_count": 39522,
+    "stargazers_count": 39535,
+    "watchers_count": 39535,
     "language": "C",
     "has_issues": true,
     "has_projects": true,
@@ -84,11 +84,11 @@
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": true,
-    "forks_count": 3178,
+    "forks_count": 3177,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 468,
+    "open_issues_count": 469,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -124,17 +124,10 @@
       "windsurf"
     ],
     "visibility": "public",
-    "forks": 3178,
-    "open_issues": 468,
-    "watchers": 39522,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 3177,
+    "open_issues": 469,
+    "watchers": 39535,
+    "default_branch": "main"
   },
   {
     "id": 1134426800,
@@ -204,7 +197,7 @@
     "releases_url": "https://api.github.com/repos/sickn33/agentic-awesome-skills/releases{/id}",
     "deployments_url": "https://api.github.com/repos/sickn33/agentic-awesome-skills/deployments",
     "created_at": "2026-01-14T17:48:09Z",
-    "updated_at": "2026-08-19T13:20:14Z",
+    "updated_at": "2026-08-19T14:53:24Z",
     "pushed_at": "2026-08-19T06:52:05Z",
     "git_url": "git://github.com/sickn33/agentic-awesome-skills.git",
     "ssh_url": "git@github.com:sickn33/agentic-awesome-skills.git",
@@ -212,8 +205,8 @@
     "svn_url": "https://github.com/sickn33/agentic-awesome-skills",
     "homepage": "https://sickn33.github.io/agentic-awesome-skills/",
     "size": 120194,
-    "stargazers_count": 45132,
-    "watchers_count": 45132,
+    "stargazers_count": 45137,
+    "watchers_count": 45137,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -263,15 +256,8 @@
     "visibility": "public",
     "forks": 6608,
     "open_issues": 10,
-    "watchers": 45132,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 45137,
+    "default_branch": "main"
   },
   {
     "id": 551376520,
@@ -341,7 +327,7 @@
     "releases_url": "https://api.github.com/repos/tw93/Pake/releases{/id}",
     "deployments_url": "https://api.github.com/repos/tw93/Pake/deployments",
     "created_at": "2022-10-14T09:32:57Z",
-    "updated_at": "2026-08-19T13:59:34Z",
+    "updated_at": "2026-08-19T14:54:58Z",
     "pushed_at": "2026-08-15T14:51:04Z",
     "git_url": "git://github.com/tw93/Pake.git",
     "ssh_url": "git@github.com:tw93/Pake.git",
@@ -349,8 +335,8 @@
     "svn_url": "https://github.com/tw93/Pake",
     "homepage": "",
     "size": 67529,
-    "stargazers_count": 60874,
-    "watchers_count": 60874,
+    "stargazers_count": 60880,
+    "watchers_count": 60880,
     "language": "Rust",
     "has_issues": true,
     "has_projects": false,
@@ -358,7 +344,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 12471,
+    "forks_count": 12473,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -391,17 +377,10 @@
       "youtube"
     ],
     "visibility": "public",
-    "forks": 12471,
+    "forks": 12473,
     "open_issues": 2,
-    "watchers": 60874,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 60880,
+    "default_branch": "main"
   },
   {
     "id": 1197515131,
@@ -471,7 +450,7 @@
     "releases_url": "https://api.github.com/repos/VoltAgent/awesome-design-md/releases{/id}",
     "deployments_url": "https://api.github.com/repos/VoltAgent/awesome-design-md/deployments",
     "created_at": "2026-03-31T16:37:01Z",
-    "updated_at": "2026-08-19T13:56:38Z",
+    "updated_at": "2026-08-19T14:55:44Z",
     "pushed_at": "2026-07-31T12:32:42Z",
     "git_url": "git://github.com/VoltAgent/awesome-design-md.git",
     "ssh_url": "git@github.com:VoltAgent/awesome-design-md.git",
@@ -479,8 +458,8 @@
     "svn_url": "https://github.com/VoltAgent/awesome-design-md",
     "homepage": "https://everyfeed.ai/",
     "size": 2197,
-    "stargazers_count": 109249,
-    "watchers_count": 109249,
+    "stargazers_count": 109255,
+    "watchers_count": 109255,
     "language": null,
     "has_issues": true,
     "has_projects": true,
@@ -520,15 +499,8 @@
     "visibility": "public",
     "forks": 12461,
     "open_issues": 317,
-    "watchers": 109249,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 109255,
+    "default_branch": "main"
   },
   {
     "id": 275993885,
@@ -605,7 +577,7 @@
     "clone_url": "https://github.com/appsmithorg/appsmith.git",
     "svn_url": "https://github.com/appsmithorg/appsmith",
     "homepage": "https://www.appsmith.com",
-    "size": 810038,
+    "size": 810041,
     "stargazers_count": 40706,
     "watchers_count": 40706,
     "language": "TypeScript",
@@ -615,11 +587,11 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 4732,
+    "forks_count": 4733,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 4479,
+    "open_issues_count": 4480,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -655,17 +627,10 @@
       "workflows"
     ],
     "visibility": "public",
-    "forks": 4732,
-    "open_issues": 4479,
+    "forks": 4733,
+    "open_issues": 4480,
     "watchers": 40706,
-    "default_branch": "release",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "release"
   },
   {
     "id": 788847937,
@@ -735,7 +700,7 @@
     "releases_url": "https://api.github.com/repos/Dokploy/dokploy/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Dokploy/dokploy/deployments",
     "created_at": "2024-04-19T07:49:30Z",
-    "updated_at": "2026-08-19T13:57:17Z",
+    "updated_at": "2026-08-19T14:50:17Z",
     "pushed_at": "2026-08-18T22:40:24Z",
     "git_url": "git://github.com/Dokploy/dokploy.git",
     "ssh_url": "git@github.com:Dokploy/dokploy.git",
@@ -743,8 +708,8 @@
     "svn_url": "https://github.com/Dokploy/dokploy",
     "homepage": "https://dokploy.com/",
     "size": 32003,
-    "stargazers_count": 36715,
-    "watchers_count": 36715,
+    "stargazers_count": 36716,
+    "watchers_count": 36716,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -752,11 +717,11 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 2878,
+    "forks_count": 2879,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 662,
+    "open_issues_count": 663,
     "license": {
       "key": "other",
       "name": "Other",
@@ -789,17 +754,10 @@
       "vps"
     ],
     "visibility": "public",
-    "forks": 2878,
-    "open_issues": 662,
-    "watchers": 36715,
-    "default_branch": "canary",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 2879,
+    "open_issues": 663,
+    "watchers": 36716,
+    "default_branch": "canary"
   },
   {
     "id": 613010835,
@@ -869,16 +827,16 @@
     "releases_url": "https://api.github.com/repos/documenso/documenso/releases{/id}",
     "deployments_url": "https://api.github.com/repos/documenso/documenso/deployments",
     "created_at": "2023-03-12T16:28:56Z",
-    "updated_at": "2026-08-19T13:40:27Z",
-    "pushed_at": "2026-08-19T12:35:10Z",
+    "updated_at": "2026-08-19T14:08:39Z",
+    "pushed_at": "2026-08-19T14:26:59Z",
     "git_url": "git://github.com/documenso/documenso.git",
     "ssh_url": "git@github.com:documenso/documenso.git",
     "clone_url": "https://github.com/documenso/documenso.git",
     "svn_url": "https://github.com/documenso/documenso",
     "homepage": "https://documenso.com",
     "size": 286811,
-    "stargazers_count": 14612,
-    "watchers_count": 14612,
+    "stargazers_count": 14613,
+    "watchers_count": 14613,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -886,11 +844,11 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 3094,
+    "forks_count": 3095,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 278,
+    "open_issues_count": 280,
     "license": {
       "key": "agpl-3.0",
       "name": "GNU Affero General Public License v3.0",
@@ -924,17 +882,10 @@
       "typescript"
     ],
     "visibility": "public",
-    "forks": 3094,
-    "open_issues": 278,
-    "watchers": 14612,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 3095,
+    "open_issues": 280,
+    "watchers": 14613,
+    "default_branch": "main"
   },
   {
     "id": 671269505,
@@ -1004,16 +955,16 @@
     "releases_url": "https://api.github.com/repos/BerriAI/litellm/releases{/id}",
     "deployments_url": "https://api.github.com/repos/BerriAI/litellm/deployments",
     "created_at": "2023-07-27T00:09:52Z",
-    "updated_at": "2026-08-19T13:58:58Z",
+    "updated_at": "2026-08-19T14:59:22Z",
     "pushed_at": "2026-08-19T13:47:46Z",
     "git_url": "git://github.com/BerriAI/litellm.git",
     "ssh_url": "git@github.com:BerriAI/litellm.git",
     "clone_url": "https://github.com/BerriAI/litellm.git",
     "svn_url": "https://github.com/BerriAI/litellm",
     "homepage": "https://docs.litellm.ai/docs/",
-    "size": 1438159,
-    "stargazers_count": 56745,
-    "watchers_count": 56745,
+    "size": 1438162,
+    "stargazers_count": 56752,
+    "watchers_count": 56752,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -1021,11 +972,11 @@
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": true,
-    "forks_count": 10719,
+    "forks_count": 10722,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 4985,
+    "open_issues_count": 4989,
     "license": {
       "key": "other",
       "name": "Other",
@@ -1057,17 +1008,10 @@
       "vertex-ai"
     ],
     "visibility": "public",
-    "forks": 10719,
-    "open_issues": 4985,
-    "watchers": 56745,
-    "default_branch": "litellm_internal_staging",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 10722,
+    "open_issues": 4989,
+    "watchers": 56752,
+    "default_branch": "litellm_internal_staging"
   },
   {
     "id": 72495579,
@@ -1138,7 +1082,7 @@
     "deployments_url": "https://api.github.com/repos/go-gitea/gitea/deployments",
     "created_at": "2016-11-01T02:13:26Z",
     "updated_at": "2026-08-19T13:28:00Z",
-    "pushed_at": "2026-08-19T12:50:07Z",
+    "pushed_at": "2026-08-19T14:59:46Z",
     "git_url": "git://github.com/go-gitea/gitea.git",
     "ssh_url": "git@github.com:go-gitea/gitea.git",
     "clone_url": "https://github.com/go-gitea/gitea.git",
@@ -1158,7 +1102,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 2540,
+    "open_issues_count": 2543,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -1195,16 +1139,9 @@
     ],
     "visibility": "public",
     "forks": 7017,
-    "open_issues": 2540,
+    "open_issues": 2543,
     "watchers": 57493,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 108761645,
@@ -1274,7 +1211,7 @@
     "releases_url": "https://api.github.com/repos/nocodb/nocodb/releases{/id}",
     "deployments_url": "https://api.github.com/repos/nocodb/nocodb/deployments",
     "created_at": "2017-10-29T18:51:48Z",
-    "updated_at": "2026-08-19T13:36:13Z",
+    "updated_at": "2026-08-19T14:52:20Z",
     "pushed_at": "2026-08-19T12:51:26Z",
     "git_url": "git://github.com/nocodb/nocodb.git",
     "ssh_url": "git@github.com:nocodb/nocodb.git",
@@ -1282,8 +1219,8 @@
     "svn_url": "https://github.com/nocodb/nocodb",
     "homepage": "https://nocodb.com",
     "size": 1466663,
-    "stargazers_count": 64592,
-    "watchers_count": 64592,
+    "stargazers_count": 64591,
+    "watchers_count": 64591,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -1327,15 +1264,8 @@
     "visibility": "public",
     "forks": 4995,
     "open_issues": 698,
-    "watchers": 64592,
-    "default_branch": "develop",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 64591,
+    "default_branch": "develop"
   },
   {
     "id": 121898717,
@@ -1405,7 +1335,7 @@
     "releases_url": "https://api.github.com/repos/dani-garcia/vaultwarden/releases{/id}",
     "deployments_url": "https://api.github.com/repos/dani-garcia/vaultwarden/deployments",
     "created_at": "2018-02-17T22:40:20Z",
-    "updated_at": "2026-08-19T13:53:20Z",
+    "updated_at": "2026-08-19T14:45:28Z",
     "pushed_at": "2026-08-13T14:46:28Z",
     "git_url": "git://github.com/dani-garcia/vaultwarden.git",
     "ssh_url": "git@github.com:dani-garcia/vaultwarden.git",
@@ -1413,8 +1343,8 @@
     "svn_url": "https://github.com/dani-garcia/vaultwarden",
     "homepage": "",
     "size": 12817,
-    "stargazers_count": 65650,
-    "watchers_count": 65650,
+    "stargazers_count": 65651,
+    "watchers_count": 65651,
     "language": "Rust",
     "has_issues": true,
     "has_projects": false,
@@ -1450,15 +1380,8 @@
     "visibility": "public",
     "forks": 3115,
     "open_issues": 88,
-    "watchers": 65650,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 65651,
+    "default_branch": "main"
   },
   {
     "id": 382496361,
@@ -1528,7 +1451,7 @@
     "releases_url": "https://api.github.com/repos/louislam/uptime-kuma/releases{/id}",
     "deployments_url": "https://api.github.com/repos/louislam/uptime-kuma/deployments",
     "created_at": "2021-07-03T01:02:42Z",
-    "updated_at": "2026-08-19T14:00:24Z",
+    "updated_at": "2026-08-19T15:00:12Z",
     "pushed_at": "2026-08-19T00:33:12Z",
     "git_url": "git://github.com/louislam/uptime-kuma.git",
     "ssh_url": "git@github.com:louislam/uptime-kuma.git",
@@ -1536,8 +1459,8 @@
     "svn_url": "https://github.com/louislam/uptime-kuma",
     "homepage": "https://uptime.kuma.pet",
     "size": 38406,
-    "stargazers_count": 90344,
-    "watchers_count": 90344,
+    "stargazers_count": 90347,
+    "watchers_count": 90347,
     "language": "JavaScript",
     "has_issues": true,
     "has_projects": false,
@@ -1545,7 +1468,7 @@
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": false,
-    "forks_count": 8265,
+    "forks_count": 8267,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -1577,17 +1500,10 @@
       "websocket"
     ],
     "visibility": "public",
-    "forks": 8265,
+    "forks": 8267,
     "open_issues": 792,
-    "watchers": 90344,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 90347,
+    "default_branch": "master"
   },
   {
     "id": 67994598,
@@ -1696,14 +1612,7 @@
     "forks": 20,
     "open_issues": 14,
     "watchers": 36,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "master"
   },
   {
     "id": 860188605,
@@ -1833,14 +1742,7 @@
     "forks": 73,
     "open_issues": 3,
     "watchers": 1558,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "master"
   },
   {
     "id": 1183888342,
@@ -1910,7 +1812,7 @@
     "releases_url": "https://api.github.com/repos/stablyai/orca/releases{/id}",
     "deployments_url": "https://api.github.com/repos/stablyai/orca/deployments",
     "created_at": "2026-03-17T03:28:57Z",
-    "updated_at": "2026-08-19T14:03:11Z",
+    "updated_at": "2026-08-19T14:58:02Z",
     "pushed_at": "2026-08-19T09:30:27Z",
     "git_url": "git://github.com/stablyai/orca.git",
     "ssh_url": "git@github.com:stablyai/orca.git",
@@ -1918,8 +1820,8 @@
     "svn_url": "https://github.com/stablyai/orca",
     "homepage": "https://onOrca.dev",
     "size": 572602,
-    "stargazers_count": 48822,
-    "watchers_count": 48822,
+    "stargazers_count": 48871,
+    "watchers_count": 48871,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -1927,11 +1829,11 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 3379,
+    "forks_count": 3378,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 4173,
+    "open_issues_count": 4158,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -1965,17 +1867,10 @@
       "yc-backed"
     ],
     "visibility": "public",
-    "forks": 3379,
-    "open_issues": 4173,
-    "watchers": 48822,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 3378,
+    "open_issues": 4158,
+    "watchers": 48871,
+    "default_branch": "main"
   },
   {
     "id": 1162099055,
@@ -2045,7 +1940,7 @@
     "releases_url": "https://api.github.com/repos/Leonxlnx/taste-skill/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Leonxlnx/taste-skill/deployments",
     "created_at": "2026-02-19T21:44:05Z",
-    "updated_at": "2026-08-19T14:03:09Z",
+    "updated_at": "2026-08-19T14:59:32Z",
     "pushed_at": "2026-08-17T22:57:24Z",
     "git_url": "git://github.com/Leonxlnx/taste-skill.git",
     "ssh_url": "git@github.com:Leonxlnx/taste-skill.git",
@@ -2053,8 +1948,8 @@
     "svn_url": "https://github.com/Leonxlnx/taste-skill",
     "homepage": "https://tasteskill.dev",
     "size": 33770,
-    "stargazers_count": 78051,
-    "watchers_count": 78051,
+    "stargazers_count": 78073,
+    "watchers_count": 78073,
     "language": "JavaScript",
     "has_issues": true,
     "has_projects": true,
@@ -2062,7 +1957,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 5331,
+    "forks_count": 5332,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -2095,17 +1990,10 @@
       "vibecoding"
     ],
     "visibility": "public",
-    "forks": 5331,
+    "forks": 5332,
     "open_issues": 56,
-    "watchers": 78051,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 78073,
+    "default_branch": "main"
   },
   {
     "id": 1195360525,
@@ -2175,7 +2063,7 @@
     "releases_url": "https://api.github.com/repos/calesthio/OpenMontage/releases{/id}",
     "deployments_url": "https://api.github.com/repos/calesthio/OpenMontage/deployments",
     "created_at": "2026-03-29T15:23:22Z",
-    "updated_at": "2026-08-19T13:59:05Z",
+    "updated_at": "2026-08-19T14:58:07Z",
     "pushed_at": "2026-08-18T15:50:54Z",
     "git_url": "git://github.com/calesthio/OpenMontage.git",
     "ssh_url": "git@github.com:calesthio/OpenMontage.git",
@@ -2183,8 +2071,8 @@
     "svn_url": "https://github.com/calesthio/OpenMontage",
     "homepage": "https://www.openmontage.video/",
     "size": 76375,
-    "stargazers_count": 48887,
-    "watchers_count": 48887,
+    "stargazers_count": 48906,
+    "watchers_count": 48906,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -2192,7 +2080,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 6123,
+    "forks_count": 6124,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -2231,17 +2119,10 @@
       "video-production"
     ],
     "visibility": "public",
-    "forks": 6123,
+    "forks": 6124,
     "open_issues": 229,
-    "watchers": 48887,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 48906,
+    "default_branch": "main"
   },
   {
     "id": 1165277268,
@@ -2311,7 +2192,7 @@
     "releases_url": "https://api.github.com/repos/Panniantong/Agent-Reach/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Panniantong/Agent-Reach/deployments",
     "created_at": "2026-02-24T02:10:24Z",
-    "updated_at": "2026-08-19T14:02:46Z",
+    "updated_at": "2026-08-19T14:58:04Z",
     "pushed_at": "2026-08-12T03:39:49Z",
     "git_url": "git://github.com/Panniantong/Agent-Reach.git",
     "ssh_url": "git@github.com:Panniantong/Agent-Reach.git",
@@ -2319,8 +2200,8 @@
     "svn_url": "https://github.com/Panniantong/Agent-Reach",
     "homepage": null,
     "size": 2088,
-    "stargazers_count": 72982,
-    "watchers_count": 72982,
+    "stargazers_count": 73000,
+    "watchers_count": 73000,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -2328,7 +2209,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 6203,
+    "forks_count": 6204,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -2365,17 +2246,10 @@
       "youtube-transcript"
     ],
     "visibility": "public",
-    "forks": 6203,
+    "forks": 6204,
     "open_issues": 94,
-    "watchers": 72982,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 73000,
+    "default_branch": "main"
   },
   {
     "id": 1212769188,
@@ -2445,7 +2319,7 @@
     "releases_url": "https://api.github.com/repos/cathrynlavery/diagram-design/releases{/id}",
     "deployments_url": "https://api.github.com/repos/cathrynlavery/diagram-design/deployments",
     "created_at": "2026-04-16T18:01:16Z",
-    "updated_at": "2026-08-19T14:03:15Z",
+    "updated_at": "2026-08-19T15:00:14Z",
     "pushed_at": "2026-08-19T05:31:48Z",
     "git_url": "git://github.com/cathrynlavery/diagram-design.git",
     "ssh_url": "git@github.com:cathrynlavery/diagram-design.git",
@@ -2453,8 +2327,8 @@
     "svn_url": "https://github.com/cathrynlavery/diagram-design",
     "homepage": null,
     "size": 5717,
-    "stargazers_count": 22786,
-    "watchers_count": 22786,
+    "stargazers_count": 22878,
+    "watchers_count": 22878,
     "language": "HTML",
     "has_issues": true,
     "has_projects": true,
@@ -2462,7 +2336,7 @@
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": false,
-    "forks_count": 1397,
+    "forks_count": 1405,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -2481,17 +2355,10 @@
     "pull_request_creation_policy": "all",
     "topics": [],
     "visibility": "public",
-    "forks": 1397,
+    "forks": 1405,
     "open_issues": 38,
-    "watchers": 22786,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 22878,
+    "default_branch": "main"
   },
   {
     "id": 1273824907,
@@ -2561,16 +2428,16 @@
     "releases_url": "https://api.github.com/repos/lidge-jun/opencodex/releases{/id}",
     "deployments_url": "https://api.github.com/repos/lidge-jun/opencodex/deployments",
     "created_at": "2026-06-18T23:03:18Z",
-    "updated_at": "2026-08-19T14:01:15Z",
-    "pushed_at": "2026-08-19T13:56:11Z",
+    "updated_at": "2026-08-19T14:59:55Z",
+    "pushed_at": "2026-08-19T14:53:52Z",
     "git_url": "git://github.com/lidge-jun/opencodex.git",
     "ssh_url": "git@github.com:lidge-jun/opencodex.git",
     "clone_url": "https://github.com/lidge-jun/opencodex.git",
     "svn_url": "https://github.com/lidge-jun/opencodex",
     "homepage": "https://opencodex.me/",
-    "size": 102879,
-    "stargazers_count": 11160,
-    "watchers_count": 11160,
+    "size": 103013,
+    "stargazers_count": 11174,
+    "watchers_count": 11174,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": false,
@@ -2582,7 +2449,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 121,
+    "open_issues_count": 105,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -2619,16 +2486,9 @@
     ],
     "visibility": "public",
     "forks": 819,
-    "open_issues": 121,
-    "watchers": 11160,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "open_issues": 105,
+    "watchers": 11174,
+    "default_branch": "main"
   },
   {
     "id": 1334076307,
@@ -2741,14 +2601,7 @@
     "forks": 7,
     "open_issues": 8,
     "watchers": 90,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 111583593,
@@ -2818,7 +2671,7 @@
     "releases_url": "https://api.github.com/repos/Genymobile/scrcpy/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Genymobile/scrcpy/deployments",
     "created_at": "2017-11-21T18:00:27Z",
-    "updated_at": "2026-08-19T13:24:02Z",
+    "updated_at": "2026-08-19T14:53:16Z",
     "pushed_at": "2026-08-17T10:27:07Z",
     "git_url": "git://github.com/Genymobile/scrcpy.git",
     "ssh_url": "git@github.com:Genymobile/scrcpy.git",
@@ -2826,8 +2679,8 @@
     "svn_url": "https://github.com/Genymobile/scrcpy",
     "homepage": "",
     "size": 8977,
-    "stargazers_count": 147907,
-    "watchers_count": 147907,
+    "stargazers_count": 147911,
+    "watchers_count": 147911,
     "language": "C",
     "has_issues": true,
     "has_projects": false,
@@ -2865,15 +2718,8 @@
     "visibility": "public",
     "forks": 13620,
     "open_issues": 2881,
-    "watchers": 147907,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 147911,
+    "default_branch": "master"
   },
   {
     "id": 460514332,
@@ -2988,14 +2834,7 @@
     "forks": 554,
     "open_issues": 78,
     "watchers": 6864,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 872119017,
@@ -3065,7 +2904,7 @@
     "releases_url": "https://api.github.com/repos/D4Vinci/Scrapling/releases{/id}",
     "deployments_url": "https://api.github.com/repos/D4Vinci/Scrapling/deployments",
     "created_at": "2024-10-13T20:29:53Z",
-    "updated_at": "2026-08-19T13:57:05Z",
+    "updated_at": "2026-08-19T14:56:49Z",
     "pushed_at": "2026-08-18T23:03:35Z",
     "git_url": "git://github.com/D4Vinci/Scrapling.git",
     "ssh_url": "git@github.com:D4Vinci/Scrapling.git",
@@ -3073,8 +2912,8 @@
     "svn_url": "https://github.com/D4Vinci/Scrapling",
     "homepage": "https://scrapling.readthedocs.io/en/latest/",
     "size": 9548,
-    "stargazers_count": 75146,
-    "watchers_count": 75146,
+    "stargazers_count": 75162,
+    "watchers_count": 75162,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -3124,15 +2963,8 @@
     "visibility": "public",
     "forks": 7511,
     "open_issues": 3,
-    "watchers": 75146,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 75162,
+    "default_branch": "main"
   },
   {
     "id": 881458615,
@@ -3202,7 +3034,7 @@
     "releases_url": "https://api.github.com/repos/browser-use/browser-use/releases{/id}",
     "deployments_url": "https://api.github.com/repos/browser-use/browser-use/deployments",
     "created_at": "2024-10-31T16:00:56Z",
-    "updated_at": "2026-08-19T14:01:43Z",
+    "updated_at": "2026-08-19T14:40:27Z",
     "pushed_at": "2026-08-18T17:07:08Z",
     "git_url": "git://github.com/browser-use/browser-use.git",
     "ssh_url": "git@github.com:browser-use/browser-use.git",
@@ -3210,8 +3042,8 @@
     "svn_url": "https://github.com/browser-use/browser-use",
     "homepage": "https://browser-use.com",
     "size": 34321,
-    "stargazers_count": 109738,
-    "watchers_count": 109738,
+    "stargazers_count": 109744,
+    "watchers_count": 109744,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -3219,7 +3051,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 12060,
+    "forks_count": 12061,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -3246,17 +3078,10 @@
       "python"
     ],
     "visibility": "public",
-    "forks": 12060,
+    "forks": 12061,
     "open_issues": 361,
-    "watchers": 109738,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 109744,
+    "default_branch": "main"
   },
   {
     "id": 787076358,
@@ -3326,16 +3151,16 @@
     "releases_url": "https://api.github.com/repos/firecrawl/firecrawl/releases{/id}",
     "deployments_url": "https://api.github.com/repos/firecrawl/firecrawl/deployments",
     "created_at": "2024-04-15T21:02:29Z",
-    "updated_at": "2026-08-19T13:52:56Z",
-    "pushed_at": "2026-08-19T14:03:20Z",
+    "updated_at": "2026-08-19T14:58:30Z",
+    "pushed_at": "2026-08-19T14:41:15Z",
     "git_url": "git://github.com/firecrawl/firecrawl.git",
     "ssh_url": "git@github.com:firecrawl/firecrawl.git",
     "clone_url": "https://github.com/firecrawl/firecrawl.git",
     "svn_url": "https://github.com/firecrawl/firecrawl",
     "homepage": "https://firecrawl.dev",
-    "size": 174439,
-    "stargazers_count": 169452,
-    "watchers_count": 169452,
+    "size": 174457,
+    "stargazers_count": 169476,
+    "watchers_count": 169476,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -3343,11 +3168,11 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 9458,
+    "forks_count": 9457,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 527,
+    "open_issues_count": 528,
     "license": {
       "key": "agpl-3.0",
       "name": "GNU Affero General Public License v3.0",
@@ -3382,17 +3207,10 @@
       "webscraping"
     ],
     "visibility": "public",
-    "forks": 9458,
-    "open_issues": 527,
-    "watchers": 169452,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 9457,
+    "open_issues": 528,
+    "watchers": 169476,
+    "default_branch": "main"
   },
   {
     "id": 888092115,
@@ -3462,7 +3280,7 @@
     "releases_url": "https://api.github.com/repos/microsoft/markitdown/releases{/id}",
     "deployments_url": "https://api.github.com/repos/microsoft/markitdown/deployments",
     "created_at": "2024-11-13T19:56:40Z",
-    "updated_at": "2026-08-19T13:46:05Z",
+    "updated_at": "2026-08-19T14:59:52Z",
     "pushed_at": "2026-07-29T18:18:09Z",
     "git_url": "git://github.com/microsoft/markitdown.git",
     "ssh_url": "git@github.com:microsoft/markitdown.git",
@@ -3470,8 +3288,8 @@
     "svn_url": "https://github.com/microsoft/markitdown",
     "homepage": "",
     "size": 4331,
-    "stargazers_count": 174636,
-    "watchers_count": 174636,
+    "stargazers_count": 174646,
+    "watchers_count": 174646,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -3508,15 +3326,8 @@
     "visibility": "public",
     "forks": 12768,
     "open_issues": 875,
-    "watchers": 174636,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 174646,
+    "default_branch": "main"
   },
   {
     "id": 798201435,
@@ -3586,16 +3397,16 @@
     "releases_url": "https://api.github.com/repos/unclecode/crawl4ai/releases{/id}",
     "deployments_url": "https://api.github.com/repos/unclecode/crawl4ai/deployments",
     "created_at": "2024-05-09T09:48:50Z",
-    "updated_at": "2026-08-19T13:59:24Z",
+    "updated_at": "2026-08-19T14:55:45Z",
     "pushed_at": "2026-08-19T13:43:00Z",
     "git_url": "git://github.com/unclecode/crawl4ai.git",
     "ssh_url": "git@github.com:unclecode/crawl4ai.git",
     "clone_url": "https://github.com/unclecode/crawl4ai.git",
     "svn_url": "https://github.com/unclecode/crawl4ai",
     "homepage": "https://crawl4ai.com",
-    "size": 151202,
-    "stargazers_count": 78677,
-    "watchers_count": 78677,
+    "size": 151205,
+    "stargazers_count": 78685,
+    "watchers_count": 78685,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -3603,7 +3414,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 8149,
+    "forks_count": 8150,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -3622,17 +3433,10 @@
     "pull_request_creation_policy": "all",
     "topics": [],
     "visibility": "public",
-    "forks": 8149,
+    "forks": 8150,
     "open_issues": 151,
-    "watchers": 78677,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 78685,
+    "default_branch": "main"
   },
   {
     "id": 977876109,
@@ -3743,14 +3547,7 @@
     "forks": 18,
     "open_issues": 0,
     "watchers": 101,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1171243154,
@@ -3820,16 +3617,16 @@
     "releases_url": "https://api.github.com/repos/CopilotKit/aimock/releases{/id}",
     "deployments_url": "https://api.github.com/repos/CopilotKit/aimock/deployments",
     "created_at": "2026-03-03T02:40:16Z",
-    "updated_at": "2026-08-19T11:55:04Z",
-    "pushed_at": "2026-08-19T06:14:30Z",
+    "updated_at": "2026-08-19T14:06:14Z",
+    "pushed_at": "2026-08-19T14:10:25Z",
     "git_url": "git://github.com/CopilotKit/aimock.git",
     "ssh_url": "git@github.com:CopilotKit/aimock.git",
     "clone_url": "https://github.com/CopilotKit/aimock.git",
     "svn_url": "https://github.com/CopilotKit/aimock",
     "homepage": "http://aimock.copilotkit.dev/",
     "size": 7383,
-    "stargazers_count": 881,
-    "watchers_count": 881,
+    "stargazers_count": 882,
+    "watchers_count": 882,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": false,
@@ -3841,7 +3638,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 3,
+    "open_issues_count": 4,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -3864,16 +3661,9 @@
     ],
     "visibility": "public",
     "forks": 64,
-    "open_issues": 3,
-    "watchers": 881,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "open_issues": 4,
+    "watchers": 882,
+    "default_branch": "main"
   },
   {
     "id": 574523116,
@@ -3943,7 +3733,7 @@
     "releases_url": "https://api.github.com/repos/f/prompts.chat/releases{/id}",
     "deployments_url": "https://api.github.com/repos/f/prompts.chat/deployments",
     "created_at": "2022-12-05T13:54:13Z",
-    "updated_at": "2026-08-19T13:58:58Z",
+    "updated_at": "2026-08-19T15:00:22Z",
     "pushed_at": "2026-08-19T03:21:13Z",
     "git_url": "git://github.com/f/prompts.chat.git",
     "ssh_url": "git@github.com:f/prompts.chat.git",
@@ -3951,8 +3741,8 @@
     "svn_url": "https://github.com/f/prompts.chat",
     "homepage": "https://prompts.chat",
     "size": 512133,
-    "stargazers_count": 167544,
-    "watchers_count": 167544,
+    "stargazers_count": 167552,
+    "watchers_count": 167552,
     "language": "HTML",
     "has_issues": true,
     "has_projects": true,
@@ -4000,15 +3790,8 @@
     "visibility": "public",
     "forks": 21632,
     "open_issues": 66,
-    "watchers": 167544,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 167552,
+    "default_branch": "main"
   },
   {
     "id": 725205304,
@@ -4078,16 +3861,16 @@
     "releases_url": "https://api.github.com/repos/unslothai/unsloth/releases{/id}",
     "deployments_url": "https://api.github.com/repos/unslothai/unsloth/deployments",
     "created_at": "2023-11-29T16:50:09Z",
-    "updated_at": "2026-08-19T14:01:55Z",
-    "pushed_at": "2026-08-19T14:03:40Z",
+    "updated_at": "2026-08-19T14:58:45Z",
+    "pushed_at": "2026-08-19T14:58:43Z",
     "git_url": "git://github.com/unslothai/unsloth.git",
     "ssh_url": "git@github.com:unslothai/unsloth.git",
     "clone_url": "https://github.com/unslothai/unsloth.git",
     "svn_url": "https://github.com/unslothai/unsloth",
     "homepage": "https://unsloth.ai/docs",
-    "size": 211960,
-    "stargazers_count": 73751,
-    "watchers_count": 73751,
+    "size": 209237,
+    "stargazers_count": 73761,
+    "watchers_count": 73761,
     "language": "Python",
     "has_issues": true,
     "has_projects": false,
@@ -4099,7 +3882,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 1326,
+    "open_issues_count": 1324,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -4136,16 +3919,9 @@
     ],
     "visibility": "public",
     "forks": 6663,
-    "open_issues": 1326,
-    "watchers": 73751,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "open_issues": 1324,
+    "watchers": 73761,
+    "default_branch": "main"
   },
   {
     "id": 1131513930,
@@ -4215,16 +3991,16 @@
     "releases_url": "https://api.github.com/repos/ZhuLinsen/daily_stock_analysis/releases{/id}",
     "deployments_url": "https://api.github.com/repos/ZhuLinsen/daily_stock_analysis/deployments",
     "created_at": "2026-01-10T06:43:20Z",
-    "updated_at": "2026-08-19T13:50:33Z",
-    "pushed_at": "2026-08-19T13:59:10Z",
+    "updated_at": "2026-08-19T14:57:28Z",
+    "pushed_at": "2026-08-19T14:52:10Z",
     "git_url": "git://github.com/ZhuLinsen/daily_stock_analysis.git",
     "ssh_url": "git@github.com:ZhuLinsen/daily_stock_analysis.git",
     "clone_url": "https://github.com/ZhuLinsen/daily_stock_analysis.git",
     "svn_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
     "homepage": "https://dsa.zhulinsen.tech",
     "size": 102946,
-    "stargazers_count": 63367,
-    "watchers_count": 63367,
+    "stargazers_count": 63374,
+    "watchers_count": 63374,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -4232,11 +4008,11 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 53245,
+    "forks_count": 53250,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 51,
+    "open_issues_count": 50,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -4259,17 +4035,10 @@
       "quantitative-trading"
     ],
     "visibility": "public",
-    "forks": 53245,
-    "open_issues": 51,
-    "watchers": 63367,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 53250,
+    "open_issues": 50,
+    "watchers": 63374,
+    "default_branch": "main"
   },
   {
     "id": 1158722119,
@@ -4339,7 +4108,7 @@
     "releases_url": "https://api.github.com/repos/addyosmani/agent-skills/releases{/id}",
     "deployments_url": "https://api.github.com/repos/addyosmani/agent-skills/deployments",
     "created_at": "2026-02-15T20:20:26Z",
-    "updated_at": "2026-08-19T13:50:32Z",
+    "updated_at": "2026-08-19T14:57:02Z",
     "pushed_at": "2026-08-14T18:51:33Z",
     "git_url": "git://github.com/addyosmani/agent-skills.git",
     "ssh_url": "git@github.com:addyosmani/agent-skills.git",
@@ -4347,8 +4116,8 @@
     "svn_url": "https://github.com/addyosmani/agent-skills",
     "homepage": "https://skills.addy.ie",
     "size": 974,
-    "stargazers_count": 88525,
-    "watchers_count": 88525,
+    "stargazers_count": 88538,
+    "watchers_count": 88538,
     "language": "JavaScript",
     "has_issues": true,
     "has_projects": true,
@@ -4384,15 +4153,8 @@
     "visibility": "public",
     "forks": 9483,
     "open_issues": 109,
-    "watchers": 88525,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 88538,
+    "default_branch": "main"
   },
   {
     "id": 1035029907,
@@ -4462,16 +4224,16 @@
     "releases_url": "https://api.github.com/repos/earendil-works/pi/releases{/id}",
     "deployments_url": "https://api.github.com/repos/earendil-works/pi/deployments",
     "created_at": "2025-08-09T14:03:50Z",
-    "updated_at": "2026-08-19T14:03:06Z",
-    "pushed_at": "2026-08-19T13:56:28Z",
+    "updated_at": "2026-08-19T15:00:01Z",
+    "pushed_at": "2026-08-19T14:57:46Z",
     "git_url": "git://github.com/earendil-works/pi.git",
     "ssh_url": "git@github.com:earendil-works/pi.git",
     "clone_url": "https://github.com/earendil-works/pi.git",
     "svn_url": "https://github.com/earendil-works/pi",
     "homepage": "",
     "size": 62997,
-    "stargazers_count": 93644,
-    "watchers_count": 93644,
+    "stargazers_count": 93672,
+    "watchers_count": 93672,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -4479,11 +4241,11 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 11592,
+    "forks_count": 11594,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 138,
+    "open_issues_count": 134,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -4498,17 +4260,10 @@
     "pull_request_creation_policy": "all",
     "topics": [],
     "visibility": "public",
-    "forks": 11592,
-    "open_issues": 138,
-    "watchers": 93644,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 11594,
+    "open_issues": 134,
+    "watchers": 93672,
+    "default_branch": "main"
   },
   {
     "id": 1232493406,
@@ -4578,7 +4333,7 @@
     "releases_url": "https://api.github.com/repos/PrimeIntellect-ai/prime-agent/releases{/id}",
     "deployments_url": "https://api.github.com/repos/PrimeIntellect-ai/prime-agent/deployments",
     "created_at": "2026-05-08T01:42:41Z",
-    "updated_at": "2026-08-19T14:00:43Z",
+    "updated_at": "2026-08-19T14:56:54Z",
     "pushed_at": "2026-08-19T11:24:22Z",
     "git_url": "git://github.com/PrimeIntellect-ai/prime-agent.git",
     "ssh_url": "git@github.com:PrimeIntellect-ai/prime-agent.git",
@@ -4586,8 +4341,8 @@
     "svn_url": "https://github.com/PrimeIntellect-ai/prime-agent",
     "homepage": "",
     "size": 55441,
-    "stargazers_count": 17329,
-    "watchers_count": 17329,
+    "stargazers_count": 17337,
+    "watchers_count": 17337,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -4616,15 +4371,8 @@
     "visibility": "public",
     "forks": 1863,
     "open_issues": 68,
-    "watchers": 17329,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 17337,
+    "default_branch": "main"
   },
   {
     "id": 1314225526,
@@ -4694,7 +4442,7 @@
     "releases_url": "https://api.github.com/repos/promovaweb/specsfy/releases{/id}",
     "deployments_url": "https://api.github.com/repos/promovaweb/specsfy/deployments",
     "created_at": "2026-07-27T19:53:08Z",
-    "updated_at": "2026-08-19T13:12:46Z",
+    "updated_at": "2026-08-19T14:49:47Z",
     "pushed_at": "2026-08-18T21:35:39Z",
     "git_url": "git://github.com/promovaweb/specsfy.git",
     "ssh_url": "git@github.com:promovaweb/specsfy.git",
@@ -4702,8 +4450,8 @@
     "svn_url": "https://github.com/promovaweb/specsfy",
     "homepage": "https://promovaweb.com/docs/specsfy/",
     "size": 38839,
-    "stargazers_count": 47,
-    "watchers_count": 47,
+    "stargazers_count": 48,
+    "watchers_count": 48,
     "language": "JavaScript",
     "has_issues": true,
     "has_projects": true,
@@ -4731,15 +4479,8 @@
     "visibility": "public",
     "forks": 20,
     "open_issues": 10,
-    "watchers": 47,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 48,
+    "default_branch": "main"
   },
   {
     "id": 1245561762,
@@ -4809,7 +4550,7 @@
     "releases_url": "https://api.github.com/repos/yashab-cyber/opendroid/releases{/id}",
     "deployments_url": "https://api.github.com/repos/yashab-cyber/opendroid/deployments",
     "created_at": "2026-05-21T10:38:16Z",
-    "updated_at": "2026-08-19T13:22:54Z",
+    "updated_at": "2026-08-19T14:04:06Z",
     "pushed_at": "2026-08-18T20:11:53Z",
     "git_url": "git://github.com/yashab-cyber/opendroid.git",
     "ssh_url": "git@github.com:yashab-cyber/opendroid.git",
@@ -4817,8 +4558,8 @@
     "svn_url": "https://github.com/yashab-cyber/opendroid",
     "homepage": "https://yashab-cyber.github.io/opendroid/",
     "size": 14268,
-    "stargazers_count": 849,
-    "watchers_count": 849,
+    "stargazers_count": 850,
+    "watchers_count": 850,
     "language": "Kotlin",
     "has_issues": true,
     "has_projects": true,
@@ -4856,15 +4597,8 @@
     "visibility": "public",
     "forks": 109,
     "open_issues": 1,
-    "watchers": 849,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 850,
+    "default_branch": "main"
   },
   {
     "id": 1087077125,
@@ -4988,14 +4722,7 @@
     "forks": 356,
     "open_issues": 15,
     "watchers": 8452,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "master"
   },
   {
     "id": 895508656,
@@ -5065,7 +4792,7 @@
     "releases_url": "https://api.github.com/repos/microsoft/ai-agents-for-beginners/releases{/id}",
     "deployments_url": "https://api.github.com/repos/microsoft/ai-agents-for-beginners/deployments",
     "created_at": "2024-11-28T10:42:52Z",
-    "updated_at": "2026-08-19T14:02:59Z",
+    "updated_at": "2026-08-19T14:53:21Z",
     "pushed_at": "2026-08-18T11:47:04Z",
     "git_url": "git://github.com/microsoft/ai-agents-for-beginners.git",
     "ssh_url": "git@github.com:microsoft/ai-agents-for-beginners.git",
@@ -5073,8 +4800,8 @@
     "svn_url": "https://github.com/microsoft/ai-agents-for-beginners",
     "homepage": "https://aka.ms/ai-agents-beginners",
     "size": 3798305,
-    "stargazers_count": 72682,
-    "watchers_count": 72682,
+    "stargazers_count": 72692,
+    "watchers_count": 72692,
     "language": "Jupyter Notebook",
     "has_issues": true,
     "has_projects": true,
@@ -5082,7 +4809,7 @@
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": false,
-    "forks_count": 24044,
+    "forks_count": 24047,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -5113,17 +4840,10 @@
       "semantic-kernel"
     ],
     "visibility": "public",
-    "forks": 24044,
+    "forks": 24047,
     "open_issues": 6,
-    "watchers": 72682,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 72692,
+    "default_branch": "main"
   },
   {
     "id": 1278668528,
@@ -5241,14 +4961,7 @@
     "forks": 125,
     "open_issues": 5,
     "watchers": 1266,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1003043071,
@@ -5318,14 +5031,14 @@
     "releases_url": "https://api.github.com/repos/vitali87/code-graph-rag/releases{/id}",
     "deployments_url": "https://api.github.com/repos/vitali87/code-graph-rag/deployments",
     "created_at": "2025-06-16T14:31:57Z",
-    "updated_at": "2026-08-19T13:32:52Z",
-    "pushed_at": "2026-08-19T13:12:59Z",
+    "updated_at": "2026-08-19T14:43:48Z",
+    "pushed_at": "2026-08-19T14:50:26Z",
     "git_url": "git://github.com/vitali87/code-graph-rag.git",
     "ssh_url": "git@github.com:vitali87/code-graph-rag.git",
     "clone_url": "https://github.com/vitali87/code-graph-rag.git",
     "svn_url": "https://github.com/vitali87/code-graph-rag",
     "homepage": "https://code-graph-rag.com",
-    "size": 72996,
+    "size": 72998,
     "stargazers_count": 4664,
     "watchers_count": 4664,
     "language": "Python",
@@ -5335,11 +5048,11 @@
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": true,
-    "forks_count": 617,
+    "forks_count": 618,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 43,
+    "open_issues_count": 44,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -5375,17 +5088,10 @@
       "tree-sitter"
     ],
     "visibility": "public",
-    "forks": 617,
-    "open_issues": 43,
+    "forks": 618,
+    "open_issues": 44,
     "watchers": 4664,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 59435364,
@@ -5455,16 +5161,16 @@
     "releases_url": "https://api.github.com/repos/outline/outline/releases{/id}",
     "deployments_url": "https://api.github.com/repos/outline/outline/deployments",
     "created_at": "2016-05-22T21:31:47Z",
-    "updated_at": "2026-08-19T13:56:31Z",
-    "pushed_at": "2026-08-19T13:17:08Z",
+    "updated_at": "2026-08-19T14:25:44Z",
+    "pushed_at": "2026-08-19T14:13:52Z",
     "git_url": "git://github.com/outline/outline.git",
     "ssh_url": "git@github.com:outline/outline.git",
     "clone_url": "https://github.com/outline/outline.git",
     "svn_url": "https://github.com/outline/outline",
     "homepage": "https://www.getoutline.com",
-    "size": 329046,
-    "stargazers_count": 40247,
-    "watchers_count": 40247,
+    "size": 329045,
+    "stargazers_count": 40248,
+    "watchers_count": 40248,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": false,
@@ -5501,15 +5207,8 @@
     "visibility": "public",
     "forks": 3498,
     "open_issues": 73,
-    "watchers": 40247,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 40248,
+    "default_branch": "main"
   },
   {
     "id": 29745084,
@@ -5639,14 +5338,7 @@
     "forks": 1108,
     "open_issues": 314,
     "watchers": 11392,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "master"
   },
   {
     "id": 560284721,
@@ -5716,14 +5408,14 @@
     "releases_url": "https://api.github.com/repos/ente/ente/releases{/id}",
     "deployments_url": "https://api.github.com/repos/ente/ente/deployments",
     "created_at": "2022-11-01T06:10:25Z",
-    "updated_at": "2026-08-19T13:46:16Z",
-    "pushed_at": "2026-08-19T13:52:42Z",
+    "updated_at": "2026-08-19T14:07:32Z",
+    "pushed_at": "2026-08-19T14:35:09Z",
     "git_url": "git://github.com/ente/ente.git",
     "ssh_url": "git@github.com:ente/ente.git",
     "clone_url": "https://github.com/ente/ente.git",
     "svn_url": "https://github.com/ente/ente",
     "homepage": "https://ente.com",
-    "size": 723138,
+    "size": 723094,
     "stargazers_count": 28411,
     "watchers_count": 28411,
     "language": "Dart",
@@ -5737,7 +5429,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 317,
+    "open_issues_count": 316,
     "license": {
       "key": "agpl-3.0",
       "name": "GNU Affero General Public License v3.0",
@@ -5771,16 +5463,9 @@
     ],
     "visibility": "public",
     "forks": 1767,
-    "open_issues": 317,
+    "open_issues": 316,
     "watchers": 28411,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 511987144,
@@ -5850,7 +5535,7 @@
     "releases_url": "https://api.github.com/repos/imputnet/cobalt/releases{/id}",
     "deployments_url": "https://api.github.com/repos/imputnet/cobalt/deployments",
     "created_at": "2022-07-08T18:12:55Z",
-    "updated_at": "2026-08-19T12:50:42Z",
+    "updated_at": "2026-08-19T14:55:39Z",
     "pushed_at": "2026-04-06T11:59:56Z",
     "git_url": "git://github.com/imputnet/cobalt.git",
     "ssh_url": "git@github.com:imputnet/cobalt.git",
@@ -5858,8 +5543,8 @@
     "svn_url": "https://github.com/imputnet/cobalt",
     "homepage": "https://cobalt.tools",
     "size": 18177,
-    "stargazers_count": 42141,
-    "watchers_count": 42141,
+    "stargazers_count": 42142,
+    "watchers_count": 42142,
     "language": "Svelte",
     "has_issues": true,
     "has_projects": true,
@@ -5907,15 +5592,8 @@
     "visibility": "public",
     "forks": 3641,
     "open_issues": 266,
-    "watchers": 42141,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 42142,
+    "default_branch": "main"
   },
   {
     "id": 594155488,
@@ -5985,16 +5663,16 @@
     "releases_url": "https://api.github.com/repos/Stirling-Tools/Stirling-PDF/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Stirling-Tools/Stirling-PDF/deployments",
     "created_at": "2023-01-27T18:22:42Z",
-    "updated_at": "2026-08-19T13:47:37Z",
-    "pushed_at": "2026-08-19T13:14:28Z",
+    "updated_at": "2026-08-19T14:59:35Z",
+    "pushed_at": "2026-08-19T14:46:03Z",
     "git_url": "git://github.com/Stirling-Tools/Stirling-PDF.git",
     "ssh_url": "git@github.com:Stirling-Tools/Stirling-PDF.git",
     "clone_url": "https://github.com/Stirling-Tools/Stirling-PDF.git",
     "svn_url": "https://github.com/Stirling-Tools/Stirling-PDF",
     "homepage": "https://stirling.com",
     "size": 411746,
-    "stargazers_count": 89853,
-    "watchers_count": 89853,
+    "stargazers_count": 89856,
+    "watchers_count": 89856,
     "language": "Java",
     "has_issues": true,
     "has_projects": true,
@@ -6002,7 +5680,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 8118,
+    "forks_count": 8119,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -6035,17 +5713,10 @@
       "self-hosted"
     ],
     "visibility": "public",
-    "forks": 8118,
+    "forks": 8119,
     "open_issues": 576,
-    "watchers": 89853,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 89856,
+    "default_branch": "main"
   },
   {
     "id": 1185528404,
@@ -6160,14 +5831,7 @@
     "forks": 102,
     "open_issues": 14,
     "watchers": 1547,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1334808913,
@@ -6276,14 +5940,7 @@
     "forks": 1,
     "open_issues": 0,
     "watchers": 6,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1147961398,
@@ -6353,7 +6010,7 @@
     "releases_url": "https://api.github.com/repos/rmyndharis/OpenWA/releases{/id}",
     "deployments_url": "https://api.github.com/repos/rmyndharis/OpenWA/deployments",
     "created_at": "2026-02-02T12:14:45Z",
-    "updated_at": "2026-08-19T13:52:34Z",
+    "updated_at": "2026-08-19T14:57:52Z",
     "pushed_at": "2026-08-19T11:23:46Z",
     "git_url": "git://github.com/rmyndharis/OpenWA.git",
     "ssh_url": "git@github.com:rmyndharis/OpenWA.git",
@@ -6361,8 +6018,8 @@
     "svn_url": "https://github.com/rmyndharis/OpenWA",
     "homepage": "https://www.open-wa.org",
     "size": 20358,
-    "stargazers_count": 12965,
-    "watchers_count": 12965,
+    "stargazers_count": 12967,
+    "watchers_count": 12967,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -6370,7 +6027,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 2983,
+    "forks_count": 2982,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -6402,17 +6059,10 @@
       "whatsapp-web-api"
     ],
     "visibility": "public",
-    "forks": 2983,
+    "forks": 2982,
     "open_issues": 6,
-    "watchers": 12965,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 12967,
+    "default_branch": "main"
   },
   {
     "id": 442602783,
@@ -6482,7 +6132,7 @@
     "releases_url": "https://api.github.com/repos/Bill-Stewart/SyncthingWindowsSetup/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Bill-Stewart/SyncthingWindowsSetup/deployments",
     "created_at": "2021-12-28T22:50:59Z",
-    "updated_at": "2026-08-19T12:31:53Z",
+    "updated_at": "2026-08-19T14:23:45Z",
     "pushed_at": "2026-03-19T18:56:02Z",
     "git_url": "git://github.com/Bill-Stewart/SyncthingWindowsSetup.git",
     "ssh_url": "git@github.com:Bill-Stewart/SyncthingWindowsSetup.git",
@@ -6490,8 +6140,8 @@
     "svn_url": "https://github.com/Bill-Stewart/SyncthingWindowsSetup",
     "homepage": null,
     "size": 7935,
-    "stargazers_count": 4137,
-    "watchers_count": 4137,
+    "stargazers_count": 4138,
+    "watchers_count": 4138,
     "language": "Inno Setup",
     "has_issues": true,
     "has_projects": true,
@@ -6520,15 +6170,8 @@
     "visibility": "public",
     "forks": 190,
     "open_issues": 0,
-    "watchers": 4137,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 4138,
+    "default_branch": "main"
   },
   {
     "id": 471856441,
@@ -6653,14 +6296,7 @@
     "forks": 256,
     "open_issues": 3,
     "watchers": 2902,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1137574618,
@@ -6780,14 +6416,7 @@
     "forks": 31,
     "open_issues": 4,
     "watchers": 162,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "master"
   },
   {
     "id": 77726177,
@@ -6857,7 +6486,7 @@
     "releases_url": "https://api.github.com/repos/trufflesecurity/trufflehog/releases{/id}",
     "deployments_url": "https://api.github.com/repos/trufflesecurity/trufflehog/deployments",
     "created_at": "2016-12-31T05:08:12Z",
-    "updated_at": "2026-08-19T13:11:38Z",
+    "updated_at": "2026-08-19T14:50:15Z",
     "pushed_at": "2026-08-18T21:51:06Z",
     "git_url": "git://github.com/trufflesecurity/trufflehog.git",
     "ssh_url": "git@github.com:trufflesecurity/trufflehog.git",
@@ -6865,8 +6494,8 @@
     "svn_url": "https://github.com/trufflesecurity/trufflehog",
     "homepage": "https://trufflesecurity.com",
     "size": 51780,
-    "stargazers_count": 27522,
-    "watchers_count": 27522,
+    "stargazers_count": 27524,
+    "watchers_count": 27524,
     "language": "Go",
     "has_issues": true,
     "has_projects": false,
@@ -6908,15 +6537,8 @@
     "visibility": "public",
     "forks": 2543,
     "open_issues": 517,
-    "watchers": 27522,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 27524,
+    "default_branch": "main"
   },
   {
     "id": 676672661,
@@ -6986,7 +6608,7 @@
     "releases_url": "https://api.github.com/repos/langchain-ai/langgraph/releases{/id}",
     "deployments_url": "https://api.github.com/repos/langchain-ai/langgraph/deployments",
     "created_at": "2023-08-09T18:33:12Z",
-    "updated_at": "2026-08-19T13:45:21Z",
+    "updated_at": "2026-08-19T14:58:35Z",
     "pushed_at": "2026-08-19T00:23:46Z",
     "git_url": "git://github.com/langchain-ai/langgraph.git",
     "ssh_url": "git@github.com:langchain-ai/langgraph.git",
@@ -6994,8 +6616,8 @@
     "svn_url": "https://github.com/langchain-ai/langgraph",
     "homepage": "https://docs.langchain.com/oss/python/langgraph/",
     "size": 525529,
-    "stargazers_count": 40017,
-    "watchers_count": 40017,
+    "stargazers_count": 40021,
+    "watchers_count": 40021,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -7003,7 +6625,7 @@
     "has_wiki": false,
     "has_pages": true,
     "has_discussions": false,
-    "forks_count": 6738,
+    "forks_count": 6739,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -7041,17 +6663,10 @@
       "rag"
     ],
     "visibility": "public",
-    "forks": 6738,
+    "forks": 6739,
     "open_issues": 701,
-    "watchers": 40017,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 40021,
+    "default_branch": "main"
   },
   {
     "id": 529502,
@@ -7121,7 +6736,7 @@
     "releases_url": "https://api.github.com/repos/scrapy/scrapy/releases{/id}",
     "deployments_url": "https://api.github.com/repos/scrapy/scrapy/deployments",
     "created_at": "2010-02-22T02:01:14Z",
-    "updated_at": "2026-08-19T12:56:43Z",
+    "updated_at": "2026-08-19T14:33:26Z",
     "pushed_at": "2026-08-19T12:52:32Z",
     "git_url": "git://github.com/scrapy/scrapy.git",
     "ssh_url": "git@github.com:scrapy/scrapy.git",
@@ -7129,8 +6744,8 @@
     "svn_url": "https://github.com/scrapy/scrapy",
     "homepage": "https://scrapy.org",
     "size": 31861,
-    "stargazers_count": 63959,
-    "watchers_count": 63959,
+    "stargazers_count": 63961,
+    "watchers_count": 63961,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -7138,7 +6753,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 11913,
+    "forks_count": 11914,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -7166,17 +6781,10 @@
       "web-scraping-python"
     ],
     "visibility": "public",
-    "forks": 11913,
+    "forks": 11914,
     "open_issues": 477,
-    "watchers": 63959,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 63961,
+    "default_branch": "master"
   },
   {
     "id": 991431142,
@@ -7306,14 +6914,7 @@
     "forks": 1413,
     "open_issues": 34,
     "watchers": 16409,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 738571595,
@@ -7431,14 +7032,7 @@
     "forks": 52,
     "open_issues": 96,
     "watchers": 344,
-    "default_branch": "staging",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "staging"
   },
   {
     "id": 701547123,
@@ -7508,7 +7102,7 @@
     "releases_url": "https://api.github.com/repos/open-webui/open-webui/releases{/id}",
     "deployments_url": "https://api.github.com/repos/open-webui/open-webui/deployments",
     "created_at": "2023-10-06T22:08:27Z",
-    "updated_at": "2026-08-19T13:42:55Z",
+    "updated_at": "2026-08-19T14:45:42Z",
     "pushed_at": "2026-08-19T05:09:44Z",
     "git_url": "git://github.com/open-webui/open-webui.git",
     "ssh_url": "git@github.com:open-webui/open-webui.git",
@@ -7516,8 +7110,8 @@
     "svn_url": "https://github.com/open-webui/open-webui",
     "homepage": "https://openwebui.com",
     "size": 408362,
-    "stargazers_count": 149235,
-    "watchers_count": 149235,
+    "stargazers_count": 149237,
+    "watchers_count": 149237,
     "language": "Python",
     "has_issues": true,
     "has_projects": false,
@@ -7525,11 +7119,11 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 21756,
+    "forks_count": 21758,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 379,
+    "open_issues_count": 381,
     "license": {
       "key": "other",
       "name": "Other",
@@ -7560,17 +7154,10 @@
       "webui"
     ],
     "visibility": "public",
-    "forks": 21756,
-    "open_issues": 379,
-    "watchers": 149235,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 21758,
+    "open_issues": 381,
+    "watchers": 149237,
+    "default_branch": "main"
   },
   {
     "id": 1291783779,
@@ -7640,7 +7227,7 @@
     "releases_url": "https://api.github.com/repos/petergyang/no-ai-slop/releases{/id}",
     "deployments_url": "https://api.github.com/repos/petergyang/no-ai-slop/deployments",
     "created_at": "2026-07-07T05:05:58Z",
-    "updated_at": "2026-08-19T13:24:44Z",
+    "updated_at": "2026-08-19T14:53:38Z",
     "pushed_at": "2026-08-06T04:20:10Z",
     "git_url": "git://github.com/petergyang/no-ai-slop.git",
     "ssh_url": "git@github.com:petergyang/no-ai-slop.git",
@@ -7648,8 +7235,8 @@
     "svn_url": "https://github.com/petergyang/no-ai-slop",
     "homepage": "https://creatoreconomy.so/p/use-my-no-ai-slop-skill-to-remove-20-ai-slop-patterns",
     "size": 1091,
-    "stargazers_count": 5368,
-    "watchers_count": 5368,
+    "stargazers_count": 5369,
+    "watchers_count": 5369,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -7678,15 +7265,8 @@
     "visibility": "public",
     "forks": 399,
     "open_issues": 12,
-    "watchers": 5368,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 5369,
+    "default_branch": "main"
   },
   {
     "id": 982587624,
@@ -7816,14 +7396,7 @@
     "forks": 2725,
     "open_issues": 77,
     "watchers": 28569,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 812077621,
@@ -7893,7 +7466,7 @@
     "releases_url": "https://api.github.com/repos/microsoft/data-formulator/releases{/id}",
     "deployments_url": "https://api.github.com/repos/microsoft/data-formulator/deployments",
     "created_at": "2024-06-07T23:01:51Z",
-    "updated_at": "2026-08-19T13:50:30Z",
+    "updated_at": "2026-08-19T14:25:49Z",
     "pushed_at": "2026-08-19T00:45:40Z",
     "git_url": "git://github.com/microsoft/data-formulator.git",
     "ssh_url": "git@github.com:microsoft/data-formulator.git",
@@ -7901,8 +7474,8 @@
     "svn_url": "https://github.com/microsoft/data-formulator",
     "homepage": "https://data-formulator.ai/",
     "size": 40946,
-    "stargazers_count": 16739,
-    "watchers_count": 16739,
+    "stargazers_count": 16740,
+    "watchers_count": 16740,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -7931,15 +7504,8 @@
     "visibility": "public",
     "forks": 1614,
     "open_issues": 94,
-    "watchers": 16739,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 16740,
+    "default_branch": "main"
   },
   {
     "id": 838253246,
@@ -8048,14 +7614,7 @@
     "forks": 3698,
     "open_issues": 318,
     "watchers": 40103,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 656099147,
@@ -8125,7 +7684,7 @@
     "releases_url": "https://api.github.com/repos/mem0ai/mem0/releases{/id}",
     "deployments_url": "https://api.github.com/repos/mem0ai/mem0/deployments",
     "created_at": "2023-06-20T08:58:36Z",
-    "updated_at": "2026-08-19T13:59:49Z",
+    "updated_at": "2026-08-19T14:42:26Z",
     "pushed_at": "2026-08-18T15:51:45Z",
     "git_url": "git://github.com/mem0ai/mem0.git",
     "ssh_url": "git@github.com:mem0ai/mem0.git",
@@ -8133,8 +7692,8 @@
     "svn_url": "https://github.com/mem0ai/mem0",
     "homepage": "https://mem0.ai",
     "size": 63334,
-    "stargazers_count": 63600,
-    "watchers_count": 63600,
+    "stargazers_count": 63601,
+    "watchers_count": 63601,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -8142,7 +7701,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 7439,
+    "forks_count": 7440,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -8176,17 +7735,10 @@
       "state-management"
     ],
     "visibility": "public",
-    "forks": 7439,
+    "forks": 7440,
     "open_issues": 690,
-    "watchers": 63600,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 63601,
+    "default_branch": "main"
   },
   {
     "id": 1306989887,
@@ -8256,7 +7808,7 @@
     "releases_url": "https://api.github.com/repos/Kritt-ai/open-kritt/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Kritt-ai/open-kritt/deployments",
     "created_at": "2026-07-20T20:26:24Z",
-    "updated_at": "2026-08-19T13:58:21Z",
+    "updated_at": "2026-08-19T14:55:30Z",
     "pushed_at": "2026-08-19T10:57:21Z",
     "git_url": "git://github.com/Kritt-ai/open-kritt.git",
     "ssh_url": "git@github.com:Kritt-ai/open-kritt.git",
@@ -8264,8 +7816,8 @@
     "svn_url": "https://github.com/Kritt-ai/open-kritt",
     "homepage": "https://kritt.ai/",
     "size": 2962,
-    "stargazers_count": 1939,
-    "watchers_count": 1939,
+    "stargazers_count": 1940,
+    "watchers_count": 1940,
     "language": "JavaScript",
     "has_issues": true,
     "has_projects": true,
@@ -8273,7 +7825,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 331,
+    "forks_count": 332,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -8308,17 +7860,10 @@
       "vulnerability-scanner"
     ],
     "visibility": "public",
-    "forks": 331,
+    "forks": 332,
     "open_issues": 41,
-    "watchers": 1939,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 1940,
+    "default_branch": "main"
   },
   {
     "id": 1118085970,
@@ -8388,16 +7933,16 @@
     "releases_url": "https://api.github.com/repos/opensandbox-group/OpenSandbox/releases{/id}",
     "deployments_url": "https://api.github.com/repos/opensandbox-group/OpenSandbox/deployments",
     "created_at": "2025-12-17T08:41:09Z",
-    "updated_at": "2026-08-19T13:45:21Z",
+    "updated_at": "2026-08-19T14:48:08Z",
     "pushed_at": "2026-08-19T14:03:21Z",
     "git_url": "git://github.com/opensandbox-group/OpenSandbox.git",
     "ssh_url": "git@github.com:opensandbox-group/OpenSandbox.git",
     "clone_url": "https://github.com/opensandbox-group/OpenSandbox.git",
     "svn_url": "https://github.com/opensandbox-group/OpenSandbox",
     "homepage": "https://open-sandbox.ai",
-    "size": 99679,
-    "stargazers_count": 14309,
-    "watchers_count": 14309,
+    "size": 99267,
+    "stargazers_count": 14313,
+    "watchers_count": 14313,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -8405,11 +7950,11 @@
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": true,
-    "forks_count": 1261,
+    "forks_count": 1260,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 160,
+    "open_issues_count": 161,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -8430,17 +7975,10 @@
       "sandbox"
     ],
     "visibility": "public",
-    "forks": 1261,
-    "open_issues": 160,
-    "watchers": 14309,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 1260,
+    "open_issues": 161,
+    "watchers": 14313,
+    "default_branch": "main"
   },
   {
     "id": 1141782198,
@@ -8510,7 +8048,7 @@
     "releases_url": "https://api.github.com/repos/jamiepine/voicebox/releases{/id}",
     "deployments_url": "https://api.github.com/repos/jamiepine/voicebox/deployments",
     "created_at": "2026-01-25T12:27:03Z",
-    "updated_at": "2026-08-19T13:59:34Z",
+    "updated_at": "2026-08-19T14:48:47Z",
     "pushed_at": "2026-08-09T00:03:42Z",
     "git_url": "git://github.com/jamiepine/voicebox.git",
     "ssh_url": "git@github.com:jamiepine/voicebox.git",
@@ -8518,8 +8056,8 @@
     "svn_url": "https://github.com/jamiepine/voicebox",
     "homepage": "https://voicebox.sh",
     "size": 96883,
-    "stargazers_count": 50837,
-    "watchers_count": 50837,
+    "stargazers_count": 50839,
+    "watchers_count": 50839,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -8527,7 +8065,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 6327,
+    "forks_count": 6325,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -8555,17 +8093,10 @@
       "whisper"
     ],
     "visibility": "public",
-    "forks": 6327,
+    "forks": 6325,
     "open_issues": 645,
-    "watchers": 50837,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 50839,
+    "default_branch": "main"
   },
   {
     "id": 1196821690,
@@ -8674,14 +8205,7 @@
     "forks": 1278,
     "open_issues": 47,
     "watchers": 7110,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1258788077,
@@ -8751,7 +8275,7 @@
     "releases_url": "https://api.github.com/repos/coreyhaines31/makerskills/releases{/id}",
     "deployments_url": "https://api.github.com/repos/coreyhaines31/makerskills/deployments",
     "created_at": "2026-06-03T23:23:24Z",
-    "updated_at": "2026-08-19T09:43:46Z",
+    "updated_at": "2026-08-19T14:21:47Z",
     "pushed_at": "2026-08-18T00:40:01Z",
     "git_url": "git://github.com/coreyhaines31/makerskills.git",
     "ssh_url": "git@github.com:coreyhaines31/makerskills.git",
@@ -8797,14 +8321,7 @@
     "forks": 54,
     "open_issues": 4,
     "watchers": 666,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1140229822,
@@ -8874,7 +8391,7 @@
     "releases_url": "https://api.github.com/repos/cursor/plugins/releases{/id}",
     "deployments_url": "https://api.github.com/repos/cursor/plugins/deployments",
     "created_at": "2026-01-23T01:57:42Z",
-    "updated_at": "2026-08-19T14:03:52Z",
+    "updated_at": "2026-08-19T14:58:34Z",
     "pushed_at": "2026-08-19T03:07:46Z",
     "git_url": "git://github.com/cursor/plugins.git",
     "ssh_url": "org-126759922@github.com:cursor/plugins.git",
@@ -8882,8 +8399,8 @@
     "svn_url": "https://github.com/cursor/plugins",
     "homepage": null,
     "size": 5535,
-    "stargazers_count": 3475,
-    "watchers_count": 3475,
+    "stargazers_count": 3504,
+    "watchers_count": 3504,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -8891,7 +8408,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 283,
+    "forks_count": 284,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -8904,17 +8421,10 @@
     "pull_request_creation_policy": "all",
     "topics": [],
     "visibility": "public",
-    "forks": 283,
+    "forks": 284,
     "open_issues": 38,
-    "watchers": 3475,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 3504,
+    "default_branch": "main"
   },
   {
     "id": 771670025,
@@ -8984,8 +8494,8 @@
     "releases_url": "https://api.github.com/repos/google-gemini/cookbook/releases{/id}",
     "deployments_url": "https://api.github.com/repos/google-gemini/cookbook/deployments",
     "created_at": "2024-03-13T18:19:23Z",
-    "updated_at": "2026-08-19T10:06:48Z",
-    "pushed_at": "2026-08-19T08:12:26Z",
+    "updated_at": "2026-08-19T14:40:07Z",
+    "pushed_at": "2026-08-19T14:23:07Z",
     "git_url": "git://github.com/google-gemini/cookbook.git",
     "ssh_url": "git@github.com:google-gemini/cookbook.git",
     "clone_url": "https://github.com/google-gemini/cookbook.git",
@@ -9005,7 +8515,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 34,
+    "open_issues_count": 32,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -9024,16 +8534,9 @@
     ],
     "visibility": "public",
     "forks": 2739,
-    "open_issues": 34,
+    "open_issues": 32,
     "watchers": 17674,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 946380199,
@@ -9103,8 +8606,8 @@
     "releases_url": "https://api.github.com/repos/openai/openai-agents-python/releases{/id}",
     "deployments_url": "https://api.github.com/repos/openai/openai-agents-python/deployments",
     "created_at": "2025-03-11T03:42:36Z",
-    "updated_at": "2026-08-19T13:58:38Z",
-    "pushed_at": "2026-08-19T13:55:32Z",
+    "updated_at": "2026-08-19T14:19:49Z",
+    "pushed_at": "2026-08-19T14:45:28Z",
     "git_url": "git://github.com/openai/openai-agents-python.git",
     "ssh_url": "org-14957082@github.com:openai/openai-agents-python.git",
     "clone_url": "https://github.com/openai/openai-agents-python.git",
@@ -9124,7 +8627,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 14,
+    "open_issues_count": 13,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -9148,16 +8651,9 @@
     ],
     "visibility": "public",
     "forks": 4535,
-    "open_issues": 14,
+    "open_issues": 13,
     "watchers": 28768,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1300902838,
@@ -9227,7 +8723,7 @@
     "releases_url": "https://api.github.com/repos/xai-org/grok-build/releases{/id}",
     "deployments_url": "https://api.github.com/repos/xai-org/grok-build/deployments",
     "created_at": "2026-07-14T20:04:23Z",
-    "updated_at": "2026-08-19T13:43:51Z",
+    "updated_at": "2026-08-19T14:06:03Z",
     "pushed_at": "2026-08-19T00:29:56Z",
     "git_url": "git://github.com/xai-org/grok-build.git",
     "ssh_url": "git@github.com:xai-org/grok-build.git",
@@ -9235,8 +8731,8 @@
     "svn_url": "https://github.com/xai-org/grok-build",
     "homepage": null,
     "size": 34959,
-    "stargazers_count": 25684,
-    "watchers_count": 25684,
+    "stargazers_count": 25685,
+    "watchers_count": 25685,
     "language": "Rust",
     "has_issues": false,
     "has_projects": false,
@@ -9265,15 +8761,8 @@
     "visibility": "public",
     "forks": 4831,
     "open_issues": 0,
-    "watchers": 25684,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 25685,
+    "default_branch": "main"
   },
   {
     "id": 678973052,
@@ -9343,7 +8832,7 @@
     "releases_url": "https://api.github.com/repos/anthropics/claude-cookbooks/releases{/id}",
     "deployments_url": "https://api.github.com/repos/anthropics/claude-cookbooks/deployments",
     "created_at": "2023-08-15T20:23:51Z",
-    "updated_at": "2026-08-19T12:55:17Z",
+    "updated_at": "2026-08-19T14:59:14Z",
     "pushed_at": "2026-08-14T20:50:15Z",
     "git_url": "git://github.com/anthropics/claude-cookbooks.git",
     "ssh_url": "git@github.com:anthropics/claude-cookbooks.git",
@@ -9351,8 +8840,8 @@
     "svn_url": "https://github.com/anthropics/claude-cookbooks",
     "homepage": null,
     "size": 215717,
-    "stargazers_count": 51844,
-    "watchers_count": 51844,
+    "stargazers_count": 51849,
+    "watchers_count": 51849,
     "language": "Jupyter Notebook",
     "has_issues": true,
     "has_projects": true,
@@ -9381,15 +8870,8 @@
     "visibility": "public",
     "forks": 6154,
     "open_issues": 312,
-    "watchers": 51844,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 51849,
+    "default_branch": "main"
   },
   {
     "id": 1330508221,
@@ -9492,14 +8974,7 @@
     "forks": 62,
     "open_issues": 1,
     "watchers": 317,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1075372545,
@@ -9569,7 +9044,7 @@
     "releases_url": "https://api.github.com/repos/msitarzewski/agency-agents/releases{/id}",
     "deployments_url": "https://api.github.com/repos/msitarzewski/agency-agents/deployments",
     "created_at": "2025-10-13T12:12:29Z",
-    "updated_at": "2026-08-19T13:56:45Z",
+    "updated_at": "2026-08-19T14:59:38Z",
     "pushed_at": "2026-08-06T13:29:47Z",
     "git_url": "git://github.com/msitarzewski/agency-agents.git",
     "ssh_url": "git@github.com:msitarzewski/agency-agents.git",
@@ -9577,8 +9052,8 @@
     "svn_url": "https://github.com/msitarzewski/agency-agents",
     "homepage": "",
     "size": 4087,
-    "stargazers_count": 146224,
-    "watchers_count": 146224,
+    "stargazers_count": 146238,
+    "watchers_count": 146238,
     "language": "Shell",
     "has_issues": true,
     "has_projects": true,
@@ -9586,7 +9061,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 23636,
+    "forks_count": 23638,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -9605,17 +9080,10 @@
     "pull_request_creation_policy": "all",
     "topics": [],
     "visibility": "public",
-    "forks": 23636,
+    "forks": 23638,
     "open_issues": 141,
-    "watchers": 146224,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 146238,
+    "default_branch": "main"
   },
   {
     "id": 1136590548,
@@ -9685,7 +9153,7 @@
     "releases_url": "https://api.github.com/repos/affaan-m/ECC/releases{/id}",
     "deployments_url": "https://api.github.com/repos/affaan-m/ECC/deployments",
     "created_at": "2026-01-18T00:51:51Z",
-    "updated_at": "2026-08-19T14:02:57Z",
+    "updated_at": "2026-08-19T14:58:18Z",
     "pushed_at": "2026-08-18T20:07:38Z",
     "git_url": "git://github.com/affaan-m/ECC.git",
     "ssh_url": "git@github.com:affaan-m/ECC.git",
@@ -9693,8 +9161,8 @@
     "svn_url": "https://github.com/affaan-m/ECC",
     "homepage": "https://ecc.tools",
     "size": 49357,
-    "stargazers_count": 241094,
-    "watchers_count": 241094,
+    "stargazers_count": 241105,
+    "watchers_count": 241105,
     "language": "JavaScript",
     "has_issues": true,
     "has_projects": true,
@@ -9702,7 +9170,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 36562,
+    "forks_count": 36565,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -9730,17 +9198,10 @@
       "productivity"
     ],
     "visibility": "public",
-    "forks": 36562,
+    "forks": 36565,
     "open_issues": 140,
-    "watchers": 241094,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 241105,
+    "default_branch": "main"
   },
   {
     "id": 138393139,
@@ -9810,7 +9271,7 @@
     "releases_url": "https://api.github.com/repos/trimstray/the-book-of-secret-knowledge/releases{/id}",
     "deployments_url": "https://api.github.com/repos/trimstray/the-book-of-secret-knowledge/deployments",
     "created_at": "2018-06-23T10:43:14Z",
-    "updated_at": "2026-08-19T14:03:50Z",
+    "updated_at": "2026-08-19T14:56:43Z",
     "pushed_at": "2024-11-19T14:00:38Z",
     "git_url": "git://github.com/trimstray/the-book-of-secret-knowledge.git",
     "ssh_url": "git@github.com:trimstray/the-book-of-secret-knowledge.git",
@@ -9818,8 +9279,8 @@
     "svn_url": "https://github.com/trimstray/the-book-of-secret-knowledge",
     "homepage": "",
     "size": 1748,
-    "stargazers_count": 239134,
-    "watchers_count": 239134,
+    "stargazers_count": 239143,
+    "watchers_count": 239143,
     "language": null,
     "has_issues": false,
     "has_projects": false,
@@ -9868,15 +9329,8 @@
     "visibility": "public",
     "forks": 14149,
     "open_issues": 166,
-    "watchers": 239134,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 239143,
+    "default_branch": "master"
   },
   {
     "id": 1073224795,
@@ -9946,7 +9400,7 @@
     "releases_url": "https://api.github.com/repos/obra/superpowers/releases{/id}",
     "deployments_url": "https://api.github.com/repos/obra/superpowers/deployments",
     "created_at": "2025-10-09T19:45:18Z",
-    "updated_at": "2026-08-19T13:59:31Z",
+    "updated_at": "2026-08-19T15:00:00Z",
     "pushed_at": "2026-08-13T00:36:31Z",
     "git_url": "git://github.com/obra/superpowers.git",
     "ssh_url": "git@github.com:obra/superpowers.git",
@@ -9954,8 +9408,8 @@
     "svn_url": "https://github.com/obra/superpowers",
     "homepage": "",
     "size": 4475,
-    "stargazers_count": 274021,
-    "watchers_count": 274021,
+    "stargazers_count": 274047,
+    "watchers_count": 274047,
     "language": "Shell",
     "has_issues": true,
     "has_projects": true,
@@ -9963,7 +9417,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 24534,
+    "forks_count": 24537,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -9991,17 +9445,10 @@
       "superpowers"
     ],
     "visibility": "public",
-    "forks": 24534,
+    "forks": 24537,
     "open_issues": 288,
-    "watchers": 274021,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 274047,
+    "default_branch": "main"
   },
   {
     "id": 21289110,
@@ -10071,7 +9518,7 @@
     "releases_url": "https://api.github.com/repos/vinta/awesome-python/releases{/id}",
     "deployments_url": "https://api.github.com/repos/vinta/awesome-python/deployments",
     "created_at": "2014-06-27T21:00:06Z",
-    "updated_at": "2026-08-19T14:03:11Z",
+    "updated_at": "2026-08-19T14:55:51Z",
     "pushed_at": "2026-08-16T13:31:43Z",
     "git_url": "git://github.com/vinta/awesome-python.git",
     "ssh_url": "git@github.com:vinta/awesome-python.git",
@@ -10079,8 +9526,8 @@
     "svn_url": "https://github.com/vinta/awesome-python",
     "homepage": "https://awesome-python.com/",
     "size": 6167,
-    "stargazers_count": 314869,
-    "watchers_count": 314869,
+    "stargazers_count": 314886,
+    "watchers_count": 314886,
     "language": "Python",
     "has_issues": false,
     "has_projects": false,
@@ -10116,15 +9563,8 @@
     "visibility": "public",
     "forks": 28544,
     "open_issues": 18,
-    "watchers": 314869,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 314886,
+    "default_branch": "master"
   },
   {
     "id": 60493101,
@@ -10194,7 +9634,7 @@
     "releases_url": "https://api.github.com/repos/jwasham/coding-interview-university/releases{/id}",
     "deployments_url": "https://api.github.com/repos/jwasham/coding-interview-university/deployments",
     "created_at": "2016-06-06T02:34:12Z",
-    "updated_at": "2026-08-19T13:59:28Z",
+    "updated_at": "2026-08-19T14:57:00Z",
     "pushed_at": "2025-08-28T14:42:47Z",
     "git_url": "git://github.com/jwasham/coding-interview-university.git",
     "ssh_url": "git@github.com:jwasham/coding-interview-university.git",
@@ -10202,8 +9642,8 @@
     "svn_url": "https://github.com/jwasham/coding-interview-university",
     "homepage": "",
     "size": 22700,
-    "stargazers_count": 359208,
-    "watchers_count": 359208,
+    "stargazers_count": 359212,
+    "watchers_count": 359212,
     "language": null,
     "has_issues": true,
     "has_projects": false,
@@ -10211,7 +9651,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 84667,
+    "forks_count": 84666,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -10243,17 +9683,10 @@
       "study-plan"
     ],
     "visibility": "public",
-    "forks": 84667,
+    "forks": 84666,
     "open_issues": 124,
-    "watchers": 359208,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 359212,
+    "default_branch": "main"
   },
   {
     "id": 83222441,
@@ -10323,7 +9756,7 @@
     "releases_url": "https://api.github.com/repos/donnemartin/system-design-primer/releases{/id}",
     "deployments_url": "https://api.github.com/repos/donnemartin/system-design-primer/deployments",
     "created_at": "2017-02-26T16:15:28Z",
-    "updated_at": "2026-08-19T14:01:59Z",
+    "updated_at": "2026-08-19T14:55:54Z",
     "pushed_at": "2026-03-20T01:52:19Z",
     "git_url": "git://github.com/donnemartin/system-design-primer.git",
     "ssh_url": "git@github.com:donnemartin/system-design-primer.git",
@@ -10331,8 +9764,8 @@
     "svn_url": "https://github.com/donnemartin/system-design-primer",
     "homepage": "",
     "size": 11277,
-    "stargazers_count": 364847,
-    "watchers_count": 364847,
+    "stargazers_count": 364854,
+    "watchers_count": 364854,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -10340,7 +9773,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 57944,
+    "forks_count": 57947,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -10373,17 +9806,10 @@
       "webapp"
     ],
     "visibility": "public",
-    "forks": 57944,
+    "forks": 57947,
     "open_issues": 608,
-    "watchers": 364847,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 364854,
+    "default_branch": "master"
   },
   {
     "id": 1008304614,
@@ -10453,16 +9879,16 @@
     "releases_url": "https://api.github.com/repos/semantica-agi/semantica/releases{/id}",
     "deployments_url": "https://api.github.com/repos/semantica-agi/semantica/deployments",
     "created_at": "2025-06-25T10:41:00Z",
-    "updated_at": "2026-08-19T14:01:32Z",
-    "pushed_at": "2026-08-19T14:03:09Z",
+    "updated_at": "2026-08-19T14:53:38Z",
+    "pushed_at": "2026-08-19T14:21:07Z",
     "git_url": "git://github.com/semantica-agi/semantica.git",
     "ssh_url": "git@github.com:semantica-agi/semantica.git",
     "clone_url": "https://github.com/semantica-agi/semantica.git",
     "svn_url": "https://github.com/semantica-agi/semantica",
     "homepage": "https://getsemantica.ai",
-    "size": 54402,
-    "stargazers_count": 9400,
-    "watchers_count": 9400,
+    "size": 53872,
+    "stargazers_count": 9413,
+    "watchers_count": 9413,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -10470,11 +9896,11 @@
     "has_wiki": false,
     "has_pages": true,
     "has_discussions": true,
-    "forks_count": 978,
+    "forks_count": 980,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 115,
+    "open_issues_count": 123,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -10510,17 +9936,10 @@
       "semantic-search"
     ],
     "visibility": "public",
-    "forks": 978,
-    "open_issues": 115,
-    "watchers": 9400,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 980,
+    "open_issues": 123,
+    "watchers": 9413,
+    "default_branch": "main"
   },
   {
     "id": 332880689,
@@ -10590,16 +10009,16 @@
     "releases_url": "https://api.github.com/repos/coollabsio/coolify/releases{/id}",
     "deployments_url": "https://api.github.com/repos/coollabsio/coolify/deployments",
     "created_at": "2021-01-25T20:54:01Z",
-    "updated_at": "2026-08-19T13:59:53Z",
-    "pushed_at": "2026-08-19T13:27:33Z",
+    "updated_at": "2026-08-19T14:57:19Z",
+    "pushed_at": "2026-08-19T14:49:19Z",
     "git_url": "git://github.com/coollabsio/coolify.git",
     "ssh_url": "git@github.com:coollabsio/coolify.git",
     "clone_url": "https://github.com/coollabsio/coolify.git",
     "svn_url": "https://github.com/coollabsio/coolify",
     "homepage": "https://coolify.io",
     "size": 80242,
-    "stargazers_count": 60744,
-    "watchers_count": 60744,
+    "stargazers_count": 60751,
+    "watchers_count": 60751,
     "language": "PHP",
     "has_issues": true,
     "has_projects": false,
@@ -10607,11 +10026,11 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 5297,
+    "forks_count": 5298,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 740,
+    "open_issues_count": 739,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -10647,17 +10066,10 @@
       "svelte5"
     ],
     "visibility": "public",
-    "forks": 5297,
-    "open_issues": 740,
-    "watchers": 60744,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 5298,
+    "open_issues": 739,
+    "watchers": 60751,
+    "default_branch": "main"
   },
   {
     "id": 43160685,
@@ -10727,14 +10139,14 @@
     "releases_url": "https://api.github.com/repos/zulip/zulip/releases{/id}",
     "deployments_url": "https://api.github.com/repos/zulip/zulip/deployments",
     "created_at": "2015-09-25T16:37:25Z",
-    "updated_at": "2026-08-19T14:03:33Z",
+    "updated_at": "2026-08-19T14:09:19Z",
     "pushed_at": "2026-08-19T13:59:16Z",
     "git_url": "git://github.com/zulip/zulip.git",
     "ssh_url": "git@github.com:zulip/zulip.git",
     "clone_url": "https://github.com/zulip/zulip.git",
     "svn_url": "https://github.com/zulip/zulip",
     "homepage": "https://zulip.com",
-    "size": 639934,
+    "size": 639874,
     "stargazers_count": 25729,
     "watchers_count": 25729,
     "language": "Python",
@@ -10779,14 +10191,7 @@
     "forks": 10079,
     "open_issues": 2040,
     "watchers": 25729,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 30203935,
@@ -10856,16 +10261,16 @@
     "releases_url": "https://api.github.com/repos/metabase/metabase/releases{/id}",
     "deployments_url": "https://api.github.com/repos/metabase/metabase/deployments",
     "created_at": "2015-02-02T19:25:47Z",
-    "updated_at": "2026-08-19T13:47:54Z",
-    "pushed_at": "2026-08-19T14:01:32Z",
+    "updated_at": "2026-08-19T14:52:36Z",
+    "pushed_at": "2026-08-19T14:59:48Z",
     "git_url": "git://github.com/metabase/metabase.git",
     "ssh_url": "git@github.com:metabase/metabase.git",
     "clone_url": "https://github.com/metabase/metabase.git",
     "svn_url": "https://github.com/metabase/metabase",
     "homepage": "https://metabase.com",
-    "size": 2192232,
-    "stargazers_count": 48831,
-    "watchers_count": 48831,
+    "size": 2192342,
+    "stargazers_count": 48832,
+    "watchers_count": 48832,
     "language": "Clojure",
     "has_issues": true,
     "has_projects": false,
@@ -10877,7 +10282,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 4400,
+    "open_issues_count": 4394,
     "license": {
       "key": "other",
       "name": "Other",
@@ -10912,16 +10317,9 @@
     ],
     "visibility": "public",
     "forks": 6750,
-    "open_issues": 4400,
-    "watchers": 48831,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "open_issues": 4394,
+    "watchers": 48832,
+    "default_branch": "master"
   },
   {
     "id": 235901813,
@@ -10991,14 +10389,14 @@
     "releases_url": "https://api.github.com/repos/PostHog/posthog/releases{/id}",
     "deployments_url": "https://api.github.com/repos/PostHog/posthog/deployments",
     "created_at": "2020-01-23T22:46:58Z",
-    "updated_at": "2026-08-19T13:55:09Z",
-    "pushed_at": "2026-08-19T14:03:56Z",
+    "updated_at": "2026-08-19T14:59:39Z",
+    "pushed_at": "2026-08-19T15:00:06Z",
     "git_url": "git://github.com/PostHog/posthog.git",
     "ssh_url": "git@github.com:PostHog/posthog.git",
     "clone_url": "https://github.com/PostHog/posthog.git",
     "svn_url": "https://github.com/PostHog/posthog",
     "homepage": "https://posthog.com",
-    "size": 6514555,
+    "size": 6515859,
     "stargazers_count": 37773,
     "watchers_count": 37773,
     "language": "Python",
@@ -11008,11 +10406,11 @@
     "has_wiki": false,
     "has_pages": true,
     "has_discussions": false,
-    "forks_count": 3202,
+    "forks_count": 3203,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 5143,
+    "open_issues_count": 5146,
     "license": {
       "key": "other",
       "name": "Other",
@@ -11043,17 +10441,10 @@
       "web-analytics"
     ],
     "visibility": "public",
-    "forks": 3202,
-    "open_issues": 5143,
+    "forks": 3203,
+    "open_issues": 5146,
     "watchers": 37773,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "master"
   },
   {
     "id": 510607652,
@@ -11123,7 +10514,7 @@
     "releases_url": "https://api.github.com/repos/pocketbase/pocketbase/releases{/id}",
     "deployments_url": "https://api.github.com/repos/pocketbase/pocketbase/deployments",
     "created_at": "2022-07-05T06:06:21Z",
-    "updated_at": "2026-08-19T09:45:47Z",
+    "updated_at": "2026-08-19T14:30:53Z",
     "pushed_at": "2026-08-19T07:04:47Z",
     "git_url": "git://github.com/pocketbase/pocketbase.git",
     "ssh_url": "git@github.com:pocketbase/pocketbase.git",
@@ -11131,8 +10522,8 @@
     "svn_url": "https://github.com/pocketbase/pocketbase",
     "homepage": "https://pocketbase.io",
     "size": 143791,
-    "stargazers_count": 60731,
-    "watchers_count": 60731,
+    "stargazers_count": 60732,
+    "watchers_count": 60732,
     "language": "Go",
     "has_issues": true,
     "has_projects": false,
@@ -11166,15 +10557,8 @@
     "visibility": "public",
     "forks": 3654,
     "open_issues": 19,
-    "watchers": 60731,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 60732,
+    "default_branch": "master"
   },
   {
     "id": 572570113,
@@ -11244,16 +10628,16 @@
     "releases_url": "https://api.github.com/repos/triggerdotdev/trigger.dev/releases{/id}",
     "deployments_url": "https://api.github.com/repos/triggerdotdev/trigger.dev/deployments",
     "created_at": "2022-11-30T14:59:07Z",
-    "updated_at": "2026-08-19T13:04:20Z",
-    "pushed_at": "2026-08-19T14:00:45Z",
+    "updated_at": "2026-08-19T14:29:51Z",
+    "pushed_at": "2026-08-19T14:54:32Z",
     "git_url": "git://github.com/triggerdotdev/trigger.dev.git",
     "ssh_url": "git@github.com:triggerdotdev/trigger.dev.git",
     "clone_url": "https://github.com/triggerdotdev/trigger.dev.git",
     "svn_url": "https://github.com/triggerdotdev/trigger.dev",
     "homepage": "https://trigger.dev/changelog",
-    "size": 191940,
-    "stargazers_count": 16064,
-    "watchers_count": 16064,
+    "size": 188145,
+    "stargazers_count": 16065,
+    "watchers_count": 16065,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -11261,11 +10645,11 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 1410,
+    "forks_count": 1411,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 438,
+    "open_issues_count": 440,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -11294,17 +10678,10 @@
       "workflows"
     ],
     "visibility": "public",
-    "forks": 1410,
-    "open_issues": 438,
-    "watchers": 16064,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 1411,
+    "open_issues": 440,
+    "watchers": 16065,
+    "default_branch": "main"
   },
   {
     "id": 521655652,
@@ -11374,14 +10751,14 @@
     "releases_url": "https://api.github.com/repos/Infisical/infisical/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Infisical/infisical/deployments",
     "created_at": "2022-08-05T13:50:00Z",
-    "updated_at": "2026-08-19T12:15:11Z",
-    "pushed_at": "2026-08-19T14:03:10Z",
+    "updated_at": "2026-08-19T14:25:44Z",
+    "pushed_at": "2026-08-19T14:26:03Z",
     "git_url": "git://github.com/Infisical/infisical.git",
     "ssh_url": "org-107880645@github.com:Infisical/infisical.git",
     "clone_url": "https://github.com/Infisical/infisical.git",
     "svn_url": "https://github.com/Infisical/infisical",
     "homepage": "https://infisical.com",
-    "size": 1685770,
+    "size": 1685702,
     "stargazers_count": 28844,
     "watchers_count": 28844,
     "language": "TypeScript",
@@ -11395,7 +10772,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 752,
+    "open_issues_count": 751,
     "license": {
       "key": "other",
       "name": "Other",
@@ -11432,16 +10809,9 @@
     ],
     "visibility": "public",
     "forks": 2208,
-    "open_issues": 752,
+    "open_issues": 751,
     "watchers": 28844,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1316565498,
@@ -11511,7 +10881,7 @@
     "releases_url": "https://api.github.com/repos/HideMeBr/SambaTu/releases{/id}",
     "deployments_url": "https://api.github.com/repos/HideMeBr/SambaTu/deployments",
     "created_at": "2026-07-29T21:03:05Z",
-    "updated_at": "2026-08-19T13:50:11Z",
+    "updated_at": "2026-08-19T14:27:48Z",
     "pushed_at": "2026-08-15T00:04:15Z",
     "git_url": "git://github.com/HideMeBr/SambaTu.git",
     "ssh_url": "git@github.com:HideMeBr/SambaTu.git",
@@ -11519,8 +10889,8 @@
     "svn_url": "https://github.com/HideMeBr/SambaTu",
     "homepage": null,
     "size": 11371,
-    "stargazers_count": 329,
-    "watchers_count": 329,
+    "stargazers_count": 331,
+    "watchers_count": 331,
     "language": null,
     "has_issues": true,
     "has_projects": true,
@@ -11543,15 +10913,8 @@
     "visibility": "public",
     "forks": 74,
     "open_issues": 2,
-    "watchers": 329,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 331,
+    "default_branch": "main"
   },
   {
     "id": 826515105,
@@ -11621,16 +10984,16 @@
     "releases_url": "https://api.github.com/repos/CodebuffAI/freebuff/releases{/id}",
     "deployments_url": "https://api.github.com/repos/CodebuffAI/freebuff/deployments",
     "created_at": "2024-07-09T21:21:56Z",
-    "updated_at": "2026-08-19T14:03:30Z",
-    "pushed_at": "2026-08-19T12:55:34Z",
+    "updated_at": "2026-08-19T14:59:09Z",
+    "pushed_at": "2026-08-19T14:16:47Z",
     "git_url": "git://github.com/CodebuffAI/freebuff.git",
     "ssh_url": "git@github.com:CodebuffAI/freebuff.git",
     "clone_url": "https://github.com/CodebuffAI/freebuff.git",
     "svn_url": "https://github.com/CodebuffAI/freebuff",
     "homepage": "https://freebuff.com",
     "size": 151238,
-    "stargazers_count": 10009,
-    "watchers_count": 10009,
+    "stargazers_count": 10021,
+    "watchers_count": 10021,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -11638,7 +11001,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 1115,
+    "forks_count": 1118,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -11657,17 +11020,10 @@
     "pull_request_creation_policy": "all",
     "topics": [],
     "visibility": "public",
-    "forks": 1115,
+    "forks": 1118,
     "open_issues": 295,
-    "watchers": 10009,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 10021,
+    "default_branch": "main"
   },
   {
     "id": 1333065091,
@@ -11737,7 +11093,7 @@
     "releases_url": "https://api.github.com/repos/deepseek-ai/deepseek-harness/releases{/id}",
     "deployments_url": "https://api.github.com/repos/deepseek-ai/deepseek-harness/deployments",
     "created_at": "2026-08-13T11:56:32Z",
-    "updated_at": "2026-08-19T14:03:51Z",
+    "updated_at": "2026-08-19T15:00:15Z",
     "pushed_at": "2026-08-17T12:01:58Z",
     "git_url": "git://github.com/deepseek-ai/deepseek-harness.git",
     "ssh_url": "git@github.com:deepseek-ai/deepseek-harness.git",
@@ -11745,8 +11101,8 @@
     "svn_url": "https://github.com/deepseek-ai/deepseek-harness",
     "homepage": "https://deepseek.com/harness",
     "size": 113894,
-    "stargazers_count": 165500,
-    "watchers_count": 165500,
+    "stargazers_count": 165780,
+    "watchers_count": 165780,
     "language": "TypeScript",
     "has_issues": false,
     "has_projects": false,
@@ -11754,7 +11110,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 17586,
+    "forks_count": 17623,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -11778,17 +11134,10 @@
       "dsh-plugin"
     ],
     "visibility": "public",
-    "forks": 17586,
+    "forks": 17623,
     "open_issues": 0,
-    "watchers": 165500,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 165780,
+    "default_branch": "master"
   },
   {
     "id": 1182081931,
@@ -11858,7 +11207,7 @@
     "releases_url": "https://api.github.com/repos/Egonex-AI/Understand-Anything/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Egonex-AI/Understand-Anything/deployments",
     "created_at": "2026-03-15T02:30:51Z",
-    "updated_at": "2026-08-19T13:58:25Z",
+    "updated_at": "2026-08-19T14:40:20Z",
     "pushed_at": "2026-08-11T14:13:37Z",
     "git_url": "git://github.com/Egonex-AI/Understand-Anything.git",
     "ssh_url": "git@github.com:Egonex-AI/Understand-Anything.git",
@@ -11866,8 +11215,8 @@
     "svn_url": "https://github.com/Egonex-AI/Understand-Anything",
     "homepage": "https://understand-anything.com/",
     "size": 34225,
-    "stargazers_count": 79807,
-    "watchers_count": 79807,
+    "stargazers_count": 79810,
+    "watchers_count": 79810,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -11875,11 +11224,11 @@
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": true,
-    "forks_count": 6700,
+    "forks_count": 6701,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 286,
+    "open_issues_count": 287,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -11912,17 +11261,10 @@
       "vibe-coding"
     ],
     "visibility": "public",
-    "forks": 6700,
-    "open_issues": 286,
-    "watchers": 79807,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 6701,
+    "open_issues": 287,
+    "watchers": 79810,
+    "default_branch": "main"
   },
   {
     "id": 1288325627,
@@ -11992,16 +11334,16 @@
     "releases_url": "https://api.github.com/repos/NanoNets/Graft/releases{/id}",
     "deployments_url": "https://api.github.com/repos/NanoNets/Graft/deployments",
     "created_at": "2026-07-03T13:44:21Z",
-    "updated_at": "2026-08-19T13:53:34Z",
+    "updated_at": "2026-08-19T14:54:54Z",
     "pushed_at": "2026-08-19T13:52:54Z",
     "git_url": "git://github.com/NanoNets/Graft.git",
     "ssh_url": "git@github.com:NanoNets/Graft.git",
     "clone_url": "https://github.com/NanoNets/Graft.git",
     "svn_url": "https://github.com/NanoNets/Graft",
     "homepage": "https://graft.nanonets.ai",
-    "size": 66462,
-    "stargazers_count": 3734,
-    "watchers_count": 3734,
+    "size": 66480,
+    "stargazers_count": 3740,
+    "watchers_count": 3740,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -12048,15 +11390,8 @@
     "visibility": "public",
     "forks": 327,
     "open_issues": 60,
-    "watchers": 3734,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 3740,
+    "default_branch": "main"
   },
   {
     "id": 1171949255,
@@ -12165,14 +11500,7 @@
     "forks": 1409,
     "open_issues": 12,
     "watchers": 7566,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 262296122,
@@ -12242,7 +11570,7 @@
     "releases_url": "https://api.github.com/repos/PaddlePaddle/PaddleOCR/releases{/id}",
     "deployments_url": "https://api.github.com/repos/PaddlePaddle/PaddleOCR/deployments",
     "created_at": "2020-05-08T10:38:16Z",
-    "updated_at": "2026-08-19T13:58:54Z",
+    "updated_at": "2026-08-19T14:52:20Z",
     "pushed_at": "2026-07-22T11:59:34Z",
     "git_url": "git://github.com/PaddlePaddle/PaddleOCR.git",
     "ssh_url": "git@github.com:PaddlePaddle/PaddleOCR.git",
@@ -12250,8 +11578,8 @@
     "svn_url": "https://github.com/PaddlePaddle/PaddleOCR",
     "homepage": "https://www.paddleocr.com",
     "size": 1964014,
-    "stargazers_count": 87917,
-    "watchers_count": 87917,
+    "stargazers_count": 87919,
+    "watchers_count": 87919,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -12294,15 +11622,8 @@
     "visibility": "public",
     "forks": 11201,
     "open_issues": 234,
-    "watchers": 87917,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 87919,
+    "default_branch": "main"
   },
   {
     "id": 793784055,
@@ -12411,14 +11732,7 @@
     "forks": 2733,
     "open_issues": 224,
     "watchers": 28031,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "master"
   },
   {
     "id": 1139971460,
@@ -12488,16 +11802,16 @@
     "releases_url": "https://api.github.com/repos/rtk-ai/rtk/releases{/id}",
     "deployments_url": "https://api.github.com/repos/rtk-ai/rtk/deployments",
     "created_at": "2026-01-22T16:54:16Z",
-    "updated_at": "2026-08-19T13:49:22Z",
-    "pushed_at": "2026-08-19T13:58:00Z",
+    "updated_at": "2026-08-19T14:55:50Z",
+    "pushed_at": "2026-08-19T14:47:10Z",
     "git_url": "git://github.com/rtk-ai/rtk.git",
     "ssh_url": "git@github.com:rtk-ai/rtk.git",
     "clone_url": "https://github.com/rtk-ai/rtk.git",
     "svn_url": "https://github.com/rtk-ai/rtk",
     "homepage": "https://www.rtk-ai.app",
-    "size": 6594,
-    "stargazers_count": 76633,
-    "watchers_count": 76633,
+    "size": 6603,
+    "stargazers_count": 76645,
+    "watchers_count": 76645,
     "language": "Rust",
     "has_issues": true,
     "has_projects": true,
@@ -12505,7 +11819,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 4820,
+    "forks_count": 4821,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -12538,17 +11852,10 @@
       "token-optimization"
     ],
     "visibility": "public",
-    "forks": 4820,
+    "forks": 4821,
     "open_issues": 1975,
-    "watchers": 76633,
-    "default_branch": "develop",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 76645,
+    "default_branch": "develop"
   },
   {
     "id": 1133707766,
@@ -12618,16 +11925,16 @@
     "releases_url": "https://api.github.com/repos/multica-ai/multica/releases{/id}",
     "deployments_url": "https://api.github.com/repos/multica-ai/multica/deployments",
     "created_at": "2026-01-13T17:59:46Z",
-    "updated_at": "2026-08-19T13:46:11Z",
-    "pushed_at": "2026-08-19T13:57:10Z",
+    "updated_at": "2026-08-19T14:58:55Z",
+    "pushed_at": "2026-08-19T14:58:00Z",
     "git_url": "git://github.com/multica-ai/multica.git",
     "ssh_url": "git@github.com:multica-ai/multica.git",
     "clone_url": "https://github.com/multica-ai/multica.git",
     "svn_url": "https://github.com/multica-ai/multica",
     "homepage": "https://multica.ai",
-    "size": 128412,
-    "stargazers_count": 46823,
-    "watchers_count": 46823,
+    "size": 128465,
+    "stargazers_count": 46833,
+    "watchers_count": 46833,
     "language": "Go",
     "has_issues": true,
     "has_projects": true,
@@ -12639,7 +11946,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 1373,
+    "open_issues_count": 1377,
     "license": {
       "key": "other",
       "name": "Other",
@@ -12655,16 +11962,9 @@
     "topics": [],
     "visibility": "public",
     "forks": 5983,
-    "open_issues": 1373,
-    "watchers": 46823,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "open_issues": 1377,
+    "watchers": 46833,
+    "default_branch": "main"
   },
   {
     "id": 1333170396,
@@ -12734,7 +12034,7 @@
     "releases_url": "https://api.github.com/repos/xoreaxeaxeax/skitter-creek-bath-salts/releases{/id}",
     "deployments_url": "https://api.github.com/repos/xoreaxeaxeax/skitter-creek-bath-salts/deployments",
     "created_at": "2026-08-13T13:50:42Z",
-    "updated_at": "2026-08-19T13:52:13Z",
+    "updated_at": "2026-08-19T14:45:46Z",
     "pushed_at": "2026-08-13T16:59:41Z",
     "git_url": "git://github.com/xoreaxeaxeax/skitter-creek-bath-salts.git",
     "ssh_url": "git@github.com:xoreaxeaxeax/skitter-creek-bath-salts.git",
@@ -12742,8 +12042,8 @@
     "svn_url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
     "homepage": "",
     "size": 3855,
-    "stargazers_count": 1839,
-    "watchers_count": 1839,
+    "stargazers_count": 1840,
+    "watchers_count": 1840,
     "language": "C",
     "has_issues": true,
     "has_projects": true,
@@ -12772,15 +12072,8 @@
     "visibility": "public",
     "forks": 148,
     "open_issues": 6,
-    "watchers": 1839,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 1840,
+    "default_branch": "main"
   },
   {
     "id": 1281511009,
@@ -12889,14 +12182,7 @@
     "forks": 210,
     "open_issues": 6,
     "watchers": 1252,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1151702019,
@@ -12966,7 +12252,7 @@
     "releases_url": "https://api.github.com/repos/firecrawl/pdf-inspector/releases{/id}",
     "deployments_url": "https://api.github.com/repos/firecrawl/pdf-inspector/deployments",
     "created_at": "2026-02-06T19:44:47Z",
-    "updated_at": "2026-08-19T13:59:31Z",
+    "updated_at": "2026-08-19T14:50:46Z",
     "pushed_at": "2026-08-19T00:06:21Z",
     "git_url": "git://github.com/firecrawl/pdf-inspector.git",
     "ssh_url": "git@github.com:firecrawl/pdf-inspector.git",
@@ -12974,8 +12260,8 @@
     "svn_url": "https://github.com/firecrawl/pdf-inspector",
     "homepage": "https://firecrawl.github.io/pdf-inspector/",
     "size": 12675,
-    "stargazers_count": 16232,
-    "watchers_count": 16232,
+    "stargazers_count": 16236,
+    "watchers_count": 16236,
     "language": "Rust",
     "has_issues": true,
     "has_projects": false,
@@ -12983,7 +12269,7 @@
     "has_wiki": false,
     "has_pages": true,
     "has_discussions": true,
-    "forks_count": 1127,
+    "forks_count": 1128,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -13013,17 +12299,10 @@
       "text-extraction"
     ],
     "visibility": "public",
-    "forks": 1127,
+    "forks": 1128,
     "open_issues": 170,
-    "watchers": 16232,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 16236,
+    "default_branch": "main"
   },
   {
     "id": 676676006,
@@ -13093,7 +12372,7 @@
     "releases_url": "https://api.github.com/repos/lllyasviel/Fooocus/releases{/id}",
     "deployments_url": "https://api.github.com/repos/lllyasviel/Fooocus/deployments",
     "created_at": "2023-08-09T18:43:40Z",
-    "updated_at": "2026-08-19T13:51:56Z",
+    "updated_at": "2026-08-19T14:46:06Z",
     "pushed_at": "2025-12-01T19:17:07Z",
     "git_url": "git://github.com/lllyasviel/Fooocus.git",
     "ssh_url": "git@github.com:lllyasviel/Fooocus.git",
@@ -13101,8 +12380,8 @@
     "svn_url": "https://github.com/lllyasviel/Fooocus",
     "homepage": "",
     "size": 34158,
-    "stargazers_count": 52415,
-    "watchers_count": 52415,
+    "stargazers_count": 52419,
+    "watchers_count": 52419,
     "language": "Python",
     "has_issues": true,
     "has_projects": false,
@@ -13131,15 +12410,8 @@
     "visibility": "public",
     "forks": 8557,
     "open_issues": 313,
-    "watchers": 52415,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 52419,
+    "default_branch": "main"
   },
   {
     "id": 771302083,
@@ -13209,16 +12481,16 @@
     "releases_url": "https://api.github.com/repos/OpenHands/OpenHands/releases{/id}",
     "deployments_url": "https://api.github.com/repos/OpenHands/OpenHands/deployments",
     "created_at": "2024-03-13T03:33:31Z",
-    "updated_at": "2026-08-19T13:44:44Z",
-    "pushed_at": "2026-08-19T13:46:42Z",
+    "updated_at": "2026-08-19T14:52:23Z",
+    "pushed_at": "2026-08-19T14:44:20Z",
     "git_url": "git://github.com/OpenHands/OpenHands.git",
     "ssh_url": "git@github.com:OpenHands/OpenHands.git",
     "clone_url": "https://github.com/OpenHands/OpenHands.git",
     "svn_url": "https://github.com/OpenHands/OpenHands",
     "homepage": "https://openhands.dev",
     "size": 405593,
-    "stargazers_count": 84473,
-    "watchers_count": 84473,
+    "stargazers_count": 84479,
+    "watchers_count": 84479,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -13257,15 +12529,8 @@
     "visibility": "public",
     "forks": 11000,
     "open_issues": 487,
-    "watchers": 84473,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 84479,
+    "default_branch": "main"
   },
   {
     "id": 400215964,
@@ -13336,13 +12601,13 @@
     "deployments_url": "https://api.github.com/repos/novuhq/novu/deployments",
     "created_at": "2021-08-26T15:22:44Z",
     "updated_at": "2026-08-19T13:53:06Z",
-    "pushed_at": "2026-08-19T13:59:10Z",
+    "pushed_at": "2026-08-19T14:59:20Z",
     "git_url": "git://github.com/novuhq/novu.git",
     "ssh_url": "git@github.com:novuhq/novu.git",
     "clone_url": "https://github.com/novuhq/novu.git",
     "svn_url": "https://github.com/novuhq/novu",
     "homepage": "https://go.novu.co/github",
-    "size": 492215,
+    "size": 492312,
     "stargazers_count": 39616,
     "watchers_count": 39616,
     "language": "TypeScript",
@@ -13356,7 +12621,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 116,
+    "open_issues_count": 117,
     "license": {
       "key": "other",
       "name": "Other",
@@ -13388,16 +12653,9 @@
     ],
     "visibility": "public",
     "forks": 4436,
-    "open_issues": 116,
+    "open_issues": 117,
     "watchers": 39616,
-    "default_branch": "next",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "next"
   },
   {
     "id": 234739976,
@@ -13468,7 +12726,7 @@
     "deployments_url": "https://api.github.com/repos/medusajs/medusa/deployments",
     "created_at": "2020-01-18T13:39:04Z",
     "updated_at": "2026-08-19T14:02:09Z",
-    "pushed_at": "2026-08-19T12:35:36Z",
+    "pushed_at": "2026-08-19T14:23:35Z",
     "git_url": "git://github.com/medusajs/medusa.git",
     "ssh_url": "git@github.com:medusajs/medusa.git",
     "clone_url": "https://github.com/medusajs/medusa.git",
@@ -13484,11 +12742,11 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 5107,
+    "forks_count": 5108,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 146,
+    "open_issues_count": 147,
     "license": {
       "key": "other",
       "name": "Other",
@@ -13515,17 +12773,10 @@
       "typescript"
     ],
     "visibility": "public",
-    "forks": 5107,
-    "open_issues": 146,
+    "forks": 5108,
+    "open_issues": 147,
     "watchers": 35907,
-    "default_branch": "develop",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "develop"
   },
   {
     "id": 180190854,
@@ -13595,16 +12846,16 @@
     "releases_url": "https://api.github.com/repos/appwrite/appwrite/releases{/id}",
     "deployments_url": "https://api.github.com/repos/appwrite/appwrite/deployments",
     "created_at": "2019-04-08T16:36:25Z",
-    "updated_at": "2026-08-19T13:48:04Z",
-    "pushed_at": "2026-08-19T13:51:11Z",
+    "updated_at": "2026-08-19T14:53:23Z",
+    "pushed_at": "2026-08-19T14:38:42Z",
     "git_url": "git://github.com/appwrite/appwrite.git",
     "ssh_url": "git@github.com:appwrite/appwrite.git",
     "clone_url": "https://github.com/appwrite/appwrite.git",
     "svn_url": "https://github.com/appwrite/appwrite",
     "homepage": "https://appwrite.io",
-    "size": 447731,
-    "stargazers_count": 57056,
-    "watchers_count": 57056,
+    "size": 447836,
+    "stargazers_count": 57057,
+    "watchers_count": 57057,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -13654,15 +12905,8 @@
     "visibility": "public",
     "forks": 5656,
     "open_issues": 1004,
-    "watchers": 57056,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 57057,
+    "default_branch": "main"
   },
   {
     "id": 1133911335,
@@ -13732,16 +12976,16 @@
     "releases_url": "https://api.github.com/repos/different-ai/openwork/releases{/id}",
     "deployments_url": "https://api.github.com/repos/different-ai/openwork/deployments",
     "created_at": "2026-01-14T01:39:31Z",
-    "updated_at": "2026-08-19T14:03:14Z",
-    "pushed_at": "2026-08-19T14:00:19Z",
+    "updated_at": "2026-08-19T14:54:42Z",
+    "pushed_at": "2026-08-19T14:56:26Z",
     "git_url": "git://github.com/different-ai/openwork.git",
     "ssh_url": "git@github.com:different-ai/openwork.git",
     "clone_url": "https://github.com/different-ai/openwork.git",
     "svn_url": "https://github.com/different-ai/openwork",
     "homepage": "https://openworklabs.com",
-    "size": 290141,
-    "stargazers_count": 22651,
-    "watchers_count": 22651,
+    "size": 289862,
+    "stargazers_count": 22659,
+    "watchers_count": 22659,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -13753,7 +12997,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 355,
+    "open_issues_count": 358,
     "license": {
       "key": "other",
       "name": "Other",
@@ -13769,16 +13013,9 @@
     "topics": [],
     "visibility": "public",
     "forks": 2242,
-    "open_issues": 355,
-    "watchers": 22651,
-    "default_branch": "dev",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "open_issues": 358,
+    "watchers": 22659,
+    "default_branch": "dev"
   },
   {
     "id": 193215554,
@@ -13848,14 +13085,14 @@
     "releases_url": "https://api.github.com/repos/n8n-io/n8n/releases{/id}",
     "deployments_url": "https://api.github.com/repos/n8n-io/n8n/deployments",
     "created_at": "2019-06-22T09:24:21Z",
-    "updated_at": "2026-08-19T13:57:53Z",
-    "pushed_at": "2026-08-19T14:03:27Z",
+    "updated_at": "2026-08-19T14:56:32Z",
+    "pushed_at": "2026-08-19T15:00:01Z",
     "git_url": "git://github.com/n8n-io/n8n.git",
     "ssh_url": "git@github.com:n8n-io/n8n.git",
     "clone_url": "https://github.com/n8n-io/n8n.git",
     "svn_url": "https://github.com/n8n-io/n8n",
     "homepage": "https://n8n.io",
-    "size": 570286,
+    "size": 570727,
     "stargazers_count": 201179,
     "watchers_count": 201179,
     "language": "TypeScript",
@@ -13865,11 +13102,11 @@
     "has_wiki": false,
     "has_pages": true,
     "has_discussions": false,
-    "forks_count": 60223,
+    "forks_count": 60225,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 1076,
+    "open_issues_count": 1077,
     "license": {
       "key": "other",
       "name": "Other",
@@ -13905,17 +13142,10 @@
       "workflow-automation"
     ],
     "visibility": "public",
-    "forks": 60223,
-    "open_issues": 1076,
+    "forks": 60225,
+    "open_issues": 1077,
     "watchers": 201179,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "master"
   },
   {
     "id": 1024554267,
@@ -13985,7 +13215,7 @@
     "releases_url": "https://api.github.com/repos/NousResearch/hermes-agent/releases{/id}",
     "deployments_url": "https://api.github.com/repos/NousResearch/hermes-agent/deployments",
     "created_at": "2025-07-22T22:22:28Z",
-    "updated_at": "2026-08-19T14:02:05Z",
+    "updated_at": "2026-08-19T14:58:16Z",
     "pushed_at": "2026-08-19T10:40:40Z",
     "git_url": "git://github.com/NousResearch/hermes-agent.git",
     "ssh_url": "git@github.com:NousResearch/hermes-agent.git",
@@ -13993,8 +13223,8 @@
     "svn_url": "https://github.com/NousResearch/hermes-agent",
     "homepage": "https://hermes-agent.nousresearch.com",
     "size": 716722,
-    "stargazers_count": 232878,
-    "watchers_count": 232878,
+    "stargazers_count": 232898,
+    "watchers_count": 232898,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -14002,11 +13232,11 @@
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": false,
-    "forks_count": 46532,
+    "forks_count": 46542,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 33439,
+    "open_issues_count": 33466,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -14035,17 +13265,10 @@
       "openai"
     ],
     "visibility": "public",
-    "forks": 46532,
-    "open_issues": 33439,
-    "watchers": 232878,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 46542,
+    "open_issues": 33466,
+    "watchers": 232898,
+    "default_branch": "main"
   },
   {
     "id": 1223170290,
@@ -14115,16 +13338,16 @@
     "releases_url": "https://api.github.com/repos/nexu-io/open-design/releases{/id}",
     "deployments_url": "https://api.github.com/repos/nexu-io/open-design/deployments",
     "created_at": "2026-04-28T04:25:20Z",
-    "updated_at": "2026-08-19T14:02:38Z",
-    "pushed_at": "2026-08-19T14:02:06Z",
+    "updated_at": "2026-08-19T15:00:13Z",
+    "pushed_at": "2026-08-19T14:52:57Z",
     "git_url": "git://github.com/nexu-io/open-design.git",
     "ssh_url": "git@github.com:nexu-io/open-design.git",
     "clone_url": "https://github.com/nexu-io/open-design.git",
     "svn_url": "https://github.com/nexu-io/open-design",
     "homepage": "https://open-design.ai",
     "size": 1824983,
-    "stargazers_count": 89217,
-    "watchers_count": 89217,
+    "stargazers_count": 89241,
+    "watchers_count": 89241,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -14132,7 +13355,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 10300,
+    "forks_count": 10301,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -14172,17 +13395,10 @@
       "vibe-coding"
     ],
     "visibility": "public",
-    "forks": 10300,
+    "forks": 10301,
     "open_issues": 783,
-    "watchers": 89217,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 89241,
+    "default_branch": "main"
   },
   {
     "id": 1331135699,
@@ -14252,16 +13468,16 @@
     "releases_url": "https://api.github.com/repos/guillaumemeyer/watermarks-remover/releases{/id}",
     "deployments_url": "https://api.github.com/repos/guillaumemeyer/watermarks-remover/deployments",
     "created_at": "2026-08-11T16:32:38Z",
-    "updated_at": "2026-08-19T14:01:52Z",
-    "pushed_at": "2026-08-19T02:21:14Z",
+    "updated_at": "2026-08-19T15:00:17Z",
+    "pushed_at": "2026-08-19T14:32:49Z",
     "git_url": "git://github.com/guillaumemeyer/watermarks-remover.git",
     "ssh_url": "git@github.com:guillaumemeyer/watermarks-remover.git",
     "clone_url": "https://github.com/guillaumemeyer/watermarks-remover.git",
     "svn_url": "https://github.com/guillaumemeyer/watermarks-remover",
     "homepage": "https://github.com/guillaumemeyer/watermarks-remover",
     "size": 903,
-    "stargazers_count": 14986,
-    "watchers_count": 14986,
+    "stargazers_count": 15021,
+    "watchers_count": 15021,
     "language": "Python",
     "has_issues": true,
     "has_projects": false,
@@ -14269,7 +13485,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 1664,
+    "forks_count": 1670,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -14296,17 +13512,10 @@
       "watermark"
     ],
     "visibility": "public",
-    "forks": 1664,
+    "forks": 1670,
     "open_issues": 31,
-    "watchers": 14986,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 15021,
+    "default_branch": "main"
   },
   {
     "id": 1042367133,
@@ -14376,16 +13585,16 @@
     "releases_url": "https://api.github.com/repos/github/spec-kit/releases{/id}",
     "deployments_url": "https://api.github.com/repos/github/spec-kit/deployments",
     "created_at": "2025-08-21T22:54:31Z",
-    "updated_at": "2026-08-19T14:03:47Z",
-    "pushed_at": "2026-08-19T13:47:06Z",
+    "updated_at": "2026-08-19T14:54:08Z",
+    "pushed_at": "2026-08-19T14:22:49Z",
     "git_url": "git://github.com/github/spec-kit.git",
     "ssh_url": "git@github.com:github/spec-kit.git",
     "clone_url": "https://github.com/github/spec-kit.git",
     "svn_url": "https://github.com/github/spec-kit",
     "homepage": "https://github.github.com/spec-kit/",
-    "size": 16070,
-    "stargazers_count": 130275,
-    "watchers_count": 130275,
+    "size": 16117,
+    "stargazers_count": 130283,
+    "watchers_count": 130283,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -14393,7 +13602,7 @@
     "has_wiki": false,
     "has_pages": true,
     "has_discussions": true,
-    "forks_count": 11688,
+    "forks_count": 11687,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -14420,17 +13629,10 @@
       "spec-driven"
     ],
     "visibility": "public",
-    "forks": 11688,
+    "forks": 11687,
     "open_issues": 342,
-    "watchers": 130275,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 130283,
+    "default_branch": "main"
   },
   {
     "id": 770153867,
@@ -14500,7 +13702,7 @@
     "releases_url": "https://api.github.com/repos/harry0703/MoneyPrinterTurbo/releases{/id}",
     "deployments_url": "https://api.github.com/repos/harry0703/MoneyPrinterTurbo/deployments",
     "created_at": "2024-03-11T02:57:34Z",
-    "updated_at": "2026-08-19T14:03:57Z",
+    "updated_at": "2026-08-19T15:00:09Z",
     "pushed_at": "2026-08-19T08:30:15Z",
     "git_url": "git://github.com/harry0703/MoneyPrinterTurbo.git",
     "ssh_url": "git@github.com:harry0703/MoneyPrinterTurbo.git",
@@ -14508,8 +13710,8 @@
     "svn_url": "https://github.com/harry0703/MoneyPrinterTurbo",
     "homepage": "",
     "size": 535749,
-    "stargazers_count": 109816,
-    "watchers_count": 109816,
+    "stargazers_count": 109951,
+    "watchers_count": 109951,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -14517,7 +13719,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 16679,
+    "forks_count": 16692,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -14551,17 +13753,10 @@
       "youtube-shorts"
     ],
     "visibility": "public",
-    "forks": 16679,
+    "forks": 16692,
     "open_issues": 28,
-    "watchers": 109816,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 109951,
+    "default_branch": "main"
   },
   {
     "id": 1201476594,
@@ -14631,7 +13826,7 @@
     "releases_url": "https://api.github.com/repos/santifer/career-ops/releases{/id}",
     "deployments_url": "https://api.github.com/repos/santifer/career-ops/deployments",
     "created_at": "2026-04-04T18:21:18Z",
-    "updated_at": "2026-08-19T14:02:12Z",
+    "updated_at": "2026-08-19T14:58:03Z",
     "pushed_at": "2026-08-19T13:52:31Z",
     "git_url": "git://github.com/santifer/career-ops.git",
     "ssh_url": "git@github.com:santifer/career-ops.git",
@@ -14639,8 +13834,8 @@
     "svn_url": "https://github.com/santifer/career-ops",
     "homepage": "https://career-ops.org",
     "size": 52476,
-    "stargazers_count": 65461,
-    "watchers_count": 65461,
+    "stargazers_count": 65498,
+    "watchers_count": 65498,
     "language": "JavaScript",
     "has_issues": true,
     "has_projects": true,
@@ -14648,7 +13843,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 12712,
+    "forks_count": 12713,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -14688,17 +13883,10 @@
       "resume"
     ],
     "visibility": "public",
-    "forks": 12712,
+    "forks": 12713,
     "open_issues": 341,
-    "watchers": 65461,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 65498,
+    "default_branch": "main"
   },
   {
     "id": 1180745961,
@@ -14768,7 +13956,7 @@
     "releases_url": "https://api.github.com/repos/JCodesMore/ai-website-cloner-template/releases{/id}",
     "deployments_url": "https://api.github.com/repos/JCodesMore/ai-website-cloner-template/deployments",
     "created_at": "2026-03-13T11:14:39Z",
-    "updated_at": "2026-08-19T13:39:24Z",
+    "updated_at": "2026-08-19T14:55:12Z",
     "pushed_at": "2026-08-14T22:02:06Z",
     "git_url": "git://github.com/JCodesMore/ai-website-cloner-template.git",
     "ssh_url": "git@github.com:JCodesMore/ai-website-cloner-template.git",
@@ -14776,8 +13964,8 @@
     "svn_url": "https://github.com/JCodesMore/ai-website-cloner-template",
     "homepage": "https://dsc.gg/jcodesmore",
     "size": 1374,
-    "stargazers_count": 32448,
-    "watchers_count": 32448,
+    "stargazers_count": 32449,
+    "watchers_count": 32449,
     "language": "JavaScript",
     "has_issues": true,
     "has_projects": true,
@@ -14785,7 +13973,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 4725,
+    "forks_count": 4726,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -14824,17 +14012,10 @@
       "website-clone"
     ],
     "visibility": "public",
-    "forks": 4725,
+    "forks": 4726,
     "open_issues": 2,
-    "watchers": 32448,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 32449,
+    "default_branch": "master"
   },
   {
     "id": 903510992,
@@ -14905,7 +14086,7 @@
     "deployments_url": "https://api.github.com/repos/opengrep/opengrep/deployments",
     "created_at": "2024-12-14T19:34:46Z",
     "updated_at": "2026-08-19T09:19:55Z",
-    "pushed_at": "2026-08-19T13:20:18Z",
+    "pushed_at": "2026-08-19T14:41:33Z",
     "git_url": "git://github.com/opengrep/opengrep.git",
     "ssh_url": "git@github.com:opengrep/opengrep.git",
     "clone_url": "https://github.com/opengrep/opengrep.git",
@@ -14943,14 +14124,7 @@
     "forks": 248,
     "open_issues": 87,
     "watchers": 2970,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 119190187,
@@ -15020,7 +14194,7 @@
     "releases_url": "https://api.github.com/repos/gitleaks/gitleaks/releases{/id}",
     "deployments_url": "https://api.github.com/repos/gitleaks/gitleaks/deployments",
     "created_at": "2018-01-27T18:19:31Z",
-    "updated_at": "2026-08-19T13:25:46Z",
+    "updated_at": "2026-08-19T14:59:07Z",
     "pushed_at": "2026-08-19T04:15:06Z",
     "git_url": "git://github.com/gitleaks/gitleaks.git",
     "ssh_url": "git@github.com:gitleaks/gitleaks.git",
@@ -15028,8 +14202,8 @@
     "svn_url": "https://github.com/gitleaks/gitleaks",
     "homepage": "https://gitleaks.io",
     "size": 6458,
-    "stargazers_count": 28826,
-    "watchers_count": 28826,
+    "stargazers_count": 28829,
+    "watchers_count": 28829,
     "language": "Go",
     "has_issues": true,
     "has_projects": true,
@@ -15079,15 +14253,8 @@
     "visibility": "public",
     "forks": 2199,
     "open_issues": 460,
-    "watchers": 28826,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 28829,
+    "default_branch": "master"
   },
   {
     "id": 36817565,
@@ -15164,7 +14331,7 @@
     "clone_url": "https://github.com/zaproxy/zaproxy.git",
     "svn_url": "https://github.com/zaproxy/zaproxy",
     "homepage": "https://www.zaproxy.org",
-    "size": 202064,
+    "size": 202174,
     "stargazers_count": 15637,
     "watchers_count": 15637,
     "language": "Java",
@@ -15206,14 +14373,7 @@
     "forks": 2621,
     "open_issues": 853,
     "watchers": 15637,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1275323906,
@@ -15322,14 +14482,7 @@
     "forks": 4,
     "open_issues": 0,
     "watchers": 23,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1287560244,
@@ -15432,14 +14585,7 @@
     "forks": 0,
     "open_issues": 0,
     "watchers": 4,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1223939135,
@@ -15569,14 +14715,7 @@
     "forks": 275,
     "open_issues": 23,
     "watchers": 575,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1301140808,
@@ -15646,7 +14785,7 @@
     "releases_url": "https://api.github.com/repos/img2threejs/img2threejs/releases{/id}",
     "deployments_url": "https://api.github.com/repos/img2threejs/img2threejs/deployments",
     "created_at": "2026-07-15T02:58:39Z",
-    "updated_at": "2026-08-19T13:57:40Z",
+    "updated_at": "2026-08-19T15:00:15Z",
     "pushed_at": "2026-08-19T04:02:33Z",
     "git_url": "git://github.com/img2threejs/img2threejs.git",
     "ssh_url": "git@github.com:img2threejs/img2threejs.git",
@@ -15654,8 +14793,8 @@
     "svn_url": "https://github.com/img2threejs/img2threejs",
     "homepage": "https://img2threejs.github.io/img2threejs-showcase/",
     "size": 24939,
-    "stargazers_count": 12228,
-    "watchers_count": 12228,
+    "stargazers_count": 12231,
+    "watchers_count": 12231,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -15695,15 +14834,8 @@
     "visibility": "public",
     "forks": 973,
     "open_issues": 62,
-    "watchers": 12228,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 12231,
+    "default_branch": "main"
   },
   {
     "id": 943398999,
@@ -15773,7 +14905,7 @@
     "releases_url": "https://api.github.com/repos/x1xhlol/system-prompts-and-models-of-ai-tools/releases{/id}",
     "deployments_url": "https://api.github.com/repos/x1xhlol/system-prompts-and-models-of-ai-tools/deployments",
     "created_at": "2025-03-05T16:38:29Z",
-    "updated_at": "2026-08-19T13:11:45Z",
+    "updated_at": "2026-08-19T14:56:44Z",
     "pushed_at": "2026-08-11T13:01:09Z",
     "git_url": "git://github.com/x1xhlol/system-prompts-and-models-of-ai-tools.git",
     "ssh_url": "git@github.com:x1xhlol/system-prompts-and-models-of-ai-tools.git",
@@ -15781,8 +14913,8 @@
     "svn_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "homepage": "",
     "size": 1524,
-    "stargazers_count": 142925,
-    "watchers_count": 142925,
+    "stargazers_count": 142926,
+    "watchers_count": 142926,
     "language": null,
     "has_issues": true,
     "has_projects": true,
@@ -15832,15 +14964,8 @@
     "visibility": "public",
     "forks": 34842,
     "open_issues": 159,
-    "watchers": 142925,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 142926,
+    "default_branch": "main"
   },
   {
     "id": 1200597263,
@@ -15910,16 +15035,16 @@
     "releases_url": "https://api.github.com/repos/Graphify-Labs/graphify/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Graphify-Labs/graphify/deployments",
     "created_at": "2026-04-03T15:49:07Z",
-    "updated_at": "2026-08-19T14:02:53Z",
+    "updated_at": "2026-08-19T14:58:54Z",
     "pushed_at": "2026-08-19T13:37:02Z",
     "git_url": "git://github.com/Graphify-Labs/graphify.git",
     "ssh_url": "git@github.com:Graphify-Labs/graphify.git",
     "clone_url": "https://github.com/Graphify-Labs/graphify.git",
     "svn_url": "https://github.com/Graphify-Labs/graphify",
     "homepage": "https://www.graphify.com",
-    "size": 11228,
-    "stargazers_count": 108175,
-    "watchers_count": 108175,
+    "size": 10886,
+    "stargazers_count": 108201,
+    "watchers_count": 108201,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -15927,7 +15052,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 10503,
+    "forks_count": 10505,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -15966,17 +15091,10 @@
       "tree-sitter"
     ],
     "visibility": "public",
-    "forks": 10503,
+    "forks": 10505,
     "open_issues": 1005,
-    "watchers": 108175,
-    "default_branch": "v8",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 108201,
+    "default_branch": "v8"
   },
   {
     "id": 1266797999,
@@ -16046,7 +15164,7 @@
     "releases_url": "https://api.github.com/repos/DietrichGebert/ponytail/releases{/id}",
     "deployments_url": "https://api.github.com/repos/DietrichGebert/ponytail/deployments",
     "created_at": "2026-06-12T00:52:37Z",
-    "updated_at": "2026-08-19T13:57:57Z",
+    "updated_at": "2026-08-19T14:55:46Z",
     "pushed_at": "2026-08-07T21:44:01Z",
     "git_url": "git://github.com/DietrichGebert/ponytail.git",
     "ssh_url": "git@github.com:DietrichGebert/ponytail.git",
@@ -16054,8 +15172,8 @@
     "svn_url": "https://github.com/DietrichGebert/ponytail",
     "homepage": "https://ponytail.dev",
     "size": 2059,
-    "stargazers_count": 105772,
-    "watchers_count": 105772,
+    "stargazers_count": 105797,
+    "watchers_count": 105797,
     "language": "JavaScript",
     "has_issues": true,
     "has_projects": true,
@@ -16063,7 +15181,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 5845,
+    "forks_count": 5846,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -16093,17 +15211,10 @@
       "yagni"
     ],
     "visibility": "public",
-    "forks": 5845,
+    "forks": 5846,
     "open_issues": 148,
-    "watchers": 105772,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 105797,
+    "default_branch": "main"
   },
   {
     "id": 1084853233,
@@ -16173,7 +15284,7 @@
     "releases_url": "https://api.github.com/repos/VoltAgent/awesome-agent-skills/releases{/id}",
     "deployments_url": "https://api.github.com/repos/VoltAgent/awesome-agent-skills/deployments",
     "created_at": "2025-10-28T08:55:32Z",
-    "updated_at": "2026-08-19T13:53:54Z",
+    "updated_at": "2026-08-19T14:05:07Z",
     "pushed_at": "2026-08-18T12:20:59Z",
     "git_url": "git://github.com/VoltAgent/awesome-agent-skills.git",
     "ssh_url": "git@github.com:VoltAgent/awesome-agent-skills.git",
@@ -16181,8 +15292,8 @@
     "svn_url": "https://github.com/VoltAgent/awesome-agent-skills",
     "homepage": "https://officialskills.sh/",
     "size": 789,
-    "stargazers_count": 30545,
-    "watchers_count": 30545,
+    "stargazers_count": 30546,
+    "watchers_count": 30546,
     "language": null,
     "has_issues": true,
     "has_projects": true,
@@ -16190,11 +15301,11 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 3292,
+    "forks_count": 3293,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 30,
+    "open_issues_count": 31,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -16222,17 +15333,10 @@
       "skills"
     ],
     "visibility": "public",
-    "forks": 3292,
-    "open_issues": 30,
-    "watchers": 30545,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 3293,
+    "open_issues": 31,
+    "watchers": 30546,
+    "default_branch": "main"
   },
   {
     "id": 1133141258,
@@ -16302,16 +15406,16 @@
     "releases_url": "https://api.github.com/repos/Tracer-Cloud/opensre/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Tracer-Cloud/opensre/deployments",
     "created_at": "2026-01-13T00:04:47Z",
-    "updated_at": "2026-08-19T13:55:40Z",
-    "pushed_at": "2026-08-19T13:57:03Z",
+    "updated_at": "2026-08-19T14:58:08Z",
+    "pushed_at": "2026-08-19T14:56:48Z",
     "git_url": "git://github.com/Tracer-Cloud/opensre.git",
     "ssh_url": "git@github.com:Tracer-Cloud/opensre.git",
     "clone_url": "https://github.com/Tracer-Cloud/opensre.git",
     "svn_url": "https://github.com/Tracer-Cloud/opensre",
     "homepage": "https://discord.com/invite/opensre",
-    "size": 178151,
-    "stargazers_count": 10669,
-    "watchers_count": 10669,
+    "size": 178259,
+    "stargazers_count": 10672,
+    "watchers_count": 10672,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -16319,11 +15423,11 @@
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": true,
-    "forks_count": 1527,
+    "forks_count": 1526,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 205,
+    "open_issues_count": 225,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -16350,17 +15454,10 @@
       "sre"
     ],
     "visibility": "public",
-    "forks": 1527,
-    "open_issues": 205,
-    "watchers": 10669,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 1526,
+    "open_issues": 225,
+    "watchers": 10672,
+    "default_branch": "main"
   },
   {
     "id": 1175331206,
@@ -16484,14 +15581,7 @@
     "forks": 19,
     "open_issues": 1,
     "watchers": 88,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 655099582,
@@ -16561,7 +15651,7 @@
     "releases_url": "https://api.github.com/repos/mlabonne/llm-course/releases{/id}",
     "deployments_url": "https://api.github.com/repos/mlabonne/llm-course/deployments",
     "created_at": "2023-06-17T22:16:25Z",
-    "updated_at": "2026-08-19T14:02:42Z",
+    "updated_at": "2026-08-19T14:44:04Z",
     "pushed_at": "2026-02-05T13:09:26Z",
     "git_url": "git://github.com/mlabonne/llm-course.git",
     "ssh_url": "git@github.com:mlabonne/llm-course.git",
@@ -16569,8 +15659,8 @@
     "svn_url": "https://github.com/mlabonne/llm-course",
     "homepage": "https://mlabonne.github.io/blog/",
     "size": 7637,
-    "stargazers_count": 81817,
-    "watchers_count": 81817,
+    "stargazers_count": 81823,
+    "watchers_count": 81823,
     "language": null,
     "has_issues": true,
     "has_projects": true,
@@ -16605,15 +15695,8 @@
     "visibility": "public",
     "forks": 9516,
     "open_issues": 88,
-    "watchers": 81817,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 81823,
+    "default_branch": "main"
   },
   {
     "id": 752538537,
@@ -16716,14 +15799,7 @@
     "forks": 31,
     "open_issues": 2,
     "watchers": 163,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1264497441,
@@ -16832,14 +15908,7 @@
     "forks": 0,
     "open_issues": 0,
     "watchers": 4,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "master"
   },
   {
     "id": 853189791,
@@ -16909,16 +15978,16 @@
     "releases_url": "https://api.github.com/repos/PDFMathTranslate/PDFMathTranslate/releases{/id}",
     "deployments_url": "https://api.github.com/repos/PDFMathTranslate/PDFMathTranslate/deployments",
     "created_at": "2024-09-06T06:56:03Z",
-    "updated_at": "2026-08-19T13:06:55Z",
-    "pushed_at": "2026-08-19T12:59:00Z",
+    "updated_at": "2026-08-19T14:48:34Z",
+    "pushed_at": "2026-08-19T14:49:04Z",
     "git_url": "git://github.com/PDFMathTranslate/PDFMathTranslate.git",
     "ssh_url": "git@github.com:PDFMathTranslate/PDFMathTranslate.git",
     "clone_url": "https://github.com/PDFMathTranslate/PDFMathTranslate.git",
     "svn_url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
     "homepage": "https://pdf2zh.com",
     "size": 55780,
-    "stargazers_count": 36224,
-    "watchers_count": 36224,
+    "stargazers_count": 36225,
+    "watchers_count": 36225,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -16926,7 +15995,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 3233,
+    "forks_count": 3232,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -16965,17 +16034,10 @@
       "zotero"
     ],
     "visibility": "public",
-    "forks": 3233,
+    "forks": 3232,
     "open_issues": 147,
-    "watchers": 36224,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 36225,
+    "default_branch": "main"
   },
   {
     "id": 589831718,
@@ -17045,7 +16107,7 @@
     "releases_url": "https://api.github.com/repos/Comfy-Org/ComfyUI/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Comfy-Org/ComfyUI/deployments",
     "created_at": "2023-01-17T03:15:56Z",
-    "updated_at": "2026-08-19T14:03:18Z",
+    "updated_at": "2026-08-19T14:52:17Z",
     "pushed_at": "2026-08-19T06:59:54Z",
     "git_url": "git://github.com/Comfy-Org/ComfyUI.git",
     "ssh_url": "git@github.com:Comfy-Org/ComfyUI.git",
@@ -17053,8 +16115,8 @@
     "svn_url": "https://github.com/Comfy-Org/ComfyUI",
     "homepage": "https://www.comfy.org/",
     "size": 94730,
-    "stargazers_count": 128421,
-    "watchers_count": 128421,
+    "stargazers_count": 128427,
+    "watchers_count": 128427,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -17062,7 +16124,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 15136,
+    "forks_count": 15135,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -17088,17 +16150,10 @@
       "stable-diffusion"
     ],
     "visibility": "public",
-    "forks": 15136,
+    "forks": 15135,
     "open_issues": 4644,
-    "watchers": 128421,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 128427,
+    "default_branch": "master"
   },
   {
     "id": 1221641349,
@@ -17207,14 +16262,7 @@
     "forks": 387,
     "open_issues": 20,
     "watchers": 1495,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1319336961,
@@ -17284,7 +16332,7 @@
     "releases_url": "https://api.github.com/repos/DannyMac180/sol-advisor/releases{/id}",
     "deployments_url": "https://api.github.com/repos/DannyMac180/sol-advisor/deployments",
     "created_at": "2026-08-01T13:56:43Z",
-    "updated_at": "2026-08-19T12:36:01Z",
+    "updated_at": "2026-08-19T14:32:11Z",
     "pushed_at": "2026-08-16T13:24:31Z",
     "git_url": "git://github.com/DannyMac180/sol-advisor.git",
     "ssh_url": "git@github.com:DannyMac180/sol-advisor.git",
@@ -17292,8 +16340,8 @@
     "svn_url": "https://github.com/DannyMac180/sol-advisor",
     "homepage": null,
     "size": 79,
-    "stargazers_count": 2144,
-    "watchers_count": 2144,
+    "stargazers_count": 2145,
+    "watchers_count": 2145,
     "language": "Shell",
     "has_issues": true,
     "has_projects": true,
@@ -17322,15 +16370,8 @@
     "visibility": "public",
     "forks": 162,
     "open_issues": 21,
-    "watchers": 2144,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 2145,
+    "default_branch": "main"
   },
   {
     "id": 254832799,
@@ -17400,7 +16441,7 @@
     "releases_url": "https://api.github.com/repos/Z4nzu/hackingtool/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Z4nzu/hackingtool/deployments",
     "created_at": "2020-04-11T09:21:31Z",
-    "updated_at": "2026-08-19T13:58:00Z",
+    "updated_at": "2026-08-19T14:25:41Z",
     "pushed_at": "2026-08-02T16:54:01Z",
     "git_url": "git://github.com/Z4nzu/hackingtool.git",
     "ssh_url": "git@github.com:Z4nzu/hackingtool.git",
@@ -17453,14 +16494,7 @@
     "forks": 8966,
     "open_issues": 129,
     "watchers": 79029,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "master"
   },
   {
     "id": 1237819660,
@@ -17530,7 +16564,7 @@
     "releases_url": "https://api.github.com/repos/zhaoxuya520/reverse-skill/releases{/id}",
     "deployments_url": "https://api.github.com/repos/zhaoxuya520/reverse-skill/deployments",
     "created_at": "2026-05-13T14:37:57Z",
-    "updated_at": "2026-08-19T13:58:33Z",
+    "updated_at": "2026-08-19T14:58:58Z",
     "pushed_at": "2026-08-19T09:35:00Z",
     "git_url": "git://github.com/zhaoxuya520/reverse-skill.git",
     "ssh_url": "git@github.com:zhaoxuya520/reverse-skill.git",
@@ -17538,8 +16572,8 @@
     "svn_url": "https://github.com/zhaoxuya520/reverse-skill",
     "homepage": null,
     "size": 4018,
-    "stargazers_count": 26613,
-    "watchers_count": 26613,
+    "stargazers_count": 26632,
+    "watchers_count": 26632,
     "language": "PowerShell",
     "has_issues": true,
     "has_projects": true,
@@ -17547,7 +16581,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 3619,
+    "forks_count": 3622,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -17566,17 +16600,10 @@
     "pull_request_creation_policy": "all",
     "topics": [],
     "visibility": "public",
-    "forks": 3619,
+    "forks": 3622,
     "open_issues": 19,
-    "watchers": 26613,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 26632,
+    "default_branch": "main"
   },
   {
     "id": 626805178,
@@ -17646,16 +16673,16 @@
     "releases_url": "https://api.github.com/repos/langgenius/dify/releases{/id}",
     "deployments_url": "https://api.github.com/repos/langgenius/dify/deployments",
     "created_at": "2023-04-12T07:40:24Z",
-    "updated_at": "2026-08-19T14:01:22Z",
-    "pushed_at": "2026-08-19T13:46:15Z",
+    "updated_at": "2026-08-19T14:52:45Z",
+    "pushed_at": "2026-08-19T14:22:56Z",
     "git_url": "git://github.com/langgenius/dify.git",
     "ssh_url": "git@github.com:langgenius/dify.git",
     "clone_url": "https://github.com/langgenius/dify.git",
     "svn_url": "https://github.com/langgenius/dify",
     "homepage": "https://dify.ai",
-    "size": 501076,
-    "stargazers_count": 152901,
-    "watchers_count": 152901,
+    "size": 501638,
+    "stargazers_count": 152904,
+    "watchers_count": 152904,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": false,
@@ -17705,15 +16732,8 @@
     "visibility": "public",
     "forks": 24148,
     "open_issues": 991,
-    "watchers": 152901,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 152904,
+    "default_branch": "main"
   },
   {
     "id": 628786932,
@@ -17822,14 +16842,7 @@
     "forks": 39,
     "open_issues": 0,
     "watchers": 232,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 638951438,
@@ -17899,16 +16912,16 @@
     "releases_url": "https://api.github.com/repos/comet-ml/opik/releases{/id}",
     "deployments_url": "https://api.github.com/repos/comet-ml/opik/deployments",
     "created_at": "2023-05-10T12:57:13Z",
-    "updated_at": "2026-08-19T13:30:09Z",
-    "pushed_at": "2026-08-19T14:02:19Z",
+    "updated_at": "2026-08-19T14:59:35Z",
+    "pushed_at": "2026-08-19T15:00:00Z",
     "git_url": "git://github.com/comet-ml/opik.git",
     "ssh_url": "git@github.com:comet-ml/opik.git",
     "clone_url": "https://github.com/comet-ml/opik.git",
     "svn_url": "https://github.com/comet-ml/opik",
     "homepage": "https://www.comet.com/docs/opik/",
-    "size": 764077,
-    "stargazers_count": 21475,
-    "watchers_count": 21475,
+    "size": 764119,
+    "stargazers_count": 21477,
+    "watchers_count": 21477,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -17920,7 +16933,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 205,
+    "open_issues_count": 206,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -17950,16 +16963,9 @@
     ],
     "visibility": "public",
     "forks": 1708,
-    "open_issues": 205,
-    "watchers": 21475,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "open_issues": 206,
+    "watchers": 21477,
+    "default_branch": "main"
   },
   {
     "id": 1291501023,
@@ -18029,7 +17035,7 @@
     "releases_url": "https://api.github.com/repos/oso95/scroll-world/releases{/id}",
     "deployments_url": "https://api.github.com/repos/oso95/scroll-world/deployments",
     "created_at": "2026-07-06T21:28:58Z",
-    "updated_at": "2026-08-19T13:19:32Z",
+    "updated_at": "2026-08-19T14:55:31Z",
     "pushed_at": "2026-07-29T04:44:56Z",
     "git_url": "git://github.com/oso95/scroll-world.git",
     "ssh_url": "git@github.com:oso95/scroll-world.git",
@@ -18037,8 +17043,8 @@
     "svn_url": "https://github.com/oso95/scroll-world",
     "homepage": "",
     "size": 49,
-    "stargazers_count": 8329,
-    "watchers_count": 8329,
+    "stargazers_count": 8332,
+    "watchers_count": 8332,
     "language": "JavaScript",
     "has_issues": true,
     "has_projects": true,
@@ -18067,15 +17073,8 @@
     "visibility": "public",
     "forks": 946,
     "open_issues": 6,
-    "watchers": 8329,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 8332,
+    "default_branch": "main"
   },
   {
     "id": 641205268,
@@ -18183,14 +17182,7 @@
     "forks": 2112,
     "open_issues": 41,
     "watchers": 14899,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 793375104,
@@ -18260,7 +17252,7 @@
     "releases_url": "https://api.github.com/repos/Shubhamsaboo/awesome-llm-apps/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Shubhamsaboo/awesome-llm-apps/deployments",
     "created_at": "2024-04-29T05:30:25Z",
-    "updated_at": "2026-08-19T13:57:17Z",
+    "updated_at": "2026-08-19T14:48:42Z",
     "pushed_at": "2026-08-17T02:42:50Z",
     "git_url": "git://github.com/Shubhamsaboo/awesome-llm-apps.git",
     "ssh_url": "git@github.com:Shubhamsaboo/awesome-llm-apps.git",
@@ -18268,8 +17260,8 @@
     "svn_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
     "homepage": "https://www.theunwindai.com",
     "size": 218656,
-    "stargazers_count": 133210,
-    "watchers_count": 133210,
+    "stargazers_count": 133215,
+    "watchers_count": 133215,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -18277,7 +17269,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 19607,
+    "forks_count": 19609,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -18301,17 +17293,10 @@
       "rag"
     ],
     "visibility": "public",
-    "forks": 19607,
+    "forks": 19609,
     "open_issues": 15,
-    "watchers": 133210,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 133215,
+    "default_branch": "main"
   },
   {
     "id": 896335270,
@@ -18381,7 +17366,7 @@
     "releases_url": "https://api.github.com/repos/punkpeye/awesome-mcp-servers/releases{/id}",
     "deployments_url": "https://api.github.com/repos/punkpeye/awesome-mcp-servers/deployments",
     "created_at": "2024-11-30T04:49:10Z",
-    "updated_at": "2026-08-19T13:57:31Z",
+    "updated_at": "2026-08-19T14:34:24Z",
     "pushed_at": "2026-08-17T21:28:42Z",
     "git_url": "git://github.com/punkpeye/awesome-mcp-servers.git",
     "ssh_url": "git@github.com:punkpeye/awesome-mcp-servers.git",
@@ -18398,11 +17383,11 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 14739,
+    "forks_count": 14742,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 3188,
+    "open_issues_count": 3192,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -18420,17 +17405,10 @@
       "mcp"
     ],
     "visibility": "public",
-    "forks": 14739,
-    "open_issues": 3188,
+    "forks": 14742,
+    "open_issues": 3192,
     "watchers": 92567,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1061953414,
@@ -18500,7 +17478,7 @@
     "releases_url": "https://api.github.com/repos/anthropics/skills/releases{/id}",
     "deployments_url": "https://api.github.com/repos/anthropics/skills/deployments",
     "created_at": "2025-09-22T15:53:31Z",
-    "updated_at": "2026-08-19T13:59:23Z",
+    "updated_at": "2026-08-19T14:55:45Z",
     "pushed_at": "2026-08-18T16:02:06Z",
     "git_url": "git://github.com/anthropics/skills.git",
     "ssh_url": "git@github.com:anthropics/skills.git",
@@ -18508,8 +17486,8 @@
     "svn_url": "https://github.com/anthropics/skills",
     "homepage": "",
     "size": 4360,
-    "stargazers_count": 170423,
-    "watchers_count": 170423,
+    "stargazers_count": 170431,
+    "watchers_count": 170431,
     "language": "Python",
     "has_issues": true,
     "has_projects": false,
@@ -18517,7 +17495,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 20274,
+    "forks_count": 20275,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -18532,17 +17510,10 @@
       "agent-skills"
     ],
     "visibility": "public",
-    "forks": 20274,
+    "forks": 20275,
     "open_issues": 1120,
-    "watchers": 170423,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 170431,
+    "default_branch": "main"
   },
   {
     "id": 36633370,
@@ -18612,7 +17583,7 @@
     "releases_url": "https://api.github.com/repos/awesome-selfhosted/awesome-selfhosted/releases{/id}",
     "deployments_url": "https://api.github.com/repos/awesome-selfhosted/awesome-selfhosted/deployments",
     "created_at": "2015-06-01T02:33:17Z",
-    "updated_at": "2026-08-19T14:03:33Z",
+    "updated_at": "2026-08-19T14:57:07Z",
     "pushed_at": "2026-08-19T10:02:51Z",
     "git_url": "git://github.com/awesome-selfhosted/awesome-selfhosted.git",
     "ssh_url": "git@github.com:awesome-selfhosted/awesome-selfhosted.git",
@@ -18620,8 +17591,8 @@
     "svn_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
     "homepage": "https://awesome-selfhosted.net/",
     "size": 17381,
-    "stargazers_count": 313659,
-    "watchers_count": 313659,
+    "stargazers_count": 313671,
+    "watchers_count": 313671,
     "language": null,
     "has_issues": false,
     "has_projects": false,
@@ -18629,7 +17600,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 14726,
+    "forks_count": 14727,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -18657,17 +17628,10 @@
       "selfhosted"
     ],
     "visibility": "public",
-    "forks": 14726,
+    "forks": 14727,
     "open_issues": 0,
-    "watchers": 313659,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 313671,
+    "default_branch": "master"
   },
   {
     "id": 54346799,
@@ -18737,7 +17701,7 @@
     "releases_url": "https://api.github.com/repos/public-apis/public-apis/releases{/id}",
     "deployments_url": "https://api.github.com/repos/public-apis/public-apis/deployments",
     "created_at": "2016-03-20T23:49:42Z",
-    "updated_at": "2026-08-19T14:02:00Z",
+    "updated_at": "2026-08-19T14:59:46Z",
     "pushed_at": "2026-08-18T19:20:39Z",
     "git_url": "git://github.com/public-apis/public-apis.git",
     "ssh_url": "git@github.com:public-apis/public-apis.git",
@@ -18745,8 +17709,8 @@
     "svn_url": "https://github.com/public-apis/public-apis",
     "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
     "size": 8258,
-    "stargazers_count": 465488,
-    "watchers_count": 465488,
+    "stargazers_count": 465540,
+    "watchers_count": 465540,
     "language": "Python",
     "has_issues": true,
     "has_projects": false,
@@ -18754,7 +17718,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 51388,
+    "forks_count": 51391,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -18787,17 +17751,10 @@
       "software"
     ],
     "visibility": "public",
-    "forks": 51388,
+    "forks": 51391,
     "open_issues": 1703,
-    "watchers": 465488,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 465540,
+    "default_branch": "master"
   },
   {
     "id": 32484381,
@@ -18867,7 +17824,7 @@
     "releases_url": "https://api.github.com/repos/ripienaar/free-for-dev/releases{/id}",
     "deployments_url": "https://api.github.com/repos/ripienaar/free-for-dev/deployments",
     "created_at": "2015-03-18T21:06:26Z",
-    "updated_at": "2026-08-19T13:39:48Z",
+    "updated_at": "2026-08-19T14:57:40Z",
     "pushed_at": "2026-08-17T11:45:22Z",
     "git_url": "git://github.com/ripienaar/free-for-dev.git",
     "ssh_url": "git@github.com:ripienaar/free-for-dev.git",
@@ -18875,8 +17832,8 @@
     "svn_url": "https://github.com/ripienaar/free-for-dev",
     "homepage": "https://free-for.dev/",
     "size": 10644,
-    "stargazers_count": 132186,
-    "watchers_count": 132186,
+    "stargazers_count": 132198,
+    "watchers_count": 132198,
     "language": "HTML",
     "has_issues": false,
     "has_projects": false,
@@ -18902,15 +17859,8 @@
     "visibility": "public",
     "forks": 13881,
     "open_issues": 11,
-    "watchers": 132186,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 132198,
+    "default_branch": "master"
   },
   {
     "id": 21737465,
@@ -18980,7 +17930,7 @@
     "releases_url": "https://api.github.com/repos/sindresorhus/awesome/releases{/id}",
     "deployments_url": "https://api.github.com/repos/sindresorhus/awesome/deployments",
     "created_at": "2014-07-11T13:42:37Z",
-    "updated_at": "2026-08-19T14:01:56Z",
+    "updated_at": "2026-08-19T14:56:36Z",
     "pushed_at": "2026-08-18T13:28:50Z",
     "git_url": "git://github.com/sindresorhus/awesome.git",
     "ssh_url": "git@github.com:sindresorhus/awesome.git",
@@ -18988,8 +17938,8 @@
     "svn_url": "https://github.com/sindresorhus/awesome",
     "homepage": "",
     "size": 1565,
-    "stargazers_count": 497692,
-    "watchers_count": 497692,
+    "stargazers_count": 497712,
+    "watchers_count": 497712,
     "language": null,
     "has_issues": true,
     "has_projects": false,
@@ -19024,15 +17974,8 @@
     "visibility": "public",
     "forks": 36476,
     "open_issues": 102,
-    "watchers": 497692,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 497712,
+    "default_branch": "main"
   },
   {
     "id": 1201173969,
@@ -19102,16 +18045,16 @@
     "releases_url": "https://api.github.com/repos/JuliusBrussee/caveman/releases{/id}",
     "deployments_url": "https://api.github.com/repos/JuliusBrussee/caveman/deployments",
     "created_at": "2026-04-04T10:03:00Z",
-    "updated_at": "2026-08-19T14:00:25Z",
-    "pushed_at": "2026-08-19T14:03:51Z",
+    "updated_at": "2026-08-19T14:56:24Z",
+    "pushed_at": "2026-08-19T14:30:56Z",
     "git_url": "git://github.com/JuliusBrussee/caveman.git",
     "ssh_url": "git@github.com:JuliusBrussee/caveman.git",
     "clone_url": "https://github.com/JuliusBrussee/caveman.git",
     "svn_url": "https://github.com/JuliusBrussee/caveman",
     "homepage": "https://caveman.so/",
-    "size": 10729,
-    "stargazers_count": 99153,
-    "watchers_count": 99153,
+    "size": 10810,
+    "stargazers_count": 99165,
+    "watchers_count": 99165,
     "language": "Go",
     "has_issues": true,
     "has_projects": true,
@@ -19119,7 +18062,7 @@
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": true,
-    "forks_count": 5751,
+    "forks_count": 5752,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -19149,17 +18092,10 @@
       "tokens"
     ],
     "visibility": "public",
-    "forks": 5751,
+    "forks": 5752,
     "open_issues": 352,
-    "watchers": 99153,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 99165,
+    "default_branch": "main"
   },
   {
     "id": 1255180606,
@@ -19229,7 +18165,7 @@
     "releases_url": "https://api.github.com/repos/odysseus-dev/odysseus/releases{/id}",
     "deployments_url": "https://api.github.com/repos/odysseus-dev/odysseus/deployments",
     "created_at": "2026-05-31T14:05:51Z",
-    "updated_at": "2026-08-19T14:01:14Z",
+    "updated_at": "2026-08-19T14:59:20Z",
     "pushed_at": "2026-08-19T14:01:34Z",
     "git_url": "git://github.com/odysseus-dev/odysseus.git",
     "ssh_url": "git@github.com:odysseus-dev/odysseus.git",
@@ -19237,8 +18173,8 @@
     "svn_url": "https://github.com/odysseus-dev/odysseus",
     "homepage": "https://odysseus-dev.github.io/odysseus",
     "size": 32008,
-    "stargazers_count": 85722,
-    "watchers_count": 85722,
+    "stargazers_count": 85730,
+    "watchers_count": 85730,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -19267,15 +18203,8 @@
     "visibility": "public",
     "forks": 538,
     "open_issues": 1086,
-    "watchers": 85722,
-    "default_branch": "dev",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 85730,
+    "default_branch": "dev"
   },
   {
     "id": 1305774479,
@@ -19399,14 +18328,7 @@
     "forks": 0,
     "open_issues": 0,
     "watchers": 2,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 935514810,
@@ -19509,14 +18431,7 @@
     "forks": 14,
     "open_issues": 2,
     "watchers": 210,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 1128025899,
@@ -19586,7 +18501,7 @@
     "releases_url": "https://api.github.com/repos/decolua/9router/releases{/id}",
     "deployments_url": "https://api.github.com/repos/decolua/9router/deployments",
     "created_at": "2026-01-05T02:59:30Z",
-    "updated_at": "2026-08-19T13:13:45Z",
+    "updated_at": "2026-08-19T14:37:24Z",
     "pushed_at": "2026-08-14T10:08:34Z",
     "git_url": "git://github.com/decolua/9router.git",
     "ssh_url": "git@github.com:decolua/9router.git",
@@ -19594,8 +18509,8 @@
     "svn_url": "https://github.com/decolua/9router",
     "homepage": "https://9router.com",
     "size": 13325,
-    "stargazers_count": 25802,
-    "watchers_count": 25802,
+    "stargazers_count": 25807,
+    "watchers_count": 25807,
     "language": "JavaScript",
     "has_issues": true,
     "has_projects": true,
@@ -19607,7 +18522,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 1698,
+    "open_issues_count": 1700,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -19644,16 +18559,9 @@
     ],
     "visibility": "public",
     "forks": 4628,
-    "open_issues": 1698,
-    "watchers": 25802,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "open_issues": 1700,
+    "watchers": 25807,
+    "default_branch": "master"
   },
   {
     "id": 1157102282,
@@ -19723,16 +18631,16 @@
     "releases_url": "https://api.github.com/repos/diegosouzapw/OmniRoute/releases{/id}",
     "deployments_url": "https://api.github.com/repos/diegosouzapw/OmniRoute/deployments",
     "created_at": "2026-02-13T12:38:31Z",
-    "updated_at": "2026-08-19T14:03:45Z",
-    "pushed_at": "2026-08-19T13:57:20Z",
+    "updated_at": "2026-08-19T15:00:04Z",
+    "pushed_at": "2026-08-19T14:59:23Z",
     "git_url": "git://github.com/diegosouzapw/OmniRoute.git",
     "ssh_url": "git@github.com:diegosouzapw/OmniRoute.git",
     "clone_url": "https://github.com/diegosouzapw/OmniRoute.git",
     "svn_url": "https://github.com/diegosouzapw/OmniRoute",
     "homepage": "https://omniroute.online",
     "size": 403298,
-    "stargazers_count": 50933,
-    "watchers_count": 50933,
+    "stargazers_count": 50981,
+    "watchers_count": 50981,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -19740,11 +18648,11 @@
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": true,
-    "forks_count": 6936,
+    "forks_count": 6938,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 399,
+    "open_issues_count": 382,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -19780,17 +18688,10 @@
       "token-saver"
     ],
     "visibility": "public",
-    "forks": 6936,
-    "open_issues": 399,
-    "watchers": 50933,
-    "default_branch": "release/v3.8.50",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "forks": 6938,
+    "open_issues": 382,
+    "watchers": 50981,
+    "default_branch": "release/v3.8.50"
   },
   {
     "id": 34228852,
@@ -19893,14 +18794,7 @@
     "forks": 285,
     "open_issues": 0,
     "watchers": 3340,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "master"
   },
   {
     "id": 415054958,
@@ -20023,14 +18917,7 @@
     "forks": 139,
     "open_issues": 10,
     "watchers": 747,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 928657361,
@@ -20139,14 +19026,7 @@
     "forks": 42,
     "open_issues": 35,
     "watchers": 931,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 97249406,
@@ -20216,7 +19096,7 @@
     "releases_url": "https://api.github.com/repos/denysdovhan/wtfjs/releases{/id}",
     "deployments_url": "https://api.github.com/repos/denysdovhan/wtfjs/deployments",
     "created_at": "2017-07-14T15:42:12Z",
-    "updated_at": "2026-08-18T16:08:18Z",
+    "updated_at": "2026-08-19T14:08:34Z",
     "pushed_at": "2026-07-03T09:48:44Z",
     "git_url": "git://github.com/denysdovhan/wtfjs.git",
     "ssh_url": "git@github.com:denysdovhan/wtfjs.git",
@@ -20224,8 +19104,8 @@
     "svn_url": "https://github.com/denysdovhan/wtfjs",
     "homepage": "http://bit.ly/wtfjavascript",
     "size": 1521,
-    "stargazers_count": 37675,
-    "watchers_count": 37675,
+    "stargazers_count": 37674,
+    "watchers_count": 37674,
     "language": "JavaScript",
     "has_issues": true,
     "has_projects": false,
@@ -20263,15 +19143,8 @@
     "visibility": "public",
     "forks": 2679,
     "open_issues": 45,
-    "watchers": 37675,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 37674,
+    "default_branch": "master"
   },
   {
     "id": 237484338,
@@ -20389,14 +19262,7 @@
     "forks": 15,
     "open_issues": 14,
     "watchers": 503,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 211665033,
@@ -20466,7 +19332,7 @@
     "releases_url": "https://api.github.com/repos/andreasbm/web-skills/releases{/id}",
     "deployments_url": "https://api.github.com/repos/andreasbm/web-skills/deployments",
     "created_at": "2019-09-29T13:11:44Z",
-    "updated_at": "2026-08-19T07:38:28Z",
+    "updated_at": "2026-08-19T14:13:37Z",
     "pushed_at": "2024-04-19T03:22:28Z",
     "git_url": "git://github.com/andreasbm/web-skills.git",
     "ssh_url": "git@github.com:andreasbm/web-skills.git",
@@ -20474,8 +19340,8 @@
     "svn_url": "https://github.com/andreasbm/web-skills",
     "homepage": "https://andreasbm.github.io/web-skills/",
     "size": 122455,
-    "stargazers_count": 7591,
-    "watchers_count": 7591,
+    "stargazers_count": 7592,
+    "watchers_count": 7592,
     "language": "JavaScript",
     "has_issues": true,
     "has_projects": true,
@@ -20518,15 +19384,8 @@
     "visibility": "public",
     "forks": 715,
     "open_issues": 53,
-    "watchers": 7591,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 7592,
+    "default_branch": "master"
   },
   {
     "id": 44150497,
@@ -20645,14 +19504,7 @@
     "forks": 3951,
     "open_issues": 12,
     "watchers": 40681,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 167606308,
@@ -20763,14 +19615,7 @@
     "forks": 124,
     "open_issues": 1,
     "watchers": 1141,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "master"
   },
   {
     "id": 327416530,
@@ -20840,7 +19685,7 @@
     "releases_url": "https://api.github.com/repos/iuricode/padroes-de-commits/releases{/id}",
     "deployments_url": "https://api.github.com/repos/iuricode/padroes-de-commits/deployments",
     "created_at": "2021-01-06T19:58:13Z",
-    "updated_at": "2026-08-19T14:03:05Z",
+    "updated_at": "2026-08-19T14:52:05Z",
     "pushed_at": "2025-06-21T12:56:32Z",
     "git_url": "git://github.com/iuricode/padroes-de-commits.git",
     "ssh_url": "git@github.com:iuricode/padroes-de-commits.git",
@@ -20848,8 +19693,8 @@
     "svn_url": "https://github.com/iuricode/padroes-de-commits",
     "homepage": "",
     "size": 83,
-    "stargazers_count": 9617,
-    "watchers_count": 9617,
+    "stargazers_count": 9619,
+    "watchers_count": 9619,
     "language": "Shell",
     "has_issues": true,
     "has_projects": true,
@@ -20884,15 +19729,8 @@
     "visibility": "public",
     "forks": 1351,
     "open_issues": 7,
-    "watchers": 9617,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 9619,
+    "default_branch": "main"
   },
   {
     "id": 51001484,
@@ -21006,14 +19844,7 @@
     "forks": 715,
     "open_issues": 25,
     "watchers": 15373,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 417600655,
@@ -21083,7 +19914,7 @@
     "releases_url": "https://api.github.com/repos/arthurspk/guiadevbrasil/releases{/id}",
     "deployments_url": "https://api.github.com/repos/arthurspk/guiadevbrasil/deployments",
     "created_at": "2021-10-15T18:37:21Z",
-    "updated_at": "2026-08-18T12:59:37Z",
+    "updated_at": "2026-08-19T14:38:32Z",
     "pushed_at": "2024-07-16T06:07:52Z",
     "git_url": "git://github.com/arthurspk/guiadevbrasil.git",
     "ssh_url": "git@github.com:arthurspk/guiadevbrasil.git",
@@ -21091,8 +19922,8 @@
     "svn_url": "https://github.com/arthurspk/guiadevbrasil",
     "homepage": "",
     "size": 795,
-    "stargazers_count": 15753,
-    "watchers_count": 15753,
+    "stargazers_count": 15754,
+    "watchers_count": 15754,
     "language": null,
     "has_issues": true,
     "has_projects": true,
@@ -21140,15 +19971,8 @@
     "visibility": "public",
     "forks": 1790,
     "open_issues": 22,
-    "watchers": 15753,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 15754,
+    "default_branch": "main"
   },
   {
     "id": 357343891,
@@ -21257,14 +20081,7 @@
     "forks": 0,
     "open_issues": 0,
     "watchers": 5,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 352976326,
@@ -21367,14 +20184,7 @@
     "forks": 0,
     "open_issues": 1,
     "watchers": 16,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "main"
   },
   {
     "id": 18408635,
@@ -21444,7 +20254,7 @@
     "releases_url": "https://api.github.com/repos/chrislgarry/Apollo-11/releases{/id}",
     "deployments_url": "https://api.github.com/repos/chrislgarry/Apollo-11/deployments",
     "created_at": "2014-04-03T15:45:02Z",
-    "updated_at": "2026-08-19T13:55:25Z",
+    "updated_at": "2026-08-19T14:59:58Z",
     "pushed_at": "2026-07-15T02:29:53Z",
     "git_url": "git://github.com/chrislgarry/Apollo-11.git",
     "ssh_url": "git@github.com:chrislgarry/Apollo-11.git",
@@ -21452,8 +20262,8 @@
     "svn_url": "https://github.com/chrislgarry/Apollo-11",
     "homepage": "",
     "size": 3111,
-    "stargazers_count": 72113,
-    "watchers_count": 72113,
+    "stargazers_count": 72114,
+    "watchers_count": 72114,
     "language": "Assembly",
     "has_issues": false,
     "has_projects": true,
@@ -21487,15 +20297,8 @@
     "visibility": "public",
     "forks": 7983,
     "open_issues": 131,
-    "watchers": 72113,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "watchers": 72114,
+    "default_branch": "master"
   },
   {
     "id": 250092865,
@@ -21604,13 +20407,6 @@
     "forks": 48,
     "open_issues": 3,
     "watchers": 421,
-    "default_branch": "master",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    }
+    "default_branch": "master"
   }
 ]
