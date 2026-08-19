@@ -89,7 +89,7 @@
 78. [jamiepine/voicebox](#jamiepinevoicebox) — ⭐ 50,869 (`TypeScript`)
 79. [averygan/reclip](#averyganreclip) — ⭐ 7,114 (`HTML`)
 80. [coreyhaines31/makerskills](#coreyhaines31makerskills) — ⭐ 668 (`Docs / Shell`)
-81. [cursor/plugins](#cursorplugins) — ⭐ 3,668 (`TypeScript`)
+81. [cursor/plugins](#cursorplugins) — ⭐ 3,669 (`TypeScript`)
 82. [google-gemini/cookbook](#googlegeminicookbook) — ⭐ 17,676 (`Jupyter Notebook`)
 83. [openai/openai-agents-python](#openaiopenaiagentspython) — ⭐ 28,774 (`Python`)
 84. [xai-org/grok-build](#xaiorggrokbuild) — ⭐ 25,700 (`Rust`)
@@ -1510,7 +1510,7 @@ claude skill add coreyhaines31/makerskills
 
 <a id="cursorplugins"></a>
 ### 81. [cursor/plugins](https://github.com/cursor/plugins)
-- **⭐ Stars:** 3,668 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 3,669 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/cursor/plugins)
 - 🎯 **O que é e para que serve:** Repositório oficial de plugins, extensões e integrações para o editor Cursor, permitindo conectar o assistente a bases de dados, documentações e ferramentas externas.
 - 💡 **Casos de uso reais no dia a dia:** Expandir o editor Cursor com superpoderes: adicionar conectores para bancos internos, pipelines de CI/CD e linter customizado.
