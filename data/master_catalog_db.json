@@ -1078,5 +1078,29 @@
     "use_cases": "Implementação de soluções focadas em agents, ai-agents, astro, automation; automação de rotinas de desenvolvimento e integração contínua.",
     "quickstart": "```bash\ngit clone https://github.com/elie222/botdirectory.ai.git\ncd botdirectory.ai\n# Execute as instruções de build em Astro\n```",
     "pro_tip": "Ao integrar o `botdirectory.ai`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Astro."
+  },
+  "VoltAgent/awesome-claude-code-subagents": {
+    "what": "Projeto oficial [awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) em Shell: A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em ai-agent-framework, ai-agent-tools, ai-agents, awesome; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/VoltAgent/awesome-claude-code-subagents.git\ncd awesome-claude-code-subagents\n# Execute as instruções de build em Shell\n```",
+    "pro_tip": "Ao integrar o `awesome-claude-code-subagents`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Shell."
+  },
+  "Donchitos/Claude-Code-Game-Studios": {
+    "what": "Projeto oficial [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) em Shell: Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em ai-agents, ai-assisted-development, anthropic, claude; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/Donchitos/Claude-Code-Game-Studios.git\ncd Claude-Code-Game-Studios\n# Execute as instruções de build em Shell\n```",
+    "pro_tip": "Ao integrar o `Claude-Code-Game-Studios`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Shell."
+  },
+  "codeaashu/claude-code": {
+    "what": "Projeto oficial [claude-code](https://github.com/codeaashu/claude-code) em TypeScript: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Implementação de soluções focadas em claude, claude-ai, claude-code, claude-code-leaked; automação de rotinas de desenvolvimento e integração contínua.",
+    "quickstart": "```bash\ngit clone https://github.com/codeaashu/claude-code.git\ncd claude-code\nnpm install\nnpm run dev\n```",
+    "pro_tip": "Ao integrar o `claude-code`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+  },
+  "ultraworkers/claw-code": {
+    "what": "Projeto oficial [claw-code](https://github.com/ultraworkers/claw-code) em Rust: An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
+    "use_cases": "Aceleração de fluxos de engenharia em Rust; suporte e extensibilidade para projetos de software escaláveis.",
+    "quickstart": "```bash\ngit clone https://github.com/ultraworkers/claw-code.git\ncd claw-code\ncargo build --release\n```",
+    "pro_tip": "Ao integrar o `claw-code`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Rust."
   }
 }
