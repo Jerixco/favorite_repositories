@@ -1102,5 +1102,29 @@
     "use_cases": "Aceleração de fluxos de engenharia em Rust; suporte e extensibilidade para projetos de software escaláveis.",
     "quickstart": "```bash\ngit clone https://github.com/ultraworkers/claw-code.git\ncd claw-code\ncargo build --release\n```",
     "pro_tip": "Ao integrar o `claw-code`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Rust."
+  },
+  "yorukot/superfile": {
+    "what": "Pretty fancy and modern terminal file manager (como ferramenta de linha de comando) Desenvolvido primariamente em Go, mantido por @yorukot.",
+    "use_cases": "Automação de tarefas repetitivas diretamente no terminal sem depender de interface gráfica | Execução via linha de comando em scripts de shell e pipelines de automação",
+    "quickstart": "```bash\nbash -c \"$(curl -sLo- https://superfile.dev/install.sh)\"\n```",
+    "pro_tip": "Adicione suporte a flags `--help` descritivas e auto-completar de shell (Bash/Zsh/Fish) nas ferramentas CLI de 'superfile' para aumentar a velocidade de uso no dia a dia."
+  },
+  "Younesfdj/gitfut": {
+    "what": "Your GitHub stats, turned into a World-Cup-style player card Desenvolvido primariamente em TypeScript, mantido por @Younesfdj.",
+    "use_cases": "Automação e desenvolvimento em TypeScript; integração em pipelines e projetos reais.",
+    "quickstart": "```bash\n| | |\n|---|---|\n| **`gitfut.com/<username>.png`** | your card, as a live image |\n| **`gitfut.com/<username>`** | the full scout report |\n| **`?country=XX`** | override the flag (e.g. `?country=DZ`) |\n\n<br/>\n\n## ⚙️ &nbsp;How the scouting works\n\nSix signals from a live GitHub profile, each mapped to a football stat — read straight from GitHub's GraphQL API. No surveys, no self-reporting. Just the commits.\n\n| | Stat | Scouted from |\n|:--:|:--|:--|\n| **PAC** | Pace | Commits in the last year |\n| **SHO** | Shooting | Stars earned across repos |\n| **PAS** | Passing | Pull requests + followers |\n| **DRI** | Dribbling | Language diversity |\n| **DEF** | Defending | Reviews + issues |\n| **PHY** | Physical | Lifetime contributions |\n\nYour **overall** is the headline. Raw stats cap at **88** — the 90s are a legacy gate, earned with years and influence, so one heroic year won't crown you an Icon. Your **position** and **archetype** are read from your stat shape: a shooting spike scouts a poacher up top, a defending-and-passing lean scouts a deep playmaker.\n\nEvery card walks out in a finish:\n\n<div align=\"center\">\n\n![Bronze](https://img.shields.io/badge/BRONZE-%E2%89%A464-CD7F32?style=flat-square&labelColor=2A1A0C)\n![Silver](https://img.shields.io/badge/SILVER-65--74-AAB2BD?style=flat-square&labelColor=262B33)\n![Gold](https://img.shields.io/badge/GOLD-75--84-E6B422?style=flat-square&labelColor=3A2806)\n![In-Form](https://img.shields.io/badge/IN--FORM-spike-E03E52?style=flat-square&labelColor=4A0A14)\n![TOTY](https://img.shields.io/badge/TOTY-85--89-3B7AFF?style=flat-square&labelColor=10254F)\n![Icon](https://img.shields.io/badge/ICON-90%2B-F3D688?style=flat-square&labelColor=2A1A45)\n\n</div>\n\n<br/>\n\n## 🏆 &nbsp;Achievements & Awards\n\nStandout cards earn trophies, shown on the scout report and carried into duels like a boxer's belts — a duel showcases what each player brings, it never awards anything itself. Click a trophy for its story: every win is attached to a year (or a World Cup edition) with the reason it was given. Rendered from pre-baked rotating sprites (no 3D runtime — see `scripts/bake-award-sprites.ts`):\n\n| Award | Won for |\n| :---: | :--- |\n| **Ballon d'Or** | A calendar year that towers over the rest of your career — judged against your own history (log-scaled across commits, PRs, reviews and issues, so volume spam can't buy it). Repeatable, but every extra one is harder to win: up to 3, and Icons can take a 4th. |\n| **WC Golden Ball** | Best player of a World Cup — rising above your own pace while a tournament ran (2010 → 2026, era-adjusted: shipping on GitHub in 2010 already counted). One per edition. |\n| **Golden Boot** | The top scorer, held on current form — elite Shooting (`SHO` 80+) from a scoring position (`ST`/`RW`/`CAM`). |\n| **World Cup Trophy** | ¡Campeones! Spain won WC26 — a gift carried by every profile whose GitHub location is Spain. |\n\n### The rulebook\n\nEvery scout fetches the profile's full history as per-year totals: commits, PRs, reviews, issues and private contributions, for every calendar year since the account was born. Yearly awards are judged on one score per year:\n```",
+    "pro_tip": "Ative `strict: true` no `tsconfig.json` de 'gitfut' e adicione aliases de path (`@/*`) para simplificar refatorações e capturar erros de tipo em tempo de compilação."
+  },
+  "SpacehuhnTech/WiFiDuck": {
+    "what": "Wireless keystroke injection attack platform Desenvolvido primariamente em C++, mantido por @SpacehuhnTech.",
+    "use_cases": "* [Support us](#support-us)",
+    "quickstart": "```bash\ngit clone https://github.com/SpacehuhnTech/WiFiDuck.git\ncd WiFiDuck\n```",
+    "pro_tip": "Compile 'WiFiDuck' com sanitizers de memória (`-fsanitize=address,undefined`) durante o desenvolvimento para detectar buffer overflows e vazamentos de memória imediatamente."
+  },
+  "cifertech/RF-Clown": {
+    "what": "BLE and Bluetooth Jammer with nRF24L01 and ESP32 Desenvolvido primariamente em C++, mantido por @cifertech.",
+    "use_cases": "Automação e desenvolvimento em C++; integração em pipelines e projetos reais.",
+    "quickstart": "```bash\ngit clone https://github.com/cifertech/RF-Clown.git\ncd RF-Clown\n```",
+    "pro_tip": "Compile 'RF-Clown' com sanitizers de memória (`-fsanitize=address,undefined`) durante o desenvolvimento para detectar buffer overflows e vazamentos de memória imediatamente."
   }
 }

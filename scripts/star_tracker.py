@@ -35,6 +35,7 @@ GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -1023,17 +1024,27 @@ REGRAS:
     if res:
         return res
 
-    # 2. Tentar OpenAI
+    # 2. Tentar DeepSeek (modelos avançados, bom para análise técnica)
+    res = call_deepseek(prompt)
+    if res:
+        return res
+
+    # 3. Tentar TokenRouter (painel de múltiplos modelos gratuitos)
+    res = call_tokenrouter(prompt)
+    if res:
+        return res
+
+    # 4. Tentar OpenAI
     res = call_openai(prompt)
     if res:
         return res
 
-    # 3. Tentar OpenRouter (fallback gratuito agnóstico)
+    # 5. Tentar OpenRouter (fallback gratuito agnóstico)
     res = call_openrouter(prompt)
     if res:
         return res
 
-    # 4. Fallback contextual dinâmico inteligente
+    # 6. Fallback contextual dinâmico inteligente
     print("  → Usando analisador contextual dinâmico baseado no README")
     return generate_smart_dynamic_analysis(repo_info, readme_text)
 
@@ -1078,6 +1089,81 @@ def call_openrouter(prompt):
                 return parsed
     except Exception as e:
         print(f"Aviso: Tentativa OpenRouter falhou ({e})")
+    return None
+
+def call_deepseek(prompt):
+    """Chama a API do DeepSeek como fallback com modelos avançados.
+    Endpoint compatível com OpenAI: https://api.deepseek.com/v1/chat/completions
+    """
+    if not DEEPSEEK_API_KEY:
+        return None
+
+    try:
+        api_url = "https://api.deepseek.com/v1/chat/completions"
+        payload = {
+            "model": "deepseek-chat",
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "Você é um arquiteto de software sênior brasileiro especializado em open-source. Responda exclusivamente em Português do Brasil com termos técnicos precisos e dicas práticas aprofundadas."
+                },
+                {"role": "user", "content": prompt}
+            ],
+            "temperature": 0.2,
+            "max_tokens": 1500,
+        }
+        req = urllib.request.Request(
+            api_url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=45) as resp:
+            res_data = json.loads(resp.read().decode("utf-8"))
+            text = res_data["choices"][0]["message"]["content"].strip()
+            parsed = parse_ai_response(text)
+            if parsed:
+                print("  → DeepSeek (deepseek-chat) gerou análise com sucesso.")
+                return parsed
+    except Exception as e:
+        print(f"Aviso: Tentativa DeepSeek falhou ({e})")
+    return None
+
+def call_tokenrouter(prompt):
+    """Chama a API do TokenRouter como fallback com painel de múltiplos modelos gratuitos.
+    Endpoint: https://api.tokenrouter.com/v1
+    Usa modelo Kimi K3 que é gratuito e de alta qualidade.
+    """
+
+    if not DEEPSEEK_API_KEY:
+        return None
+
+    try:
+        api_url = "https://api.tokenrouter.com/v1/chat/completions"
+        payload = {
+            "model": "moonshotai/kimi-k3",
+            "messages": [
+                {"role": "system", "content": "Você é um arquiteto de software sênior brasileiro especializado em open-source. Responda exclusivamente em Português do Brasil com termos técnicos precisos e dicas práticas aprofundadas."},
+                {"role": "user", "content": prompt}
+            ],
+            "temperature": 0.2,
+            "max_tokens": 1500,
+        }
+        req = urllib.request.Request(api_url, data=json.dumps(payload).encode("utf-8"), headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+        })
+        with urllib.request.urlopen(req, timeout=45) as resp:
+            res_data = json.loads(resp.read().decode("utf-8"))
+            text = res_data["choices"][0]["message"]["content"].strip()
+            parsed = parse_ai_response(text)
+            if parsed:
+                print("  → TokenRouter (moonshotai/kimi-k3) gerou análise com sucesso.")
+                return parsed
+    except Exception as e:
+        print(f"Aviso: Tentativa TokenRouter falhou ({e})")
     return None
 
 def rebuild_catalog_markdown(all_stars, master_db):
