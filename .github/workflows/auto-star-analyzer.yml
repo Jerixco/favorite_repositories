@@ -30,12 +30,14 @@ jobs:
 
       - name: 🔍 Rastrear Novos Favoritos & Gerar Análise com IA
         env:
+          FORCE_RE_SCAN: "true"
           TARGET_USERNAME: "Jerixco"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          TOKENROUTER_API_KEY: ${{ secrets.TOKENROUTER_API_KEY }}
         run: |
           python scripts/star_tracker.py
 
