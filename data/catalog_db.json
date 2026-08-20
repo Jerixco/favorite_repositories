@@ -1132,5 +1132,11 @@
     "use_cases": "Automação de tarefas repetitivas diretamente no terminal sem depender de interface gráfica | Execução via linha de comando em scripts de shell e pipelines de automação",
     "quickstart": "```bash\nbrew install yoanbernabeu/tap/grepai\n```",
     "pro_tip": "Ao integrar 'grepai' com modelos de linguagem, utilize streaming de respostas e ajuste parâmetros de chunking com overlap de 10-15% para maximizar relevância de contexto sem estourar limites de tokens."
+  },
+  "camel-ai/seta": {
+    "what": "💻 SETA: Scaling Environments for Terminal Agents Desenvolvido primariamente em Python, mantido por @camel-ai.",
+    "use_cases": "git clone --recurse-submodules https://github.com/camel-ai/seta.git",
+    "quickstart": "```bash\ngit clone --recurse-submodules https://github.com/camel-ai/seta.git\ncd seta\nbash setup.sh\n```",
+    "pro_tip": "Configure `pyproject.toml` com `ruff` e `pytest` em 'seta' para centralizar linting, formatação e suíte de testes em uma única ferramenta moderna e ultrarrápida."
   }
 }
