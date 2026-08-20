@@ -34,18 +34,19 @@ def run_tests():
     print("   INICIANDO SUÍTE COMPLETA DE TESTES AUTOMATIZADOS")
     print("==================================================")
 
-    # 1. Carregar contagem esperada dinamicamente
     assert os.path.exists(ALL_STARS_FILE), f"ERRO: Arquivo {ALL_STARS_FILE} não existe."
-    with open(ALL_STARS_FILE, "r", encoding="utf-8") as f:
-        all_stars = json.load(f)
-    expected_total = len(all_stars)
-    print(f"[Info] Total esperado de repositórios (dinâmico): {expected_total}")
 
-    # Teste 1: Executar star_tracker.py
+    # Teste 1: Executar star_tracker.py (gera/atualiza all_starred_github.json e CATALOGO_ESTRELAS.md)
     print("\n[1/6] Executando scripts/star_tracker.py...")
     res = subprocess.run([sys.executable, os.path.join(BASE_DIR, "scripts", "star_tracker.py")], capture_output=True, text=True, encoding="utf-8", errors="replace")
     assert res.returncode == 0, f"star_tracker.py falhou com código {res.returncode}:\n{res.stderr}\n{res.stdout}"
     print("      -> star_tracker.py executou com sucesso (Código 0)!")
+
+    # 2. Carregar contagem esperada DINAMICAMENTE a partir do JSON atualizado pelo star_tracker
+    with open(ALL_STARS_FILE, "r", encoding="utf-8") as f:
+        all_stars = json.load(f)
+    expected_total = len(all_stars)
+    print(f"\n[Info] Total esperado de repositórios (dinâmico, após star_tracker): {expected_total}")
 
     # Teste 2: Ler CATALOGO_ESTRELAS.md
     print("\n[2/6] Lendo CATALOGO_ESTRELAS.md...")

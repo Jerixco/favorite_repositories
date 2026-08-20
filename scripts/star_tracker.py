@@ -985,6 +985,106 @@ def _build_pro_tip(topics_set, description, language, readme_text, name, full_na
 
     return f"Inspecione a arquitetura modular e os testes na raiz de '{name}' antes de estender funcionalidades, garantindo retrocompatibilidade com novas versões."
 
+def _is_analysis_stale(existing_analysis, repo_info):
+    """Detecta se uma análise existente está estagnada (inglês, genérica, campos vazios, ou fora de sincronia com o repo atual).
+    Retorna True quando a análise precisa ser reexecutada.
+    """
+    if not existing_analysis:
+        return True
+
+    # Critério 1: algum campo essencial ausente ou vazio
+    for field in ("what", "use_cases", "pro_tip"):
+        val = existing_analysis.get(field, "")
+        if not val or not val.strip() or len(val.strip()) < 15:
+            return True
+
+    # Critério 2: conteúdo em inglês (não está em pt-BR)
+    full_text = " ".join(str(existing_analysis.get(f, "")) for f in ("what", "use_cases", "pro_tip"))
+    if _is_portuguese(full_text):
+        pass  # OK — está em português
+    else:
+        # Detecta texto em inglês (dominância de palavras inglesas)
+        if _is_english_dominant(full_text):
+            return True
+
+    # Critério 3: conteúdo genérico detectável (frases banidas)
+    BANNED_PHRASES = [
+        "leia a documentação", "consulte o readme", "consulte a documentação",
+        "para saber mais", "para obter mais informações", "see the documentation",
+        "for more information", "check the docs", "refer to the documentation",
+    ]
+    text_lower = full_text.lower()
+    if any(phrase in text_lower for phrase in BANNED_PHRASES):
+        return True
+
+    return False
+
+def _is_portuguese(text):
+    """Heurística simples: texto tem 상당 parte em português brasileiro."""
+    if not text or len(text.strip()) < 10:
+        return False
+    # Palavras fortes de português brasileiro
+    pt_indicators = [
+        "é", "da", "do", "dos", "das", "um", "uma", "para", "com", "que",
+        "este", "esta", "esse", "essa", "pode", "poder", "ter", "ser", "como",
+        "no", "na", "nos", "nas", "por", "mais", "menos", "muito", "pouco",
+        "esse", "q", "tb", "vc", "vamos", "podemos", "precisa", "preciso",
+    ]
+    # Se pelo menos 30% das palavras são indicadores portugueses
+    words = re.findall(r"[a-záàâãéíóúç]+", text.lower())
+    if not words:
+        return False
+    pt_count = sum(1 for w in words if w in pt_indicators)
+    return pt_count >= max(3, len(words) * 0.25)
+
+def _is_english_dominant(text):
+    """Detecta se o texto é majoritariamente inglês."""
+    if not text or len(text.strip()) < 20:
+        return False
+    # Inglês tende a ter muitas palavras curtas sem acentos
+    words = re.findall(r"[a-z]+", text.lower())
+    if not words:
+        return False
+    # Palavras típicas de inglês
+    en_words = {"the", "a", "an", "is", "are", "was", "were", "be", "been",
+                "have", "has", "had", "do", "does", "did", "will", "would",
+                "can", "could", "should", "may", "might", "must", "shall",
+                "to", "of", "in", "for", "on", "with", "at", "by", "from",
+                "as", "into", "through", "during", "before", "after", "above",
+                "below", "between", "under", "again", "further", "then", "once",
+                "here", "there", "when", "where", "why", "how", "all", "each",
+                "every", "both", "few", "more", "most", "other", "some", "such",
+                "no", "nor", "not", "only", "own", "same", "so", "than", "too",
+                "very", "just", "and", "but", "or", "if", "while", "although",
+                "because", "this", "that", "these", "those", "it", "its",
+                "use", "used", "using", "based", "instead", "also", "many",
+                "much", "get", "gets", "getting", "make", "made", "making",
+                "see", "seen", "know", "known", "think", "thought", "take",
+                "takes", "taking", "give", "gives", "giving", "find", "found",
+                "work", "works", "working", "need", "needs", "needed",
+                "like", "want", "wants", "way", "thing", "things", "part",
+                "place", "case", "cases", "type", "types", "example", "examples",
+                "include", "includes", "including", "support", "supports",
+                "supported", "help", "helps", "helping", "allow", "allows",
+                "enabled", "enable", "providing", "provides", "provide",
+                "such", "often", "usually", "common", "commonly", "various",
+                "different", "several", "certain", "particular", "specific",
+                "especially", "particularly", "especially", "especially",
+                "usually", "typically", "generally", "mostly", "almost",
+                "even", "still", "already", "yet", "any", "anything",
+                "everything", "something", "nothing", "someone", "anyone",
+                "everyone", "somewhere", "anywhere", "everywhere", "nowhere",
+                "hereby", "herein", "hereinafter", "hereby", "therein",
+                "thereto", "therewith", "wherein", "whereby", "whereupon",
+                "whereas", "whereafter", "wherefore", "whereto", "wherewith",
+                "hence", "henceforth", "thence", "thenceforth", "thereafter",
+                "thereby", "therein", "therefor", "thereof", "thereon",
+                "thereto", "thereunder", "thereupon", "therewith", "wherein",
+                "whereof", "whereon", "whereto", "whereunder", "whereupon",
+                "wherewith"}
+    en_count = sum(1 for w in words if w in en_words)
+    return en_count >= max(5, len(words) * 0.20)
+
 def analyze_repository(repo_info):
     """Analisa um repositório individualmente usando IA ou fallback contextual."""
     full_name = repo_info.get("full_name", "")
@@ -1285,20 +1385,42 @@ def main():
     with open(ALL_STARS_FILE, "w", encoding="utf-8") as f:
         json.dump(all_stars, f, indent=2, ensure_ascii=False)
 
-    # 4. Identificar novos repositórios que ainda não foram analisados
+    # 4. Processar todos os repositórios: novos e reanálise de análises estagnadas
     new_found = 0
+    revisited = 0
+    skipped = 0
+
     for repo in all_stars:
         repo_name = repo.get("full_name")
         repo_id = repo.get("id")
 
         if repo_name not in master_db or repo_id not in processed_ids:
+            # Repo novo — analisar agora
             analysis = analyze_repository(repo)
             master_db[repo_name] = analysis
             if repo_id:
                 processed_ids.add(repo_id)
             new_found += 1
+        else:
+            # Repo já processado — verificar se a análise está estagnada
+            existing = master_db.get(repo_name, {})
+            if _is_analysis_stale(existing, repo):
+                print(f"  → Reanalisando {repo_name} (análise anterior desatualizada)")
+                analysis = analyze_repository(repo)
+                master_db[repo_name] = analysis
+                revisited += 1
+            else:
+                skipped += 1
 
-    print(f"Novos repositórios processados nesta rodada: {new_found}")
+    print(f"Novos repositórios analisados nesta rodada: {new_found}")
+    if revisited > 0:
+        print(f"Reanálises realizadas (análises anteriormente estagnadas): {revisited}")
+    print(f"Repositórios com análise válida mantida: {skipped}")
+
+    print(f"Novos repositórios analisados nesta rodada: {new_found}")
+    if revisited > 0:
+        print(f"Reanálises realizadas (análises anteriormente estagnadas): {revisited}")
+    print(f"Repositórios com análise válida mantida: {skipped}")
 
     # 5. Salvar bases de dados atualizadas
     with open(MASTER_DB_FILE, "w", encoding="utf-8") as f:
