@@ -960,148 +960,148 @@
     "pro_tip": "Utilize exclusivamente em ambientes de teste autorizados e utilize as telas para instruir colaboradores sobre os riscos de conectar em redes Wi-Fi públicas desprotegidas."
   },
   "Zimbra-Community/shared-mailbox-toolkit": {
-    "what": "Projeto oficial [shared-mailbox-toolkit](https://github.com/Zimbra-Community/shared-mailbox-toolkit) em JavaScript: Create and manage shared mailboxes. Share department and team mailboxes with individual users. (Family mailbox). Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Aceleração de fluxos de engenharia em JavaScript; suporte e extensibilidade para projetos de software escaláveis.",
-    "quickstart": "```bash\ngit clone https://github.com/Zimbra-Community/shared-mailbox-toolkit.git\ncd shared-mailbox-toolkit\nnpm install\nnpm run dev\n```",
-    "pro_tip": "Ao integrar o `shared-mailbox-toolkit`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de JavaScript."
+    "what": "Create and manage shared mailboxes. Share department and team mailboxes with individual users. (Family mailbox) Desenvolvido primariamente em JavaScript, mantido por @Zimbra-Community.",
+    "use_cases": "Automação e desenvolvimento em JavaScript; integração em pipelines e projetos reais.",
+    "quickstart": "```bash\nrm -Rf /opt/zimbra/zimlets-deployed/_dev/tk_barrydegraaff_sharetoolkit_client\nrm -Rf /opt/zimbra/lib/ext/ShareToolkit\nsu - zimbra -c \"zmzimletctl undeploy tk_barrydegraaff_sharetoolkit_admin\"\nsu - zimbra -c \"zmmailboxdctl restart\"\n```",
+    "pro_tip": "Configure JVM flags com `-XX:+UseContainerSupport` e garanta que pools de conexões e threads de 'shared-mailbox-toolkit' respeitem os limites de CPU da máquina."
   },
   "VoltAgent/awesome-design-md": {
-    "what": "Projeto oficial [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) em Docs / Shell: A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em awesome-list, design-md, design-system, design-tokens; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/VoltAgent/awesome-design-md.git\ncd awesome-design-md\n# Execute as instruções de build em Docs / Shell\n```",
-    "pro_tip": "Ao integrar o `awesome-design-md`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Docs / Shell."
+    "what": "Coleção abrangente e utilitários de DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. Desenvolvido primariamente em Docs / Shell, mantido por @VoltAgent.",
+    "use_cases": "Automação e desenvolvimento em Docs / Shell; integração em pipelines e projetos reais.",
+    "quickstart": "```bash\ngit clone https://github.com/VoltAgent/awesome-design-md.git\ncd awesome-design-md\n```",
+    "pro_tip": "Compile 'awesome-design-md' com sanitizers de memória (`-fsanitize=address,undefined`) durante o desenvolvimento para detectar buffer overflows e vazamentos de memória imediatamente."
   },
   "appsmithorg/appsmith": {
-    "what": "Projeto oficial [appsmith](https://github.com/appsmithorg/appsmith) em TypeScript: Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em admin-dashboard, admin-panels, app-builder, automation; automação de rotinas de desenvolvimento e integração contínua.",
+    "what": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API. (com React | em Java) Desenvolvido primariamente em TypeScript, mantido por @appsmithorg.",
+    "use_cases": "There are two ways to start using Appsmith:",
     "quickstart": "```bash\ngit clone https://github.com/appsmithorg/appsmith.git\ncd appsmith\nnpm install\nnpm run dev\n```",
-    "pro_tip": "Ao integrar o `appsmith`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+    "pro_tip": "Utilize dynamic imports com Suspense no projeto 'appsmith' para lazy loading de componentes pesados, reduzindo drasticamente o First Contentful Paint (FCP) inicial."
   },
   "Dokploy/dokploy": {
-    "what": "Projeto oficial [dokploy](https://github.com/Dokploy/dokploy) em TypeScript: Open Source Alternative to Vercel, Netlify and Heroku. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em agents, ai, backend, backups; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/Dokploy/dokploy.git\ncd dokploy\nnpm install\nnpm run dev\n```",
-    "pro_tip": "Ao integrar o `dokploy`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+    "what": "Projeto open-source de Alternative to Vercel, Netlify and Heroku. (focado em inteligência artificial | com suporte a containers Docker | focado em práticas DevOps | com PostgreSQL | com MySQL) Desenvolvido primariamente em TypeScript, mantido por @Dokploy.",
+    "use_cases": "Empacotamento e execução consistentes em qualquer ambiente via containers Docker | Integração com pipelines de CI/CD para build e deploy automatizado | Construção de interfaces web reativas e responsivas para usuários finais | Desenvolvimento de lógica de negócio, regras e processamento no servidor",
+    "quickstart": "```bash\ncurl -sSL https://dokploy.com/install.sh | bash\n```",
+    "pro_tip": "Adicione `.dockerignore` detalhado e use multi-stage builds no Dockerfile de 'dokploy' para reduzir a imagem de produção e acelerar pipelines de CI/CD."
   },
   "documenso/documenso": {
-    "what": "Projeto oficial [documenso](https://github.com/documenso/documenso) em TypeScript: The Open Source DocuSign Alternative. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em digital-signature, document-signing, docusign-alternative, e-signature; automação de rotinas de desenvolvimento e integração contínua.",
+    "what": "The Open Source DocuSign Alternative. (com PostgreSQL | com Next.js | com Prisma ORM) Desenvolvido primariamente em TypeScript, mantido por @documenso.",
+    "use_cases": "Automação e desenvolvimento em TypeScript; integração em pipelines e projetos reais.",
     "quickstart": "```bash\ngit clone https://github.com/documenso/documenso.git\ncd documenso\nnpm install\nnpm run dev\n```",
-    "pro_tip": "Ao integrar o `documenso`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+    "pro_tip": "Utilize dynamic imports com Suspense no projeto 'documenso' para lazy loading de componentes pesados, reduzindo drasticamente o First Contentful Paint (FCP) inicial."
   },
   "BerriAI/litellm": {
-    "what": "Projeto oficial [litellm](https://github.com/BerriAI/litellm) em Python: The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em ai-gateway, anthropic, azure-openai, bedrock; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/BerriAI/litellm.git\ncd litellm\npip install -r requirements.txt\npython main.py\n```",
-    "pro_tip": "Ao integrar o `litellm`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Python."
+    "what": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM] (otimizado para modelos de linguagem grandes) Desenvolvido primariamente em Python, mantido por @BerriAI.",
+    "use_cases": "Automação e desenvolvimento em Python; integração em pipelines e projetos reais.",
+    "quickstart": "```bash\n### AI Gateway (Proxy Server)\n\n[**Getting Started - E2E Tutorial**](https://docs.litellm.ai/docs/proxy/docker_quick_start) - Setup virtual keys, make your first request\n```",
+    "pro_tip": "Ao integrar 'litellm' com modelos de linguagem, utilize streaming de respostas e ajuste parâmetros de chunking com overlap de 10-15% para maximizar relevância de contexto sem estourar limites de tokens."
   },
   "go-gitea/gitea": {
-    "what": "Projeto oficial [gitea](https://github.com/go-gitea/gitea) em Go: Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em bitbucket, cicd, devops, docker-registry-v2; automação de rotinas de desenvolvimento e integração contínua.",
+    "what": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD (focado em práticas DevOps | com Vue.js) Desenvolvido primariamente em Go, mantido por @go-gitea.",
+    "use_cases": "Integração com pipelines de CI/CD para build e deploy automatizado",
     "quickstart": "```bash\ngit clone https://github.com/go-gitea/gitea.git\ncd gitea\ngo build\n```",
-    "pro_tip": "Ao integrar o `gitea`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Go."
+    "pro_tip": "Configure cache de dependências e execute matrizes de teste em paralelo nos workflows de CI de 'gitea' para reduzir expressivamente o tempo de feedback."
   },
   "nocodb/nocodb": {
-    "what": "Projeto oficial [nocodb](https://github.com/nocodb/nocodb) em TypeScript: 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em airtable, airtable-alternative, automatic-api, hacktoberfest; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/nocodb/nocodb.git\ncd nocodb\nnpm install\nnpm run dev\n```",
-    "pro_tip": "Ao integrar o `nocodb`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+    "what": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative (com PostgreSQL | com SQLite) Desenvolvido primariamente em TypeScript, mantido por @nocodb.",
+    "use_cases": "docker run -d \\",
+    "quickstart": "```bash\n## Auto-upstall\nAuto-upstall is a single command that sets up NocoDB on a server for production usage.\nBehind the scenes it auto-generates docker-compose for you.\n```",
+    "pro_tip": "Crie índices parciais e utilize connection pooling (ex: PgBouncer) com 'nocodb' para manter latências baixas e economizar conexões abertas no banco de dados."
   },
   "dani-garcia/vaultwarden": {
-    "what": "Projeto oficial [vaultwarden](https://github.com/dani-garcia/vaultwarden) em Rust: Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em bitwarden, bitwarden-rs, docker, rocket; automação de rotinas de desenvolvimento e integração contínua.",
+    "what": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs (com suporte a containers Docker) Desenvolvido primariamente em Rust, mantido por @dani-garcia.",
+    "use_cases": "Empacotamento e execução consistentes em qualquer ambiente via containers Docker",
     "quickstart": "```bash\ngit clone https://github.com/dani-garcia/vaultwarden.git\ncd vaultwarden\ncargo build --release\n```",
-    "pro_tip": "Ao integrar o `vaultwarden`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Rust."
+    "pro_tip": "Adicione `.dockerignore` detalhado e use multi-stage builds no Dockerfile de 'vaultwarden' para reduzir a imagem de produção e acelerar pipelines de CI/CD."
   },
   "louislam/uptime-kuma": {
-    "what": "Projeto oficial [uptime-kuma](https://github.com/louislam/uptime-kuma) em JavaScript: A fancy self-hosted monitoring tool. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em docker, monitor, monitoring, responsive; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/louislam/uptime-kuma.git\ncd uptime-kuma\nnpm install\nnpm run dev\n```",
-    "pro_tip": "Ao integrar o `uptime-kuma`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de JavaScript."
+    "what": "A fancy self-hosted monitoring tool (com suporte a containers Docker | focado em monitoramento | com WebSockets) Desenvolvido primariamente em JavaScript, mantido por @louislam.",
+    "use_cases": "Empacotamento e execução consistentes em qualquer ambiente via containers Docker | Monitoramento contínuo de métricas, logs e health checks em produção",
+    "quickstart": "```bash\nmkdir uptime-kuma\ncd uptime-kuma\ncurl -o compose.yaml https://raw.githubusercontent.com/louislam/uptime-kuma/master/compose.yaml\ndocker compose up -d\n```",
+    "pro_tip": "Adicione `.dockerignore` detalhado e use multi-stage builds no Dockerfile de 'uptime-kuma' para reduzir a imagem de produção e acelerar pipelines de CI/CD."
   },
   "tw93/Pake": {
-    "what": "Projeto oficial [Pake](https://github.com/tw93/Pake) em Rust: 🤱🏻 Turn any webpage into a desktop app with one command. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em chatgpt, claude, desktop, gemini; automação de rotinas de desenvolvimento e integração contínua.",
+    "what": "🤱🏻 Turn any webpage into a desktop app with one command. (para macOS) Desenvolvido primariamente em Rust, mantido por @tw93.",
+    "use_cases": "- **Beginners**: Download ready-made [Popular Packages](#popular-packages) or use [Online Building](docs/github-actions-usage.md) with no environment setup required",
     "quickstart": "```bash\ngit clone https://github.com/tw93/Pake.git\ncd Pake\ncargo build --release\n```",
-    "pro_tip": "Ao integrar o `Pake`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Rust."
+    "pro_tip": "Isole a comunicação IPC entre frontend e backend no 'Pake' com validação de payload para prevenir brechas de segurança de execução remota de código."
   },
   "DeusData/codebase-memory-mcp": {
-    "what": "Projeto oficial [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) em C: High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em aider, ast, claude-code, code-analysis; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/DeusData/codebase-memory-mcp.git\ncd codebase-memory-mcp\n# Execute as instruções de build em C\n```",
-    "pro_tip": "Ao integrar o `codebase-memory-mcp`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de C."
+    "what": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies. (com SQLite) Desenvolvido primariamente em C, mantido por @DeusData.",
+    "use_cases": "Automação e desenvolvimento em C; integração em pipelines e projetos reais.",
+    "quickstart": "```bash\ncurl -fsSL https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/install.sh | bash\n```",
+    "pro_tip": "Compile 'codebase-memory-mcp' com sanitizers de memória (`-fsanitize=address,undefined`) durante o desenvolvimento para detectar buffer overflows e vazamentos de memória imediatamente."
   },
   "livekit/agents": {
-    "what": "Projeto oficial [agents](https://github.com/livekit/agents) em Python: A framework for building realtime voice AI agents 🤖🎙️📹. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em agents, ai, openai, real-time; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/livekit/agents.git\ncd agents\npip install -r requirements.txt\npython main.py\n```",
-    "pro_tip": "Ao integrar o `agents`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Python."
+    "what": "A framework for building realtime voice AI agents 🤖🎙️📹 (focado em inteligência artificial) Desenvolvido primariamente em Python, mantido por @livekit.",
+    "use_cases": "To install the core Agents library, along with plugins for popular model providers:",
+    "quickstart": "```bash\npip install \"livekit-agents[openai,deepgram,cartesia]\"\n```",
+    "pro_tip": "Ao integrar 'agents' com modelos de linguagem, utilize streaming de respostas e ajuste parâmetros de chunking com overlap de 10-15% para maximizar relevância de contexto sem estourar limites de tokens."
   },
   "assafelovic/gpt-researcher": {
-    "what": "Projeto oficial [gpt-researcher](https://github.com/assafelovic/gpt-researcher) em Python: An autonomous agent that conducts deep research on any data using any LLM providers. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em agent, ai, automation, deepresearch; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/assafelovic/gpt-researcher.git\ncd gpt-researcher\npip install -r requirements.txt\npython main.py\n```",
-    "pro_tip": "Ao integrar o `gpt-researcher`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Python."
+    "what": "An autonomous agent that conducts deep research on any data using any LLM providers (focado em inteligência artificial) Desenvolvido primariamente em Python, mantido por @assafelovic.",
+    "use_cases": "1. Install Python 3.11 or later. [Guide](https://www.tutorialsteacher.com/python/install-python).",
+    "quickstart": "```bash\ngit clone https://github.com/assafelovic/gpt-researcher.git\n    cd gpt-researcher\n    ```\n\n3. Set up API keys by exporting them or storing them in a `.env` file.\n\n    ```bash\n    export OPENAI_API_KEY={Your OpenAI API Key here}\n    export TAVILY_API_KEY={Your Tavily API Key here}\n    ```\n\n    (Optional) For enhanced tracing and observability, you can also set:\n    \n    ```bash\n    # export LANGCHAIN_TRACING_V2=true\n    # export LANGCHAIN_API_KEY={Your LangChain API Key here}\n    ```\n\n    For custom OpenAI-compatible APIs (e.g., local models, other providers), you can also set:\n    \n    ```bash\n    export OPENAI_BASE_URL={Your custom API base URL here}\n    ```\n\n4. Install dependencies and start the server:\n\n    ```bash\n    pip install -r requirements.txt\n    python -m uvicorn main:app --reload\n    ```\n\nVisit [http://localhost:8000](http://localhost:8000) to start.\n\nFor other setups (e.g., Poetry or virtual environments), check the [Getting Started page](https://docs.gptr.dev/docs/gpt-researcher/getting-started).\n\n## Run as PIP package\n```",
+    "pro_tip": "Ao integrar 'gpt-researcher' com modelos de linguagem, utilize streaming de respostas e ajuste parâmetros de chunking com overlap de 10-15% para maximizar relevância de contexto sem estourar limites de tokens."
   },
   "Aider-AI/aider": {
-    "what": "Projeto oficial [aider](https://github.com/Aider-AI/aider) em Python: aider is AI pair programming in your terminal. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em anthropic, chatgpt, claude-3, cli; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/Aider-AI/aider.git\ncd aider\npip install -r requirements.txt\npython main.py\n```",
-    "pro_tip": "Ao integrar o `aider`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Python."
+    "what": "aider is AI pair programming in your terminal (como ferramenta de linha de comando) Desenvolvido primariamente em Python, mantido por @Aider-AI.",
+    "use_cases": "Automação de tarefas repetitivas diretamente no terminal sem depender de interface gráfica | Execução via linha de comando em scripts de shell e pipelines de automação",
+    "quickstart": "```bash\npython -m pip install aider-install\naider-install\n\n# Change directory into your codebase\ncd /to/your/project\n\n# DeepSeek\naider --model deepseek --api-key deepseek=<key>\n\n# Claude 3.7 Sonnet\naider --model sonnet --api-key anthropic=<key>\n\n# o3-mini\naider --model o3-mini --api-key openai=<key>\n```",
+    "pro_tip": "Adicione suporte a flags `--help` descritivas e auto-completar de shell (Bash/Zsh/Fish) nas ferramentas CLI de 'aider' para aumentar a velocidade de uso no dia a dia."
   },
   "danny-avila/LibreChat": {
-    "what": "Projeto oficial [LibreChat](https://github.com/danny-avila/LibreChat) em TypeScript: Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em ai, anthropic, artifacts, aws; automação de rotinas de desenvolvimento e integração contínua.",
+    "what": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active (focado em inteligência artificial | com integração AWS | com integração Azure) Desenvolvido primariamente em TypeScript, mantido por @danny-avila.",
+    "use_cases": "Automação e desenvolvimento em TypeScript; integração em pipelines e projetos reais.",
     "quickstart": "```bash\ngit clone https://github.com/danny-avila/LibreChat.git\ncd LibreChat\nnpm install\nnpm run dev\n```",
-    "pro_tip": "Ao integrar o `LibreChat`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+    "pro_tip": "Ao integrar 'LibreChat' com modelos de linguagem, utilize streaming de respostas e ajuste parâmetros de chunking com overlap de 10-15% para maximizar relevância de contexto sem estourar limites de tokens."
   },
   "openinterpreter/openinterpreter": {
-    "what": "Projeto oficial [openinterpreter](https://github.com/openinterpreter/openinterpreter) em Rust: A coding agent for open models like Kimi K3. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em acp, coding-agent, deepseek, kimi; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/openinterpreter/openinterpreter.git\ncd openinterpreter\ncargo build --release\n```",
-    "pro_tip": "Ao integrar o `openinterpreter`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Rust."
+    "what": "A coding agent for open models like Kimi K3 Desenvolvido primariamente em Rust, mantido por @openinterpreter.",
+    "use_cases": "macOS and Linux:",
+    "quickstart": "```bash\ncurl -fsSL https://www.openinterpreter.com/install | sh\n```",
+    "pro_tip": "Execute `cargo clippy -- -D warnings` e configure perfis de release com `lto = true` no `Cargo.toml` de 'openinterpreter' para máxima otimização e binários enxutos."
   },
   "Osmantic/ODS": {
-    "what": "Projeto oficial [ODS](https://github.com/Osmantic/ODS) em Python: Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and image generation. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em ai-agents, amd, comfyui, docker; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/Osmantic/ODS.git\ncd ODS\npip install -r requirements.txt\npython main.py\n```",
-    "pro_tip": "Ao integrar o `ODS`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Python."
+    "what": "Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and image generation. (otimizado para modelos de linguagem grandes | com arquiterura RAG (Retrieval-Augmented Generation) | com suporte a containers Docker) Desenvolvido primariamente em Python, mantido por @Osmantic.",
+    "use_cases": "Empacotamento e execução consistentes em qualquer ambiente via containers Docker",
+    "quickstart": "```bash\ncurl -fsSL https://install.osmantic.com/ods.sh | bash\n```",
+    "pro_tip": "Adicione `.dockerignore` detalhado e use multi-stage builds no Dockerfile de 'ODS' para reduzir a imagem de produção e acelerar pipelines de CI/CD."
   },
   "elie222/rakazo": {
-    "what": "Projeto oficial [rakazo](https://github.com/elie222/rakazo) em TypeScript: Open-source Grok Bot alternative. Choose your own model and sandbox. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em ai-agents, chatgpt, docker, electron; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/elie222/rakazo.git\ncd rakazo\nnpm install\nnpm run dev\n```",
-    "pro_tip": "Ao integrar o `rakazo`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+    "what": "Projeto open-source de Grok Bot alternative. Choose your own model and sandbox. (otimizado para modelos de linguagem grandes | com suporte a containers Docker) Desenvolvido primariamente em TypeScript, mantido por @elie222.",
+    "use_cases": "Empacotamento e execução consistentes em qualquer ambiente via containers Docker",
+    "quickstart": "```bash\ngit clone https://github.com/elie222/rakazo.git\ncd rakazo\ncp .env.example .env\n```",
+    "pro_tip": "Adicione `.dockerignore` detalhado e use multi-stage builds no Dockerfile de 'rakazo' para reduzir a imagem de produção e acelerar pipelines de CI/CD."
   },
   "elie222/botdirectory.ai": {
-    "what": "Projeto oficial [botdirectory.ai](https://github.com/elie222/botdirectory.ai) em Astro: Open-source directory of agent-bot prompts for Grok Bot, Rakazo, and any agent — botdirectory.ai. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em agents, ai-agents, astro, automation; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/elie222/botdirectory.ai.git\ncd botdirectory.ai\n# Execute as instruções de build em Astro\n```",
-    "pro_tip": "Ao integrar o `botdirectory.ai`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Astro."
+    "what": "Projeto open-source de directory of agent-bot prompts for Grok Bot, Rakazo, and any agent — botdirectory.ai (otimizado para modelos de linguagem grandes) Desenvolvido primariamente em Astro, mantido por @elie222.",
+    "use_cases": "Automação e desenvolvimento em Astro; integração em pipelines e projetos reais.",
+    "quickstart": "```bash\n1. Fork this repo and add `bots/<slug>.md` (slug = name, lowercased,\n   non-alphanumerics → `-`).\n2. Open a pull request. CI validates the file; once merged it's live.\n\nOr skip git entirely: **tag [@botdirectoryai](https://x.com/botdirectoryai) on X**\nwith your prompt and the mention bot opens the PR for you.\n\nFull contract, category list, and quality bar: [CONTRIBUTING.md](CONTRIBUTING.md).\n\n## Public API\n\n`GET https://api.botdirectory.ai/api/bots` returns listings as paginated JSON.\nIt accepts `q`, `category`, `integration`, `page`, `limit` (maximum 100), and\n`sort` (`newest` or `name`). For append-safe synchronization, begin with\n`cursor=start` and reuse the returned `sync.nextCursor`:\n```",
+    "pro_tip": "Ao integrar 'botdirectory.ai' com modelos de linguagem, utilize streaming de respostas e ajuste parâmetros de chunking com overlap de 10-15% para maximizar relevância de contexto sem estourar limites de tokens."
   },
   "VoltAgent/awesome-claude-code-subagents": {
-    "what": "Projeto oficial [awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) em Shell: A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em ai-agent-framework, ai-agent-tools, ai-agents, awesome; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/VoltAgent/awesome-claude-code-subagents.git\ncd awesome-claude-code-subagents\n# Execute as instruções de build em Shell\n```",
-    "pro_tip": "Ao integrar o `awesome-claude-code-subagents`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Shell."
+    "what": "Coleção abrangente e utilitários de 100+ specialized Claude Code subagents covering a wide range of development use cases (como lista curada (awesome-list)) Desenvolvido primariamente em Shell, mantido por @VoltAgent.",
+    "use_cases": "claude plugin marketplace add VoltAgent/awesome-claude-code-subagents",
+    "quickstart": "```bash\ngit clone https://github.com/VoltAgent/awesome-claude-code-subagents.git\ncd awesome-claude-code-subagents\n./install-agents.sh\n```",
+    "pro_tip": "Inspecione a arquitetura modular e os testes na raiz de 'awesome-claude-code-subagents' antes de estender funcionalidades, garantindo retrocompatibilidade com novas versões."
   },
   "Donchitos/Claude-Code-Game-Studios": {
-    "what": "Projeto oficial [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) em Shell: Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em ai-agents, ai-assisted-development, anthropic, claude; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/Donchitos/Claude-Code-Game-Studios.git\ncd Claude-Code-Game-Studios\n# Execute as instruções de build em Shell\n```",
-    "pro_tip": "Ao integrar o `Claude-Code-Game-Studios`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Shell."
+    "what": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. (desenvolvimento de jogos | para Unity | para Godot) Desenvolvido primariamente em Shell, mantido por @Donchitos.",
+    "use_cases": "- [Git](https://git-scm.com/)",
+    "quickstart": "```bash\nTier 1 — Directors (Opus)\n  creative-director    technical-director    producer\n\nTier 2 — Department Leads (Sonnet)\n  game-designer        lead-programmer       art-director\n  audio-director       narrative-director    qa-lead\n  release-manager      localization-lead\n\nTier 3 — Specialists (Sonnet/Haiku)\n  gameplay-programmer  engine-programmer     ai-programmer\n  network-programmer   tools-programmer      ui-programmer\n  systems-designer     level-designer        economy-designer\n  technical-artist     sound-designer        writer\n  world-builder        ux-designer           prototyper\n  performance-analyst  devops-engineer       analytics-engineer\n  security-engineer    qa-tester             accessibility-specialist\n  live-ops-designer    community-manager\n```",
+    "pro_tip": "Inspecione a arquitetura modular e os testes na raiz de 'Claude-Code-Game-Studios' antes de estender funcionalidades, garantindo retrocompatibilidade com novas versões."
   },
   "codeaashu/claude-code": {
-    "what": "Projeto oficial [claude-code](https://github.com/codeaashu/claude-code) em TypeScript: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Implementação de soluções focadas em claude, claude-ai, claude-code, claude-code-leaked; automação de rotinas de desenvolvimento e integração contínua.",
-    "quickstart": "```bash\ngit clone https://github.com/codeaashu/claude-code.git\ncd claude-code\nnpm install\nnpm run dev\n```",
-    "pro_tip": "Ao integrar o `claude-code`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de TypeScript."
+    "what": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. Desenvolvido primariamente em TypeScript, mantido por @codeaashu.",
+    "use_cases": "Automação e desenvolvimento em TypeScript; integração em pipelines e projetos reais.",
+    "quickstart": "```bash\ngit clone https://github.com/codeaashu/claude-code.git ~/claude-code \\\n  && cd ~/claude-code/mcp-server \\\n  && npm install && npm run build \\\n  && claude mcp add claude-code-explorer -- node ~/claude-code/mcp-server/dist/index.js\n```",
+    "pro_tip": "Ative `strict: true` no `tsconfig.json` de 'claude-code' e adicione aliases de path (`@/*`) para simplificar refatorações e capturar erros de tipo em tempo de compilação."
   },
   "ultraworkers/claw-code": {
-    "what": "Projeto oficial [claw-code](https://github.com/ultraworkers/claw-code) em Rust: An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. Desenvolvido para oferecer alto desempenho e facilidade de integração em fluxos modernos de engenharia.",
-    "use_cases": "Aceleração de fluxos de engenharia em Rust; suporte e extensibilidade para projetos de software escaláveis.",
-    "quickstart": "```bash\ngit clone https://github.com/ultraworkers/claw-code.git\ncd claw-code\ncargo build --release\n```",
-    "pro_tip": "Ao integrar o `claw-code`, configure as variáveis de ambiente no `.env` e consulte a documentação oficial para explorar flags de otimização específicas de Rust."
+    "what": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. Desenvolvido primariamente em Rust, mantido por @ultraworkers.",
+    "use_cases": "Automação e desenvolvimento em Rust; integração em pipelines e projetos reais.",
+    "quickstart": "```bash\n> cargo install agent-code   # upstream binary — installs 'agent.exe' (Windows) / 'agent' (Unix), NOT 'agent-code'\n> ```\n> This repo (`ultraworkers/claw-code`) is **build-from-source only** — follow the steps below.\n```",
+    "pro_tip": "Execute `cargo clippy -- -D warnings` e configure perfis de release com `lto = true` no `Cargo.toml` de 'claw-code' para máxima otimização e binários enxutos."
   },
   "yorukot/superfile": {
     "what": "Pretty fancy and modern terminal file manager (como ferramenta de linha de comando) Desenvolvido primariamente em Go, mantido por @yorukot.",
@@ -1126,5 +1126,11 @@
     "use_cases": "Automação e desenvolvimento em C++; integração em pipelines e projetos reais.",
     "quickstart": "```bash\ngit clone https://github.com/cifertech/RF-Clown.git\ncd RF-Clown\n```",
     "pro_tip": "Compile 'RF-Clown' com sanitizers de memória (`-fsanitize=address,undefined`) durante o desenvolvimento para detectar buffer overflows e vazamentos de memória imediatamente."
+  },
+  "yoanbernabeu/grepai": {
+    "what": "Semantic Search & Call Graphs for AI Agents (100% Local) (focado em inteligência artificial | como ferramenta de linha de comando) Desenvolvido primariamente em C, mantido por @yoanbernabeu.",
+    "use_cases": "Automação de tarefas repetitivas diretamente no terminal sem depender de interface gráfica | Execução via linha de comando em scripts de shell e pipelines de automação",
+    "quickstart": "```bash\nbrew install yoanbernabeu/tap/grepai\n```",
+    "pro_tip": "Ao integrar 'grepai' com modelos de linguagem, utilize streaming de respostas e ajuste parâmetros de chunking com overlap de 10-15% para maximizar relevância de contexto sem estourar limites de tokens."
   }
 }
