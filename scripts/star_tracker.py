@@ -33,7 +33,15 @@ try:
 except ImportError:
     REPO_KNOWLEDGE_BASE = {}
 
+# Paralelismo para análise de múltiplos repositórios simultaneamente
+# (I/O-bound: chamadas HTTP para APIs de IA; threads nativas, sem novas dependências)
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Cache global de READMEs em memória (evita requisições HTTP duplicadas ao GitHub
+# durante a mesma execução; útil com workers concorrentes em edge cases de repetição)
+REPO_README_CACHE = {}
 
 # Carregador de variáveis de ambiente (.env)
 def load_env_file():
@@ -299,15 +307,21 @@ def _detect_readme_language(readme_text):
 
 
 def get_repo_readme(owner, repo):
-    """Obtém o README do repositório decodificado."""
+    """Obtém o README do repositório decodificado, com cache em memória para evitar
+    requisições HTTP duplicadas ao GitHub durante a mesma execução."""
+    cache_key = f"{owner}/{repo}"
+    if cache_key in REPO_README_CACHE:
+        return REPO_README_CACHE[cache_key]
     url = f"https://api.github.com/repos/{owner}/{repo}/readme"
     data = github_request(url)
+    readme = ""
     if data and isinstance(data, dict) and "content" in data:
         try:
-            return base64.b64decode(data["content"]).decode("utf-8", errors="ignore")[:7000]
+            readme = base64.b64decode(data["content"]).decode("utf-8", errors="ignore")[:7000]
         except Exception:
-            return ""
-    return ""
+            readme = ""
+    REPO_README_CACHE[cache_key] = readme
+    return readme
 
 # ==============================================================================
 # PARSER DE RESPOSTAS DE IA
@@ -620,16 +634,17 @@ def generate_smart_dynamic_analysis(repo_info, readme_text):
 def _extract_valid_code_block(code_blocks, language, full_name, name):
     """Extrai o bloco de código mais relevante do README, limpando placeholders de chave e guias textuais."""
     clean_code = ""
+    bad_markers = ["getting started", "visit http", "see docs", "deployment successful", "preview url", "claim url", "your-project", "navigate to"]
     if code_blocks:
         for cb in code_blocks:
             cb_clean = cb.strip()
+            cb_lower = cb_clean.lower()
+            if any(b in cb_lower for b in bad_markers):
+                continue
             if len(cb_clean) > 10 and any(
-                k in cb_clean.lower() for k in ["install", "run", "clone", "cargo", "docker", "pip", "npm", "go build", "python"]
+                k in cb_lower for k in ["install", "run", "clone", "cargo", "docker", "pip", "npm", "npx", "go build", "python"]
             ):
-                # Descartar blocos com texto explicativo misturado
-                if "getting started" in cb_clean.lower() or "visit http" in cb_clean.lower() or "see docs" in cb_clean.lower():
-                    continue
-                if any(cmd in cb_clean for cmd in ["pip install", "npm install", "cargo build", "docker", "go build", "git clone"]):
+                if any(cmd in cb_clean for cmd in ["pip install", "npm install", "npx ", "cargo build", "docker", "go build", "git clone"]):
                     clean_code = cb_clean
                     break
                 if any(cmd in cb_clean for cmd in ["run", "start", "serve", "execute"]) and "npm" in cb_clean:
@@ -638,14 +653,16 @@ def _extract_valid_code_block(code_blocks, language, full_name, name):
         if not clean_code:
             for cb in code_blocks:
                 cb_clean = cb.strip()
-                if len(cb_clean) > 10 and "getting started" not in cb_clean.lower():
+                cb_lower = cb_clean.lower()
+                if any(b in cb_lower for b in bad_markers):
+                    continue
+                if len(cb_clean) > 10:
                     clean_code = cb_clean
                     break
 
     if not clean_code:
         clean_code = _default_code_for_language(language.lower(), full_name, name)
 
-    # Sanitização de placeholders de chaves para evitar falsos positivos
     clean_code = re.sub(r'--api-key\s+\w+=<key>', '# Configure a chave de API necessaria via variavel de ambiente', clean_code)
     clean_code = re.sub(r'export\s+[A-Z_]+_API_KEY=.*', '# Defina suas chaves de API no ambiente ou arquivo .env', clean_code)
     return clean_code
@@ -670,51 +687,34 @@ def _default_code_for_language(lang_lower, full_name, name):
     return base
 
 def _build_what_is(description, language, topics_set, readme_text, full_name, owner, name):
-    """Constroi a descrição 'O que é' usando informações reais do repo em pt-BR."""
+    """Constroi a descrição 'O que é' usando informações reais do repo 100% em pt-BR."""
+    if full_name in REPO_KNOWLEDGE_BASE and REPO_KNOWLEDGE_BASE[full_name].get("what"):
+        return REPO_KNOWLEDGE_BASE[full_name]["what"]
+
     if description and len(description.strip()) > 15:
         desc_pt = _localize_description(description, topics_set, language)
-        return f"{desc_pt} Desenvolvido primariamente em {language}, mantido por @{owner}."
+        if desc_pt and _is_portuguese(desc_pt):
+            return desc_pt
 
     if readme_text:
         purpose = _extract_purpose_from_readme(readme_text, topics_set)
         if purpose and len(purpose) > 20:
             desc_pt = _localize_description(purpose, topics_set, language)
-            return f"{desc_pt} Implementado em {language}, mantido por @{owner}."
+            if desc_pt and _is_portuguese(desc_pt):
+                return desc_pt
 
     inferred = _infer_from_topics(topics_set, language, name)
     if inferred:
-        return f"{inferred}. Mantido por @{owner}."
+        return inferred
 
-    return f"Ferramenta e módulo '{name}' desenvolvido em {language}, mantido por @{owner} para integração e desenvolvimento de software."
+    focus = _derive_repo_focus(description, topics_set, name, full_name, language)
+    return f"{focus} desenvolvida em {language} para uso prático em '{name}'."
 
 def _localize_description(description, topics_set, language):
     """Adaptar description inglesa para pt-BR com contexto técnico e enriquecimento por tópicos."""
     desc = description.strip()
 
     prefix_map = [
-        (r"^The\s+open-source\s+communication\s+infrastructure\b.*", "Infraestrutura open-source de comunicação e notificações multicanal para agentes e produtos modernos."),
-        (r"^The\s+world's\s+most\s+flexible\s+commerce\s+platform\b.*", "Plataforma de comércio eletrônico flexível e modular para desenvolvedores e agentes autônomos."),
-        (r"^The\s+open-source\s+alternative\s+to\s+Claude\s+Cowork\b.*", "Alternativa open-source e auto-hospedável ao Claude Cowork para colaboração inteligente."),
-        (r"^The\s+agent\s+that\s+grows\s+with\s+you\b.*", "Agente de inteligência artificial adaptativo com aprendizado contínuo e autonomia operacional."),
-        (r"^The\s+ZAP\s+by\s+Checkmarx\s+Core\s+project\b.*", "Projeto principal do OWASP ZAP para análise dinâmica de segurança e testes de intrusão em aplicações web."),
-        (r"^Turn\s+any\s+codebase\b.*", "Transforma qualquer repositório de código, documentação e schemas em um grafo de conhecimento consultável via IA."),
-        (r"^(?:A|An)\s+curated\s+collection\s+of\s+1000\+\s+agent\s+skills\b.*", "Coleção com curadoria de mais de 1000 habilidades e ferramentas para agentes de inteligência artificial."),
-        (r"^The\s+most\s+powerful\s+and\s+modular\b.*", "Interface gráfica modular baseada em nós e API avançada para modelos de difusão e IA gerativa."),
-        (r"^This\s+is\s+list\s+of\s+discounts\b.*", "Guia com curadoria de descontos e benefícios em ferramentas SaaS, Cloud e infraestrutura para estudantes e desenvolvedores."),
-        (r"^The\s+open-source\s+AI\s+voice\s+studio\b.*", "Estúdio open-source de voz com inteligência artificial para clonagem, síntese e criação em tempo real."),
-        (r"^The\s+agent\s+harness\s+performance\s+optimization\s+system\b.*", "Sistema de otimização e controle de desempenho para execução segura e orquestração de agentes."),
-        (r"^(?:A|An)\s+agentic\s+skills\s+framework\b.*", "Framework de habilidades agênticas e metodologia robusta para desenvolvimento assistido por IA."),
-        (r"^The\s+definitive\s+list\b.*", "Lista definitiva com curadoria das melhores ferramentas e bibliotecas para desenvolvimento."),
-        (r"^The\s+easy-to-use\s+open\s+source\b.*", "Ferramenta open-source intuitiva de Business Intelligence e análise de dados para geração de dashboards e métricas."),
-        (r"^The\s+free\s+coding\s+agent\b.*", "Agente autônomo e gratuito de programação para assistência e automação de código no editor."),
-        (r"^Turn\s+any\s+PDF\s+or\s+image\s+document\b.*", "Transforma qualquer PDF ou documento de imagem em dados estruturados para pipelines de IA via OCR de alta precisão."),
-        (r"^The\s+ultimate\s+RAG\s+for\s+your\s+monorepo\b.*", "Sistema avançado de RAG para monorepositórios com consultas semânticas e edição de bases de código multilíngues."),
-        (r"^The\s+fastest\s+knowledge\s+base\b.*", "Base de conhecimento rápida e colaborativa para equipes de desenvolvimento e engenharia."),
-        (r"^The\s+context\s+API\s+to\s+search,\s+scrape\b.*", "API de contexto para busca, extração e interação com a web em grande escala para modelos de IA."),
-        (r"^The\s+Open\s+Source\s+DocuSign\s+Alternative\b.*", "Plataforma open-source de assinatura eletrônica e gestão de documentos com foco em privacidade."),
-        (r"^The\s+fastest,\s+litest\s+AI\s+Gateway\b.*", "Gateway de IA leve e de alta velocidade com núcleo em Rust para unificar chamadas a múltiplos provedores de LLM."),
-        (r"^Turn\s+your\s+PC,\s+Mac,\s+or\s+Linux\s+box\s+into\s+an\s+AI\s+server\b.*", "Transforma seu computador (PC, Mac ou Linux) em um servidor local completo de IA com suporte a LLM, RAG e agentes."),
-        (r"^Turn\s+Claude\s+Code\s+into\s+a\s+full\s+game\s+dev\s+studio\b.*", "Transforma o Claude Code em um estúdio completo de desenvolvimento de jogos com dezenas de agentes especializados e fluxos coordenados."),
         (r"^Claude\s+Code\s+is\s+an\s+agentic\s+coding\s+tool\b.*", "Ferramenta de codificação agêntica que opera no terminal, compreende bases de código complexas e automatiza rotinas e fluxos Git via comandos em linguagem natural."),
         (r"^An\s+agent-managed\s+museum\s+exhibit\b.*", "Ambiente e exibição de software desenvolvida e mantida de forma 100% autônoma por agentes inteligentes em Rust sem intervenção humana."),
         (r"^Pretty\s+fancy\s+and\s+modern\s+terminal\s+file\s+manager\b.*", "Gerenciador de arquivos para terminal moderno, elegante e de alta performance com interface rica em Go."),
@@ -797,11 +797,44 @@ def _build_use_cases(description, topics_set, readme_text, language, name):
         cases.append(f"Execução de testes automatizados para validação de regressões e garantia de qualidade")
 
     if not cases:
-        cases.append(f"Desenvolvimento de soluções em {language} com integração em pipelines modernos de engenharia")
-        cases.append(f"Automação de rotinas operacionais e aceleração de entrega de software")
+        focus = _derive_repo_focus(description, topics_set, name, name, language)
+        cases.append(f"Aplicação de {focus.lower()} em fluxos reais de desenvolvimento e operação")
+        cases.append(f"Personalização de integrações e automações específicas para o repositório '{name}'")
 
     unique_cases = list(dict.fromkeys(cases))
     return " | ".join(unique_cases[:3])
+
+def _derive_repo_focus(description, topics_set, name, full_name, language):
+    """Infere um foco textual mais específico para evitar descrições genéricas em massa."""
+    desc_lower = (description or "").lower()
+    name_lower = name.lower()
+    full_lower = full_name.lower()
+
+    if any(t in topics_set for t in ["agent", "agents", "subagents", "swarm"]) or "agent" in name_lower or "agent" in desc_lower:
+        return f"Coleção de habilidades e fluxos para agentes de IA no ecossistema '{name}'"
+    if any(t in topics_set for t in ["mcp", "lsp", "context", "memory"]) or "mcp" in name_lower or "memory" in name_lower:
+        return f"Servidor de contexto e memória para ferramentas de IA em '{name}'"
+    if any(t in topics_set for t in ["security", "vulnerability", "malware", "pentest"]) or "security" in desc_lower or "security" in name_lower:
+        return f"Ferramenta de segurança e auditoria especializada em '{name}'"
+    if any(t in topics_set for t in ["ui", "frontend", "react", "nextjs", "vue", "browser"]) or "ui" in name_lower or "browser" in name_lower:
+        return f"Projeto de interface e automação visual para aplicações em '{name}'"
+    if any(t in topics_set for t in ["cli", "terminal", "shell", "command-line"]) or "cli" in name_lower or "terminal" in name_lower:
+        return f"Utilitário de linha de comando e automação de terminal em '{name}'"
+    if any(t in topics_set for t in ["voice", "audio", "realtime"]) or "voice" in name_lower or "audio" in name_lower:
+        return f"Projeto de interação em tempo real com voz e áudio em '{name}'"
+    if any(t in topics_set for t in ["database", "sql", "postgresql", "mysql", "mongodb", "redis"]):
+        return f"Componente de dados e persistência para aplicações em '{name}'"
+    if any(t in topics_set for t in ["docker", "devops", "kubernetes", "ci-cd"]):
+        return f"Automação de infraestrutura e entrega contínua em '{name}'"
+    if any(t in topics_set for t in ["game", "game-development", "unity", "godot"]):
+        return f"Ferramenta orientada a jogos e experimentação interativa em '{name}'"
+    if "kit" in name_lower or "toolkit" in name_lower:
+        return f"Kit modular de utilidades e automações para '{name}'"
+    if "skills" in name_lower or "skills" in full_lower:
+        return f"Catálogo especializado de competências e extensões para '{name}'"
+    if description and len(description.strip()) > 15:
+        return _localize_description(description, topics_set, language)
+    return f"Solução contextual e específica para o repositório '{name}'"
 
 def _extract_purpose_from_readme(readme_text, topics_set):
     """Extrai a declaração de propósito do README."""
@@ -899,6 +932,12 @@ def _build_pro_tip(topics_set, description, language, readme_text, name, full_na
 def analyze_repository(repo_info):
     """Analisa um repositório individualmente usando IA ou fallback contextual."""
     full_name = repo_info.get("full_name", "")
+    
+    # 0. Se possuir entrada curada na base de conhecimento especializada, utilizar com prioridade
+    if full_name in REPO_KNOWLEDGE_BASE and REPO_KNOWLEDGE_BASE[full_name].get("what"):
+        print(f"-> Utilizando conhecimento curado para: {full_name} (100% PT-BR)")
+        return REPO_KNOWLEDGE_BASE[full_name]
+
     owner, name = full_name.split("/")
     description = repo_info.get("description") or "Sem descrição fornecida"
     language = repo_info.get("language") or "Docs / Shell"
@@ -1119,25 +1158,37 @@ def main():
     # 5. Processar todos os repositórios: novos e reanálise de análises estagnadas
     #    SEMPRE reanalisamos para garantir que o catálogo esteja em dia —
     #    conhecimento base serve como fallback, mas IA tem prioridade.
+    #    Paralelismo I/O-bound via ThreadPoolExecutor (threads nativas, sem deps.
+    #    adicionais) — cada repo ainda segue a mesma cadeia de fallback (Gemini,
+    #    DeepSeek, TokenRouter, OpenAI, OpenRouter, análise contextual).
     new_found = 0
     skipped = 0
 
-    for repo in all_stars:
+    def process_one(repo):
+        """Analisa um único repositório; retorna tupla (repo_name, repo_id, analysis_or_None).
+        analysis_or_None é None quando a análise existente já é válida (mantida)."""
         repo_name = repo.get("full_name")
         repo_id = repo.get("id")
-
         if repo_name not in master_db or repo_id not in processed_ids or _is_analysis_stale(
             master_db.get(repo_name, {}), repo, duplicate_tips=duplicate_tips
         ):
-            analysis = analyze_repository(repo)
-            master_db[repo_name] = analysis
-            if repo_id:
-                processed_ids.add(repo_id)
-            new_found += 1
-        else:
-            existing = master_db.get(repo_name, {})
-            print(f"  → Mantendo análise válida de {repo_name} (sem mudanças detectadas)")
-            skipped += 1
+            return (repo_name, repo_id, analyze_repository(repo))
+        return (repo_name, repo_id, None)
+
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        future_to_repo = {executor.submit(process_one, repo): repo for repo in all_stars}
+        for future in as_completed(future_to_repo):
+            repo_name, repo_id, result = future.result()
+            if result is None:
+                existing = master_db.get(repo_name, {})
+                print(f"  → Mantendo análise válida de {repo_name} (sem mudanças detectadas)")
+                skipped += 1
+            else:
+                analysis = result
+                master_db[repo_name] = analysis
+                if repo_id:
+                    processed_ids.add(repo_id)
+                new_found += 1
 
     print(f"Novos repositórios analisados nesta rodada: {new_found}")
     print(f"Repositórios com análise válida mantida: {skipped}")

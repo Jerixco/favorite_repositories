@@ -1565,6 +1565,86 @@ def build_all_191_entries():
         "pro_tip": "No repositório 'dot-agent/nextpy', utilize o decorador `@rx.var` com funções assíncronas para manipulação eficiente de estado e atualizações reativas via WebSockets sem bloqueio do loop de eventos."
     }
 
+    # 193 - junaid-mahmood/nlsh
+    K["junaid-mahmood/nlsh"] = {
+        "what": "Interface de linha de comando (CLI) inteligente e moderna construída em TypeScript que traduz instruções em linguagem natural diretamente em comandos executáveis e seguros para o terminal (Bash, Zsh, PowerShell).",
+        "use_cases": "Conversão rápida de comandos complexos de bash, ffmpeg, git e docker a partir de descrições em texto simples | Execução assistida e segura de rotinas operacionais no terminal sem necessidade de decorar sintaxes raras | Aceleração de tarefas diárias de DevOps e administração de sistemas com validação prévia de execução",
+        "quickstart": "```bash\ncurl -fsSL https://raw.githubusercontent.com/junaid-mahmood/nlsh/main/install.sh | bash\n```",
+        "pro_tip": "No repositório 'junaid-mahmood/nlsh', utilize o modo de confirmação interativa antes de executar comandos potencialmente destrutivos sugeridos pelo modelo no terminal."
+    }
+
+    # 194 - shadcn-ui/ui
+    K["shadcn-ui/ui"] = {
+        "what": "Coleção de componentes de interface de usuário (UI) acessíveis, altamente customizáveis e elegantes construídos sobre Radix UI e Tailwind CSS, onde o desenvolvedor copia o código fonte diretamente para o projeto em vez de instalar uma dependência monolítica.",
+        "use_cases": "Desenvolvimento ágil de interfaces modernas e responsivas em Next.js, React e Vite com controle total sobre o código dos componentes | Criação de Design Systems corporativos consistentes e acessíveis com conformidade WAI-ARIA | Customização granular de estilos e comportamentos sem as limitações de bibliotecas de componentes tradicionais",
+        "quickstart": "```bash\nnpx shadcn@latest init\nnpx shadcn@latest add button\n```",
+        "pro_tip": "No repositório 'shadcn-ui/ui', utilize o arquivo `components.json` para configurar aliases de importação (`@/components`, `@/lib/utils`) e paletas de cores CSS HSL para suporte automático e perfeito a Dark Mode."
+    }
+
+    # 195 - block/buzz
+    K["block/buzz"] = {
+        "what": "Plataforma descentralizada de comunicação e inteligência coletiva desenvolvida pela Block em Rust, projetada para coordenação autônoma e troca de mensagens entre múltiplos agentes de software em rede privada de alta performance.",
+        "use_cases": "Coordenação autônoma e troca de mensagens seguras entre múltiplos agentes de software em rede privada | Infraestrutura de backend para mensageria distribuída de baixíssima latência | Implementação de nós de comunicação P2P com criptografia de ponta a ponta sem servidor central",
+        "quickstart": "```bash\ngit clone https://github.com/block/buzz.git\ncd buzz\ncargo build --release\n./target/release/buzz --help\n```",
+        "pro_tip": "No repositório 'block/buzz', utilize perfis de release com LTO (Link-Time Optimization) habilitado no Cargo.toml para reduzir o binário final e maximizar o throughput de mensagens de rede."
+    }
+
+    # 196 - General-Legal/legal-templates
+    K["General-Legal/legal-templates"] = {
+        "what": "Coleção aberta e estruturada de minutas jurídicas, termos de serviço, políticas de privacidade e acordos de software sob licença CC0 desenvolvidos para startups, produtos SaaS e desenvolvedores de software.",
+        "use_cases": "Criação rápida de termos de uso e políticas de privacidade em conformidade inicial para aplicações web e SaaS | Modelos de acordos de confidencialidade (NDA), termos de contratação e licenças de software | Redução de custos iniciais de estruturação jurídica para projetos open-source e empreendimentos de tecnologia",
+        "quickstart": "```bash\ngit clone https://github.com/General-Legal/legal-templates.git\n# Navegue pelas pastas de documentos organizados por categoria contratual\n```",
+        "pro_tip": "No repositório 'General-Legal/legal-templates', utilize os modelos como base estrutural e sempre adapte as cláusulas de foro, jurisdição e legislação aplicável (como LGPD) conforme o país de operação."
+    }
+
+    # 197 - jangles-byte/Pythia
+    K["jangles-byte/Pythia"] = {
+        "what": "Motor analítico e API local de inteligência geoespacial e monitoramento planetário em tempo real, fornecendo dados globais sobre clima, tráfego aéreo, desastres naturais e eventos críticos para agentes autônomos.",
+        "use_cases": "Alimentação de agentes de IA com contexto ambiental e geográfico global em tempo real | Monitoramento de riscos operacionais e cadeias de suprimentos com alertas antecipados de desastres naturais | Dashboards de inteligência geoespacial e segurança com dados unificados de múltiplas fontes públicas",
+        "quickstart": "```bash\ngit clone https://github.com/jangles-byte/Pythia.git\ncd Pythia\nnpm install\nnpm run dev\n```",
+        "pro_tip": "No repositório 'jangles-byte/Pythia', configure provedores de cache local com SQLite/Redis para consultas frequentes de coordenadas geográficas para reduzir latência e consumo de APIs externas."
+    }
+
+    # 198 - AZeC4/TelegramGroup
+    K["AZeC4/TelegramGroup"] = {
+        "what": "Diretório e catálogo estruturado de mais de 10.000 grupos, canais e bots do Telegram organizados por nichos temáticos (tecnologia, desenvolvimento, finanças, segurança e IA).",
+        "use_cases": "Descoberta rápida de comunidades técnicas e grupos especializados no Telegram para networking | Localização de bots úteis de automação, moderação e produtividade | Consulta categorizada de canais de notícias e canais oficiais de projetos open-source",
+        "quickstart": "```bash\ngit clone https://github.com/AZeC4/TelegramGroup.git\n# Acesse as categorias e listas organizadas nos arquivos Markdown do diretorio\n```",
+        "pro_tip": "No repositório 'AZeC4/TelegramGroup', utilize ferramentas de busca por regex para extrair links categorizados e automatizar o monitoramento de canais de interesse."
+    }
+
+    # 199 - awesomedata/awesome-public-datasets
+    K["awesomedata/awesome-public-datasets"] = {
+        "what": "Coleção com curadoria centralizada de conjuntos de dados (datasets) públicos e de alta qualidade organizados por tópicos científicos, sociais, econômicos e tecnológicos.",
+        "use_cases": "Obtenção de dados brutos e estruturados para treinamento e benchmark de modelos de Machine Learning e IA | Exploração e análise estatística para projetos de Data Science e artigos de pesquisa | Prototipagem rápida de aplicações orientadas a dados com fontes abertas confiáveis",
+        "quickstart": "```bash\ngit clone https://github.com/awesomedata/awesome-public-datasets.git\n# Explore as categorias tematicas organizadas nos arquivos Markdown\n```",
+        "pro_tip": "No repositório 'awesomedata/awesome-public-datasets', combine os datasets listados com pipelines do DuckDB ou Pandas para realizar consultas analíticas rápidas sem necessidade de carregar os arquivos inteiros na memória."
+    }
+
+    # 200 - XiaomingX/ai-money-maker-handbook
+    K["XiaomingX/ai-money-maker-handbook"] = {
+        "what": "Manual prático e guia estratégico de monetização e criação de negócios digitais com inteligência artificial, reunindo frameworks, prompts e estudos de caso de automação e geração de receita.",
+        "use_cases": "Estruturação de novos serviços e produtos digitais potencializados por ferramentas de IA generativa | Automação de fluxos de produção de conteúdo, marketing digital e prospecção de clientes | Estudo de modelos de negócio escaláveis e casos reais de sucesso no mercado de tecnologia",
+        "quickstart": "```bash\ngit clone https://github.com/XiaomingX/ai-money-maker-handbook.git\n# Acesse o guia completo e os capitulos organizados no README e na pasta docs\n```",
+        "pro_tip": "No repositório 'XiaomingX/ai-money-maker-handbook', valide hipóteses de negócio rapidamente criando protótipos funcionais (MVPs) antes de investir em infraestruturas complexas de produção."
+    }
+
+    # 201 - lukasz-madon/awesome-remote-job
+    K["lukasz-madon/awesome-remote-job"] = {
+        "what": "Guia completo e repositório de recursos com curadoria de empresas 100% remotas, plataformas de contratação global, guias de trabalho assíncrono e ferramentas de produtividade para profissionais remotos.",
+        "use_cases": "Pesquisa de oportunidades profissionais internacionais em empresas com cultura remote-first | Guia de boas práticas para comunicação assíncrona, gestão de tempo e trabalho distribuído | Estruturação de processos e ferramentas de colaboração para equipes remotas",
+        "quickstart": "```bash\ngit clone https://github.com/lukasz-madon/awesome-remote-job.git\n# Consulte as listas de empresas e portais de vagas no README.md\n```",
+        "pro_tip": "No repositório 'lukasz-madon/awesome-remote-job', filtre as empresas por política de fuso horário ('anywhere in the world' vs 'overlap de 4 horas') para encontrar vagas compatíveis com a sua rotina."
+    }
+
+    # 202 - Tabbit-Browser/dsh-tabbit
+    K["Tabbit-Browser/dsh-tabbit"] = {
+        "what": "Extensão e suíte de plugins para navegadores que integra o modelo DeepSeek diretamente ao fluxo de navegação para resumo de páginas, extração de dados e automação web.",
+        "use_cases": "Resumo instantâneo e análise técnica de artigos, documentações e páginas da web no navegador | Extração estruturada de informações de sites sem necessidade de copiar e colar texto manualmente | Assistente de pesquisa integrado com atalhos de teclado e histórico de conversas locais",
+        "quickstart": "```bash\ngit clone https://github.com/Tabbit-Browser/dsh-tabbit.git\ncd dsh-tabbit\nnpm install\nnpm run build\n# Carregue a pasta dist/ como extensao descompactada no Chrome/Edge\n```",
+        "pro_tip": "No repositório 'Tabbit-Browser/dsh-tabbit', configure sua chave de API diretamente nas opções locais da extensão com armazenamento seguro via chrome.storage.local."
+    }
+
     # Validar que todos os 191 repositórios do arquivo atual estão cobertos
     covered = 0
     missing = []
