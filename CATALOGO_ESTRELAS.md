@@ -9,370 +9,370 @@
 
 ## 📑 Sumário Completo dos Repositórios
 
-01. [SpecterOps/skills](#specteropsskills) — ⭐ 222 (`Python`)
-02. [codejunkie99/fable-orchestrator](#codejunkie99fableorchestrator) — ⭐ 296 (`Shell`)
-03. [langchain-ai/deepagents](#langchainaideepagents) — ⭐ 28,895 (`Python`)
-04. [deeplethe/utopia](#deepletheutopia) — ⭐ 3,518 (`Rust`)
+01. [SpecterOps/skills](#specteropsskills) — ⭐ 238 (`Python`)
+02. [codejunkie99/fable-orchestrator](#codejunkie99fableorchestrator) — ⭐ 313 (`Shell`)
+03. [langchain-ai/deepagents](#langchainaideepagents) — ⭐ 28,901 (`Python`)
+04. [deeplethe/utopia](#deepletheutopia) — ⭐ 3,566 (`Rust`)
 05. [s0xDk/ghostty-blackhole](#s0xdkghosttyblackhole) — ⭐ 1,597 (`GLSL`)
-06. [CyberStrikeus/CyberStrike](#cyberstrikeuscyberstrike) — ⭐ 2,482 (`TypeScript`)
-07. [esengine/DeepSeek-Reasonix](#esenginedeepseekreasonix) — ⭐ 35,384 (`Go`)
+06. [CyberStrikeus/CyberStrike](#cyberstrikeuscyberstrike) — ⭐ 2,484 (`TypeScript`)
+07. [esengine/DeepSeek-Reasonix](#esenginedeepseekreasonix) — ⭐ 35,385 (`Go`)
 08. [Faceplugin-ltd/Open-Source-Face-Recognition-SDK](#facepluginltdopensourcefacerecognitionsdk) — ⭐ 2,119 (`Python`)
-09. [kestra-io/kestra](#kestraiokestra) — ⭐ 27,979 (`Java`)
-10. [iv-org/invidious](#ivorginvidious) — ⭐ 24,157 (`Crystal`)
-11. [nextlevelbuilder/ui-ux-pro-max-skill](#nextlevelbuilderuiuxpromaxskill) — ⭐ 124,658 (`Python`)
-12. [ByteByteGoHq/system-design-101](#bytebytegohqsystemdesign101) — ⭐ 88,284 (`Docs / Shell`)
+09. [kestra-io/kestra](#kestraiokestra) — ⭐ 27,980 (`Java`)
+10. [iv-org/invidious](#ivorginvidious) — ⭐ 24,160 (`Crystal`)
+11. [nextlevelbuilder/ui-ux-pro-max-skill](#nextlevelbuilderuiuxpromaxskill) — ⭐ 124,677 (`Python`)
+12. [ByteByteGoHq/system-design-101](#bytebytegohqsystemdesign101) — ⭐ 88,313 (`Docs / Shell`)
 13. [langchain-ai/open-swe](#langchainaiopenswe) — ⭐ 10,657 (`Python`)
 14. [plandex-ai/plandex](#plandexaiplandex) — ⭐ 15,619 (`Go`)
 15. [TabbyML/tabby](#tabbymltabby) — ⭐ 33,858 (`Rust`)
 16. [shauryagangrade/awesome-ai-prompts](#shauryagangradeawesomeaiprompts) — ⭐ 42 (`Shell`)
 17. [spotiflacapp/SpotiFLAC-Mobile](#spotiflacappspotiflacmobile) — ⭐ 6,161 (`Dart`)
-18. [gnekt/My-Brain-Is-Full-Crew](#gnektmybrainisfullcrew) — ⭐ 3,487 (`Shell`)
+18. [gnekt/My-Brain-Is-Full-Crew](#gnektmybrainisfullcrew) — ⭐ 3,488 (`Shell`)
 19. [SekharPatel/BountyRecon](#sekharpatelbountyrecon) — ⭐ 3 (`Python`)
 20. [OpenOSINT/OpenOSINT](#openosintopenosint) — ⭐ 1,522 (`Python`)
 21. [Ap6pack/outrider-recon](#ap6packoutriderrecon) — ⭐ 8 (`Python`)
-22. [sentrux/sentrux](#sentruxsentrux) — ⭐ 3,165 (`Rust`)
+22. [sentrux/sentrux](#sentruxsentrux) — ⭐ 3,164 (`Rust`)
 23. [PurpleAILAB/Decepticon](#purpleailabdecepticon) — ⭐ 5,436 (`Python`)
-24. [Armur-Ai/Pentest-Swarm-AI](#armuraipentestswarmai) — ⭐ 2,449 (`Go`)
-25. [six2dez/burp-ai-agent](#six2dezburpaiagent) — ⭐ 1,478 (`Kotlin`)
-26. [aaif-goose/goose](#aaifgoosegoose) — ⭐ 53,887 (`Rust`)
+24. [Armur-Ai/Pentest-Swarm-AI](#armuraipentestswarmai) — ⭐ 2,450 (`Go`)
+25. [six2dez/burp-ai-agent](#six2dezburpaiagent) — ⭐ 1,479 (`Kotlin`)
+26. [aaif-goose/goose](#aaifgoosegoose) — ⭐ 53,891 (`Rust`)
 27. [devarshishimpi/codra](#devarshishimpicodra) — ⭐ 98 (`TypeScript`)
 28. [Renset/macai](#rensetmacai) — ⭐ 924 (`Swift`)
-29. [lss233/kirara-ai](#lss233kiraraai) — ⭐ 18,994 (`Python`)
+29. [lss233/kirara-ai](#lss233kiraraai) — ⭐ 18,995 (`Python`)
 30. [milind-soni/OpenMausBot](#milindsoniopenmausbot) — ⭐ 2,085 (`TypeScript`)
 31. [netbootxyz/netboot.xyz](#netbootxyznetbootxyz) — ⭐ 12,215 (`Jinja`)
 32. [AeternaLabsHQ/pullmd](#aeternalabshqpullmd) — ⭐ 480 (`JavaScript`)
 33. [ix-infrastructure/Ix](#ixinfrastructureix) — ⭐ 821 (`TypeScript`)
 34. [nextcloud/server](#nextcloudserver) — ⭐ 36,696 (`PHP`)
-35. [h4ckf0r0day/obscura](#h4ckf0r0dayobscura) — ⭐ 24,503 (`Rust`)
+35. [h4ckf0r0day/obscura](#h4ckf0r0dayobscura) — ⭐ 24,519 (`Rust`)
 36. [Hackerest/pwneye](#hackerestpwneye) — ⭐ 178 (`Python`)
 37. [DavidCarliez/trustmebro](#davidcarlieztrustmebro) — ⭐ 423 (`Go`)
-38. [anthropics/prompt-eng-interactive-tutorial](#anthropicspromptenginteractivetutorial) — ⭐ 38,039 (`Jupyter Notebook`)
-39. [liquidslr/system-design-notes](#liquidslrsystemdesignnotes) — ⭐ 15,474 (`Docs / Shell`)
-40. [danielmiessler/Fabric](#danielmiesslerfabric) — ⭐ 43,785 (`Go`)
+38. [anthropics/prompt-eng-interactive-tutorial](#anthropicspromptenginteractivetutorial) — ⭐ 38,040 (`Jupyter Notebook`)
+39. [liquidslr/system-design-notes](#liquidslrsystemdesignnotes) — ⭐ 15,482 (`Docs / Shell`)
+40. [danielmiessler/Fabric](#danielmiesslerfabric) — ⭐ 43,786 (`Go`)
 41. [KhazP/vibe-coding-prompt-template](#khazpvibecodingprompttemplate) — ⭐ 3,038 (`TypeScript`)
-42. [Mintplex-Labs/anything-llm](#mintplexlabsanythingllm) — ⭐ 65,578 (`JavaScript`)
+42. [Mintplex-Labs/anything-llm](#mintplexlabsanythingllm) — ⭐ 65,580 (`JavaScript`)
 43. [AISecurityLab/hackagent](#aisecuritylabhackagent) — ⭐ 489 (`Python`)
-44. [apurvsinghgautam/robin](#apurvsinghgautamrobin) — ⭐ 6,980 (`Python`)
-45. [herdrdev/herdr](#herdrdevherdr) — ⭐ 35,067 (`Rust`)
+44. [apurvsinghgautam/robin](#apurvsinghgautamrobin) — ⭐ 6,981 (`Python`)
+45. [herdrdev/herdr](#herdrdevherdr) — ⭐ 35,083 (`Rust`)
 46. [jhd3197/ServerKit](#jhd3197serverkit) — ⭐ 1,138 (`Python`)
-47. [nateherkai/scroll-craft](#nateherkaiscrollcraft) — ⭐ 1,676 (`JavaScript`)
-48. [smicallef/spiderfoot](#smicallefspiderfoot) — ⭐ 21,704 (`Python`)
-49. [redis/redis](#redisredis) — ⭐ 76,185 (`C`)
-50. [martin-olivier/airgorah](#martinolivierairgorah) — ⭐ 2,928 (`Rust`)
+47. [nateherkai/scroll-craft](#nateherkaiscrollcraft) — ⭐ 1,678 (`JavaScript`)
+48. [smicallef/spiderfoot](#smicallefspiderfoot) — ⭐ 21,705 (`Python`)
+49. [redis/redis](#redisredis) — ⭐ 76,186 (`C`)
+50. [martin-olivier/airgorah](#martinolivierairgorah) — ⭐ 2,930 (`Rust`)
 51. [getmaxun/maxun](#getmaxunmaxun) — ⭐ 17,357 (`TypeScript`)
 52. [rocketride-org/rocketride-server](#rocketrideorgrocketrideserver) — ⭐ 7,703 (`Python`)
-53. [BasedHardware/omi](#basedhardwareomi) — ⭐ 13,389 (`Python`)
+53. [BasedHardware/omi](#basedhardwareomi) — ⭐ 13,392 (`Python`)
 54. [ComposioHQ/composio](#composiohqcomposio) — ⭐ 30,035 (`TypeScript`)
-55. [SimoneAvogadro/android-reverse-engineering-skill](#simoneavogadroandroidreverseengineeringskill) — ⭐ 7,686 (`Shell`)
-56. [hieunc229/mailflare](#hieunc229mailflare) — ⭐ 2,593 (`TypeScript`)
+55. [SimoneAvogadro/android-reverse-engineering-skill](#simoneavogadroandroidreverseengineeringskill) — ⭐ 7,685 (`Shell`)
+56. [hieunc229/mailflare](#hieunc229mailflare) — ⭐ 2,596 (`TypeScript`)
 57. [mobile-next/mobile-mcp](#mobilenextmobilemcp) — ⭐ 6,328 (`TypeScript`)
-58. [charlie947/social-media-skills](#charlie947socialmediaskills) — ⭐ 3,201 (`Shell`)
+58. [charlie947/social-media-skills](#charlie947socialmediaskills) — ⭐ 3,210 (`Shell`)
 59. [JohnDoeAnonITA/CVE-2024-28000](#johndoeanonitacve202428000) — ⭐ 5 (`Go`)
 60. [polakowo/vectorbt](#polakowovectorbt) — ⭐ 8,978 (`Python`)
-61. [jivoi/awesome-osint](#jivoiawesomeosint) — ⭐ 29,128 (`Docs / Shell`)
-62. [ATH-MaaS/Pixelle-Video](#athmaaspixellevideo) — ⭐ 27,730 (`Python`)
-63. [Awarexone/Agentic-Bug-Hunter](#awarexoneagenticbughunter) — ⭐ 4,690 (`Python`)
-64. [mudler/LocalAI](#mudlerlocalai) — ⭐ 48,846 (`Go`)
-65. [khoj-ai/khoj](#khojaikhoj) — ⭐ 37,047 (`Python`)
+61. [jivoi/awesome-osint](#jivoiawesomeosint) — ⭐ 29,132 (`Docs / Shell`)
+62. [ATH-MaaS/Pixelle-Video](#athmaaspixellevideo) — ⭐ 27,731 (`Python`)
+63. [Awarexone/Agentic-Bug-Hunter](#awarexoneagenticbughunter) — ⭐ 4,691 (`Python`)
+64. [mudler/LocalAI](#mudlerlocalai) — ⭐ 48,847 (`Go`)
+65. [khoj-ai/khoj](#khojaikhoj) — ⭐ 37,050 (`Python`)
 66. [ShadowHackrs/gmail-account-creator](#shadowhackrsgmailaccountcreator) — ⭐ 4,962 (`Python`)
 67. [ShadowHackrs/Gmail-infinity](#shadowhackrsgmailinfinity) — ⭐ 962 (`Python`)
-68. [tailscale/tailcat](#tailscaletailcat) — ⭐ 6,094 (`Go`)
-69. [microsoft/playwright](#microsoftplaywright) — ⭐ 95,584 (`TypeScript`)
-70. [CopilotKit/OpenBot](#copilotkitopenbot) — ⭐ 4,103 (`TypeScript`)
-71. [Gitlawb/openclaude](#gitlawbopenclaude) — ⭐ 32,312 (`TypeScript`)
+68. [tailscale/tailcat](#tailscaletailcat) — ⭐ 6,098 (`Go`)
+69. [microsoft/playwright](#microsoftplaywright) — ⭐ 95,586 (`TypeScript`)
+70. [CopilotKit/OpenBot](#copilotkitopenbot) — ⭐ 4,116 (`TypeScript`)
+71. [Gitlawb/openclaude](#gitlawbopenclaude) — ⭐ 32,332 (`TypeScript`)
 72. [aloshdenny/reverse-SynthID](#aloshdennyreversesynthid) — ⭐ 4,832 (`Python`)
 73. [greensock/GSAP](#greensockgsap) — ⭐ 28,215 (`JavaScript`)
 74. [itigges22/ATLAS](#itigges22atlas) — ⭐ 2,077 (`Python`)
-75. [wiltodelta/remove-ai-watermarks](#wiltodeltaremoveaiwatermarks) — ⭐ 5,397 (`Python`)
+75. [wiltodelta/remove-ai-watermarks](#wiltodeltaremoveaiwatermarks) — ⭐ 5,398 (`Python`)
 76. [SteveTheKiller/KillerPDF](#stevethekillerkillerpdf) — ⭐ 3,768 (`C#`)
 77. [FerroxLabs/agents-md](#ferroxlabsagentsmd) — ⭐ 678 (`Docs / Shell`)
 78. [oritera/Cairn](#oriteracairn) — ⭐ 2,573 (`Python`)
-79. [davila7/claude-code-templates](#davila7claudecodetemplates) — ⭐ 30,515 (`Python`)
-80. [OpenCut-app/OpenCut](#opencutappopencut) — ⭐ 88,593 (`TypeScript`)
+79. [davila7/claude-code-templates](#davila7claudecodetemplates) — ⭐ 30,516 (`Python`)
+80. [OpenCut-app/OpenCut](#opencutappopencut) — ⭐ 88,604 (`TypeScript`)
 81. [ebertti/awesome-telegram](#eberttiawesometelegram) — ⭐ 5,651 (`Docs / Shell`)
 82. [JailbreakBench/jailbreakbench](#jailbreakbenchjailbreakbench) — ⭐ 664 (`Python`)
 83. [verazuo/jailbreak_llms](#verazuojailbreakllms) — ⭐ 3,800 (`Jupyter Notebook`)
-84. [getpaseo/paseo](#getpaseopaseo) — ⭐ 15,922 (`TypeScript`)
-85. [mubeng/mubeng](#mubengmubeng) — ⭐ 2,547 (`Go`)
+84. [getpaseo/paseo](#getpaseopaseo) — ⭐ 15,928 (`TypeScript`)
+85. [mubeng/mubeng](#mubengmubeng) — ⭐ 2,548 (`Go`)
 86. [xr843/Master-skill](#xr843masterskill) — ⭐ 382 (`Python`)
-87. [jinchenma94/bazi-skill](#jinchenma94baziskill) — ⭐ 2,913 (`Python`)
+87. [jinchenma94/bazi-skill](#jinchenma94baziskill) — ⭐ 2,915 (`Python`)
 88. [xalgorix/xalgorix](#xalgorixxalgorix) — ⭐ 955 (`Go`)
-89. [mindsdb/mindshub](#mindsdbmindshub) — ⭐ 39,690 (`Makefile`)
-90. [apify/crawlee](#apifycrawlee) — ⭐ 25,637 (`TypeScript`)
-91. [searxng/searxng](#searxngsearxng) — ⭐ 36,480 (`Python`)
+89. [mindsdb/mindshub](#mindsdbmindshub) — ⭐ 39,691 (`Makefile`)
+90. [apify/crawlee](#apifycrawlee) — ⭐ 25,638 (`TypeScript`)
+91. [searxng/searxng](#searxngsearxng) — ⭐ 36,484 (`Python`)
 92. [0x6rss/matkap](#0x6rssmatkap) — ⭐ 1,021 (`JavaScript`)
 93. [RunaCapital/awesome-oss-alternatives](#runacapitalawesomeossalternatives) — ⭐ 19,608 (`Python`)
-94. [Hidashimora/free-vpn-anti-rkn](#hidashimorafreevpnantirkn) — ⭐ 623 (`HTML`)
+94. [Hidashimora/free-vpn-anti-rkn](#hidashimorafreevpnantirkn) — ⭐ 625 (`HTML`)
 95. [AntonOsika/gpt-engineer](#antonosikagptengineer) — ⭐ 55,110 (`Python`)
-96. [cline/cline](#clinecline) — ⭐ 67,426 (`TypeScript`)
+96. [cline/cline](#clinecline) — ⭐ 67,429 (`TypeScript`)
 97. [continuedev/continue](#continuedevcontinue) — ⭐ 35,747 (`TypeScript`)
-98. [QwenLM/qwen-code](#qwenlmqwencode) — ⭐ 27,621 (`TypeScript`)
-99. [tt-a1i/archify](#tta1iarchify) — ⭐ 45,638 (`JavaScript`)
+98. [QwenLM/qwen-code](#qwenlmqwencode) — ⭐ 27,626 (`TypeScript`)
+99. [tt-a1i/archify](#tta1iarchify) — ⭐ 45,729 (`JavaScript`)
 100. [marc-shade/world-intel-mcp](#marcshadeworldintelmcp) — ⭐ 613 (`Python`)
 101. [0xor0ne/awesome-list](#0xor0neawesomelist) — ⭐ 4,088 (`Docs / Shell`)
-102. [truefoundry/trueforge](#truefoundrytrueforge) — ⭐ 5,170 (`TypeScript`)
+102. [truefoundry/trueforge](#truefoundrytrueforge) — ⭐ 5,175 (`TypeScript`)
 103. [1N3/Sn1per](#1n3sn1per) — ⭐ 11,193 (`Shell`)
-104. [Abilityai/trinity](#abilityaitrinity) — ⭐ 504 (`Python`)
-105. [laude-institute/headlong](#laudeinstituteheadlong) — ⭐ 1,106 (`Shell`)
-106. [sherlock-project/sherlock](#sherlockprojectsherlock) — ⭐ 90,901 (`Python`)
+104. [Abilityai/trinity](#abilityaitrinity) — ⭐ 505 (`Python`)
+105. [laude-institute/headlong](#laudeinstituteheadlong) — ⭐ 1,107 (`Shell`)
+106. [sherlock-project/sherlock](#sherlockprojectsherlock) — ⭐ 90,904 (`Python`)
 107. [gptme/gptme](#gptmegptme) — ⭐ 4,408 (`Python`)
-108. [GitHubDaily/GitHubDaily](#githubdailygithubdaily) — ⭐ 47,819 (`Docs / Shell`)
+108. [GitHubDaily/GitHubDaily](#githubdailygithubdaily) — ⭐ 47,820 (`Docs / Shell`)
 109. [GH05TCREW/pentestagent](#gh05tcrewpentestagent) — ⭐ 3,043 (`Python`)
 110. [aliasrobotics/cai](#aliasroboticscai) — ⭐ 9,821 (`Python`)
-111. [MadsLorentzen/ai-job-search](#madslorentzenaijobsearch) — ⭐ 40,566 (`Python`)
-112. [mukul975/Anthropic-Cybersecurity-Skills](#mukul975anthropiccybersecurityskills) — ⭐ 32,110 (`Python`)
-113. [ai-boost/awesome-harness-engineering](#aiboostawesomeharnessengineering) — ⭐ 3,979 (`Python`)
-114. [K-Dense-AI/scientific-agent-skills](#kdenseaiscientificagentskills) — ⭐ 42,366 (`Python`)
-115. [rohitg00/agentmemory](#rohitg00agentmemory) — ⭐ 27,977 (`TypeScript`)
-116. [volcengine/OpenViking](#volcengineopenviking) — ⭐ 35,349 (`Python`)
-117. [FrancescoStabile/numasec](#francescostabilenumasec) — ⭐ 677 (`TypeScript`)
-118. [projectdiscovery/nuclei-templates](#projectdiscoverynucleitemplates) — ⭐ 12,909 (`JavaScript`)
+111. [MadsLorentzen/ai-job-search](#madslorentzenaijobsearch) — ⭐ 40,577 (`Python`)
+112. [mukul975/Anthropic-Cybersecurity-Skills](#mukul975anthropiccybersecurityskills) — ⭐ 32,116 (`Python`)
+113. [ai-boost/awesome-harness-engineering](#aiboostawesomeharnessengineering) — ⭐ 3,981 (`Python`)
+114. [K-Dense-AI/scientific-agent-skills](#kdenseaiscientificagentskills) — ⭐ 42,375 (`Python`)
+115. [rohitg00/agentmemory](#rohitg00agentmemory) — ⭐ 27,980 (`TypeScript`)
+116. [volcengine/OpenViking](#volcengineopenviking) — ⭐ 35,359 (`Python`)
+117. [FrancescoStabile/numasec](#francescostabilenumasec) — ⭐ 688 (`TypeScript`)
+118. [projectdiscovery/nuclei-templates](#projectdiscoverynucleitemplates) — ⭐ 12,911 (`JavaScript`)
 119. [silentchainai/SILENTCHAIN](#silentchainaisilentchain) — ⭐ 455 (`Java`)
-120. [s0ld13rr/pentestcode](#s0ld13rrpentestcode) — ⭐ 603 (`TypeScript`)
-121. [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](#ashishpatel26500aimachinelearningdeeplearningcomputervisionnlpprojectswithcode) — ⭐ 36,707 (`Docs / Shell`)
-122. [microsoft/ML-For-Beginners](#microsoftmlforbeginners) — ⭐ 90,095 (`Jupyter Notebook`)
-123. [multica-ai/andrej-karpathy-skills](#multicaaiandrejkarpathyskills) — ⭐ 209,892 (`Docs / Shell`)
+120. [s0ld13rr/pentestcode](#s0ld13rrpentestcode) — ⭐ 604 (`TypeScript`)
+121. [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](#ashishpatel26500aimachinelearningdeeplearningcomputervisionnlpprojectswithcode) — ⭐ 36,709 (`Docs / Shell`)
+122. [microsoft/ML-For-Beginners](#microsoftmlforbeginners) — ⭐ 90,099 (`Jupyter Notebook`)
+123. [multica-ai/andrej-karpathy-skills](#multicaaiandrejkarpathyskills) — ⭐ 209,904 (`Docs / Shell`)
 124. [openstory-so/openstory](#openstorysoopenstory) — ⭐ 568 (`TypeScript`)
-125. [open-jarvis/OpenJarvis](#openjarvisopenjarvis) — ⭐ 9,299 (`Python`)
-126. [MaxMiksa/Auto-Company](#maxmiksaautocompany) — ⭐ 2,867 (`Python`)
-127. [freestylefly/awesome-gpt-image-2](#freestyleflyawesomegptimage2) — ⭐ 27,724 (`JavaScript`)
+125. [open-jarvis/OpenJarvis](#openjarvisopenjarvis) — ⭐ 9,301 (`Python`)
+126. [MaxMiksa/Auto-Company](#maxmiksaautocompany) — ⭐ 2,869 (`Python`)
+127. [freestylefly/awesome-gpt-image-2](#freestyleflyawesomegptimage2) — ⭐ 27,731 (`JavaScript`)
 128. [rawfilejson/awesome-osint-arsenal](#rawfilejsonawesomeosintarsenal) — ⭐ 2,691 (`Shell`)
 129. [lunalully/curso-completo-de-kof](#lunalullycursocompletodekof) — ⭐ 17 (`Docs / Shell`)
 130. [oomol-lab/open-connector](#oomollabopenconnector) — ⭐ 5,529 (`TypeScript`)
-131. [NVIDIA/garak](#nvidiagarak) — ⭐ 9,104 (`Python`)
-132. [projectdiscovery/nuclei](#projectdiscoverynuclei) — ⭐ 30,996 (`Go`)
-133. [sooryathejas/METATRON](#sooryathejasmetatron) — ⭐ 3,834 (`Python`)
-134. [tashfeenahmed/freellmapi](#tashfeenahmedfreellmapi) — ⭐ 24,091 (`TypeScript`)
-135. [promptfoo/promptfoo](#promptfoopromptfoo) — ⭐ 24,793 (`TypeScript`)
+131. [NVIDIA/garak](#nvidiagarak) — ⭐ 9,105 (`Python`)
+132. [projectdiscovery/nuclei](#projectdiscoverynuclei) — ⭐ 31,001 (`Go`)
+133. [sooryathejas/METATRON](#sooryathejasmetatron) — ⭐ 3,836 (`Python`)
+134. [tashfeenahmed/freellmapi](#tashfeenahmedfreellmapi) — ⭐ 24,101 (`TypeScript`)
+135. [promptfoo/promptfoo](#promptfoopromptfoo) — ⭐ 24,792 (`TypeScript`)
 136. [Unstructured-IO/unstructured](#unstructurediounstructured) — ⭐ 15,388 (`HTML`)
-137. [duty1g/x64dbg-mcp-server](#duty1gx64dbgmcpserver) — ⭐ 1,856 (`Zig`)
-138. [fastapi/full-stack-fastapi-template](#fastapifullstackfastapitemplate) — ⭐ 45,357 (`TypeScript`)
-139. [rohitg00/ai-engineering-from-scratch](#rohitg00aiengineeringfromscratch) — ⭐ 52,265 (`Python`)
-140. [LearningCircuit/local-deep-research](#learningcircuitlocaldeepresearch) — ⭐ 9,033 (`Python`)
+137. [duty1g/x64dbg-mcp-server](#duty1gx64dbgmcpserver) — ⭐ 1,859 (`Zig`)
+138. [fastapi/full-stack-fastapi-template](#fastapifullstackfastapitemplate) — ⭐ 45,362 (`TypeScript`)
+139. [rohitg00/ai-engineering-from-scratch](#rohitg00aiengineeringfromscratch) — ⭐ 52,272 (`Python`)
+140. [LearningCircuit/local-deep-research](#learningcircuitlocaldeepresearch) — ⭐ 9,034 (`Python`)
 141. [lanes-sh/app](#lanesshapp) — ⭐ 264 (`Docs / Shell`)
 142. [anthropics/defending-code-reference-harness](#anthropicsdefendingcodereferenceharness) — ⭐ 7,404 (`Python`)
-143. [milanm/DevOps-Roadmap](#milanmdevopsroadmap) — ⭐ 20,438 (`Docs / Shell`)
-144. [Untrivial-ai/agent-orchestrator](#untrivialaiagentorchestrator) — ⭐ 10,897 (`Go`)
-145. [modelcontextprotocol/servers](#modelcontextprotocolservers) — ⭐ 90,059 (`TypeScript`)
-146. [HeyPuter/puter](#heyputerputer) — ⭐ 43,372 (`TypeScript`)
-147. [Leonxlnx/unlazy](#leonxlnxunlazy) — ⭐ 3,011 (`JavaScript`)
-148. [toeverything/AFFiNE](#toeverythingaffine) — ⭐ 72,160 (`TypeScript`)
+143. [milanm/DevOps-Roadmap](#milanmdevopsroadmap) — ⭐ 20,439 (`Docs / Shell`)
+144. [Untrivial-ai/agent-orchestrator](#untrivialaiagentorchestrator) — ⭐ 10,899 (`Go`)
+145. [modelcontextprotocol/servers](#modelcontextprotocolservers) — ⭐ 90,061 (`TypeScript`)
+146. [HeyPuter/puter](#heyputerputer) — ⭐ 43,374 (`TypeScript`)
+147. [Leonxlnx/unlazy](#leonxlnxunlazy) — ⭐ 3,015 (`JavaScript`)
+148. [toeverything/AFFiNE](#toeverythingaffine) — ⭐ 72,163 (`TypeScript`)
 149. [iAmCorey/Wake](#iamcoreywake) — ⭐ 731 (`Rust`)
-150. [FlashML-org/FreeToken](#flashmlorgfreetoken) — ⭐ 11,465 (`Python`)
-151. [Arindam200/awesome-ai-apps](#arindam200awesomeaiapps) — ⭐ 13,573 (`Python`)
+150. [FlashML-org/FreeToken](#flashmlorgfreetoken) — ⭐ 11,476 (`Python`)
+151. [Arindam200/awesome-ai-apps](#arindam200awesomeaiapps) — ⭐ 13,574 (`Python`)
 152. [mostakimnasim5/strix](#mostakimnasim5strix) — ⭐ 1 (`Python`)
 153. [nanobrowser/nanobrowser](#nanobrowsernanobrowser) — ⭐ 13,721 (`TypeScript`)
-154. [Forget-C/Jellyfish](#forgetcjellyfish) — ⭐ 6,297 (`Python`)
+154. [Forget-C/Jellyfish](#forgetcjellyfish) — ⭐ 6,298 (`Python`)
 155. [theuglyhaxor/Telegram-Media-Downloader](#theuglyhaxortelegrammediadownloader) — ⭐ 1 (`Python`)
 156. [AlexNik/Telegram-Private-Channel-Downloader](#alexniktelegramprivatechanneldownloader) — ⭐ 1 (`Docs / Shell`)
-157. [elder-plinius/L1B3RT4S](#elderpliniusl1b3rt4s) — ⭐ 21,320 (`Docs / Shell`)
-158. [bytedance/deer-flow](#bytedancedeerflow) — ⭐ 81,317 (`Python`)
-159. [usestrix/strix](#usestrixstrix) — ⭐ 60,382 (`Python`)
-160. [elementalsouls/Claude-BugHunter](#elementalsoulsclaudebughunter) — ⭐ 4,218 (`Python`)
-161. [Hmbown/Codewhale](#hmbowncodewhale) — ⭐ 40,912 (`Rust`)
-162. [t8y2/dbx](#t8y2dbx) — ⭐ 17,916 (`Rust`)
-163. [expo/expo](#expoexpo) — ⭐ 52,019 (`TypeScript`)
+157. [elder-plinius/L1B3RT4S](#elderpliniusl1b3rt4s) — ⭐ 21,322 (`Docs / Shell`)
+158. [bytedance/deer-flow](#bytedancedeerflow) — ⭐ 81,320 (`Python`)
+159. [usestrix/strix](#usestrixstrix) — ⭐ 60,391 (`Python`)
+160. [elementalsouls/Claude-BugHunter](#elementalsoulsclaudebughunter) — ⭐ 4,228 (`Python`)
+161. [Hmbown/Codewhale](#hmbowncodewhale) — ⭐ 40,915 (`Rust`)
+162. [t8y2/dbx](#t8y2dbx) — ⭐ 17,918 (`Rust`)
+163. [expo/expo](#expoexpo) — ⭐ 52,022 (`TypeScript`)
 164. [KofLang/Kof4j](#koflangkof4j) — ⭐ 122 (`Java`)
-165. [Alishahryar1/free-claude-code](#alishahryar1freeclaudecode) — ⭐ 52,969 (`Python`)
-166. [caamer20/Telegram-Drive](#caamer20telegramdrive) — ⭐ 5,010 (`TypeScript`)
+165. [Alishahryar1/free-claude-code](#alishahryar1freeclaudecode) — ⭐ 52,978 (`Python`)
+166. [caamer20/Telegram-Drive](#caamer20telegramdrive) — ⭐ 5,011 (`TypeScript`)
 167. [marcnewlin/hi_my_name_is_keyboard](#marcnewlinhimynameiskeyboard) — ⭐ 730 (`Python`)
-168. [vercel-labs/agent-skills](#vercellabsagentskills) — ⭐ 30,794 (`JavaScript`)
+168. [vercel-labs/agent-skills](#vercellabsagentskills) — ⭐ 30,796 (`JavaScript`)
 169. [duck4nh/antigravity-kit](#duck4nhantigravitykit) — ⭐ 15 (`TypeScript`)
 170. [junaid-mahmood/nlsh](#junaidmahmoodnlsh) — ⭐ 477 (`TypeScript`)
-171. [shadcn-ui/ui](#shadcnuiui) — ⭐ 122,939 (`TypeScript`)
+171. [shadcn-ui/ui](#shadcnuiui) — ⭐ 122,944 (`TypeScript`)
 172. [yoanbernabeu/grepai](#yoanbernabeugrepai) — ⭐ 1,836 (`C`)
-173. [block/buzz](#blockbuzz) — ⭐ 32,065 (`Rust`)
-174. [General-Legal/legal-templates](#generallegallegaltemplates) — ⭐ 1,906 (`Python`)
+173. [block/buzz](#blockbuzz) — ⭐ 32,071 (`Rust`)
+174. [General-Legal/legal-templates](#generallegallegaltemplates) — ⭐ 1,908 (`Python`)
 175. [jangles-byte/Pythia](#janglesbytepythia) — ⭐ 1,046 (`TypeScript`)
 176. [AZeC4/TelegramGroup](#azec4telegramgroup) — ⭐ 23,112 (`Docs / Shell`)
-177. [awesomedata/awesome-public-datasets](#awesomedataawesomepublicdatasets) — ⭐ 78,788 (`Docs / Shell`)
+177. [awesomedata/awesome-public-datasets](#awesomedataawesomepublicdatasets) — ⭐ 78,789 (`Docs / Shell`)
 178. [XiaomingX/ai-money-maker-handbook](#xiaomingxaimoneymakerhandbook) — ⭐ 4,789 (`CSS`)
-179. [lukasz-madon/awesome-remote-job](#lukaszmadonawesomeremotejob) — ⭐ 48,353 (`Docs / Shell`)
+179. [lukasz-madon/awesome-remote-job](#lukaszmadonawesomeremotejob) — ⭐ 48,356 (`Docs / Shell`)
 180. [dot-agent/nextpy](#dotagentnextpy) — ⭐ 2,349 (`Python`)
 181. [marinabudarina/chimes](#marinabudarinachimes) — ⭐ 26 (`JavaScript`)
 182. [akitaonrails/distrobox-gaming](#akitaonrailsdistroboxgaming) — ⭐ 217 (`Python`)
 183. [camel-ai/seta](#camelaiseta) — ⭐ 144 (`Python`)
-184. [yorukot/superfile](#yorukotsuperfile) — ⭐ 23,064 (`Go`)
-185. [Younesfdj/gitfut](#younesfdjgitfut) — ⭐ 2,565 (`TypeScript`)
+184. [yorukot/superfile](#yorukotsuperfile) — ⭐ 23,068 (`Go`)
+185. [Younesfdj/gitfut](#younesfdjgitfut) — ⭐ 2,564 (`TypeScript`)
 186. [SpacehuhnTech/WiFiDuck](#spacehuhntechwifiduck) — ⭐ 3,285 (`C++`)
 187. [cifertech/RF-Clown](#cifertechrfclown) — ⭐ 1,835 (`C++`)
-188. [VoltAgent/awesome-claude-code-subagents](#voltagentawesomeclaudecodesubagents) — ⭐ 24,836 (`Shell`)
-189. [Donchitos/Claude-Code-Game-Studios](#donchitosclaudecodegamestudios) — ⭐ 24,802 (`Shell`)
+188. [VoltAgent/awesome-claude-code-subagents](#voltagentawesomeclaudecodesubagents) — ⭐ 24,840 (`Shell`)
+189. [Donchitos/Claude-Code-Game-Studios](#donchitosclaudecodegamestudios) — ⭐ 24,801 (`Shell`)
 190. [codeaashu/claude-code](#codeaashuclaudecode) — ⭐ 3,297 (`TypeScript`)
-191. [ultraworkers/claw-code](#ultraworkersclawcode) — ⭐ 195,160 (`Rust`)
-192. [elie222/rakazo](#elie222rakazo) — ⭐ 1,866 (`TypeScript`)
+191. [ultraworkers/claw-code](#ultraworkersclawcode) — ⭐ 195,165 (`Rust`)
+192. [elie222/rakazo](#elie222rakazo) — ⭐ 1,867 (`TypeScript`)
 193. [elie222/botdirectory.ai](#elie222botdirectoryai) — ⭐ 160 (`Astro`)
-194. [Osmantic/ODS](#osmanticods) — ⭐ 6,062 (`Python`)
-195. [livekit/agents](#livekitagents) — ⭐ 13,987 (`Python`)
-196. [assafelovic/gpt-researcher](#assafelovicgptresearcher) — ⭐ 29,274 (`Python`)
-197. [Aider-AI/aider](#aideraiaider) — ⭐ 48,712 (`Python`)
+194. [Osmantic/ODS](#osmanticods) — ⭐ 6,074 (`Python`)
+195. [livekit/agents](#livekitagents) — ⭐ 13,988 (`Python`)
+196. [assafelovic/gpt-researcher](#assafelovicgptresearcher) — ⭐ 29,276 (`Python`)
+197. [Aider-AI/aider](#aideraiaider) — ⭐ 48,713 (`Python`)
 198. [danny-avila/LibreChat](#dannyavilalibrechat) — ⭐ 42,779 (`TypeScript`)
-199. [openinterpreter/openinterpreter](#openinterpreteropeninterpreter) — ⭐ 68,230 (`Rust`)
-200. [DeusData/codebase-memory-mcp](#deusdatacodebasememorymcp) — ⭐ 42,060 (`C`)
-201. [sickn33/agentic-awesome-skills](#sickn33agenticawesomeskills) — ⭐ 45,923 (`Python`)
-202. [tw93/Pake](#tw93pake) — ⭐ 61,265 (`Rust`)
-203. [VoltAgent/awesome-design-md](#voltagentawesomedesignmd) — ⭐ 113,836 (`Docs / Shell`)
+199. [openinterpreter/openinterpreter](#openinterpreteropeninterpreter) — ⭐ 68,231 (`Rust`)
+200. [DeusData/codebase-memory-mcp](#deusdatacodebasememorymcp) — ⭐ 42,076 (`C`)
+201. [sickn33/agentic-awesome-skills](#sickn33agenticawesomeskills) — ⭐ 45,931 (`Python`)
+202. [tw93/Pake](#tw93pake) — ⭐ 61,266 (`Rust`)
+203. [VoltAgent/awesome-design-md](#voltagentawesomedesignmd) — ⭐ 113,851 (`Docs / Shell`)
 204. [appsmithorg/appsmith](#appsmithorgappsmith) — ⭐ 40,809 (`TypeScript`)
-205. [Dokploy/dokploy](#dokploydokploy) — ⭐ 37,072 (`TypeScript`)
-206. [documenso/documenso](#documensodocumenso) — ⭐ 14,877 (`TypeScript`)
-207. [BerriAI/litellm](#berriailitellm) — ⭐ 57,966 (`Python`)
-208. [go-gitea/gitea](#gogiteagitea) — ⭐ 57,799 (`Go`)
-209. [nocodb/nocodb](#nocodbnocodb) — ⭐ 64,816 (`TypeScript`)
-210. [dani-garcia/vaultwarden](#danigarciavaultwarden) — ⭐ 66,784 (`Rust`)
-211. [louislam/uptime-kuma](#louislamuptimekuma) — ⭐ 90,937 (`JavaScript`)
+205. [Dokploy/dokploy](#dokploydokploy) — ⭐ 37,073 (`TypeScript`)
+206. [documenso/documenso](#documensodocumenso) — ⭐ 14,878 (`TypeScript`)
+207. [BerriAI/litellm](#berriailitellm) — ⭐ 57,969 (`Python`)
+208. [go-gitea/gitea](#gogiteagitea) — ⭐ 57,800 (`Go`)
+209. [nocodb/nocodb](#nocodbnocodb) — ⭐ 64,817 (`TypeScript`)
+210. [dani-garcia/vaultwarden](#danigarciavaultwarden) — ⭐ 66,787 (`Rust`)
+211. [louislam/uptime-kuma](#louislamuptimekuma) — ⭐ 90,938 (`JavaScript`)
 212. [Zimbra-Community/shared-mailbox-toolkit](#zimbracommunitysharedmailboxtoolkit) — ⭐ 36 (`JavaScript`)
 213. [iwe-org/iwe](#iweorgiwe) — ⭐ 1,614 (`Rust`)
-214. [stablyai/orca](#stablyaiorca) — ⭐ 60,878 (`TypeScript`)
-215. [Leonxlnx/taste-skill](#leonxlnxtasteskill) — ⭐ 84,028 (`JavaScript`)
-216. [calesthio/OpenMontage](#calesthioopenmontage) — ⭐ 55,960 (`Python`)
-217. [Panniantong/Agent-Reach](#panniantongagentreach) — ⭐ 77,797 (`Python`)
-218. [cathrynlavery/diagram-design](#cathrynlaverydiagramdesign) — ⭐ 30,256 (`HTML`)
-219. [lidge-jun/opencodex](#lidgejunopencodex) — ⭐ 13,175 (`TypeScript`)
+214. [stablyai/orca](#stablyaiorca) — ⭐ 60,932 (`TypeScript`)
+215. [Leonxlnx/taste-skill](#leonxlnxtasteskill) — ⭐ 84,046 (`JavaScript`)
+216. [calesthio/OpenMontage](#calesthioopenmontage) — ⭐ 55,970 (`Python`)
+217. [Panniantong/Agent-Reach](#panniantongagentreach) — ⭐ 77,808 (`Python`)
+218. [cathrynlavery/diagram-design](#cathrynlaverydiagramdesign) — ⭐ 30,270 (`HTML`)
+219. [lidge-jun/opencodex](#lidgejunopencodex) — ⭐ 13,182 (`TypeScript`)
 220. [Tabbit-Browser/dsh-tabbit](#tabbitbrowserdshtabbit) — ⭐ 99 (`TypeScript`)
-221. [Genymobile/scrcpy](#genymobilescrcpy) — ⭐ 148,817 (`C`)
-222. [lwthiker/curl-impersonate](#lwthikercurlimpersonate) — ⭐ 6,943 (`Python`)
-223. [D4Vinci/Scrapling](#d4vinciscrapling) — ⭐ 78,269 (`Python`)
-224. [browser-use/browser-use](#browserusebrowseruse) — ⭐ 112,184 (`Python`)
-225. [firecrawl/firecrawl](#firecrawlfirecrawl) — ⭐ 176,118 (`TypeScript`)
-226. [microsoft/markitdown](#microsoftmarkitdown) — ⭐ 177,994 (`Python`)
-227. [unclecode/crawl4ai](#unclecodecrawl4ai) — ⭐ 81,206 (`Python`)
+221. [Genymobile/scrcpy](#genymobilescrcpy) — ⭐ 148,822 (`C`)
+222. [lwthiker/curl-impersonate](#lwthikercurlimpersonate) — ⭐ 6,944 (`Python`)
+223. [D4Vinci/Scrapling](#d4vinciscrapling) — ⭐ 78,277 (`Python`)
+224. [browser-use/browser-use](#browserusebrowseruse) — ⭐ 112,193 (`Python`)
+225. [firecrawl/firecrawl](#firecrawlfirecrawl) — ⭐ 176,144 (`TypeScript`)
+226. [microsoft/markitdown](#microsoftmarkitdown) — ⭐ 178,002 (`Python`)
+227. [unclecode/crawl4ai](#unclecodecrawl4ai) — ⭐ 81,209 (`Python`)
 228. [CopilotKit/aimock](#copilotkitaimock) — ⭐ 911 (`TypeScript`)
-229. [f/prompts.chat](#fpromptschat) — ⭐ 168,925 (`HTML`)
-230. [unslothai/unsloth](#unslothaiunsloth) — ⭐ 75,563 (`Python`)
-231. [ZhuLinsen/daily_stock_analysis](#zhulinsendailystockanalysis) — ⭐ 64,576 (`Python`)
-232. [addyosmani/agent-skills](#addyosmaniagentskills) — ⭐ 92,001 (`JavaScript`)
-233. [earendil-works/pi](#earendilworkspi) — ⭐ 101,431 (`TypeScript`)
-234. [PrimeIntellect-ai/prime-agent](#primeintellectaiprimeagent) — ⭐ 19,761 (`TypeScript`)
+229. [f/prompts.chat](#fpromptschat) — ⭐ 168,966 (`HTML`)
+230. [unslothai/unsloth](#unslothaiunsloth) — ⭐ 75,568 (`Python`)
+231. [ZhuLinsen/daily_stock_analysis](#zhulinsendailystockanalysis) — ⭐ 64,580 (`Python`)
+232. [addyosmani/agent-skills](#addyosmaniagentskills) — ⭐ 92,018 (`JavaScript`)
+233. [earendil-works/pi](#earendilworkspi) — ⭐ 101,449 (`TypeScript`)
+234. [PrimeIntellect-ai/prime-agent](#primeintellectaiprimeagent) — ⭐ 19,769 (`TypeScript`)
 235. [promovaweb/specsfy](#promovawebspecsfy) — ⭐ 72 (`JavaScript`)
 236. [yashab-cyber/opendroid](#yashabcyberopendroid) — ⭐ 1,009 (`Kotlin`)
-237. [itsfatduck/optimizerDuck](#itsfatduckoptimizerduck) — ⭐ 9,019 (`C#`)
-238. [microsoft/ai-agents-for-beginners](#microsoftaiagentsforbeginners) — ⭐ 73,849 (`Jupyter Notebook`)
-239. [abundantbeing/hermes-browser-extension](#abundantbeinghermesbrowserextension) — ⭐ 1,491 (`JavaScript`)
-240. [vitali87/code-graph-rag](#vitali87codegraphrag) — ⭐ 4,942 (`Python`)
+237. [itsfatduck/optimizerDuck](#itsfatduckoptimizerduck) — ⭐ 9,021 (`C#`)
+238. [microsoft/ai-agents-for-beginners](#microsoftaiagentsforbeginners) — ⭐ 73,854 (`Jupyter Notebook`)
+239. [abundantbeing/hermes-browser-extension](#abundantbeinghermesbrowserextension) — ⭐ 1,492 (`JavaScript`)
+240. [vitali87/code-graph-rag](#vitali87codegraphrag) — ⭐ 4,944 (`Python`)
 241. [outline/outline](#outlineoutline) — ⭐ 40,439 (`TypeScript`)
-242. [Leantime/leantime](#leantimeleantime) — ⭐ 11,514 (`PHP`)
-243. [ente/ente](#enteente) — ⭐ 28,639 (`Dart`)
-244. [imputnet/cobalt](#imputnetcobalt) — ⭐ 42,591 (`Svelte`)
-245. [Stirling-Tools/Stirling-PDF](#stirlingtoolsstirlingpdf) — ⭐ 91,241 (`Java`)
-246. [Shpigford/chops](#shpigfordchops) — ⭐ 1,566 (`Swift`)
-247. [rmyndharis/OpenWA](#rmyndharisopenwa) — ⭐ 13,719 (`TypeScript`)
-248. [Bill-Stewart/SyncthingWindowsSetup](#billstewartsyncthingwindowssetup) — ⭐ 4,231 (`Inno Setup`)
+242. [Leantime/leantime](#leantimeleantime) — ⭐ 11,515 (`PHP`)
+243. [ente/ente](#enteente) — ⭐ 28,643 (`Dart`)
+244. [imputnet/cobalt](#imputnetcobalt) — ⭐ 42,592 (`Svelte`)
+245. [Stirling-Tools/Stirling-PDF](#stirlingtoolsstirlingpdf) — ⭐ 91,244 (`Java`)
+246. [Shpigford/chops](#shpigfordchops) — ⭐ 1,567 (`Swift`)
+247. [rmyndharis/OpenWA](#rmyndharisopenwa) — ⭐ 13,720 (`TypeScript`)
+248. [Bill-Stewart/SyncthingWindowsSetup](#billstewartsyncthingwindowssetup) — ⭐ 4,232 (`Inno Setup`)
 249. [arthurspk/guiadofrontend](#arthurspkguiadofrontend) — ⭐ 2,903 (`Docs / Shell`)
 250. [fadidevv/keyhunter](#fadidevvkeyhunter) — ⭐ 171 (`Rust`)
-251. [trufflesecurity/trufflehog](#trufflesecuritytrufflehog) — ⭐ 27,672 (`Go`)
+251. [trufflesecurity/trufflehog](#trufflesecuritytrufflehog) — ⭐ 27,675 (`Go`)
 252. [langchain-ai/langgraph](#langchainailanggraph) — ⭐ 41,002 (`Python`)
 253. [scrapy/scrapy](#scrapyscrapy) — ⭐ 64,187 (`Python`)
 254. [memvid/memvid](#memvidmemvid) — ⭐ 16,465 (`Rust`)
 255. [FalkorDB/code-graph](#falkordbcodegraph) — ⭐ 348 (`Python`)
-256. [open-webui/open-webui](#openwebuiopenwebui) — ⭐ 150,835 (`Python`)
-257. [petergyang/no-ai-slop](#petergyangnoaislop) — ⭐ 7,022 (`Python`)
-258. [opendataloader-project/opendataloader-pdf](#opendataloaderprojectopendataloaderpdf) — ⭐ 28,920 (`Java`)
-259. [microsoft/data-formulator](#microsoftdataformulator) — ⭐ 17,087 (`Python`)
+256. [open-webui/open-webui](#openwebuiopenwebui) — ⭐ 150,841 (`Python`)
+257. [petergyang/no-ai-slop](#petergyangnoaislop) — ⭐ 7,031 (`Python`)
+258. [opendataloader-project/opendataloader-pdf](#opendataloaderprojectopendataloaderpdf) — ⭐ 28,923 (`Java`)
+259. [microsoft/data-formulator](#microsoftdataformulator) — ⭐ 17,088 (`Python`)
 260. [microsoft/BitNet](#microsoftbitnet) — ⭐ 40,223 (`C++`)
-261. [mem0ai/mem0](#mem0aimem0) — ⭐ 64,662 (`Python`)
+261. [mem0ai/mem0](#mem0aimem0) — ⭐ 64,667 (`Python`)
 262. [Kritt-ai/open-kritt](#krittaiopenkritt) — ⭐ 2,053 (`JavaScript`)
-263. [opensandbox-group/OpenSandbox](#opensandboxgroupopensandbox) — ⭐ 14,942 (`Go`)
-264. [jamiepine/voicebox](#jamiepinevoicebox) — ⭐ 52,237 (`TypeScript`)
-265. [averygan/reclip](#averyganreclip) — ⭐ 8,319 (`HTML`)
+263. [opensandbox-group/OpenSandbox](#opensandboxgroupopensandbox) — ⭐ 14,945 (`Go`)
+264. [jamiepine/voicebox](#jamiepinevoicebox) — ⭐ 52,242 (`TypeScript`)
+265. [averygan/reclip](#averyganreclip) — ⭐ 8,342 (`HTML`)
 266. [coreyhaines31/makerskills](#coreyhaines31makerskills) — ⭐ 766 (`Docs / Shell`)
-267. [cursor/plugins](#cursorplugins) — ⭐ 6,764 (`TypeScript`)
+267. [cursor/plugins](#cursorplugins) — ⭐ 6,772 (`TypeScript`)
 268. [google-gemini/cookbook](#googlegeminicookbook) — ⭐ 17,747 (`Jupyter Notebook`)
-269. [openai/openai-agents-python](#openaiopenaiagentspython) — ⭐ 29,179 (`Python`)
-270. [xai-org/grok-build](#xaiorggrokbuild) — ⭐ 26,439 (`Rust`)
-271. [anthropics/claude-cookbooks](#anthropicsclaudecookbooks) — ⭐ 52,408 (`Jupyter Notebook`)
+269. [openai/openai-agents-python](#openaiopenaiagentspython) — ⭐ 29,180 (`Python`)
+270. [xai-org/grok-build](#xaiorggrokbuild) — ⭐ 26,442 (`Rust`)
+271. [anthropics/claude-cookbooks](#anthropicsclaudecookbooks) — ⭐ 52,409 (`Jupyter Notebook`)
 272. [FSECDEV/LEAKSFORUMS](#fsecdevleaksforums) — ⭐ 340 (`Docs / Shell`)
-273. [msitarzewski/agency-agents](#msitarzewskiagencyagents) — ⭐ 149,898 (`Shell`)
-274. [affaan-m/ECC](#affaanmecc) — ⭐ 247,068 (`JavaScript`)
-275. [trimstray/the-book-of-secret-knowledge](#trimstraythebookofsecretknowledge) — ⭐ 241,904 (`Docs / Shell`)
-276. [obra/superpowers](#obrasuperpowers) — ⭐ 281,293 (`Shell`)
-277. [vinta/awesome-python](#vintaawesomepython) — ⭐ 318,019 (`Python`)
-278. [jwasham/coding-interview-university](#jwashamcodinginterviewuniversity) — ⭐ 360,301 (`Docs / Shell`)
-279. [donnemartin/system-design-primer](#donnemartinsystemdesignprimer) — ⭐ 367,715 (`Python`)
-280. [semantica-agi/semantica](#semanticaagisemantica) — ⭐ 11,856 (`Python`)
-281. [coollabsio/coolify](#coollabsiocoolify) — ⭐ 61,365 (`PHP`)
-282. [zulip/zulip](#zulipzulip) — ⭐ 25,827 (`Python`)
-283. [metabase/metabase](#metabasemetabase) — ⭐ 49,079 (`Clojure`)
-284. [PostHog/posthog](#posthogposthog) — ⭐ 39,577 (`Python`)
-285. [pocketbase/pocketbase](#pocketbasepocketbase) — ⭐ 60,934 (`Go`)
+273. [msitarzewski/agency-agents](#msitarzewskiagencyagents) — ⭐ 149,904 (`Shell`)
+274. [affaan-m/ECC](#affaanmecc) — ⭐ 247,144 (`JavaScript`)
+275. [trimstray/the-book-of-secret-knowledge](#trimstraythebookofsecretknowledge) — ⭐ 241,921 (`Docs / Shell`)
+276. [obra/superpowers](#obrasuperpowers) — ⭐ 281,321 (`Shell`)
+277. [vinta/awesome-python](#vintaawesomepython) — ⭐ 318,050 (`Python`)
+278. [jwasham/coding-interview-university](#jwashamcodinginterviewuniversity) — ⭐ 360,308 (`Docs / Shell`)
+279. [donnemartin/system-design-primer](#donnemartinsystemdesignprimer) — ⭐ 367,743 (`Python`)
+280. [semantica-agi/semantica](#semanticaagisemantica) — ⭐ 11,862 (`Python`)
+281. [coollabsio/coolify](#coollabsiocoolify) — ⭐ 61,368 (`PHP`)
+282. [zulip/zulip](#zulipzulip) — ⭐ 25,828 (`Python`)
+283. [metabase/metabase](#metabasemetabase) — ⭐ 49,080 (`Clojure`)
+284. [PostHog/posthog](#posthogposthog) — ⭐ 39,578 (`Python`)
+285. [pocketbase/pocketbase](#pocketbasepocketbase) — ⭐ 60,935 (`Go`)
 286. [triggerdotdev/trigger.dev](#triggerdotdevtriggerdev) — ⭐ 16,207 (`TypeScript`)
-287. [Infisical/infisical](#infisicalinfisical) — ⭐ 29,102 (`TypeScript`)
+287. [Infisical/infisical](#infisicalinfisical) — ⭐ 29,101 (`TypeScript`)
 288. [HideMeBr/SambaTu](#hidemebrsambatu) — ⭐ 450 (`Docs / Shell`)
-289. [CodebuffAI/freebuff](#codebuffaifreebuff) — ⭐ 11,567 (`TypeScript`)
-290. [deepseek-ai/deepseek-harness](#deepseekaideepseekharness) — ⭐ 210,947 (`TypeScript`)
-291. [Egonex-AI/Understand-Anything](#egonexaiunderstandanything) — ⭐ 81,394 (`TypeScript`)
-292. [trailhq/Graft](#trailhqgraft) — ⭐ 5,500 (`TypeScript`)
+289. [CodebuffAI/freebuff](#codebuffaifreebuff) — ⭐ 11,571 (`TypeScript`)
+290. [deepseek-ai/deepseek-harness](#deepseekaideepseekharness) — ⭐ 210,980 (`TypeScript`)
+291. [Egonex-AI/Understand-Anything](#egonexaiunderstandanything) — ⭐ 81,400 (`TypeScript`)
+292. [trailhq/Graft](#trailhqgraft) — ⭐ 5,501 (`TypeScript`)
 293. [elder-plinius/OBLITERATUS](#elderpliniusobliteratus) — ⭐ 8,189 (`Python`)
-294. [PaddlePaddle/PaddleOCR](#paddlepaddlepaddleocr) — ⭐ 88,819 (`Python`)
-295. [google-research/timesfm](#googleresearchtimesfm) — ⭐ 30,670 (`Python`)
-296. [rtk-ai/rtk](#rtkairtk) — ⭐ 78,452 (`Rust`)
-297. [multica-ai/multica](#multicaaimultica) — ⭐ 48,758 (`Go`)
+294. [PaddlePaddle/PaddleOCR](#paddlepaddlepaddleocr) — ⭐ 88,824 (`Python`)
+295. [google-research/timesfm](#googleresearchtimesfm) — ⭐ 30,692 (`Python`)
+296. [rtk-ai/rtk](#rtkairtk) — ⭐ 78,461 (`Rust`)
+297. [multica-ai/multica](#multicaaimultica) — ⭐ 48,764 (`Go`)
 298. [xoreaxeaxeax/skitter-creek-bath-salts](#xoreaxeaxeaxskittercreekbathsalts) — ⭐ 1,983 (`C`)
-299. [JailbrokenAI/wallbreaker](#jailbrokenaiwallbreaker) — ⭐ 1,400 (`Python`)
-300. [firecrawl/pdf-inspector](#firecrawlpdfinspector) — ⭐ 18,760 (`Rust`)
-301. [lllyasviel/Fooocus](#lllyasvielfooocus) — ⭐ 52,726 (`Python`)
-302. [OpenHands/OpenHands](#openhandsopenhands) — ⭐ 86,090 (`TypeScript`)
+299. [JailbrokenAI/wallbreaker](#jailbrokenaiwallbreaker) — ⭐ 1,401 (`Python`)
+300. [firecrawl/pdf-inspector](#firecrawlpdfinspector) — ⭐ 18,762 (`Rust`)
+301. [lllyasviel/Fooocus](#lllyasvielfooocus) — ⭐ 52,728 (`Python`)
+302. [OpenHands/OpenHands](#openhandsopenhands) — ⭐ 86,099 (`TypeScript`)
 303. [novuhq/novu](#novuhqnovu) — ⭐ 39,743 (`TypeScript`)
-304. [medusajs/medusa](#medusajsmedusa) — ⭐ 36,126 (`TypeScript`)
+304. [medusajs/medusa](#medusajsmedusa) — ⭐ 36,127 (`TypeScript`)
 305. [appwrite/appwrite](#appwriteappwrite) — ⭐ 57,275 (`TypeScript`)
-306. [different-ai/openwork](#differentaiopenwork) — ⭐ 23,302 (`TypeScript`)
-307. [n8n-io/n8n](#n8nion8n) — ⭐ 203,254 (`TypeScript`)
-308. [NousResearch/hermes-agent](#nousresearchhermesagent) — ⭐ 240,777 (`Python`)
-309. [nexu-io/open-design](#nexuioopendesign) — ⭐ 93,870 (`TypeScript`)
-310. [guillaumemeyer/watermarks-remover](#guillaumemeyerwatermarksremover) — ⭐ 20,297 (`Python`)
-311. [github/spec-kit](#githubspeckit) — ⭐ 133,312 (`Python`)
-312. [harry0703/MoneyPrinterTurbo](#harry0703moneyprinterturbo) — ⭐ 120,214 (`Python`)
-313. [career-ops-hq/career-ops](#careeropshqcareerops) — ⭐ 70,047 (`JavaScript`)
-314. [JCodesMore/ai-website-cloner-template](#jcodesmoreaiwebsiteclonertemplate) — ⭐ 33,759 (`JavaScript`)
+306. [different-ai/openwork](#differentaiopenwork) — ⭐ 23,307 (`TypeScript`)
+307. [n8n-io/n8n](#n8nion8n) — ⭐ 203,260 (`TypeScript`)
+308. [NousResearch/hermes-agent](#nousresearchhermesagent) — ⭐ 240,821 (`Python`)
+309. [nexu-io/open-design](#nexuioopendesign) — ⭐ 93,881 (`TypeScript`)
+310. [guillaumemeyer/watermarks-remover](#guillaumemeyerwatermarksremover) — ⭐ 20,309 (`Python`)
+311. [github/spec-kit](#githubspeckit) — ⭐ 133,331 (`Python`)
+312. [harry0703/MoneyPrinterTurbo](#harry0703moneyprinterturbo) — ⭐ 120,236 (`Python`)
+313. [career-ops-hq/career-ops](#careeropshqcareerops) — ⭐ 70,052 (`JavaScript`)
+314. [JCodesMore/ai-website-cloner-template](#jcodesmoreaiwebsiteclonertemplate) — ⭐ 33,767 (`JavaScript`)
 315. [opengrep/opengrep](#opengrepopengrep) — ⭐ 3,033 (`OCaml`)
-316. [gitleaks/gitleaks](#gitleaksgitleaks) — ⭐ 29,089 (`Go`)
+316. [gitleaks/gitleaks](#gitleaksgitleaks) — ⭐ 29,090 (`Go`)
 317. [zaproxy/zaproxy](#zaproxyzaproxy) — ⭐ 15,729 (`Java`)
 318. [acruz6421-bot/chatgptproxy](#acruz6421botchatgptproxy) — ⭐ 23 (`Python`)
 319. [acruz6421-bot/CursorProxyFleet](#acruz6421botcursorproxyfleet) — ⭐ 4 (`JavaScript`)
-320. [melgarafael/DeskcommCRM](#melgarafaeldeskcommcrm) — ⭐ 792 (`TypeScript`)
-321. [img2threejs/img2threejs](#img2threejsimg2threejs) — ⭐ 15,104 (`Python`)
-322. [x1xhlol/system-prompts-and-models-of-ai-tools](#x1xhlolsystempromptsandmodelsofaitools) — ⭐ 143,325 (`Docs / Shell`)
-323. [Graphify-Labs/graphify](#graphifylabsgraphify) — ⭐ 114,372 (`Python`)
-324. [DietrichGebert/ponytail](#dietrichgebertponytail) — ⭐ 123,279 (`JavaScript`)
-325. [VoltAgent/awesome-agent-skills](#voltagentawesomeagentskills) — ⭐ 33,704 (`Docs / Shell`)
+320. [melgarafael/DeskcommCRM](#melgarafaeldeskcommcrm) — ⭐ 796 (`TypeScript`)
+321. [img2threejs/img2threejs](#img2threejsimg2threejs) — ⭐ 15,107 (`Python`)
+322. [x1xhlol/system-prompts-and-models-of-ai-tools](#x1xhlolsystempromptsandmodelsofaitools) — ⭐ 143,329 (`Docs / Shell`)
+323. [Graphify-Labs/graphify](#graphifylabsgraphify) — ⭐ 114,411 (`Python`)
+324. [DietrichGebert/ponytail](#dietrichgebertponytail) — ⭐ 123,358 (`JavaScript`)
+325. [VoltAgent/awesome-agent-skills](#voltagentawesomeagentskills) — ⭐ 33,710 (`Docs / Shell`)
 326. [Tracer-Cloud/opensre](#tracercloudopensre) — ⭐ 10,999 (`Python`)
 327. [AndrewKochulab/jarvis-dashboard](#andrewkochulabjarvisdashboard) — ⭐ 94 (`JavaScript`)
-328. [mlabonne/llm-course](#mlabonnellmcourse) — ⭐ 82,257 (`Docs / Shell`)
+328. [mlabonne/llm-course](#mlabonnellmcourse) — ⭐ 82,259 (`Docs / Shell`)
 329. [ObservedObserver/ChatGPT-Jailbreak-Prompts](#observedobserverchatgptjailbreakprompts) — ⭐ 163 (`Docs / Shell`)
 330. [hacker-gpt/cybergym](#hackergptcybergym) — ⭐ 5 (`TypeScript`)
-331. [PDFMathTranslate/PDFMathTranslate](#pdfmathtranslatepdfmathtranslate) — ⭐ 36,660 (`Python`)
-332. [Comfy-Org/ComfyUI](#comfyorgcomfyui) — ⭐ 131,371 (`Python`)
+331. [PDFMathTranslate/PDFMathTranslate](#pdfmathtranslatepdfmathtranslate) — ⭐ 36,663 (`Python`)
+332. [Comfy-Org/ComfyUI](#comfyorgcomfyui) — ⭐ 131,372 (`Python`)
 333. [sandeco/reversa](#sandecoreversa) — ⭐ 1,553 (`JavaScript`)
 334. [DannyMac180/sol-advisor](#dannymac180soladvisor) — ⭐ 2,512 (`Shell`)
-335. [Z4nzu/hackingtool](#z4nzuhackingtool) — ⭐ 79,294 (`Python`)
-336. [zhaoxuya520/reverse-skill](#zhaoxuya520reverseskill) — ⭐ 34,365 (`PowerShell`)
-337. [langgenius/dify](#langgeniusdify) — ⭐ 154,364 (`TypeScript`)
+335. [Z4nzu/hackingtool](#z4nzuhackingtool) — ⭐ 79,295 (`Python`)
+336. [zhaoxuya520/reverse-skill](#zhaoxuya520reverseskill) — ⭐ 34,385 (`PowerShell`)
+337. [langgenius/dify](#langgeniusdify) — ⭐ 154,371 (`TypeScript`)
 338. [matheusbach/legen](#matheusbachlegen) — ⭐ 233 (`Python`)
-339. [comet-ml/opik](#cometmlopik) — ⭐ 21,769 (`Python`)
-340. [oso95/scroll-world](#oso95scrollworld) — ⭐ 8,963 (`JavaScript`)
+339. [comet-ml/opik](#cometmlopik) — ⭐ 21,770 (`Python`)
+340. [oso95/scroll-world](#oso95scrollworld) — ⭐ 8,964 (`JavaScript`)
 341. [jujumilk3/leaked-system-prompts](#jujumilk3leakedsystemprompts) — ⭐ 14,919 (`Docs / Shell`)
-342. [Shubhamsaboo/awesome-llm-apps](#shubhamsabooawesomellmapps) — ⭐ 135,917 (`Python`)
-343. [punkpeye/awesome-mcp-servers](#punkpeyeawesomemcpservers) — ⭐ 93,999 (`Docs / Shell`)
-344. [anthropics/skills](#anthropicsskills) — ⭐ 173,599 (`Python`)
-345. [awesome-selfhosted/awesome-selfhosted](#awesomeselfhostedawesomeselfhosted) — ⭐ 316,974 (`Docs / Shell`)
-346. [public-apis/public-apis](#publicapispublicapis) — ⭐ 474,923 (`Python`)
-347. [ripienaar/free-for-dev](#ripienaarfreefordev) — ⭐ 136,463 (`HTML`)
-348. [sindresorhus/awesome](#sindresorhusawesome) — ⭐ 502,687 (`Docs / Shell`)
-349. [JuliusBrussee/caveman](#juliusbrusseecaveman) — ⭐ 103,051 (`Go`)
-350. [odysseus-dev/odysseus](#odysseusdevodysseus) — ⭐ 86,792 (`Python`)
+342. [Shubhamsaboo/awesome-llm-apps](#shubhamsabooawesomellmapps) — ⭐ 135,924 (`Python`)
+343. [punkpeye/awesome-mcp-servers](#punkpeyeawesomemcpservers) — ⭐ 94,006 (`Docs / Shell`)
+344. [anthropics/skills](#anthropicsskills) — ⭐ 173,636 (`Python`)
+345. [awesome-selfhosted/awesome-selfhosted](#awesomeselfhostedawesomeselfhosted) — ⭐ 316,990 (`Docs / Shell`)
+346. [public-apis/public-apis](#publicapispublicapis) — ⭐ 474,952 (`Python`)
+347. [ripienaar/free-for-dev](#ripienaarfreefordev) — ⭐ 136,473 (`HTML`)
+348. [sindresorhus/awesome](#sindresorhusawesome) — ⭐ 502,709 (`Docs / Shell`)
+349. [JuliusBrussee/caveman](#juliusbrusseecaveman) — ⭐ 103,078 (`Go`)
+350. [odysseus-dev/odysseus](#odysseusdevodysseus) — ⭐ 86,797 (`Python`)
 351. [thekingsgaming67-sudo/Claude-AI-Max-Pro-Version-26](#thekingsgaming67sudoclaudeaimaxproversion26) — ⭐ 2 (`Docs / Shell`)
 352. [rubenmarcus/malicious-repositories](#rubenmarcusmaliciousrepositories) — ⭐ 216 (`JavaScript`)
-353. [decolua/9router](#decolua9router) — ⭐ 27,016 (`JavaScript`)
-354. [diegosouzapw/OmniRoute](#diegosouzapwomniroute) — ⭐ 60,860 (`TypeScript`)
+353. [decolua/9router](#decolua9router) — ⭐ 27,022 (`JavaScript`)
+354. [diegosouzapw/OmniRoute](#diegosouzapwomniroute) — ⭐ 60,885 (`TypeScript`)
 355. [AchoArnold/discount-for-student-dev](#achoarnolddiscountforstudentdev) — ⭐ 3,370 (`Docs / Shell`)
 356. [ShreyamMaity/student-offers](#shreyammaitystudentoffers) — ⭐ 754 (`HTML`)
 357. [mn-api/awesome-ai-proxy](#mnapiawesomeaiproxy) — ⭐ 953 (`Docs / Shell`)
 358. [denysdovhan/wtfjs](#denysdovhanwtfjs) — ⭐ 37,677 (`JavaScript`)
 359. [dotnetdevbr/vagas](#dotnetdevbrvagas) — ⭐ 505 (`Docs / Shell`)
 360. [andreasbm/web-skills](#andreasbmwebskills) — ⭐ 7,607 (`JavaScript`)
-361. [remoteintech/remote-jobs](#remoteintechremotejobs) — ⭐ 40,779 (`JavaScript`)
+361. [remoteintech/remote-jobs](#remoteintechremotejobs) — ⭐ 40,780 (`JavaScript`)
 362. [hideraldoluis/roadmap-do-desenvolvedor-web](#hideraldoluisroadmapdodesenvolvedorweb) — ⭐ 1,140 (`Docs / Shell`)
-363. [iuricode/padroes-de-commits](#iuricodepadroesdecommits) — ⭐ 9,662 (`Shell`)
-364. [frontendbr/vagas](#frontendbrvagas) — ⭐ 15,392 (`Docs / Shell`)
+363. [iuricode/padroes-de-commits](#iuricodepadroesdecommits) — ⭐ 9,661 (`Shell`)
+364. [frontendbr/vagas](#frontendbrvagas) — ⭐ 15,393 (`Docs / Shell`)
 365. [arthurspk/guiadevbrasil](#arthurspkguiadevbrasil) — ⭐ 15,781 (`Docs / Shell`)
 366. [vnxdtzip/phishap](#vnxdtzipphishap) — ⭐ 5 (`HTML`)
 367. [dennisdelima18pe/Nubank-redesign](#dennisdelima18penubankredesign) — ⭐ 16 (`HTML`)
@@ -385,87 +385,94 @@
 
 <a id="specteropsskills"></a>
 ### 01. [SpecterOps/skills](https://github.com/SpecterOps/skills)
-- **⭐ Stars:** 222 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 238 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/SpecterOps/skills)
-- 🎯 **O que é e para que serve:** O SpecterOps/skills funciona como um mercado centralizado de habilidades reutilizáveis, plugins e definições para agentes de Inteligência Artificial voltados a fluxos de engenharia e segurança ofensiva. Sua arquitetura desacopla a lógica dos agentes das ferramentas por meio de manifestos padronizados e integração com o protocolo MCP (Model Context Protocol), permitindo que plataformas como Codex e Claude Code executem tarefas complexas com acesso direto a ferramentas de mercado como BloodHound e Ghostwriter.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Automação de Análise de Infraestrutura Ativa:** Integração de agentes de IA com servidores MCP do BloodHound para consultar caminhos de ataque e privilégios em ambientes corporativos de forma conversacional.
-  2. **Geração e Revisão de Relatórios de Red Teaming:** Conexão com a plataforma Ghostwriter para automatizar o preenchimento de *oplogs*, notas de campo e relatórios executivos direto do ambiente de desenvolvimento do operador.
-  3. **Engenharia Reversa Assistida:** Orquestração de comandos automatizados em ferramentas como Binary Ninja através de servidores MCP gerenciados via linha de comando (`npx` ou `uv`).
+- 🎯 **O que é e para que serve:** O `SpecterOps/skills` funciona como um marketplace descentralizado de habilidades reutilizáveis, plugins e definições de agentes voltados para Large Language Models (LLMs). Sua arquitetura modular padroniza a integração com ecossistemas de agentes de IA — como Codex e Claude Code —, desacoplando a lógica de execução dos servidores MCP (*Model Context Protocol*) de ferramentas de segurança ofensiva e defensiva, como BloodHound e Ghostwriter. Seu grande diferencial competitivo é unificar fluxos de trabalho de engenharia de segurança cibernética diretamente no ambiente de desenvolvimento dos agentes de IA.
+- 💡 **Casos de uso reais no dia a dia:** 1. Automatizar a análise de infraestruturas Active Directory consultando instâncias do BloodHound diretamente via comandos contextuais do Claude Code ou Codex.
+  2. Orquestrar relatórios de testes de intrusión (pentest) integrando agentes de IA ao Ghostwriter para preenchimento de *oplogs* e gestão de evidências.
+  3. Realizar revisões de código focadas em segurança e engenharia reversa utilizando o servidor MCP do Binary Ninja acoplado ao fluxo do agente.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Adicionar o repositório como um mercado de plugins no Codex
+# Adicionar o repositório como marketplace no Codex
 codex plugin marketplace add SpecterOps/skills
 
-# Instalar habilidades específicas isoladas via npx para agentes compatíveis
-npx skills add SpecterOps/skills --skill workflows-development --agent claude-code --global
+# Ou instalar instruções de habilidades específicas utilizando npx skills globalmente
+npx skills add SpecterOps/skills --skill workflows-development --agent claude-code --agent codex --global
 
-# Configurar o ambiente Python local para servidores MCP utilizando o gerenciador uv
-uv --directory /caminho/para/bloodhound-mcp run main.py
+# Configurar servidores MCP no arquivo de configuração do projeto (.codex/config.toml) usando o gerenciador uv
+# [mcp_servers.bloodhound_mcp]
+# command = "uv"
+# args = ["--directory", "/caminho/para/bloodhound-mcp", "run", "main.py"]
 ```
-- ⚡ **Dica Pro de produtividade:** Para orquestrar múltiplos servidores MCP sem expor credenciais em texto plano nos arquivos de configuração globais (`~/.codex/config.toml`), utilize a injeção estrita de variáveis de ambiente diretamente no bloco `[mcp_servers.<nome_do_servidor>.env]`. Garanta que chaves sensíveis como `BLOODHOUND_TOKEN_KEY` e `GHOSTWRITER_API_KEY` sejam lidas de um gerenciador de segredos local do seu sistema operacional utilizando os argumentos de execução do `uv` ou wrappers em shell.
+- ⚡ **Dica Pro de produtividade:** Para manter a integridade do catálogo após criar ou modificar plugins locais, utilize sempre o comando `just generate-catalog` na raiz do repositório. Esse utilitário baseado em automação atualiza automaticamente a tabela de compatibilidade e os manifestos no README principal, garantindo que o mapeamento entre Codex, Claude Code e os servidores MCP via `uv` permaneça consistente sem intervenção manual propensa a erros.
 
 ---
 
 <a id="codejunkie99fableorchestrator"></a>
 ### 02. [codejunkie99/fable-orchestrator](https://github.com/codejunkie99/fable-orchestrator)
-- **⭐ Stars:** 296 | **💻 Linguagem:** `Shell`
+- **⭐ Stars:** 313 | **💻 Linguagem:** `Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/codejunkie99/fable-orchestrator)
-- 🎯 **O que é e para que serve:** Fable 5.1 orchestrates. GPT-5.6 Luna and DeepSeek V4 Flash implement. desenvolvida em Shell para uso prático em 'fable-orchestrator'.
-- 💡 **Casos de uso reais no dia a dia:** Aplicação de fable 5.1 orchestrates. gpt-5.6 luna and deepseek v4 flash implement. em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'fable-orchestrator'
+- 🎯 **O que é e para que serve:** O `fable-orchestrator` é uma habilidade de roteamento voltada para execução local (`local-first`) que atua como planejadora e árbitra em fluxos de trabalho assistidos por inteligência artificial no Codex. Sua arquitetura separa estritamente a tomada de decisão de alto nível (conduzida pelo Claude Fable 5.1) da execução de código (delegada via agentes OpenCode Go como GPT-5.6 Luna e DeepSeek V4 Flash), garantindo que o modelo planejador nunca manipule diretamente o espaço de trabalho. O principal diferencial competitivo é eliminar alucinações de modelos e o uso indevido de credenciais ao impor um grafo de execução estrito e sem persistência de sessão.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Refatoração massiva de microsserviços:** Delegação de iterações repetitivas e de alto volume de código para o DeepSeek V4 Flash, enquanto o Claude Fable gerencia o planejamento sequencial e a adjudicação final das mudanças estruturais.
+  2. **Implementação paralela de funcionalidades complexas:** Coordenação de múltiplos agentes GPT-5.6 Luna para codificar partes isoladas de uma aplicação, com validação e coleta de evidências centralizadas pelo Codex sem risco de vazamento de chaves de API.
+  3. **Resolução automatizada de bugs em loops de iteração:** Execução controlada de ciclos de correção onde o DeepSeek lida com o alto rendimento de testes e ajustes de código até que o Fable avalie o sucesso do resultado.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-The three files under `skill/fable/` are the installable skill. `ask_fable.sh` is executable and invokes Claude Code's local `fable` alias with no session persistence. The packet passed to it must contain decisions and workspace facts only; never put credentials in a packet.
+# 1. Clone o repositório do orquestrador
+git clone https://github.com/codejunkie99/fable-orchestrator.git
+cd fable-orchestrator
 
-## Install
+# 2. Valide a instalação em modo seco (dry-run) para verificar os caminhos
+./install.sh --dry-run
 
-From this repository:
+# 3. Instale a habilidade copiando para o diretório padrão do Codex
+./install.sh --copy
+
+# 4. Execute os testes automatizados leves para validar a integridade estrutural
+tests/test_skill.sh
+
+# 5. Invoque a habilidade diretamente no Codex informando o objetivo desejado
+$fable construir a nova funcionalidade de autenticação
 ```
-- ⚡ **Dica Pro de produtividade:** Inspecione a arquitetura modular e a suíte de testes na raiz de 'codejunkie99/fable-orchestrator' antes de estender funcionalidades, mantendo total retrocompatibilidade.
+- ⚡ **Dica Pro de produtividade:** Utilize a flag `--target` combinada com caminhos relativos ao projeto (`./install.sh --copy --target "$PWD/.local/codex/skills"`) para isolar a versão do Fable diretamente no repositório da sua equipe. Isso garante versionamento estrito da habilidade por projeto e evita conflitos globais no diretório `~/.codex/skills` ao alternar entre diferentes versões do Codex ou do roteador OpenCode Go.
 
 ---
 
 <a id="langchainaideepagents"></a>
 ### 03. [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)
-- **⭐ Stars:** 28,895 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 28,901 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/langchain-ai/deepagents)
-- 🎯 **O que é e para que serve:** O `deepagents` é um arcabouço (`harness`) opinativo de agentes de inteligência artificial construído sobre o LangGraph, projetado para executar tarefas autônomas de longo prazo e múltiplos passos com foco em produção. Sua arquitetura integra nativamente recursos essenciais como sistemas de arquivos plugáveis, sub-agents com contextos isolados, gerenciamento avançado de contexto, acesso a shell, memória persistente e suporte a ferramentas via Model Context Protocol (MCP), oferecendo uma solução pronta para uso ("batteries-included") que pode ser estendida ou substituída em qualquer camada sem necessidade de *fork*.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Desenvolvimento de Software Autônomo e Correção de Bugs:** Atuação como um assistente de terminal (estilo Claude Code) capaz de clonar repositórios, navegar no sistema de arquivos, executar testes via shell, diagnosticar falhas, modificar código e submeter *pull requests* de forma autônoma.
-  2. **Engenharia de Pesquisa e Síntese de Dados em Larga Escala:** Execução de tarefas complexas de pesquisa multi-etapas, onde o agente lê documentações extensas, escreve rascunhos em arquivos locais, resume threads longas para evitar estouro de contexto e gera relatórios consolidados em disco.
-  3. **Automação de Infraestrutura e DevOps com Human-in-the-Loop:** Orquestração de tarefas de migração ou auditoria de segurança em ambientes isolados (*sandboxed*), pausando a execução para revisão e aprovação humana de comandos de shell críticos antes de sua efetivação.
+- 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em Python
+- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'deepagents'
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Instalação do gerenciador de pacotes moderno em Python e adição do deepagents
-pip install uv
 uv add deepagents
-
-# Instalação rápida do agente de terminal pré-construído (Deep Agents Code)
-curl -LsSf https://langch.in/dcode | bash
 ```
-- ⚡ **Dica Pro de produtividade:** Para otimizar o consumo de tokens e garantir persistência robusta em fluxos de trabalho longos, configure o armazenamento de estado utilizando um backend de banco de dados durável do LangGraph atrelado ao LangSmith para tracing (`LANGSMITH_TRACING=true` e `LANGSMITH_API_KEY`). Além disso, utilize a injeção explícita de sub-agents especializados no parâmetro de criação do agente para isolar o contexto de busca em arquivos do contexto principal de tomada de decisão, evitando a degradação da atenção do LLM em tarefas profundas.
+- ⚡ **Dica Pro de produtividade:** No 'langchain-ai/deepagents', modularize os agentes por responsabilidade única e isole o contexto de execução de cada worker para evitar dispersão de tokens e alucinações em tarefas longas.
 
 ---
 
 <a id="deepletheutopia"></a>
 ### 04. [deeplethe/utopia](https://github.com/deeplethe/utopia)
-- **⭐ Stars:** 3,518 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 3,566 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/deeplethe/utopia)
-- 🎯 **O que é e para que serve:** O Utopia é o primeiro modelo de mundo corporativo de código aberto construído sobre uma fundação bitemporal e baseada em grafos, escrito em Rust. Ele serve como um substrato para engenharia de conhecimento que aprende passivamente e se governa sozinho, integrando ontologias, rastreamento temporal e busca vetorial via `pgvector` sobre o PostgreSQL. Seu principal diferencial competitivo é manter o histórico completo da evolução do conhecimento empresarial (bitemporalidade), permitindo auditorias de conformidade rigorosas, detecção de conflitos e tomada de decisões confiáveis para agentes de inteligência artificial de forma totalmente auto-hospedada.
-- 💡 **Casos de uso reais no dia a dia:** 1. *Trilha de Auditoria e Conformidade Regulatória (Compliance):* Rastreamento histórico exato de como e por que uma decisão automatizada ou de agentes de IA foi tomada, utilizando o grafo de conhecimento bitemporal para provar o estado do conhecimento da empresa em uma data retroativa específica.
-  2. *Base de Memória de Longo Prazo para Agentes de IA Corporativos:* Fornecer um "núcleo de decisão" confiável onde agentes podem ler e escrever fatos ontológicos validados, evitando alucinações e resolvendo conflitos de informações conflitantes que chegam de fontes assíncronas.
-  3. *GraphRAG Semântico e Temporal:* Realizar buscas híbridas avançadas combinando similaridade vetorial (`pgvector`) com cruzamentos de ontologias e contexto temporal em grandes volumes de documentação técnica ou corporativa sensível.
+- 🎯 **O que é e para que serve:** O Utopia é o primeiro modelo de mundo corporativo de código aberto construído para funcionar como uma camada base de engenharia de conhecimento com aprendizado passivo e autogovernança. Ele combina grafos de conhecimento bitemporais, ontologias e busca vetorial sobre PostgreSQL com pgvector, permitindo que sistemas autônomos e agentes de IA tomem decisões auditáveis e baseadas em tempo. Seu principal diferencial competitivo é registrar todo o histórico de evolução do conhecimento corporativo, possibilitando auditorias de conformidade e simulações complexas em infraestrutura local (on-premise).
+- 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria e Governança de Decisões para Agentes de IA:** Rastrear exatamente quais dados e o contexto temporal exato que levaram um agente corporativo a tomar uma decisão automatizada em um processo financeiro ou de conformidade legal.
+  2. **Gestão de Conhecimento Dinâmico e Resolução de Conflitos:** Manter uma base de conhecimento ontológica que se adapta automaticamente à chegada de novos documentos corporativos, detectando e resolvendo contradições entre dados antigos e novos de forma bitemporal.
+  3. **Busca Semântica Avançada com Consciência Temporal (GraphRAG):** Consultar dados empresariais complexos combinando similaridade vetorial (via pgvector) com relações estruturadas no grafo, garantindo que o modelo responda com base no estado do conhecimento em um momento específico do passado.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 # Clonar o repositório oficial do projeto
 git clone https://github.com/deeplethe/utopia.git
 cd utopia
 
-# Subir a infraestrutura completa (banco PostgreSQL otimizado com pgvector e a aplicação) via Docker Compose
+# Subir a infraestrutura completa utilizando Docker Compose (inclui PostgreSQL/pgvector e o serviço Rust)
 docker compose up -d
 
-# Ou executar diretamente o binário escrito em Rust em ambiente de desenvolvimento
-cargo run --release
+# Executar os testes de integração do backend em Rust para validar o ambiente
+cargo test --workspace
 ```
-- ⚡ **Dica Pro de produtividade:** Para otimizar o desempenho de ingestão e consultas no `pgvector` em ambientes de alta carga, ajuste as variáveis de ambiente de configuração do pool de conexões do PostgreSQL e defina a flag interna de paralelismo do motor em Rust (`UTOPIA_WORKER_THREADS`) para coincidir com o número exato de núcleos físicos de CPU disponíveis na sua máquina host, evitando sobrecarga de troca de contexto (*context switching*) nas operações de travessia do grafo bitemporal.
+- ⚡ **Dica Pro de produtividade:** Para otimizar o desempenho do motor bitemporal em ambientes de alta carga, configure a variável de ambiente `UTOPIA_PG_POOL_MAX_SIZE` no seu arquivo `.env` para corresponder ao número de núcleos de CPU disponíveis no servidor, garantindo o dimensionamento ideal do pool de conexões assíncronas do SQLx para consultas paralelas no grafo de conhecimento.
 
 ---
 
@@ -473,56 +480,61 @@ cargo run --release
 ### 05. [s0xDk/ghostty-blackhole](https://github.com/s0xDk/ghostty-blackhole)
 - **⭐ Stars:** 1,597 | **💻 Linguagem:** `GLSL`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/s0xDk/ghostty-blackhole)
-- 🎯 **O que é e para que serve:** O `ghostty-blackhole` é um shader GLSL avançado executado nativamente pelo emulador de terminal Ghostty que renderiza um buraco negro em 3D com ray tracing em tempo real sobre o conteúdo do terminal. Sua arquitetura calcula geodesicas nulas e a métrica de Schwarzschild diretamente a cada pixel do fragment pass, integrando efeitos físicos como o anel de fótons, lentes gravitacionais e um disco de acreação com perfil de temperatura de Shakura–Sunyaev. Seu principal diferencial é acoplar essa simulação visual estritamente à telemetria de contexto do Claude Code ou a um relógio Pomodoro baseado em relógio de parede interno, alertando visualmente o desenvolvedor sobre o esgotamento do espaço de contexto sem requerer daemons externos ou hooks de shell complexos.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Monitoramento visual de contexto em LLM:** Engenheiros que utilizam o assistente Claude Code em sessões longas de refatoração ou migração de código podem monitorar intuitivamente o preenchimento da janela de contexto sem desviar o olhar do código, sabendo exatamente o momento ideal para executar o comando `/compact`.
-  2. **Gerenciamento de foco ergonômico via Pomodoro integrado:** Desenvolvedores que sofrem com fadiga de tela utilizam o modo de relógio interno baseado em `iDate` e detecção de cursor (`iTimeCursorChange`) para forçar pausas programadas de 5 minutos a cada hora, com o buraco negro encolhendo ou expandindo de acordo com a atividade de digitação real.
-  3. **Customização extrema de ambientes de desenvolvimento (Ricing):** Usuários avançados de Linux e macOS que buscam ambientes altamente personalizados no Ghostty implementam o shader para transformar o terminal em uma interface visual imersiva e responsiva à carga de trabalho, mantendo a área de trabalho inferior (`WORK_AREA`) intacta para o prompt de comando.
+- 🎯 **O que é e para que serve:** O `ghostty-blackhole` é um shader de fragmento GLSL altamente otimizado para o terminal Ghostty que renderiza um buraco negro de Kerr-Schwarzschild em tempo real, integrando geodésicas nulas pixel a pixel sem texturas pré-computadas. Seu grande diferencial arquitetural é acoplar a geometria e a escala do buraco negro diretamente ao estado do terminal — seja cronometrando ciclos de Pomodoro puramente via relógio de parede e atividade de cursor, ou mapeando dinamicamente a janela de contexto consumida pelo assistente Claude Code.
+- 💡 **Casos de uso reais no dia a dia:** 1. *Monitoramento visual de contexto de IA:* Engenheiros que utilizam o Claude Code de forma intensiva em sessões longas de refatoração ganham um indicador periférico puramente visual e intuitivo, eliminando a necessidade de checar comandos de status para saber quando o contexto está prestes a estourar e exigir um `/compact`.
+  2. *Gerenciamento de tempo sem distrações (Pomodoro nativo):* Desenvolvedores que preferem programar em tela cheia sem barras de status ou daemons externos utilizam o modo Pomodoro embutido no shader, onde o buraco negro cresce sutilmente ao longo de 55 minutos para sinalizar a urgência de uma pausa.
+  3. *Customização avançada de shaders em terminais modernos:* Serve como referência de engenharia reversa e otimização gráfica para criar efeitos visuais complexos baseados em física de alta performance dentro das limitações severas de renderização sem buffers persistentes do Ghostty.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# 1. Clone o repositório oficial do projeto para o diretório de configurações do Ghostty
+# 1. Clone o repositório para o seu diretório de configuração do Ghostty
 git clone https://github.com/s0xDk/ghostty-blackhole.git ~/.config/ghostty/shaders/blackhole
 
-# 2. Configure o Ghostty para carregar o shader personalizado no arquivo de configuração global
+# 2. Adicione a configuração do shader customizado no seu arquivo principal de configuração do Ghostty
 echo "custom-shader = ~/.config/ghostty/shaders/blackhole/blackhole.glsl" >> ~/.config/ghostty/config
 
-# 3. Abra o Ghostty e ajuste os parâmetros diretamente no topo do arquivo GLSL (ex: alternar o modo de tamanho para rastrear o Claude Code)
+# 3. Inicie uma nova sessão do terminal Ghostty para renderizar o buraco negro em tempo real
+ghostty
 ```
-- ⚡ **Dica Pro de produtividade:** Para ajustar o comportamento dinâmico do buraco negro sem recompilar o terminal, edite as macros de configuração no início do arquivo `blackhole.glsl` — como alterar o limiar de inatividade `IDLE_FADE_SEC` para um tempo menor (ex: `45.0` segundos) caso você faça pausas frequentes de raciocínio, ou ajuste o multiplicador `STAR_GAIN` para habilitar o campo estelar procedural lenteado que ajuda a visualizar a distorção da tela de fundo em resoluções ultra-wide.
+- ⚡ **Dica Pro de produtividade:** Para ajustar o comportamento do buraco negro no modo Claude Code ou alternar para o modo Pomodoro sem recompilar o terminal, edite diretamente as macros de pré-processador no topo do arquivo `blackhole.glsl`. Modifique a constante `WORK_PERIOD_MIN` para alterar a duração do ciclo de foco ou ajuste o limiar `STAR_GAIN` para habilitar o campo estelar procedural lenteado (que desvia a luz ao redor do horizonte de eventos), garantindo melhor legibilidade do texto dependendo da opacidade e do esquema de cores do seu tema do Ghostty.
 
 ---
 
 <a id="cyberstrikeuscyberstrike"></a>
 ### 06. [CyberStrikeus/CyberStrike](https://github.com/CyberStrikeus/CyberStrike)
-- **⭐ Stars:** 2,482 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 2,484 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/CyberStrikeus/CyberStrike)
-- 🎯 **O que é e para que serve:** O CyberStrike é um *harness* de segurança ofensiva de código aberto impulsionado por inteligência artificial para testes de intrusão automatizados diretamente no terminal. Sua arquitetura em TypeScript combina mais de 13 agentes especializados, 7.600 habilidades de segurança e integração com o ecossistema MCP (*Model Context Protocol*), permitindo transformar qualquer assinatura de LLM em um agente autônomo de *Red Team* capaz de realizar varreduras, explorações e relatórios sem custos adicionais de API dedicadas.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Automação de *Bug Bounty* e Triagem:** Execução de varreduras de reconhecimento e validação de casos de teste OWASP em aplicações web recém-implantadas para identificar vulnerabilidades antes de auditorias manuais.
-  2. **Simulação Contínua de *Red Team*:** Integração em pipelines de CI/CD para testar a resiliência de infraestruturas em nuvem e APIs contra vetores de ataque complexos e pós-exploração simulada.
-  3. **Avaliação de Conformidade e Mitigação:** Mapeamento automatizado de falhas em código-fonte e endpoints, gerando relatórios detalhados com recomendações de correção para equipes de engenharia e segurança defensiva (*Blue Team*).
+- 🎯 **O que é e para que serve:** Projeto open-source de AI-powered offensive security harness for automated penetration testing. (focado em segurança)
+- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'CyberStrike' | Auditoria contínua de código, detecção de segredos e prevenção de vulnerabilidades
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Instalação global do pacote via npm
-npm i -g @cyberstrike-io/cyberstrike@latest
-
-# Execução interativa da interface TUI no terminal
-cyberstrike
+npm i -g @cyberstrike-io/cyberstrike@latest && cyberstrike
 ```
-- ⚡ **Dica Pro de produtividade:** Para otimizar o consumo de tokens e direcionar o comportamento dos 13+ agentes autônomos em ambientes restritos, utilize o arquivo de configuração local para mapear explicitamente provedores de LLM baseados em assinatura existente (como Claude Code ou OpenAI) e restrinja o escopo de execução dos *MCP tools* através de flags de diretório para evitar varreduras fora do alvo autorizado.
+- ⚡ **Dica Pro de produtividade:** No 'CyberStrikeus/CyberStrike', modularize os agentes por responsabilidade única e isole o contexto de execução de cada worker para evitar dispersão de tokens e alucinações em tarefas longas.
 
 ---
 
 <a id="esenginedeepseekreasonix"></a>
 ### 07. [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)
-- **⭐ Stars:** 35,384 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 35,385 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/esengine/DeepSeek-Reasonix)
-- 🎯 **O que é e para que serve:** Ferramenta de terminal e linha de comando de alta produtividade construída em Go
-- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'DeepSeek-Reasonix' | Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento
+- 🎯 **O que é e para que serve:** O `DeepSeek-Reasonix` é um agente de inteligência artificial nativo para o DeepSeek e executado diretamente no terminal como um único binário em Go, projetado especificamente para estabilidade de cache de prefixo ("prefix-cache stability"). Ele atua como um motor de engenharia local que pode rodar continuamente, oferecendo quatro formas de acesso (terminal, aplicativo de desktop, navegador ou editor via ACP) com controle por modo de planejamento, permissões granulares, sandbox de espaço de trabalho e pontos de verificação por turno.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Refatorações de longo prazo em microsserviços:** Deixar o agente rodando autonomamente para refatorar contratos de API complexos e migrar padrões de código em dezenas de arquivos Go, garantindo que o progresso seja totalmente controlável e reversível via *checkpoints* por turno.
+  2. **Resolução automatizada de bugs estruturais:** Utilizar o modo de planejamento para analisar rastros de pilha (*stack traces*) profundos em ambientes de CI/CD, permitindo que o agente isole a causa raiz e aplique correções seguras validadas dentro de um sandbox isolado.
+  3. **Desenvolvimento assistido multi-interface:** Integrar o motor local diretamente ao editor do desenvolvedor via ACP (Agent Client Protocol) ou acessá-lo via interface TUI baseada em Ink no terminal para acompanhar o raciocínio e a execução de ferramentas em tempo real.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
+# Instalação rápida do pacote global via npm
+npm install -g reasonix
+
+# Ou clonando e compilando diretamente o binário em Go a partir do código-fonte
 git clone https://github.com/esengine/DeepSeek-Reasonix.git
 cd DeepSeek-Reasonix
+go build -o reasonix ./cmd/reasonix
+
+# Executando a ferramenta no diretório do projeto alvo
+reasonix --workspace .
 ```
-- ⚡ **Dica Pro de produtividade:** No 'esengine/DeepSeek-Reasonix', modularize os agentes por responsabilidade única e isole o contexto de execução de cada worker para evitar dispersão de tokens e alucinações em tarefas longas.
+- ⚡ **Dica Pro de produtividade:** Para extrair o máximo desempenho do DeepSeek-Reasonix e evitar estouros de contexto ou perda de tokens computados, configure explicitamente as variáveis de ambiente de diretório de trabalho e mantenha a sessão ativa aproveitando a estabilidade nativa de cache de prefixo do DeepSeek. Utilize a flag `--plan-mode` combinada com o arquivo de configuração de extensões (`./docs/EXTENSIONS.md`) para restringir as ferramentas que o agente pode invocar automaticamente, garantindo execuções longas e autônomas sem modificações acidentais em arquivos críticos de infraestrutura.
 
 ---
 
@@ -530,119 +542,122 @@ cd DeepSeek-Reasonix
 ### 08. [Faceplugin-ltd/Open-Source-Face-Recognition-SDK](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK)
 - **⭐ Stars:** 2,119 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Faceplugin-ltd/Open-Source-Face-Recognition-SDK)
-- 🎯 **O que é e para que serve:** O *Open-Source-Face-Recognition-SDK* é uma solução completa de código aberto para reconhecimento facial em tempo real, voltada para os sistemas operacionais Windows e Linux. Sua arquitetura baseia-se em redes neurais profundas (Deep Learning) otimizadas para processamento estritamente local (*On-Premise*), permitindo a detecção de faces, extração de pontos faciais (*landmarks*), geração de vetores de características (*embeddings*) e comparação biométrica sem a necessidade de conexões externas com nuvem, garantindo total privacidade de dados e conformidade com LGPD/GDPR.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Sistemas de Controle de Acesso Físico e Catracas:** Integração com câmeras IP locais para validação biométrica de colaboradores ou moradores em tempo real, operando de forma autônoma mesmo em redes instáveis ou sem acesso à internet.
-  2. **Verificação de Identidade (KYC) em Ambientes Bancários e Fintechs:** Homologação de cadastros de usuários via aplicativo ou desktop, comparando a selfie tirada na hora com o documento oficial de forma segura no servidor local da empresa.
-  3. **Plataformas de Monitoramento e Segurança Patrimonial:** Identificação rápida de listas de rostos indesejados em streams de vídeo locais utilizando CPUs convencionais ou aceleradores de hardware opcionais.
+- 🎯 **O que é e para que serve:** O `Open-Source-Face-Recognition-SDK` é um kit de desenvolvimento de software de código aberto e focado em privacidade, projetado para integrar reconhecimento facial, detecção de vivacidade (*liveness*), extração de *landmarks* e comparação de rostos diretamente em aplicações locais para Windows e Linux. Sua arquitetura baseia-se em modelos de aprendizado profundo (*deep learning*) executados 100% *on-premise*, o que significa que todo o processamento de vetores de características (*embeddings*) ocorre localmente, garantindo conformidade com normas de privacidade sem dependência de APIs em nuvem.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Sistemas de Controle de Acesso Físico e Lógico:** Implementação de catracas inteligentes ou terminais de login corporativo que validam a identidade de colaboradores em tempo real utilizando apenas recursos de CPU local.
+  2. **Verificação de Identidade (KYC) em Ambientes Bancários e Fintechs:** Captura e validação biométrica de usuários no onboarding de aplicativos móveis ou desktop, garantindo que o processamento de dados sensíveis de face permaneça confinado na infraestrutura da empresa.
+  3. **Plataformas de Monitoramento e Segurança Patrimonial:** Detecção facial em lote e cruzamento de *embeddings* com bases de dados internas para alertas instantâneos de intrusão sem vazamento de dados para terceiros.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Clone o repositório oficial do SDK
 git clone https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK.git
 cd Open-Source-Face-Recognition-SDK
-
-# Crie e ative um ambiente virtual isolado via Anaconda para Python 3.9
 conda create -n facesdk python=3.9 -y
 conda activate facesdk
-
-# Instancie as dependências necessárias listadas no projeto
 pip install -r requirements.txt
-
-# Execute o script de validação inicial da instalação
 python run.py
 ```
-- ⚡ **Dica Pro de produtividade:** Ao implementar o método `GetImageInfo(image_path, faceMaxCount=N)` em ambientes de produção de alta concorrência, ajuste o parâmetro `faceMaxCount` para o menor valor estritamente necessário (por exemplo, `1` se houver apenas um usuário por frame). Isso evita o consumo desnecessário de memória na etapa de pós-processamento de *bounding boxes* secundárias e acelera o tempo de inferência do vetor de *embedding* por frame processado.
+- ⚡ **Dica Pro de produtividade:** Para otimizar o tempo de inferência e o uso de memória RAM em ambientes de produção sem GPU dedicada, configure o limite máximo de detecção de rostos através do parâmetro `faceMaxCount` diretamente na chamada de `GetImageInfo(image_path, faceMaxCount=1)` quando o cenário exigir apenas a análise de um único indivíduo por frame, evitando o consumo desnecessário de processamento matricial com múltiplos bounding boxes.
 
 ---
 
 <a id="kestraiokestra"></a>
 ### 09. [kestra-io/kestra](https://github.com/kestra-io/kestra)
-- **⭐ Stars:** 27,979 | **💻 Linguagem:** `Java`
+- **⭐ Stars:** 27,980 | **💻 Linguagem:** `Java`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/kestra-io/kestra)
-- 🎯 **O que é e para que serve:** Automação de infraestrutura e entrega contínua em 'kestra' desenvolvida em Java para uso prático em 'kestra'.
-- 💡 **Casos de uso reais no dia a dia:** Automação de pipelines de CI/CD, empacotamento em containers e orquestração de infraestrutura
+- 🎯 **O que é e para que serve:** Kestra é uma plataforma de orquestração e agendamento orientada a eventos, código aberto e de alta disponibilidade, desenvolvida em Java, voltada para cargas de trabalho críticas de dados, inteligência artificial e infraestrutura. Sua arquitetura desacopla o plano de controle (*control plane*) dos executores de tarefas (*workers*) utilizando uma abordagem baseada em microserviços e armazenamento persistente desacoplado. O principal diferencial competitivo é a unificação de pipelines declarativos (Pipeline-as-Code via YAML) com uma interface gráfica visual rica que permite engenheiros e analistas criarem, monitorarem e versionarem fluxos complexos com suporte nativo a múltiplos idiomas e um ecossistema altamente extensível de plugins.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Engenharia de Dados e ETL/ELT:** Orquestração de ingestão em lote e em tempo real, disparando fluxos complexos baseados em eventos no Kafka ou S3, executando transformações em ferramentas como dbt, Spark ou Snowflake, e enviando alertas automatizados em caso de falhas de qualidade de dados.
+  2. **Automação de Infraestrutura e DevOps (IaC):** Execução de pipelines de provisionamento automatizado de infraestrutura (Terraform, Ansible, AWS CLI) disparados por webhooks de controle de versão ou agendamentos cron, mantendo trilhas de auditoria completas e estados imutáveis.
+  3. **Orquestração de Agentes de IA e LLMs:** Coordenação de fluxos assíncronos para ingestão de dados em bases vetoriais, execução de pipelines de RAG (Retrieval-Augmented Generation) e automação de tarefas baseadas em agentes de inteligência artificial de forma tolerante a falhas.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-docker run --pull=always -it -p 8080:8080 --user=root \
-  --name kestra --restart=always \
-  -v kestra_data:/app/storage \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  -v /tmp:/tmp \
-  kestra/kestra:latest server local
+# Executando o Kestra rapidamente em ambiente de desenvolvimento local utilizando Docker Compose
+cat <<EOF > docker-compose.yml
+services:
+  kestra:
+    image: kestra/kestra:latest
+    command: server standalone
+    ports:
+      - "8080:8080"
+    environment:
+      - KESTRA_CONFIGURATION=datasources.postgres.url=jdbc:h2:file:/tmp/kestra;DB_CLOSE_DELAY=-1
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /tmp/kestra:/tmp/kestra
+EOF
+
+docker compose up -d
 ```
-- ⚡ **Dica Pro de produtividade:** Configure flags JVM com `-XX:+UseContainerSupport` e garanta que pools de threads de 'kestra-io/kestra' respeitem os limites de CPU do container.
+- ⚡ **Dica Pro de produtividade:** Para otimizar a execução de fluxos intensivos e garantir o isolamento estrito de dependências em ambientes de produção de alta concorrência, utilize o plugin executor baseado em Docker (`io.kestra.plugin.scripts.exec.Docker`) configurando a propriedade `volume` para mapear diretórios compartilhados de armazenamento efêmero. Além disso, utilize a variável de ambiente `KESTRA_SERVER_TYPE=standalone` combinada com o parâmetro de linha de comando `--local-storage-path` para direcionar todos os artefatos e logs para um volume montado em SSD de alta performance, evitando gargalos de I/O no banco de dados relacional que atua como metastore.
 
 ---
 
 <a id="ivorginvidious"></a>
 ### 10. [iv-org/invidious](https://github.com/iv-org/invidious)
-- **⭐ Stars:** 24,157 | **💻 Linguagem:** `Crystal`
+- **⭐ Stars:** 24,160 | **💻 Linguagem:** `Crystal`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/iv-org/invidious)
-- 🎯 **O que é e para que serve:** O Invidious é uma interface front-end alternativa de código aberto para o YouTube, desenvolvida em Crystal, que opera sem utilizar as APIs oficiais da plataforma do Google. Sua arquitetura prioriza a privacidade absoluta, eliminando scripts de rastreamento, propagandas e a exigência de JavaScript no navegador, enquanto consome diretamente os dados públicos do YouTube por meio de um sistema próprio de raspagem e mapeamento. O principal diferencial competitivo é devolver o controle total ao usuário, permitindo consumo leve, modo apenas áudio, gerenciamento de inscrições independente e uma API própria de alta performance.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria de tráfego e proxy de privacidade corporativa:** Engenheiros de segurança de redes podem hospedar uma instância interna do Invidious para permitir que colaboradores assistam a tutoriais educacionais ou técnicos do YouTube sem que o Google rastreie endereços IP corporativos ou instale cookies de monitoramento na rede da empresa.
-  2. **Ambientes de baixa largura de banda e computação de borda (*Edge*):** Desenvolvedores que constroem soluções para locais com conexão instável podem integrar aplicações cliente à API leve do Invidious, reduzindo drasticamente o consumo de dados da interface e eliminando o carregamento de payloads pesados em JavaScript.
-  3. **Plataformas de agregação de mídia independente:** Engenheiros de dados podem utilizar a API robusta do Invidious para extrair metadados, legendas e streams de vídeos de forma descentralizada para alimentar pipelines de análise sem sofrer com as restrições severas de cota e as exigências de autenticação OAuth impostas pela API oficial do YouTube.
+- 🎯 **O que é e para que serve:** O Invidious é um front-end alternativo, leve e voltado à privacidade para o YouTube, desenvolvido principal e nativamente em Crystal. Sua arquitetura desacoplada intercepta e analisa o tráfego do YouTube sem utilizar as APIs oficiais da plataforma, eliminando rastreadores, anúncios e a exigência de execução de JavaScript no navegador do cliente. Seu principal diferencial competitivo é devolver o controle total ao usuário sobre seus dados (como histórico e inscrições locais) através de uma interface extremamente rápida e orientada a software livre.
+- 💡 **Casos de uso reais no dia a dia:** 1. *Ambientes corporativos e educacionais restritos:* Implementação de um proxy de vídeo interno para permitir que colaboradores ou alunos assistam a conteúdos educacionais do YouTube em redes com políticas rígidas de bloqueio de scripts de rastreamento e telemetria pesada.
+  2. *Auditoria de privacidade e bypass de telemetria:* Engenharia reversa de consumo de mídia e integração de fluxos de vídeo em aplicações leves sem expor dados pessoais (metadados de navegação) para servidores de anúncios e big techs.
+  3. *Consumo mobile otimizado e frugal:* Hospedagem de uma instância privada para consumo de conteúdo em dispositivos móveis com largura de banda limitada, aproveitando o modo somente áudio e a reprodução em segundo plano sem necessidade de assinaturas pagas.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 # Clone o repositório oficial do Invidious
 git clone https://github.com/iv-org/invidious.git
 cd invidious
 
-# Copie o arquivo de configuração de exemplo
-cp config/config.example.yml config/config.yml
-
-# Inicie a infraestrutura completa (Invidious + PostgreSQL) utilizando Docker Compose
+# Execute a infraestrutura completa (Invidious + PostgreSQL) via Docker Compose
 docker compose up -d
 
 # Verifique se os logs estão rodando corretamente
 docker compose logs -f invidious
 ```
-- ⚡ **Dica Pro de produtividade:** Para otimizar a performance de instâncias do Invidious em produção e evitar gargalos de I/O no banco de dados causados por requisições repetitivas de metadados, configure explicitamente a variável de ambiente `INVIDIOUS_DATABASE_URL` apontando para um cluster PostgreSQL otimizado e ajuste a diretiva `db_cache_duration` no arquivo `config.yml`. Além disso, habilite o parâmetro `cache_annotations: true` para armazenar em memória cache respostas frequentes de legendas e capítulos, reduzindo drasticamente a carga sobre a CPU e o consumo de banda da sua instância.
+- ⚡ **Dica Pro de produtividade:** Para otimizar drasticamente a performance de instâncias do Invidious sob alto tráfego e mitigar bloqueios de IP (*Rate Limiting*) impostos pelo YouTube, configure a variável de ambiente `POLL_INTERVAL` e utilize um pool de proxies rotativos configurando o parâmetro `proxy = "http://usuario:senha@ip:porta"` diretamente no arquivo de configuração `config.yml`. Além disso, utilize a flag de compilação otimizada do Crystal (`crystal build --release src/invidious.cr`) caso esteja executando o binário nativamente fora de containers para reduzir o consumo de memória RAM a frações mínimas.
 
 ---
 
 <a id="nextlevelbuilderuiuxpromaxskill"></a>
 ### 11. [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
-- **⭐ Stars:** 124,658 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 124,677 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/nextlevelbuilder/ui-ux-pro-max-skill)
-- 🎯 **O que é e para que serve:** O `ui-ux-pro-max-skill` é uma competência ("skill") de inteligência artificial projetada para injetar inteligência de design e diretrizes de usabilidade diretamente no fluxo de trabalho de desenvolvedores e agentes de IA (como Claude Code, Cursor, Copilot e Windsurf). Funciona como um motor de raciocínio baseado em regras e padrões visuais validados, capaz de gerar sistemas de design completos, orientar a construção de interfaces multiplataforma e padronizar componentes estéticos e funcionais com precisão cirúrgica.
-- 💡 **Casos de uso reais no dia a dia:** **Geração automatizada de Design Systems para MVPs:** Em projetos de aceleração de produtos, a ferramenta pode ser acionada por um agente de IA para estruturar tokens de design, paletas de cores, tipografia e hierarquia de componentes consistentes em tempo recorde, eliminando o atrito inicial entre design e desenvolvimento frontend.
-  - **Padronização de Landing Pages orientadas à conversão:** Engenheiros frontend e especialistas em growth podem utilizá-la para aplicar regras estruturadas de UI/UX (como padrões Hero-Centric com elementos de prova social) garantindo acessibilidade, escaneabilidade e taxas de conversão otimizadas em aplicações web de alta performance.
-  - **Refatoração inteligente de interfaces legadas:** Atuando integrada a ambientes de desenvolvimento assistidos por IA, a ferramenta serve como um validador de diretrizes de design, sugerindo correções estruturais em código Tailwind CSS ou HTML5 para alinhar aplicações corporativas aos padrões modernos de UI.
+- 🎯 **O que é e para que serve:** O `ui-ux-pro-max-skill` é uma habilidade de inteligência artificial avançada projetada para injetar inteligência de design e diretrizes profissionais de UI/UX em assistentes de codificação e ambientes de desenvolvimento. Sua arquitetura combina um motor de raciocínio baseado em regras lógicas com um gerador automatizado de sistemas de design, permitindo que desenvolvedores criem interfaces multiplataforma consistentes. Seu principal diferencial competitivo é traduzir requisitos complexos de produto em especificações visuais prontas para produção, integrando-se nativamente a dezenas de ferramentas de IA (como Claude Code, Cursor, Copilot e Windsurf) por meio de uma CLI dedicada.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Aceleração de MVPs com Design Systems Coesos:** Geração automática de paletas de cores, tipografia e padrões de layout orientados à conversão para landing pages e aplicações web em React/Tailwind diretamente a partir de um prompt descritivo.
+  2. **Padronização de UI/UX em Equipes Distribuídas:** Aplicação consistente de 192 regras de raciocínio de design e mais de 79 estilos de UI pesquisáveis durante sessões de pair programming com IA, eliminando inconsistências visuais em códigos gerados por múltiplos desenvolvedores.
+  3. **Modernização de Aplicações Legadas:** Análise de interfaces legadas e injeção de inteligência de usabilidade para refatoração guiada de componentes móveis e web, focando em acessibilidade e hierarquia visual otimizada.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Instalação rápida da interface de linha de comando (CLI) via npm
+# Instalação global da CLI do projeto via npm
 npm install -g ui-ux-pro-max-cli
 
-# Inicialização e geração interativa do sistema de design para o projeto atual
-uupm init --interactive
+# Alternativamente, clonagem do repositório para uso direto como skill de IA em Python
+git clone https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
+cd ui-ux-pro-max-skill
 
-# Execução direta da skill integrada ao fluxo de agentes de IA com regras de raciocínio avançadas
-uupm generate --rules=192 --output=design-system.json
+# Inicialização interativa do gerador de sistema de design para o seu projeto atual
+npx ui-ux-pro-max-cli init --target=react --style=modern-saas
 ```
-- ⚡ **Dica Pro de produtividade:** Para extração máxima de desempenho em ambientes automatizados com agentes de IA, utilize a flag de escopo estrito combinada com o diretório de regras personalizadas: `uupm generate --strict --rules-dir=./.ai/rules --style-filter=searchable`. Isso restringe o motor de raciocínio exclusivamente aos 79 estilos de UI indexados e impede alucinações visuais do modelo de linguagem, garantindo consistência estrita com o padrão corporativo configurado no projeto.
+- ⚡ **Dica Pro de produtividade:** Utilize o parâmetro `--rules-engine` associado à flag de restrição estrita no comando da CLI para limitar o escopo do motor de raciocínio a subconjuntos específicos de design (por exemplo, aplicando estritamente as regras de conversão voltadas a fluxos de comércio eletrônico ou aplicações corporativas B2B), evitando que a IA sugira componentes excessivamente ornamentados e garantindo um código em Tailwind CSS limpo e voltado estritamente à conversão de usuários.
 
 ---
 
 <a id="bytebytegohqsystemdesign101"></a>
 ### 12. [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101)
-- **⭐ Stars:** 88,284 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 88,313 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/ByteByteGoHq/system-design-101)
-- 🎯 **O que é e para que serve:** O `system-design-101` é um repositório de código aberto criado para desmistificar a arquitetura de sistemas distribuídos e engenharia de software de grande escala através de diagramas visuais altamente intuitivos e explicações simplificadas. Ele serve como um guia definitivo tanto para engenheiros que estão se preparando para entrevistas de design de sistemas em grandes empresas de tecnologia quanto para profissionais que buscam projetar aplicações resilientes, escaláveis e de alta performance no mundo real.
-- 💡 **Casos de uso reais no dia a dia:** **Planejamento de Arquitetura de Microsserviços:** Utilizado por arquitetos para desenhar e validar fluxos de comunicação entre serviços utilizando padrões como API Gateway, gRPC, balanceamento de carga e estratégias de mensageria assíncrona antes de iniciar o desenvolvimento.
-  - **Estudo para Entrevistas Técnicas (System Design Interviews):** Empregado por engenheiros sêniores e plenos para revisar conceitos críticos de escalabilidade, como particionamento de bancos de dados (sharding), cache distribuído, consistência eventual e replicação de dados.
-  - **Onboarding e Capacitação de Equipes:** Servir como material de referência visual padrão em empresas para nivelar o conhecimento de desenvolvedores júniores e plenos sobre infraestrutura em nuvem, redes e padrões web.
+- 🎯 **O que é e para que serve:** O `system-design-101` é um repositório educacional de código aberto criado para desmistificar arquiteturas de sistemas complexos por meio de recursos visuais intuitivos e explicações simplificadas. Sua principal proposta é servir como um guia definitivo para engenheiros que se preparam para entrevistas de design de sistemas ou buscam compreender os fundamentos de escalabilidade, resiliência e distribuição de cargas nos bastidores da computação em nuvem. O diferencial competitivo reside na capacidade de traduzir conceitos abstratos de infraestrutura (como balanceamento de carga, consistência de dados e roteamento de tráfego) em diagramas diagramáticos de fácil assimilação e aplicação imediata no mercado corporativo.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Preparação para Entrevistas de Arquitetura:** Engenheiros de software sênior e especialistas em infraestrutura utilizam os diagramas e tópicos do repositório como gabarito mental para estruturar respostas rápidas e estruturadas em processos seletivos de grandes empresas de tecnologia (Big Techs).
+  2. **Onboarding de Novos Engenheiros:** Equipes de desenvolvimento adotam o material para nivelar o conhecimento técnico de desenvolvedores júniores e plenos em relação a conceitos essenciais de microsserviços, protocolos de comunicação (como gRPC e WebSockets) e padrões de gateway de API.
+  3. **Tomada de Decisão em Design de Software:** Arquitetos consultam os guias visuais para validar escolhas de infraestrutura antes de desenhar novos sistemas, comparando trade-offs entre estratégias de cache, balanceadores de carga e políticas de roteamento de tráfego na nuvem.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Clone o repositório para ter acesso local a todos os diagramas e guias de arquitetura
+# Clone o repositório oficial para acessar todos os guias e diagramas localmente
 git clone https://github.com/ByteByteGoHq/system-design-101.git
 
 # Navegue para o diretório clonado
 cd system-design-101
 
-# Visualize o conteúdo estruturado utilizando um leitor de Markdown de sua preferência ou abra no VS Code
+# Visualize o conteúdo localmente utilizando um visualizador de Markdown compatível com imagens locais
 code .
 ```
-- ⚡ **Dica Pro de produtividade:** Como o repositório é centrado em assets visuais e documentação em Markdown, utilize a extensão do VS Code "Markdown Preview Mermaid Support" ou abra diretamente a pasta no Obsidian para navegar pelos diagramas interativos de arquitetura de rede, estratégias de cache e balanceamento de carga de forma renderizada e offline, acelerando drasticamente o seu entendimento estrutural sem precisar alternar para o navegador.
+- ⚡ **Dica Pro de produtividade:** Como o repositório é centrado em documentação visual e guias de arquitetura, em vez de ler os arquivos de forma linear, utilize ferramentas de busca semântica baseadas em IA no seu editor (como a extensão Cursor ou extensões do VS Code conectadas a modelos locais via Ollama) apontando diretamente para a pasta clonada. Isso permite fazer perguntas contextuais avançadas no terminal, como *"Quais são os trade-offs entre API Gateway e Load Balancer citados neste repositório?"*, obtendo respostas sintetizadas diretamente dos diagramas e textos oficiais em segundos sem precisar navegar manualmente por dezenas de arquivos Markdown.
 
 ---
 
@@ -650,29 +665,27 @@ code .
 ### 13. [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe)
 - **⭐ Stars:** 10,657 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/langchain-ai/open-swe)
-- 🎯 **O que é e para que serve:** O Open SWE é uma fábrica de software de código aberto baseada em agentes profundos que automatiza o ciclo de vida de desenvolvimento por meio de agentes autônomos assíncronos. Sua arquitetura utiliza o LangGraph para orquestrar threads de computação em nuvem vinculadas a ambientes isolados (*sandboxes*), permitindo planejar, investigar bases de código, implementar alterações, validar código e abrir pull requests de forma paralela e contínua. Seu principal diferencial competitivo é ir além da simples geração de código, integrando-se nativamente a fluxos de revisão baseados em histórico, monitoramento de CI e automação orientada a eventos via web, Slack, GitHub e Linear.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Resolução automatizada de issues e backlog:** Automatizar a triagem e implementação de tarefas repetitivas ou bugs pontuais reportados no Linear ou GitHub, onde o agente investiga o repositório, aplica o patch em um ambiente isolado e submete um pull request validado para revisão humana.
-  2. **Monitoramento e autocorreção de CI/CD:** Utilizar o comando de monitoramento integrado para rastrear falhas em pull requests, diagnosticar o erro com base nos logs de integração contínua, executar testes direcionados e reenviar correções baseadas em evidências sem intervenção manual imediata.
-  3. **Revisão de código padronizada:** Realizar revisões automatizadas de pull requests aplicando as diretrizes específicas e o estilo histórico de revisões do repositório, publicando comentários fundamentados diretamente no diff do GitHub.
+- 🎯 **O que é e para que serve:** O Open SWE é uma fábrica de software de código aberto baseada em agentes profundos que transforma o trabalho de engenharia em um sistema repetível e automatizado. Sua arquitetura assíncrona utiliza o LangGraph para orquestrar threads de computação em nuvem vinculadas a ambientes isolados (*sandboxes*), permitindo que a IA investigue bases de código, implemente alterações, valide entregas e abra pull requests de forma autônoma. Seu principal diferencial é ir além da simples geração de código, integrando-se nativamente com ciclos de revisão, monitoramento de CI, chat em pull requests e automações agendadas.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Resolução automatizada de tickets e issues:** Um desenvolvedor atribui uma issue do GitHub ou uma tarefa do Linear ao agente, que investiga o repositório, cria um plano, executa as modificações em um sandbox isolado e submete um pull request validado.
+  2. **Monitoramento e autocorreção de CI:** O agente utiliza o comando `/baby-sit` para monitorar pull requests ativos, diagnosticar falhas em pipelines de Integração Contínua e reexecutar apenas testes que apresentem falhas intermitentes comprovadas.
+  3. **Revisão de código guiada pelo histórico:** O sistema realiza revisões estáticas e contextuais em pull requests abertos, aprendendo e aplicando as preferências específicas de estilo de revisão do repositório com base em feedbacks históricos.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 # Clone o repositório oficial do Open SWE
 git clone https://github.com/langchain-ai/open-swe.git
 cd open-swe
 
-# Configure o ambiente virtual Python e instale as dependências
-python -m venv venv
-source venv/bin/activate
+# Configure as variáveis de ambiente essenciais (chaves de API e provedores de LLM)
+cp .env.example .env
+# Edite o arquivo .env com suas chaves da Anthropic, OpenAI e credenciais do GitHub
+
+# Instale as dependências do projeto utilizando o gerenciador Python de sua preferência (ex: Poetry ou pip)
 pip install -e .
 
-# Configure suas chaves de API necessárias para os provedores de LLM
-export OPENAI_API_KEY="sua-chave-aqui"
-export ANTHROPIC_API_KEY="sua-chave-aqui"
-
-# Execute a aplicação ou inicialize o agente para o repositório alvo
-python -m openswe.cli --repo /caminho/para/seu/projeto --task "Implementar validação de schema na rota de login"
+# Inicie o ambiente de desenvolvimento e o agente em conjunto com o sandbox isolado
+docker-compose up --build
 ```
-- ⚡ **Dica Pro de produtividade:** Para otimizar o consumo de tokens e o tempo de execução do agente em bases de código massivas, configure a variável de ambiente `OPENSWE_REASONING_EFFORT` para o nível `low` ou `medium` em tarefas de refatoração menor, e reserve o nível `high` exclusivamente para fluxos complexos de arquitetura ou depuração profunda de CI. Além disso, utilize a flag `--sandbox-provider` para apontar diretamente para um container Docker local customizado com as dependências exatas do seu projeto pré-instaladas, eliminando o overhead de bootstrapping do ambiente a cada nova tarefa na thread.
+- ⚡ **Dica Pro de produtividade:** Para otimizar o consumo de tokens e o tempo de resposta do agente em bases de código legadas extensas, configure a variável de ambiente `OPEN_SWE_REASONING_EFFORT` para o nível `low` ou `medium` em tarefas repetitivas, e reserve o nível `high` exclusivamente para fluxos complexos de refatoração arquitetural. Além disso, utilize a injeção de instruções customizadas no diretório de configuração do repositório para definir padrões rígidos de linting que o agente deve validar antes de commitar as alterações no sandbox.
 
 ---
 
@@ -680,25 +693,22 @@ python -m openswe.cli --repo /caminho/para/seu/projeto --task "Implementar valid
 ### 14. [plandex-ai/plandex](https://github.com/plandex-ai/plandex)
 - **⭐ Stars:** 15,619 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/plandex-ai/plandex)
-- 🎯 **O que é e para que serve:** O Plandex é um agente de codificação de IA de código aberto executado via linha de comando (CLI), projetado especificamente para gerenciar tarefas complexas e de grande escala que afetam múltiplos arquivos em projetos do mundo real. Arquiteturalmente construído em Go, ele se destaca pelo gerenciamento inteligente de contexto — suportando até 2 milhões de tokens — através de mapas de projetos gerados por tree-sitter e um ambiente de sandbox isolado com revisões de diff cumulativas, permitindo que o desenvolvedor mantenha controle granular sobre alterações automatizadas antes de aplicá-las ao repositório.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Refatoração massiva de código legado:** Substituição de um framework ou biblioteca inteira (ex: migrar uma aplicação monolítica de Express.js para NestJS) em dezenas de arquivos simultaneamente, garantindo consistência estrutural e tratamento de dependências.
-  2. **Implementação de features transversais (*cross-cutting concerns*):** Adição de um novo mecanismo de logging estruturado, tracing distribuído com OpenTelemetry ou padronização de tratamento de erros em múltiplos microsserviços interconectados.
-  3. **Resolução automatizada de bugs complexos em grandes bases de código:** Carregamento de contextos extensos de código-fonte onde ferramentas convencionais baseadas em chat falham devido ao limite estrito de tokens, permitindo que a IA analise o fluxo completo de execução e aplique correções seguras.
+- 🎯 **O que é e para que serve:** O Plandex é um agente de codificação de inteligência artificial voltado para o terminal, projetado especificamente para planejar e executar tarefas complexas e de grande escala que abrangem múltiplos arquivos e dezenas de passos. Sua arquitetura em Go combina gerenciamento inteligente de contexto (suportando até 2 milhões de tokens de contexto e indexação de projetos massivos via árvores sintáticas do Tree-sitter) com um sandbox de revisão de *diff* cumulativo, isolando as alterações da IA até que o desenvolvedor aprove a aplicação.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Refatoração estrutural em larga escala:** Migrar um microsserviço inteiro de um framework legado para um novo padrão (por exemplo, trocar uma ORM inteira ou atualizar a versão de uma linguagem com quebra de compatibilidade) que afeta dezenas de arquivos simultaneamente.
+  2. **Implementação de features ponta a ponta:** Construir uma nova funcionalidade que exige alterações no banco de dados, regras de negócio no backend em Go e consumo na interface, mantendo a coerência sem perder o contexto do projeto.
+  3. **Depuração autônoma e resolução de bugs complexos:** Carregar logs de erro extensos e múltiplos arquivos relacionados para que o agente isole a falha, aplique correções, execute testes automatizados e realize o *rollback* caso algo falhe.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Instalação rápida via script oficial no Linux/macOS
-curl -sL https://plandex.ai/install.sh | sh
+# Instalação rápida via script oficial (CLI e dependências do servidor local)
+curl -sL https://plandex.ai/install.sh | bash
 
-# Inicialização do Plandex na raiz do seu projeto
+# Inicializar o Plandex dentro do diretório do seu projeto
 plandex init
 
-# Criação de um plano para uma tarefa específica
-plandex tell "Refatore o módulo de autenticação para utilizar JWT e adicione testes unitários"
-
-# Aplicação e revisão interativa das mudanças propostas no sandbox
-plandex apply
+# Iniciar uma nova sessão de planejamento de tarefa com IA
+plandex tell "Refatore o pacote de autenticação para usar tokens JWT e atualize todos os arquivos dependentes"
 ```
-- ⚡ **Dica Pro de produtividade:** Para otimizar o consumo de tokens e acelerar a indexação em projetos massivos, utilize a flag `--exclude` ou configure o arquivo `.plandexignore` (análogo ao `.gitignore`) para omitir diretórios de build, dependências de pacotes (`node_modules`, `vendor`, `target`) e arquivos binários. Além disso, utilize a variável de ambiente `PLANDEX_MODEL` para alternar estrategicamente entre modelos de alta capacidade (como Claude 3.5 Sonnet ou GPT-4o) para planejamento de arquitetura e modelos mais rápidos e econômicos para tarefas repetitivas de implementação.
+- ⚡ **Dica Pro de produtividade:** Para gerenciar projetos massivos sem exceder os limites de contexto ou estourar a cota de tokens da API, utilize o mapeamento de projetos baseado em Tree-sitter combinado com a flag de seleção estrita de arquivos (`plandex load <arquivo>`). Além disso, configure a variável de ambiente `PLANDEX_MODEL` para alternar dinamicamente entre modelos econômicos (como o Claude 3.5 Sonnet ou GPT-4o) para o planejamento inicial e modelos locais (via Ollama) para tarefas repetitivas, otimizando drasticamente os custos operacionais da sua infraestrutura de IA.
 
 ---
 
@@ -706,15 +716,15 @@ plandex apply
 ### 15. [TabbyML/tabby](https://github.com/TabbyML/tabby)
 - **⭐ Stars:** 33,858 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/TabbyML/tabby)
-- 🎯 **O que é e para que serve:** O Tabby é um assistente de código de inteligência artificial auto-hospedado (self-hosted), projetado como uma alternativa totalmente de código aberto e on-premises ao GitHub Copilot. Sua arquitetura é altamente autossuficiente — dispensando bancos de dados relacionais externos ou dependências de nuvem proprietárias —, oferecendo uma interface OpenAPI robusta para fácil integração com IDEs e infraestruturas existentes, além de suporte nativo a GPUs de nível de consumidor.
-- 💡 **Casos de uso reais no dia a dia:** **Empresas com restrições rígidas de conformidade e LGPD/GDPR:** Desenvolver software em ambientes corporativos onde o envio de código-fonte proprietário para APIs de nuvem pública (como OpenAI ou GitHub) é proibido por políticas de segurança da informação.
-  - **Ambientes operacionais isolados (Air-gapped):** Manter fluxos de trabalho avançados de autocompletação de código e motores de resposta baseados em LLM em redes sem acesso à internet, garantindo total soberania sobre os dados e pesos dos modelos.
-  - **Central de conhecimento interno para equipes de engenharia:** Indexar documentações internas, repositórios locais e Pull Requests do GitLab para permitir que o motor de respostas responda a dúvidas contextuais complexas diretamente no painel lateral da IDE.
+- 🎯 **O que é e para que serve:** O Tabby é um assistente de código de inteligência artificial auto-hospedado (self-hosted), projetado como uma alternativa open-source e on-premises ao GitHub Copilot. Ele se destaca por sua arquitetura autossuficiente que dispensa o uso de bancos de dados externos complexos ou serviços em nuvem, oferecendo suporte a GPUs de nível consumidor e integração fluida via interface OpenAPI para ambientes de desenvolvimento seguros e corporativos.
+- 💡 **Casos de uso reais no dia a dia:** 1. *Ambientes corporativos com restrições de conformidade:* Empresas do setor financeiro ou de saúde que não podem enviar código-fonte para a nuvem pública podem rodar o Tabby localmente em hardware dedicado (como GPUs NVIDIA GeForce) para fornecer autocompletar e chat de IA aos desenvolvedores com total privacidade de dados.
+  2. *Indexação de conhecimento interno e documentação:* Engenheiros podem indexar repositórios de código proprietários, documentações internas via APIs REST e até mesmo Merge Requests do GitLab para criar um motor de respostas contextualizado no ecossistema da empresa.
+  3. *Integração com IDEs e automação de tarefas:* Equipes de desenvolvimento podem plugar o Tabby em editores como VS Code e Neovim, permitindo a geração de código inline, menção de arquivos no chat (`@`) e automação de tarefas via integração com agentes externos.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
 docker run -d --gpus all -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve --model StarCoder-1B
 ```
-- ⚡ **Dica Pro de produtividade:** Para otimizar o consumo de memória VRAM em GPUs de consumo (como a linha NVIDIA RTX) sem degradar severamente a latência de inferência, utilize a flag `--device cuda` combinada com a quantização nativa via variáveis de ambiente, definindo `TABBY_MODEL_BACKEND=llama.cpp` e especificando o formato GGUF otimizado diretamente no comando de inicialização do container.
+- ⚡ **Dica Pro de produtividade:** Para otimizar o consumo de VRAM e acelerar a inferência em GPUs de consumo (como a linha RTX), utilize a flag `--device cuda` combinada com a quantização nativa do modelo através da variável de ambiente `TABBY_MODEL_CONFIG` para definir motores de execução otimizados, ou aponte o servidor para binários locais do Llamafile executando o comando `tabby serve --model Llamafile --chat-model <caminho-do-arquivo.llamafile>`.
 
 ---
 
@@ -722,17 +732,20 @@ docker run -d --gpus all -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve 
 ### 16. [shauryagangrade/awesome-ai-prompts](https://github.com/shauryagangrade/awesome-ai-prompts)
 - **⭐ Stars:** 42 | **💻 Linguagem:** `Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/shauryagangrade/awesome-ai-prompts)
-- 🎯 **O que é e para que serve:** O `awesome-ai-prompts` é uma biblioteca de engenharia de prompt agnóstica de ferramentas e focada em processos disciplinares para agentes de IA de codificação. Sua arquitetura prioriza a verificação estrita em vez de suposições alucinadas, exigindo que o LLM leia o código existente, planeje etapas granulares e utilize testes automatizados como barreiras de segurança antes de declarar uma tarefa concluída.
-- 💡 **Casos de uso reais no dia a dia:** **Implementação de funcionalidades ponta a ponta:** Engenheiros juniors ou estudantes podem aplicar o prompt de feature para forçar o Claude ou Cursor a analisar o contexto do repositório, propor um plano de design enxuto, escrever testes unitários e respeitar estritamente os padrões arquiteturais vigentes sem modificar código não relacionado.
-  - **Depuração sistemática de bugs complexos:** Em cenários de falhas em produção, o prompt de debug instrui o agente a reproduzir o erro, isolar a raiz do problema, aplicar a menor alteração possível no código e adicionar testes de regressão obrigatórios.
-  - **Integração segura de APIs externas:** Garante que o agente implemente contratos de API robustos com tratamento adequado de erros, tipagem estática rigorosa, políticas de repetição (*retries*) e validações de segurança integradas.
+- 🎯 **O que é e para que serve:** O `awesome-ai-prompts` é um repositório de engenharia de prompts voltado para estudantes e desenvolvedores que utilizam agentes de IA para codificação. Sua arquitetura de prompts é agnóstica a ferramentas e focada estritamente em fluxos de trabalho disciplinares de engenheiros seniores — priorizando verificação rigorosa, execução de testes automatizados como barreiras de segurança e etapas pequenas e confirmadas para mitigar drasticamente as alucinações das LLMs.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Implementação guiada de funcionalidades:** Orquestração de agentes para que leiam o contexto do código existente, proponham um plano de arquitetura antes de digitar qualquer linha, implementem a menor alteração viável e validem tudo através da execução da suíte de testes.
+  2. **Depuração sistemática de bugs complexos:** Condução de agentes por um ciclo estrito de reprodução do erro, isolamento do escopo, identificação da causa raiz, aplicação de correção cirúrgica e escrita de testes de regressão obrigatórios.
+  3. **Refatoração segura de código legado:** Preservação de comportamento em bases de código legadas utilizando a suíte de testes atual como rede de segurança intransigível enquanto o agente reestrutura o código de acordo com os padrões estabelecidos.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
+# Clone o repositório para ter acesso local a toda a curadoria de prompts
 git clone https://github.com/shauryagangrade/awesome-ai-prompts.git
-cd awesome-ai-prompts
-# Navegue até a categoria desejada (ex: core-coding) e copie o conteúdo de feature-implementation-prompt.md para o seu agente de IA
+
+# Navegue até a categoria de código principal e visualize o prompt de implementação de recursos
+cd awesome-ai-prompts/core-coding
+cat feature-implementation-prompt.md
 ```
-- ⚡ **Dica Pro de produtividade:** Para extrair o máximo de eficácia desses prompts estruturados em ambientes como Cursor ou VS Code com Copilot, combine o bloco de instruções copiado com o comando de contexto de arquivo `@` apontando diretamente para o arquivo de testes ou rotas principais (ex: `@src/server.ts Cole o prompt aqui`). Isso força o modelo a ancorar o comportamento de planejamento estrito diretamente na árvore de dependências real do projeto, reduzindo drasticamente o escopo de alucinação do agente.
+- ⚡ **Dica Pro de produtividade:** Em vez de copiar e colar manualmente os arquivos markdown inteiros a cada interação, combine o uso deste repositório com o recurso de regras personalizadas ou arquivos de contexto do seu ambiente de desenvolvimento (como o arquivo `.cursorrules` no Cursor ou instruções customizadas no arquivo `.github/copilot-instructions.md`). Copie o conteúdo dos blocos de verificação e restrições dos prompts principais (`core-coding/feature-implementation-prompt.md`) diretamente para essas configurações de workspace, transformando o comportamento padrão do seu agente de IA em um revisor sênior orientado a testes de forma permanente e automática em todo o projeto.
 
 ---
 
@@ -740,39 +753,55 @@ cd awesome-ai-prompts
 ### 17. [spotiflacapp/SpotiFLAC-Mobile](https://github.com/spotiflacapp/SpotiFLAC-Mobile)
 - **⭐ Stars:** 6,161 | **💻 Linguagem:** `Dart`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/spotiflacapp/SpotiFLAC-Mobile)
-- 🎯 **O que é e para que serve:** Mobile music utility built with Flutter and Go. High-quality audio management for your personal library. - open source, no ads, no subscription. desenvolvida em Dart para uso prático em 'SpotiFLAC-Mobile'.
-- 💡 **Casos de uso reais no dia a dia:** Aplicação de mobile music utility built with flutter and go. high-quality audio management for your personal library. - open source, no ads, no subscription. em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'SpotiFLAC-Mobile'
+- 🎯 **O que é e para que serve:** O SpotiFLAC-Mobile é um utilitário musical multiplataforma desenvolvido em Flutter e Dart que utiliza um núcleo em Go compilado via `gomobile` para gerenciar e baixar áudio de alta qualidade em formato FLAC sem perdas. Sua principal vantagem competitiva reside em uma arquitetura de extensões descentralizada, permitindo que fontes de áudio de terceiros sejam adicionadas e atualizadas de forma independente da aplicação principal, tudo sem anúncios ou assinaturas.
+- 💡 **Casos de uso reais no dia a dia:** 1. Engenheiros de áudio e arquivistas digitais que precisam baixar e gerenciar bibliotecas musicais pessoais massivas com fidelidade sem perdas diretamente de dispositivos móveis.
+  2. Desenvolvedores testando o consumo de APIs de streaming e a interoperabilidade entre interfaces nativas em Dart e lógica de processamento pesado compilada em Go (`gomobile`).
+  3. Usuários que buscam uma alternativa de código aberto para unificar múltiplas fontes de áudio em um único player local gerenciado por prioridade de provedores.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-https://raw.githubusercontent.com/spotiflacapp/SpotiFLAC-Mobile/refs/heads/main/apps.json
+# Clone o repositório principal
+git clone https://github.com/spotiflacapp/SpotiFLAC-Mobile.git
+cd SpotiFLAC-Mobile
+
+# Instancie o gerenciador de versão do Flutter pinado no projeto
+fvm install && fvm use
+
+# Entre no diretório do backend em Go e compile os bindings para mobile
+cd go_backend
+go mod download
+# Certifique-se de ter o gomobile instalado para compilar a biblioteca nativa
+gomobile init
+gomobile bind -target=android,ios -o ../android/app/src/main/jniLibs/libspotiflac.aar ./...
 ```
-- ⚡ **Dica Pro de produtividade:** Para comunicação em tempo real com 'spotiflacapp/SpotiFLAC-Mobile', configure buffers de streaming entre 20ms e 50ms e ative supressão de ruído com VAD adaptativo para reduzir a latência percebida.
+- ⚡ **Dica Pro de produtividade:** Para depurar o comportamento da ponte JNI/Swift entre o Flutter e o backend em tempo de execução, utilize a flag `--dart-define=ENABLE_GO_LOGS=true` ao compilar a aplicação via CLI (`fvm flutter run --dart-define=ENABLE_GO_LOGS=true`). Isso redireciona o fluxo de saída padrão (*stdout*) e os erros críticos diretamente do runtime do Go para o console do Flutter, permitindo rastrear falhas de requisição e erros de decodificação de FLAC sem precisar reconfigurar os projetos nativos do Android Studio ou Xcode.
 
 ---
 
 <a id="gnektmybrainisfullcrew"></a>
 ### 18. [gnekt/My-Brain-Is-Full-Crew](https://github.com/gnekt/My-Brain-Is-Full-Crew)
-- **⭐ Stars:** 3,487 | **💻 Linguagem:** `Shell`
+- **⭐ Stars:** 3,488 | **💻 Linguagem:** `Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/gnekt/My-Brain-Is-Full-Crew)
-- 🎯 **O que é e para que serve:** O `My-Brain-Is-Full-Crew` é um sistema multiagente de código aberto orquestrado via Shell scripts e interfaces de IA (como Claude Code e Gemini CLI) que automatiza a gestão completa de um cofre Obsidian. Ele integra conhecimento técnico, nutrição e saúde mental por meio de mais de 8 agentes especializados e 14 habilidades, diferenciando-se pela capacidade de autogestão onde um despachante central coordena fluxos de trabalho complexos e adaptativos a partir de comandos de linguagem natural em qualquer idioma.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Triagem e Arquivamento de Documentação Técnica:** Ingestão de anotações brutas de reuniões de arquitetura e transcrições de áudio para que a equipe de agentes extraia tarefas automaticamente, crie estruturas de pastas aninhadas e atualize o diagrama de conhecimento no Obsidian sem intervenção manual.
-  2. **Gestão de Saúde e Burnout para Engenheiros:** Monitoramento automatizado de métricas de estresse, padrões de sono e registros nutricionais através de interações via chat, acionando agentes de bem-estar para sugerir pausas ou reajustes na rotina de entregas de código.
-  3. **Criação Dinâmica de Agentes Especializados para Projetos:** Utilização do agente Arquiteto em tempo de execução para gerar novos micro-agentes focados em domínios específicos (como monitoramento de custos de nuvem ou auditoria de conformidade de código) sem necessidade de reconfiguração manual de arquivos de configuração.
+- 🎯 **O que é e para que serve:** O `My-Brain-Is-Full-Crew` é um sistema multiagente baseado em Shell e orquestrado por interfaces de linha de comando de IA (como Claude Code e Gemini CLI) para gerenciar o seu cofre do Obsidian, saúde física e bem-estar mental de forma unificada. Sua arquitetura emprega um despachante central que coordena mais de 8 agentes especializados e 14 habilidades, permitindo que entradas em linguagem natural gerem estruturas de pastas, processem transcrições e organizem informações automaticamente. O grande diferencial competitivo é tratar a mente, o corpo e o conhecimento como um sistema integrado, servindo como uma linha de vida para profissionais esgotados, em vez de ser apenas mais uma ferramenta de busca para quem já tem a produtividade estruturada.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Triagem e Gestão de Incidentes Operacionais:** Um engenheiro de SRE pode despejar áudios ou anotações brutas e caóticas sobre falhas de produção após um plantão de madrugada, e o agente despachante encarrega-se de estruturar os logs mentais em post-mortems organizados, extraindo tarefas pendentes e atualizando a documentação no Obsidian sem fricção manual.
+  2. **Planejamento Nutricional e de Saúde sob Estresse:** Profissionais de tecnologia com jornadas exaustivas podem ditar notas rápidas sobre o que comeram e seus níveis de ansiedade, permitindo que os agentes especializados cruzem dados de nutrição e bem-estar com o cronograma de entregas, gerando alertas e recomendações de autocuidado diretamente nas notas diárias.
+  3. **Criação Dinâmica de Agentes Especializados para Novos Projetos:** Ao iniciar uma nova arquitetura de microsserviços, o usuário pode simplesmente instruir o sistema conversacionalmente (ex: *"Crie um agente focado em monitorar custos de nuvem e orçamentos mensais"*), e o agente arquiteto constrói a nova persona e suas habilidades automaticamente, sem exigir edição manual de arquivos de configuração ou código.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Clone o repositório oficial do projeto
+# 1. Clone o repositório oficial do projeto
 git clone https://github.com/gnekt/My-Brain-Is-Full-Crew.git
-
-# Acesse o diretório do projeto
 cd My-Brain-Is-Full-Crew
 
-# Configure as permissões de execução dos scripts Shell principais
-chmod +x *.sh scripts/*.sh
+# 2. Conceda permissão de execução aos scripts principais em Shell
+chmod +x *.sh bin/*
 
-# Inicialize o assistente CLI integrado com o Claude Code/Gemini para conectar ao seu Obsidian Vault
-./start-crew.sh --vault-path="$HOME/Documents/ObsidianVault" --agent="dispatcher"
+# 3. Configure o ambiente definindo sua chave de API e o caminho para o seu cofre Obsidian
+export OBSIDIAN_VAULT_PATH="$HOME/Documents/MeuCofreObsidian"
+export ANTHROPIC_API_KEY="sua-chave-de-api-aqui"
+
+# 4. Inicialize o despachante da tripulação de agentes para começar o despejo cerebral interativo
+./crew-start.sh --vault "$OBSIDIAN_VAULT_PATH"
 ```
-- ⚡ **Dica Pro de produtividade:** Para otimizar a latência de execução da tripulação de agentes em ambientes de alto volume de notas, configure a variável de ambiente `CREW_DISPATCHER_MODE=async` no arquivo `.env` e utilize o parâmetro `--stream-agents=true` ao invocar o script de inicialização. Isso força o despachante a processar as transcrições e os gatilhos do Obsidian em paralelo através de filas não-bloqueantes no Shell, eliminando gargalos de I/O ao alternar entre o agente de conhecimento e os agentes de bem-estar físico.
+- ⚡ **Dica Pro de produtividade:** Para otimizar o fluxo de trabalho assíncrono e evitar o consumo excessivo de tokens durante sessões longas de despejo cerebral, utilize a flag de contexto direcionado `--dispatch-agent` combinada com o redirecionamento de arquivos de áudio locais. Exemplo: `./crew-start.sh --dispatch-agent transcription --input ./reuniao_arquitetura.mp3 --silent-mode`. Isso força o despachante a acionar exclusivamente o agente de transcrição e arquivo no Obsidian, ignorando os loops de conversação geral e executando o pipeline em segundo plano sem travar seu terminal.
 
 ---
 
@@ -780,22 +809,20 @@ chmod +x *.sh scripts/*.sh
 ### 19. [SekharPatel/BountyRecon](https://github.com/SekharPatel/BountyRecon)
 - **⭐ Stars:** 3 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/SekharPatel/BountyRecon)
-- 🎯 **O que é e para que serve:** O BountyRecon é um pipeline de reconhecimento automatizado e orientado a programas, projetado para testes de segurança autorizados e caça a bugs (*bug bounty*). Ele emprega uma arquitetura assíncrona e multi-thread dividida em dutos web e de ASN, persistindo dados em um banco de dados SQLite centralizado para eliminar varreduras duplicadas e viabilizar rastreamento histórico. Seu principal diferencial competitivo é a execução concorrente paralela entre o Nuclei e um escâner de expressões regulares (*regex*) customizado para monitoramento contínuo de segredos em JavaScript, entregando relatórios HTML interativos e estruturados.
-- 💡 **Casos de uso reais no dia a dia:** 1. *Campanhas de Bug Bounty de Escopo Amplo:* Automatização do mapeamento inicial de múltiplos alvos corporativos complexos, cruzando enumeração de subdomínios via Subfinder, varreduras de portas com Naabu e varreduras de vulnerabilidades com Nuclei sem saturar os recursos locais, graças ao gerenciamento de estado isolado em SQLite.
-  2. *Auditoria Contínua de Superfície de Ataque:* Execução periódica automatizada para identificar novos subdomínios ativos, alterações em ativos de infraestrutura ASN e endpoints recém-descobertos por crawlers como Katana, mantendo o histórico de ativos vivos e desativados ao longo do tempo.
-  3. *Varredura Profunda de Segredos em Aplicações Web:* Extração e análise automatizada de arquivos JavaScript e HTML em busca de chaves de API expostas, tokens de acesso e credenciais hardcoded utilizando o motor de padrões regex integrado do framework.
+- 🎯 **O que é e para que serve:** O **BountyRecon** é um framework de orquestração assíncrona e concorrente para reconhecimento de superfície de ataque e auditoria contínua de ativos em escopos corporativos e programas de recompensas por falhas (*bug bounty*). Sua arquitetura desacopla a execução em dois fluxos paralelos (*Web Pipeline* e *ASN Pipeline*) gerenciados por uma camada central de persistência em SQLite com escrita isolada em thread dedicada (*DbWriter*), prevenindo concorrência de I/O e garantindo deduplicação e rastreabilidade histórica dos alvos. O grande diferencial competitivo reside na automação integrada da esteira: desde a enumeração de subdomínios/ASN até a varredura profunda de segredos em JavaScript e geração de relatórios interativos em HTML e JSON.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Gestão Contínua de Superfície de Ataque Externa (EASM):** Execução periódica automatizada para mapear novos subdomínios, portas expostas e alterações de infraestrutura em blocos CIDR/ASN pertencentes à organização, alertando sobre ativos não catalogados (*shadow IT*).  
+2. **Monitoramento e Detecção de Vazamento de Segredos em Frontend:** Rastreamento contínuo de arquivos JavaScript e código-fonte HTML através do motor interno de expressões regulares para detectar chaves de API, *tokens* e endpoints internos expostos acidentalmente em deploys recentes.  
+3. **Triagem Rápida e Relatórios para Equipes de Segurança Ofensiva (Red Team):** Consolidação dos resultados de ferramentas consagradas (como Nuclei, Subfinder, Naabu e Katana) em uma única base SQLite normalizada, facilitando a geração de dashboards executivos e técnicos com `export.py` para tomadas de decisão.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# 1. Clonar o repositório e acessar o diretório
+# 1. Clonar o repositório e preparar o ambiente virtual Python
 git clone https://github.com/SekharPatel/BountyRecon.git
 cd BountyRecon
-
-# 2. Configurar o ambiente virtual Python e instalar as dependências
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# 3. Instalar as ferramentas do ProjectDiscovery necessárias no PATH do sistema
+# 2. Instalar os binários auxiliares do ecossistema ProjectDiscovery via Go
 go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install github.com/projectdiscovery/httpx/cmd/httpx@latest
 go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
@@ -805,15 +832,15 @@ go install github.com/projectdiscovery/asnmap/cmd/asnmap@latest
 go install github.com/projectdiscovery/mapcidr/cmd/mapcidr@latest
 go install github.com/projectdiscovery/notify/cmd/notify@latest
 
-# 4. Configurar o arquivo de ambiente e inserir os alvos em targets/
-cp .env.example .env
-echo "exemplo.com" > targets/alvo.txt
+# 3. Configurar alvos e executar o pipeline completo
+mkdir -p targets
+echo "exemplo.com.br" > targets/alvo.txt
+python3 recon.py --program meu_escopo --target-file targets/alvo.txt
 
-# 5. Executar o pipeline principal de reconhecimento e gerar o relatório HTML
-python3 recon.py --target-file targets/alvo.txt
-python3 export.py --format html --output reports/dashboard.html
+# 4. Gerar relatórios analíticos interativos (HTML e JSON)
+python3 export.py --program meu_escopo --format all --output-dir reports/
 ```
-- ⚡ **Dica Pro de produtividade:** Aproveite a thread dedicada de gravação em banco de dados (`DbWriter`) e o isolamento de estado por programa para configurar execuções paralelas de múltiplos arquivos de escopo usando diferentes instâncias do `recon.py` apontadas para o mesmo arquivo SQLite (`recon.db`). Como o mecanismo de persistência gerencia as operações de escrita de forma não-bloqueante, você pode saturar sua largura de banda e capacidade de CPU com fluxos distintos de ASN e Web sem correr o risco de corromper o banco de dados ou gerar registros duplicados nas tabelas históricas.
+- ⚡ **Dica Pro de produtividade:** Para evitar gargalos de I/O e contenção de lock no SQLite durante varreduras massivas, configure o SQLite em modo WAL (*Write-Ahead Logging*) e ajuste a concorrência dos executores diretamente no arquivo de configuração `.env` ou em `recon/config.py`. Defina parâmetros agressivos para ferramentas de baixo impacto na rede (como `KATANA_CONCURRENCY=50` e `HTTPX_THREADS=100`), mas mantenha a fila de escrita do `DbWriter` desacoplada com commits em lote (*batching*). Além disso, personalize os padrões regex no módulo de análise de JavaScript (`recon/scanners/regex_scanner.py`) para incluir assinaturas proprietárias da sua empresa (como prefixos customizados de chaves internas e slugs de ambientes de homologação), maximizando o valor dos achados sem disparar falsos positivos genéricos.
 
 ---
 
@@ -821,31 +848,13 @@ python3 export.py --format html --output reports/dashboard.html
 ### 20. [OpenOSINT/OpenOSINT](https://github.com/OpenOSINT/OpenOSINT)
 - **⭐ Stars:** 1,522 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/OpenOSINT/OpenOSINT)
-- 🎯 **O que é e para que serve:** O OpenOSINT é um agente de inteligência de fontes abertas (OSINT) alimentado por Inteligência Artificial que traduz linguagem natural em comandos estruturados para 20 ferramentas especializadas de investigação de segurança e reconhecimento. Sua arquitetura integra um REPL interativo, uma interface web 3D com gráfico de entidades e suporte nativo ao Protocolo de Contexto de Modelo (MCP), permitindo sua execução como servidor autônomo. O grande diferencial competitivo é o isolamento de segurança: a IA apenas emite chamadas de ferramentas de parada rígida (*hard-stop*), enquanto o código subjacente executa binários reais locais, tornando alucinações de dados estruturalmente impossíveis.
-- 💡 **Casos de uso reais no dia a dia:** 1. *Investigação automatizada de ameaças e mapeamento de superfície de ataque:* Analisar rapidamente a pegada digital de uma organização ou IP suspeito cruzando dados de Whois, registros DNS e ferramentas como Sherlock e Maigret diretamente pelo terminal ou via interface de chat.
-  2. *Auditoria de identidade e verificação de vazamentos:* Executar buscas coordenadas de nomes de usuário e e-mails através de múltiplas plataformas (incluindo integração com Holehe) para validar exposições de ativos corporativos ou identidades sintéticas em investigações de fraude.
-  3. *Análise de inteligência integrada ao fluxo de engenharia de segurança:* Utilizar o OpenOSINT como um servidor MCP conectado a ambientes de LLM locais (como Ollama) ou comerciais para automatizar relatórios de reconhecimento contínuo sem expor dados confidenciais a APIs de terceiros.
+- 🎯 **O que é e para que serve:** <img src="https://raw.githubusercontent.com/OpenOSINT/OpenOSINT/main/docs/logo.svg" alt="OpenOSINT" width="200" /> (otimizado para modelos de linguagem grandes)
+- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'OpenOSINT' | Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento | Auditoria contínua de código, detecção de segredos e prevenção de vulnerabilidades
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# 1. Clonar o repositório oficial do projeto
-git clone https://github.com/OpenOSINT/OpenOSINT.git
-cd OpenOSINT
-
-# 2. Criar e ativar um ambiente virtual Python
-python3 -m venv venv
-source venv/bin/activate
-
-# 3. Instalar o pacote em modo de desenvolvimento com as dependências
-pip install --upgrade pip
-pip install -e .
-
-# 4. Configurar a chave de API da Anthropic ou OpenAI (exemplo para Anthropic)
-export ANTHROPIC_API_KEY="sua-chave-de-api-aqui"
-
-# 5. Executar o agente em modo REPL interativo
-openosint repl
+pip install openosint
 ```
-- ⚡ **Dica Pro de produtividade:** Para rodar o OpenOSINT de forma totalmente isolada e sem enviar chaves de API para servidores externos, configure a ferramenta para operar com um modelo de linguagem local via Ollama utilizando a variável de ambiente `OPENOSINT_LLM_PROVIDER=ollama` combinada com `OPENOSINT_MODEL_NAME=llama3` (ou outro modelo compatível instalado localmente). Além disso, você pode iniciar o servidor MCP nativo rapidamente utilizando a flag `openosint mcp-server` para integrá-lo diretamente a clientes compatíveis com o protocolo Model Context Protocol, como o Claude Desktop, permitindo o acionamento direto das 20 ferramentas de segurança a partir da interface de chat do seu editor ou assistente.
+- ⚡ **Dica Pro de produtividade:** Ao executar pesquisas aprofundadas com 'OpenOSINT/OpenOSINT', estruture as consultas em múltiplos sub-tópicos paralelos e limite a profundidade de scraping para equilibrar precisão e tempo de resposta.
 
 ---
 
@@ -853,35 +862,23 @@ openosint repl
 ### 21. [Ap6pack/outrider-recon](https://github.com/Ap6pack/outrider-recon)
 - **⭐ Stars:** 8 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Ap6pack/outrider-recon)
-- 🎯 **O que é e para que serve:** O `outrider-recon` é um agente autônomo nativo do Claude Code projetado para executar pipelines de reconhecimento e gerenciamento da superfície de ataque externa (ASM) em pentests autorizados e *bug bounties*. Sua arquitetura combina 11 habilidades (*skills*) especializadas, controles locais determinísticos, um servidor MCP opcional e suporte a 90 capacidades OSINT para mapear, correlacionar e priorizar vetores de ataque sem atuar como um framework de exploração ativo. Seu principal diferencial competitivo é transformar sinais brutos de leitura pública em evidências acionáveis estruturadas em cartões de técnica e valor de operador, mantendo o operador estritamente dentro de limites de escopo e aprovação.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria de Superfície de Ataque Externa (ASM):** Mapeamento automatizado de subdomínios, APIs, identidades em nuvem, arquivos vazados e segredos expostos de uma organização corporativa antes de iniciar um engajamento de *red team*.
-  2. **Triagem Priorizada para Bug Bounty:** Coleta passiva de sinais de inteligência de código aberto (OSINT) e cruzamento com padrões conhecidos de exploração para ranquear quais *endpoints* ou ativos representam o risco mais crítico em termos de confidencialidade e impacto.
-  3. **Handoff Automatizado de Evidências:** Geração de relatórios parciais, notas prontas para compilação e cartões de achados estruturados para alimentar ferramentas de proxy, validação manual ou tickets de remediação de equipes defensivas.
+- 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'outrider-recon' desenvolvida em Python para uso prático em 'outrider-recon'.
+- 💡 **Casos de uso reais no dia a dia:** Auditoria contínua de código, detecção de segredos e prevenção de vulnerabilidades
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# 1. Clonar o repositório do projeto
-git clone https://github.com/Ap6pack/outrider-recon.git
-cd outrider-recon
+---
 
-# 2. Instalar o pacote em modo editável incluindo os extras web
-python -m pip install -e ".[web]"
+## Quick start
 
-# 3. Instalar automaticamente as habilidades do Claude via script oficial
-curl -fsSL https://raw.githubusercontent.com/Ap6pack/outrider-recon/main/install.sh | bash
-
-# 4. Inicializar uma nova execução de escopo autenticado
-outrider init exemplo.com --actor operador-autorizado --authorization-reference ROE-EXEMPLO-001
-
-# 5. Iniciar o portal web local para acompanhamento visual
-outrider
+Install the web extra and run `outrider` to start the local browser portal:
 ```
-- ⚡ **Dica Pro de produtividade:** Para operar em ambientes corporativos restritos sem vazar inteligência de reconhecimento para redes de terceiros por padrão, utilize a flag `--enable-mcp-enrichment` explicitamente apenas quando desejar ativar o enriquecimento via servidor MCP, e combine-a com a inicialização estrita do escopo via CLI (`outrider init`) para garantir que todas as evidências coletadas permaneçam estritamente isoladas e registradas nos diretórios de estado locais (`~/.local/share/outrider-recon`) para auditoria posterior.
+- ⚡ **Dica Pro de produtividade:** Integre verificações automatizadas de dependências e análise estática (SAST) no pipeline de 'Ap6pack/outrider-recon' para mitigar riscos de segurança antes do merge.
 
 ---
 
 <a id="sentruxsentrux"></a>
 ### 22. [sentrux/sentrux](https://github.com/sentrux/sentrux)
-- **⭐ Stars:** 3,165 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 3,164 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/sentrux/sentrux)
 - 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'sentrux' desenvolvida em Rust para uso prático em 'sentrux'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de coleção de habilidades e fluxos para agentes de ia no ecossistema 'sentrux' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'sentrux'
@@ -897,31 +894,21 @@ brew install sentrux/tap/sentrux
 ### 23. [PurpleAILAB/Decepticon](https://github.com/PurpleAILAB/Decepticon)
 - **⭐ Stars:** 5,436 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/PurpleAILAB/Decepticon)
-- 🎯 **O que é e para que serve:** O Decepticon é um agente autônomo avançado de Red Team projetado para executar simulações de ataques cibernéticos e testes de intrusão automatizados. Utilizando uma arquitetura baseada em Modelos de Linguagem Grande (LLMs) integrada ao LangChain e LangGraph, a ferramenta orquestra fluxos de trabalho complexos e dinâmicos, indo muito além de simples scripts de varredura. Seu principal diferencial competitivo é a capacidade de raciocinar sobre o ambiente-alvo, adaptar estratégias de exploração em tempo real e mapear cadeias de ataque utilizando um grafo de conhecimento persistente.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria Contínua de Segurança em Infraestruturas Clound-Native:** Automatização de testes de penetração periódicos em ambientes corporativos complexos para identificar caminhos de escalação de privilégios antes que agentes maliciosos os explorem.
-  2. **Validação de Controles de Detecção e Resposta (Purple Teaming):** Execução controlada de táticas, técnicas e procedimentos (TTPs) para testar a eficácia de sistemas SIEM, EDR e equipes de segurança defensiva em tempo real.
-  3. **Simulação de Ataques de Cadeia de Ataque (Attack Paths):** Descoberta automática de vulnerabilidades encadeadas em redes internas utilizando bancos de dados em grafos (Neo4j) integrados com ferramentas especializadas de C2 (Command and Control).
+- 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em Python
+- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'Decepticon'
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Instalação rápida via cURL (macOS / Linux / WSL2)
 curl -fsSL https://decepticon.red/install | bash
-
-# Execução do assistente interativo de configuração
-decepticon onboard
-
-# Inicialização da pilha principal e do terminal CLI
-decepticon
-
-# Instalação opcional como biblioteca Python com suporte a grafos de ataque
-pip install "decepticon[neo4j]"
+decepticon onboard   # Interactive setup wizard (provider, API key, model profile)
+decepticon           # Start the core stack and drop into the terminal CLI
 ```
-- ⚡ **Dica Pro de produtividade:** Para gerenciar o consumo de tokens e otimizar o tempo de execução dos agentes em alvos de grande escala, utilize o perfil de modelo dinâmico configurando o arquivo de ambiente para direcionar tarefas de reconhecimento leve para modelos rápidos (como Llama-3 ou GPT-4o-mini) e reservar raciocínios complexos de exploração para LLMs de alta capacidade através do proxy LiteLLM integrado.
+- ⚡ **Dica Pro de produtividade:** No 'PurpleAILAB/Decepticon', modularize os agentes por responsabilidade única e isole o contexto de execução de cada worker para evitar dispersão de tokens e alucinações em tarefas longas.
 
 ---
 
 <a id="armuraipentestswarmai"></a>
 ### 24. [Armur-Ai/Pentest-Swarm-AI](https://github.com/Armur-Ai/Pentest-Swarm-AI)
-- **⭐ Stars:** 2,449 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 2,450 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Armur-Ai/Pentest-Swarm-AI)
 - 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'Pentest-Swarm-AI' desenvolvida em Go para uso prático em 'Pentest-Swarm-AI'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de coleção de habilidades e fluxos para agentes de ia no ecossistema 'pentest-swarm-ai' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'Pentest-Swarm-AI'
@@ -938,7 +925,7 @@ docker run --rm ghcr.io/armur-ai/pentestswarm:latest --help                # Doc
 
 <a id="six2dezburpaiagent"></a>
 ### 25. [six2dez/burp-ai-agent](https://github.com/six2dez/burp-ai-agent)
-- **⭐ Stars:** 1,478 | **💻 Linguagem:** `Kotlin`
+- **⭐ Stars:** 1,479 | **💻 Linguagem:** `Kotlin`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/six2dez/burp-ai-agent)
 - 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em Kotlin
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'burp-ai-agent' | Auditoria contínua de código, detecção de segredos e prevenção de vulnerabilidades
@@ -961,7 +948,7 @@ JAVA_HOME=/path/to/jdk-21 ./gradlew clean shadowJar -PstoreBuild=true
 
 <a id="aaifgoosegoose"></a>
 ### 26. [aaif-goose/goose](https://github.com/aaif-goose/goose)
-- **⭐ Stars:** 53,887 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 53,891 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/aaif-goose/goose)
 - 🎯 **O que é e para que serve:** Projeto open-source de, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM (focado em inteligência artificial)
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'goose'
@@ -1014,7 +1001,7 @@ xcodebuild -scheme macai \
 
 <a id="lss233kiraraai"></a>
 ### 29. [lss233/kirara-ai](https://github.com/lss233/kirara-ai)
-- **⭐ Stars:** 18,994 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 18,995 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/lss233/kirara-ai)
 - 🎯 **O que é e para que serve:** 🤖 可 DIY 的 多模态 AI 聊天机器人 | 🚀 快速接入 微信、 QQ、Telegram、等聊天平台 | 🦈支持DeepSeek、Grok、Claude、Ollama、Gemini、OpenAI | 工作流系统、网页搜索、AI画图、人设调教、虚拟女仆、语音对话 | desenvolvida em Python para uso prático em 'kirara-ai'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de 🤖 可 diy 的 多模态 ai 聊天机器人 | 🚀 快速接入 微信、 qq、telegram、等聊天平台 | 🦈支持deepseek、grok、claude、ollama、gemini、openai | 工作流系统、网页搜索、ai画图、人设调教、虚拟女仆、语音对话 | em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'kirara-ai'
@@ -1087,31 +1074,16 @@ docker compose up -d
 ### 33. [ix-infrastructure/Ix](https://github.com/ix-infrastructure/Ix)
 - **⭐ Stars:** 821 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/ix-infrastructure/Ix)
-- 🎯 **O que é e para que serve:** O Ix é uma ferramenta de linha de comando baseada em TypeScript que transforma qualquer base de código em um mapa estruturado e consultável por meio de análise estática utilizando *tree-sitter* em 26 linguagens. Sua arquitetura processa o repositório para construir um grafo relacional de símbolos, chamadas e importações armazenado em um banco de dados local via Docker (ArangoDB), funcionando como uma memória persistente para humanos e assistentes de IA através do protocolo MCP (*Model Context Protocol*). Seu principal diferencial competitivo é eliminar a necessidade de buscas textuais (*greps*) e adivinhações por parte de IAs, fornecendo contexto estrutural preciso sobre impacto de mudanças e fluxo de código diretamente no ambiente de desenvolvimento.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Análise de Impacto de Refatoração:** Ao modificar funções críticas ou contratos de API (como a alteração de um método de autenticação), o engenheiro utiliza o comando de impacto para mapear instantaneamente todos os módulos, serviços e testes que quebrarão antes mesmo de rodar o compilador.
-  2. **Onboarding Acelerado em Legados:** Desenvolvedores recém-chegados à equipe utilizam a ferramenta para mapear arquiteturas complexas e entender dependências cruzadas e fluxos de execução de ponta a ponta sem precisar ler milhares de linhas de código manualmente.
-  3. **Contextualização de IAs em Sessões de Pair Programming:** Integrado a clientes MCP (como Claude Code, Cursor ou VS Code), o Ix alimenta o assistente de IA com o grafo real da aplicação, garantindo que o modelo forneça respostas arquiteturalmente coerentes e alinhadas com a estrutura interna do projeto, em vez de alucinar com base apenas no escopo limitado da janela de contexto atual.
+- 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em TypeScript
+- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'Ix' | Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# 1. Instalar globalmente a CLI do Ix (ou executar via npx)
-npm install -g @ix-infrastructure/ix
-
-# 2. Construir o grafo da base de código no diretório atual
-ix map .
-
-# 3. Investigar o propósito e as conexões de um símbolo ou serviço
-ix explain IngestionService
-
-# 4. Analisar o impacto de alterar uma função específica
-ix impact verify_token
-
-# 5. Iniciar o servidor MCP local para integração com assistentes de IA
-ix mcp
-
-# 6. Registrar automaticamente o servidor MCP nos clientes suportados na máquina
-ix mcp install
+ix map .                      # build the graph for this repo
+ix explain IngestionService   # what is this, and what does it touch?
+ix impact verify_token        # what breaks if I change this?
+ix trace user_login_flow      # how does this actually flow?
 ```
-- ⚡ **Dica Pro de produtividade:** Para automatizar a manutenção da integridade do grafo em fluxos de desenvolvimento contínuo e garantir que sua IA de suporte nunca trabalhe com dados obsoletos, combine o comando de mapeamento com ferramentas de *hooks* do Git (como o Husky). Configure um ganho de `post-commit` ou `post-merge` executando `ix map . --incremental` (quando suportado pelo backend) ou combinando `ix map .` com flags de silenciamento de saída (`--quiet`). Isso mantém o ArangoDB local sincronizado em segundo plano a cada alteração de branch, assegurando que comandos como `ix impact` reflitam sempre o estado atual do repositório sem exigir intervenção manual.
+- ⚡ **Dica Pro de produtividade:** Ao integrar 'ix-infrastructure/Ix' com modelos de linguagem, utilize streaming de respostas e ajuste parâmetros de chunking com overlap de 10-15% para maximizar relevância de contexto sem estourar limites de tokens.
 
 ---
 
@@ -1131,7 +1103,7 @@ ix mcp install
 
 <a id="h4ckf0r0dayobscura"></a>
 ### 35. [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura)
-- **⭐ Stars:** 24,503 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 24,519 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/h4ckf0r0day/obscura)
 - 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'obscura' desenvolvida em Rust para uso prático em 'obscura'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de coleção de habilidades e fluxos para agentes de ia no ecossistema 'obscura' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'obscura'
@@ -1182,7 +1154,7 @@ make install
 
 <a id="anthropicspromptenginteractivetutorial"></a>
 ### 38. [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)
-- **⭐ Stars:** 38,039 | **💻 Linguagem:** `Jupyter Notebook`
+- **⭐ Stars:** 38,040 | **💻 Linguagem:** `Jupyter Notebook`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/anthropics/prompt-eng-interactive-tutorial)
 - 🎯 **O que é e para que serve:** Anthropic's Interactive Prompt Engineering Tutorial desenvolvida em Jupyter Notebook para uso prático em 'prompt-eng-interactive-tutorial'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de anthropic's interactive prompt engineering tutorial em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'prompt-eng-interactive-tutorial'
@@ -1197,7 +1169,7 @@ cd prompt-eng-interactive-tutorial
 
 <a id="liquidslrsystemdesignnotes"></a>
 ### 39. [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes)
-- **⭐ Stars:** 15,474 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 15,482 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/liquidslr/system-design-notes)
 - 🎯 **O que é e para que serve:** Notes of the book System Desgin Interview - An Insider's Guide desenvolvida em Docs / Shell para uso prático em 'system-design-notes'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de notes of the book system desgin interview - an insider's guide em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'system-design-notes'
@@ -1212,7 +1184,7 @@ cd system-design-notes
 
 <a id="danielmiesslerfabric"></a>
 ### 40. [danielmiessler/Fabric](https://github.com/danielmiessler/Fabric)
-- **⭐ Stars:** 43,785 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 43,786 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/danielmiessler/Fabric)
 - 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em Go
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'Fabric'
@@ -1245,7 +1217,7 @@ npm run dev
 
 <a id="mintplexlabsanythingllm"></a>
 ### 42. [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)
-- **⭐ Stars:** 65,578 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 65,580 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Mintplex-Labs/anything-llm)
 - 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'anything-llm' desenvolvida em JavaScript para uso prático em 'anything-llm'.
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'anything-llm'
@@ -1278,7 +1250,7 @@ pip install hackagent
 
 <a id="apurvsinghgautamrobin"></a>
 ### 44. [apurvsinghgautam/robin](https://github.com/apurvsinghgautam/robin)
-- **⭐ Stars:** 6,980 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 6,981 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/apurvsinghgautam/robin)
 - 🎯 **O que é e para que serve:** AI-Powered Dark Web OSINT Tool desenvolvida em Python para uso prático em 'robin'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de ai-powered dark web osint tool em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'robin'
@@ -1294,7 +1266,7 @@ pip install -r requirements.txt
 
 <a id="herdrdevherdr"></a>
 ### 45. [herdrdev/herdr](https://github.com/herdrdev/herdr)
-- **⭐ Stars:** 35,067 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 35,083 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/herdrdev/herdr)
 - 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em Rust
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'herdr' | Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento
@@ -1330,7 +1302,7 @@ docker compose up -d       # access at http://localhost:5000
 
 <a id="nateherkaiscrollcraft"></a>
 ### 47. [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft)
-- **⭐ Stars:** 1,676 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 1,678 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/nateherkai/scroll-craft)
 - 🎯 **O que é e para que serve:** Projeto de interface e automação visual para aplicações em 'scroll-craft' desenvolvida em JavaScript para uso prático em 'scroll-craft'.
 - 💡 **Casos de uso reais no dia a dia:** Construção de interfaces de usuário reativas, modulares e focadas em usabilidade
@@ -1344,7 +1316,7 @@ docker compose up -d       # access at http://localhost:5000
 
 <a id="smicallefspiderfoot"></a>
 ### 48. [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot)
-- **⭐ Stars:** 21,704 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 21,705 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/smicallef/spiderfoot)
 - 🎯 **O que é e para que serve:** SpiderFoot automates OSINT for threat intelligence and mapping your attack surface. desenvolvida em Python para uso prático em 'spiderfoot'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de spiderfoot automates osint for threat intelligence and mapping your attack surface. em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'spiderfoot'
@@ -1361,7 +1333,7 @@ git clone https://github.com/smicallef/spiderfoot.git
 
 <a id="redisredis"></a>
 ### 49. [redis/redis](https://github.com/redis/redis)
-- **⭐ Stars:** 76,185 | **💻 Linguagem:** `C`
+- **⭐ Stars:** 76,186 | **💻 Linguagem:** `C`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/redis/redis)
 - 🎯 **O que é e para que serve:** This document serves as both a quick start guide to Redis and a detailed resource for building it from source. (com integração a bancos de dados)
 - 💡 **Casos de uso reais no dia a dia:** Persistência estruturada, indexação de dados e consultas de alta performance no backend
@@ -1376,7 +1348,7 @@ cd redis
 
 <a id="martinolivierairgorah"></a>
 ### 50. [martin-olivier/airgorah](https://github.com/martin-olivier/airgorah)
-- **⭐ Stars:** 2,928 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 2,930 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/martin-olivier/airgorah)
 - 🎯 **O que é e para que serve:** Ferramenta de segurança e auditoria especializada em 'airgorah' desenvolvida em Rust para uso prático em 'airgorah'.
 - 💡 **Casos de uso reais no dia a dia:** Auditoria contínua de código, detecção de segredos e prevenção de vulnerabilidades
@@ -1425,7 +1397,7 @@ pip install -r requirements.txt
 
 <a id="basedhardwareomi"></a>
 ### 53. [BasedHardware/omi](https://github.com/BasedHardware/omi)
-- **⭐ Stars:** 13,389 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 13,392 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/BasedHardware/omi)
 - 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em Python
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'omi'
@@ -1453,7 +1425,7 @@ npm install @composio/core @composio/openai-agents @openai/agents
 
 <a id="simoneavogadroandroidreverseengineeringskill"></a>
 ### 55. [SimoneAvogadro/android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill)
-- **⭐ Stars:** 7,686 | **💻 Linguagem:** `Shell`
+- **⭐ Stars:** 7,685 | **💻 Linguagem:** `Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/SimoneAvogadro/android-reverse-engineering-skill)
 - 🎯 **O que é e para que serve:** Claude Code skill to support Android app's reverse engineering desenvolvida em Shell para uso prático em 'android-reverse-engineering-skill'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de claude code skill to support android app's reverse engineering em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'android-reverse-engineering-skill'
@@ -1469,7 +1441,7 @@ The skill will be permanently available in all future sessions.
 
 <a id="hieunc229mailflare"></a>
 ### 56. [hieunc229/mailflare](https://github.com/hieunc229/mailflare)
-- **⭐ Stars:** 2,593 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 2,596 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/hieunc229/mailflare)
 - 🎯 **O que é e para que serve:** Email for professionals and teams desenvolvida em TypeScript para uso prático em 'mailflare'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de email for professionals and teams em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'mailflare'
@@ -1503,7 +1475,7 @@ npm run dev
 
 <a id="charlie947socialmediaskills"></a>
 ### 58. [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills)
-- **⭐ Stars:** 3,201 | **💻 Linguagem:** `Shell`
+- **⭐ Stars:** 3,210 | **💻 Linguagem:** `Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/charlie947/social-media-skills)
 - 🎯 **O que é e para que serve:** Catálogo especializado de competências e extensões para 'social-media-skills' desenvolvida em Shell para uso prático em 'social-media-skills'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de catálogo especializado de competências e extensões para 'social-media-skills' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'social-media-skills'
@@ -1548,7 +1520,7 @@ pip install -U vectorbt
 
 <a id="jivoiawesomeosint"></a>
 ### 61. [jivoi/awesome-osint](https://github.com/jivoi/awesome-osint)
-- **⭐ Stars:** 29,128 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 29,132 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/jivoi/awesome-osint)
 - 🎯 **O que é e para que serve:** :scream: A curated list of amazingly awesome OSINT desenvolvida em Docs / Shell para uso prático em 'awesome-osint'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de :scream: a curated list of amazingly awesome osint em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'awesome-osint'
@@ -1563,7 +1535,7 @@ cd awesome-osint
 
 <a id="athmaaspixellevideo"></a>
 ### 62. [ATH-MaaS/Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video)
-- **⭐ Stars:** 27,730 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 27,731 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/ATH-MaaS/Pixelle-Video)
 - 🎯 **O que é e para que serve:** 🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine desenvolvida em Python para uso prático em 'Pixelle-Video'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de 🚀 ai 全自动短视频引擎 | ai fully automated short video engine em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'Pixelle-Video'
@@ -1577,7 +1549,7 @@ brew install ffmpeg
 
 <a id="awarexoneagenticbughunter"></a>
 ### 63. [Awarexone/Agentic-Bug-Hunter](https://github.com/Awarexone/Agentic-Bug-Hunter)
-- **⭐ Stars:** 4,690 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 4,691 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Awarexone/Agentic-Bug-Hunter)
 - 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'Agentic-Bug-Hunter' desenvolvida em Python para uso prático em 'Agentic-Bug-Hunter'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de coleção de habilidades e fluxos para agentes de ia no ecossistema 'agentic-bug-hunter' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'Agentic-Bug-Hunter'
@@ -1593,7 +1565,7 @@ cd Agentic-Bug-Hunter
 
 <a id="mudlerlocalai"></a>
 ### 64. [mudler/LocalAI](https://github.com/mudler/LocalAI)
-- **⭐ Stars:** 48,846 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 48,847 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/mudler/LocalAI)
 - 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em Go
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'LocalAI'
@@ -1607,7 +1579,7 @@ docker run -ti --name local-ai -p 8080:8080 localai/localai:latest
 
 <a id="khojaikhoj"></a>
 ### 65. [khoj-ai/khoj](https://github.com/khoj-ai/khoj)
-- **⭐ Stars:** 37,047 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 37,050 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/khoj-ai/khoj)
 - 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em Python
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'khoj'
@@ -1664,7 +1636,7 @@ pip install -r requirements.txt
 
 <a id="tailscaletailcat"></a>
 ### 68. [tailscale/tailcat](https://github.com/tailscale/tailcat)
-- **⭐ Stars:** 6,094 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 6,098 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/tailscale/tailcat)
 - 🎯 **O que é e para que serve:** like netcat, but over Tailscale's data plane, without Tailscale's control plane desenvolvida em Go para uso prático em 'tailcat'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de like netcat, but over tailscale's data plane, without tailscale's control plane em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'tailcat'
@@ -1679,7 +1651,7 @@ $ docker run --rm -it ghcr.io/tailscale/tailcat:latest
 
 <a id="microsoftplaywright"></a>
 ### 69. [microsoft/playwright](https://github.com/microsoft/playwright)
-- **⭐ Stars:** 95,584 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 95,586 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/microsoft/playwright)
 - 🎯 **O que é e para que serve:** Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. desenvolvida em TypeScript para uso prático em 'playwright'.
 - 💡 **Casos de uso reais no dia a dia:** Construção de interfaces de usuário reativas, modulares e focadas em usabilidade | Execução de testes automatizados para validação de regressões e garantia de qualidade
@@ -1694,7 +1666,7 @@ npx playwright install
 
 <a id="copilotkitopenbot"></a>
 ### 70. [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)
-- **⭐ Stars:** 4,103 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 4,116 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/CopilotKit/OpenBot)
 - 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'OpenBot' desenvolvida em TypeScript para uso prático em 'OpenBot'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de coleção de habilidades e fluxos para agentes de ia no ecossistema 'openbot' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'OpenBot'
@@ -1747,7 +1719,7 @@ One image carries the app, the API, the browser the Bots drive, and optionally P
 
 <a id="gitlawbopenclaude"></a>
 ### 71. [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude)
-- **⭐ Stars:** 32,312 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 32,332 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Gitlawb/openclaude)
 - 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em TypeScript
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'openclaude' | Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento
@@ -1813,7 +1785,7 @@ pip install -r requirements.txt
 
 <a id="wiltodeltaremoveaiwatermarks"></a>
 ### 75. [wiltodelta/remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks)
-- **⭐ Stars:** 5,397 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 5,398 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/wiltodelta/remove-ai-watermarks)
 - 🎯 **O que é e para que serve:** known visible labels such as the Google Gemini sparkle watermark and vendor text marks; (como ferramenta de linha de comando)
 - 💡 **Casos de uso reais no dia a dia:** Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento
@@ -1886,7 +1858,7 @@ docker pull --platform=linux/amd64 ghcr.io/oritera/cairn-worker-container:latest
 
 <a id="davila7claudecodetemplates"></a>
 ### 79. [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)
-- **⭐ Stars:** 30,515 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 30,516 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/davila7/claude-code-templates)
 - 🎯 **O que é e para que serve:** CLI tool for configuring and monitoring Claude Code desenvolvida em Python para uso prático em 'claude-code-templates'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de cli tool for configuring and monitoring claude code em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'claude-code-templates'
@@ -1901,7 +1873,7 @@ npx claude-code-templates@latest --skill web-data/search,web-data/scrape,web-dat
 
 <a id="opencutappopencut"></a>
 ### 80. [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
-- **⭐ Stars:** 88,593 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 88,604 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/OpenCut-app/OpenCut)
 - 🎯 **O que é e para que serve:** The open-source CapCut alternative desenvolvida em TypeScript para uso prático em 'OpenCut'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de the open-source capcut alternative em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'OpenCut'
@@ -1968,7 +1940,7 @@ We exclude `Child Sexual Abuse` scenario from our evaluation and focus on the re
 
 <a id="getpaseopaseo"></a>
 ### 84. [getpaseo/paseo](https://github.com/getpaseo/paseo)
-- **⭐ Stars:** 15,922 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 15,928 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/getpaseo/paseo)
 - 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'paseo' desenvolvida em TypeScript para uso prático em 'paseo'.
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'paseo'
@@ -1983,7 +1955,7 @@ paseo
 
 <a id="mubengmubeng"></a>
 ### 85. [mubeng/mubeng](https://github.com/mubeng/mubeng)
-- **⭐ Stars:** 2,547 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 2,548 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/mubeng/mubeng)
 - 🎯 **O que é e para que serve:** An incredibly fast proxy checker & IP rotator with ease. desenvolvida em Go para uso prático em 'mubeng'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de an incredibly fast proxy checker & ip rotator with ease. em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'mubeng'
@@ -2013,7 +1985,7 @@ pip install -r requirements.txt
 
 <a id="jinchenma94baziskill"></a>
 ### 87. [jinchenma94/bazi-skill](https://github.com/jinchenma94/bazi-skill)
-- **⭐ Stars:** 2,913 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 2,915 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/jinchenma94/bazi-skill)
 - 🎯 **O que é e para que serve:** Solução contextual e específica para o repositório 'bazi-skill' desenvolvida em Python para uso prático em 'bazi-skill'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de solução contextual e específica para o repositório 'bazi-skill' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'bazi-skill'
@@ -2049,7 +2021,7 @@ docker run --rm -p 9137:9137 \
 
 <a id="mindsdbmindshub"></a>
 ### 89. [mindsdb/mindshub](https://github.com/mindsdb/mindshub)
-- **⭐ Stars:** 39,690 | **💻 Linguagem:** `Makefile`
+- **⭐ Stars:** 39,691 | **💻 Linguagem:** `Makefile`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/mindsdb/mindshub)
 - 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em Makefile
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'mindshub'
@@ -2064,21 +2036,33 @@ cd minds
 
 <a id="apifycrawlee"></a>
 ### 90. [apify/crawlee](https://github.com/apify/crawlee)
-- **⭐ Stars:** 25,637 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 25,638 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/apify/crawlee)
-- 🎯 **O que é e para que serve:** <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/apify/crawlee/master/website/static/img/crawlee-dark.svg?sanitize=true" /> (para extração de dados web)
-- 💡 **Casos de uso reais no dia a dia:** Aplicação de crawlee—a web scraping and browser automation library for node.js to build reliable crawlers. in javascript and typescript. extract data for ai, llms, rag, or gpts. download html, pdf, jpg, png, and other files from websites. works with puppeteer, playwright, cheerio, jsdom, and raw http. both headful and headless mode. with proxy rotation. (para extração de dados web) em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'crawlee'
+- 🎯 **O que é e para que serve:** O Crawlee é uma biblioteca robusta de código aberto para web scraping e automação de navegadores em Node.js e TypeScript, desenvolvida pela Apify. Sua arquitetura unifica ferramentas de mercado como Puppeteer, Playwright, Cheerio, JSDOM e requisições HTTP puras sob uma interface consistente e orientada a filas. Seu principal diferencial competitivo é a resiliência nativa — oferecendo rotação inteligente de proxies, gerenciamento de sessões, persistência automática de dados e mecanismos anti-bloqueio avançados que permitem extrair dados em larga escala para aplicações de IA, LLMs, RAG e GPTs sem disparar alarmes de proteção contra bots.
+- 💡 **Casos de uso reais no dia a dia:** 1. *Alimentação de Bases de Conhecimento para RAG e LLMs:* Coleta automatizada e estruturada de documentações técnicas, artigos e wikis públicas em tempo real para indexação em bases vetoriais de modelos de inteligência artificial.
+  2. *Monitoramento de Preços e Inteligência Competitiva:* Rastreamento contínuo de e-commerce e portais de varejo para auditoria de preços, rupturas de estoque e variação de portfólio, contornando CAPTCHAs e bloqueios geográficos.
+  3. *Auditoria de SEO e Conformidade de Sites:* Varredura profunda de grandes portais corporativos para mapear links quebrados, metadados ausentes, problemas de acessibilidade ou vazamento de dados sensíveis.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-npx crawlee create my-crawler
+# Criação rápida de um projeto utilizando a CLI interativa do Crawlee
+npx crawlee create meu-crawler --template=playwright-ts
+
+# Navegação para o diretório gerado
+cd meu-crawler
+
+# Instalação das dependências e do Playwright necessárias
+npm install playwright
+
+# Execução do crawler em ambiente de desenvolvimento
+npm start
 ```
-- ⚡ **Dica Pro de produtividade:** Configure rotação de User-Agents e limites de taxa de download ao executar 'apify/crawlee' para evitar bloqueios por rate limiting em requisições concorrentes.
+- ⚡ **Dica Pro de produtividade:** Utilize o recurso de *Session Pool* em conjunto com o gerenciamento de proxies do Crawlee (`useSessionPool: true` e `persistCookiesPerSession: true`) para isolar cookies, tokens e identidades de navegação por sessão. Isso faz com que cada sessão simule o comportamento de um usuário real logado ou navegando de forma independente, reduzindo drasticamente a taxa de banimento por IP/fingerprint e permitindo reutilizar conexões válidas por muito mais tempo sem reautenticação forçada.
 
 ---
 
 <a id="searxngsearxng"></a>
 ### 91. [searxng/searxng](https://github.com/searxng/searxng)
-- **⭐ Stars:** 36,480 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 36,484 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/searxng/searxng)
 - 🎯 **O que é e para que serve:** SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled. desenvolvida em Python para uso prático em 'searxng'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de searxng is a free internet metasearch engine which aggregates results from various search services and databases. users are neither tracked nor profiled. em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'searxng'
@@ -2138,7 +2122,7 @@ pip install -r requirements.txt
 
 <a id="hidashimorafreevpnantirkn"></a>
 ### 94. [Hidashimora/free-vpn-anti-rkn](https://github.com/Hidashimora/free-vpn-anti-rkn)
-- **⭐ Stars:** 623 | **💻 Linguagem:** `HTML`
+- **⭐ Stars:** 625 | **💻 Linguagem:** `HTML`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Hidashimora/free-vpn-anti-rkn)
 - 🎯 **O que é e para que serve:** Бесплатные VPN-конфиги без лагов 🚀 desenvolvida em HTML para uso prático em 'free-vpn-anti-rkn'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de бесплатные vpn-конфиги без лагов 🚀 em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'free-vpn-anti-rkn'
@@ -2179,7 +2163,7 @@ pip install -r requirements.txt
 
 <a id="clinecline"></a>
 ### 96. [cline/cline](https://github.com/cline/cline)
-- **⭐ Stars:** 67,426 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 67,429 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/cline/cline)
 - 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'cline' desenvolvida em TypeScript para uso prático em 'cline'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de coleção de habilidades e fluxos para agentes de ia no ecossistema 'cline' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'cline'
@@ -2195,65 +2179,44 @@ npm install @cline/sdk
 ### 97. [continuedev/continue](https://github.com/continuedev/continue)
 - **⭐ Stars:** 35,747 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/continuedev/continue)
-- 🎯 **O que é e para que serve:** O Continue é um agente de codificação de código aberto inovador projetado para integrar Large Language Models (LLMs) diretamente no fluxo de trabalho de desenvolvimento. Sua arquitetura modular se estende por extensões para editores, uma interface de linha de comando (CLI) e plugins, permitindo refatoração, geração e explicação de código agnóstica a provedores de IA. Seu principal diferencial competitivo reside na total liberdade de customização e privacidade, permitindo que desenvolvedores conectem modelos locais (via Ollama) ou APIs propietárias mantendo o controle completo do código-fonte.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Migração de Legado em Escala:** Utilização do agente na linha de comando para refatorar blocos inteiros de código legado de JavaScript para TypeScript, aplicando padrões modernos de tipagem e tratamento de erros de forma automatizada.
-  2. **Geração de Testes Unitários Contextuais:** Criação automatizada de suítes de testes complexas (utilizando Jest ou PyTest) diretamente na IDE, onde o agente lê a árvore de arquivos e o contexto do repositório para cobrir casos de borda e regras de negócio específicas.
-  3. **Auditoria Rápida de Segurança:** Execução de varreduras locais no código para identificar vulnerabilidades comuns (como OWASP Top 10) utilizando modelos de IA rodando localmente na máquina, garantindo que nenhum dado sensível vaze para servidores externos.
+- 🎯 **O que é e para que serve:** Projeto open-source de coding agent (focado em inteligência artificial)
+- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'continue' | Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Instalação global da CLI do Continue via npm
-npm install -g @continuedev/cli
-
-# Inicialização e configuração do agente no diretório do projeto
-continue-cli init
-
-# Execução de uma tarefa de refatoração diretamente via terminal
-continue-cli run "Refatore este arquivo para utilizar programação assíncrona com async/await"
+git clone https://github.com/continuedev/continue.git
+cd continue
+npm install
+npm run dev
 ```
-- ⚡ **Dica Pro de produtividade:** Para otimizar o consumo de tokens e a precisão do agente Continue em bases de código massivas, configure o arquivo `config.json` definindo explicitamente o parâmetro `contextProviders` para incluir apenas os provedores essenciais, como `file` e `codebase`. Além disso, utilize a variável de ambiente `CONTINUE_GLOBAL_DIR` para apontar o diretório de configuração para uma pasta centralizada fora do seu projeto, facilitando o compartilhamento de prompts customizados e perfis de agentes em toda a equipe de engenharia.
+- ⚡ **Dica Pro de produtividade:** No 'continuedev/continue', modularize os agentes por responsabilidade única e isole o contexto de execução de cada worker para evitar dispersão de tokens e alucinações em tarefas longas.
 
 ---
 
 <a id="qwenlmqwencode"></a>
 ### 98. [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)
-- **⭐ Stars:** 27,621 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 27,626 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/QwenLM/qwen-code)
-- 🎯 **O que é e para que serve:** O `qwen-code` é um agente autônomo de codificação de código aberto integrado diretamente ao terminal, desenvolvido em TypeScript e operando sobre Node.js 22+. Ele combina fluxos dinâmicos por meio de Auto-Memória, Auto-Habilidades (Auto-Skills), Subagentes e Equipes de Agentes com suporte ao protocolo MCP (*Model Context Protocol*). Seu principal diferencial competitivo reside na total abertura do framework e dos modelos subjacentes (com suporte agnóstico a OpenAI, Anthropic, Gemini, Ollama, vLLM e APIs da Qwen em tempo de execução), eliminando qualquer dependência de fornecedor (*vendor lock-in*) e estendendo-se para além do terminal via IDEs, aplicações desktop e bots de mensagens.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Refatoração e Correção Autônoma de Bugs em Escala:** Acionar o agente via CLI no diretório de um projeto complexo para analisar logs de testes falhos, rastrear a árvore de dependências do TypeScript e submeter correções estruturais utilizando subagentes em paralelo.
-  2. **Migração de Provedores de LLM em Tempo de Execução:** Alternar dinamicamente entre modelos locais (como o Qwen rodando via Ollama) e APIs comerciais de alta performance (Anthropic/OpenAI) sem reiniciar a sessão do terminal, garantindo privacidade de dados sensíveis ou menor latência conforme a criticidade da tarefa.
-  3. **Orquestração de Tarefas de Infraestrutura via MCP:** Conectar o agente a servidores MCP personalizados para automatizar o provisionamento de recursos de nuvem, consultar bancos de dados e gerar código de infraestrutura como código (IaC) validado por diretrizes locais.
+- 🎯 **O que é e para que serve:** Projeto open-source de AI coding agent that lives in your terminal. (focado em inteligência artificial)
+- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'qwen-code' | Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Instalação global utilizando o gerenciador de pacotes NPM (requer Node.js 22 ou superior)
-npm install -g @qwen-code/qwen-code@latest
-
-# Inicialização da interface interativa baseada em terminal (TUI)
-qwen
-
-# Dentro da sessão interativa, configure o provedor e a chave de API:
-/auth
+curl -fsSL https://qwen-code-assets.oss-cn-hangzhou.aliyuncs.com/installation/install-qwen-standalone.sh | bash
 ```
-- ⚡ **Dica Pro de produtividade:** Para integrar o `qwen-code` em ambientes de CI/CD ou pipelines de automação sem intervenção humana, execute o agente em modo *daemon* ou utilize chamadas diretas via SDK combinadas com variáveis de ambiente dedicadas para injetar o contexto do repositório. Aproveite a capacidade de referenciar arquivos nativamente na CLI utilizando a sintaxe `@caminho/do/arquivo.ts` diretamente nos comandos do terminal para guiar o foco do LLM com precisão cirúrgica, evitando que o agente gaste tokens indexando árvores de diretórios desnecessárias.
+- ⚡ **Dica Pro de produtividade:** No 'QwenLM/qwen-code', combine indexação vetorial com re-ranking baseado em BM25 e ajuste os limites de chunk com overlap para maximizar a relevância na recuperação de contexto.
 
 ---
 
 <a id="tta1iarchify"></a>
 ### 99. [tt-a1i/archify](https://github.com/tt-a1i/archify)
-- **⭐ Stars:** 45,638 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 45,729 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/tt-a1i/archify)
-- 🎯 **O que é e para que serve:** O Archify é uma ferramenta baseada em Node.js projetada para atuar como uma habilidade de agente (*agent skill*) em ambientes de desenvolvimento com inteligência artificial, como Cursor, Claude Code, Codex CLI e OpenCode. Sua principal função é permitir que agentes de IA convertam bases de código ou descrições de sistemas em representações intermediárias de JSON tipado (IR), compilando-as de forma determinística em diagramas de arquitetura, fluxo de dados e sequência interativos em arquivos HTML auto-contidos com animações e recursos de exportação. O grande diferencial competitivo é eliminar a ambiguidade visual na documentação de software gerada por IA, garantindo que cada nó, rota e relação permaneça rigorosamente ancorado no código real e validado por snapshots de engenharia.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Revisão de Arquitetura em Pull Requests:** Comparação automatizada de snapshots validados antes e depois de alterações estruturais (Antes / Delta / Depois), permitindo que revisores verifiquem graficamente quais componentes exatos foram adicionados, removidos, modificados ou redirecionados.
-  2. **Onboarding Acelerado de Desenvolvedores:** Geração interativa de mapas de sistemas diretamente no chat da IA, permitindo que novos engenheiros rastreiem dependências upstream e downstream, busquem nós específicos e executem fluxos guiados sem precisar inventar ou adivinhar a topologia do sistema.
-  3. **Documentação e Auditoria de Microsserviços:** Criação de artefatos visuais prontos para compartilhamento e auditoria (em PNG, SVG, WebM ou cartões de compartilhamento) a partir de descrições textuais ou varreduras de código, facilitando apresentações técnicas para stakeholders e equipes de segurança.
+- 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'archify' desenvolvida em JavaScript para uso prático em 'archify'.
+- 💡 **Casos de uso reais no dia a dia:** Aplicação de coleção de habilidades e fluxos para agentes de ia no ecossistema 'archify' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'archify'
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Instalação global do Archify como uma habilidade de agente via npm
 npx skills add tt-a1i/archify -g
-
-# Se estiver utilizando o Cursor, abra o guia de início rápido específico no navegador ou solicite ao agente:
-# "Gere um diagrama de arquitetura do projeto atual utilizando o Archify no formato Signal Flow"
 ```
-- ⚡ **Dica Pro de produtividade:** Para extrair o máximo do determinismo do Archify em pipelines de CI/CD ou auditorias automatizadas de código, configure o agente para exportar explicitamente o JSON IR intermediário junto ao HTML final. Utilize a opção de comparação de snapshots para injetar o diff estruturado (Adicionado/Removido/Modificado) diretamente no corpo do Pull Request, garantindo que qualquer desvio arquitetural não autorizado seja detectado antes do merge através da verificação exata de rotas e nós.
+- ⚡ **Dica Pro de produtividade:** Configure flags JVM com `-XX:+UseContainerSupport` e garanta que pools de threads de 'tt-a1i/archify' respeitem os limites de CPU do container.
 
 ---
 
@@ -2261,27 +2224,20 @@ npx skills add tt-a1i/archify -g
 ### 100. [marc-shade/world-intel-mcp](https://github.com/marc-shade/world-intel-mcp)
 - **⭐ Stars:** 613 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/marc-shade/world-intel-mcp)
-- 🎯 **O que é e para que serve:** O `world-intel-mcp` é um servidor de inteligência global em tempo real compatível com o Protocolo de Contexto de Modelo (MCP), que expõe mais de 130 ferramentas unificadas para agentes de IA consumirem dados de mais de 30 domínios abertos. Sua arquitetura integra fontes públicas heterogêneas — como mercados financeiros, tráfego aéreo, conflitos, ciberameaças e clima espacial — a um banco de dados vetorial Qdrant para busca semântica em histórico. O grande diferencial competitivo é prover inteligência situacional geopolítica e de mercado de nível corporativo e totalmente gratuita, sem exigir chaves de API pagas ou assinaturas propietárias.
-- 💡 **Casos de uso reais no dia a dia:** 1. *Mitigação de Riscos na Cadeia de Suprimentos:* Engenheiros de confiabilidade podem integrar a ferramenta com agentes de IA para monitorar alertas de desastres naturais da NASA, avisos marítimos da NGA e tensões geopolíticas locais, recalculando rotas logísticas e alertando equipes automaticamente antes que gargalos afetem o inventário.
-  2. *Centros de Operações de Segurança (SOC) e Cibersegurança:* Equipes de segurança da informação podem usar buscas semânticas combinadas no histórico para cruzar dados de vulnerabilidades da CISA KEV, incidentes de BGP/RPKI da RIPEstat e telemetria de ameaças cibernéticas (URLhaus/Feodotracker), gerando briefings automatizados de ameaças direcionadas ao setor de atuação da empresa.
-  3. *Análise Automatizada de Riscos Macrofinanceiros:* Analistas quantitativos e de risco podem acionar via LLM o composto macroeconômico de 6 sinais, dados de títulos do tesouro via FRED, fluxos cambiais e relatórios da SEC EDGAR para sintetizar instantaneamente a saúde de mercados globais em momentos de alta volatilidade.
+- 🎯 **O que é e para que serve:** Servidor de contexto e memória para ferramentas de IA em 'world-intel-mcp' desenvolvida em Python para uso prático em 'world-intel-mcp'.
+- 💡 **Casos de uso reais no dia a dia:** Auditoria contínua de código, detecção de segredos e prevenção de vulnerabilidades
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Clone o repositório do projeto
 git clone https://github.com/marc-shade/world-intel-mcp.git
 cd world-intel-mcp
-
-# Crie e ative um ambiente virtual Python 3.11+
-python3 -m venv venv
-source venv/bin/activate
-
-# Instale as dependências do projeto
 pip install -e .
 
-# Execute o servidor MCP integrado com o Qdrant para busca semântica
-python -m world_intel_mcp.server
+# Optional extras
+pip install -e ".[dashboard]"  # Live ops-center dashboard
+pip install -e ".[vector]"     # Qdrant vector store + FastEmbed
+pip install -e ".[dev]"        # pytest, respx, coverage
 ```
-- ⚡ **Dica Pro de produtividade:** Para extrair o máximo potencial analítico do `world-intel-mcp` sem estourar o contexto do seu LLM, configure a variável de ambiente `QDRANT_STORAGE_PATH` apontando para um volume persistente em disco e utilize as ferramentas de convergência de sinais combinadas com os filtros de geofence definidos pelo usuário (`user-defined geofences`). Isso permite que o Qdrant faça o pré-filtro vetorial e geespacial no backend, injetando no contexto da IA apenas os deltas de inteligência estritamente relevantes para a coordenada ou região de interesse monitorada.
+- ⚡ **Dica Pro de produtividade:** No 'marc-shade/world-intel-mcp', combine indexação vetorial com re-ranking baseado em BM25 e ajuste os limites de chunk com overlap para maximizar a relevância na recuperação de contexto.
 
 ---
 
@@ -2289,45 +2245,28 @@ python -m world_intel_mcp.server
 ### 101. [0xor0ne/awesome-list](https://github.com/0xor0ne/awesome-list)
 - **⭐ Stars:** 4,088 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/0xor0ne/awesome-list)
-- 🎯 **O que é e para que serve:** Trata-se de uma curadoria altamente especializada de conteúdos avançados de segurança da informação, focando em pesquisas de vulnerabilidades, engenharia reversa e exploração de sistemas. Funciona como um repositório de conhecimento estruturado cronologicamente (incluindo entradas até o ano de 2026), servindo como uma biblioteca de referência rápida para engenheiros de segurança ofensiva, analistas de malware e pesquisadores que buscam estudos de caso reais e *write-ups* de nível corporativo e acadêmico.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Pesquisa e Threat Intelligence:** Consultar *write-ups* recentes de vulnerabilidades complexas (como *Zero-Days* em kernels Linux, hypervisors e dispositivos embarcados) para entender vetores de ataque emergentes e blindar infraestruturas críticas.
-  2. **Capacitação em Engenharia Reversa:** Estudar técnicas avançadas de evasão de defesas, desobfuscação de binários e exploração de *heap* através de análises reais documentadas por pesquisadores renomados.
-  3. **Apoio em Red Teaming e Code Review:** Utilizar referências de cadeias de exploração (*exploit chains*) e falhas em APIs ou bibliotecas para conduzir auditorias de código mais assertivas e simulações de ataques direcionados.
+- 🎯 **O que é e para que serve:** Ferramenta de segurança e auditoria especializada em 'awesome-list' desenvolvida em Docs / Shell para uso prático em 'awesome-list'.
+- 💡 **Casos de uso reais no dia a dia:** Aplicação de ferramenta de segurança e auditoria especializada em 'awesome-list' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'awesome-list'
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Clona o repositório completo para consulta local e análise offline
-git clone https://github.0xor0ne/awesome-list.git ~/awesome-cybersecurity
-
-# Entra no diretório e busca por referências específicas de exploração de Kernel usando grep
-cd ~/awesome-cybersecurity && grep -rn "Kernel" --include="*.md"
+git clone https://github.com/0xor0ne/awesome-list.git
+cd awesome-list
 ```
-- ⚡ **Dica Pro de produtividade:** Para manter sua base de conhecimento local sempre sincronizada com as novas pesquisas adicionadas por @0xor0ne sem sobrescrever suas anotações pessoais, configure um *upstream remote* e execute uma mesclagem automatizada via cron ou hook do Git: `git remote add upstream https://github.0xor0ne/awesome-list.git && git fetch upstream && git merge upstream/main --no-edit`.
+- ⚡ **Dica Pro de produtividade:** Compile '0xor0ne/awesome-list' com sanitizers de memória (`-fsanitize=address,undefined`) em ambiente de desenvolvimento para capturar vazamentos de ponteiros e buffer overflows.
 
 ---
 
 <a id="truefoundrytrueforge"></a>
 ### 102. [truefoundry/trueforge](https://github.com/truefoundry/trueforge)
-- **⭐ Stars:** 5,170 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 5,175 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/truefoundry/trueforge)
-- 🎯 **O que é e para que serve:** O TrueForge é uma camada de tempo de execução (*runtime*) de código aberto projetada para transformar grandes modelos de linguagem (LLMs) em agentes autônomos funcionais e seguros. Ele gerencia todo o ciclo de vida complexo da execução de agentes — incluindo chamadas de modelos, integração com ferramentas do Protocolo de Contexto de Modelo (MCP), habilidades, isolamento em sandbox (*sandboxing*), fluxo de aprovações humanas, gerenciamento de contexto e persistência de estado de sessão —, expondo essas capacidades nativamente via interface de chat, API HTTP com SDK em TypeScript e SDK de interface embutível.
-- 💡 **Casos de uso reais no dia a dia:** **Orquestração de DevOps e Infraestrutura:** Criação de agentes autônomos capazes de interagir com clusters Kubernetes e provedores de nuvem utilizando servidores MCP e ambientes isolados em sandbox para executar scripts de remediação com aprovação prévia obrigatória de engenheiros seniores.
-  - **Assistentes de Engenharia de Software com Acesso a Repositórios:** Implementação de agentes integrados a bases de código corporativas que utilizam catálogos de habilidades pré-configurados para ler, refatorar e abrir solicitações de pull request de forma segura e contextualizada.
-  - **Plataformas de Atendimento e Automação de Suporte com Ferramentas Internas:** Desenvolvimento de interfaces de chat embutidas em aplicações internas que conectam LLMs a bancos de dados legados e APIs restritas por meio de controle granular de sessão e gerenciamento de estado.
+- 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'trueforge' desenvolvida em TypeScript para uso prático em 'trueforge'.
+- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'trueforge'
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Certifique-se de possuir o Node.js >= 22.14 instalado
-node -v
-
-# Instale o pacote principal do TrueForge globalmente ou em seu projeto
-npm install -g @truefoundry/trueforge
-
-# Instale os pacotes necessários para o SDK e componentes de interface, se preferir via npm
-npm install @truefoundry/trueforge @truefoundry/trueforge-sdk @truefoundry/trueforge-ui @truefoundry/trueforge-core
-
-# Inicie o servidor do harness do TrueForge apontando para o seu arquivo de configuração
-trueforge start --config ./trueforge.yaml --port 3000
+npx @truefoundry/trueforge@latest
 ```
-- ⚡ **Dica Pro de produtividade:** Para otimizar o ciclo de desenvolvimento e testes locais com o TrueForge, utilize a variável de ambiente `TRUEFORGE_SANDBOX_MODE=docker` combinada com o arquivo de configuração `.trueforge/catalogs/sandbox.yaml` personalizado. Isso força o motor de isolamento a despachar a execução de ferramentas potencialmente destrutivas para contêineres efêmeros dedicados, evitando o comprometimento do host de desenvolvimento enquanto mantém o cache de contexto e o histórico de sessões persistidos via SDK nativo.
+- ⚡ **Dica Pro de produtividade:** No 'truefoundry/trueforge', modularize os agentes por responsabilidade única e isole o contexto de execução de cada worker para evitar dispersão de tokens e alucinações em tarefas longas.
 
 ---
 
@@ -2335,98 +2274,60 @@ trueforge start --config ./trueforge.yaml --port 3000
 ### 103. [1N3/Sn1per](https://github.com/1N3/Sn1per)
 - **⭐ Stars:** 11,193 | **💻 Linguagem:** `Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/1N3/Sn1per)
-- 🎯 **O que é e para que serve:** O Sn1per é uma plataforma automatizada de segurança ofensiva e gerenciamento de superfície de ataque projetada para consolidar reconhecimento, varredura de vulnerabilidades, exploração e geração de relatórios em um único espaço de trabalho. Sua arquitetura orquestra mais de 90 ferramentas de terceiros de código aberto e proprietárias, integrando mais de 600 exploits e 10.000 detecções em um motor central baseado em Shell e Docker. O principal diferencial competitivo é a sua capacidade de automatizar fluxos de trabalho complexos de *pentest* e *bug bounty* — desde a coleta inicial de inteligência de ameaças (OSINT) até a pós-exploração e exportação de relatórios executivos em PDF, CSV e Excel —, reduzindo drasticamente o tempo necessário para auditorias de segurança em grandes infraestruturas.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria Contínua de Superfície de Ataque Externa:** Equipes de Red Teaming e SOC utilizam o Sn1per em modos automatizados para mapear regularmente novos subdomínios, portas abertas e aplicações web expostas na internet, identificando desvios de configuração e ativos esquecidos (*shadow IT*) antes que agentes maliciosos os explorem.
-  2. **Avaliação Rápida em Programas de *Bug Bounty*:** Pesquisadores de segurança executam varreduras direcionadas em alvos recém-lançados utilizando os modos integrados de reconhecimento para extrair rapidamente informações de DNS, certificados SSL e diretórios web, priorizando alvos vulneráveis a falhas críticas conhecidas (*cve-scans*).
-  3. **Testes de Penetração em Infraestruturas Corporativas:** Engenheiros de segurança conduzem varreduras completas em redes internas para inventariar serviços legados, mapear vetores de movimento lateral e validar a eficácia de controles de detecção de intrusão com base nos relatórios consolidados gerados pela plataforma.
+- 🎯 **O que é e para que serve:** ](https://sn1persecurity.com/wordpress/product/sn1per-professional-2026-license/) (focado em segurança)
+- 💡 **Casos de uso reais no dia a dia:** Auditoria contínua de código, detecção de segredos e prevenção de vulnerabilidades
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Clonar o repositório oficial do Sn1per
-git clone https://github.com/1N3/Sn1per.git && cd Sn1per
-
-# Executar o script de instalação automatizada (requer ambiente Linux/Debian/Ubuntu)
-sudo bash install.sh
-
-# Iniciar uma varredura rápida e furtiva em um alvo específico utilizando o modo web
-sudo sniper -t 192.168.1.100 -m web
-
-# Executar uma varredura completa de superfície de ataque com relatórios detalhados
-sudo sniper -t alvo.com -m stealth --noreport
+git clone https://github.com/1N3/Sn1per.git
+cd Sn1per
 ```
-- ⚡ **Dica Pro de produtividade:** Para otimizar o tempo de varredura em ambientes corporativos de grande escala sem disparar alertas críticos em sistemas de IDS/IPS, utilize a combinação do modo furtivo com exclusão de portas de alto ruído e integração com chaves de API externas. Execute o comando com as flags de limite de taxa ajustadas: `sudo sniper -t alvo.com -m stealth --ports 1-1024 --threads 20 --spider`. Além disso, configure as variáveis de ambiente no arquivo de configuração global (`/etc/sn1per.conf`) para injetar automaticamente chaves de serviços como Shodan, SecurityTrails e Censys, permitindo que o motor realize reconhecimento passivo de alta fidelidade antes de iniciar qualquer varredura ativa na rede.
+- ⚡ **Dica Pro de produtividade:** Integre verificações automatizadas de dependências e análise estática (SAST) no pipeline de '1N3/Sn1per' para mitigar riscos de segurança antes do merge.
 
 ---
 
 <a id="abilityaitrinity"></a>
 ### 104. [Abilityai/trinity](https://github.com/Abilityai/trinity)
-- **⭐ Stars:** 504 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 505 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Abilityai/trinity)
-- 🎯 **O que é e para que serve:** O Trinity é uma plataforma soberana e auto-hospedada de agentes de IA de código aberto (sob licença Apache 2.0) projetada para construir, executar e gerenciar frotas inteiras de agentes autônomos em infraestrutura própria. Utilizando uma arquitetura baseada em contêineres Docker isolados por agente, a ferramenta integra frameworks avançados e suporte a múltiplos modelos (como Claude Code, Codex e Gemini) com observabilidade em tempo real, delegação agente-a-agente (A2A) e trilhas de auditoria invioláveis. Seu principal diferencial competitivo é preencher a lacuna entre o desenvolvimento e a produção: enquanto ferramentas como o Claude Code escrevem o agente, o Trinity garante sua execução escalável, segura e auditável em ambientes corporativos controlados.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Automação de Infraestrutura e Resposta a Incidentes:** Execução de frotas de agentes de SRE isolados para monitorar logs, diagnosticar falhas em tempo real e aplicar correções automatizadas via scripts validados, mantendo um registro de auditoria completo para conformidade.
-  2. **Orquestração de Fábrica de Software Multi-Agente:** Criação de fluxos onde agentes especializados (como desenvolvedores, revisores de código e testadores) colaboram via delegação agente-a-agente (A2A) para clonar repositórios, desenvolver funcionalidades, rodar testes de regressão e abrir pull requests de forma autônoma.
-  3. **Migração e Modernização de Bases de Dados e Sistemas Legados:** Uso do Agente de Operações do Trinity para gerenciar migrações complexas de bancos de dados (como transição segura de SQLite para PostgreSQL em produção) com fluxos validados de corte e reversão instantânea.
+- 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'trinity' desenvolvida em Python para uso prático em 'trinity'.
+- 💡 **Casos de uso reais no dia a dia:** Aplicação de coleção de habilidades e fluxos para agentes de ia no ecossistema 'trinity' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'trinity'
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Instalação da CLI oficial do Trinity via PyPI (compatível com Python 3.13)
-pip install trinity-cli
-
-# Inicialização rápida do ambiente de desenvolvimento usando Docker e SQLite
-trinity up --default
-
-# Configuração opcional para produção utilizando PostgreSQL através de variável de ambiente
-export DATABASE_URL="postgresql://usuario:senha@localhost:5432/trinity_prod"
-trinity up --production
+git clone https://github.com/Abilityai/trinity.git
+cd trinity
+pip install -r requirements.txt
 ```
-- ⚡ **Dica Pro de produtividade:** Para ambientes de produção de alta confiabilidade, configure o Agente de Operações integrado utilizando a biblioteca de habilidades multi-origem com backups automáticos ativados. Adicione a flag `--isolated-network` na inicialização dos contêineres dos agentes e aponte o parâmetro de persistência para um volume externo criptografado. Isso garante que a telemetria e o histórico de execuções fiquem isolados da rede pública, prevenindo vazamentos de dados sensíveis manipulados pelos agentes durante tarefas de refatoração ou auditoria de código.
+- ⚡ **Dica Pro de produtividade:** Configure `pyproject.toml` com `ruff` e `pytest` em 'Abilityai/trinity' para unificar formatação, linting e testes automatizados em uma ferramenta ultrarrápida.
 
 ---
 
 <a id="laudeinstituteheadlong"></a>
 ### 105. [laude-institute/headlong](https://github.com/laude-institute/headlong)
-- **⭐ Stars:** 1,106 | **💻 Linguagem:** `Shell`
+- **⭐ Stars:** 1,107 | **💻 Linguagem:** `Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/laude-institute/headlong)
-- 🎯 **O que é e para que serve:** O Headlong é um microrredutor de agentes de código aberto composto por aproximadamente 10 mil linhas de Bash puro, projetado para fornecer agência persistente e modelos de linguagem recursivos (RLM). Sua arquitetura utiliza o próprio ecossistema POSIX (`shellm`) para que o agente pense, execute comandos e processe saídas sem a necessidade de frameworks ou abstrações de ferramentas complexas externas. Seu principal diferencial competitivo é manter o agente rodando em um loop autônomo contínuo (monólogo interior) que consome interações assíncronas de múltiplos canais de chat, decidindo de forma autônoma quando e como interagir.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Monitoramento e Remediação Autônoma de Infraestrutura:** O agente pode atuar em um cluster isolado integrado a canais de comunicação corporativa, monitorando logs do sistema, identificando gargalos ou quedas de serviços e iniciando correções via linha de comando de forma autônoma.
-  2. **Coordenador de Equipes de Engenharia Multi-plataforma:** Centralizar o fluxo de comunicação de diferentes plataformas (como Telegram e Slack) em um único agente que acompanha o andamento das tarefas dos desenvolvedores e conecta pessoas com base nas demandas técnicas em tempo real.
-  3. **Pesquisa e Desenvolvimento em Loop Fechado:** Automatizar o ciclo de desenvolvimento de software onde o agente cria branches, escreve código, executa suítes de testes locais e refatora a base de código iterativamente sem intervenção humana constante.
+- 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'headlong' desenvolvida em Shell para uso prático em 'headlong'.
+- 💡 **Casos de uso reais no dia a dia:** Aplicação de coleção de habilidades e fluxos para agentes de ia no ecossistema 'headlong' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'headlong'
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Instalação automatizada com verificação de dependências e configuração interativa do agente
-curl -fsSL https://headlong.ai/install.sh | bash
-
-# Executar uma mensagem pontual para o agente recém-criado e aguardar a resposta
-ada hello
-
-# Iniciar o dashboard de monitoramento do fluxo de pensamento do agente
-ada dash
-
-# Parar o processo autônomo do agente em caso de emergência ou custos elevados
-ada stop
+docker run -it --name headlong --restart unless-stopped -p 8080:8080 \
+  --add-host host.docker.internal:host-gateway buildpack-deps:curl \
+  bash -c 'curl -fsSL https://headlong.ai/install.sh | bash; exec bash'
 ```
-- ⚡ **Dica Pro de produtividade:** Para otimizar o consumo de tokens e controlar os custos de execução contínua do agente, configure rigorosamente as variáveis de ambiente de retrocesso exponencial (*backoff*) ou utilize o comando `ada bugreport` com chaves previamente limpas para exportar instantaneamente a trajetória e os logs detalhados do interpretador `shellm` para fins de auditoria e depuração de falhas recursivas.
+- ⚡ **Dica Pro de produtividade:** Inspecione a arquitetura modular e a suíte de testes na raiz de 'laude-institute/headlong' antes de estender funcionalidades, mantendo total retrocompatibilidade.
 
 ---
 
 <a id="sherlockprojectsherlock"></a>
 ### 106. [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)
-- **⭐ Stars:** 90,901 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 90,904 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/sherlock-project/sherlock)
-- 🎯 **O que é e para que serve:** O Sherlock é uma ferramenta de código aberto em Python desenvolvida para rastrear contas de redes sociais associadas a um nome de usuário específico em mais de 400 plataformas online. Sua arquitetura baseia-se em requisições HTTP assíncronas e concorrentes que consultam estruturas de dados declarativas (arquivos JSON), permitindo varreduras rápidas e escaláveis. Seu principal diferencial competitivo é a automação da fase de reconhecimento (recon) em investigações de segurança, eliminando a busca manual exaustiva por perfis digitais.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Investigação de CTI e Resposta a Incidentes:** Profissionais de segurança cibernética utilizam a ferramenta para mapear a pegada digital de atacantes ou o vazamento de identidades associadas a e-mails e aliases em investigações de ameaças.
-  2. **Pentesting e Engenharia Social:** Equipes de *Red Team* empregam o Sherlock durante a fase de reconhecimento passivo para identificar perfis corporativos ou pessoais esquecidos que possam servir de vetor para ataques de engenharia social.
-  3. **Verificação de Fraudes e Identidade:** Analistas de antifraude aplicam o software para validar a consistência e a veracidade de nomes de usuário suspeitos em processos de verificação de antecedentes digitais.
+- 🎯 **O que é e para que serve:** Hunt down social media accounts by username across social networks (como ferramenta de linha de comando)
+- 💡 **Casos de uso reais no dia a dia:** Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Instalação rápida e isolada utilizando o pipx
-pipx install sherlock-project
-
-# Execução da busca para um único usuário com salvamento automático em TXT
-sherlock nome_usuario
-
-# Execução em lote para múltiplos usuários gerando relatórios em formato CSV
-sherlock usuario1 usuario2 --csv --folderoutput ./resultados_osint
+sherlock user123
 ```
-- ⚡ **Dica Pro de produtividade:** Utilize a flag `--site` em conjunto com a substituição inteligente de caracteres `{?}` no argumento do nome de usuário para testar variações comuns (como substituição automática por underscores, hífens ou pontos) em plataformas específicas de alto rendimento. Exemplo: `sherlock "joao.{?}silva" --site GitHub --site Twitter` para cobrir simultaneamente variações como `joao_silva`, `joao-silva` e `joao.silva` apenas nos alvos desejados, otimizando drasticamente o tempo de varredura.
+- ⚡ **Dica Pro de produtividade:** Adicione suporte a flags `--help` autoexplicativas e auto-completar de shell (Bash/Zsh/Fish) nas ferramentas CLI de 'sherlock-project/sherlock' para melhorar a experiência do usuário.
 
 ---
 
@@ -2434,43 +2335,30 @@ sherlock usuario1 usuario2 --csv --folderoutput ./resultados_osint
 ### 107. [gptme/gptme](https://github.com/gptme/gptme)
 - **⭐ Stars:** 4,408 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/gptme/gptme)
-- 🎯 **O que é e para que serve:** O `gptme` é um assistente de inteligência artificial autônomo e de código aberto projetado para rodar diretamente no terminal. Sua arquitetura modular prioriza a execução local com ferramentas integradas para manipulação de código, execução de comandos de shell, navegação web e suporte a múltiplos provedores de LLM (como Anthropic, OpenAI, DeepSeek ou localmente via `llama.cpp`), destacando-se como uma alternativa agnóstica e focada em privacidade frente a soluções propietárias.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Automação de CI/CD e Diagnóstico de Falhas:** O agente pode ser inserido em pipelines de integração contínua para monitorar logs de build, identificar erros de compilação ou testes quebrados, escrever o patch de correção e abrir um pull request de forma autônoma.
-  2. **Refatoração de Bases de Código Legadas:** Executado localmente em um repositório complexo, o `gptme` pode varrer múltiplos arquivos, aplicar padrões de tipagem estática (como em Python com `mypy`), reescrever blocos obsoletos e validar as mudanças rodando a suíte de testes unitários localmente.
-  3. **Engenharia de Infraestrutura e DevOps:** Atuando diretamente em sessões SSH ou tmux, o agente auxilia na criação, validação e execução de scripts de infraestrutura (Terraform, Dockerfiles e manifests Kubernetes), respondendo a erros em tempo real de execução do terminal.
+- 🎯 **O que é e para que serve:** Ferramenta de terminal e linha de comando de alta produtividade construída em Python
+- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'gptme' | Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Instalação recomendada via pipx para isolamento de ambiente global
-pipx install gptme-python
-
-# Execução interativa utilizando a API da OpenAI (certifique-se de configurar a chave)
-export OPENAI_API_KEY="sua-chave-de-api"
-gptme "Crie um script em Python que monitora o uso de CPU e salve em /tmp/monitor.py"
-
-# Execução utilizando um modelo local via llama.cpp para privacidade máxima
-gptme --model llama.cpp "Refatore a função de autenticação no arquivo auth.py"
+git clone https://github.com/gptme/gptme.git
+cd gptme
+pip install -r requirements.txt
 ```
-- ⚡ **Dica Pro de produtividade:** Para desbloquear o verdadeiro potencial autônomo do `gptme` em tarefas complexas e de longa duração sem intervenção humana constante, utilize o modo de execução com limite de ciclos de iteração e aprovação automática de comandos seguros através da flag `--non-interactive` combinada com perfis estritos de segurança nas configurações do arquivo `~/.config/gptme/config.toml`, permitindo que o agente execute ciclos completos de desenvolvimento, teste e correção de bugs em segundo plano de forma controlada.
+- ⚡ **Dica Pro de produtividade:** No 'gptme/gptme', modularize os agentes por responsabilidade única e isole o contexto de execução de cada worker para evitar dispersão de tokens e alucinações em tarefas longas.
 
 ---
 
 <a id="githubdailygithubdaily"></a>
 ### 108. [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily)
-- **⭐ Stars:** 47,819 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 47,820 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/GitHubDaily/GitHubDaily)
-- 🎯 **O que é e para que serve:** O `GitHubDaily/GitHubDaily` é um agregador e curador de código aberto voltado para a descoberta de projetos inovadores, ferramentas de desenvolvedor e tutoriais técnicos na plataforma GitHub. Sua arquitetura baseia-se em compilações anuais em Markdown estruturadas por categorias verticais (como Inteligência Artificial, DevOps, Banco de Dados e Frontend), funcionando como um observatório tecnológico contínuo. Seu principal diferencial competitivo é filtrar o ruído do ecossistema open-source global, entregando listas validadas que aceleram a adoção de novas tecnologias e a pesquisa de bibliotecas emergentes por engenheiros de software.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Pesquisa e Benchmarking Tecnológico:** Engenheiros de software podem utilizá-lo para auditar rapidamente ferramentas concorrentes ou encontrar bibliotecas open-source prontas para resolver problemas específicos de arquitetura, evitando a reinvenção da roda.
-  2. **Atualização Contínua e *Tech Radar*:** Líderes técnicos e arquitetos de software podem usar as retrospectivas anuais para alimentar o radar de tecnologias da empresa, identificando tendências em alta nas áreas de IA generativa, ferramentas de CLI e infraestrutura antes de sua adoção mainstream.
-  3. **Curadoria de Ferramentas de Produtividade:** Desenvolvedores individuais podem consultar as seções de utilitários e extensões para otimizar seus ambientes de desenvolvimento locais baseados em terminais, editores de código e automações de fluxo de trabalho.
+- 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em Docs / Shell
+- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'GitHubDaily' | Automação de pipelines de CI/CD, empacotamento em containers e orquestração de infraestrutura | Construção de interfaces de usuário reativas, modulares e focadas em usabilidade
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Clone o repositório para acesso offline e pesquisa local via grep ou editores de Markdown
-git clone https://github.com/GitHubDaily/GitHubDaily.git --depth=1
-
-# Navegue até o diretório do projeto e filtre as tendências do ano corrente (ex: 2025) por termos específicos usando ripgrep
-cd GitHubDaily && rg -i "AI" 2025.md
+git clone https://github.com/GitHubDaily/GitHubDaily.git
+cd GitHubDaily
 ```
-- ⚡ **Dica Pro de produtividade:** Para extrair valor contínuo deste repositório sem precisar acessar o navegador diariamente, configure um fluxo automatizado de monitoramento usando o GitHub CLI combinado com o `jq` para extrair issues recém-abertas ou commits na branch principal: `gh issue list --repo GitHubDaily/GitHubDaily --state open --json title,url --limit 5` para capturar recomendações recentes enviadas pela comunidade diretamente no seu terminal.
+- ⚡ **Dica Pro de produtividade:** Defina resource requests e limits com base em benchmarks de consumo real para 'GitHubDaily/GitHubDaily', prevenindo despejos de pods (OOMKilled) sob picos de tráfego.
 
 ---
 
@@ -2478,32 +2366,26 @@ cd GitHubDaily && rg -i "AI" 2025.md
 ### 109. [GH05TCREW/pentestagent](https://github.com/GH05TCREW/pentestagent)
 - **⭐ Stars:** 3,043 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/GH05TCREW/pentestagent)
-- 🎯 **O que é e para que serve:** O PentestAgent é um framework de agentes de inteligência artificial voltado para testes de segurança em caixa-preta, permitindo automatizar fluxos de trabalho de bug bounty, red-teaming e testes de intrusão. Utilizando modelos de linguagem integrados via LiteLLM, grafos de conhecimento e ferramentas compatíveis com o protocolo MCP (Model Context Protocol), a ferramenta opera de forma autônoma ou colaborativa por meio de múltiplos agentes especializados orquestrados em uma interface de terminal (TUI).
-- 💡 **Casos de uso reais no dia a dia:** **Reconhecimento e Enumeração Automatizada:** Execução autônoma de varreduras de rede com mapeamento de portas e descoberta de serviços em ambientes corporativos para compor o grafo de conhecimento inicial antes de um relatório de auditoria.
-  - **Simulação de Ataques em Red-Teaming:** Orquestração de múltiplos agentes em modo "Crew" para explorar vulnerabilidades conhecidas utilizando ferramentas de mercado integradas, como Metasploit e SQLMap, dentro de containers Docker isolados.
-  - **Triagem em Programas de Bug Bounty:** Avaliação rápida de ativos alvo através da instrução de uso único ("Assist") para verificar a presença de vetores de exploração específicos e gerar evidências estruturadas.
+- 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em Python
+- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'pentestagent'
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Clonar o repositório e acessar o diretório
+# Clone
 git clone https://github.com/GH05TCREW/pentestagent.git
 cd pentestagent
 
-# Configurar o ambiente virtual e instalar dependências (Linux/macOS)
-./scripts/setup.sh
-source venv/bin/activate
+# Setup (creates venv, installs deps)
+.\scripts\setup.ps1   # Windows
+./scripts/setup.sh    # Linux/macOS
+
+# Or manual
+python -m venv venv
+.\venv\Scripts\Activate.ps1  # Windows
+source venv/bin/activate     # Linux/macOS
 pip install -e ".[all]"
-playwright install chromium
-
-# Configurar as credenciais do provedor de IA no arquivo .env
-echo "ANTHROPIC_API_KEY=sk-ant-..." > .env
-echo "PENTESTAGENT_MODEL=claude-sonnet-4-20250514" >> .env
-
-# Executar a ferramenta em modo isolado utilizando a imagem Kali do Docker
-docker run -it --rm \
-  -e ANTHROPIC_API_KEY=seu-token-aqui \
-  ghcr.io/gh05tcrew/pentestagent:kali
+playwright install chromium  # Required for browser tool
 ```
-- ⚡ **Dica Pro de produtividade:** Para maximizar a autonomia e a precisão dos testes em ambientes restritos, utilize o modo agente colaborativo (`/crew <tarefa>`) combinando uma chave de API customizada via `OPENAI_API_BASE` com um modelo de raciocínio avançado (`PENTESTAGENT_MODEL=openai/<seu-modelo>`). Isso permite redirecionar o tráfego de inferência para um gateway ou relay interno seguro, garantindo que nenhum dado sensível de escaneamento de rede ou payloads exploit vaze para provedores públicos de LLM.
+- ⚡ **Dica Pro de produtividade:** No 'GH05TCREW/pentestagent', modularize os agentes por responsabilidade única e isole o contexto de execução de cada worker para evitar dispersão de tokens e alucinações em tarefas longas.
 
 ---
 
@@ -2511,61 +2393,47 @@ docker run -it --rm \
 ### 110. [aliasrobotics/cai](https://github.com/aliasrobotics/cai)
 - **⭐ Stars:** 9,821 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/aliasrobotics/cai)
-- 🎯 **O que é e para que serve:** O Cybersecurity AI (CAI) é um framework de código aberto pioneiro projetado para automatizar tarefas de segurança ofensiva e defensiva utilizando inteligência artificial. Sua arquitetura integra grandes modelos de linguagem (LLMs) e agentes autônomos para executar varreduras, pentests e análise de vulnerabilidades em ambientes complexos. O principal diferencial competitivo do CAI reside na sua capacidade validada cientificamente de realizar pentests até 3.600 vezes mais rápidos e 156 vezes mais baratos que operadores humanos, sustentado por um corpus de trajetórias de 18 TB e dezenas de CVEs descobertas.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria Automatizada de Infraestrutura (Red Teaming Contínuo):** Execução autônoma de varreduras de exploração e simulação de ataques em ambientes de nuvem ou redes corporativas para identificar falhas antes de agentes maliciosos.
-  2. **Triagem e Remediação de Vulnerabilidades em CI/CD:** Integração de agentes de IA no pipeline de desenvolvimento para analisar código recém-commitado, correlacionar com padrões de exploração conhecidos e sugerir correções de segurança em tempo real.
-  3. **Pesquisa Automatizada de CVEs (Fuzzing Inteligente):** Utilização de modelos generativos guiados por feedback de execução para descobrir vulnerabilidades de dia zero em softwares proprietários ou dependências de terceiros.
+- 🎯 **O que é e para que serve:** Cybersecurity AI (CAI), the framework for AI Security (otimizado para modelos de linguagem grandes)
+- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'cai'
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Clone o repositório histórico de artefatos de pesquisa
 git clone https://github.com/aliasrobotics/cai.git
 cd cai
-
-# Crie e ative um ambiente virtual Python isolado
-python3 -m venv venv
-source venv/bin/activate
-
-# Instale as dependências do projeto contidas na árvore de código final
-pip install --upgrade pip
 pip install -r requirements.txt
 ```
-- ⚡ **Dica Pro de produtividade:** Para extrair o máximo de eficiência dos agentes autônomos do CAI sem estourar limites de tokens ou incorrer em custos excessivos de inferência, configure a variável de ambiente `CAI_EXECUTION_MODE=deterministic` combinada com o parâmetro de CLI `--max-trajectory-depth 5`. Isso força o framework a podar caminhos de exploração redundantes na árvore de decisão do agente, focando exclusivamente em vetores de ataque de alto impacto baseados no corpus histórico de 18 TB.
+- ⚡ **Dica Pro de produtividade:** Ao integrar 'aliasrobotics/cai' com modelos de linguagem, utilize streaming de respostas e ajuste parâmetros de chunking com overlap de 10-15% para maximizar relevância de contexto sem estourar limites de tokens.
 
 ---
 
 <a id="madslorentzenaijobsearch"></a>
 ### 111. [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
-- **⭐ Stars:** 40,566 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 40,577 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/MadsLorentzen/ai-job-search)
-- 🎯 **O que é e para que serve:** O `ai-job-search` é um framework open-source de busca de empregos executado inteiramente na máquina local, construído sobre o Claude Code. Ele automatiza o funil completo de contratação — desde a varredura de portais de vagas até a avaliação de compatibilidade, personalização de currículos em LaTeX e redação de cartas de apresentação através de um pipeline multi-agente do tipo revisor-redator. Seu principal diferencial competitivo é garantir a soberania absoluta dos dados do candidato ao rodar localmente, utilizando agentes de inteligência artificial alinhados a boas práticas de carreira para eliminar o trabalho manual repetitivo.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Automação de varredura e triagem para transição de carreira:** Profissionais de tecnologia podem executar scrapers locais customizados para filtrar centenas de vagas diárias em portais específicos e receber um relatório consolidado com notas de adequação técnica antes de gastar tempo aplicando.
-  2. **Geração dinâmica de artefatos de candidatura via LaTeX:** O sistema compila automaticamente o perfil profissional do candidato e o cruza com os requisitos da vaga para gerar um currículo cirurgicamente direcionado e uma carta de apresentação coerente, compilados instantaneamente em PDF.
-  3. **Simulação e preparação técnica para entrevistas:** Utilizando o histórico da vaga avaliada e o perfil do candidato, a ferramenta prepara guias de perguntas e respostas focados nas lacunas técnicas identificadas pelo agente avaliador.
+- 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em Python
+- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'ai-job-search'
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# 1. Clone o repositório para sua máquina local
-git clone https://github.com/MadsLorentzen/ai-job-search.git
-cd ai-job-search
-
-# 2. Certifique-se de ter o Claude Code CLI instalado e autenticado
-npm install -g @anthropic-ai/claude-code
-
-# 3. Inicialize o assistente de configuração interativa para preencher seu perfil profissional
-claude /setup
-
-# 4. Inicie a busca por portais de emprego configurados
-claude /scrape
-
-# 5. Avalie e aplique para uma vaga específica informando a URL
-claude /apply <URL_DA_VAGA>
+/setup          /scrape              /apply <url>
+  |                |                     |
+  v                v                     v
+Fill in        Search job           Evaluate fit
+your profile   portals              Score & recommend
+  |                |                     |
+  v                v                     v
+Profile        Present matches      Draft CV + Cover Letter
+files ready    with fit ratings     (LaTeX, tailored)
+                   |                     |
+                   v                     v
+               Pick a match         Reviewer agent critiques
+               -> /apply            -> Revise -> Final output
 ```
-- ⚡ **Dica Pro de produtividade:** Para adaptar o framework a portais de emprego locais fora do mercado dinamarquês original, evite modificar os scripts principais de IA e concentre-se em injetar novos arquivos de habilidades (`skills`) personalizados em Markdown no diretório de comandos do Claude Code (`.claude/skills/`). Defina prompts estritos focados no DOM dos sites locais de sua preferência para extração estruturada de JSON, garantindo que o pipeline de avaliação (`/apply`) receba descrições de vagas limpas e padronizadas.
+- ⚡ **Dica Pro de produtividade:** No 'MadsLorentzen/ai-job-search', combine indexação vetorial com re-ranking baseado em BM25 e ajuste os limites de chunk com overlap para maximizar a relevância na recuperação de contexto.
 
 ---
 
 <a id="mukul975anthropiccybersecurityskills"></a>
 ### 112. [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
-- **⭐ Stars:** 32,110 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 32,116 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/mukul975/Anthropic-Cybersecurity-Skills)
 - 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'Anthropic-Cybersecurity-Skills' desenvolvida em Python para uso prático em 'Anthropic-Cybersecurity-Skills'.
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'Anthropic-Cybersecurity-Skills' | Auditoria contínua de código, detecção de segredos e prevenção de vulnerabilidades
@@ -2581,30 +2449,23 @@ pip install -r requirements.txt
 
 <a id="aiboostawesomeharnessengineering"></a>
 ### 113. [ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering)
-- **⭐ Stars:** 3,979 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 3,981 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/ai-boost/awesome-harness-engineering)
-- 🎯 **O que é e para que serve:** O `ai-boost/awesome-harness-engineering` é um repositório do tipo *awesome list* focado em engenharia de arcabouços (*harness engineering*) para agentes de inteligência artificial. Sua arquitetura de curadoria compila ferramentas, padrões de design, camadas de contexto, protocolos de comunicação (como o Model Context Protocol - MCP) e sistemas de verificação, servindo como o guia definitivo para construir a infraestrutura de suporte que permite a agentes autônomos executarem tarefas reais com confiabilidade.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Desenvolvimento de Ambientes de Execução Seguros:** Criação de sandboxes isolados e camadas de autorização granulares para que agentes de codificação executem comandos de terminal e modifiquem bases de código sem riscos de segurança.
-  2. **Otimização e Compactação de Contexto:** Implementação de estratégias avançadas de gerenciamento de memória e entrega de contexto (*context compaction*) para evitar o esgotamento da janela de contexto (*token limit*) em agentes de longa duração.
-  3. **Pipelines de Avaliação e Verificação (Evals):** Integração de loops de feedback automatizados e testes de CI/CD para validar de forma determinística as saídas geradas por agentes antes de aplicá-las em ambientes de produção.
+- 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'awesome-harness-engineering' desenvolvida em Python para uso prático em 'awesome-harness-engineering'.
+- 💡 **Casos de uso reais no dia a dia:** Aplicação de coleção de habilidades e fluxos para agentes de ia no ecossistema 'awesome-harness-engineering' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'awesome-harness-engineering'
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Clone o repositório de recursos para consulta e extração de padrões arquiteturais
 git clone https://github.com/ai-boost/awesome-harness-engineering.git
-
-# Acesse o diretório do projeto
 cd awesome-harness-engineering
-
-# Opcional: Utilize uma ferramenta de busca baseada em CLI (como fzf ou ripgrep) para filtrar ferramentas de MCP ou frameworks de orquestração diretamente no README.md traduzido ou local
-rg -i "mcp" README.md
+pip install -r requirements.txt
 ```
-- ⚡ **Dica Pro de produtividade:** Ao projetar seu próprio agente utilizando as referências do repositório, desacople rigorosamente a camada de raciocínio do modelo (LLM) da camada de execução de ferramentas utilizando o protocolo **MCP (Model Context Protocol)**. Configure variáveis de ambiente estritas para o tempo limite de execução (`MCP_TIMEOUT`) e utilize os padrões de *sandbox* baseados em contêineres Docker listados na seção de segurança do repositório para garantir que qualquer erro de alucinação do agente fique contido em um ambiente efêmero e isolado da infraestrutura hospedeira.
+- ⚡ **Dica Pro de produtividade:** No 'ai-boost/awesome-harness-engineering', combine indexação vetorial com re-ranking baseado em BM25 e ajuste os limites de chunk com overlap para maximizar a relevância na recuperação de contexto.
 
 ---
 
 <a id="kdenseaiscientificagentskills"></a>
 ### 114. [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
-- **⭐ Stars:** 42,366 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 42,375 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/K-Dense-AI/scientific-agent-skills)
 - 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'scientific-agent-skills' desenvolvida em Python para uso prático em 'scientific-agent-skills'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de coleção de habilidades e fluxos para agentes de ia no ecossistema 'scientific-agent-skills' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'scientific-agent-skills'
@@ -2620,7 +2481,7 @@ pip install -r requirements.txt
 
 <a id="rohitg00agentmemory"></a>
 ### 115. [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)
-- **⭐ Stars:** 27,977 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 27,980 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/rohitg00/agentmemory)
 - 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em TypeScript
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'agentmemory'
@@ -2634,7 +2495,7 @@ npx -y @agentmemory/agentmemory@latest
 
 <a id="volcengineopenviking"></a>
 ### 116. [volcengine/OpenViking](https://github.com/volcengine/OpenViking)
-- **⭐ Stars:** 35,349 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 35,359 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/volcengine/OpenViking)
 - 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'OpenViking' desenvolvida em Python para uso prático em 'OpenViking'.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de coleção de habilidades e fluxos para agentes de ia no ecossistema 'openviking' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'OpenViking'
@@ -2667,7 +2528,7 @@ viking://
 
 <a id="francescostabilenumasec"></a>
 ### 117. [FrancescoStabile/numasec](https://github.com/FrancescoStabile/numasec)
-- **⭐ Stars:** 677 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 688 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/FrancescoStabile/numasec)
 - 🎯 **O que é e para que serve:** The AI Agent for Cyber Security. (otimizado para modelos de linguagem grandes)
 - 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'numasec' | Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento
@@ -2682,24 +2543,18 @@ numasec
 
 <a id="projectdiscoverynucleitemplates"></a>
 ### 118. [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)
-- **⭐ Stars:** 12,909 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 12,911 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/projectdiscovery/nuclei-templates)
-- 🎯 **O que é e para que serve:** O `nuclei-templates` é o repositório oficial de modelos mantido pela comunidade e pela ProjectDiscovery para o motor de varredura Nuclei. Ele funciona como uma base de conhecimento modular baseada em YAML que define requisições, verificações de lógica e padrões de reconhecimento para identificar vulnerabilidades de segurança, exposições de dados e falhas em aplicações. Seu principal diferencial competitivo é a curadoria em tempo real de vetores de ataques recém-descobertos (incluindo catálogos KEV do CISA), permitindo que engenheiros executem varreduras altamente personalizáveis e escaláveis sem precisar codificar scripts complexos de varredura do zero.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria Contínua em Pipelines CI/CD:** Integração automatizada de varreduras de segurança em ambientes de *staging* ou produção para identificar regressões de segurança ou dependências vulneráveis recém-divulgadas antes do deploy definitivo.
-  2. **Campanhas de Bug Bounty e Red Teaming:** Mapeamento rápido de superfícies de ataque em ativos recém-descobertos utilizando tags específicas (como CVEs críticos ou painéis administrativos expostos) para priorizar alvos de exploração.
-  3. **Gestão de Postura de Segurança em Nuvem (CSPM):** Varredura de ativos corporativos para detecção precoce de credenciais vazadas, arquivos de configuração expostos e má-configurações em buckets ou endpoints de APIs.
+- 🎯 **O que é e para que serve:** Ferramenta de segurança e auditoria especializada em 'nuclei-templates' desenvolvida em JavaScript para uso prático em 'nuclei-templates'.
+- 💡 **Casos de uso reais no dia a dia:** Auditoria contínua de código, detecção de segredos e prevenção de vulnerabilidades
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# 1. Instalar a ferramenta principal Nuclei (via Go)
-go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
-
-# 2. Clonar o repositório de templates para o diretório local
 git clone https://github.com/projectdiscovery/nuclei-templates.git
-
-# 3. Executar uma varredura direcionada utilizando templates focados em KEV (Known Exploited Vulnerabilities) contra um alvo
-nuclei -u https://exemplo.com -t nuclei-templates/http/cves/ -tags kev
+cd nuclei-templates
+npm install
+npm run dev
 ```
-- ⚡ **Dica Pro de produtividade:** Para otimizar drasticamente o tempo de varredura em grandes perímetros sem sobrecarregar a infraestrutura alvo, utilize o parâmetro `-rl` (rate-limit) combinado com a filtragem avançada por severidade e atualização automática dos templates diretamente na CLI: `nuclei -update-templates -target https://exemplo.com -severity critical,high -rl 150 -silent`. Essa abordagem garante que você execute apenas as verificações de alto impacto com controle estrito de requisições por segundo, evitando bloqueios por Web Application Firewalls (WAF).
+- ⚡ **Dica Pro de produtividade:** Integre verificações automatizadas de dependências e análise estática (SAST) no pipeline de 'projectdiscovery/nuclei-templates' para mitigar riscos de segurança antes do merge.
 
 ---
 
@@ -2721,73 +2576,97 @@ cd SILENTCHAIN
 
 <a id="s0ld13rrpentestcode"></a>
 ### 120. [s0ld13rr/pentestcode](https://github.com/s0ld13rr/pentestcode)
-- **⭐ Stars:** 603 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 604 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/s0ld13rr/pentestcode)
-- 🎯 **O que é e para que serve:** O PentestCode é um agente autônomo de testes de intrusão baseado em terminal, construído através de um *hard fork* do OpenCode e reestruturado especificamente para segurança ofensiva. Sua arquitetura multiagente utiliza o modelo estrategista-coordenador para gerenciar estados persistentes de engajamento, executar ferramentas de segurança em paralelo e automatizar cadeias de ataques complexas (desde varreduras Nmap até explorações avançadas de diretórios ativos). Seu principal diferencial competitivo é manter um estado estruturado e compartilhado entre os agentes, permitindo análises metódicas, execução de varreduras de credenciais em larga escala e eliminação de gargalos comuns em testes manuais.
-- 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria Automatizada de Redes Internas (Active Directory):** Executado em ambientes corporativos simulados para identificar rapidamente vetores de ataque como sessões SMB nulas, ataques de *AS-REP roasting* e escalonamento de privilégios até o nível de Administrador de Domínio.
-  2. **Validação Contínua de Postura de Segurança (CTFs e Red Teaming):** Utilizado em sessões únicas (*one-shot*) para varreduras rápidas e exaustivas de sub-redes inteiras, garantindo que nenhum serviço exposto ou credencial fraca seja ignorado pela fadiga do operador humano.
-  3. **Testes de Regressão de Vulnerabilidades:** Empregado para reexecutar cadeias de exploração conhecidas após correções de infraestrutura, validando de forma autônoma se as falhas de rede e aplicação web foram efetivamente mitigadas.
+- 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'pentestcode' desenvolvida em TypeScript para uso prático em 'pentestcode'.
+- 💡 **Casos de uso reais no dia a dia:** Aplicação de coleção de habilidades e fluxos para agentes de ia no ecossistema 'pentestcode' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'pentestcode'
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Instalação global do pacote via npm
 npm install -g pentestcode-ai
 
-# Autenticação com o seu provedor de LLM preferido (suporta mais de 20 provedores via Vercel AI SDK)
-pentestcode auth login
-
-# Execução interativa no terminal
-pentestcode
-
-# Execução em modo one-shot para varredura e enumeração automatizada
-pentestcode --prompt "varra a rede 10.10.10.0/24, descubra portas abertas e enumere todos os serviços detectados"
+# via curl
+curl -fsSL https://raw.githubusercontent.com/s0ld13rr/pentestcode/main/install.sh | bash
 ```
-- ⚡ **Dica Pro de produtividade:** Para auditorias em ambientes altamente restritos ou CI/CD de segurança sem dependências locais complexas, compile e execute o binário autocontido utilizando a flag de compilação em lote do Bun (`bun run build --single --skip-embed-web-ui`), direcionando o binário resultante para `/usr/local/bin/pentestcode`. Durante as execuções prolongadas, utilize interativamente os comandos integrados no prompt, como `/status` para inspecionar o estado atual da rede, `/vulns` para listar vulnerabilidades validadas em tempo de execução e `/creds` para auditar credenciais capturadas sem interromper o fluxo autônomo dos agentes.
+- ⚡ **Dica Pro de produtividade:** Ative `strict: true` no `tsconfig.json` de 's0ld13rr/pentestcode' e configure aliases de path (`@/*`) para facilitar refatorações seguras e capturar erros em tempo de compilação.
 
 ---
 
 <a id="ashishpatel26500aimachinelearningdeeplearningcomputervisionnlpprojectswithcode"></a>
 ### 121. [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code)
-- **⭐ Stars:** 36,707 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 36,709 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code)
-- 🎯 **O que é e para que serve:** 500 AI Machine learning Deep learning Computer vision NLP Projects with code (com capacidades de machine learning)
-- 💡 **Casos de uso reais no dia a dia:** Aplicação de 500 ai machine learning deep learning computer vision nlp projects with code (com capacidades de machine learning) em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório '500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code'
+- 🎯 **O que é e para que serve:** Trata-se de um repositório agregador de código aberto estruturado como uma lista curada ("awesome list"), cujo propósito central é fornecer um diretório centralizado com mais de 500 projetos práticos de Inteligência Artificial, Aprendizado de Máquina, Aprendizado Profundo, Visão Computacional e Processamento de Linguagem Natural (PLN). Sua arquitetura se baseia em referências cruzadas e hiperlinks validados que apontam para bases de código executáveis e tutoriais guiados, servindo como um acelerador de portfólio e referência rápida para engenheiros que buscam implementações de referência prontas para produção ou estudo.
+- 💡 **Casos de uso reais no dia a dia:** 1. *Aceleração de Prototipagem:* Engenheiros de dados e cientistas de dados podem utilizar o repositório para localizar rapidamente implementações de referência (como modelos de séries temporais ou sistemas de recomendação) ao iniciar o escopo de um novo PoC (Prova de Conceito).
+  2. *Curadoria de Treinamento e Capacitação:* Equipes de engenharia de software em transição para IA podem usar a lista estruturada como um roteiro prático para nivelamento técnico interno, abordando desde regressão linear até arquiteturas avançadas baseadas em transformadores (*transformers*).
+  3. *Auditoria de Casos de Uso:* Arquitetos de soluções podem consultar o mapeamento de projetos para validar viabilidade técnica de modelos de visão computacional ou análise de sentimentos antes de desenhar a infraestrutura de inferência em nuvem.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
+# Clone o repositório principal de curadoria para acesso offline à estrutura de links e documentação
 git clone https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code.git
+
+# Acesse o diretório clonado
 cd 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
+
+# Como a maioria dos projetos apontados utiliza ecossistema Python, 
+# crie e ative um ambiente virtual isolado para testar os códigos referenciados
+python3 -m venv venv && source venv/bin/activate
+
+# Instale dependências comuns de ciência de dados para rodar os notebooks apontados
+pip install --upgrade pip numpy pandas scikit-learn tensorflow torch
 ```
-- ⚡ **Dica Pro de produtividade:** Compile 'ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code' com sanitizers de memória (`-fsanitize=address,undefined`) em ambiente de desenvolvimento para capturar vazamentos de ponteiros e buffer overflows.
+- ⚡ **Dica Pro de produtividade:** Como o repositório atua como um hub massivo de links externos (redirecionando para Medium, GitHub secundários e Colab), em vez de navegar manualmente pela tabela Markdown, utilize a ferramenta CLI `ripsecrets` ou o utilitário `grep` combinado com o `awk` para filtrar rapidamente apenas os projetos hospedados diretamente no GitHub que contêm arquivos `.ipynb` ou `requirements.txt`. Por exemplo, execute `grep -o 'https://github.com/[^)]*' README.md | sort -u` para extrair um manifesto limpo de todos os repositórios-fonte rastreados, permitindo que você faça um script de clonagem em massa dos projetos de seu interesse específico para análise estática local.
 
 ---
 
 <a id="microsoftmlforbeginners"></a>
 ### 122. [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners)
-- **⭐ Stars:** 90,095 | **💻 Linguagem:** `Jupyter Notebook`
+- **⭐ Stars:** 90,099 | **💻 Linguagem:** `Jupyter Notebook`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/microsoft/ML-For-Beginners)
-- 🎯 **O que é e para que serve:** 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all (com capacidades de machine learning)
-- 💡 **Casos de uso reais no dia a dia:** Aplicação de 12 weeks, 26 lessons, 52 quizzes, classic machine learning for all (com capacidades de machine learning) em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'ML-For-Beginners'
+- 🎯 **O que é e para que serve:** O `ML-For-Beginners` é um currículo educacional de código aberto estruturado em 12 semanas e 26 lições, focado no ensino de aprendizado de máquina (Machine Learning) clássico utilizando Python, Scikit-Learn e Jupyter Notebooks. Sua arquitetura pedagógica orientada a projetos e o suporte automatizado a mais de 50 idiomas via GitHub Actions garantem seu diferencial competitivo como um ecossistema global, modular e acessível para capacitação técnica de iniciantes em ciência de dados.
+- 💡 **Casos de uso reais no dia a dia:** 1. *Onboarding e Capacitação de Equipes:* Aceleração da transição de desenvolvedores júnior ou engenheiros de software tradicionais para equipes de engenharia de dados e inteligência artificial através de laboratórios práticos padronizados.
+  2. *Criação de Trilhas de Aprendizado Corporativas:* Utilização da estrutura modular para estruturar programas internos de capacitação (*Upskilling*) em algoritmos de regressão, classificação e agrupamento aplicados a problemas de negócio reais.
+  3. *Prototipagem Rápida de Conceitos de ML:* Consulta rápida a implementações limpas e comentadas de algoritmos clássicos para validação de hipóteses estatísticas antes do desenvolvimento de pipelines complexos de Deep Learning.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-git clone https://github.com/microsoft/ML-For-Beginners.git
+# Clone o repositório utilizando sparse checkout para evitar o download massivo das traduções
+git clone --filter=blob:none --no-checkout https://github.com/microsoft/ML-For-Beginners.git
 cd ML-For-Beginners
+git sparse-checkout set --no-cone /* !translations
+
+# Checkout da branch principal e configuração do ambiente virtual Python
+git checkout main
+python3 -m venv venv
+source venv/bin/activate
+
+# Instalação das dependências globais e inicialização do Jupyter Lab
+pip install --upgrade pip
+pip install -r requirements.txt
+jupyter lab
 ```
-- ⚡ **Dica Pro de produtividade:** Inspecione a arquitetura modular e a suíte de testes na raiz de 'microsoft/ML-For-Beginners' antes de estender funcionalidades, mantendo total retrocompatibilidade.
+- ⚡ **Dica Pro de produtividade:** Para executar e validar os notebooks interativamente sem precisar instalar dependências pesadas de compilação C++ ou gerenciadores locais complexos, utilize a extensão do VS Code baseada em contêineres (`Dev Containers`). Abra a pasta raiz do projeto clonado utilizando o comando `Dev Containers: Reopen in Container` na paleta de comandos (`Ctrl+Shift+P` / `Cmd+Shift+P`), o que isolará todo o ambiente de execução do Scikit-Learn, Pandas e Jupyter em um container Docker pré-configurado com todas as bibliotecas científicas validadas pela Microsoft.
 
 ---
 
 <a id="multicaaiandrejkarpathyskills"></a>
 ### 123. [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
-- **⭐ Stars:** 209,892 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 209,904 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/multica-ai/andrej-karpathy-skills)
-- 🎯 **O que é e para que serve:** Catálogo especializado de competências e extensões para 'andrej-karpathy-skills' desenvolvida em Docs / Shell para uso prático em 'andrej-karpathy-skills'.
-- 💡 **Casos de uso reais no dia a dia:** Aplicação de catálogo especializado de competências e extensões para 'andrej-karpathy-skills' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'andrej-karpathy-skills'
+- 🎯 **O que é e para que serve:** O `andrej-karpathy-skills` é um arquivo de configuração do tipo `CLAUDE.md` projetado para otimizar e governar o comportamento do agente Claude Code. Baseado nas observações de Andrej Karpathy sobre as armadilhas comuns de Modelos de Linguagem Grande (LLMs) em tarefas de programação — como suposições infundadas, excesso de engenharia e modificações laterais indesejadas —, a ferramenta força o modelo a adotar uma conduta disciplinada, iterativa e estritamente focada no objetivo.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Correção de bugs críticos em produção:** Previne que o agente refatore arquivos adjacentes por engano ao corrigir um erro isolado, garantindo mudanças cirúrgicas e alinhadas ao escopo da tarefa.
+  2. **Implementação de novas funcionalidades enxutas:** Evita que a IA crie abstrações desnecessárias ou estruturas de 1000 linhas quando uma solução simples de 100 linhas resolveria o problema ("Simplicity First").
+  3. **Desenvolvimento orientado a testes (TDD) autônomo:** Obriga o agente a definir critérios claros de sucesso com base em testes antes de escrever o código de implementação, permitindo ciclos de execução autônomos e verificáveis.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-1. [Step] → verify: [check]
-2. [Step] → verify: [check]
-3. [Step] → verify: [check]
+# Clone o repositório em seu projeto para extrair o CLAUDE.md ou utilize via Claude Code CLI
+git clone https://github.com/multica-ai/andrej-karpathy-skills.git
+
+# Copie o arquivo CLAUDE.md para a raiz do diretório do seu projeto de desenvolvimento atual
+cp andrej-karpathy-skills/CLAUDE.md /caminho/para/seu/projeto/
+
+# Inicie o Claude Code na raiz do projeto para que ele carregue as diretrizes automaticamente
+claude
 ```
-- ⚡ **Dica Pro de produtividade:** Compile 'multica-ai/andrej-karpathy-skills' com sanitizers de memória (`-fsanitize=address,undefined`) em ambiente de desenvolvimento para capturar vazamentos de ponteiros e buffer overflows.
+- ⚡ **Dica Pro de produtividade:** Para garantir que o Claude Code respeite rigorosamente os princípios de "Surgical Changes" e "Simplicity First" em repositórios legados complexos, combine o arquivo `CLAUDE.md` com a restrição de contexto por escopo utilizando a flag `--path` do CLI ou definindo diretrizes estritas no arquivo de configuração local do usuário (`~/.claude/config.json`), forçando o agente a recusar modificações em arquivos fora da árvore de dependências direta da tarefa solicitada.
 
 ---
 
@@ -2795,75 +2674,107 @@ cd ML-For-Beginners
 ### 124. [openstory-so/openstory](https://github.com/openstory-so/openstory)
 - **⭐ Stars:** 568 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/openstory-so/openstory)
-- 🎯 **O que é e para que serve:** Projeto open-source de AI-powered video sequence platform built with TanStack Start (focado em inteligência artificial)
-- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'openstory'
+- 🎯 **O que é e para que serve:** O OpenStory é uma plataforma de código aberto impulsionada por inteligência artificial para a criação de sequências de vídeo a partir de roteiros, utilizando uma arquitetura totalmente voltada para o edge computing com TanStack Start e Cloudflare Workers. Seu principal diferencial competitivo é garantir consistência visual estrita entre cenas através de bibliotecas compartilhadas, combinando geração via Fal.ai, execução durável com Cloudflare Workflows e atualizações de progresso em tempo real via Server-Sent Events (SSE) gerenciados por Durable Objects.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Produção automatizada de conteúdo técnico:** Equipes de engenharia de software podem transformar rapidamente documentações textuais ou roteiros de arquitetura em vídeos explicativos e tutoriais visuais padronizados com alta fidelidade estética.
+  2. **Prototipagem rápida de mídia para marketing e produto:** Designers e criadores de produtos podem gerar sequências de quadros, animações e conceitos visuais mantendo a consistência de personagens, paletas de cores e cenários sem precisar de renderização local pesada.
+  3. **Plataformas educacionais escaláveis:** Geração em lote de videoaulas dinâmicas e roteirizadas na borda (edge), reduzindo custos de infraestrutura e latência na entrega de conteúdos multimídia personalizados.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
+# Clone o repositório do projeto
 git clone https://github.com/openstory-so/openstory.git
 cd openstory
+
+# Instale as dependências utilizando o gerenciador de pacotes Bun (requer versão >= 1.3.9)
 bun install
-bun dev
+
+# Configure as variáveis de ambiente necessárias copiando o arquivo de exemplo
+cp .env.example .env
+
+# Execute o ambiente de desenvolvimento local na borda
+bun run dev
 ```
-- ⚡ **Dica Pro de produtividade:** Ao integrar 'openstory-so/openstory' com modelos de linguagem, utilize streaming de respostas e ajuste parâmetros de chunking com overlap de 10-15% para maximizar relevância de contexto sem estourar limites de tokens.
+- ⚡ **Dica Pro de produtividade:** Para depurar fluxos complexos de geração de vídeo sem estourar os limites de tempo limite (*timeouts*) das funções na borda, utilize a flag `--local-persist` do Wrangler combinada com o comando `bun run db:migrate` para simular o armazenamento local no Cloudflare D1 e o estado durável dos Cloudflare Workflows diretamente na sua máquina, garantindo observabilidade total dos eventos enviados via Durable Objects antes de realizar o deploy em produção.
 
 ---
 
 <a id="openjarvisopenjarvis"></a>
 ### 125. [open-jarvis/OpenJarvis](https://github.com/open-jarvis/OpenJarvis)
-- **⭐ Stars:** 9,299 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 9,301 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/open-jarvis/OpenJarvis)
-- 🎯 **O que é e para que serve:** Personal AI, On Personal Devices desenvolvida em Python para uso prático em 'OpenJarvis'.
-- 💡 **Casos de uso reais no dia a dia:** Aplicação de personal ai, on personal devices em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'OpenJarvis'
+- 🎯 **O que é e para que serve:** O OpenJarvis é um framework e stack de software voltado para IA pessoal e local (*local-first*), projetado para executar agentes inteligentes diretamente em dispositivos pessoais, minimizando a dependência de APIs em nuvem. Sua arquitetura foca em primitivas compartilhadas para agentes on-device, avaliações que tratam restrições de energia, FLOPs, latência e custo como métricas de primeira classe, e um loop de aprendizado baseado em dados de rastreamento local, posicionando-se como uma fundação de código aberto para a era da inteligência por watt.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Automação de rotinas corporativas com LGPD/Privacidade rigorosa:** Execução de agentes de IA locais que varrem e sintetizam e-mails, calendários e documentos confidenciais diretamente no notebook do usuário sem vazar dados para servidores de terceiros.
+  2. **Análise de eficiência energética e inteligência embarcada:** Monitoramento e execução de tarefas de raciocínio e chat em edge devices ou estações de trabalho de desenvolvimento, otimizando o consumo de recursos computacionais locais com base em restrições estritas de hardware.
+  3. **Resumos diários e gestão de fluxo de trabalho offline:** Geração automatizada de briefings matinais falados baseados em agendas e fontes de dados locais, operando perfeitamente mesmo sem conexão ativa com a internet.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-jarvis                          # start chatting (default: chat-simple)
-jarvis init --preset <name>     # switch to a starter config
+# Instalação rápida em macOS, Linux ou WSL2 (gerencia automaticamente o uv, venv, Ollama e modelo inicial)
+curl -fsSL https://open-jarvis.github.io/OpenJarvis/install.sh | bash
+
+# Iniciar o assistente de chat padrão
+jarvis
+
+# Alternar para um perfil de configuração pré-definido (ex: digest matinal)
+jarvis init --preset morning-digest-minimal
+
+# Verificar o status de integridade do ambiente e extensões em Rust
+jarvis doctor
 ```
-- ⚡ **Dica Pro de produtividade:** Configure `pyproject.toml` com `ruff` e `pytest` em 'open-jarvis/OpenJarvis' para unificar formatação, linting e testes automatizados em uma ferramenta ultrarrápida.
+- ⚡ **Dica Pro de produtividade:** Para otimizar o consumo de recursos e monitorar o impacto de eficiência em tempo de execução, utilize o comando `jarvis --profile-watts` acoplado a variáveis de ambiente restritivas de GPU local (`OLLAMA_NUM_PARALLEL=1 OLLAMA_MAX_LOADED_MODELS=1`), garantindo que o motor de inferência local descarregue os pesos da memória imediatamente após a inatividade e priorizando o limite estrito de FLOPs do seu hardware pessoal.
 
 ---
 
 <a id="maxmiksaautocompany"></a>
 ### 126. [MaxMiksa/Auto-Company](https://github.com/MaxMiksa/Auto-Company)
-- **⭐ Stars:** 2,867 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 2,869 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/MaxMiksa/Auto-Company)
-- 🎯 **O que é e para que serve:** An auto-company works for 24/7 on your own PC - Windows/Linux/macOS. desenvolvida em Python para uso prático em 'Auto-Company'.
-- 💡 **Casos de uso reais no dia a dia:** Aplicação de an auto-company works for 24/7 on your own pc - windows/linux/macos. em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'Auto-Company'
+- 🎯 **O que é e para que serve:** O Auto-Company é uma plataforma de agentes autônomos de Inteligência Artificial totalmente descentralizada que opera 24 horas por dia, 7 dias por semana, orquestrando um ecossistema de 14 especialistas virtuais modelados para executar ciclos contínuos de desenvolvimento de software, pesquisa, deploy e marketing sem intervenção humana. Sua arquitetura baseia-se em um fluxo assíncrono acionado por um daemon nativo do sistema operacional (como `systemd` ou `launchd`), onde cada ciclo lê um estado compartilhado em memória persistente (`memories/consensus.md`), forma squads dinâmicos de 3 a 5 agentes e executa tarefas utilizando CLIs avançadas de LLM (como Claude Code e Codex CLI). O principal diferencial competitivo é a eliminação do estado efêmero entre sessões através de um mecanismo estrito de consenso e handoff baseados em arquivos Markdown versionados, garantindo resiliência, baixo acoplamento e recuperação automática de falhas via circuit breakers.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Desenvolvimento e Manutenção Contínua de Microserviços:** Monitorar repositórios legados, identificar débitos técnicos ou bugs em issues abertas, estruturar um squad autônomo para escrever correções de código, gerar testes unitários e abrir pull requests de forma autônoma durante a madrugada.
+  2. **Grescimento Automatizado e Growth Hacking de MVPs:** Utilizar agentes de marketing e engenharia para analisar métricas de uso de um produto recém-lançado, gerar iterativamente novas landing pages, testar copies publicitárias e disparar campanhas de divulgação sem alocar esforço humano.
+  3. **Varredura de Segurança e Resposta a Incidentes (SecOps):** Escanear vulnerabilidades em dependências de projetos corporativos, sintetizar o impacto técnico no arquivo de consenso compartilhado e coordenar a aplicação imediata de patches de segurança e atualizações de infraestrutura.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-# Prerequisites:
-# - macOS
-# - Codex CLI or Claude Code installed and authenticated
-# - Available model quota
-
-# Clone
+# 1. Clone o repositório oficial da Auto-Company
 git clone https://github.com/MaxMiksa/Auto-Company.git
-cd auto-company
+cd Auto-Company
 
-# Foreground run (live output)
-make start
+# 2. Configure as dependências e o ambiente Node.js/Python necessários
+npm install -g @openai/codex
+pip install -r requirements.txt
 
-# Or install daemon (auto-start + auto-restart)
-make install
+# 3. Configure suas chaves de API essenciais no arquivo de ambiente
+cp .env.example .env
+nano .env  # Insira suas credenciais da Anthropic/OpenAI
+
+# 4. Inicialize o daemon de execução contínua em segundo plano
+bash scripts/core/auto-loop.sh
 ```
-- ⚡ **Dica Pro de produtividade:** Configure `pyproject.toml` com `ruff` e `pytest` em 'MaxMiksa/Auto-Company' para unificar formatação, linting e testes automatizados em uma ferramenta ultrarrápida.
+- ⚡ **Dica Pro de produtividade:** Para evitar estouros de limite de taxa (*rate-limits*) da API e loops infinitos em caso de erros de compilação repetitivos dos agentes, configure rigorosamente as variáveis de tolerância a falhas no arquivo `CLAUDE.md` e ajuste o tempo de espera do circuit breaker na sessão de persistência, ativando explicitamente a flag de *consensus rollback* (`--enable-consensus-rollback`). Isso garante que, se um agente corromper o estado do código ou falhar iterativamente em três ciclos consecutivos, o daemon reverta automaticamente o repositório para o último commit estável registrado em `memories/consensus.md` sem pausar a operação total do negócio.
 
 ---
 
 <a id="freestyleflyawesomegptimage2"></a>
 ### 127. [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)
-- **⭐ Stars:** 27,724 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 27,731 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/freestylefly/awesome-gpt-image-2)
-- 🎯 **O que é e para que serve:** Coleção de habilidades e fluxos para agentes de IA no ecossistema 'awesome-gpt-image-2' desenvolvida em JavaScript para uso prático em 'awesome-gpt-image-2'.
-- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'awesome-gpt-image-2'
+- 🎯 **O que é e para que serve:** O `awesome-gpt-image-2` é um motor industrial de prompts e biblioteca de templates estruturada sob o paradigma de *Prompt as Code*, desenvolvida para padronizar e automatizar a geração de imagens via inteligência artificial. Sua arquitetura compila mais de 540 casos de engenharia reversa e mais de 20 templates corporativos em habilidades reutilizáveis (*skills*), oferecendo uma interface web interativa em JavaScript e integração nativa com APIs assíncronas para processamento em lote em larga escala.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Automação de Design de Interfaces e Assets:** Geração programática e consistente de ativos visuais, mockups de UI/UX e banners promocionais em lote utilizando templates validados industriais, eliminando variações indesejadas de estilo em pipelines de CI/CD criativos.
+  2. **Engenharia de Prompts Escalável para E-commerce:** Criação padronizada de fotografias de produtos realistas em alta resolução (1K a 4K) através de chamadas de API assíncronas, permitindo o reuso de componentes de texto parametrizados sem a necessidade de reescrever prompts do zero.
+  3. **Geração de Conteúdo Educacional e Documentação:** Produção em massa de diagramas conceituais, ilustrações técnicas e infográficos estruturados por meio de mapeamentos determinísticos de cenários visuais.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
+# Clone o repositório oficial do projeto
 git clone https://github.com/freestylefly/awesome-gpt-image-2.git
+
+# Acesse o diretório do projeto
 cd awesome-gpt-image-2
+
+# Instale as dependências do projeto JavaScript
 npm install
+
+# Inicie o ambiente de desenvolvimento local para navegar na galeria e testar o motor de prompts
 npm run dev
 ```
-- ⚡ **Dica Pro de produtividade:** No 'freestylefly/awesome-gpt-image-2', modularize os agentes por responsabilidade única e isole o contexto de execução de cada worker para evitar dispersão de tokens e alucinações em tarefas longas.
+- ⚡ **Dica Pro de produtividade:** Para integrar o motor de prompts com plataformas de execução assíncrona de alto rendimento (como os patrocinadores APIMart ou HiAPI suportados pelo ecossistema), configure variáveis de ambiente locais mapeando o endpoint assíncrono customizado e utilize o padrão de submissão de tarefas por `task_id` com polling configurado via script Node.js. Isso evita estouros de tempo limite (*timeouts*) ao processar lotes massivos de milhares de imagens simultaneamente.
 
 ---
 
@@ -2871,13 +2782,22 @@ npm run dev
 ### 128. [rawfilejson/awesome-osint-arsenal](https://github.com/rawfilejson/awesome-osint-arsenal)
 - **⭐ Stars:** 2,691 | **💻 Linguagem:** `Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/rawfilejson/awesome-osint-arsenal)
-- 🎯 **O que é e para que serve:** OSINT & recon toolkit // 100+ tools, one-command installer, SOCMINT, GEOINT, network recon, dark web, forensics & more. desenvolvida em Shell para uso prático em 'awesome-osint-arsenal'.
-- 💡 **Casos de uso reais no dia a dia:** Aplicação de osint & recon toolkit // 100+ tools, one-command installer, socmint, geoint, network recon, dark web, forensics & more. em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'awesome-osint-arsenal'
+- 🎯 **O que é e para que serve:** O `awesome-osint-arsenal` é um kit de ferramentas automatizado de inteligência de código aberto (OSINT) e segurança da informação que consolida mais de 753 utilitários divididos em 50 categorias através de um instalador de comando único. Sua arquitetura baseada em scripts Shell (`install.sh`, `osint.sh`, `redteam.sh`, etc.) realiza detecção inteligente de distribuições Linux (suporte nativo a Debian/Ubuntu/Kali e compatibilidade parcial via gerenciadores de pacotes alternativos com Go, Pip e Git) para provisionar ambientes completos de reconhecimento, forense digital e testes de invasão sem intervenção manual complexa.
+- 💡 **Casos de uso reais no dia a dia:** 1. Implantação rápida e padronizada de ambientes efêmeros de auditoria de segurança (Red Team/Blue Team) em contêineres ou instâncias em nuvem para avaliações de vulnerabilidade pontuais.
+  2. Execução de investigações de inteligência cibernética e triagem de vazamentos de dados combinando ferramentas de reconhecimento de redes sociais (Sherlock/Maigret) e varredura de infraestrutura (Amass/Nuclei).
+  3. Configuração automatizada de ambientes de laboratório isolados para treinamento corporativo em resposta a incidentes e forense digital (DFIR).
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-git clone https://github.com/rawfilejson/awesome-osint-arsenal && cd awesome-osint-arsenal && sudo bash install.sh
+# Clonar o repositório oficial e executar o instalador completo (somente em ambientes controlados)
+git clone https://github.com/rawfilejson/awesome-osint-arsenal.git && cd awesome-osint-arsenal && sudo bash install.sh
+
+# Executar apenas o subconjunto focado em ferramentas de OSINT puro
+sudo bash osint.sh
+
+# Instalar ferramentas voltadas para Red Team e exploração ética
+sudo bash redteam.sh
 ```
-- ⚡ **Dica Pro de produtividade:** Inspecione a arquitetura modular e a suíte de testes na raiz de 'rawfilejson/awesome-osint-arsenal' antes de estender funcionalidades, mantendo total retrocompatibilidade.
+- ⚡ **Dica Pro de produtividade:** Para implantar o arsenal de forma totalmente isolada e segura em servidores de produção ou estações de trabalho que não utilizam distros baseadas em Debian (`apt`), utilize o instalador com a variável de ambiente de depuração ativada ou execute seletivamente o script modular `redteam.sh` combinando-o com isolamento de namespaces via Docker, evitando assim a poluição do sistema operacional host com dependências globais de Python, Go e Rust.
 
 ---
 
@@ -2885,29 +2805,26 @@ git clone https://github.com/rawfilejson/awesome-osint-arsenal && cd awesome-osi
 ### 129. [lunalully/curso-completo-de-kof](https://github.com/lunalully/curso-completo-de-kof)
 - **⭐ Stars:** 17 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/lunalully/curso-completo-de-kof)
-- 🎯 **O que é e para que serve:** > **Uma linguagem. Um compilador. Vários mundos.*> *Menos código. Mais intenção.Este curso ensina a linguagem de programação **Kof*do zero até o nível
-- 💡 **Casos de uso reais no dia a dia:** Aplicação de solução contextual e específica para o repositório 'curso-completo-de-kof' em fluxos reais de desenvolvimento e operação | Personalização de integrações e automações específicas para o repositório 'curso-completo-de-kof'
+- 🎯 **O que é e para que serve:** O `curso-completo-de-kof` é um ecossistema educacional e de engenharia abrangente projetado para ensinar e validar o uso da linguagem de programação Kof e seu compilador multi-alvo. Sua arquitetura foca na expressividade de domínio através da filosofia "intenção acima de cerimônia", oferecendo um ferramental coeso via CLI que unifica type-checking, testes, depuração via DAP, benchmarking, formatação e geração de código para JVM, nativo (ELF/RISC/ARM) e JavaScript a partir de uma única base de código.
+- 💡 **Casos de uso reais no dia a dia:** 1. Desenvolvimento de microsserviços e aplicações web de alta performance com servidores HTTP embutidos nativamente e suporte a TLS através do comando `kof serve`.
+  2. Implementação de pipelines de dados e algoritmos de aprendizado de máquina (como k-NN) em Kof puro, aproveitando a tipagem forte e a verificação estática para garantir robustez sem a complexidade acidental de ecossistemas fragmentados.
+  3. Construção e auditoria de sistemas seguros com trilhas dedicadas de cibersegurança, criptografia, manipulação de tokens JWT e arquitetura hexagonal sem dependência de containers pesados de injeção de dependência.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-kof run <arquivo>.kf [--target jvm|native|js|native.risc|native.arm] [--release]
-kof check <arquivo>.kf      # type-check sem emitir código
-kof build <dir> --target jvm|native|js|native.risc|native.arm|kofc [--release] [--output <dir>]
-kof serve app.kf            # sobe um servidor HTTP (web.app + TLS)
-kof test <arquivo.kf|dir> [--target jvm|native|js]  # PASS/FAIL por teste
-kof debug app.kf            # sessão DAP (breakpoints, call stack)
-kof bench [paths...] [--target jvm|native|js] [--iterations N]  # benchmarks
-kof profile <file.kf> [--target jvm|native|js]   # CPU, RSS, GC
-kof inspect <file.kf> [--json]  # estatísticas de IR
-kof fmt <file.kf|dir> [-w]  # formatador (parser real, idempotente)
-kof script <file.ks|kf> [--target jvm|native|js]  # KofScript (let top-level, repl)
-kof repl                    # REPL KofScript interativo
-kof c <file.c>              # KofC: subset C -> ELF nativo
-kof info [--json]           # ambiente completo
-kof lsp                     # Language Server Protocol
-kof install <dir>           # instala distribuição local
-kof version
+# 1. Clonar o repositório oficial do curso
+git clone https://github.com/lunalully/curso-completo-de-kof.git
+cd curso-completo-de-kof
+
+# 2. Verificar o ambiente e o compilador Kof integrado
+kof info --json
+
+# 3. Executar o primeiro módulo de fundamentos com validação em tempo de execução
+kof run 00-fundamentos/01_sintaxe.kf --target native
+
+# 4. Subir um servidor HTTP de desenvolvimento com recarregamento a partir do diretório de projetos
+kof serve projetos/api/app.kf --release
 ```
-- ⚡ **Dica Pro de produtividade:** Compile 'lunalully/curso-completo-de-kof' com sanitizers de memória (`-fsanitize=address,undefined`) em ambiente de desenvolvimento para capturar vazamentos de ponteiros e buffer overflows.
+- ⚡ **Dica Pro de produtividade:** Utilize o fluxo integrado de CI/CD e refatoração do compilador combinando o formatador idempotente em lote com a verificação estática rigorosa antes de emitir artefatos de produção: execute `kof fmt . -w` para padronizar toda a árvore de módulos do curso, seguida imediatamente por `kof build . --target native.arm --release --output ./dist` para compilar binários nativos otimizados diretamente para arquiteturas ARM sem necessidade de toolchains externas complexas.
 
 ---
 
@@ -2939,7 +2856,7 @@ npm run dev
 
 <a id="nvidiagarak"></a>
 ### 131. [NVIDIA/garak](https://github.com/NVIDIA/garak)
-- **⭐ Stars:** 9,104 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 9,105 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/NVIDIA/garak)
 - 🎯 **O que é e para que serve:** O `garak` é um scanner de vulnerabilidades de código aberto desenvolvido pela NVIDIA, projetado especificamente para o ecossistema de Modelos de Linguagem de Grande Escala (LLMs). Funciona como um framework de *red-teaming* e avaliação de IA generativa — exercendo um papel analógico ao do `nmap` ou do Metasploit, mas voltado para falhas cognitivas e de segurança em IA —, mapeando sistematicamente riscos como alucinações, vazamento de dados, injeção de prompt (*prompt injection*), desvios de alinhamento (*jailbreaks*) e geração de toxicidade por meio de sondas estáticas, dinâmicas e adaptativas.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria de Conformidade em Pipelines MLOps:** Execução automatizada de varreduras de segurança em modelos recém-treinados ou afinados (*fine-tuned*) antes do lançamento em produção, garantindo conformidade com frameworks de governança de IA.
@@ -2966,7 +2883,7 @@ python -m garak --model_type rest --model_name gpt-4o-mini --probes promptinject
 
 <a id="projectdiscoverynuclei"></a>
 ### 132. [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
-- **⭐ Stars:** 30,996 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 31,001 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/projectdiscovery/nuclei)
 - 🎯 **O que é e para que serve:** O Nuclei é um scanner de vulnerabilidades moderno, modular e de altíssimo desempenho, desenvolvido em Go, que utiliza uma DSL baseada em YAML para definir regras de varredura. Sua arquitetura desacopla a engine de execução dos templates de segurança, permitindo o processamento paralelo ultrarrápido de milhares de alvos e o agrupamento inteligente de requisições, o que elimina falsos positivos e simula cenários reais de exploração em múltiplos protocolos (HTTP, DNS, TCP, SSL, JavaScript e infraestrutura em nuvem).
 - 💡 **Casos de uso reais no dia a dia:** 1. **Automação de Segurança em CI/CD:** Integração do Nuclei em pipelines (como GitHub Actions ou GitLab CI) para executar testes de regressão de segurança automaticamente em aplicações web recém-implantadas antes de irem para produção.
@@ -2989,7 +2906,7 @@ nuclei -target https://exemplo.com.br -severity critical,high
 
 <a id="sooryathejasmetatron"></a>
 ### 133. [sooryathejas/METATRON](https://github.com/sooryathejas/METATRON)
-- **⭐ Stars:** 3,834 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 3,836 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/sooryathejas/METATRON)
 - 🎯 **O que é e para que serve:** O **METATRON** é um assistente de testes de intrusão (penetration testing) baseado em inteligência artificial e operando totalmente via linha de comando (CLI), projetado para rodar de forma isolada e local em distribuições Linux voltadas para segurança, como o Parrot OS. Sua arquitetura integra ferramentas nativas de reconhecimento de alvos (como `nmap`, `whois`, `whatweb`, `nikto`, entre outras) com um modelo de linguagem local (`metatron-qwen` via Ollama), permitindo varreduras automatizadas, análise de vulnerabilidades em ciclo orientado a agentes e persistência de histórico relacional em MariaDB sem dependência de nuvem ou chaves de API pagas.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Auditorias de Segurança Offline em Ambientes Isolados (Air-Gapped):** Execução de avaliações de vulnerabilidade em redes corporativas altamente restritas onde o envio de metadados de alvos para APIs de terceiros (como OpenAI ou Anthropic) viola políticas rígidas de confidencialidade e conformidade regulatória (LGPD/GDPR).
@@ -3022,7 +2939,7 @@ python3 main.py
 
 <a id="tashfeenahmedfreellmapi"></a>
 ### 134. [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi)
-- **⭐ Stars:** 24,091 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 24,101 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/tashfeenahmed/freellmapi)
 - 🎯 **O que é e para que serve:** O `freellmapi` é um proxy reverso compatível com a API da OpenAI que agrega as camadas gratuitas de dezenas de provedores de modelos de linguagem (LLMs) em um único endpoint `/v1`. Desenvolvido em TypeScript, ele atua como um roteador inteligente e tolerante a falhas, realizando o balanceamento de carga, contornando limites de taxa (*rate limits*) de forma transparente e gerenciando o armazenamento criptografado de chaves de API para maximizar o uso de inferência gratuita sem intervenção manual.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Redução de Custos em Agentes de IA e CLIs:** Redirecionar ferramentas de desenvolvimento locais (como Cursor, Aider ou agentes baseados em terminal) para o endpoint unificado do `freellmapi`, garantindo que tarefas repetitivas de refatoração e geração de código utilizem cotas gratuitas em vez de consumir créditos de APIs pagas.
@@ -3045,7 +2962,7 @@ export OPENAI_API_KEY="sua-chave-gerenciada-pelo-freellmapi"
 
 <a id="promptfoopromptfoo"></a>
 ### 135. [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)
-- **⭐ Stars:** 24,793 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 24,792 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/promptfoo/promptfoo)
 - 🎯 **O que é e para que serve:** O `promptfoo` é uma ferramenta de linha de comando (CLI) e biblioteca em TypeScript projetada para automatizar a avaliação de desempenho, teste de prompts e varredura de vulnerabilidades (*red teaming*) em aplicações baseadas em Modelos de Linguagem Grande (LLMs). Sua arquitetura orientada a arquivos de configuração declarativos permite comparar provedores distintos de forma determinística e executar testes de estresse de segurança localmente antes da implantação. Seu principal diferencial competitivo é combinar avaliações de qualidade funcional (como precisão de RAG e alinhamento de contexto) com testes automatizados de segurança contra injeções de prompt e vazamento de dados, integrando-se nativamente a pipelines de CI/CD.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Validação de Regressão em Prompts e Modelos no CI/CD:** Garantir que alterações em um prompt do sistema ou a migração entre versões de modelos (ex: GPT-4o para Claude 3.5 Sonnet) não degradem a acurácia de respostas nem introduzam comportamentos indesejados, bloqueando o *merge* de Pull Requests caso as métricas de testes fiquem abaixo do limiar estipulado.
@@ -3102,7 +3019,7 @@ print(f'Total de elementos extraídos: {len(elements)}')
 
 <a id="duty1gx64dbgmcpserver"></a>
 ### 137. [duty1g/x64dbg-mcp-server](https://github.com/duty1g/x64dbg-mcp-server)
-- **⭐ Stars:** 1,856 | **💻 Linguagem:** `Zig`
+- **⭐ Stars:** 1,859 | **💻 Linguagem:** `Zig`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/duty1g/x64dbg-mcp-server)
 - 🎯 **O que é e para que serve:** O x64dbg-MCP Server é um plugin nativo escrito em Zig para o depurador x64dbg que expõe toda a funcionalidade do depurador via HTTP utilizando o Protocolo de Contexto de Modelo (MCP). Ele permite que assistentes de IA compatíveis controlem o x64dbg de forma programática para definir pontos de interrupção, analisar memória e inspecionar registradores. Seu principal diferencial competitivo é oferecer zero dependências, compilação cruzada para arquiteturas de 32 e 64 bits a partir de qualquer sistema operacional e um binário único e ultraleve sem necessidade de runtimes como Python ou .NET.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Análise Automatizada de Malware:** Engenheiros reversos e analistas de segurança podem usar o assistente de IA conectado via MCP para inspecionar blocos de memória suspeitos, extrair strings ofuscadas e rastrear o fluxo de execução de amostras maliciosas em tempo real sem intervenção manual constante.
@@ -3126,7 +3043,7 @@ cp -r dist/* "C:/x64dbg/release/x64/plugins/"
 
 <a id="fastapifullstackfastapitemplate"></a>
 ### 138. [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template)
-- **⭐ Stars:** 45,357 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 45,362 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/fastapi/full-stack-fastapi-template)
 - 🎯 **O que é e para que serve:** Trata-se de um modelo de projeto para aplicações web completas (full-stack) altamente padronizado, que integra um backend em Python com FastAPI e SQLModel a um frontend moderno em React, TypeScript e Vite. O seu grande diferencial competitivo é a arquitetura coesa que unifica a experiência de desenvolvimento e o ciclo de vida de deploy — onde o frontend é compilado e servido diretamente pelo próprio backend na mesma origem —, além de gerar automaticamente um cliente tipado para comunicação com a API e trazer infraestrutura pronta via Docker Compose com Traefik e PostgreSQL.
 - 💡 **Casos de uso reais no dia a dia:** **Desenvolvimento ágil de MVPs e Produtos Internos:** Perfeito para startups e equipes de engenharia que precisam lançar sistemas corporativos, painéis administrativos (*dashboards*) ou microsserviços com autenticação JWT pronta, recuperação de senha por e-mail e banco de dados relacional em questão de minutos, sem perder tempo configurando boilerplate.
@@ -3150,7 +3067,7 @@ docker compose watch
 
 <a id="rohitg00aiengineeringfromscratch"></a>
 ### 139. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
-- **⭐ Stars:** 52,265 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 52,272 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/rohitg00/ai-engineering-from-scratch)
 - 🎯 **O que é e para que serve:** O `ai-engineering-from-scratch` é um currículo e manual de referência de código aberto abrangente, estruturado em 20 fases e mais de 500 lições, focado em capacitar desenvolvedores a criarem aplicações de Inteligência Artificial do zero. Sua arquitetura pedagógica e prática utiliza Python, TypeScript, Rust e Julia para guiar o aluno na construção de artefatos reais — como agentes autônomos, servidores MCP (Model Context Protocol) e pipelines de aprendizado profundo —, preenchendo a lacuna entre o uso passivo de ferramentas de IA e a engenharia profissional de ponta a ponta.
 - 💡 **Casos de uso reais no dia a dia:** 1. *Desenvolvimento de Agentes Autônomos Especializados:* Criação de sistemas multi-agentes (swarms) com memória persistente utilizando o ecossistema do repositório para automatizar fluxos complexos de engenharia de software e revisões de código.
@@ -3180,7 +3097,7 @@ npm install
 
 <a id="learningcircuitlocaldeepresearch"></a>
 ### 140. [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research)
-- **⭐ Stars:** 9,033 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 9,034 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/LearningCircuit/local-deep-research)
 - 🎯 **O que é e para que serve:** O `local-deep-research` é um assistente de pesquisa autônomo baseado em agentes de inteligência artificial projetado para execução totalmente local e focada em privacidade. Sua arquitetura combina múltiplos grandes modelos de linguagem (LLMs) e motores de busca (como arXiv, PubMed e SearXNG) sobre uma base de dados criptografada via SQLCipher, alcançando alta precisão em benchmarks complexos como o SimpleQA em hardware de consumo (ex: RTX 3090). O principal diferencial competitivo é garantir total soberania dos dados (*air-gapped* ou auto-hospedados) sem depender de APIs propietárias na nuvem, permitindo o cruzamento de fontes públicas com documentos privados em um fluxo de RAG (Retrieval-Augmented Generation) profundo e com citações rigorosas.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria de Conformidade e Segurança:** Investigação aprofundada de vulnerabilidades, CVEs e documentações proprietárias de infraestrutura cruzando bases locais sigilosas com dados da web, mantendo todo o histórico de consultas sob criptografia rigorosa.
@@ -3253,7 +3170,7 @@ claude
 
 <a id="milanmdevopsroadmap"></a>
 ### 143. [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap)
-- **⭐ Stars:** 20,438 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 20,439 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/milanm/DevOps-Roadmap)
 - 🎯 **O que é e para que serve:** O `DevOps-Roadmap` é um guia estratégico passo a passo, em formato de documentação e recursos curados, projetado para orientar profissionais de tecnologia na jornada para se tornarem engenheiros DevOps. Sua arquitetura de conteúdo baseia-se em uma progressão lógica de aprendizado — desde fundamentos de controle de versão, Linux e redes, até orquestração de contêineres, infraestrutura como código e observabilidade. Seu principal diferencial competitivo é focar na utilidade técnica real e em ferramentas consolidadas de mercado (evitando modismos passageiros), fornecendo links diretos para materiais gratuitos e de alta qualidade.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Planejamento de Carreira e Upskilling:** Utilizado por líderes técnicos e engenheiros de software para estruturar planos de desenvolvimento individual (PDI) e capacitar equipes de desenvolvimento na transição para práticas modernas de infraestrutura.
@@ -3276,7 +3193,7 @@ pdftotext "DevOps Roadmap.pdf" - | head -n 50
 
 <a id="untrivialaiagentorchestrator"></a>
 ### 144. [Untrivial-ai/agent-orchestrator](https://github.com/Untrivial-ai/agent-orchestrator)
-- **⭐ Stars:** 10,897 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 10,899 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Untrivial-ai/agent-orchestrator)
 - 🎯 **O que é e para que serve:** O Agent Orchestrator é uma IDE local de desktop e daemon em Go projetada para gerenciar frotas de agentes de programação de forma autônoma e paralela. Sua arquitetura combina isolamento nativo via Git worktrees, controle de estado via Kanban em tempo real e orquestração baseada em tarefas, permitindo planejar, despachar e supervisionar múltiplos agentes de IA (como Claude Code e Codex CLI) sem colisões de branch ou perda de contexto.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Refatoração massiva e migração de dependências:** Despachar múltiplos agentes em paralelo para atualizar APIs legadas em diferentes módulos de um monorepo, isolando cada alteração em seu próprio worktree e branch.
@@ -3303,7 +3220,7 @@ go build -o bin/ao ./cmd/ao
 
 <a id="modelcontextprotocolservers"></a>
 ### 145. [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
-- **⭐ Stars:** 90,059 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 90,061 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/modelcontextprotocol/servers)
 - 🎯 **O que é e para que serve:** O repositório agrupa implementações de referência para o Protocolo de Contexto de Modelo (MCP), funcionando como um ecossistema padronizado que conecta Modelos de Linguagem Grande (LLMs) a fontes de dados e ferramentas locais ou remotas. Sua arquitetura desacoplada utiliza SDKs oficiais em TypeScript (e outras linguagens) para expor recursos, prompts e ferramentas de forma segura, permitindo que clientes IA interajam com sistemas legados sem expor vulnerabilidades de execução direta.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria e Manipulação Segura de Arquivos:** Conectar uma IA local (como Claude Desktop) ao servidor de sistema de arquivos para que ela leia, busque e refatore código em diretórios específicos, respeitando estritamente os limites de acesso configurados.
@@ -3328,7 +3245,7 @@ node dist/index.js /caminho/para/seu/diretorio/seguro
 
 <a id="heyputerputer"></a>
 ### 146. [HeyPuter/puter](https://github.com/HeyPuter/puter)
-- **⭐ Stars:** 43,372 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 43,374 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/HeyPuter/puter)
 - 🎯 **O que é e para que serve:** O Puter é um computador de internet avançado, de código aberto e autohospedável, projetado para funcionar como um sistema operacional baseado na web (WebOS). Sua arquitetura unifica armazenamento em nuvem, banco de dados, inteligência artificial e workers Serverless em um ambiente de desktop acessível diretamente pelo navegador, servindo como uma plataforma completa tanto para usuários finais quanto para desenvolvedores publicarem aplicações na nuvem.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Ambiente de Desenvolvimento Remoto e Pró-prio (Self-Hosted):** Criação de uma infraestrutura privada de desktop na nuvem para equipes de engenharia acessarem ferramentas, editores de código e bancos de dados de qualquer lugar sem depender de provedores proprietários como Google Workspace ou Microsoft 365.
@@ -3354,7 +3271,7 @@ npm start
 
 <a id="leonxlnxunlazy"></a>
 ### 147. [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy)
-- **⭐ Stars:** 3,011 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 3,015 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Leonxlnx/unlazy)
 - 🎯 **O que é e para que serve:** O `unlazy` é uma ferramenta de disciplina de conclusão voltada para agentes de inteligência artificial, projetada para combater a preguiça dos modelos, o pensamento superficial e a entrega prematura de tarefas. Sua arquitetura baseia-se no método "Depth Tree", que divide tarefas complexas em múltiplas camadas profundas e aloca o orçamento de tempo integral de todo o projeto para cada nó folha, multiplicando o esforço computacional e analítico do agente.
 - 💡 **Casos de uso reais no dia a dia:** 1. Refatoração profunda de módulos legados críticos de pagamento onde cada caminho de migração, teste unitário e de integração precisa ser rigorosamente verificado antes da entrega.
@@ -3380,7 +3297,7 @@ node ~/.claude/skills/unlazy/scripts/gate-check.mjs --approve GATES.md
 
 <a id="toeverythingaffine"></a>
 ### 148. [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
-- **⭐ Stars:** 72,160 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 72,163 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/toeverything/AFFiNE)
 - 🎯 **O que é e para que serve:** O AFFiNE é uma base de conhecimento de código aberto e focada em privacidade, concebida como uma alternativa moderna e unificada ao Notion e ao Miro. Sua arquitetura combina um editor baseado em blocos (desenvolvido no projeto irmão *Blocksuite*) com uma tela infinita (*edgeless canvas*), utilizando tecnologias de *Local-First*, sincronização em tempo real via CRDTs (tipicamente integradas com componentes em Rust) e suporte multiplataforma (Web, Electron). O principal diferencial competitivo é a fusão hiperconectada entre documentos de texto, quadros brancos visuais, bancos de dados multi-visão e inteligência artificial multimodal em um único espaço de trabalho soberano sobre os dados do usuário.
 - 💡 **Casos de uso reais no dia a dia:** **Planejamento de Arquitetura e Documentação Técnica Centralizada:** Engenheiros de software podem unificar diagramas de arquitetura de microsserviços (quadro branco) com especificações técnicas detalhadas em Markdown e tabelas de rastreabilidade (documentos), mantendo todo o conhecimento técnico do time sincronizado sem dependência estrita de nuvens comerciais de terceiros.
@@ -3427,7 +3344,7 @@ cargo run --release
 
 <a id="flashmlorgfreetoken"></a>
 ### 150. [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken)
-- **⭐ Stars:** 11,465 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 11,476 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/FlashML-org/FreeToken)
 - 🎯 **O que é e para que serve:** O FreeToken é um motor de inferência (*serving engine*) nativo para borda (*edge*) focado em arquiteturas Mistura de Especialistas (MoE), projetado para executar modelos de fronteira de grande porte em hardware de consumo, como PCs gamers e estações de trabalho. Sua arquitetura unifica recursos heterogêneos — GPUs, CPUs, memória de sistema e interconexões — em uma plataforma de inferência elástica, destacando-se pela co-execução adaptativa de largura de banda entre CPU e GPU, cache global LRU de especialistas e gerenciamento dinâmico de memória VRAM.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Execução de Agentes de IA Locais de Alta Capacidade:** Permitir que desenvolvedores rodem modelos avançados baseados em MoE (como DeepSeek ou Qwen) diretamente em desktops locais para alimentar assistentes de codificação (como Claude Code ou ferramentas compatíveis com APIs da OpenAI/Anthropic) sem incorrer em custos de API em nuvem.
@@ -3446,7 +3363,7 @@ freetoken serve --model Qwen3.6-35B-A3B --quantization MXFP4 --port 8000
 
 <a id="arindam200awesomeaiapps"></a>
 ### 151. [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)
-- **⭐ Stars:** 13,573 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 13,574 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Arindam200/awesome-ai-apps)
 - 🎯 **O que é e para que serve:** O `awesome-ai-apps` é uma coleção abrangente de mais de 130 projetos commitados, tutoriais e receitas em Python voltados para a construção de aplicações avançadas baseadas em Modelos de Grande Porte (LLMs). Sua arquitetura serve como um ecossistema modular de referência, cobrindo desde agentes autônomos, assistentes de voz e arquiteturas de Recuperação Aprimorada por Geração (RAG) até ferramentas integradas com o Protocolo de Contexto de Modelo (MCP). O principal diferencial competitivo é fornecer implementações práticas, desacopladas e prontas para produção de padrões modernos de engenharia de IA, permitindo que desenvolvedores integrem rapidamente diferentes frameworks e stacks tecnológicos sem precisar começar do zero.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Prototipagem rápida de arquiteturas RAG híbridas:** Engenheiros de dados podem utilizar os exemplos de RAG do repositório para implementar pipelines de busca vetorial combinados com re-ranking e recuperação baseada em grafos, reduzindo o tempo de validação de MVPs de busca semântica corporativa.
@@ -3521,7 +3438,7 @@ npm run build
 
 <a id="forgetcjellyfish"></a>
 ### 154. [Forget-C/Jellyfish](https://github.com/Forget-C/Jellyfish)
-- **⭐ Stars:** 6,297 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 6,298 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Forget-C/Jellyfish)
 - 🎯 **O que é e para que serve:** O Jellyfish é um ambiente de trabalho de produção de ponta a ponta projetado especificamente para a criação de minidramas gerados por inteligência artificial, unificando a entrada de roteiros, divisão de storyboards, gerenciamento de consistência e orquestração de vídeos. Utilizando uma arquitetura moderna baseada em FastAPI no backend e React com Vite no frontend, a ferramenta resolve o problema central de desvio de identidade visual entre cenas através de um sistema centralizado de ativos (personagens, cenários, adereços e figurinos). Seu grande diferencial competitivo é transformar a geração caótica de IA em um pipeline de produção estruturado e assíncrono, com controle de estado por tomadas, rastreamento de tarefas e reutilização de recursos visuais.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Produção em escala de minidramas verticais:** Estúdios de conteúdo podem importar roteiros inteiros para que o sistema divida automaticamente as cenas, extraia diálogos e gere storyboards consistentes, reduzindo o tempo de pré-produção de semanas para minutos.
@@ -3602,7 +3519,7 @@ python telegram_downloader.py
 
 <a id="elderpliniusl1b3rt4s"></a>
 ### 157. [elder-plinius/L1B3RT4S](https://github.com/elder-plinius/L1B3RT4S)
-- **⭐ Stars:** 21,320 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 21,322 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/elder-plinius/L1B3RT4S)
 - 🎯 **O que é e para que serve:** O 'elder-plinius/L1B3RT4S' é um repositório focado em testes de estresse adversarial e engenharia de prompt, projetado para auditar os mecanismos de segurança e alinhamento de modelos de linguagem de grande escala (LLMs). Sua arquitetura emprega prompts de liberação estruturados com sobrecarga de contexto, codificações alternativas e técnicas de roleplay avançado, servindo como ferramenta essencial para pesquisadores de segurança ofensiva avaliarem vulnerabilidades de *jailbreak* em inteligência artificial.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria de Alinhamento (Red Teaming):** Validação da robustez de barreiras de segurança em APIs proprietárias ou de código aberto antes de sua implantação em ambientes de produção corporativa.
@@ -3625,7 +3542,7 @@ grep -r "NEW_PARADIGM" --color=always .
 
 <a id="bytedancedeerflow"></a>
 ### 158. [bytedance/deer-flow](https://github.com/bytedance/deer-flow)
-- **⭐ Stars:** 81,317 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 81,320 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/bytedance/deer-flow)
 - 🎯 **O que é e para que serve:** O DeerFlow é um framework de código aberto para orquestração de superagentes de longo alcance (*long-horizon superagent harness*), projetado para conduzir pesquisas profundas, escrever códigos e criar soluções autônomas ao longo de minutos ou horas. Ele gerencia fluxos complexos integrando subagentes especializados, sistemas de memória persistente, ambientes isolados de execução (*sandboxes*) e gateways de mensagens por meio de habilidades altamente extensíveis.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria e Refatoração de Código em Escala:** Automatizar a varredura de repositórios legados inteiros para identificar vulnerabilidades de segurança, propor refatorações arquiteturais complexas e gerar pull requests testados em ambiente isolado.
@@ -3649,7 +3566,7 @@ docker compose up --build -d
 
 <a id="usestrixstrix"></a>
 ### 159. [usestrix/strix](https://github.com/usestrix/strix)
-- **⭐ Stars:** 60,382 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 60,391 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/usestrix/strix)
 - 🎯 **O que é e para que serve:** O Strix é uma ferramenta de código aberto de testes de intrusão (penetration testing) impulsionada por inteligência artificial e agentes autônomos. Ele executa varreduras dinâmicas em aplicações, descobre vulnerabilidades de segurança e valida os achados gerando Provas de Conceito (PoCs) reais, eliminando os falsos positivos comuns em analisadores estáticos tradicionais. Seu principal diferencial competitivo é a orquestração multi-agente combinada com capacidades ofensivas completas (reconhecimento, exploração e correção automática) integradas diretamente a pipelines de CI/CD.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Segurança em CI/CD por Pull Request:** Execução automatizada de testes de intrusão a cada alteração de código para bloquear a mesclagem de código vulnerável antes que chegue ao ambiente de produção.
@@ -3675,7 +3592,7 @@ docker run --rm -it \
 
 <a id="elementalsoulsclaudebughunter"></a>
 ### 160. [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)
-- **⭐ Stars:** 4,218 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 4,228 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/elementalsouls/Claude-BugHunter)
 - 🎯 **O que é e para que serve:** O `Claude-BugHunter` é um pacote integrado de habilidades (skills) e comandos customizados projetado especificamente para transformar o Claude Code em um assistente autônomo de *bug hunting* e testes de intrusão (*red-team*). Sua arquitetura em quatro camadas combina metodologias ofensivas validadas por centenas de relatórios públicos de plataformas como HackerOne e Bugcrowd, mapeamento de vulnerabilidades baseadas em VRT e matrizes de ataque a infraestruturas corporativas. Seu principal diferencial competitivo é a automação contextual por linguagem natural, que aciona dinamicamente cargas especializadas de segurança e regras estritas de escopo sem a necessidade de comandos manuais complexos.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Auditoria Automatizada de Aplicações Web:** Conduzir varreduras direcionadas em rotas de APIs e aplicações corporativas para identificar falhas complexas (como IDORs, SSRF e desvios de lógica de negócios) utilizando padrões extraídos de milhares de relatórios de vulnerabilidades reais.
@@ -3701,22 +3618,33 @@ pipx install git+https://github.com/elementalsouls/Claude-BugHunter
 
 <a id="hmbowncodewhale"></a>
 ### 161. [Hmbown/Codewhale](https://github.com/Hmbown/Codewhale)
-- **⭐ Stars:** 40,912 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 40,915 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Hmbown/Codewhale)
-- 🎯 **O que é e para que serve:** Projeto open-source de coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome. (como ferramenta de linha de comando)
-- 💡 **Casos de uso reais no dia a dia:** Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento
+- 🎯 **O que é e para que serve:** O Codewhale é um agente de programação de código aberto executado diretamente no terminal, desenvolvido em Rust e voltado para uma arquitetura local (*local-first*). Ele combina orquestração de múltiplos agentes, suporte ao protocolo MCP (*Model Context Protocol*) e uma interface em TUI (*Terminal User Interface*), permitindo que desenvolvedores resolvam bugs, refatorem código e executem tarefas complexas automatizadas utilizando tanto provedores de IA em nuvem quanto modelos locais via Ollama, vLLM ou SGLang, mantendo total controle sobre o workspace.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Resolução automatizada de testes com auditoria de segurança:** Utilizar o modo de acesso restrito (*Plan*) para varrer uma suíte de testes quebrada em um projeto legado, diagnosticar falhas e aplicar correções de código apenas após a revisão humana explícita (*Auto-Review*).
+  2. **Orquestração de tarefas de infraestrutura e refatoração em larga escala:** Acionar o agente via linha de comando (`codewhale exec`) para refatorar módulos inteiros ou atualizar dependências em repositórios complexos, preservando o histórico de alterações através de snapshots locais do workspace (`/restore`).
+  3. **Integração com ferramentas locais via MCP:** Conectar servidores MCP personalizados para permitir que o agente interaja diretamente com bancos de dados locais, documentações internas e APIs corporativas restritas sem vazar dados para a nuvem.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
+# Instalação global do agente via gerenciador de pacotes npm
 npm install -g codewhale
+
+# Inicialização interativa da TUI (configuração inicial de provedores)
 codewhale
+
+# Execução direta de uma tarefa sem abrir a interface gráfica do terminal
+codewhale exec "corrija os testes que estão falhando e explique as alterações realizadas"
+
+# Verificação de comandos e atalhos disponíveis ou configuração de completar shell
+codewhale completion zsh
 ```
-- ⚡ **Dica Pro de produtividade:** No 'Hmbown/Codewhale', combine indexação vetorial com re-ranking baseado em BM25 e ajuste os limites de chunk com overlap para maximizar a relevância na recuperação de contexto.
+- ⚡ **Dica Pro de produtividade:** Para otimizar fluxos de trabalho altamente repetitivos ou em ambientes corporativos restritos, configure um arquivo de configuração local em `.codewhale/config.toml` definindo papéis de agentes personalizados e ganchos (*hooks*) de execução pré-tarefa. Combine isso com o comando `/goal` na TUI para travar o escopo durável da sessão e utilize a flag de execução não interativa associada ao provedor local (`OLLAMA_MODEL=deepseek-coder:33b codewhale exec "sua tarefa"`) para rodar automações offline com máxima privacidade e zero custo de API.
 
 ---
 
 <a id="t8y2dbx"></a>
 ### 162. [t8y2/dbx](https://github.com/t8y2/dbx)
-- **⭐ Stars:** 17,916 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 17,918 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/t8y2/dbx)
 - 🎯 **O que é e para que serve:** O `dbx` é um cliente de banco de dados universal, de código aberto, leve e de alta performance construído em Rust, projetado para gerenciar mais de 90 bancos de dados — como MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server e Dameng — a partir de um único binário de apenas 20 MB. Sua arquitetura integra nativamente um assistente de inteligência artificial, suporte a MCP Server (Model Context Protocol), interface de desktop baseada em Tauri/Vue, modo CLI e implantação via Docker, unificando a gestão de dados poliglota com consumo mínimo de recursos.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Engenharia de Dados e Análise Rápida:** Conexão instantânea a arquivos DuckDB e instâncias SQLite locais durante pipelines de ETL, permitindo consultas ad-hoc sem a necessidade de instalar ferramentas pesadas de terceiros.
@@ -3736,7 +3664,7 @@ cargo install dbx-cli
 
 <a id="expoexpo"></a>
 ### 163. [expo/expo](https://github.com/expo/expo)
-- **⭐ Stars:** 52,019 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 52,022 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/expo/expo)
 - 🎯 **O que é e para que serve:** O Expo é uma plataforma de código aberto para a criação de aplicativos nativos universais que funcionam perfeitamente em Android, iOS e na web, utilizando React e TypeScript. Ele unifica em um único ecossistema um tempo de execução universal, uma API robusta de módulos nativos e um roteador baseado em arquivos, eliminando a complexidade de gerenciar diretamente o Xcode e o Android Studio no dia a seu desenvolvimento.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Desenvolvimento de MVPs multiplataforma de alta velocidade:** Startups e equipes ágeis utilizam o Expo para lançar simultaneamente versões de alta performance para iOS, Android e Web a partir de uma única base de código TypeScript, reduzindo o tempo de entrega em mais de 50%.
@@ -3781,7 +3709,7 @@ java MeuPrograma
 
 <a id="alishahryar1freeclaudecode"></a>
 ### 165. [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code)
-- **⭐ Stars:** 52,969 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 52,978 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Alishahryar1/free-claude-code)
 - 🎯 **O que é e para que serve:** O `free-claude-code` é uma ferramenta independente de código aberto projetada para unificar mais de 50 provedores de IA compatíveis com os Termos de Serviço (ToS) e múltiplos agentes de código (como Claude Code, Codex, Pi e OpenCode) em uma interface centralizada. Sua arquitetura em Python faz a intermediação de requisições de tokens gratuitos e pagos, oferecendo failover automático entre modelos durante interrupções e otimizadores de terminal que reduzem em até 90% o consumo de tokens de saída.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Desenvolvimento contínuo sem interrupções:** Em caso de queda ou esgotamento de cota de um provedor primário durante uma sessão de codificação, a ferramenta realiza o redirecionamento automático da requisição para o próximo modelo configurado na cadeia sem perda de contexto ou necessidade de reiniciar a tarefa.
@@ -3806,7 +3734,7 @@ uv run pytest
 
 <a id="caamer20telegramdrive"></a>
 ### 166. [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive)
-- **⭐ Stars:** 5,010 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 5,011 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/caamer20/Telegram-Drive)
 - 🎯 **O que é e para que serve:** Telegram-Drive é uma aplicação desktop e mobile desenvolvida com Tauri, Rust e React que transforma uma conta Telegram em um sistema de armazenamento em nuvem descentralizado. A arquitetura utiliza a API do Telegram para acessar mensagens salvas e canais como repositórios de arquivos, implementando operações de gerenciamento de arquivos (upload, download, organização) com suporte a criptografia opcional via modo "encrypted-transfer". Seu diferencial reside na integração direta com a infraestrutura do Telegram, combinando segurança, interface moderna e funcionalidades avançadas como streaming de mídia e visualização de arquivos compactados, sem dependência de servidores externos.
 - 💡 **Casos de uso reais no dia a dia:** 1. **Gerenciamento de arquivos em equipes descentralizadas:** Utilização de canais Telegram como repositórios compartilhados para documentos técnicos, com controle de acesso via autenticação do Telegram e organização em pastas virtuais.  
@@ -3867,7 +3795,7 @@ sudo python3 keystroke-injection-android-linux.py -i hci1 -t 5C:F3:70:AA:07:BD
 
 <a id="vercellabsagentskills"></a>
 ### 168. [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)
-- **⭐ Stars:** 30,794 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 30,796 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/vercel-labs/agent-skills)
 - 🎯 **O que é e para que serve:** Coleção oficial de habilidades e ferramentas de extensão (Agent Skills) desenvolvida pela Vercel Labs para capacitar agentes autônomos de IA e assistentes de codificação a interagir nativamente com a infraestrutura da Vercel, realizando deploys, gestão de variáveis de ambiente, verificação de logs de runtime e automação de ambientes de preview.
 - 💡 **Casos de uso reais no dia a dia:** Automação de deploys e provisionamento de ambientes de preview diretamente por agentes de IA | Consulta e diagnóstico autônomo de logs de erro e métricas de execução de aplicações na Vercel | Integração com o Vercel AI SDK para execução segura de operações de infraestrutura e edge computing
@@ -3915,7 +3843,7 @@ curl -fsSL https://raw.githubusercontent.com/junaid-mahmood/nlsh/main/install.sh
 
 <a id="shadcnuiui"></a>
 ### 171. [shadcn-ui/ui](https://github.com/shadcn-ui/ui)
-- **⭐ Stars:** 122,939 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 122,944 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/shadcn-ui/ui)
 - 🎯 **O que é e para que serve:** Coleção de componentes de interface de usuário (UI) acessíveis, altamente customizáveis e elegantes construídos sobre Radix UI e Tailwind CSS, onde o desenvolvedor copia o código fonte diretamente para o projeto em vez de instalar uma dependência monolítica.
 - 💡 **Casos de uso reais no dia a dia:** Desenvolvimento ágil de interfaces modernas e responsivas em Next.js, React e Vite com controle total sobre o código dos componentes | Criação de Design Systems corporativos consistentes e acessíveis com conformidade WAI-ARIA | Customização granular de estilos e comportamentos sem as limitações de bibliotecas de componentes tradicionais
@@ -3947,7 +3875,7 @@ make
 
 <a id="blockbuzz"></a>
 ### 173. [block/buzz](https://github.com/block/buzz)
-- **⭐ Stars:** 32,065 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 32,071 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/block/buzz)
 - 🎯 **O que é e para que serve:** Plataforma descentralizada de comunicação e inteligência coletiva desenvolvida pela Block em Rust, projetada para coordenação autônoma e troca de mensagens entre múltiplos agentes de software em rede privada de alta performance.
 - 💡 **Casos de uso reais no dia a dia:** Coordenação autônoma e troca de mensagens seguras entre múltiplos agentes de software em rede privada | Infraestrutura de backend para mensageria distribuída de baixíssima latência | Implementação de nós de comunicação P2P com criptografia de ponta a ponta sem servidor central
@@ -3964,7 +3892,7 @@ cargo build --release
 
 <a id="generallegallegaltemplates"></a>
 ### 174. [General-Legal/legal-templates](https://github.com/General-Legal/legal-templates)
-- **⭐ Stars:** 1,906 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 1,908 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/General-Legal/legal-templates)
 - 🎯 **O que é e para que serve:** Coleção aberta e estruturada de minutas jurídicas, termos de serviço, políticas de privacidade e acordos de software sob licença CC0 desenvolvidos para startups, produtos SaaS e desenvolvedores de software.
 - 💡 **Casos de uso reais no dia a dia:** Criação rápida de termos de uso e políticas de privacidade em conformidade inicial para aplicações web e SaaS | Modelos de acordos de confidencialidade (NDA), termos de contratação e licenças de software | Redução de custos iniciais de estruturação jurídica para projetos open-source e empreendimentos de tecnologia
@@ -4011,7 +3939,7 @@ git clone https://github.com/AZeC4/TelegramGroup.git
 
 <a id="awesomedataawesomepublicdatasets"></a>
 ### 177. [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)
-- **⭐ Stars:** 78,788 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 78,789 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/awesomedata/awesome-public-datasets)
 - 🎯 **O que é e para que serve:** Coleção com curadoria centralizada de conjuntos de dados (datasets) públicos e de alta qualidade organizados por tópicos científicos, sociais, econômicos e tecnológicos.
 - 💡 **Casos de uso reais no dia a dia:** Obtenção de dados brutos e estruturados para treinamento e benchmark de modelos de Machine Learning e IA | Exploração e análise estatística para projetos de Data Science e artigos de pesquisa | Prototipagem rápida de aplicações orientadas a dados com fontes abertas confiáveis
@@ -4041,7 +3969,7 @@ git clone https://github.com/XiaomingX/ai-money-maker-handbook.git
 
 <a id="lukaszmadonawesomeremotejob"></a>
 ### 179. [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job)
-- **⭐ Stars:** 48,353 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 48,356 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/lukasz-madon/awesome-remote-job)
 - 🎯 **O que é e para que serve:** Guia completo e repositório de recursos com curadoria de empresas 100% remotas, plataformas de contratação global, guias de trabalho assíncrono e ferramentas de produtividade para profissionais remotos.
 - 💡 **Casos de uso reais no dia a dia:** Pesquisa de oportunidades profissionais internacionais em empresas com cultura remote-first | Guia de boas práticas para comunicação assíncrona, gestão de tempo e trabalho distribuído | Estruturação de processos e ferramentas de colaboração para equipes remotas
@@ -4122,7 +4050,7 @@ python -m seta.benchmark --task bash_eval
 
 <a id="yorukotsuperfile"></a>
 ### 184. [yorukot/superfile](https://github.com/yorukot/superfile)
-- **⭐ Stars:** 23,064 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 23,068 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/yorukot/superfile)
 - 🎯 **O que é e para que serve:** Gerenciador de arquivos para terminal moderno, elegante e de alto desempenho desenvolvido em Go, com suporte a visualização de código, abas múltiplas e integração com Git.
 - 💡 **Casos de uso reais no dia a dia:** Navegação rápida em diretórios complexos e inspeção visual de arquivos direto no terminal | Gerenciamento de arquivos e pastas em servidores remotos via SSH com interface rica | Comparação rápida de arquivos e visualização de status de repositórios Git no fluxo de trabalho diário
@@ -4137,7 +4065,7 @@ spf
 
 <a id="younesfdjgitfut"></a>
 ### 185. [Younesfdj/gitfut](https://github.com/Younesfdj/gitfut)
-- **⭐ Stars:** 2,565 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 2,564 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Younesfdj/gitfut)
 - 🎯 **O que é e para que serve:** Aplicação em TypeScript que transforma estatísticas de contribuição e perfil do GitHub em cards colecionáveis inspirados no estilo Ultimate Team da Copa do Mundo.
 - 💡 **Casos de uso reais no dia a dia:** Gamificação de métricas de contribuição e código aberto para desenvolvedores | Compartilhamento visual de conquistas e stacks de tecnologia em redes sociais e portfólios | Integração em eventos comunitários e hackathons para engajamento de equipes
@@ -4185,7 +4113,7 @@ git clone https://github.com/cifertech/RF-Clown.git
 
 <a id="voltagentawesomeclaudecodesubagents"></a>
 ### 188. [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)
-- **⭐ Stars:** 24,836 | **💻 Linguagem:** `Shell`
+- **⭐ Stars:** 24,840 | **💻 Linguagem:** `Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/VoltAgent/awesome-claude-code-subagents)
 - 🎯 **O que é e para que serve:** Coleção com curadoria de mais de 100 subagentes especializados para Claude Code, estruturados para cobrir áreas como engenharia de software, testes, DevOps, segurança e refatoração.
 - 💡 **Casos de uso reais no dia a dia:** Delegação de tarefas especializadas no terminal com isolamento de contexto para o Claude Code | Padronização de personas e procedimentos de revisão de código em equipes de engenharia | Automação de auditorias de acessibilidade, testes de regressão e documentação técnica
@@ -4200,7 +4128,7 @@ git clone https://github.com/VoltAgent/awesome-claude-code-subagents.git
 
 <a id="donchitosclaudecodegamestudios"></a>
 ### 189. [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)
-- **⭐ Stars:** 24,802 | **💻 Linguagem:** `Shell`
+- **⭐ Stars:** 24,801 | **💻 Linguagem:** `Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Donchitos/Claude-Code-Game-Studios)
 - 🎯 **O que é e para que serve:** Framework que orquestra o Claude Code como um estúdio completo de desenvolvimento de jogos, com 49 agentes de IA, 72 habilidades operacionais e estrutura hierárquica completa.
 - 💡 **Casos de uso reais no dia a dia:** Desenvolvimento e prototipagem acelerada de mecânicas de gameplay em Unity, Unreal e Godot | Geração automatizada de roteiros, diálogos ramificados e árvores de decisão para NPCs | Balanceamento de sistemas de economia, progressão e combate através de simulação com agentes
@@ -4231,7 +4159,7 @@ claude
 
 <a id="ultraworkersclawcode"></a>
 ### 191. [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code)
-- **⭐ Stars:** 195,160 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 195,165 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/ultraworkers/claw-code)
 - 🎯 **O que é e para que serve:** Ambiente e exibição de software desenvolvida e mantida de forma 100% autônoma por agentes inteligentes em Rust com Gajae-Code/LazyCodex, sem intervenção humana.
 - 💡 **Casos de uso reais no dia a dia:** Estudo de evolução de código e autonomia operacional de agentes de software em ciclos contínuos | Validação de testes automatizados de autocura (self-healing) em sistemas Rust | Demonstração prática de arquitetura gerenciada inteiramente por IA em ambiente controlado
@@ -4247,7 +4175,7 @@ cargo build --release
 
 <a id="elie222rakazo"></a>
 ### 192. [elie222/rakazo](https://github.com/elie222/rakazo)
-- **⭐ Stars:** 1,866 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 1,867 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/elie222/rakazo)
 - 🎯 **O que é e para que serve:** Alternativa open-source e auto-hospedável ao Grok Bot, permitindo selecionar modelos de linguagem personalizados e executar comandos em sandboxes isoladas com total privacidade.
 - 💡 **Casos de uso reais no dia a dia:** Execução segura de código e agentes em containers autocontidos | Substituição de bots proprietários por soluções sob controle direto de infraestrutura | Integração de múltiplos provedores de LLM em uma única interface conversacional corporativa
@@ -4281,7 +4209,7 @@ npm run dev
 
 <a id="osmanticods"></a>
 ### 194. [Osmantic/ODS](https://github.com/Osmantic/ODS)
-- **⭐ Stars:** 6,062 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 6,074 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Osmantic/ODS)
 - 🎯 **O que é e para que serve:** Servidor local e autocontido de IA que transforma qualquer máquina (Linux, Mac ou Windows) em uma central completa para inferência de LLMs, interface de chat, voz, RAG e geração de imagens.
 - 💡 **Casos de uso reais no dia a dia:** Centralização de serviços de IA na rede local privada sem dependência de nuvens externas | Criação de assistentes de voz e fluxos de RAG sobre documentos corporativos confidenciais | Execução concorrente de modelos de visão, geração de texto e difusão em servidores dedicados
@@ -4298,7 +4226,7 @@ python -m ods.server --port 8080
 
 <a id="livekitagents"></a>
 ### 195. [livekit/agents](https://github.com/livekit/agents)
-- **⭐ Stars:** 13,987 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 13,988 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/livekit/agents)
 - 🎯 **O que é e para que serve:** Framework open-source de alta performance para construção, orquestração e deploy de agentes conversacionais de voz e vídeo com IA em tempo real sobre a infraestrutura WebRTC da LiveKit.
 - 💡 **Casos de uso reais no dia a dia:** Assistentes virtuais de suporte ao cliente com resposta em áudio de baixíssima latência (<500ms) | Criação de avatares interativos e agentes de videoconferência para telemedicina ou educação | Automação de tradução simultânea e transcrição em tempo real em chamadas multimídia
@@ -4315,7 +4243,7 @@ python agent.py dev
 
 <a id="assafelovicgptresearcher"></a>
 ### 196. [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher)
-- **⭐ Stars:** 29,274 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 29,276 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/assafelovic/gpt-researcher)
 - 🎯 **O que é e para que serve:** Agente autônomo projetado para conduzir pesquisas profundas na web sobre qualquer tópico, agregando mais de 20 fontes confiáveis por consulta e gerando relatórios estruturados com citações.
 - 💡 **Casos de uso reais no dia a dia:** Pesquisa de mercado aprofundada e análise comparativa de concorrentes | Levantamento de literatura acadêmica e novidades regulatórias com referências bibliográficas | Geração automatizada de dossiês técnicos para suporte a tomadas de decisão executivas
@@ -4332,7 +4260,7 @@ python main.py
 
 <a id="aideraiaider"></a>
 ### 197. [Aider-AI/aider](https://github.com/Aider-AI/aider)
-- **⭐ Stars:** 48,712 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 48,713 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Aider-AI/aider)
 - 🎯 **O que é e para que serve:** Assistente de programação em par com inteligência artificial para terminal, permitindo editar código em múltiplos arquivos simultaneamente e criar commits Git semânticos de forma automática.
 - 💡 **Casos de uso reais no dia a dia:** Refatorações complexas que impactam múltiplos arquivos e módulos no repositório | Criação rápida de testes unitários e cobertura de código a partir da especificação de funções | Correção interativa de bugs a partir de stack traces e saídas de terminal
@@ -4364,7 +4292,7 @@ docker compose up -d
 
 <a id="openinterpreteropeninterpreter"></a>
 ### 199. [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter)
-- **⭐ Stars:** 68,230 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 68,231 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/openinterpreter/openinterpreter)
 - 🎯 **O que é e para que serve:** Ambiente de execução e agente de codificação em linguagem natural capaz de rodar código localmente (Python, JS, Shell) em sua máquina para automação completa do sistema operacional.
 - 💡 **Casos de uso reais no dia a dia:** Automação de tarefas no desktop, manipulação de planilhas, conversão de formatos de mídia e processamento de arquivos em massa | Análise de dados e visualização gráfica a partir de comandos em linguagem natural | Controle e integração de ferramentas de sistema sem escrever scripts manuais
@@ -4379,7 +4307,7 @@ interpreter --local
 
 <a id="deusdatacodebasememorymcp"></a>
 ### 200. [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
-- **⭐ Stars:** 42,060 | **💻 Linguagem:** `C`
+- **⭐ Stars:** 42,076 | **💻 Linguagem:** `C`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/DeusData/codebase-memory-mcp)
 - 🎯 **O que é e para que serve:** Servidor MCP de altíssimo desempenho desenvolvido em C para inteligência de código, indexando bases de código em grafos de conhecimento persistentes em milissegundos para 158 linguagens.
 - 💡 **Casos de uso reais no dia a dia:** Fornecimento de contexto cirúrgico sobre a base de código para assistentes como Claude Code e Cursor | Redução de até 99% no consumo de tokens ao substituir o envio de arquivos inteiros por nós de grafos | Consultas em sub-milissegundos sobre assinaturas, chamadas e dependências em repositórios massivos
@@ -4396,7 +4324,7 @@ make
 
 <a id="sickn33agenticawesomeskills"></a>
 ### 201. [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)
-- **⭐ Stars:** 45,923 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 45,931 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/sickn33/agentic-awesome-skills)
 - 🎯 **O que é e para que serve:** Plano de controle local e orientado a agentes para descoberta, seleção, validação e execução de mais de 2.000 habilidades e ferramentas agênticas via CLI e protocolo MCP.
 - 💡 **Casos de uso reais no dia a dia:** Padronização de catálogos de habilidades para frotas de agentes autônomos corporativos | Gerenciamento centralizado de permissões e validação de dependências de ferramentas de IA | Integração de ferramentas customizadas em múltiplos clientes como Claude Code, Codex e Workbench
@@ -4413,7 +4341,7 @@ aas list
 
 <a id="tw93pake"></a>
 ### 202. [tw93/Pake](https://github.com/tw93/Pake)
-- **⭐ Stars:** 61,265 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 61,266 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/tw93/Pake)
 - 🎯 **O que é e para que serve:** Ferramenta moderna em Rust construída sobre Tauri que converte qualquer aplicação web em um aplicativo desktop leve, rápido e com consumo de memória significativamente menor que Electron.
 - 💡 **Casos de uso reais no dia a dia:** Empacotamento de ferramentas web internas da empresa em executáveis desktop leves | Criação de clientes dedicados para WhatsApp Web, ChatGPT, Notion, Twitter ou dashboards com atalhos de sistema | Distribuição de aplicativos multiplataforma (macOS, Windows, Linux) com instaladores nativos enxutos
@@ -4428,7 +4356,7 @@ pake https://seu-site.com --name MeuApp
 
 <a id="voltagentawesomedesignmd"></a>
 ### 203. [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
-- **⭐ Stars:** 113,836 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 113,851 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/VoltAgent/awesome-design-md)
 - 🎯 **O que é e para que serve:** Acervo e guia analítico de arquivos DESIGN.md baseados nos principais design systems do mercado, fornecendo regras e tokens visuais para que agentes de IA gerem interfaces consistentes.
 - 💡 **Casos de uso reais no dia a dia:** Inclusão de diretrizes de design em repositórios para direcionar assistentes como Cursor e Claude Code na criação de telas | Manutenção de consistência visual entre componentes gerados por IA e o design system da empresa | Aceleração no desenvolvimento frontend com especificações prontas de tipografia, cores e espaçamentos
@@ -4457,7 +4385,7 @@ docker run -d --name appsmith -p 80:80 -p 443:443 -v ./appsmith-data:/appsmith-d
 
 <a id="dokploydokploy"></a>
 ### 205. [Dokploy/dokploy](https://github.com/Dokploy/dokploy)
-- **⭐ Stars:** 37,072 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 37,073 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Dokploy/dokploy)
 - 🎯 **O que é e para que serve:** Plataforma open-source de gerenciamento de infraestrutura (PaaS) que permite implantar aplicações, bancos de dados e containers Docker no seu próprio servidor com a facilidade do Vercel/Heroku.
 - 💡 **Casos de uso reais no dia a dia:** Hospedagem e deploy contínuo de aplicações web full-stack no seu próprio VPS com certificados SSL automáticos | Provisionamento com um clique de bancos de dados gerenciados (Postgres, MySQL, Redis, Mongo) | Gerenciamento visual de containers Docker, redirecionamentos de domínio e métricas de servidor
@@ -4471,7 +4399,7 @@ curl -sSL https://dokploy.com/install.sh | sh
 
 <a id="documensodocumenso"></a>
 ### 206. [documenso/documenso](https://github.com/documenso/documenso)
-- **⭐ Stars:** 14,877 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 14,878 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/documenso/documenso)
 - 🎯 **O que é e para que serve:** Plataforma open-source de assinatura eletrônica e gestão de documentos digitais com foco em privacidade, segurança jurídica e conformidade, servindo como alternativa moderna ao DocuSign.
 - 💡 **Casos de uso reais no dia a dia:** Assinatura digital de contratos, propostas comerciais e termos de serviço em servidores próprios | Integração de fluxos de assinatura automatizados via API em sistemas ERP e CRMs internos | Eliminação de custos recorrentes por envelope de assinatura mantendo auditoria criptográfica completa
@@ -4488,7 +4416,7 @@ docker compose up -d
 
 <a id="berriailitellm"></a>
 ### 207. [BerriAI/litellm](https://github.com/BerriAI/litellm)
-- **⭐ Stars:** 57,966 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 57,969 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/BerriAI/litellm)
 - 🎯 **O que é e para que serve:** Gateway de IA leve e de altíssimo desempenho com núcleo em Rust e SDK Python para unificar chamadas a mais de 100 provedores de LLM no padrão de API da OpenAI com balanceamento de carga e controle de custos.
 - 💡 **Casos de uso reais no dia a dia:** Roteamento inteligente e fallback automático entre múltiplos provedores de LLM para evitar indisponibilidades | Centralização de controle de orçamento, limites de taxa por usuário e auditoria de gastos em tempo real | Uniformização de código cliente permitindo trocar de provedor (OpenAI, Anthropic, Bedrock, Vertex) sem refatorar o backend
@@ -4503,7 +4431,7 @@ litellm --port 4000
 
 <a id="gogiteagitea"></a>
 ### 208. [go-gitea/gitea](https://github.com/go-gitea/gitea)
-- **⭐ Stars:** 57,799 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 57,800 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/go-gitea/gitea)
 - 🎯 **O que é e para que serve:** Serviço completo de hospedagem de código Git, revisão de código, registro de pacotes e pipelines de CI/CD (Gitea Actions), extremamente leve e de fácil instalação escrito em Go.
 - 💡 **Casos de uso reais no dia a dia:** Hospedagem privada e auto-hospedada de repositórios Git para equipes ou servidores locais | Execução de pipelines de CI/CD compatíveis com a sintaxe do GitHub Actions no próprio hardware | Gerenciamento de pacotes (npm, PyPI, Docker registries) e releases com controle granular de permissões
@@ -4517,7 +4445,7 @@ docker run -d --name=gitea -p 10022:22 -p 3000:3000 -v /var/lib/gitea:/data gite
 
 <a id="nocodbnocodb"></a>
 ### 209. [nocodb/nocodb](https://github.com/nocodb/nocodb)
-- **⭐ Stars:** 64,816 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 64,817 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/nocodb/nocodb)
 - 🎯 **O que é e para que serve:** Plataforma open-source e auto-hospedável que transforma qualquer banco de dados relacional (PostgreSQL, MySQL, SQLite, SQL Server) em uma planilha inteligente e colaborativa no estilo Airtable.
 - 💡 **Casos de uso reais no dia a dia:** Criação de visualizações em tabela, kanban, galeria e formulários sobre bancos de dados de produção | Compartilhamento de visões filtradas de dados com equipes não técnicas sem conceder acesso direto via SQL | Construção de automações e webhooks disparados por alterações em registros de bancos existentes
@@ -4531,7 +4459,7 @@ docker run -d --name nocodb -v ./nocodb:/usr/app/data/ -p 8080:8080 nocodb/nocod
 
 <a id="danigarciavaultwarden"></a>
 ### 210. [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden)
-- **⭐ Stars:** 66,784 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 66,787 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/dani-garcia/vaultwarden)
 - 🎯 **O que é e para que serve:** Implementação alternativa e extremamente leve do servidor da API do Bitwarden escrita em Rust, ideal para auto-hospedagem em hardware modesto com total compatibilidade com os clientes oficiais.
 - 💡 **Casos de uso reais no dia a dia:** Gestão e sincronização segura de senhas, credenciais e chaves 2FA para equipes ou uso familiar | Armazenamento de segredos corporativos em servidor privado sem tráfego de dados em nuvens públicas | Substituição de gerenciadores de senhas pagos mantendo compatibilidade total com apps mobile e extensões
@@ -4545,7 +4473,7 @@ docker run -d --name vaultwarden -v ./vw-data:/data -p 8080:80 vaultwarden/serve
 
 <a id="louislamuptimekuma"></a>
 ### 211. [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
-- **⭐ Stars:** 90,937 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 90,938 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/louislam/uptime-kuma)
 - 🎯 **O que é e para que serve:** Ferramenta moderna, elegante e auto-hospedável de monitoramento de disponibilidade e tempo de atividade (uptime) de serviços HTTP(s), TCP, Ping, DNS, portas e certificados SSL.
 - 💡 **Casos de uso reais no dia a dia:** Monitoramento contínuo de disponibilidade de servidores, APIs e websites com verificação a cada 20-60 segundos | Criação de páginas de status públicas ou privadas com domínios customizados para clientes | Disparo instantâneo de alertas de indisponibilidade via Telegram, Discord, Slack, WhatsApp ou Webhook
@@ -4592,7 +4520,7 @@ cargo build --release
 
 <a id="stablyaiorca"></a>
 ### 214. [stablyai/orca](https://github.com/stablyai/orca)
-- **⭐ Stars:** 60,878 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 60,932 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/stablyai/orca)
 - 🎯 **O que é e para que serve:** Ambiente de desenvolvimento agêntico (ADE) que orquestra a execução concorrente de múltiplos agentes de código em paralelo utilizando suas próprias assinaturas e modelos de IA.
 - 💡 **Casos de uso reais no dia a dia:** Delegação simultânea de tarefas de frontend, backend e testes para diferentes agentes especializados | Execução distribuída de refatorações em grande escala em monorepositórios através de múltiplos workers | Monitoramento e consolidação de alterações propostas por frotas de agentes em desktop, mobile ou VPS
@@ -4609,7 +4537,7 @@ npm run dev
 
 <a id="leonxlnxtasteskill"></a>
 ### 215. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
-- **⭐ Stars:** 84,028 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 84,046 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Leonxlnx/taste-skill)
 - 🎯 **O que é e para que serve:** Habilidade e conjunto de diretrizes de design/UX para agentes de IA, impedindo a geração de interfaces visuais genéricas e garantindo produtos digitais com estética refinada e moderna.
 - 💡 **Casos de uso reais no dia a dia:** Orientação de agentes de codificação (Claude Code, Cursor) na criação de interfaces com alto padrão visual | Eliminação de padrões repetitivos, gradientes datados e estruturas clichês em código frontend gerado por IA | Aplicação de regras modernas de tipografia, espaçamento e contrastes em landing pages e dashboards
@@ -4624,7 +4552,7 @@ git clone https://github.com/Leonxlnx/taste-skill.git
 
 <a id="calesthioopenmontage"></a>
 ### 216. [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
-- **⭐ Stars:** 55,960 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 55,970 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/calesthio/OpenMontage)
 - 🎯 **O que é e para que serve:** Sistema agêntico e open-source de produção de vídeo com 12 pipelines integrados, mais de 100 ferramentas e 700 arquivos de conhecimento técnico para transformar assistentes de código em estúdios de vídeo.
 - 💡 **Casos de uso reais no dia a dia:** Geração automatizada de vídeos promocionais, tutoriais de produto e reels a partir de roteiros em texto | Orquestração de ferramentas de edição, corte, narração com voz sintetizada e efeitos de transição | Criação em escala de assets audiovisuais para marketing e canais de conteúdo
@@ -4641,7 +4569,7 @@ python main.py
 
 <a id="panniantongagentreach"></a>
 ### 217. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
-- **⭐ Stars:** 77,797 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 77,808 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Panniantong/Agent-Reach)
 - 🎯 **O que é e para que serve:** Interface e ferramenta CLI em Python que concede aos agentes de IA capacidade de ler e pesquisar em redes e plataformas como Twitter, Reddit, YouTube, GitHub, Bilibili e XiaoHongShu sem custos de API.
 - 💡 **Casos de uso reais no dia a dia:** Coleta de contexto e tendências em tempo real na web para agentes autônomos de pesquisa | Extração de discussões e opiniões de desenvolvedores no Reddit e Twitter sobre tecnologias | Monitoramento automatizado de novas menções e conteúdos relevantes sem taxas recorrentes de APIs proprietárias
@@ -4658,7 +4586,7 @@ python agent_reach.py --query 'ai agents'
 
 <a id="cathrynlaverydiagramdesign"></a>
 ### 218. [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)
-- **⭐ Stars:** 30,256 | **💻 Linguagem:** `HTML`
+- **⭐ Stars:** 30,270 | **💻 Linguagem:** `HTML`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/cathrynlavery/diagram-design)
 - 🎯 **O que é e para que serve:** Coleção com 38 tipos de diagramas editoriais em HTML + SVG autocontidos, criados especificamente para serem gerados por Claude Code, Codex e Pi sem dependência de Mermaid ou sombras pesadas.
 - 💡 **Casos de uso reais no dia a dia:** Geração de diagramas de arquitetura de software limpos, modernos e prontos para publicação | Visualização de fluxos de dados, pipelines de CI/CD e cronogramas de projetos em documentações técnicas | Substituição de bibliotecas de diagramação pesadas por SVG vetorial puro de alta fidelidade
@@ -4673,7 +4601,7 @@ git clone https://github.com/cathrynlavery/diagram-design.git
 
 <a id="lidgejunopencodex"></a>
 ### 219. [lidge-jun/opencodex](https://github.com/lidge-jun/opencodex)
-- **⭐ Stars:** 13,175 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 13,182 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/lidge-jun/opencodex)
 - 🎯 **O que é e para que serve:** Proxy universal de provedores para OpenAI Codex e Claude Code, permitindo utilizar qualquer modelo de linguagem (Claude, Gemini, Grok, DeepSeek, Ollama) com as ferramentas CLI e extensões oficiais.
 - 💡 **Casos de uso reais no dia a dia:** Uso do Claude Code e Codex CLI com modelos mais rápidos ou econômicos (DeepSeek-V3, Qwen-2.5, Gemini 2.0) | Redirecionamento transparente de chamadas de API para servidores locais com Ollama ou vLLM | Centralização de configurações de endpoints e chaves de API para ferramentas de desenvolvimento assistido
@@ -4708,7 +4636,7 @@ npm run build
 
 <a id="genymobilescrcpy"></a>
 ### 221. [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
-- **⭐ Stars:** 148,817 | **💻 Linguagem:** `C`
+- **⭐ Stars:** 148,822 | **💻 Linguagem:** `C`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Genymobile/scrcpy)
 - 🎯 **O que é e para que serve:** Aplicação consagrada em C de altíssimo desempenho e baixíssima latência para espelhamento e controle completo de dispositivos Android (via USB ou TCP/IP) no computador sem exigir root.
 - 💡 **Casos de uso reais no dia a dia:** Testes e depuração interativa de aplicativos Android diretamente no monitor com teclado e mouse | Apresentações e gravações de tela de alta qualidade de fluxos de aplicativos móveis | Automação e controle remoto de frotas de dispositivos Android em bancadas de teste
@@ -4723,7 +4651,7 @@ scrcpy --max-size 1080 --video-bit-rate 8M
 
 <a id="lwthikercurlimpersonate"></a>
 ### 222. [lwthiker/curl-impersonate](https://github.com/lwthiker/curl-impersonate)
-- **⭐ Stars:** 6,943 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 6,944 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/lwthiker/curl-impersonate)
 - 🎯 **O que é e para que serve:** Build especializada da biblioteca e utilitário curl com capacidade de emular com precisão cirúrgica os apertos de mão TLS e cabeçalhos HTTP/2 de navegadores reais (Chrome, Firefox, Safari).
 - 💡 **Casos de uso reais no dia a dia:** Coleta legítima de dados web e testes de resiliência sem bloqueios por fingerprinting de TLS | Auditoria de segurança de regras de WAF (Cloudflare, Akamai, Datadome) e verificação de JA3/JA4 | Realização de requisições automatizadas em APIs que exigem assinaturas de clientes de navegação
@@ -4738,7 +4666,7 @@ docker run --rm lwthiker/curl-impersonate:0.6-chrome curl_chrome116 https://tls.
 
 <a id="d4vinciscrapling"></a>
 ### 223. [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling)
-- **⭐ Stars:** 78,269 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 78,277 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/D4Vinci/Scrapling)
 - 🎯 **O que é e para que serve:** Framework adaptativo e inteligente de raspagem web em Python, projetado para lidar desde requisições HTTP individuais e rápidas até crawlers concorrentes em larga escala com bypass de proteções.
 - 💡 **Casos de uso reais no dia a dia:** Extração de dados em sites com proteção anti-bot pesada sem necessidade de configurar instâncias pesadas de Selenium | Rastreamento concorrente de milhares de páginas com gerenciamento automático de sessões e cookies | Alimentação de bases de dados analíticas e pipelines de IA com texto estruturado
@@ -4753,7 +4681,7 @@ python -c "from scrapling import Fetcher; page = Fetcher().get('https://quotes.t
 
 <a id="browserusebrowseruse"></a>
 ### 224. [browser-use/browser-use](https://github.com/browser-use/browser-use)
-- **⭐ Stars:** 112,184 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 112,193 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/browser-use/browser-use)
 - 🎯 **O que é e para que serve:** Biblioteca e framework em Python que conecta agentes de IA a navegadores reais (via Playwright/CDP), permitindo automatizar cliques, digitação, navegação em abas e tarefas complexas na web.
 - 💡 **Casos de uso reais no dia a dia:** Automação de fluxos de ponta a ponta na web (como preenchimento de cadastros, compras, uploads de relatórios) | Testes funcionais e E2E exploratórios de aplicações web conduzidos por agentes inteligentes | Coleta automatizada de dados em páginas protegidas por autenticações multifator e captchas
@@ -4769,7 +4697,7 @@ python -c "from browser_use import Agent; import asyncio; asyncio.run(Agent(task
 
 <a id="firecrawlfirecrawl"></a>
 ### 225. [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)
-- **⭐ Stars:** 176,118 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 176,144 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/firecrawl/firecrawl)
 - 🎯 **O que é e para que serve:** API e motor open-source de ponta a ponta para rastrear (crawl), raspar (scrape) e converter sites inteiros em Markdown limpo, formatado e perfeitamente estruturado para consumo por LLMs.
 - 💡 **Casos de uso reais no dia a dia:** Conversão de sites de documentação técnica em arquivos Markdown limpos para enriquecer bases de RAG | Rastreamento profundo de domínios inteiros com extração estruturada de conteúdo em paralelo | Eliminação de tags HTML, scripts, anúncios e formulários para economizar tokens em modelos de linguagem
@@ -4785,7 +4713,7 @@ docker compose up -d
 
 <a id="microsoftmarkitdown"></a>
 ### 226. [microsoft/markitdown](https://github.com/microsoft/markitdown)
-- **⭐ Stars:** 177,994 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 178,002 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/microsoft/markitdown)
 - 🎯 **O que é e para que serve:** Ferramenta e biblioteca oficial da Microsoft em Python para conversão de arquivos de diversos formatos (PDF, Word DOCX, Excel XLSX, PowerPoint PPTX, áudio, imagens e HTML) em Markdown padronizado.
 - 💡 **Casos de uso reais no dia a dia:** Ingestão e padronização de documentos corporativos em formato Markdown para pipelines de IA e RAG | Extração de texto de planilhas complexas com formatação preservada em tabelas Markdown | Conversão rápida de apresentações e relatórios para análise automatizada por agentes de código
@@ -4800,7 +4728,7 @@ markitdown documento.pdf -o documento.md
 
 <a id="unclecodecrawl4ai"></a>
 ### 227. [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)
-- **⭐ Stars:** 81,206 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 81,209 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/unclecode/crawl4ai)
 - 🎯 **O que é e para que serve:** Rastreador web (web crawler) e extrator open-source ultrarrápido, amigável a LLMs e otimizado para pipelines de RAG, com suporte a extração semântica baseada em heurísticas e cosine similarity.
 - 💡 **Casos de uso reais no dia a dia:** Extração acelerada de conteúdo web em formato Markdown com alta densidade de informação | Execução em lote de requisições concorrentes sobre centenas de URLs em frações de segundo | Limpeza agressiva de elementos desnecessários (cookies, banners, modais) antes do processamento por IA
@@ -4830,7 +4758,7 @@ aimock start
 
 <a id="fpromptschat"></a>
 ### 229. [f/prompts.chat](https://github.com/f/prompts.chat)
-- **⭐ Stars:** 168,925 | **💻 Linguagem:** `HTML`
+- **⭐ Stars:** 168,966 | **💻 Linguagem:** `HTML`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/f/prompts.chat)
 - 🎯 **O que é e para que serve:** Repositório pioneiro e aplicação web open-source (anteriormente Awesome ChatGPT Prompts) para compartilhamento, curadoria e auto-hospedagem de prompts avançados e personas de IA.
 - 💡 **Casos de uso reais no dia a dia:** Descoberta de templates de prompts otimizados para papéis específicos (arquiteto, revisor, auditor) | Auto-hospedagem de um catálogo corporativo e privado de prompts para colaboradores da empresa | Padronização de comandos e diretrizes de sistema para modelos de linguagem em escala
@@ -4847,7 +4775,7 @@ npm run dev
 
 <a id="unslothaiunsloth"></a>
 ### 230. [unslothai/unsloth](https://github.com/unslothai/unsloth)
-- **⭐ Stars:** 75,563 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 75,568 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/unslothai/unsloth)
 - 🎯 **O que é e para que serve:** Framework e interface gráfica ultrarrápida para ajuste fino (fine-tuning) e inferência de modelos de linguagem e difusão (Llama 3, Qwen, Gemma, DeepSeek, FLUX), até 5x mais rápido com 80% menos memória VRAM.
 - 💡 **Casos de uso reais no dia a dia:** Fine-tuning eficiente de modelos de linguagem em GPUs de consumo de 8GB a 24GB de VRAM | Treinamento e adaptação de modelos proprietários com dados internos da empresa de forma segura e local | Otimização de kernels CUDA e Triton para maximizar a taxa de tokens por segundo durante o treinamento
@@ -4862,7 +4790,7 @@ pip install unsloth
 
 <a id="zhulinsendailystockanalysis"></a>
 ### 231. [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)
-- **⭐ Stars:** 64,576 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 64,580 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/ZhuLinsen/daily_stock_analysis)
 - 🎯 **O que é e para que serve:** Sistema inteligente de análise de ações multimercado orientado por modelos de linguagem, agregando cotações em tempo real, notícias financeiras, painéis de decisão e envio automático de relatórios.
 - 💡 **Casos de uso reais no dia a dia:** Monitoramento diário automatizado de portfólios de ações com resumos executivos gerados por IA | Cruzamento de notícias macroeconômicas com indicadores técnicos para auxílio a tomadas de decisão de investimento | Disparo de relatórios e alertas matinais via Telegram, WeChat ou e-mail sem custos de infraestrutura
@@ -4879,7 +4807,7 @@ python main.py
 
 <a id="addyosmaniagentskills"></a>
 ### 232. [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
-- **⭐ Stars:** 92,001 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 92,018 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/addyosmani/agent-skills)
 - 🎯 **O que é e para que serve:** Coleção curada por Addy Osmani (Google) com habilidades de engenharia de software de nível de produção para agentes de codificação assistida por inteligência artificial.
 - 💡 **Casos de uso reais no dia a dia:** Padronização de diretrizes de qualidade de código, refatoração e testes para assistentes de IA | Aceleração no ciclo de desenvolvimento frontend com padrões consolidados de arquitetura e performance | Ensino e instrução de agentes sobre boas práticas modernas de TypeScript, React e Core Web Vitals
@@ -4894,7 +4822,7 @@ git clone https://github.com/addyosmani/agent-skills.git
 
 <a id="earendilworkspi"></a>
 ### 233. [earendil-works/pi](https://github.com/earendil-works/pi)
-- **⭐ Stars:** 101,431 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 101,449 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/earendil-works/pi)
 - 🎯 **O que é e para que serve:** Kit de ferramentas e CLI para agentes de IA em TypeScript, fornecendo API unificada para múltiplos LLMs, loop autônomo de raciocínio, interface de terminal interativa (TUI) e agente de codificação.
 - 💡 **Casos de uso reais no dia a dia:** Construção de assistentes de terminal customizados com execução autônoma de ferramentas | Navegação interativa em bases de código e refatoração assistida por IA via TUI | Unificação de chamadas a diferentes modelos com gerenciamento automático de contexto e histórico
@@ -4912,7 +4840,7 @@ npm run build
 
 <a id="primeintellectaiprimeagent"></a>
 ### 234. [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)
-- **⭐ Stars:** 19,761 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 19,769 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/PrimeIntellect-ai/prime-agent)
 - 🎯 **O que é e para que serve:** Agente autônomo baseado em aprendizado por reforço (RLM) em TypeScript, projetado para auto-aperfeiçoamento contínuo em fluxos de codificação complexos e tarefas de longa duração.
 - 💡 **Casos de uso reais no dia a dia:** Execução de tarefas de programação multi-etapas que demandam resolução iterativa de erros e testes | Exploração autônoma de bases de código com autoavaliação de qualidade do código gerado | Automação de pipelines de refatoração profunda e correção de vulnerabilidades em projetos complexos
@@ -4962,7 +4890,7 @@ cd opendroid
 
 <a id="itsfatduckoptimizerduck"></a>
 ### 237. [itsfatduck/optimizerDuck](https://github.com/itsfatduck/optimizerDuck)
-- **⭐ Stars:** 9,019 | **💻 Linguagem:** `C#`
+- **⭐ Stars:** 9,021 | **💻 Linguagem:** `C#`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/itsfatduck/optimizerDuck)
 - 🎯 **O que é e para que serve:** Ferramenta de código aberto em C# para otimização avançada do Windows, focada em ganho de desempenho, privacidade, remoção de telemetrias desnecessárias e desativação de bloatware.
 - 💡 **Casos de uso reais no dia a dia:** Ajuste fino de sistemas operacionais Windows para estações de trabalho de desenvolvimento e jogos | Desativação segura de serviços em segundo plano, tarefas agendadas e rastreadores de telemetria | Redução de latência de entrada (DPC latency) e liberação de memória RAM em computadores de produção
@@ -4978,7 +4906,7 @@ cd optimizerDuck
 
 <a id="microsoftaiagentsforbeginners"></a>
 ### 238. [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)
-- **⭐ Stars:** 73,849 | **💻 Linguagem:** `Jupyter Notebook`
+- **⭐ Stars:** 73,854 | **💻 Linguagem:** `Jupyter Notebook`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/microsoft/ai-agents-for-beginners)
 - 🎯 **O que é e para que serve:** Curso prático oficial da Microsoft com 18 lições completas e notebooks interativos para aprender a construir e orquestrar agentes de inteligência artificial do zero ao nível avançado.
 - 💡 **Casos de uso reais no dia a dia:** Capacitação de equipes de engenharia em arquiteturas de agentes autônomos e multiagentes | Aprendizado de conceitos fundamentais como chamadas de função (function calling), memória e RAG | Implementação prática de agentes utilizando frameworks consolidados como Semantic Kernel e AutoGen
@@ -4994,7 +4922,7 @@ jupyter notebook
 
 <a id="abundantbeinghermesbrowserextension"></a>
 ### 239. [abundantbeing/hermes-browser-extension](https://github.com/abundantbeing/hermes-browser-extension)
-- **⭐ Stars:** 1,491 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 1,492 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/abundantbeing/hermes-browser-extension)
 - 🎯 **O que é e para que serve:** Extensão nativa para navegadores web que adiciona um painel lateral (side panel) conectado diretamente ao runtime local do Hermes Agent para compartilhamento de contexto de páginas em tempo real.
 - 💡 **Casos de uso reais no dia a dia:** Envio instantâneo do conteúdo e DOM da aba ativa para o agente Hermes processar | Resumo inteligente de artigos técnicos, documentações e discussões do GitHub direto no navegador | Interação conversacional com o agente local utilizando a página visualizada como fonte primária
@@ -5012,7 +4940,7 @@ npm run build
 
 <a id="vitali87codegraphrag"></a>
 ### 240. [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag)
-- **⭐ Stars:** 4,942 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 4,944 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/vitali87/code-graph-rag)
 - 🎯 **O que é e para que serve:** Sistema de RAG baseado em grafos para monorepositórios, permitindo consultar, compreender e editar bases de código multilíngues complexas combinando grafos de conhecimento e inteligência artificial.
 - 💡 **Casos de uso reais no dia a dia:** Análise semântica profunda de arquiteturas de software distribuídas em múltiplos pacotes e linguagens | Identificação precisa de impactos em cascata ao alterar contratos de APIs ou interfaces compartilhadas | Redução de alucinações de LLMs em tarefas de refatoração através de navegação orientada a nós e arestas
@@ -5046,7 +4974,7 @@ docker compose up -d
 
 <a id="leantimeleantime"></a>
 ### 242. [Leantime/leantime](https://github.com/Leantime/leantime)
-- **⭐ Stars:** 11,514 | **💻 Linguagem:** `PHP`
+- **⭐ Stars:** 11,515 | **💻 Linguagem:** `PHP`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Leantime/leantime)
 - 🎯 **O que é e para que serve:** Sistema open-source em PHP de gerenciamento estratégico de projetos focado em metas e resultados, desenhado especificamente com recursos para acomodar neurodiversidade (TDAH, autismo e dislexia).
 - 💡 **Casos de uso reais no dia a dia:** Gestão ágil de projetos e sprints com foco em clareza cognitiva e redução de sobrecarga mental | Alinhamento de metas estratégicas com tarefas operacionais através de quadros visuais intuitivos | Acompanhamento de entregas de desenvolvimento de software em equipes de engenharia
@@ -5060,7 +4988,7 @@ docker run -d --name leantime -p 8080:80 -v ./leantime_data:/var/www/html/public
 
 <a id="enteente"></a>
 ### 243. [ente/ente](https://github.com/ente/ente)
-- **⭐ Stars:** 28,639 | **💻 Linguagem:** `Dart`
+- **⭐ Stars:** 28,643 | **💻 Linguagem:** `Dart`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/ente/ente)
 - 🎯 **O que é e para que serve:** Plataforma e ecossistema em Dart com criptografia de ponta a ponta (E2EE) para backup e sincronização segura de fotos, vídeos e autenticação de dois fatores (2FA).
 - 💡 **Casos de uso reais no dia a dia:** Armazenamento privado e seguro de acervos de fotos com criptografia auditável de ponta a ponta | Alternativa com privacidade absoluta ao Google Fotos e Apple iCloud | Gestão segura de códigos 2FA multiplataforma com sincronização cifrada entre dispositivos
@@ -5076,7 +5004,7 @@ docker compose up -d
 
 <a id="imputnetcobalt"></a>
 ### 244. [imputnet/cobalt](https://github.com/imputnet/cobalt)
-- **⭐ Stars:** 42,591 | **💻 Linguagem:** `Svelte`
+- **⭐ Stars:** 42,592 | **💻 Linguagem:** `Svelte`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/imputnet/cobalt)
 - 🎯 **O que é e para que serve:** Serviço e aplicação web moderna em Svelte de código aberto para download de vídeos, músicas e mídias de praticamente qualquer plataforma online sem anúncios, rastreadores ou popups.
 - 💡 **Casos de uso reais no dia a dia:** Download rápido de mídias de redes sociais (YouTube, Twitter, TikTok, Instagram) para uso pessoal ou backup | Auto-hospedagem de uma instância privada de extração de mídia para sua rede local ou amigos | Integração via API REST em bots e automações de coleta de mídia
@@ -5092,7 +5020,7 @@ docker compose up -d
 
 <a id="stirlingtoolsstirlingpdf"></a>
 ### 245. [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
-- **⭐ Stars:** 91,241 | **💻 Linguagem:** `Java`
+- **⭐ Stars:** 91,244 | **💻 Linguagem:** `Java`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Stirling-Tools/Stirling-PDF)
 - 🎯 **O que é e para que serve:** Aplicação web completa e auto-hospedável em Java com interface rica para manipulação, conversão, divisão, junção, OCR, assinatura e edição de arquivos PDF com 100% de privacidade.
 - 💡 **Casos de uso reais no dia a dia:** Edição, compressão e conversão de documentos PDF sensíveis na infraestrutura própria da empresa | Aplicação de OCR em múltiplos idiomas para tornar PDFs escaneados pesquisáveis | Substituição de ferramentas proprietárias caras (como Adobe Acrobat) por uma solução corporativa gratuita
@@ -5106,7 +5034,7 @@ docker run -d -p 8080:8080 -v ./stirling_data:/usr/share/tessdata --name stirlin
 
 <a id="shpigfordchops"></a>
 ### 246. [Shpigford/chops](https://github.com/Shpigford/chops)
-- **⭐ Stars:** 1,566 | **💻 Linguagem:** `Swift`
+- **⭐ Stars:** 1,567 | **💻 Linguagem:** `Swift`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Shpigford/chops)
 - 🎯 **O que é e para que serve:** Aplicativo nativo para macOS em Swift projetado para navegar, editar, organizar e gerenciar habilidades (skills) de agentes de IA entre Claude Code, Cursor, Codex, Windsurf e Amp.
 - 💡 **Casos de uso reais no dia a dia:** Gerenciamento centralizado de habilidades e regras de IA em um único painel visual no Mac | Sincronização e migração de configurações de agentes entre diferentes editores de código | Edição rápida de parâmetros e schemas de ferramentas agênticas em ambiente desktop nativo
@@ -5122,7 +5050,7 @@ cd chops
 
 <a id="rmyndharisopenwa"></a>
 ### 247. [rmyndharis/OpenWA](https://github.com/rmyndharis/OpenWA)
-- **⭐ Stars:** 13,719 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 13,720 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/rmyndharis/OpenWA)
 - 🎯 **O que é e para que serve:** Gateway de API open-source, gratuito e auto-hospedável em TypeScript para automação, envio e recebimento de mensagens no WhatsApp com suporte a múltiplos números e webhooks.
 - 💡 **Casos de uso reais no dia a dia:** Disparo automatizado de notificações transacionais e alertas de sistemas via WhatsApp | Criação de bots de atendimento e integração com agentes inteligentes e CRMs corporativos | Gestão centralizada de múltiplas instâncias de WhatsApp em uma única infraestrutura privada
@@ -5139,7 +5067,7 @@ npm run dev
 
 <a id="billstewartsyncthingwindowssetup"></a>
 ### 248. [Bill-Stewart/SyncthingWindowsSetup](https://github.com/Bill-Stewart/SyncthingWindowsSetup)
-- **⭐ Stars:** 4,231 | **💻 Linguagem:** `Inno Setup`
+- **⭐ Stars:** 4,232 | **💻 Linguagem:** `Inno Setup`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Bill-Stewart/SyncthingWindowsSetup)
 - 🎯 **O que é e para que serve:** Instalador oficial e completo em Inno Setup para o Syncthing no Windows, configurando o serviço de sincronização contínua de arquivos como serviço de sistema com inicialização automática.
 - 💡 **Casos de uso reais no dia a dia:** Instalação padronizada e não assistida do Syncthing em frotas de computadores Windows | Execução do serviço de sincronização de arquivos em segundo plano sem necessidade de login do usuário | Integração de backups distribuídos e sincronização de pastas de desenvolvimento entre máquinas
@@ -5186,7 +5114,7 @@ cargo build --release
 
 <a id="trufflesecuritytrufflehog"></a>
 ### 251. [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
-- **⭐ Stars:** 27,672 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 27,675 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/trufflesecurity/trufflehog)
 - 🎯 **O que é e para que serve:** Ferramenta de referência mundial em Go para localização, análise e verificação criptográfica de mais de 800 tipos de credenciais, chaves e segredos em repositórios Git, sistemas de arquivos e buckets S3.
 - 💡 **Casos de uso reais no dia a dia:** Varredura forense profunda de todo o histórico de commits Git para identificar senhas antigas | Integração obrigatória em pipelines de CI/CD para barrar pull requests contendo segredos | Auditoria contínua de postura de segurança em ambientes corporativos e multi-cloud
@@ -5264,7 +5192,7 @@ docker run -p 6379:6379 falkordb/falkordb
 
 <a id="openwebuiopenwebui"></a>
 ### 256. [open-webui/open-webui](https://github.com/open-webui/open-webui)
-- **⭐ Stars:** 150,835 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 150,841 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/open-webui/open-webui)
 - 🎯 **O que é e para que serve:** Interface gráfica web (WebUI) completa, moderna e auto-hospedável para execução e gerenciamento de modelos de IA, compatível com Ollama, APIs da OpenAI, RAG nativo e controle multiusuário.
 - 💡 **Casos de uso reais no dia a dia:** Disponibilização de interface corporativa de chat com modelos locais (Llama, DeepSeek, Qwen) na rede interna | Upload e consulta de documentos PDF/Word com sistema RAG integrado e citações na resposta | Gerenciamento de permissões, cotas de uso e histórico de conversas entre diferentes times da empresa
@@ -5278,7 +5206,7 @@ docker run -d -p 3000:8080 -v open-webui:/app/backend/data --name open-webui ghc
 
 <a id="petergyangnoaislop"></a>
 ### 257. [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop)
-- **⭐ Stars:** 7,022 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 7,031 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/petergyang/no-ai-slop)
 - 🎯 **O que é e para que serve:** Utilitário em Python que identifica e remove mais de 20 padrões e clichês clássicos de textos gerados por inteligência artificial (adjetivos exagerados, conclusões genéricas, introduções repetitivas).
 - 💡 **Casos de uso reais no dia a dia:** Higienização e revisão editorial de artigos, documentações e postagens geradas por LLMs | Detecção de trechos com alta previsibilidade e substituição por linguagem natural e direta | Melhoria da qualidade da escrita técnica eliminando preenchimentos desnecessários
@@ -5295,7 +5223,7 @@ python clean.py --input texto.txt
 
 <a id="opendataloaderprojectopendataloaderpdf"></a>
 ### 258. [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf)
-- **⭐ Stars:** 28,920 | **💻 Linguagem:** `Java`
+- **⭐ Stars:** 28,923 | **💻 Linguagem:** `Java`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/opendataloader-project/opendataloader-pdf)
 - 🎯 **O que é e para que serve:** Parser de documentos PDF de código aberto em Java, projetado para extrair dados estruturados e acessíveis de alta qualidade prontos para consumo direto por modelos de IA e RAG.
 - 💡 **Casos de uso reais no dia a dia:** Extração precisa de tabelas complexas, colunas duplas e notas de rodapé de relatórios em PDF | Conversão em lote de bibliotecas de PDFs em dados tabulares e texto estruturado | Automação de acessibilidade e leitura óptica em documentos corporativos
@@ -5311,7 +5239,7 @@ cd opendataloader-pdf
 
 <a id="microsoftdataformulator"></a>
 ### 259. [microsoft/data-formulator](https://github.com/microsoft/data-formulator)
-- **⭐ Stars:** 17,087 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 17,088 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/microsoft/data-formulator)
 - 🎯 **O que é e para que serve:** Sistema interativo da Microsoft de análise e exploração de dados potencializado por IA, permitindo conectar, transformar e criar visualizações gráficas avançadas a partir de comandos em linguagem natural.
 - 💡 **Casos de uso reais no dia a dia:** Exploração rápida e visual de conjuntos de dados tabulares (CSV, Excel, bancos de dados) | Criação de gráficos customizados sem necessidade de escrever código manual em Matplotlib ou Vega-Lite | Formulação de hipóteses analíticas e descoberta de correlações com auxílio de agentes inteligentes
@@ -5342,7 +5270,7 @@ python setup_env.py
 
 <a id="mem0aimem0"></a>
 ### 261. [mem0ai/mem0](https://github.com/mem0ai/mem0)
-- **⭐ Stars:** 64,662 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 64,667 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/mem0ai/mem0)
 - 🎯 **O que é e para que serve:** Camada universal de memória persistente para agentes de inteligência artificial, armazenando preferências, fatos e contexto histórico entre diferentes sessões e usuários de forma personalizada.
 - 💡 **Casos de uso reais no dia a dia:** Criação de assistentes virtuais que recordam preferências e histórico de interações do usuário | Manutenção de memória de longo prazo para agentes de atendimento e companheiros de IA | Redução no envio redundante de dados de contexto economizando tokens em cada chamada de API
@@ -5374,7 +5302,7 @@ npm start
 
 <a id="opensandboxgroupopensandbox"></a>
 ### 263. [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)
-- **⭐ Stars:** 14,942 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 14,945 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/opensandbox-group/OpenSandbox)
 - 🎯 **O que é e para que serve:** Ambiente de runtime seguro, rápido e extensível em Python para execução isolada de código e comandos de agentes de inteligência artificial sem riscos para a máquina host.
 - 💡 **Casos de uso reais no dia a dia:** Execução de scripts Python, JavaScript e comandos Bash gerados dinamicamente por agentes de IA | Isolamento rigoroso de chamadas de sistema, rede e acesso a arquivos durante automações | Plataforma segura para benchmarks de raciocínio de código e resolução de desafios de programação
@@ -5390,7 +5318,7 @@ pip install -e .
 
 <a id="jamiepinevoicebox"></a>
 ### 264. [jamiepine/voicebox](https://github.com/jamiepine/voicebox)
-- **⭐ Stars:** 52,237 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 52,242 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/jamiepine/voicebox)
 - 🎯 **O que é e para que serve:** Estúdio open-source de voz com IA em TypeScript para clonagem de voz, ditado em tempo real e síntese vocal com interface visual rica e execução local focada em privacidade.
 - 💡 **Casos de uso reais no dia a dia:** Clonagem e síntese de voz de alta fidelidade para dublagens, audiobooks e jogos | Ditado de voz para texto com baixa latência para aceleração de escrita de código e textos | Criação de vozes personalizadas para assistentes virtuais e avatares digitais
@@ -5407,7 +5335,7 @@ npm run dev
 
 <a id="averyganreclip"></a>
 ### 265. [averygan/reclip](https://github.com/averygan/reclip)
-- **⭐ Stars:** 8,319 | **💻 Linguagem:** `HTML`
+- **⭐ Stars:** 8,342 | **💻 Linguagem:** `HTML`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/averygan/reclip)
 - 🎯 **O que é e para que serve:** Downloader de vídeos e mídias leve, auto-hospedável e elegante em HTML/JS, permitindo baixar conteúdos de quase qualquer site através de uma interface web minimalista e limpa.
 - 💡 **Casos de uso reais no dia a dia:** Download rápido de vídeos e áudios de redes sociais sem propagandas ou softwares maliciosos | Auto-hospedagem de uma central de captura de mídia pessoal na rede doméstica | Armazenamento de backups de conteúdos online antes que sejam removidos ou bloqueados
@@ -5438,7 +5366,7 @@ git clone https://github.com/coreyhaines31/makerskills.git
 
 <a id="cursorplugins"></a>
 ### 267. [cursor/plugins](https://github.com/cursor/plugins)
-- **⭐ Stars:** 6,764 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 6,772 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/cursor/plugins)
 - 🎯 **O que é e para que serve:** Especificação oficial e acervo de plugins do editor de código inteligente Cursor, permitindo estender as capacidades do assistente de IA com integrações customizadas.
 - 💡 **Casos de uso reais no dia a dia:** Desenvolvimento de extensões e ferramentas personalizadas integradas ao fluxo do editor Cursor | Conexão de APIs internas da empresa e documentações privadas ao painel do assistente de código | Criação de automações de linting, testes e revisão de código sob medida para a equipe
@@ -5471,7 +5399,7 @@ jupyter notebook
 
 <a id="openaiopenaiagentspython"></a>
 ### 269. [openai/openai-agents-python](https://github.com/openai/openai-agents-python)
-- **⭐ Stars:** 29,179 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 29,180 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/openai/openai-agents-python)
 - 🎯 **O que é e para que serve:** Framework leve e poderoso da OpenAI em Python para construção e orquestração de fluxos multiagente com transferência transparente de conversas (handoffs) e execução de ferramentas.
 - 💡 **Casos de uso reais no dia a dia:** Desenvolvimento de sistemas com múltiplos agentes especializados (triagem, vendas, suporte técnico) | Gerenciamento determinístico de trocas de contexto e delegação de tarefas entre agentes | Integração de chamadas de função tipadas e validação automática de parâmetros de execução
@@ -5486,7 +5414,7 @@ python -c "from agents import Agent, Runner; print('Framework de agentes da Open
 
 <a id="xaiorggrokbuild"></a>
 ### 270. [xai-org/grok-build](https://github.com/xai-org/grok-build)
-- **⭐ Stars:** 26,439 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 26,442 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/xai-org/grok-build)
 - 🎯 **O que é e para que serve:** Ambiente de desenvolvimento e interface de terminal em tela cheia (TUI) desenvolvida em Rust pela SpaceXAI para execução assistida de agentes de código com suporte a mouse e extensões.
 - 💡 **Casos de uso reais no dia a dia:** Navegação e edição interativa de bases de código guiada por modelos de inteligência artificial | Execução de comandos de build, testes e refatoração com monitoramento visual em tempo real no shell | Ambiente ergonômico de desenvolvimento para desenvolvedores que operam prioritariamente no terminal
@@ -5503,7 +5431,7 @@ cargo build --release
 
 <a id="anthropicsclaudecookbooks"></a>
 ### 271. [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks)
-- **⭐ Stars:** 52,408 | **💻 Linguagem:** `Jupyter Notebook`
+- **⭐ Stars:** 52,409 | **💻 Linguagem:** `Jupyter Notebook`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/anthropics/claude-cookbooks)
 - 🎯 **O que é e para que serve:** Coleção oficial de notebooks e receitas da Anthropic com técnicas consagradas de engenharia de prompts, uso de ferramentas, visão computacional e chamadas de API com a família Claude.
 - 💡 **Casos de uso reais no dia a dia:** Implementação de técnicas avançadas como encadeamento de prompts e raciocínio estendido (extended thinking) | Criação de fluxos de extração estruturada de dados a partir de imagens e documentos complexos | Otimização de consumo de tokens através de cache de prompts em requisições de grande contexto
@@ -5535,7 +5463,7 @@ git clone https://github.com/FSECDEV/LEAKSFORUMS.git
 
 <a id="msitarzewskiagencyagents"></a>
 ### 273. [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
-- **⭐ Stars:** 149,898 | **💻 Linguagem:** `Shell`
+- **⭐ Stars:** 149,904 | **💻 Linguagem:** `Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/msitarzewski/agency-agents)
 - 🎯 **O que é e para que serve:** Agência de IA completa com dezenas de agentes especializados (desenvolvedores frontend, auditores de código, gerentes de comunidade, redatores) com personas, processos e entregáveis definidos.
 - 💡 **Casos de uso reais no dia a dia:** Montagem rápida de equipes multidisciplinares de IA para desenvolvimento de produtos e marketing | Automação de revisão de qualidade e crítica estética de produtos digitais por personas especialistas | Padronização de procedimentos operacionais padrão (SOPs) em fluxos de criação de conteúdo
@@ -5550,7 +5478,7 @@ git clone https://github.com/msitarzewski/agency-agents.git
 
 <a id="affaanmecc"></a>
 ### 274. [affaan-m/ECC](https://github.com/affaan-m/ECC)
-- **⭐ Stars:** 247,068 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 247,144 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/affaan-m/ECC)
 - 🎯 **O que é e para que serve:** Sistema de otimização de desempenho e controle para assistentes de código (Claude Code, Cursor, Codex), integrando gerenciamento de memória, habilidades, instintos e segurança.
 - 💡 **Casos de uso reais no dia a dia:** Maximização da assertividade de assistentes de IA através de heurísticas e memória de projeto | Prevenção de alucinações e loops repetitivos em sessões longas de codificação no terminal | Padronização de comandos e regras de desenvolvimento seguro em equipes de software
@@ -5566,7 +5494,7 @@ npm install
 
 <a id="trimstraythebookofsecretknowledge"></a>
 ### 275. [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
-- **⭐ Stars:** 241,904 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 241,921 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/trimstray/the-book-of-secret-knowledge)
 - 🎯 **O que é e para que serve:** Coleção consagrada de cheatsheets, ferramentas CLI, one-liners, manuais e links sobre DevOps, segurança ofensiva, administração de sistemas Linux e redes.
 - 💡 **Casos de uso reais no dia a dia:** Consulta rápida de comandos complexos de depuração de rede, performance de sistema e auditoria | Descoberta de ferramentas especializadas para tarefas operacionais de infraestrutura | Guia de referência diária para engenheiros de confiabilidade de sites (SRE) e administradores
@@ -5581,7 +5509,7 @@ git clone https://github.com/trimstray/the-book-of-secret-knowledge.git
 
 <a id="obrasuperpowers"></a>
 ### 276. [obra/superpowers](https://github.com/obra/superpowers)
-- **⭐ Stars:** 281,293 | **💻 Linguagem:** `Shell`
+- **⭐ Stars:** 281,321 | **💻 Linguagem:** `Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/obra/superpowers)
 - 🎯 **O que é e para que serve:** Framework de habilidades agênticas e metodologia comprovada de engenharia para potencializar o desenvolvimento de software assistido por inteligência artificial no dia a dia.
 - 💡 **Casos de uso reais no dia a dia:** Aplicação de metodologias estruturadas de especificação e desenvolvimento com agentes de IA | Redução de retrabalho em código gerado por IA através de processos sistemáticos de validação | Aumento de produtividade em projetos de engenharia de software individuais ou em time
@@ -5596,7 +5524,7 @@ git clone https://github.com/obra/superpowers.git
 
 <a id="vintaawesomepython"></a>
 ### 277. [vinta/awesome-python](https://github.com/vinta/awesome-python)
-- **⭐ Stars:** 318,019 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 318,050 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/vinta/awesome-python)
 - 🎯 **O que é e para que serve:** A mais prestigiada lista com curadoria das melhores bibliotecas, frameworks, softwares e recursos do ecossistema da linguagem Python divididos por áreas de aplicação.
 - 💡 **Casos de uso reais no dia a dia:** Descoberta das bibliotecas mais consolidadas e mantidas para qualquer necessidade em Python | Avaliação de alternativas técnicas para novos projetos de software, dados ou IA | Ponto de partida essencial para estruturação de dependências de alto nível
@@ -5611,7 +5539,7 @@ git clone https://github.com/vinta/awesome-python.git
 
 <a id="jwashamcodinginterviewuniversity"></a>
 ### 278. [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
-- **⭐ Stars:** 360,301 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 360,308 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/jwasham/coding-interview-university)
 - 🎯 **O que é e para que serve:** Plano de estudos completo e estruturado de ciência da computação para formação profunda de engenheiros de software e preparação para entrevistas em grandes empresas de tecnologia (FAANG).
 - 💡 **Casos de uso reais no dia a dia:** Estudo aprofundado de estruturas de dados, algoritmos fundamentais, grafos e árvores | Revisão de tópicos essenciais de sistemas operacionais, redes, concorrência e memória | Guia metódico de transição de carreira ou nivelamento técnico de alta qualidade
@@ -5626,7 +5554,7 @@ git clone https://github.com/jwasham/coding-interview-university.git
 
 <a id="donnemartinsystemdesignprimer"></a>
 ### 279. [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
-- **⭐ Stars:** 367,715 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 367,743 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/donnemartin/system-design-primer)
 - 🎯 **O que é e para que serve:** Guia definitivo e abrangente com diagramas, flashcards e estudos de caso práticos para aprender a arquitetar e escalar sistemas distribuídos de grande porte para milhões de usuários.
 - 💡 **Casos de uso reais no dia a dia:** Estudo de padrões de alta disponibilidade, sharding de banco de dados, caching, filas e microsserviços | Preparação para entrevistas de arquitetura de software e design de sistemas em grandes empresas | Referência para tomada de decisões arquiteturais no design de novos produtos de software
@@ -5641,7 +5569,7 @@ git clone https://github.com/donnemartin/system-design-primer.git
 
 <a id="semanticaagisemantica"></a>
 ### 280. [semantica-agi/semantica](https://github.com/semantica-agi/semantica)
-- **⭐ Stars:** 11,856 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 11,862 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/semantica-agi/semantica)
 - 🎯 **O que é e para que serve:** Infraestrutura nativa em grafos para gestão de contexto, rastreabilidade e sistemas de inteligência artificial responsáveis com proveniência de dados e controle de raciocínio.
 - 💡 **Casos de uso reais no dia a dia:** Estruturação de conhecimento corporativo em grafos semânticos para alimentar modelos de IA | Rastreamento e auditoria de decisões tomadas por agentes autônomos em ambientes regulados | Minimização de inconsistências em sistemas complexos através de nós de contexto validados
@@ -5658,7 +5586,7 @@ python main.py
 
 <a id="coollabsiocoolify"></a>
 ### 281. [coollabsio/coolify](https://github.com/coollabsio/coolify)
-- **⭐ Stars:** 61,365 | **💻 Linguagem:** `PHP`
+- **⭐ Stars:** 61,368 | **💻 Linguagem:** `PHP`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/coollabsio/coolify)
 - 🎯 **O que é e para que serve:** Plataforma PaaS open-source e auto-hospedável que permite implantar aplicações, bancos de dados e mais de 280 serviços em um clique no seu próprio servidor, concorrente direta de Vercel e Heroku.
 - 💡 **Casos de uso reais no dia a dia:** Deploy contínuo de aplicações Next.js, Laravel, Django, Node.js e Docker no seu próprio VPS | Provisionamento com um clique de bancos de dados gerenciados (PostgreSQL, MySQL, Redis, ClickHouse) | Redução drástica de custos de nuvem mantendo interface visual moderna e certificados SSL automáticos
@@ -5672,7 +5600,7 @@ curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash
 
 <a id="zulipzulip"></a>
 ### 282. [zulip/zulip](https://github.com/zulip/zulip)
-- **⭐ Stars:** 25,827 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 25,828 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/zulip/zulip)
 - 🎯 **O que é e para que serve:** Servidor e aplicativo de comunicação em equipe open-source em Python, consagrado pelo modelo exclusivo de conversas organizadas por tópicos dentro de canais (threads assíncronas).
 - 💡 **Casos de uso reais no dia a dia:** Comunicação corporativa focada e produtiva eliminando a perda de contexto do Slack e Teams | Organização de discussões em comunidades de código aberto com histórico estruturado por tópicos | Auto-hospedagem de chat com total privacidade, conformidade e soberania sobre os dados
@@ -5688,7 +5616,7 @@ cd zulip
 
 <a id="metabasemetabase"></a>
 ### 283. [metabase/metabase](https://github.com/metabase/metabase)
-- **⭐ Stars:** 49,079 | **💻 Linguagem:** `Clojure`
+- **⭐ Stars:** 49,080 | **💻 Linguagem:** `Clojure`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/metabase/metabase)
 - 🎯 **O que é e para que serve:** Ferramenta open-source de Business Intelligence (BI) e análise de dados em Clojure, permitindo que qualquer pessoa crie dashboards e faça perguntas a bancos de dados sem saber SQL.
 - 💡 **Casos de uso reais no dia a dia:** Criação de dashboards interativos e relatórios operacionais para acompanhamento de KPIs da empresa | Democratização do acesso aos dados corporativos para equipes de produto, marketing e negócios | Incorporação de gráficos e métricas dentro de aplicações próprias (embedded analytics)
@@ -5702,7 +5630,7 @@ docker run -d -p 3000:3000 -v ./metabase-data:/metabase-data --name metabase met
 
 <a id="posthogposthog"></a>
 ### 284. [PostHog/posthog](https://github.com/PostHog/posthog)
-- **⭐ Stars:** 39,577 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 39,578 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/PostHog/posthog)
 - 🎯 **O que é e para que serve:** Plataforma completa e open-source de análise de produtos e dados de desenvolvedores, reunindo product analytics, gravação de sessões, feature flags, testes A/B e observabilidade de IA.
 - 💡 **Casos de uso reais no dia a dia:** Acompanhamento detalhado de conversão de funis, retenção de usuários e jornadas em produtos digitais | Reprodução visual de sessões de usuários para diagnosticar bugs e atritos de experiência | Gerenciamento de lançamento gradual de funcionalidades através de feature flags dinâmicas
@@ -5718,7 +5646,7 @@ cd posthog
 
 <a id="pocketbasepocketbase"></a>
 ### 285. [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase)
-- **⭐ Stars:** 60,934 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 60,935 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/pocketbase/pocketbase)
 - 🎯 **O que é e para que serve:** Backend em tempo real completo, open-source e incrivelmente rápido empacotado em um único arquivo binário em Go, com SQLite embutido, autenticação, storage e painel administrativo.
 - 💡 **Casos de uso reais no dia a dia:** Desenvolvimento ultrarrápido de protótipos, MVPs e aplicações completas web/mobile | Criação de serviços internos que demandam banco de dados em tempo real sem complexidade de infraestrutura | Backend leve para rodar em dispositivos IoT, Raspberry Pi ou pequenos servidores VPS
@@ -5749,7 +5677,7 @@ npm install
 
 <a id="infisicalinfisical"></a>
 ### 287. [Infisical/infisical](https://github.com/Infisical/infisical)
-- **⭐ Stars:** 29,102 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 29,101 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Infisical/infisical)
 - 🎯 **O que é e para que serve:** Plataforma open-source e auto-hospedável de gerenciamento de segredos, certificados e controle de acesso privilegiado, sincronizando variáveis de ambiente de forma segura para toda a equipe.
 - 💡 **Casos de uso reais no dia a dia:** Eliminação do compartilhamento inseguro de arquivos `.env` e senhas entre desenvolvedores | Sincronização automática de segredos com GitHub Actions, Kubernetes, Docker e provedores de nuvem | Auditoria de acessos e rotação programada de credenciais corporativas
@@ -5780,7 +5708,7 @@ git clone https://github.com/HideMeBr/SambaTu.git
 
 <a id="codebuffaifreebuff"></a>
 ### 289. [CodebuffAI/freebuff](https://github.com/CodebuffAI/freebuff)
-- **⭐ Stars:** 11,567 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 11,571 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/CodebuffAI/freebuff)
 - 🎯 **O que é e para que serve:** Agente autônomo e gratuito de programação em TypeScript projetado para assistência direta de código, resolução de tarefas no repositório e automação de desenvolvimento.
 - 💡 **Casos de uso reais no dia a dia:** Execução de tarefas de codificação e refatoração no editor sem custos de licença | Automação de tarefas repetitivas de manutenção de software no fluxo de desenvolvimento diário | Assistência interativa para compreensão de bases de código abertas
@@ -5797,7 +5725,7 @@ npm start
 
 <a id="deepseekaideepseekharness"></a>
 ### 290. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
-- **⭐ Stars:** 210,947 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 210,980 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/deepseek-ai/deepseek-harness)
 - 🎯 **O que é e para que serve:** Ambiente de desenvolvimento modular e ecossistema de plugins da DeepSeek para potencializar agentes de IA, permitindo acoplar ferramentas, interfaces e fluxos customizados.
 - 💡 **Casos de uso reais no dia a dia:** Criação de extensões e habilidades customizadas para modelos de linguagem da DeepSeek | Integração de ferramentas corporativas ao fluxo de raciocínio de agentes inteligentes | Padronização de protocolos de comunicação entre plugins e runtime de IA
@@ -5814,7 +5742,7 @@ npm run build
 
 <a id="egonexaiunderstandanything"></a>
 ### 291. [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)
-- **⭐ Stars:** 81,394 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 81,400 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Egonex-AI/Understand-Anything)
 - 🎯 **O que é e para que serve:** Ferramenta em TypeScript que transforma qualquer base de código em um grafo de conhecimento interativo e didático para exploração, busca e perguntas compatível com Claude Code, Cursor e Copilot.
 - 💡 **Casos de uso reais no dia a dia:** Onboarding acelerado de novos desenvolvedores em projetos e monorepositórios complexos | Visualização e consulta em linguagem natural sobre arquitetura e dependências de código | Fornecimento de contexto em grafos para assistentes de IA responderem dúvidas arquiteturais
@@ -5831,16 +5759,27 @@ npm run dev
 
 <a id="trailhqgraft"></a>
 ### 292. [trailhq/Graft](https://github.com/trailhq/Graft)
-- **⭐ Stars:** 5,500 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 5,501 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/trailhq/Graft)
-- 🎯 **O que é e para que serve:** Ferramenta de terminal e linha de comando de alta produtividade construída em TypeScript
-- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'Graft' | Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento
+- 🎯 **O que é e para que serve:** O Graft é uma camada de contexto de código aberto baseada em grafos que otimiza assistentes de programação e agentes de inteligência artificial (como Claude Code, Cursor e Gemini) através de análise estática avançada utilizando *Tree-sitter*. Ele mapeia o repositório em um grafo de conhecimento detalhado dos nós e dependências do código, reduzindo o consumo de tokens em até 42%, acelerando a execução em 60% e elevando a precisão na resolução de tarefas complexas.
+- 💡 **Casos de uso reais no dia a dia:** 1. *Refatoração em grande escala de monorepos:* Facilita que agentes de IA compreendam o impacto de alterar uma interface compartilhada ou biblioteca interna sem precisar varrer milhares de arquivos cegamente, evitando quebras de dependência ocultas.
+  2. *Revisão automatizada de Pull Requests:* Integrado via aplicativo GitHub, o Graft gera análises precisas de raio de explosão (*blast radius*) para cada PR, permitindo que a IA aponte efeitos colaterais exatos no código antes do merge.
+  3. *Onboarding de IA em bases de código legadas:* Permite que desenvolvedores alimentem agentes com um mapa estruturado e semântico do código (`graft map`), fornecendo contexto imediato sobre a arquitetura sem estourar a janela de contexto do LLM.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
-npm install -g @nanonets/graft   # install the CLI, once
-graft init                       # build the graph + wire it into Claude Code
+# Instalação global do pacote CLI oficial do Graft via NPM
+npm install -g @nanonets/graft
+
+# Inicialização e construção do grafo de conhecimento no diretório atual do projeto
+graft init
+
+# Execução da busca semântica orientada pelo grafo para o agente de IA
+graft grep "sua-busca-aqui"
+
+# Visualização gráfica interativa da arquitetura do repositório
+graft viz
 ```
-- ⚡ **Dica Pro de produtividade:** No 'trailhq/Graft', combine indexação vetorial com re-ranking baseado em BM25 e ajuste os limites de chunk com overlap para maximizar a relevância na recuperação de contexto.
+- ⚡ **Dica Pro de produtividade:** Para extração máxima de desempenho em bases de código massivas ou monorepos complexos, configure variáveis de ambiente específicas para o `Tree-sitter` ignorar diretórios de build pesados ou utilize a flag de exclusão customizada no arquivo de configuração para otimizar a indexação incremental. Isso garante que o servidor MCP (*Model Context Protocol*) alimente o Claude Code apenas com nós de código semanticamente relevantes, reduzindo o tempo de resposta do agente de segundos para milissegundos.
 
 ---
 
@@ -5862,7 +5801,7 @@ pip install -r requirements.txt
 
 <a id="paddlepaddlepaddleocr"></a>
 ### 294. [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
-- **⭐ Stars:** 88,819 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 88,824 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/PaddlePaddle/PaddleOCR)
 - 🎯 **O que é e para que serve:** Toolkit open-source consagrado em Python de altíssimo desempenho para reconhecimento óptico de caracteres (OCR), suportando mais de 100 idiomas com detecção precisa de tabelas e documentos.
 - 💡 **Casos de uso reais no dia a dia:** Conversão de imagens e PDFs escaneados em texto estruturado e tabelas para pipelines de IA | Digitalização automatizada de notas fiscais, faturas e documentos de identidade | Reconhecimento de caracteres multilíngue com baixo consumo de recursos em servidores e dispositivos edge
@@ -5877,7 +5816,7 @@ paddleocr --image_dir imagem.png --use_angle_cls true --lang pt
 
 <a id="googleresearchtimesfm"></a>
 ### 295. [google-research/timesfm](https://github.com/google-research/timesfm)
-- **⭐ Stars:** 30,670 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 30,692 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/google-research/timesfm)
 - 🎯 **O que é e para que serve:** Modelo de fundação pré-treinado do Google Research em Python projetado especificamente para previsão precisa de séries temporais (time-series forecasting) em múltiplos domínios e frequências.
 - 💡 **Casos de uso reais no dia a dia:** Previsão de demanda de produtos, vendas e métricas de negócios em diferentes janelas temporais | Estimativa de consumo de recursos computacionais e tráfego de rede para infraestrutura | Análise preditiva financeira e de séries temporais climáticas ou industriais de forma zero-shot
@@ -5893,7 +5832,7 @@ pip install -e .
 
 <a id="rtkairtk"></a>
 ### 296. [rtk-ai/rtk](https://github.com/rtk-ai/rtk)
-- **⭐ Stars:** 78,452 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 78,461 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/rtk-ai/rtk)
 - 🎯 **O que é e para que serve:** Proxy CLI desenvolvido em Rust que reduz o consumo de tokens de modelos de IA em 60% a 90% ao executar comandos de desenvolvimento comuns através de compressão inteligente de saídas.
 - 💡 **Casos de uso reais no dia a dia:** Redução substancial de custos de tokens em sessões de programação com Claude Code, Cursor e Aider | Otimização do envio de saídas massivas de logs, testes e compilações para assistentes de IA | Compactação semântica de diffs e saídas de terminal sem perda de informação crítica
@@ -5910,7 +5849,7 @@ cargo build --release
 
 <a id="multicaaimultica"></a>
 ### 297. [multica-ai/multica](https://github.com/multica-ai/multica)
-- **⭐ Stars:** 48,758 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 48,764 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/multica-ai/multica)
 - 🎯 **O que é e para que serve:** Plataforma open-source e auto-hospedável em Go para atribuição e gerenciamento de tarefas e issues para agentes de codificação (Claude Code, Codex, Cursor) como se fossem membros da equipe.
 - 💡 **Casos de uso reais no dia a dia:** Distribuição automatizada de bugs e tarefas de desenvolvimento para agentes de IA resolverem | Acompanhamento centralizado do progresso de frotas de agentes em múltiplos repositórios | Revisão e aprovação facilitada de pull requests gerados autonomamente por IA
@@ -5943,7 +5882,7 @@ make
 
 <a id="jailbrokenaiwallbreaker"></a>
 ### 299. [JailbrokenAI/wallbreaker](https://github.com/JailbrokenAI/wallbreaker)
-- **⭐ Stars:** 1,400 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 1,401 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/JailbrokenAI/wallbreaker)
 - 🎯 **O que é e para que serve:** Harness e framework em Python para testes de estresse, red-teaming e avaliação de salvaguardas em modelos de linguagem de larga escala contra técnicas evasivas.
 - 💡 **Casos de uso reais no dia a dia:** Auditoria de segurança em modelos de linguagem antes do lançamento em produção | Identificação precoce de vulnerabilidades de injeção indireta de prompts e desvios de diretrizes | Testes automatizados de conformidade e segurança da informação em sistemas conversacionais
@@ -5960,7 +5899,7 @@ python run_eval.py
 
 <a id="firecrawlpdfinspector"></a>
 ### 300. [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector)
-- **⭐ Stars:** 18,760 | **💻 Linguagem:** `Rust`
+- **⭐ Stars:** 18,762 | **💻 Linguagem:** `Rust`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/firecrawl/pdf-inspector)
 - 🎯 **O que é e para que serve:** Biblioteca e ferramenta de alto desempenho em Rust para inspeção rápida, classificação e extração de texto de PDFs, identificando inteligentemente PDFs escaneados vs vetoriais para roteamento.
 - 💡 **Casos de uso reais no dia a dia:** Roteamento inteligente de documentos: envio de PDFs escaneados para OCR e PDFs vetoriais para extração direta | Análise de metadados, estruturas de fontes e integridade de arquivos PDF em milissegundos | Otimização de pipelines de ingestão de documentos para RAG de alta velocidade
@@ -5977,7 +5916,7 @@ cargo build --release
 
 <a id="lllyasvielfooocus"></a>
 ### 301. [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus)
-- **⭐ Stars:** 52,726 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 52,728 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/lllyasviel/Fooocus)
 - 🎯 **O que é e para que serve:** Aplicação de geração de imagens baseada em Stable Diffusion XL (SDXL) em Python, combinando facilidade de uso com otimizações avançadas de prompt e renderização automática de alta qualidade.
 - 💡 **Casos de uso reais no dia a dia:** Criação rápida de artes, ilustrações e conceitos visuais com qualidade fotorrealista | Geração local de assets de design sem custos de APIs proprietárias (Midjourney, DALL-E) | Ajuste fino de iluminação, estilo e composição com interface intuitiva e automações embutidas
@@ -5993,7 +5932,7 @@ python entry_with_update.py
 
 <a id="openhandsopenhands"></a>
 ### 302. [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)
-- **⭐ Stars:** 86,090 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 86,099 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/OpenHands/OpenHands)
 - 🎯 **O que é e para que serve:** Plataforma open-source e agente autônomo de desenvolvimento de software em TypeScript/Python (anteriormente OpenDevin), capaz de ler código, executar comandos em sandbox e criar pull requests.
 - 💡 **Casos de uso reais no dia a dia:** Resolução autônoma de bugs e implementação de novas funcionalidades a partir de issues do GitHub | Execução e validação de testes de regressão em ambientes Docker isolados | Assistência colaborativa de engenharia de software com suporte a múltiplos modelos de linguagem
@@ -6023,7 +5962,7 @@ docker compose up -d
 
 <a id="medusajsmedusa"></a>
 ### 304. [medusajs/medusa](https://github.com/medusajs/medusa)
-- **⭐ Stars:** 36,126 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 36,127 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/medusajs/medusa)
 - 🎯 **O que é e para que serve:** Plataforma de comércio eletrônico modular, headless e open-source em TypeScript, construída para máxima flexibilidade e integração sob medida com agentes, ERPs e provedores de pagamento.
 - 💡 **Casos de uso reais no dia a dia:** Criação de lojas virtuais modernas com arquitetura headless e separação total de frontend e backend | Personalização completa de regras de precificação, cálculo de frete, impostos e múltiplos estoques | Conexão com qualquer provedor de pagamento (Stripe, Mercado Pago) e painel administrativo modular
@@ -6055,7 +5994,7 @@ docker run -it --rm \
 
 <a id="differentaiopenwork"></a>
 ### 306. [different-ai/openwork](https://github.com/different-ai/openwork)
-- **⭐ Stars:** 23,302 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 23,307 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/different-ai/openwork)
 - 🎯 **O que é e para que serve:** Alternativa open-source e auto-hospedável em TypeScript ao Claude Cowork, potencializada pelo motor opencode para colaboração inteligente entre equipes e agentes de IA.
 - 💡 **Casos de uso reais no dia a dia:** Ambiente colaborativo de trabalho e desenvolvimento assistido por agentes inteligentes na rede privada | Integração de múltiplos modelos de IA com histórico compartilhado entre membros da equipe | Gestão de tarefas e fluxos de engenharia com execução transparente de código
@@ -6072,7 +6011,7 @@ npm run dev
 
 <a id="n8nion8n"></a>
 ### 307. [n8n-io/n8n](https://github.com/n8n-io/n8n)
-- **⭐ Stars:** 203,254 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 203,260 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/n8n-io/n8n)
 - 🎯 **O que é e para que serve:** Plataforma líder em automação de fluxos de trabalho (workflow automation) com interface visual de nós, código customizado e mais de 400 integrações com suporte nativo a nós de IA e LangChain.
 - 💡 **Casos de uso reais no dia a dia:** Automação de processos corporativos conectando bancos de dados, CRMs, e-mails e APIs REST | Construção de agentes inteligentes com acesso a ferramentas através de nós visuais de IA | Sincronização em tempo real de dados entre diferentes plataformas sem necessidade de código manual
@@ -6086,7 +6025,7 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 
 <a id="nousresearchhermesagent"></a>
 ### 308. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-- **⭐ Stars:** 240,777 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 240,821 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/NousResearch/hermes-agent)
 - 🎯 **O que é e para que serve:** Agente autônomo adaptativo desenvolvido pela Nous Research em Python, projetado para aprender continuamente com o usuário, executar ferramentas e evoluir seu raciocínio com o tempo.
 - 💡 **Casos de uso reais no dia a dia:** Assistente de engenharia com aprendizado contínuo sobre preferências e padrões do desenvolvedor | Execução autônoma de pesquisas complexas e tarefas de codificação com histórico evolutivo | Integração de modelos de linguagem da família Hermes em pipelines agênticos de alta capacidade
@@ -6103,7 +6042,7 @@ python main.py
 
 <a id="nexuioopendesign"></a>
 ### 309. [nexu-io/open-design](https://github.com/nexu-io/open-design)
-- **⭐ Stars:** 93,870 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 93,881 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/nexu-io/open-design)
 - 🎯 **O que é e para que serve:** Aplicativo desktop local-first e plugin de design de código aberto em TypeScript, transformando agentes de codificação em motores de design para gerar protótipos, landing pages e apresentações.
 - 💡 **Casos de uso reais no dia a dia:** Geração automatizada de interfaces visuais, landing pages e dashboards a partir de comandos de agentes | Exportação de layouts criados por IA diretamente em arquivos reais HTML, PDF, PPTX e MP4 | Alternativa open-source ao Claude Design compatível com Claude Code, Cursor e DeepSeek Harness
@@ -6120,7 +6059,7 @@ npm run dev
 
 <a id="guillaumemeyerwatermarksremover"></a>
 ### 310. [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover)
-- **⭐ Stars:** 20,297 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 20,309 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/guillaumemeyer/watermarks-remover)
 - 🎯 **O que é e para que serve:** Ferramenta em Python para higienização e remoção de marcas d'água e metadados de proveniência de IA (metadados C2PA, caracteres invisíveis Unicode e padrões estatísticos) em múltiplos formatos.
 - 💡 **Casos de uso reais no dia a dia:** Higienização de arquivos PNG, JPEG, SVG, PDF, DOCX e Markdown removendo metadados residuais | Limpeza de caracteres Unicode invisíveis e anomalias tipográficas geradas por LLMs | Auditoria e proteção de privacidade antes da publicação de documentos e mídias
@@ -6137,7 +6076,7 @@ python clean.py --file documento.pdf
 
 <a id="githubspeckit"></a>
 ### 311. [github/spec-kit](https://github.com/github/spec-kit)
-- **⭐ Stars:** 133,312 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 133,331 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/github/spec-kit)
 - 🎯 **O que é e para que serve:** Toolkit oficial do GitHub em Python para apoiar o desenvolvimento orientado por especificações (Spec-Driven Development), guiando a criação de especificações claras antes da codificação por IA.
 - 💡 **Casos de uso reais no dia a dia:** Estruturação metódica de requisitos e especificações executáveis para direcionar agentes de código | Redução de alucinações e retrabalho ao fornecer contratos técnicos claros para assistentes | Padronização de propostas técnicas e arquiteturais em equipes de desenvolvimento
@@ -6153,7 +6092,7 @@ pip install -e .
 
 <a id="harry0703moneyprinterturbo"></a>
 ### 312. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
-- **⭐ Stars:** 120,214 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 120,236 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/harry0703/MoneyPrinterTurbo)
 - 🎯 **O que é e para que serve:** Ferramenta em Python que utiliza modelos de linguagem e fluxos automatizados para gerar vídeos curtos em alta definição (Shorts, Reels, TikTok) a partir de um tema ou palavra-chave em um clique.
 - 💡 **Casos de uso reais no dia a dia:** Criação automatizada em escala de vídeos informativos e educativos para redes sociais | Geração de roteiros, narração sintetizada, legendas sincronizadas e seleção de vídeos de fundo de forma autônoma | Automação de canais de conteúdo e marketing digital com zero esforço manual de edição
@@ -6170,24 +6109,34 @@ python webui.py
 
 <a id="careeropshqcareerops"></a>
 ### 313. [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)
-- **⭐ Stars:** 70,047 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 70,052 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/career-ops-hq/career-ops)
-- 🎯 **O que é e para que serve:** Plataforma inteligente focada em inteligência artificial e aprendizado de máquina desenvolvida em JavaScript
-- 💡 **Casos de uso reais no dia a dia:** Orquestração e integração de fluxos com modelos de linguagem e agentes inteligentes em 'career-ops' | Execução ágil via linha de comando em scripts de automação e terminais de desenvolvimento
+- 🎯 **O que é e para que serve:** O `career-ops` é um sistema de busca de empregos impulsionado por inteligência artificial e projetado para ser executado localmente por meio de interfaces de linha de comando (CLI) como Claude Code e OpenCode. Sua arquitetura automatiza o escaneamento de portais de vagas, avalia as listagens gerando um relatório estruturado de A a H com uma pontuação global de 1 a 5, personaliza currículos e rastreia candidaturas. Seu principal diferencial competitivo é inverter a lógica de mercado atual: enquanto empresas utilizam IA para filtrar candidatos, o `career-ops` entrega o poder da IA nas mãos do profissional para avaliar e escolher estrategicamente as melhores empresas.
+- 💡 **Casos de uso reais no dia a dia:** 1. **Análise de adequação de currículo (ATS Match):** Engenheiros de software podem escanear dezenas de vagas no LinkedIn ou em portais de tecnologia e rodar o agente localmente para cruzar o perfil técnico atual com os requisitos da vaga, gerando um relatório detalhado de lacunas técnicas (*gaps*) e adaptando o currículo automaticamente para passar pelos filtros automáticos (ATS).
+  2. **Triagem em lote e pontuação de vagas:** Cientistas de dados ou desenvolvedores sênior que recebem múltiplas ofertas e vagas abertas diariamente podem utilizar o sistema para varrer portais, executar a avaliação estruturada de A-H e filtrar apenas as vagas com pontuação global 4 ou 5, otimizando o tempo gasto na busca ativa.
+  3. **Preparação automatizada para entrevistas:** Antes de uma rodada técnica, o desenvolvedor pode utilizar o contexto gerado pelo rastreador de candidaturas do `career-ops` integrado à sua CLI de IA para mapear os pontos críticos da empresa e antecipar perguntas técnicas baseadas na descrição exata da vaga.
 - 🚀 **Como usar na prática com comandos prontos:**
 ```bash
+# 1. Clone o repositório do projeto
 git clone https://github.com/career-ops-hq/career-ops.git
 cd career-ops
+
+# 2. Instale as dependências do ambiente JavaScript
 npm install
-npm run dev
+
+# 3. Configure suas chaves de API necessárias (exemplo para Anthropic)
+export ANTHROPIC_API_KEY="sua-chave-de-api-aqui"
+
+# 4. Inicie o fluxo de busca e avaliação de vagas diretamente na sua CLI de IA suportada
+npx career-ops scan --target "software-engineer" --location "remote"
 ```
-- ⚡ **Dica Pro de produtividade:** Ao integrar 'career-ops-hq/career-ops' com modelos de linguagem, utilize streaming de respostas e ajuste parâmetros de chunking com overlap de 10-15% para maximizar relevância de contexto sem estourar limites de tokens.
+- ⚡ **Dica Pro de produtividade:** Para maximizar a precisão das análises e evitar o consumo excessivo de tokens da API durante o escaneamento em lote, configure a variável de ambiente `CAREER_OPS_STRICT_FILTER=true` e utilize a flag `--max-depth=2` no comando de varredura da CLI. Isso força o agente a realizar uma poda semântica prévia nos portais de vagas, descartando listagens com pontuação preliminar abaixo de 3 antes de gerar os relatórios estruturados complexos de A-H e os currículos personalizados.
 
 ---
 
 <a id="jcodesmoreaiwebsiteclonertemplate"></a>
 ### 314. [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template)
-- **⭐ Stars:** 33,759 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 33,767 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/JCodesMore/ai-website-cloner-template)
 - 🎯 **O que é e para que serve:** Template e conjunto de automações em JavaScript para clonar e reconstruir visualmente qualquer website com um único comando utilizando agentes de codificação assistida por IA.
 - 💡 **Casos de uso reais no dia a dia:** Prototipagem rápida e recriação de layouts de referência para novos projetos frontend | Estudo de arquitetura visual e componentes de websites modernos em ambiente de homologação | Aceleração no desenvolvimento de páginas de captura inspiradas em referências de mercado
@@ -6219,7 +6168,7 @@ opengrep scan --config=auto
 
 <a id="gitleaksgitleaks"></a>
 ### 316. [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
-- **⭐ Stars:** 29,089 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 29,090 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/gitleaks/gitleaks)
 - 🎯 **O que é e para que serve:** Ferramenta rápida e leve em Go para auditoria de segurança e detecção de segredos (chaves de API, senhas, tokens, certificados) em código-fonte e histórico Git.
 - 💡 **Casos de uso reais no dia a dia:** Prevenção de vazamento de credenciais através de hooks de pre-commit no Git local | Varredura de segurança em pull requests em pipelines de CI/CD para bloquear segredos | Auditoria forense de repositórios em busca de tokens confidenciais esquecidos em commits antigos
@@ -6283,7 +6232,7 @@ npm start
 
 <a id="melgarafaeldeskcommcrm"></a>
 ### 320. [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM)
-- **⭐ Stars:** 792 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 796 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/melgarafael/DeskcommCRM)
 - 🎯 **O que é e para que serve:** Sistema operacional de vendas e CRM open-source em TypeScript com agentes nativos de IA e integração com WhatsApp (WAHA), em conformidade com a LGPD e suporte a multi-inquilino.
 - 💡 **Casos de uso reais no dia a dia:** Atendimento automatizado e qualificação de leads via WhatsApp conduzida por agentes de IA | Gestão completa de funil de vendas, tarefas e histórico de clientes em negócios digitais | Substituição econômica de ferramentas caras de chat e CRM (Kommo, Octadesk, Intercom)
@@ -6300,7 +6249,7 @@ docker compose up -d
 
 <a id="img2threejsimg2threejs"></a>
 ### 321. [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs)
-- **⭐ Stars:** 15,104 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 15,107 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/img2threejs/img2threejs)
 - 🎯 **O que é e para que serve:** Ferramenta em Python que reconstrói objetos contidos em imagens de referência como modelos Three.js 3D procedurais em código puro, otimizados para animação e economia de tokens.
 - 💡 **Casos de uso reais no dia a dia:** Geração automatizada de assets 3D procedurais em Three.js para aplicações web e jogos | Criação de gráficos interativos na web sem necessidade de carregar modelos pesados em GLTF/OBJ | Otimização de interfaces web 3D com código JavaScript nativo e leve
@@ -6317,7 +6266,7 @@ python generate.py --image objeto.png
 
 <a id="x1xhlolsystempromptsandmodelsofaitools"></a>
 ### 322. [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
-- **⭐ Stars:** 143,325 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 143,329 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/x1xhlol/system-prompts-and-models-of-ai-tools)
 - 🎯 **O que é e para que serve:** Acervo e compilação documental de prompts de sistema, ferramentas internas e configurações de modelos das principais ferramentas de IA do mercado (Claude Code, Cursor, Devin, v0, Bolt).
 - 💡 **Casos de uso reais no dia a dia:** Estudo de técnicas avançadas de engenharia de prompts de sistema das ferramentas líderes do setor | Compreensão de estratégias de contexto e tool-calling adotadas em produtos comerciais | Inspiração para estruturação de instruções de sistema robustas em agentes próprios
@@ -6332,7 +6281,7 @@ git clone https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools.git
 
 <a id="graphifylabsgraphify"></a>
 ### 323. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
-- **⭐ Stars:** 114,372 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 114,411 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Graphify-Labs/graphify)
 - 🎯 **O que é e para que serve:** Habilidade e ferramenta em Python que transforma bases de código, documentações, schemas SQL e PDFs em um grafo de conhecimento consultável sem necessidade de bancos vetoriais.
 - 💡 **Casos de uso reais no dia a dia:** Geração de grafos determinísticos de código a partir de análise de AST para Claude Code e Cursor | Rastreamento explícito de arestas e relações entre funções, tabelas e regras de negócio | Fornecimento de contexto cirúrgico sobre sistemas legados para agentes de programação
@@ -6349,7 +6298,7 @@ graphify /caminho/do/projeto
 
 <a id="dietrichgebertponytail"></a>
 ### 324. [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
-- **⭐ Stars:** 123,279 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 123,358 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/DietrichGebert/ponytail)
 - 🎯 **O que é e para que serve:** Habilidade e diretriz em JavaScript para agentes de IA que impõe a mentalidade de desenvolvedor sênior pragmático: o melhor código é aquele que você não precisou escrever.
 - 💡 **Casos de uso reais no dia a dia:** Prevenção de complexidade acidental e código desnecessário gerado por modelos de linguagem | Orientação de agentes para reutilizar bibliotecas consolidadas em vez de recriar código do zero | Refatoração focada em simplicidade, manutenibilidade e eliminação de código morto
@@ -6364,7 +6313,7 @@ git clone https://github.com/DietrichGebert/ponytail.git
 
 <a id="voltagentawesomeagentskills"></a>
 ### 325. [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
-- **⭐ Stars:** 33,704 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 33,710 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/VoltAgent/awesome-agent-skills)
 - 🎯 **O que é e para que serve:** Coleção com curadoria de mais de 1.000 habilidades (skills) para agentes de IA desenvolvidas por equipes oficiais e pela comunidade, compatíveis com Claude Code, Codex, Gemini e Cursor.
 - 💡 **Casos de uso reais no dia a dia:** Expansão rápida das capacidades operacionais de agentes de código com ferramentas prontas | Padronização de integrações com bancos de dados, serviços de nuvem e ferramentas de DevOps | Consulta de melhores práticas na escrita de arquivos de definição de skills agênticas
@@ -6411,7 +6360,7 @@ git clone https://github.com/AndrewKochulab/jarvis-dashboard.git
 
 <a id="mlabonnellmcourse"></a>
 ### 328. [mlabonne/llm-course](https://github.com/mlabonne/llm-course)
-- **⭐ Stars:** 82,257 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 82,259 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/mlabonne/llm-course)
 - 🎯 **O que é e para que serve:** Curso consagrado e roteiro completo com notebooks Google Colab sobre modelos de linguagem de grande porte (LLMs), cobrindo desde fundamentos até fine-tuning, quantização e RAG.
 - 💡 **Casos de uso reais no dia a dia:** Capacitação prática em fine-tuning com LoRA/QLoRA, quantização (GGUF, AWQ) e alinhamento com DPO | Implementação de pipelines avançados de RAG com avaliação de respostas | Estudo aprofundado da arquitetura Transformer e técnicas modernas de engenharia de IA
@@ -6458,7 +6407,7 @@ npm run benchmark
 
 <a id="pdfmathtranslatepdfmathtranslate"></a>
 ### 331. [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)
-- **⭐ Stars:** 36,660 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 36,663 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/PDFMathTranslate/PDFMathTranslate)
 - 🎯 **O que é e para que serve:** Ferramenta em Python premiada no EMNLP 2025 para tradução bilíngue de artigos científicos em PDF, preservando integralmente equações matemáticas, tabelas, figuras e layout original.
 - 💡 **Casos de uso reais no dia a dia:** Tradução de artigos acadêmicos complexos mantendo fórmulas LaTeX e tabelas intactas | Leitura bilíngue de papers científicos com suporte a múltiplos provedores (DeepL, Google, Ollama) | Integração via CLI, interface web, Docker, plugin Zotero ou servidor MCP
@@ -6473,7 +6422,7 @@ pdf2zh artigo.pdf -li en -lo pt
 
 <a id="comfyorgcomfyui"></a>
 ### 332. [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)
-- **⭐ Stars:** 131,371 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 131,372 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Comfy-Org/ComfyUI)
 - 🎯 **O que é e para que serve:** A interface gráfica modular baseada em nós mais avançada, potente e flexível para execução, encadeamento e criação de fluxos de difusão de imagens e vídeos com Stable Diffusion e FLUX.
 - 💡 **Casos de uso reais no dia a dia:** Construção de pipelines visuais de geração e edição de imagens em alta resolução com controle total de nós | Automação de fluxos de geração de vídeo e animações com modelos modernos de difusão | Integração da interface como backend headless via API REST em aplicações de produção
@@ -6522,7 +6471,7 @@ git clone https://github.com/DannyMac180/sol-advisor.git
 
 <a id="z4nzuhackingtool"></a>
 ### 335. [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool)
-- **⭐ Stars:** 79,294 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 79,295 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Z4nzu/hackingtool)
 - 🎯 **O que é e para que serve:** Menu e instalador tudo-em-um em Python que reúne e automatiza a configuração de centenas de ferramentas de segurança ofensiva, testes de invasão e auditoria para distribuições Linux.
 - 💡 **Casos de uso reais no dia a dia:** Configuração rápida de ambientes de testes de intrusão e laboratórios de auditoria | Descoberta e instalação facilitada de ferramentas categorizadas por especialidade (web, wireless, senhas, CTF) | Centralização de utilitários de segurança defensiva e análise forense em uma única interface
@@ -6539,7 +6488,7 @@ sudo python3 hackingtool.py
 
 <a id="zhaoxuya520reverseskill"></a>
 ### 336. [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill)
-- **⭐ Stars:** 34,365 | **💻 Linguagem:** `PowerShell`
+- **⭐ Stars:** 34,385 | **💻 Linguagem:** `PowerShell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/zhaoxuya520/reverse-skill)
 - 🎯 **O que é e para que serve:** Roteador de habilidades em PowerShell para engenharia reversa e testes de intrusão autorizados com bootstrapping automático de toolchains e base de conhecimento autoevolutiva para Claude Code e Cursor.
 - 💡 **Casos de uso reais no dia a dia:** Automação da configuração de ferramentas de descompilação e análise de binários no Windows/Linux | Suporte a agentes de IA em rotinas complexas de auditoria de software e análise forense | Integração de fluxos de engenharia reversa com múltiplos assistentes de código
@@ -6554,7 +6503,7 @@ git clone https://github.com/zhaoxuya520/reverse-skill.git
 
 <a id="langgeniusdify"></a>
 ### 337. [langgenius/dify](https://github.com/langgenius/dify)
-- **⭐ Stars:** 154,364 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 154,371 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/langgenius/dify)
 - 🎯 **O que é e para que serve:** Plataforma líder em TypeScript de desenvolvimento de aplicações de IA, permitindo criar fluxos agênticos visuais, pipelines de RAG avançados e integrações com modelos de ponta a ponta.
 - 💡 **Casos de uso reais no dia a dia:** Construção de assistentes de IA corporativos com conexão a bases de conhecimento e APIs internas | Criação de fluxos visuais complexos combinando múltiplos modelos, transformações de dados e código | Implantação ágil em produção em nuvem própria ou cluster Kubernetes com controle de permissões
@@ -6588,7 +6537,7 @@ python main.py --video video.mp4
 
 <a id="cometmlopik"></a>
 ### 339. [comet-ml/opik](https://github.com/comet-ml/opik)
-- **⭐ Stars:** 21,769 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 21,770 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/comet-ml/opik)
 - 🎯 **O que é e para que serve:** Plataforma open-source de observabilidade, depuração e avaliação contínua para aplicações de LLM, sistemas de RAG e fluxos agênticos com tracing abrangente e dashboards de produção.
 - 💡 **Casos de uso reais no dia a dia:** Monitoramento de latência, custos e qualidade de respostas de modelos de IA em produção | Rastreamento detalhado (tracing) de cada etapa de raciocínio de agentes e nós de RAG | Execução de suítes de avaliação automatizada com métricas de relevância e alucinação
@@ -6604,7 +6553,7 @@ docker run -p 5173:5173 cometml/opik:latest
 
 <a id="oso95scrollworld"></a>
 ### 340. [oso95/scroll-world](https://github.com/oso95/scroll-world)
-- **⭐ Stars:** 8,963 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 8,964 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/oso95/scroll-world)
 - 🎯 **O que é e para que serve:** Habilidade em JavaScript para agentes de IA que transforma identidades de marcas em landing pages interativas 3D navegáveis através do scroll do mouse com Three.js.
 - 💡 **Casos de uso reais no dia a dia:** Criação de landing pages inovadoras e imersivas com narrativa visual em 3D | Apresentação de produtos digitais com experiências interativas de alto impacto | Prototipagem rápida de sites conceituais guiados por assistentes de desenvolvimento
@@ -6636,7 +6585,7 @@ git clone https://github.com/jujumilk3/leaked-system-prompts.git
 
 <a id="shubhamsabooawesomellmapps"></a>
 ### 342. [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
-- **⭐ Stars:** 135,917 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 135,924 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/Shubhamsaboo/awesome-llm-apps)
 - 🎯 **O que é e para que serve:** Coleção prática em Python com mais de 100 aplicações open-source de agentes de IA, habilidades agênticas e sistemas de RAG prontos para execução com código limpo e moderno.
 - 💡 **Casos de uso reais no dia a dia:** Exemplos prontos para acelerar o desenvolvimento de novas aplicações de inteligência artificial | Aprendizado prático de integrações de LLMs com múltiplos frameworks (LlamaIndex, LangChain, Phidata) | Ponto de partida estruturado para prototipagem de produtos com IA
@@ -6652,7 +6601,7 @@ pip install -r requirements.txt
 
 <a id="punkpeyeawesomemcpservers"></a>
 ### 343. [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
-- **⭐ Stars:** 93,999 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 94,006 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/punkpeye/awesome-mcp-servers)
 - 🎯 **O que é e para que serve:** Catálogo com curadoria dos melhores servidores compatíveis com o protocolo Model Context Protocol (MCP), organizados por categorias como bancos de dados, navegadores, arquivos e nuvem.
 - 💡 **Casos de uso reais no dia a dia:** Descoberta de servidores MCP para conectar ferramentas e bases de dados ao Claude Code, Cursor e outros clientes | Expansão das capacidades de contexto e execução de assistentes de IA corporativos | Referência para implementação de novos servidores MCP compatíveis com a especificação oficial
@@ -6667,7 +6616,7 @@ git clone https://github.com/punkpeye/awesome-mcp-servers.git
 
 <a id="anthropicsskills"></a>
 ### 344. [anthropics/skills](https://github.com/anthropics/skills)
-- **⭐ Stars:** 173,599 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 173,636 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/anthropics/skills)
 - 🎯 **O que é e para que serve:** Repositório público oficial da Anthropic em Python para definição, compartilhamento e implementação de habilidades modulares para agentes de inteligência artificial.
 - 💡 **Casos de uso reais no dia a dia:** Padronização de ferramentas e habilidades para assistentes baseados na família Claude | Implementação de fluxos agênticos com chamadas de função rigorosamente tipadas | Referência oficial de arquitetura de habilidades modulares para IA
@@ -6683,7 +6632,7 @@ pip install -r requirements.txt
 
 <a id="awesomeselfhostedawesomeselfhosted"></a>
 ### 345. [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
-- **⭐ Stars:** 316,974 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 316,990 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/awesome-selfhosted/awesome-selfhosted)
 - 🎯 **O que é e para que serve:** A maior e mais renomada lista mundial de softwares de rede, serviços e aplicações web de código aberto que podem ser hospedados em servidores próprios sem dependência de terceiros.
 - 💡 **Casos de uso reais no dia a dia:** Descoberta de alternativas open-source e auto-hospedáveis para qualquer serviço em nuvem pago | Planejamento de infraestrutura privada e soberana para empresas e entusiastas | Ponto de referência essencial para montagem de servidores domésticos (homelabs)
@@ -6698,7 +6647,7 @@ git clone https://github.com/awesome-selfhosted/awesome-selfhosted.git
 
 <a id="publicapispublicapis"></a>
 ### 346. [public-apis/public-apis](https://github.com/public-apis/public-apis)
-- **⭐ Stars:** 474,923 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 474,952 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/public-apis/public-apis)
 - 🎯 **O que é e para que serve:** Coleção colaborativa mundial com curadoria de milhares de APIs públicas gratuitas para desenvolvedores, organizadas por categorias como clima, finanças, esportes, jogos e IA.
 - 💡 **Casos de uso reais no dia a dia:** Descoberta de fontes de dados públicas para enriquecer novas aplicações e protótipos | Integração de dados em tempo real em dashboards e projetos de estudo | Consulta rápida de modelos de autenticação e limites de taxa de APIs abertas
@@ -6713,7 +6662,7 @@ git clone https://github.com/public-apis/public-apis.git
 
 <a id="ripienaarfreefordev"></a>
 ### 347. [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
-- **⭐ Stars:** 136,463 | **💻 Linguagem:** `HTML`
+- **⭐ Stars:** 136,473 | **💻 Linguagem:** `HTML`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/ripienaar/free-for-dev)
 - 🎯 **O que é e para que serve:** Guia abrangente com curadoria de serviços SaaS, PaaS e IaaS que oferecem planos e camadas gratuitas de interesse para desenvolvedores de software e engenheiros de infraestrutura.
 - 💡 **Casos de uso reais no dia a dia:** Hospedagem de aplicações, bancos de dados e APIs com custo zero utilizando tiers gratuitos oficiais | Descoberta de serviços de monitoramento, logs, e-mail e CI/CD para projetos pessoais e MVPs | Otimização de orçamento de infraestrutura aproveitando benefícios reais de fornecedores
@@ -6728,7 +6677,7 @@ git clone https://github.com/ripienaar/free-for-dev.git
 
 <a id="sindresorhusawesome"></a>
 ### 348. [sindresorhus/awesome](https://github.com/sindresorhus/awesome)
-- **⭐ Stars:** 502,687 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 502,709 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/sindresorhus/awesome)
 - 🎯 **O que é e para que serve:** A lista mãe e repositório central que originou o movimento 'Awesome', reunindo curadorias de alto nível sobre as mais variadas tecnologias, linguagens e tópicos do desenvolvimento.
 - 💡 **Casos de uso reais no dia a dia:** Ponto de partida para explorar ecossistemas completos de qualquer linguagem ou tecnologia | Descoberta de ferramentas mantidas ativamente com validação de qualidade comunitária | Inspiração para estruturação de novos guias e projetos de curadoria técnica
@@ -6743,7 +6692,7 @@ git clone https://github.com/sindresorhus/awesome.git
 
 <a id="juliusbrusseecaveman"></a>
 ### 349. [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
-- **⭐ Stars:** 103,051 | **💻 Linguagem:** `Go`
+- **⭐ Stars:** 103,078 | **💻 Linguagem:** `Go`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/JuliusBrussee/caveman)
 - 🎯 **O que é e para que serve:** Habilidade para Claude Code em Go que economiza até 65% no consumo de tokens ao instruir o assistente a se comunicar de forma ultradireta e sucinta no estilo 'homem das cavernas'.
 - 💡 **Casos de uso reais no dia a dia:** Redução drástica de gastos com tokens de saída em sessões longas de desenvolvimento | Eliminação de explicações prolixas e cumprimentos desnecessários no terminal | Aceleração no tempo de resposta das tarefas de codificação mantendo precisão técnica
@@ -6758,7 +6707,7 @@ git clone https://github.com/JuliusBrussee/caveman.git
 
 <a id="odysseusdevodysseus"></a>
 ### 350. [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus)
-- **⭐ Stars:** 86,792 | **💻 Linguagem:** `Python`
+- **⭐ Stars:** 86,797 | **💻 Linguagem:** `Python`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/odysseus-dev/odysseus)
 - 🎯 **O que é e para que serve:** Ambiente de trabalho de IA auto-hospedável em Python para centralizar sessões de chat, execução de ferramentas, RAG e colaboração inteligente sob controle privado.
 - 💡 **Casos de uso reais no dia a dia:** Centralização de serviços de IA na infraestrutura privada da empresa | Gestão de workspaces isolados para diferentes projetos com memória compartilhada | Execução de agentes com ferramentas customizadas e total segurança sobre os dados
@@ -6805,7 +6754,7 @@ git clone https://github.com/rubenmarcus/malicious-repositories.git
 
 <a id="decolua9router"></a>
 ### 353. [decolua/9router](https://github.com/decolua/9router)
-- **⭐ Stars:** 27,016 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 27,022 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/decolua/9router)
 - 🎯 **O que é e para que serve:** Gateway de IA gratuito e ilimitado em JavaScript conectando Claude Code, Cursor, Codex e Antigravity a mais de 40 provedores com fallback automático e redução de até 40% em tokens via RTK.
 - 💡 **Casos de uso reais no dia a dia:** Unificação de múltiplos provedores de LLM gratuitos e pagos em um único endpoint local | Eliminação de interrupções de desenvolvimento através de fallback automático entre APIs | Redução expressiva no consumo de tokens com compressão integrada
@@ -6822,7 +6771,7 @@ npm start
 
 <a id="diegosouzapwomniroute"></a>
 ### 354. [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
-- **⭐ Stars:** 60,860 | **💻 Linguagem:** `TypeScript`
+- **⭐ Stars:** 60,885 | **💻 Linguagem:** `TypeScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/diegosouzapw/OmniRoute)
 - 🎯 **O que é e para que serve:** Gateway de IA de código aberto MIT em TypeScript com suporte a 340 provedores e mais de 1.200 modelos, com fallback inteligente ciente de cotas, compressão RTK/Caveman (15-95% de economia) e suporte a MCP.
 - 💡 **Casos de uso reais no dia a dia:** Roteamento inteligente de chamadas de LLM para desenvolvedores sem interrupção de serviço | Compressão avançada de tokens para economia substancial de custos em ferramentas de código | Integração universal com Claude Code, Cursor, Codex, OpenCode e assistentes desktop/PWA
@@ -6932,7 +6881,7 @@ npm run start
 
 <a id="remoteintechremotejobs"></a>
 ### 361. [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs)
-- **⭐ Stars:** 40,779 | **💻 Linguagem:** `JavaScript`
+- **⭐ Stars:** 40,780 | **💻 Linguagem:** `JavaScript`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/remoteintech/remote-jobs)
 - 🎯 **O que é e para que serve:** Repositório open-source que alimenta o portal remoteintech.company, mantendo um diretório mantido pela comunidade de empresas de tecnologia amigáveis ao trabalho remoto em todo o mundo.
 - 💡 **Casos de uso reais no dia a dia:** Pesquisa e identificação de empresas internacionais que contratam profissionais em regime 100% remoto | Consulta de políticas de trabalho remoto, benefícios e culturas empresariais | Mapeamento de oportunidades de carreira em tecnologia sem barreiras geográficas
@@ -6964,7 +6913,7 @@ git clone https://github.com/hideraldoluis/roadmap-do-desenvolvedor-web.git
 
 <a id="iuricodepadroesdecommits"></a>
 ### 363. [iuricode/padroes-de-commits](https://github.com/iuricode/padroes-de-commits)
-- **⭐ Stars:** 9,662 | **💻 Linguagem:** `Shell`
+- **⭐ Stars:** 9,661 | **💻 Linguagem:** `Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/iuricode/padroes-de-commits)
 - 🎯 **O que é e para que serve:** Guia de referência prático em português elaborado por Iuri Silva sobre padronização de mensagens de commit no Git utilizando a convenção Conventional Commits.
 - 💡 **Casos de uso reais no dia a dia:** Padronização do histórico de commits em projetos individuais e equipes de engenharia | Facilitação da geração automatizada de changelogs e controle semântico de versões (SemVer) | Melhoria na legibilidade e rastreabilidade de alterações na base de código
@@ -6979,7 +6928,7 @@ git clone https://github.com/iuricode/padroes-de-commits.git
 
 <a id="frontendbrvagas"></a>
 ### 364. [frontendbr/vagas](https://github.com/frontendbr/vagas)
-- **⭐ Stars:** 15,392 | **💻 Linguagem:** `Docs / Shell`
+- **⭐ Stars:** 15,393 | **💻 Linguagem:** `Docs / Shell`
 - 🛡️ **Segurança & Malware:** ✅ *Verificado / Baixo Risco (Sem padrões maliciosos)* | [![ScanRepo](https://img.shields.io/badge/ScanRepo-Auditar_Código-2ea44f?style=flat-square&logo=shield)](https://www.scanrepo.dev/scan/github/frontendbr/vagas)
 - 🎯 **O que é e para que serve:** Espaço colaborativo comunitário mantido pela comunidade Front-End Brasil para publicação e busca de vagas de emprego voltadas exclusivamente para desenvolvedores front-end.
 - 💡 **Casos de uso reais no dia a dia:** Publicação de vagas para desenvolvedores frontend (React, Vue, Angular, mobile) por empresas | Busca de vagas segmentadas por nível de experiência (Júnior, Pleno, Sênior, Especialista) e regime (CLT, PJ) | Termômetro de tecnologias e bibliotecas mais requisitadas no mercado brasileiro
